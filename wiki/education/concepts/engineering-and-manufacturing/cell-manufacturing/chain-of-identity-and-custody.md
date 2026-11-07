@@ -49,7 +49,7 @@ The records also connect applicable sequence or engineering versions to the lot.
 
 Patient-specific products cannot be treated as interchangeable stock. A wrong-recipient or wrong-version error can remain invisible to tests that merely confirm the product is viable or biologically active.
 
-A custody record supports investigation of a temperature excursion or delayed handoff. It does not itself establish that the material remained suitable. [Cryopreservation](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation), stability evidence and [batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) answer those quality questions.
+A custody record supports investigation of a temperature excursion or delayed handoff. It does not itself establish that the material remained suitable. [Cryopreservation](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation), stability evidence and [batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release) answer those quality questions.
 
 ## How it is measured
 

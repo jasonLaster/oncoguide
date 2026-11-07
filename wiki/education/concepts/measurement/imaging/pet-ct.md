@@ -10,7 +10,7 @@ prerequisites: []
 used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
 sensitive: false
 tags: ["education", "measurement", "imaging"]
-source_checked: "2026-10-10"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -56,7 +56,7 @@ Also check coverage. Torso imaging may extend from the skull base to mid-thigh, 
 
 **Input:** administered tracer, the imaged body region and the acquisition protocol. **Output:** activity distribution, anatomical findings and their interpretation. Administered activity uses megabecquerels (MBq); activity concentration can use kilobecquerels per milliliter (kBq/mL).
 
-**Standardized uptake value (SUV)** normalizes activity concentration to administered activity and a body-size measure, commonly body weight. **SUL** uses lean body mass. SUVmax refers to the highest voxel value in a defined region; another summary such as SUVmean answers a different question. These are semiquantitative uptake measures, not percentages of cells that are cancerous.
+**Standardized uptake value (SUV)** normalizes activity concentration to administered activity and a body-size measure, commonly body weight. **SUL** uses lean body mass; it is the measure used by [PERCIST response criteria](/wiki/education/concepts/measurement/imaging/response-criteria#what-percist-adds). SUVmax refers to the highest voxel value in a defined region; another summary such as SUVmean answers a different question. These are semiquantitative uptake measures, not percentages of cells that are cancerous.
 
 Uptake time after injection, blood glucose for FDG, calibration, reconstruction and region selection matter. Comparing raw SUV values across tracers or substantially different protocols is not a controlled biological comparison. This page gives no universal SUV cutoff for malignancy or response.
 
@@ -92,11 +92,11 @@ Read the tracer, coverage, timing, uptake measure and anatomical findings togeth
 
 ## Sources and scope
 
-Source check: October 10, 2026. General modality education and fictional practice; expert and learner review remain pending. No scan schedule or treatment decision is supplied.
+Source check: November 7, 2026. General modality education and fictional practice; expert and learner review remain pending. No scan schedule or treatment decision is supplied.
 
 - [NIH/NIBIB, Nuclear medicine](https://www.nibib.nih.gov/science-education/science-topics/nuclear-medicine): positron detection and molecular imaging.
 - [ACR/RSNA RadiologyInfo, PET-CT](https://www.radiologyinfo.org/en/info/pet): tracer versus anatomy and clinical interpretation.
-- [Boellaard et al. (2015), EANM version 2.0](https://snmmi.org/common/Uploaded%20files/Web/Clinical%20Practice/Procedure%20Standards/2018/2015_GL_PET_CT_TumorImaging_V2.pdf): technical definitions, SUV and detection limits. Used for these definitions; it is not presented as the latest guideline. EANM lists [version 3.0 (2025)](https://doi.org/10.1016/j.eanmj.2025.100006); its full text was not accessible during this check.
+- [Boellaard et al. (2015), EANM version 2.0](https://snmmi.org/common/Uploaded%20files/Web/Clinical%20Practice/Procedure%20Standards/2018/2015_GL_PET_CT_TumorImaging_V2.pdf): technical definitions, SUV and detection limits. A newer [version 3.0 (2025)](https://doi.org/10.1016/j.eanmj.2025.100006) exists.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

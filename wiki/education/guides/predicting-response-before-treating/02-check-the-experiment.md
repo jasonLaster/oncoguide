@@ -8,8 +8,8 @@ objectives: ["Check model identity, composition, exposure and controls before in
 prerequisites: ["[[wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]", "[[wiki/education/concepts/measurement/computational-analysis/virtual-cell-model]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -79,7 +79,7 @@ A [single-cell mass assay](/wiki/education/concepts/measurement/functional-model
 
 Use [model-validation basics](/wiki/education/concepts/measurement/computational-analysis/model-validation-basics) to ask what was kept out of training and model selection. Additional cells from a familiar intervention are different from a **held-out perturbation**, an intervention whose response the model did not see while learning. A new patient, cell type or laboratory asks a different portability question again.
 
-Compare with meaningful simple baselines, such as an average response. Evaluate the response change that matters, not only agreement dominated by genes that barely changed. A predicted [ribonucleic acid (RNA) pattern](/wiki/education/concepts/biology-basics/genetics/central-dogma) should be compared with appropriate measured RNA; that evaluation does not turn it into a demonstrated killing result.
+Compare with meaningful simple baselines, such as an average response. This is not a formality: In a 2025 benchmark, none of five single-cell foundation models and two other deep-learning models predicted gene-expression changes after single or double gene perturbations better than deliberately simple baselines ([Ahlmann-Eltze 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/)). Evaluate the response change that matters, not only agreement dominated by genes that barely changed. A predicted [ribonucleic acid (RNA) pattern](/wiki/education/concepts/measurement/computational-analysis/virtual-cell-model) should be compared with appropriate measured RNA; that evaluation does not turn it into a demonstrated killing result.
 
 ## What can go wrong at this step
 
@@ -110,7 +110,7 @@ One answer: “drug exposure; a characterized culture; vehicle; slower net growt
 
 ## Sources and scope
 
-Source check: October 9, 2026. Experiment-reading education; all numerical examples are fictional. Expert and learner review remain pending.
+Source check: November 7, 2026. Experiment-reading education; all numerical examples are fictional. Expert and learner review remain pending.
 
 - [Hafner et al., 2016: primary growth-rate confounding experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/).
 - [Dijkstra et al., 2018: matched tumor-organoid and lymphocyte experiments](https://pubmed.ncbi.nlm.nih.gov/30100188/).

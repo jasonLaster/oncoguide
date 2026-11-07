@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cell-ma
 used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
-updated: "2026-10-13"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -53,7 +53,7 @@ An [in vivo delivery product](/wiki/education/concepts/engineering-and-manufactu
 
 Patients may need disease control while waiting. A treatment given during the interval is often called **bridging therapy**. Whether it is needed, appropriate or allowed depends on the patient and protocol.
 
-A delay can affect both feasibility and interpretation. People who reach infusion may differ from those who deteriorate, withdraw or have manufacturing failure. Reading only infused patients can miss that part of the treatment pathway.
+A delay can affect both feasibility and interpretation. People who reach infusion may differ from those who deteriorate, withdraw or have a [manufacturing failure or out-of-specification product](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product). Reading only infused patients can miss that part of the treatment pathway.
 
 A stocked donor-derived product may shorten patient-specific manufacturing wait. It does not guarantee an available lot, immediate scheduling or eligibility. Compare measured intervals in actual programs, rather than assigning universal days to a cell category.
 
@@ -92,6 +92,7 @@ The upper axis uses elapsed days, with proportional event positions at 0, 7, 12 
 
 - [Chain of identity and custody](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody)
 - [Cryopreservation](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation)
+- [Manufacturing failure and out-of-specification product](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product)
 
 ## Sources and scope
 

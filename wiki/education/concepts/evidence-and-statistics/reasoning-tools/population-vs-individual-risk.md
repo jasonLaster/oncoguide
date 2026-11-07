@@ -7,7 +7,7 @@ glossary_anchor: population-vs-individual-risk
 aliases: ["population-vs-individual-risk", "individual risk", "personal risk", "population risk"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]", "[[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration]]"]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
@@ -96,8 +96,9 @@ Source check: October 10, 2026. General risk interpretation; all cohorts, predic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
-- [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read a single success story or a calculator](/wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: "interferons"
 aliases: ["interferon", "interferons", "IFN", "IFN-alpha", "IFN-beta", "IFN-gamma", "IFN-lambda"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]", "[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -112,7 +112,6 @@ Source-checked October 10, 2026. Receptor mechanisms, bounded mouse experiments 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)

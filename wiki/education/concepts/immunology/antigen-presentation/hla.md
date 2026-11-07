@@ -2,18 +2,18 @@
 title: "HLA (human leukocyte antigen)"
 type: concept
 domain: immunology/antigen-presentation
-summary: "HLA molecules display protein fragments for T-cell recognition."
+summary: "HLA molecules display protein fragments for T-cell recognition, and class I HLA also signals normal self to natural killer cells."
 glossary_anchor: hla
-aliases: ["hla"]
-prerequisites: []
+aliases: ["hla", "human leukocyte antigen", "MHC", "major histocompatibility complex"]
+prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
 reviewed: pending
 reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, immunology]
-used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]","[[wiki/education/targeted-therapy-modalities/index]]"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]","[[wiki/education/targeted-therapy-modalities/index]]"]
+updated: 2026-11-07
+source_checked: 2026-11-07
 review_status: "Source-checked; expert and learner review pending"
 ---
 
@@ -21,7 +21,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## In one sentence
 
-HLA molecules display protein fragments for T-cell recognition.
+HLA molecules display protein fragments for T-cell recognition, and class I HLA also signals normal self to natural killer cells.
 
 ## The intuition
 
@@ -62,7 +62,10 @@ The drawings separate the T-cell receptor contact from the co-receptor contact. 
 
 ## Why it matters in cancer
 
-It connects antigen display to receptor recognition and explains why loss of a presenting allele can affect a treatment route.
+- **Key facts.** Each person inherits two copies each of HLA-A, HLA-B and HLA-C, so a cell can display up to six classical class I variants at once (they are expressed codominantly). The reference database lists 46,146 named HLA alleles, 31,311 of them class I ([IPD-IMGT/HLA statistics, release 3.66](https://www.ebi.ac.uk/ipd/imgt/hla/about/statistics/)).
+- **Two audiences.** Class I HLA shows peptides to CD8 T cells and is also the main ligand for inhibitory receptors on [natural killer (NK) cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self). Losing it can hide a tumor from T cells while removing a brake on NK cells.
+- **Nonclassical HLA.** HLA-E and HLA-G vary little between people. HLA-E presents leader peptides from other class I molecules and is the ligand for the NK inhibitory receptor CD94/NKG2A ([Braud et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9486650/)).
+- **Escape.** Loss of a presenting allele ([HLA loss of heterozygosity](/wiki/education/concepts/measurement/sequencing-basics/hla-loh)) or of [B2M](/wiki/education/concepts/immunology/antigen-presentation/b2m) can remove a T-cell treatment route.
 
 ## Worked example
 
@@ -103,6 +106,8 @@ A fictional sample has class-II staining and a peptide-responsive CD4 population
 General teaching, source-checked October 10, 2026. The examples are hypothetical unless a study is explicitly named. Expert and learner review remain pending.
 
 - [NCBI Bookshelf: T cells and MHC proteins](https://www.ncbi.nlm.nih.gov/books/NBK26926/), for the common class-I/class-II structures and recognition routes.
+- [IPD-IMGT/HLA database statistics](https://www.ebi.ac.uk/ipd/imgt/hla/about/statistics/), allele counts (release 3.66, read November 7, 2026).
+- [Braud et al., 1998: HLA-E binds CD94/NKG2A](https://pubmed.ncbi.nlm.nih.gov/9486650/).
 - [Official HLA nomenclature](https://hla.alleles.org/pages/nomenclature/naming_alleles/), for shared named alleles.
 - [Kaur et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28649982/), functional and structural study of allele-dependent HLA-C expression.
 - [Sarkizova et al., HLAthena](https://doi.org/10.1038/s41587-019-0322-9), allele-specific recovered peptide data and prediction, rather than proof of every cell's display.
@@ -123,14 +128,15 @@ General teaching, source-checked October 10, 2026. The examples are hypothetical
 - [Choose a target with a usable safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target)
 - [Read a research-product study without losing the denominator](/wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Read tumor and normal data before choosing targets](/wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data)
 - [Turn selected targets into an mRNA message](/wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message)
 - [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 - [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
-- [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
+- [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
 - [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
 - [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons)
 - [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)

@@ -3,8 +3,8 @@ title: "Connect evidence to a decision"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -66,7 +66,7 @@ A research question can be valuable even when no treatment changes today. Exampl
 
 State the goal honestly: “We want to learn whether this mechanism is present. The result will not independently select treatment.” Also name who will review it and what would count as a useful answer. That gives curiosity a direction and helps avoid an endless chain of follow-up tests.
 
-If research uses a [chemical probe](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement), learning about a mechanism does not establish a clinical drug. Ask which target-engagement result was obtained and under which conditions. Translation also requires [exposure and half-life evidence](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) for the actual product; an experiment's concentration does not specify a person's dose.
+If the research is about a drug rather than a test, the questions change; [from variant to drug](/wiki/education/guides/from-variant-to-drug/index) covers them.
 
 When a company supplies unpublished performance data, record who supplied it and what was available to inspect. A statement that evidence is unavailable is different from a finding that the claim is false. Keep that distinction clear.
 
@@ -97,7 +97,7 @@ Complete: “Before ordering the test, we will decide what to do if the result i
 
 ## Sources and scope
 
-Source check: October 9, 2026. The ledger and cases are teaching exercises, not a recommendation to order or omit a test. Expert and learner review remain pending.
+Source check: November 7, 2026. The ledger and cases are teaching exercises, not a recommendation to order or omit a test. Expert and learner review remain pending.
 
 - [MedlinePlus Genetics: valid and useful testing](https://medlineplus.gov/genetics/understanding/testing/validtest/) — useful information is a separate test-quality question.
 - [FDA: companion diagnostics](https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics) — evidence and intended use for treatment-linked testing.

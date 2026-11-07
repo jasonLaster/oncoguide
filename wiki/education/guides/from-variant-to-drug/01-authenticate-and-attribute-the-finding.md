@@ -8,8 +8,8 @@ objectives: ["Write an exact finding with its specimen, assay, coordinates, and 
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/mutation-types]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]"]
 sensitive: false
 tags: ["education", "molecular-interpretation"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -73,7 +73,7 @@ A fictional sample reports a splice-site change in repair gene R. It has 32 alte
 | Tumor and nonmalignant cells are mixed | Read fraction cannot directly specify cancer-cell fraction. | What are purity and local copy number? |
 | The site is associated with splicing | An RNA-processing consequence is plausible. | Is the altered junction actually measured? |
 
-Under a simplified diploid model with one altered copy per affected cell and no normal-cell admixture, 20% VAF could fit about 40% affected cells. Those assumptions do not hold automatically in a tumor. The exercise illustrates the conversion problem; it is not a cancer-cell-fraction estimate for this sample.
+Suppose pathology estimates **50% purity**: half the cells in the sample are cancer cells. Under a simple model in which each affected cancer cell has two copies of the region and one altered copy, expected VAF = purity × cancer-cell fraction ÷ 2. Solving, 0.20 = 0.50 × CCF ÷ 2 gives a cancer-cell fraction of about **80%**. The same 20% VAF in a sample of pure cancer cells would fit only about 40%. Copy-number gains or losses change the arithmetic again, so this is a worked illustration, not an estimate for a real sample.
 
 A second adequate assay supports the same change. The finding becomes more credible. Researchers still need RNA and functional evidence before claiming repair failure. This is progress: one uncertainty has been reduced without pretending the whole [variant-to-benefit evidence chain](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit) is complete.
 
@@ -108,7 +108,7 @@ One possible answer: “whether the finding is credible; which lineage or tissue
 
 ## Sources and scope
 
-Source check: 2026-10-09. General education; worked scenarios are fictional. Named studies and labels illustrate their specified populations and evidence boundaries. Expert and learner review pending.
+Source check: 2026-11-07. General education; worked scenarios are fictional. Named studies and labels illustrate their specified populations and evidence boundaries. Expert and learner review pending.
 
 - [Jones 2015: paired tumor–normal sequencing and variant interpretation](https://pubmed.ncbi.nlm.nih.gov/25877891/).
 - [Carter 2012: absolute copy number, purity, and mutation interpretation](https://pmc.ncbi.nlm.nih.gov/articles/PMC4383288/).

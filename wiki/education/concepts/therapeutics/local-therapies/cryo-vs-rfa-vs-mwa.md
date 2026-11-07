@@ -9,8 +9,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/local-therapies/ablation
 used_by: []
 sensitive: false
 tags: ["education", "local-treatment", "comparison"]
-updated: "2026-10-12"
-source_checked: "2026-10-12"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; independent scientific, native-visual, task, and learner reviews pending"
@@ -33,18 +33,18 @@ These are three forms of [local ablation](/wiki/education/concepts/therapeutics/
 | Same question | Cryoablation | Radiofrequency ablation (RFA) | Microwave ablation (MWA) |
 |---|---|---|---|
 | What is the applicator doing? | A cryoprobe draws heat from tissue. | An electrode delivers alternating electrical current through tissue. | An antenna couples an oscillating electromagnetic field into tissue. |
-| How does injury develop? | Freezing and thawing can disrupt cells and tissue. | Electrical resistance generates heat near the electrode; heat also spreads by conduction. | Tissue absorbs field energy, including through the response of polar water molecules; heat also spreads by conduction. |
+| How does injury develop? | A fast freeze, slow thaw and repeated cycle form ice crystals, swell cells as ice melts and cut off local blood supply. | Electrical resistance generates heat near the electrode; heat also spreads by conduction. | Tissue absorbs field energy, including through the response of polar water molecules; heat also spreads by conduction. |
 | What needs checking? | Exposure across the target, including near the frozen edge. | Exposure across the target, including regions affected by electrical properties and heat loss. | Exposure across the target, including regions affected by field distribution and heat loss. |
 
 The mechanism distinction comes from an international ablation consensus and the technical description by Lubner and colleagues. It is a physics comparison, not a ranking of clinical outcomes. [Ahmed et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC7660986/), [Lubner et al., 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC3065977/).
 
 <img src="./images/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1-light.svg" alt="Three repeated tissue scenes show heat moving from tissue toward a cold cryoprobe, an RF electrode producing heat through current, and a microwave antenna producing heat through a field. Each shares a target outline, adjacent vessel, and question at the target edge. Only the cryo scene marks an observable ice outline; none draws a measured lethal boundary." data-theme-pair width="780" height="2220">
 
-*Read the energy arrows first, then the question at the edge. This is a mechanism sketch, not a temperature map or a treatment plan. [Dark version](images/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1-dark.svg).*
+*Read the energy arrows first, then the question at the edge. This is a mechanism sketch, not a temperature map or a treatment plan. [Dark version](./images/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1-dark.svg).*
 
 ## A visible zone is one clue
 
-An ice ball can be followed with imaging during cryoablation. Its outer visible boundary is not a guarantee that every cell inside received lethal exposure. In a normal-kidney swine experiment, Georgiades and colleagues compared MR-visible ice with tissue viability staining and found a nonlethal region inside the ice boundary. That animal result supports the distinction; its measured distances are not a universal human treatment margin. [Georgiades et al., 2013, abstract](https://pubmed.ncbi.nlm.nih.gov/22933102/).
+An ice ball can be followed with imaging during cryoablation. Its outer visible boundary is the 0 °C line, while reliable cell death needs roughly −20 to −40 °C or colder. So every ice ball has a frozen but nonlethal rim. In a normal-kidney swine experiment, Georgiades and colleagues compared magnetic resonance (MR)-visible ice with tissue viability staining and measured that rim at a mean of 0.75 mm (maximum 1.15 ± 0.51 mm), wider beside large vessels. They extrapolated a 6 mm visible-ice margin beyond a kidney tumor. That animal result shows why the ice must extend past the target; its distances are not a universal human treatment margin. [Georgiades et al., 2013, abstract](https://pubmed.ncbi.nlm.nih.gov/22933102/); [Erinjeri and Clark, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC6661161/); [Fermanian et al., 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12190262/).
 
 Blood flow can change heat distribution. In an experiment using perfused calf liver outside the body, flow affected both RF and microwave ablation measurements. The devices differed in operating conditions, and their relative performance depended on the measurement. This does not establish that MWA is immune to heat loss or that one method always wins. [Pillai et al., 2015, Methods and Results](https://pmc.ncbi.nlm.nih.gov/articles/PMC4553952/).
 
@@ -81,4 +81,4 @@ For each method, name the route to temperature change. Then explain why “the t
 
 ## Sources and scope
 
-*Sources checked 2026-10-12: Ahmed—abstract and selected terminology, cryoablation, technical-success and efficacy sections; Lubner—selected mechanism section; Georgiades—complete abstract only; Pillai—abstract, Methods and Results. Independent reviews remain pending.*
+*Sources checked 2026-10-12: Ahmed—abstract and selected terminology, cryoablation, technical-success and efficacy sections; Lubner—selected mechanism section; Georgiades—complete abstract only; Pillai—abstract, Methods and Results. Rechecked 2026-11-07: Georgiades rim width; Erinjeri and Clark full text (0 °C ice edge, freeze–thaw injury); Fermanian full-text review (−20 to −40 °C lethal range). Independent reviews remain pending.*

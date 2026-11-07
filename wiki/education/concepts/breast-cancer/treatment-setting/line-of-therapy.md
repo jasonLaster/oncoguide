@@ -15,7 +15,7 @@ aliases: [line of therapy, treatment line, first-line therapy, second-line thera
 summary: "A line of therapy is a distinct treatment strategy in a defined disease setting, counted using the clinical record or a study’s stated rules."
 prerequisites:
   - "[[wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant]]"
-used_by: ["[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]"]
 ---
 
 # Line of therapy
@@ -108,6 +108,6 @@ Source-checked October 10, 2026. General education; the treatment story is ficti
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Match the payload to the failure](/wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure)
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
-- [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 <!-- END GENERATED USED IN -->

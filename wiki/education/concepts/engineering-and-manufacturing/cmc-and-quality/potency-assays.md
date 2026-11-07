@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cmc-and
 used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -39,7 +39,7 @@ Some products use several complementary tests, often called an **assay matrix**.
 
 Assay controls distinguish real biological activity from background, target-independent effects or an invalid test run. Test conditions and reference material make results interpretable between lots. An assay unable to distinguish active from degraded product offers weak protection against loss of function.
 
-<img src="./images/identity-activity-and-clinical-evidence-v1-light.svg" alt="Three panels separate product identity or receptor expression, a product-relevant activity comparison with background and response controls, and the distinct evidence needed for clinical benefit." width="600" height="1200" data-theme-pair />
+<img src="./images/identity-activity-and-clinical-evidence-v1-light.svg" alt="Three panels separate product identity or receptor expression, a product-relevant activity comparison with background and response controls, and the distinct evidence needed for clinical benefit." data-theme-pair />
 
 *Identity and expression help characterize a product; product-relevant activity and clinical benefit require different evidence.*
 
@@ -94,7 +94,7 @@ A fictional cell lot has high viability and receptor expression. Its target-spec
 ## Related concepts
 
 - [Manufacturing comparability](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability)
-- [Good manufacturing practice and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release)
+- [Good manufacturing practice](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) and [batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release)
 
 ## Sources and scope
 

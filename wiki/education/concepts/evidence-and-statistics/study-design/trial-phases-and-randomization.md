@@ -10,7 +10,7 @@ prerequisites: []
 used_by: ["[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: 2026-10-10
+updated: 2026-11-07
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -96,6 +96,7 @@ A fictional phase 2 study assigns two groups by chance. Is it less randomized be
 
 - [Clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access)
 - [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints)
+- [Interim analysis](/wiki/education/concepts/evidence-and-statistics/study-design/interim-analysis): why results arrive at planned looks with stricter thresholds.
 - [Prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive)
 
 ## Sources and scope
@@ -121,6 +122,6 @@ Source check: October 10, 2026. Examples are fictional; no trial outcomes or enr
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 - [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 <!-- END GENERATED USED IN -->

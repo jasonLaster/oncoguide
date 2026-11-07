@@ -7,11 +7,11 @@ glossary_anchor: "clinical-trial-vs-expanded-access"
 aliases: ["expanded access", "compassionate use", "single-patient IND", "spIND"]
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/index]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route]]","[[wiki/education/guides/accessing-experimental-therapy/index]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -73,7 +73,9 @@ Supplier review, manufacture, shipping, institutional readiness and clinical sch
 
 ## Why it matters in cancer
 
-Permission to proceed answers an access question. It does not establish benefit in a disease setting, assure usable supply or create a team that can manage toxicity. [Federal Right to Try](/wiki/education/concepts/access-and-regulation/trials-and-access/right-to-try) is another pathway with distinct eligibility and review rules.
+Permission to proceed answers an access question. It does not establish benefit in a disease setting, assure usable supply or create a team that can manage toxicity.
+
+In practice, a physician files a single-patient request on **Form FDA 3926**, usually with a letter of authorization from the company that agreed to supply the drug. FDA reports allowing about 99% of expanded-access requests; the company's decision to supply is more often the obstacle. A company may charge only with prior written FDA authorization and, for one patient, only for direct costs of making and shipping the drug [FDA forms page](https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms); [21 CFR 312.8](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.8). The [non-trial route lesson](/wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route) walks the steps. [Federal Right to Try](/wiki/education/concepts/access-and-regulation/trials-and-access/right-to-try) is another pathway with distinct eligibility and review rules.
 
 ## Common confusions
 
@@ -118,7 +120,9 @@ U.S. source check: October 10, 2026. Fictional exercise; general drug/biologic e
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Name the access route](/wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route)
 - [Build the readiness picture](/wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture)
+- [Walk the non-trial route](/wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route)
 - [Understand access to an experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index)
 <!-- END GENERATED USED IN -->

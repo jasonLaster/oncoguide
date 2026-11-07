@@ -9,7 +9,6 @@ objectives:
   - "Explain why an outcome association or response result may leave clinical benefit untested."
   - "Read subgroup results without treating different significance labels as proof of different effects."
   - "Write a conclusion that names the remaining evidence gap."
-  - "Check calculator inputs and measurement timing before interpreting a prognosis estimate."
 prerequisites:
   - "[[wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval]]"
   - "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"
@@ -20,7 +19,7 @@ reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-10-09
-updated: 2026-10-10
+updated: 2026-11-07
 tags: [education, guide-lesson, evidence-and-statistics]
 ---
 
@@ -52,7 +51,7 @@ Think of a sharp photograph taken from the wrong angle. Precision and relevance 
 
 Read the [prespecified analysis and exploratory questions](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis) beside the published result. Retain plan dates and amendments. Check how many people were assigned, followed and analyzed, why some were missing, and whether outcomes or harms were omitted. A reporting checklist helps locate information; compliance alone cannot establish a sound study. [CONSORT 2025](https://www.bmj.com/content/389/bmj-2024-081123).
 
-In an [observational study](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding), treatment choice can share causes with outcome. Check how that confounding was addressed. A [case report](/wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1) offers a timeline and a hypothesis, with much less ability to isolate a treatment effect.
+In an [observational study](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding), treatment choice can share causes with outcome. Check how that confounding was addressed. A [case report](/wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1) offers a timeline and a hypothesis; lesson 4 covers single stories.
 
 Also check the [publication version](/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed). An abstract, full report and later follow-up from the same participants add information, not independent replications. Link reports by trial identifier, centers and recruitment dates; differently named analyses may share or partly overlap participants. Count independent cohorts, not papers. [Cochrane: linking study reports](https://training.cochrane.org/handbook/current/chapter-05). [Preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) answers questions in the studied model before clinical applicability is tested.
 
@@ -73,8 +72,6 @@ Card A can establish observed activity under its response definition. Tumor shri
 
 Card B can support a comparative conclusion about its assigned sequence and measured endpoint, subject to the trial's methods and uncertainty. It still cannot isolate an unrandomized component of the sequence. Strong evidence for one question can leave another question unanswered. [FDA: defining the treatment-effect question](https://www.fda.gov/media/148473/download).
 
-Two setting examples show why those details matter. [Brain-metastasis risk](/wiki/education/concepts/breast-cancer/natural-history/brain-metastasis-risk) depends on the population, starting point, follow-up and competing events; an older metastatic cohort cannot supply an early-disease personal risk. [Oligometastatic disease](/wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease) describes limited detected metastatic burden, while the benefit of treating those sites needs its own comparison. Neither label bridges an untested treatment decision.
-
 ## A subgroup result needs another question
 
 A **subgroup** is a smaller category within a study, such as participants with a baseline marker. Suppose a fictional subgroup has a [hazard ratio (HR)](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio) of 0.70, with a 95% confidence interval from 0.35 to 1.40, for recurrence or death from randomization. The estimate favors the new strategy, but the interval includes substantially lower hazard, equal hazard, and higher hazard. It is imprecise evidence, not proof of no effect. [Absence of evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence) asks whether the study could meaningfully exclude the effect in question.
@@ -88,18 +85,6 @@ Groups defined by response after treatment raise another problem. Treatment and 
 A marker may reliably measure something and identify people with different outcomes. That establishes different evidence from testing whether changing care based on the marker helps. Even a negative result associated with favorable outcomes does not, by itself, establish that another treatment can safely be omitted.
 
 For earlier detection, ask whether the study measured a benefit from the earlier action. [Lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) can increase measured survival from detection without changing the time of death. The starting point matters again.
-
-## Check a calculator before its number
-
-A calculator can make uncertain inputs look settled. [Population versus individual risk](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk) explains what a model can estimate and what a probability cannot promise. Keep this record beside its output:
-
-- **Identity:** exact model, software version and any recalibration; a familiar name is insufficient.
-- **Inputs:** required values, units, definitions, specimen dates and the model's documented handling of missing values. Unknown is not automatically negative.
-- **Setting:** treatment era, received treatments and intended population. Older treatment context needs an applicability check.
-- **Question:** [endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints), time origin and prediction horizon.
-- **Validation:** independent evaluation in relevant populations. [Calibration](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration) checks probabilities; [discrimination](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index) checks ranking. Retain the [cutpoint](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints) and how it was chosen when a score becomes a category or proposed action.
-
-[TRIPOD+AI](https://doi.org/10.1136/bmj-2023-078378) describes the reporting needed to inspect prediction models. It covers regression and machine-learning methods. A checklist or published calculator is not proof of usefulness for every setting. Do not adjust its output by multiplying unrelated prognostic hazard ratios or adding benefits from other trials.
 
 ## Keep the sample on the right clock
 
@@ -126,10 +111,6 @@ A fictional cohort finds favorable five-year outcomes after a negative blood tes
 
 **Answer:** A comparison of the proposed treatment strategy after that result. The cohort can describe an association in treated people. It does not test the safety or benefit of stopping treatment. You also need test timing, event definition, precision, missing follow-up, and the population to interpret the association.
 
-**Calculator card:** A fictional model requires a residual-tissue marker after surgery. Only a pretreatment biopsy result is available. Can the reader substitute it?
-
-**Answer:** Check the specified input and missing-value rules. An earlier specimen does not establish the required postoperative value; an improvised hazard-ratio adjustment cannot fix that mismatch.
-
 ## Explain it back
 
 Finish: “The study supports ___ in ___. It does not directly test ___. The main uncertainty is ___.”
@@ -140,15 +121,14 @@ Finish: “The study supports ___ in ___. It does not directly test ___. The mai
 
 **Match the conclusion to the tested comparison, and name the gap before proposing an action.**
 
-**Next:** [Practice on cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence), or apply the framework to [a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index).
+**Next:** [Read a single success story or a calculator](/wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story).
 
 ## Sources and scope
 
-Source check: 2026-10-09. General evidence appraisal; expert and learner review pending. All evidence cards, studies, and numerical results are fictional. This lesson does not calculate a personal prognosis or choose treatment.
+Source check: November 7, 2026 (calculator and case-report material moved to lesson 4). General evidence appraisal; expert and learner review pending. All evidence cards, studies, and numerical results are fictional. This lesson does not calculate a personal prognosis or choose treatment.
 
 - [CONSORT 2025: reporting randomized trials, outcomes and harms](https://www.bmj.com/content/389/bmj-2024-081123).
 - [FDA 2021, ICH E9(R1): treatment-effect questions and sensitivity analysis](https://www.fda.gov/media/148473/download).
 - [Sun and colleagues 2010: credibility of subgroup analyses](https://www.bmj.com/content/340/bmj.c117.long).
-- [Collins and colleagues 2024, TRIPOD+AI: reporting prediction-model inputs, outcomes and evaluation](https://doi.org/10.1136/bmj-2023-078378).
 - [Cochrane Handbook, chapter 5: studies rather than reports as the unit of evidence](https://training.cochrane.org/handbook/current/chapter-05).
 - [Anderson, Cain and Gelber 1983: survival comparisons using response observed during follow-up](https://doi.org/10.1200/JCO.1983.1.11.710).

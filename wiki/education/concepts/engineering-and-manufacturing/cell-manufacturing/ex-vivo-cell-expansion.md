@@ -53,7 +53,7 @@ flowchart TD
 
 *Increasing the count is one manufacturing result; preserving useful properties is another.*
 
-[Good manufacturing practice (GMP) and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) connect the culture to a defined process. A large bag does not bypass those checks.
+[Good manufacturing practice (GMP)](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) and [batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release) connect the culture to a defined process. A large bag does not bypass those checks.
 
 ## Why it matters in cancer
 

@@ -1,5 +1,5 @@
 ---
-title: "IND investigation versus BLA marketing review"
+title: "IND versus marketing applications (BLA and NDA)"
 type: "concept"
 domain: "access-and-regulation/trials-and-access"
 summary: "An investigational application supports defined human use during research or access, while a marketing application asks for authorization to market a product for a specified use."
@@ -7,17 +7,17 @@ glossary_anchor: "ind-vs-bla"
 aliases: ["IND","Investigational New Drug application","BLA","Biologics License Application","NDA","New Drug Application"]
 level: "intermediate"
 prerequisites: []
-used_by: ["[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 ---
 
-# IND investigation versus BLA marketing review
+# IND versus marketing applications (BLA and NDA)
 
 ## In one sentence
 
@@ -38,6 +38,8 @@ An IND becoming effective is **not marketing approval**. A **clinical hold** can
 A **Biologics License Application (BLA)** asks for authorization to market an applicable biological product. Its package addresses safety, effectiveness, manufacturing quality and proposed labeling. Examples include vaccines and certain cell or gene therapy products. The actual product determines the regulatory pathway; a broad “biological” description is not enough to classify every product.
 
 A **New Drug Application (NDA)** is another drug marketing application. It is an alternative marketing route, not an earlier milestone every BLA must pass through. Submission, acceptance for filing and an approval decision are separate events.
+
+Two breast-cancer anchors show the split. Pembrolizumab, an antibody, is marketed under a BLA (BLA125514); olaparib, a small molecule, under an NDA (NDA208558) [1, 2].
 
 | Document or milestone | What it tells you | What it does not tell you |
 |---|---|---|
@@ -82,9 +84,9 @@ A fictional sponsor says, “Our IND may proceed. We plan to submit a BLA next y
 
 ## Explain it back
 
-“An IND asks about ____, while a BLA asks about ____.”
+“An IND asks about ____, while a BLA or NDA asks about ____.”
 
-**One possible answer:** “Defined investigational use; authorization to market an applicable biological product.”
+**One possible answer:** “Defined investigational use; authorization to market a biological product (BLA) or a drug (NDA) for a specified use.”
 
 ## Takeaway
 
@@ -97,18 +99,23 @@ A fictional sponsor says, “Our IND may proceed. We plan to submit a BLA next y
 
 ## Sources and scope
 
-U.S. source check: October 10, 2026. Fictional exercise. No individual application status or authorization is asserted. Expert and learner review pending.
+U.S. source check: November 7, 2026. Fictional exercise. No individual application status or authorization is asserted. Expert and learner review pending.
 
 - [FDA: Investigational New Drug application](https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind) — contents and calendar-day clock.
 - [21 CFR 312.40](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-C/section-312.40) — IND becoming effective, earlier notification and holds.
 - [FDA: BLA process for CBER-regulated products](https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products) — biologic marketing and quality review; CBER is the Center for Biologics Evaluation and Research.
 - [FDA: New Drug Application](https://www.fda.gov/drugs/types-applications/new-drug-application-nda) — drug marketing, labeling and manufacturing review.
 
+1. [DailyMed: KEYTRUDA (pembrolizumab) label record](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) — application number BLA125514.
+2. [openFDA drug label: Lynparza (olaparib)](https://api.fda.gov/drug/label.json?search=openfda.generic_name:olaparib) — application number NDA208558.
+
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Name the access route](/wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route)
 - [Build the readiness picture](/wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture)
+- [Walk the non-trial route](/wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route)
 - [Understand access to an experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index)
 - [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions)
 <!-- END GENERATED USED IN -->

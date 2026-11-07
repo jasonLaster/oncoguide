@@ -2,7 +2,7 @@
 title: "In-situ versus designed vaccine"
 type: comparison
 domain: therapeutics/immunotherapy
-aliases: []
+aliases: ["in-situ vs designed vaccine"]
 summary: "In-situ and designed cancer-vaccine strategies differ in where antigen material comes from and how its selection is controlled, while both need evidence of immune activity and clinical effect."
 level: intermediate
 sensitive: false
@@ -12,13 +12,17 @@ prerequisites:
   - "[[wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination]]"
   - "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"
 used_by: []
-reviewed: pending
+glossary_anchor: "in-situ-vs-designed-vaccine"
+updated: 2026-11-07
+source_checked: 2026-11-07
+reviewed: "pending"
 reviewed_by: ""
-expert_review: pending
-learner_review: pending
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # In-situ versus designed vaccine
+
+## In one sentence
 
 In-situ and designed cancer-vaccine strategies differ in where antigen material comes from and how its selection is controlled, while both need evidence of immune activity and clinical effect.
 
@@ -95,8 +99,8 @@ Use [the vaccine overview](/wiki/education/concepts/therapeutics/immunotherapy/c
 
 ## Sources and scope
 
-Source check: October 12, 2026. Brody and Hammerich primary abstracts were read; full-text attempts failed. Selected product-design and immune-assay passages in Ott's primary paper were read. These lymphoma and melanoma studies illustrate defined strategies in different settings; no efficacy ranking, breast-cancer benefit or eligibility is inferred. All workshop inputs are invented. Independent peer, expert and learner review pending.
+Source check: November 7, 2026. Brody and Hammerich primary abstracts were read; full-text attempts failed. Selected product-design and immune-assay passages in Ott's primary paper were read. These lymphoma and melanoma studies illustrate defined strategies in different settings; no efficacy ranking, breast-cancer benefit or eligibility is inferred. All workshop inputs are invented. Independent peer, expert and learner review pending.
 
-- [Brody et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20697067/): local radiation and an immune stimulus in low-grade B-cell lymphoma; in-body antigen-source example.
+- [Brody et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20697067/): local radiation plus an injected CpG Toll-like receptor 9 (TLR9) agonist in low-grade B-cell lymphoma; in-body antigen-source example.
 - [Hammerich et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30962585/): a defined dendritic-cell recruitment/activation strategy in indolent lymphoma and mouse models. Mouse checkpoint-responsiveness findings are not human benefit estimates.
 - [Ott et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28678778/): selected manufactured long peptides in a phase I melanoma study; supplied-product example. Clinical observations do not compare the two categories.

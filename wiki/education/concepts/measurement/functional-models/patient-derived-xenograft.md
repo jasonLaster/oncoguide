@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-h
 used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -45,7 +45,7 @@ flowchart TD
 
 *Establishing a graft, validating its features and obtaining an interpretable experiment are separate steps.*
 
-Drug dosing in a living animal is [in vivo](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering). Removing graft cells and treating them in a dish is a different, outside-body experiment. The specimen's animal history does not make its later dish assay in vivo.
+Drug dosing in a living animal is [in vivo](/wiki/education/modeling-tumor-response/index#choose-what-must-be-present). Removing graft cells and treating them in a dish is a different experiment, ex vivo or in vitro. The specimen's animal history does not make its later dish assay in vivo.
 
 ## Why it matters in cancer
 
@@ -71,7 +71,7 @@ Trace the antibody to the human receptor, then inspect the mouse vessel. This il
 | Limits | Failed establishment, selection, altered compartments or uninterpretable experiments |
 | Intended use | Fidelity for this question; separate evidence for patient-treatment prediction |
 
-Retain exclusions as well as successful models. There is no universal establishment time or fidelity score.
+Retain exclusions as well as successful models. Establishment is slow: a review put a study-ready PDX at 4–8 months ([Hidalgo 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/)), so a PDX rarely answers within a single treatment decision. There is no universal fidelity score.
 
 ## Common confusions
 
@@ -103,9 +103,10 @@ Ten fictional donor specimens are submitted. Four establish grafts; three yield 
 
 ## Sources and scope
 
-Source check: October 10, 2026. Model mechanisms and measurement limits; expert and learner review remain pending.
+Source check: November 7, 2026. Model mechanisms and measurement limits; expert and learner review remain pending.
 
 - [DeRose et al., 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/) — selected primary breast-graft results and species-specific stromal/vessel assessment.
+- [Hidalgo et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/) — PDX review; 4–8 months to a study-ready model (PMID 25185190).
 - [NCI Patient-Derived Models Repository: model information](https://dctd.cancer.gov/drug-discovery-development/reagents-materials/pdmr/models) — repository host, identity, species-mixture and passage checks.
 - [Ben-David et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28991255/) — copy-state evolution in the studied PDX datasets.
 - [Woo et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC7808565/) — selected direct-DNA/context-sensitive fidelity findings; not a universal clinical-prediction claim.

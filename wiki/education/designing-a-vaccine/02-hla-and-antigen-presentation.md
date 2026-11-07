@@ -4,8 +4,8 @@ type: guide-lesson
 goal: "Read an HLA type and distinguish allele matching, peptide display and immune recognition."
 sensitive: false
 tags: [education, immunology]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 review_status: "Source-checked; expert and learner review pending"
 guide: personalized-cancer-vaccine
 step: 3
@@ -18,7 +18,7 @@ minutes: 12
 
 # HLA and antigen presentation in vaccine design
 
-**A peptide target belongs with its presenting [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) molecule; a matched name alone does not prove tumor recognition.**
+**A peptide target belongs with its presenting [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) molecule; a matched name alone does not prove tumor recognition.** This is step three of the [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index); the file name does not track the step.
 
 **Before you start:** [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla), [antigen and epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope), and [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor).
 
@@ -57,7 +57,7 @@ HLA can also be inferred computationally from an existing genome, exome or RNA s
 | Class I, including HLA-A, HLA-B and HLA-C | Most nucleated cells; commonly intracellular protein-derived peptides | [CD8 T cells](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) |
 | Class II, including HLA-DR, HLA-DP and HLA-DQ | Mainly professional antigen-presenting cells, with inducible expression elsewhere | [CD4 T cells](/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8) |
 
-Typical class-I peptides are shorter than class-II peptides, although lengths and processing vary. CD4 help can support a response, and some CD4 cells have cytotoxic functions. Detecting a helper response does not by itself demonstrate that a tumor displays the same target through class I.
+The two grooves also hold different peptide lengths. The class-I groove is closed at both ends, so it usually binds peptides of about 8 to 10 residues, and reported class-I immunopeptidomes run to roughly 11. The class-II groove is open at both ends and accommodates about 13 to 25 residues ([Wieczorek et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28367149/)). Individual datasets vary, so read the length range a given study reports. CD4 help can support a response, and some CD4 cells have cytotoxic functions. Detecting a helper response does not by itself demonstrate that a tumor displays the same target through class I.
 
 ## Keep four observations separate
 
@@ -107,12 +107,13 @@ Tell a friend why inherited typing, tumor retention, peptide display and T-cell 
 
 **Keep the exact peptide–HLA pair attached to every claim, and ask which step was actually measured.**
 
-**Next:** [Read a candidate design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board), where these distinctions become columns in an evidence ledger.
+**Next:** step four, [read a candidate design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board), where these distinctions become columns in an evidence ledger.
 
 ## Sources
 
-Source-checked October 10, 2026. The typing report, peptide and receptor comparison are fictional. Expert and learner review remain pending.
+Source-checked November 7, 2026 (peptide lengths, step numbering); October 10, 2026 (rest). The typing report, peptide and receptor comparison are fictional. Expert and learner review remain pending.
 
+- [Wieczorek et al., 2017, *Frontiers in Immunology*](https://pubmed.ncbi.nlm.nih.gov/28367149/), for the class-I and class-II groove geometry and peptide-length ranges; checked November 7, 2026.
 - [Official HLA nomenclature](https://hla.alleles.org/pages/nomenclature/naming_alleles/), for allele fields and expression suffixes.
 - [Hosomichi and colleagues: phase-defined HLA sequencing](https://link.springer.com/article/10.1186/1471-2164-14-355), for the scoped laboratory sequence/phasing example.
 - [Szolek and colleagues: OptiType](https://pubmed.ncbi.nlm.nih.gov/25143287/), for class-I computational inference from specified sequencing datasets.

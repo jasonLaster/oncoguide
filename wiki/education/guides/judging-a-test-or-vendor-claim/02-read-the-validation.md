@@ -3,8 +3,8 @@ title: "Read the validation behind the claim"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -53,7 +53,30 @@ Use a small evidence table while you read:
 
 If the evidence begins in cells or animals, identify what the [preclinical model](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence) actually tested. If it comes from patient care without assigned treatment, ask about [confounding](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding). Neither a useful laboratory result nor an outcome association automatically validates the proposed clinical action.
 
-For a compound claim, distinguish a [chemical probe and target-engagement experiment](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) from a usable medicine. Cell killing at one concentration does not establish a selective mechanism. [Pharmacokinetics](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) adds the next question: can the relevant exposure occur in the body without unacceptable harm? Culture concentrations are not patient doses.
+This guide is about tests. A claim about a drug or compound follows a different path, covered in [from variant to drug](/wiki/education/guides/from-variant-to-drug/index).
+
+## First check that the test measures reliably
+
+Before any clinical claim, a laboratory must show that the test itself works: analytical validation. Professional guidance for tumor sequencing panels asks laboratories to establish performance for each variant type, with reference materials, minimum depth and a minimum number of samples ([Jennings 2017, AMP/CAP](https://pmc.ncbi.nlm.nih.gov/articles/PMC6941185/)). Ask for these five items:
+
+| Item | Question to ask | Why it matters |
+|---|---|---|
+| [Limit of detection](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) | At what level is the target detected 95% of the time, at what input amount and in which specimen type? | A limit measured with plenty of input may not hold for a small sample |
+| Precision | Do repeat runs agree, across days, operators and instruments? | A result that moves between runs cannot be trended |
+| Accuracy against a reference | Was it compared with a different, established method on the same samples? | Agreement with itself proves nothing |
+| Failure rate | What share of samples gave no result, and why? | Failures are part of real-world performance |
+| Specimen and interference | Was it validated in the same tissue or blood type, preservation and handling? | A blood test validated in fresh plasma may not transfer to delayed samples |
+
+## Then work out what a positive result means here
+
+A test's **positive predictive value (PPV)**, the chance that a positive result is a true positive, depends on how common the condition is in the people tested ([PPV and base rates](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates)). Take a fictional test with 90% sensitivity and 95% specificity:
+
+| Group of 1,000 people | With the condition | True positives | False positives | PPV |
+|---|---|---|---|---|
+| Condition in 10% | 100 | 90 | 45 (5% of 900) | 90 ÷ 135 = 67% |
+| Condition in 2% | 20 | 18 | 49 (5% of 980) | 18 ÷ 67 = 27% |
+
+The same test, with the same sensitivity and specificity, gives a positive that is right two times in three in one group and about one time in four in the other. Always ask for performance in a group like the one you are in.
 
 ## Worked example: two fictional validation slides
 
@@ -66,7 +89,7 @@ The [shared concept map](/wiki/education/concepts/measurement/computational-anal
 
 For the reporting distinction, see the [TRIPOD explanation of development and external evaluation](https://www.tripod-statement.org/wp-content/uploads/2023/02/TRIPOD-Cluster-EE.pdf).
 
-Slide A shows the performance of a risk score on the same patients used to choose its variables and threshold. Slide B evaluates a locked version on a separate hospital's patients, with a defined outcome and failed tests reported.
+Slide A shows the performance of a risk score on the same patients used to choose its variables and threshold. That number is inflated by [overfitting](/wiki/education/concepts/measurement/computational-analysis/overfitting): when five of the seven largest microarray prognosis studies were re-tested with repeated random splits, they classified patients no better than chance ([Michiels 2005](https://doi.org/10.1016/S0140-6736(05)17866-0)). Slide B evaluates a locked version on a separate hospital's patients, with a defined outcome and failed tests reported.
 
 Slide B answers a more useful question about performance outside development. It still needs careful reading. Perhaps that hospital treated advanced disease while the current request concerns patients after surgery. Perhaps the score ranks patients well but overestimates their risk.
 
@@ -102,10 +125,9 @@ Complete: “This study supports ____ in ____. It does not yet support ____.”
 
 ## Sources and scope
 
-Source check: October 9, 2026. The slides are fictional. This is a reading method, not a universal validation rulebook. Expert and learner review remain pending.
+Source check: November 7, 2026. The slides are fictional. This is a reading method, not a universal validation rulebook. Expert and learner review remain pending.
 
 - [FDA–NIH BEST: glossary](https://www.ncbi.nlm.nih.gov/books/NBK338448/) — validation in a specified context of use.
 - [FDA: clinical research](https://www.fda.gov/patients/drug-development-process/step-3-clinical-research) — populations, comparators and planned analyses.
-- [Molina and colleagues, 2013: cellular thermal shift assay](https://pubmed.ncbi.nlm.nih.gov/23828940/) — a target-engagement measurement method, not a clinical benefit result.
-- [FDA, December 2016: clinical pharmacology labeling guidance](https://www.fda.gov/media/74346/download) — named analytes and exposure measures.
+- [Jennings et al., 2017: AMP/CAP guidelines for validating oncology sequencing panels](https://pmc.ncbi.nlm.nih.gov/articles/PMC6941185/) — analytical validation by variant type, reference materials, depth and sample numbers (PMID 28341590).
 - [TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) checklist](https://www.tripod-statement.org/resources/) — transparent reporting of prediction-model development and validation.

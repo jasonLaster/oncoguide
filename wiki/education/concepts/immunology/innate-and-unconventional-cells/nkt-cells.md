@@ -12,8 +12,8 @@ prerequisites:
 used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]"]
 sensitive: false
 tags: [education]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -36,7 +36,7 @@ Conventional T cells mainly inspect displayed protein fragments; NKT cells inspe
 
 <img src="./images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg" alt="An illustrative iNKT T-cell receptor contacts lipid displayed by CD1d, compared with a conventional T-cell receptor contacting peptide displayed by HLA." data-theme-pair />
 
-*An iNKT example uses CD1d to display a lipid-based target; conventional peptide-directed T cells use peptide–HLA. NKT and NK are distinct families. Lipid-tail placement follows the [human CD1d structural study](https://pubmed.ncbi.nlm.nih.gov/16007090/), checked at the abstract level on October 13, 2026.*
+*An iNKT example uses CD1d to display a lipid-based target; conventional peptide-directed T cells use peptide–[human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). Natural killer T (NKT) and natural killer (NK) are distinct families. Lipid-tail placement follows the [human CD1d structural study](https://pubmed.ncbi.nlm.nih.gov/16007090/).*
 
 **Natural killer T (NKT)** cells are T cells, not a mixture of an NK cell and a conventional T cell. They carry a rearranged TCR. Some also express receptors associated with NK cells, but an NK-associated surface marker alone does not define the family.
 

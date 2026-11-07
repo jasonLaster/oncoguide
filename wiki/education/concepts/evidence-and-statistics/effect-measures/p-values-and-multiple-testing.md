@@ -2,7 +2,7 @@
 title: "P-values and multiple testing"
 type: "concept"
 domain: "evidence-and-statistics/effect-measures"
-summary: "A p-value describes how incompatible the observed data are with a specified statistical model, while multiple testing creates more opportunities for misleading findings."
+summary: "A p-value is the probability, computed assuming a specified null model, of a result at least as extreme as the one observed; multiple testing creates more opportunities for misleading findings."
 glossary_anchor: "p-value"
 aliases: ["p-value", "p value", "multiple testing", "multiplicity"]
 level: "intermediate"
@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/effect-measur
 used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -21,7 +21,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## In one sentence
 
-A p-value describes how incompatible the observed data are with a specified statistical model, while multiple testing creates more opportunities for misleading findings.
+A p-value is the probability, computed assuming a specified null model, of a result at least as extreme as the one observed; multiple testing creates more opportunities for misleading findings.
 
 ## The intuition
 
@@ -29,13 +29,13 @@ Searching many drawers gives you more opportunities to find something surprising
 
 ## How it works
 
-A **null hypothesis** states the comparison being tested, such as no treatment effect on a defined endpoint. A p-value is calculated under that hypothesis and the other analysis assumptions. It concerns results at least as extreme as the observed result under the chosen test.
+A **null hypothesis** states the comparison being tested, such as no treatment effect on a defined endpoint. A **p-value** is a probability: the chance, if the null hypothesis and every other analysis assumption were true, of getting a test statistic at least as extreme as the one observed. Small values mean the data fit the null model poorly.
 
 It is not the probability that the hypothesis is true, that the result happened “by chance,” or that a selected finding is false. A small p-value does not measure effect size. [ASA statement](https://doi.org/10.1080/00031305.2016.1154108).
 
 **Multiple testing** means examining many hypotheses. **Family-wise error rate** is the probability of making at least one false rejection within a defined family. By contrast, [false discovery rate](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate) concerns the expected false fraction among selected findings. They are different error quantities.
 
-A confirmatory trial may allocate its error allowance across endpoints or use a prespecified testing sequence. A later exploratory analysis has a different role. One method, **Bonferroni correction**, divides the family-level allowance by the number of tests. Its control does not require independent tests, provided the individual tests are valid. The choice of family and method still matters. [FDA multiple-endpoint guidance](https://www.fda.gov/media/162416/download).
+A confirmatory trial may allocate its error allowance across endpoints, across planned [interim analyses](/wiki/education/concepts/evidence-and-statistics/study-design/interim-analysis), or use a prespecified testing sequence. A later exploratory analysis has a different role. One method, **Bonferroni correction**, divides the family-level allowance by the number of tests. Its control does not require independent tests, provided the individual tests are valid. The choice of family and method still matters. [FDA multiple-endpoint guidance](https://www.fda.gov/media/162416/download).
 
 ## Worked example
 
@@ -104,6 +104,6 @@ Source check: October 10, 2026. Hypothetical arithmetic; expert and learner revi
 ## Used in
 
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 - [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
 <!-- END GENERATED USED IN -->

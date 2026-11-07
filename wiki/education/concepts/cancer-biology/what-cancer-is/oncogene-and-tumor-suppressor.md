@@ -14,7 +14,7 @@ reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"]
-used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/index]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 ---
 
 # Oncogenes and tumor suppressors: two routes to lost control
@@ -101,6 +101,7 @@ Source check: October 10, 2026. Gene roles and bounded experimental exceptions; 
 ## Used in
 
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
+- [Learn the biology and evidence](/wiki/education/index)
 - [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
 - [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
 - [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)

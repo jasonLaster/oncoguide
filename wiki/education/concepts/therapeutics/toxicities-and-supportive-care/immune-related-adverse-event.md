@@ -7,7 +7,7 @@ glossary_anchor: "irae"
 aliases: ["irAE", "irAEs", "immune-related adverse event", "immune-related adverse events", "immune-mediated adverse reaction"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]", "[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "therapeutics", "immunology"]
 updated: "2026-10-09"
@@ -92,7 +92,8 @@ Source check: October 9, 2026. General vocabulary, timing and reporting; the cas
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
 - [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)

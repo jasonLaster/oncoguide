@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy]]"
   - "[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]"
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/local-treatment-modalities/02-timing]]"]
+used_by: ["[[wiki/education/local-treatment-modalities/02-timing]]"]
 sensitive: false
 tags: [education, breast-cancer, metastasis, evidence]
 updated: "2026-10-12"
@@ -112,6 +112,5 @@ Source check: October 10, 2026. Examples are fictional; expert and learner revie
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
 <!-- END GENERATED USED IN -->

@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/what-cancer-is/cancer]]"
   - "[[wiki/education/concepts/biology-basics/cells/cell-cycle]]"
-used_by: ["[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/index]]"]
 sensitive: false
 tags: [education, cancer-biology]
 updated: 2026-10-10
@@ -103,6 +103,5 @@ Source-checked October 10, 2026. General mechanisms and a fictional counting exe
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
-- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
+- [Learn the biology and evidence](/wiki/education/index)
 <!-- END GENERATED USED IN -->

@@ -5,15 +5,16 @@ domain: biology-basics/molecules
 summary: "Binding is an interaction between molecular partners; an enzyme catalyzes a chemical reaction, so binding strength and reaction rate describe different properties."
 glossary_anchor: enzymes-and-binding
 aliases: ["enzyme", "enzyme activity", "binding affinity", "affinity", "specificity", "Kd", "Km"]
-level: foundation
+level: intermediate
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/protein-and-peptide]]", "[[wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains]]"]
 used_by: []
 sensitive: false
 tags: [education, biology-basics]
-source_checked: 2026-10-09
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
+updated: 2026-11-07
 ---
 
 # Enzymes and binding: interaction is not reaction

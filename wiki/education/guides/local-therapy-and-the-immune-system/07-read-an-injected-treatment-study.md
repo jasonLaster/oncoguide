@@ -8,8 +8,8 @@ objectives: ["Identify the route of every component in an injected-treatment stu
 prerequisites: ["[[wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy]]", "[[wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]"]
 sensitive: false
 tags: [education, local-treatment, immunotherapy, evidence]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -41,7 +41,7 @@ flowchart TD
 
 ## Start with the component list
 
-A study title might say “an injected immune stimulus plus an [immune-checkpoint antibody](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint).” That leaves a useful question unanswered: was the antibody injected into the lesion, or given into a vein? Both arrangements are possible. **Intravenous (IV)** means into a vein; **intratumoral** means inside a tumor. Enter every component in a route table before interpreting a result.
+A study title might say “an injected immune stimulus plus an [immune-checkpoint antibody](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor).” That leaves a useful question unanswered: was the antibody injected into the lesion, or given into a vein? Both arrangements are possible. **Intravenous (IV)** means into a vein; **intratumoral** means inside a tumor. Enter every component in a route table before interpreting a result.
 
 | Component | Route to record | Question to carry forward |
 |---|---|---|

@@ -7,11 +7,11 @@ glossary_anchor: "therapeutic-index"
 aliases: ["therapeutic index","therapeutic window","therapeutic margin"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -55,6 +55,8 @@ For contrast, the lower axis zooms from two to four dose units. The arbitrarily 
 
 Cancer treatments often affect processes shared with normal cells. Dose selection therefore asks about activity and tolerability together. The highest tolerable dose in a short study is not automatically the best dose for long treatment.
 
+Antibody-drug conjugates were designed to widen the window by delivering a chemotherapy payload mainly to tumor cells. Their window is still set largely by the payload: drug released in the blood or taken up by healthy cells causes payload-type toxicity, and how the payload is attached changes that. In one mouse study, a conjugate carrying two or four payloads per antibody cleared more slowly than one carrying eight, and the lower-loaded forms had the wider index ([Hamblett 2004](https://pubmed.ncbi.nlm.nih.gov/15501986/)). See [ADC conjugation chemistry](/wiki/education/concepts/therapeutics/antibody-based/adc-conjugation-chemistry) and [ADC payload toxicities](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/adc-payload-toxicity).
+
 The Food and Drug Administration's oncology dosage-optimization guidance emphasizes integrating exposure, activity, safety and tolerability. Its stated scope excludes specific guidance for several modalities, including cellular/gene therapies and cancer vaccines, and it does not specifically address pediatric development. The general lesson is useful; the document is not a dosing template for every cancer treatment.
 
 ## How it is measured
@@ -89,15 +91,17 @@ A fictional study compares tumor-cell inhibition with injury in one normal-cell 
 
 ## Sources and scope
 
-Source-checked October 9, 2026; expert and learner review pending. Conceptual benefit–harm separation; no personal therapeutic window is estimated.
+Source-checked October 9, 2026; ADC paragraph added November 7, 2026; expert and learner review pending. Conceptual benefit–harm separation; no personal therapeutic window is estimated.
 
 - [National Library of Medicine: therapeutic index, drug](https://www.ncbi.nlm.nih.gov/mesh/2023303) — formal toxic-dose/effective-dose ratio definition.
 - [FDA: setting standards for narrow therapeutic index drugs](https://www.fda.gov/drugs/cder-conversations/setting-and-implementing-standards-narrow-therapeutic-index-drugs) — narrow margins and monitoring; not a classification of all chemotherapy.
+- [Hamblett et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15501986/) — drug loading, clearance and therapeutic index of one antibody-drug conjugate in mice.
 - [FDA final oncology dosage-optimization guidance, August 2024](https://www.fda.gov/media/164555/download) — integrated benefit, exposure and tolerability considerations, with explicit modality/development limits.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
+- [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
 <!-- END GENERATED USED IN -->

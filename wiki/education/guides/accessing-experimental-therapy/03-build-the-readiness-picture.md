@@ -3,8 +3,8 @@ title: "Build the readiness picture"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -40,11 +40,11 @@ The practical questions stay concrete: Who is prescribing or sponsoring the requ
 | Clinical rationale | Why consider this treatment, and which alternatives remain? |
 | Exact product | What formulation, dose, route and schedule are proposed, with what supporting exposure and safety evidence? |
 | Supply | Has the supplier agreed, and is usable product available? |
-| Pathway and review | What submissions, permissions and institutional reviews apply? |
+| Pathway and review | What submissions, permissions and institutional reviews apply? For single-patient access: is there a letter of authorization, and has Form FDA 3926 been filed? |
 | Consent | Are known risks, unknowns, alternatives and responsibilities clear? |
 | Delivery and monitoring | Which team gives treatment, checks response and manages toxicity? |
 | Time | What must happen first, and what could delay or stop the plan? |
-| Costs and logistics | Which treatment, care, travel and follow-up expenses are covered? |
+| Costs and logistics | Will the supplier charge, and if so does it have FDA's written authorization (direct costs only for one patient)? Which care, travel and follow-up expenses does insurance cover? |
 
 Record “confirmed,” “proposed,” or “unknown” beside each item. Keep the confirming person and date in the actual project record. This teaching page supplies the questions, rather than a patient's status table.
 
@@ -99,14 +99,15 @@ Complete: “Permission, supply and clinical readiness are separate because ____
 
 **Keep access permission, usable supply, informed consent and clinical readiness visible as separate gates.**
 
-**Next:** Bring the readiness ledger to the responsible clinical or study team, or return to the [guide map](/wiki/education/guides/accessing-experimental-therapy/index) to revisit an uncertain route.
+**Next:** If no trial fits, [walk the non-trial route](/wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route). Otherwise bring the readiness ledger to the responsible clinical or study team.
 
 ## Sources and scope
 
-U.S. integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. The product and timeline example is fictional. No end-to-end preparation time or individual authorization is promised. Expert and learner review pending.
+U.S. integration source check: November 7, 2026 (ledger rows for Form FDA 3926 and charging); retained examples and other source scopes last checked October 9, 2026. The product and timeline example is fictional. No end-to-end preparation time or individual authorization is promised. Expert and learner review pending.
 
 - [FDA: how physicians request single-patient expanded access](https://www.fda.gov/drugs/investigational-new-drug-application-ind/physicians-how-request-single-patient-expanded-access-compassionate-use) — non-emergency and emergency timing.
 - [FDA: expanded access information for IRBs](https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs) — responsibility, review, consent and monitoring.
 - [NCI: clinical trial safety and consent](https://www.cancer.gov/research/participate/clinical-trials/safety) — ongoing consent and participant rights.
 - [FDA, December 2016: clinical pharmacology labeling guidance](https://www.fda.gov/media/74346/download) — exposure and effective versus terminal half-life.
+- [21 CFR 312.8: charging for investigational drugs](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.8) — prior FDA authorization and direct-cost limit.
 - [NCI: who pays for clinical trials](https://www.cancer.gov/research/participate/clinical-trials/paying) — routine care, research and practical costs.

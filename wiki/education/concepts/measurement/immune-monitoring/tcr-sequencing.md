@@ -7,7 +7,7 @@ glossary_anchor: "tcr-seq"
 aliases: ["TCR-seq","TCR sequencing","scTCR-seq"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-repertoire]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/index]]","[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: 2026-10-10
@@ -101,6 +101,7 @@ Source check: October 10, 2026. Assay concepts, not procurement or patient-monit
 - [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics)
 - [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
+- [Learn the biology and evidence](/wiki/education/index)
 - [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
 - [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)
 - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)

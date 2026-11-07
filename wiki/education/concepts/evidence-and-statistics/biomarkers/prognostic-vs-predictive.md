@@ -11,7 +11,7 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
 updated: "2026-10-12"
 source_checked: "2026-10-10"
 review_status: "Source-checked; expert and learner review pending"
@@ -122,6 +122,8 @@ Source check: October 10, 2026. Fictional trial and arithmetic; expert and learn
 - [Compare related ideas](/wiki/education/comparisons/index)
 - [Check clinical evidence and access](/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Connect evidence to a decision](/wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision)
@@ -130,15 +132,15 @@ Source check: October 10, 2026. Fictional trial and arithmetic; expert and learn
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
-- [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
 - [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)
 - [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
 - [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
 - [Build an integrated claim without skipping the clinical question](/wiki/education/molecular-profiling/07-from-data-to-care-plan)
+- [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
 - [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 - [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: "tertiary-lymphoid-structures"
 aliases: ["tertiary lymphoid structure", "tertiary lymphoid structures", "TLS"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics]]", "[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
+used_by: ["[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -110,6 +110,5 @@ Source-checked October 10, 2026. Architecture and bounded cohort associations; f
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
 <!-- END GENERATED USED IN -->

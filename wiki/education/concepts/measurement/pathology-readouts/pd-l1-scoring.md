@@ -1,5 +1,5 @@
 ---
-title: "PD-L1 scoring: keep CPS and TPS denominators straight"
+title: "PD-L1 scoring: CPS, TPS and IC score"
 type: "concept"
 domain: "measurement/pathology-readouts"
 aliases:
@@ -8,25 +8,31 @@ aliases:
   - "combined positive score"
   - "TPS"
   - "tumor proportion score"
-summary: "PD-L1 scoring measures defined staining patterns using an assay-specific algorithm; combined positive score and tumor proportion score count different cells and are not interchangeable."
+  - "IC score"
+  - "immune-cell score"
+  - "SP142"
+  - "SP263"
+  - "22C3"
+summary: "PD-L1 scoring measures defined staining patterns using an assay-specific antibody and algorithm; combined positive score, tumor proportion score and immune-cell score count different cells and are not interchangeable."
 level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"
   - "[[wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology]]"
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]"]
 reviewed: "pending"
-source_checked: 2026-10-10
+source_checked: 2026-11-07
+updated: 2026-11-07
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 glossary_anchor: "pd-l1-scoring"
 sensitive: false
 ---
 
-# PD-L1 scoring: keep CPS and TPS denominators straight
+# PD-L1 scoring: CPS, TPS and IC score
 
 ## In one sentence
 
-PD-L1 scoring measures defined staining patterns using an assay-specific algorithm; combined positive score and tumor proportion score count different cells and are not interchangeable.
+PD-L1 scoring measures defined staining patterns using an assay-specific antibody and algorithm; combined positive score, tumor proportion score and immune-cell score count different cells and are not interchangeable.
 
 ## The intuition
 
@@ -44,6 +50,10 @@ For the 22C3 breast assay manual used here, tumor cells qualify with convincing 
 
 **Tumor proportion score (TPS)** is the percentage of viable tumor cells with qualifying partial or complete membrane staining. It excludes immune cells from its numerator. The [FDA assay document](https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150013S016B.pdf) describes this algorithm in a non-small-cell lung cancer context; it does not make TPS a substitute for breast CPS.
 
+**Immune-cell (IC) score** is the percentage of tumor area occupied by PD-L1-staining tumor-infiltrating immune cells. It ignores tumor-cell staining. It was the scoring rule for the VENTANA **SP142** assay used with atezolizumab: in the IMpassion130 trial of advanced TNBC, "PD-L1-positive" meant IC ≥1% by SP142 ([Schmid et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30345906/)).
+
+Three antibody assays recur in breast cancer: **22C3** (scored as CPS, paired with pembrolizumab), **SP142** (scored as IC, paired with atezolizumab) and **SP263** (a third clone, studied with IC scoring in TNBC). Each is a different antibody, staining protocol and algorithm.
+
 ```mermaid
 flowchart TD
     A[Validated PD-L1 stain] --> B[Identify eligible cells]
@@ -55,7 +65,19 @@ flowchart TD
 
 ## Why it matters in cancer
 
-A clinical cutoff belongs to a defined assay, population and treatment setting. **[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc|Triple-negative breast cancer (TNBC)]]** is one example: CPS ≥10 has a defined advanced-TNBC efficacy and label context. It is not a universal trial-enrollment rule or an early-TNBC threshold. KEYNOTE-355 enrolled advanced-TNBC participants regardless of tumor PD-L1 expression and analyzed specified score populations. KEYNOTE-522 also enrolled early-TNBC participants regardless of PD-L1 expression. The [pinned FDA 2026 label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf), section 14.20, supplies those trial contexts; this page does not list every current treatment option.
+A clinical cutoff belongs to a defined assay, drug, population and treatment setting. In **[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc|triple-negative breast cancer (TNBC)]]**:
+
+| Setting | Assay and cutoff | Drug context | Evidence |
+|---|---|---|---|
+| Advanced TNBC, first line | 22C3, CPS ≥10 | Pembrolizumab **with chemotherapy**; the 2026 US label also lists pembrolizumab with sacituzumab govitecan at the same cutoff. Not pembrolizumab alone | In KEYNOTE-355 (847 patients enrolled regardless of PD-L1), median overall survival was 23.0 vs 16.1 months in the CPS ≥10 group (HR 0.73); the CPS ≥1 group did not reach significance (HR 0.86) ([Cortés et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35857659/)) |
+| Advanced TNBC, first line (withdrawn in the US) | SP142, IC ≥1% | Atezolizumab with nab-paclitaxel | US accelerated approval granted in 2019 on IMpassion130; Roche voluntarily withdrew the US TNBC indication in August 2021 after consulting the FDA ([Roche, 2021](https://www.roche.com/media/releases/med-cor-2021-08-27.html)) |
+| Early, high-risk TNBC | No PD-L1 cutoff | Pembrolizumab with chemotherapy before surgery, then alone after ([KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen)) | KEYNOTE-522 enrolled patients regardless of PD-L1, and the early-disease label carries no PD-L1 requirement |
+
+The [FDA 2026 pembrolizumab label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf), sections 1.20 and 14.20, gives the current US indication wording. This page does not list every treatment option.
+
+A PD-L1 score is partly **predictive** in advanced TNBC: it was used to find the group that gained from adding a checkpoint inhibitor in a randomized comparison. In early TNBC it does not select patients. See [prognostic vs predictive](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive).
+
+Tumors that T cells already attack often show more PD-L1, because T cells release interferon gamma, which induces it. This [adaptive immune resistance](/wiki/education/concepts/immunology/tumor-immunology/adaptive-immune-resistance) is why PD-L1 staining often sits beside lymphocyte-rich areas ([hot, excluded and cold patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor)).
 
 ## How it is measured
 
@@ -74,7 +96,9 @@ A clinical cutoff belongs to a defined assay, population and treatment setting. 
 
 - CPS is not the percentage of all cells that stain and is not the percentage of tumor cells alone.
 - CPS 100 does not imply every tumor cell is positive.
-- The same cutoff cannot be transferred between CPS, TPS or another immune-cell algorithm.
+- The same cutoff cannot be transferred between CPS, TPS and IC scores.
+- **Different assays select different patients.** In 614 IMpassion130 samples, IC ≥1% was positive in 46.4% by SP142, 74.9% by SP263 and 73.1% by 22C3; almost all SP142-positive cases were positive by the others, but not the reverse ([Rugo et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34097070/)). A "positive" result needs its antibody named.
+- **Pathologists disagree on IC scores.** When 19 pathologists scored the same TNBC sections, SP142 was read as positive in an average 58% of cases and SP263 in 78%, and all pathologists agreed on only 38% of SP142 cases and 50% of SP263 cases ([Reisenbichler et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32300181/)).
 - A low score is not a complete description of tumor immunity or a universal exclusion from immunotherapy.
 
 ## Try it
@@ -104,16 +128,22 @@ Keep the eligible cells, denominator, assay and clinical setting attached to eve
 
 ## Sources and scope
 
-Source check: October 10, 2026. Scoring education, not a treatment-selection instruction; expert and learner review remain pending.
+Source check: November 7, 2026. Scoring education, not a treatment-selection instruction; expert and learner review remain pending.
 
 - [22C3 TNBC interpretation manual, EU CE-IVD](https://www.agilent.com/cs/library/usermanuals/public/29440-d67159-pdl1-ihc-22C3-pharmdx-tnbc-interpretation-manual-eu.pdf) — pp.18, 24–26: adequacy, cell eligibility, denominator and CPS cap; p.31: trial score distribution. This technical manual is not a US authorization document.
 - [FDA: 22C3 assay SSED, P150013/S016 (2019)](https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150013S016B.pdf) — p.2 TPS definition in its specified disease context.
 - [Cortés et al., 2022: KEYNOTE-355 overall survival](https://pubmed.ncbi.nlm.nih.gov/35857659/) — advanced-TNBC trial and prespecified analysis populations.
+- [Schmid et al., 2018: IMpassion130](https://pubmed.ncbi.nlm.nih.gov/30345906/) — SP142 IC ≥1% as the PD-L1-positive definition.
+- [Rugo et al., 2021: SP142, SP263 and 22C3 in IMpassion130](https://pubmed.ncbi.nlm.nih.gov/34097070/) — assay prevalence and non-equivalence.
+- [Reisenbichler et al., 2020: multi-pathologist PD-L1 reproducibility in TNBC](https://pubmed.ncbi.nlm.nih.gov/32300181/).
+- [Roche, August 27, 2021: update on the US atezolizumab TNBC indication](https://www.roche.com/media/releases/med-cor-2021-08-27.html).
 - [FDA: pembrolizumab label, supplement 194 (2026)](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf) — early/advanced TNBC trial context, without an exhaustive regimen inventory here.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 - [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
 <!-- END GENERATED USED IN -->

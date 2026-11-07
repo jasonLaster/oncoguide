@@ -3,8 +3,8 @@ title: "Local-treatment reference shelf"
 type: navigation
 sensitive: false
 tags: [education, local-treatment, reference]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -16,13 +16,14 @@ Use this page when you need a source or a quick comparison while reading a local
 
 ## Find the tool's practical question
 
-The three delivery approaches below call for different planning evidence. A technology name does not establish a safe plan or an added clinical benefit.
+The delivery approaches below call for different planning evidence. A technology name does not establish a safe plan or an added clinical benefit.
 
 | Delivery approach | Planning information to look for | A common shortcut to question | Detailed reference |
 |---|---|---|---|
-| [Probe-based ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation) | Access path, treatment-zone coverage, margin and nearby structures | “A small diameter automatically makes the procedure suitable” | [Ablation concept](/wiki/education/concepts/therapeutics/local-therapies/ablation) |
-| External [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics) | Defined volume, motion, dose distribution, prior exposure and normal-tissue constraints | “Precise aiming eliminates normal-tissue exposure” | [Radiation concept](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics) |
-| Radioligand therapy | Product-specific uptake, retention, absorbed dose and normal-organ exposure | “A positive tracer scan proves complete therapeutic coverage” | [Delivery comparison](/wiki/education/local-treatment-modalities/06-comparisons) |
+| [Probe-based ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation) | Access path, treatment-zone coverage, margin and nearby structures | “A small diameter automatically makes the procedure suitable” | [Cryoablation vs RFA vs MWA](/wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa) |
+| External [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics) | Defined volume, motion, dose distribution, prior exposure and normal-tissue constraints | “Precise aiming eliminates normal-tissue exposure” | [SBRT vs conventional radiation](/wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation) |
+| [Breast surgery](/wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics) | Extent of removal, margins, node sampling and whether [completion surgery](/wiki/education/concepts/therapeutics/local-therapies/completion-surgery) is needed | “A clean scan means nothing is left to remove” | [Completion surgery](/wiki/education/concepts/therapeutics/local-therapies/completion-surgery) |
+| [Radioligand therapy](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy) | Product-specific uptake, retention, absorbed dose and normal-organ exposure | “A positive tracer scan proves complete therapeutic coverage” | [Radioligand concept](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy) |
 
 [Stereotactic body radiation therapy (SBRT)](/wiki/education/concepts/therapeutics/local-therapies/sbrt) and [hypofractionation](/wiki/education/concepts/therapeutics/local-therapies/hypofractionation) describe different aspects of radiation delivery. A short schedule alone does not make a treatment SBRT. These distinctions are useful before looking up any combination study.
 
@@ -35,7 +36,8 @@ This is a bibliography organized by question, rather than a ranking of treatment
 | Does ablation add to ongoing checkpoint treatment after a response leaves limited residual disease? | [BOOSTER, Yang et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41213939/) | Selected advanced non-small-cell lung cancer; randomized phase-2 comparison; ablation, not SBRT |
 | Does consolidation checkpoint treatment improve outcomes after concurrent chemotherapy and radiation? | [PACIFIC five-year report, Spigel et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35108059/) | Unresectable stage-III non-small-cell lung cancer without progression after concurrent platinum chemoradiation |
 | Does treating a few progressing sites add to standard systemic care? | [CURB, Tsai et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38104577/) | Oligoprogressive breast and lung cohorts; the breast cohort did not show significant progression-free survival improvement |
-| Does treating detected metastases add to first-line systemic therapy in limited metastatic breast cancer? | [NRG-BR002, Chmura et al., 2026](https://ascopubs.org/doi/10.1200/JCO-26-00201) | Full report published October 7, 2026; no demonstrated progression-free survival improvement; planned phase 3 did not proceed |
+| Can regional nodal radiation be omitted when biopsy-proven nodes become cancer-free after neoadjuvant chemotherapy? | [NSABP B-51, Mamounas et al., 2025](https://pubmed.ncbi.nlm.nih.gov/40466065/) | Clinical T1–3 N1 disease that became ypN0; no significant recurrence benefit from nodal radiation (hazard ratio 0.88, P = 0.51). See [regional nodal irradiation](/wiki/education/concepts/therapeutics/local-therapies/regional-nodal-irradiation-after-neoadjuvant-therapy) |
+| Does treating detected metastases add to first-line systemic therapy in limited metastatic breast cancer? | [NRG-BR002, Chmura et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42842849/) | Breast cancer with at most four metastases, a controlled primary and no progression on first-line therapy; ablation was mostly SBRT. Median progression-free survival 23.0 months without ablation versus 19.5 with it (hazard ratio 0.92, P = .42); overall survival hazard ratio 1.07. Phase 3 did not proceed; the authors advise against routine ablation outside trials except for palliation. Most participants had hormone receptor–positive cancer |
 
 “Benefit” is incomplete without an outcome. [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) distinguish progression-free and overall survival. A null added-outcome comparison does not make symptom relief irrelevant; a successful treated-site response does not prove benefit at distant sites.
 
@@ -55,4 +57,4 @@ For more practice, use [reading cancer evidence](/wiki/education/guides/reading-
 
 ## Sources and scope
 
-Source check: 2026-10-09. The six linked primary reports and official guidance documents above form this reference shelf. Clinical results apply to their stated populations and strategies; expert and learner review pending.
+Source check: 2026-11-07 for NRG-BR002 and NSABP B-51 (PubMed abstracts); 2026-10-09 otherwise. The seven linked primary reports and official guidance documents above form this reference shelf. Clinical results apply to their stated populations and strategies; expert and learner review pending.

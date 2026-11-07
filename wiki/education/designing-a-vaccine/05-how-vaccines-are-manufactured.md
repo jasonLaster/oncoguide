@@ -8,8 +8,8 @@ objectives: ["Separate RNA synthesis, purification, formulation and batch releas
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy]]", "[[wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex]]", "[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release]]"]
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -17,7 +17,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 # How a personalized vaccine is manufactured
 
-**Personalization chooses what to encode; manufacturing turns the design into a defined product that can be tested and released.** This is step seven of the [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index).
+**Personalization chooses what to encode; manufacturing turns the design into a defined product that can be tested and released.** This is step seven of the [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index); the file name does not track the step.
 
 **Before you start:** [Messenger RNA (mRNA) construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy) describes the message. [In vitro transcription](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription) explains RNA synthesis. [RNA-lipoplex](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex) introduces one formulation. [Good manufacturing practice (GMP)](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) explains process quality controls; [batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release) describes lot disposition.
 

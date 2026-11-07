@@ -4,12 +4,12 @@ type: guide-lesson
 guide: start-here
 step: 2
 minutes: 10
-objectives: ["Distinguish immune-cell presence from recognition and function.", "Name a missing step before proposing an immune intervention."]
+objectives: ["Explain how a T cell recognizes a cancer cell.", "Say what pembrolizumab blocks and what it cannot do.", "Distinguish immune-cell presence from recognition and function."]
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
 sensitive: false
 tags: [education, foundations, immunology]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -17,7 +17,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 # Follow the route to immune recognition
 
-**An immune cell has to encounter a suitable target and perform the needed job. Finding the cell in a sample establishes only part of that route.**
+**T cells recognize cancer by reading protein fragments on its surface, and tumors survive partly by pressing T-cell brakes. Finding immune cells in a sample establishes only part of that route.**
 
 **Before you start:** The [immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster) separates cell types and jobs. [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) explains peptide display. A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) explains recognition of a peptide together with its display molecule.
 
@@ -37,7 +37,7 @@ flowchart TD
 
 “The immune system” names many cells and signals. Some cells detect danger, some help start a response, and others can damage a recognized target. A count does not tell you which job was done or whether it helped.
 
-For conventional T cells, recognition often involves a short protein fragment displayed by HLA. The TCR encounters that combined feature. A mutation in [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma) is several steps upstream: it must contribute to a protein, a fragment must be produced and displayed, and a suitable T cell must recognize it. Each step has its own measurement.
+Conventional (αβ) T cells, the main kind, always recognize a short protein fragment (peptide) displayed by HLA; the TCR binds that peptide–HLA pair. Some rarer, unconventional T cells recognize other molecules. A mutation in [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma) is several steps upstream: it must contribute to a protein, a fragment must be produced and displayed, and a suitable T cell must recognize it. Each step has its own measurement.
 
 This route is useful without being universal. Antibodies recognize accessible features differently. Natural killer cells use a different balance of activating and inhibitory signals. Do not force every immune treatment into the same diagram.
 
@@ -47,7 +47,11 @@ The [cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology
 
 A response may fail because the relevant target is poorly displayed, a matching cell is scarce, cells cannot reach the right region or local signals impair function. These possibilities are different [immune-escape mechanisms](/wiki/education/concepts/immunology/tumor-immunology/immune-escape). The useful question is which one the evidence supports.
 
-[Immune checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) help regulate responses. A [checkpoint inhibitor](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) can interfere with a particular inhibitory pathway. It does not supply every missing target, matching receptor or route into a tumor. Its mechanism is one intervention at one part of a larger system.
+## What the immune system normally does, and what pembrolizumab changes
+
+T cells patrol the body, inspect peptide–HLA displays and can kill cells that show abnormal fragments, including cancer cells. To avoid attacking healthy tissue, T cells carry brakes called [immune checkpoints](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint). One is programmed cell death protein 1 (PD-1). Many tumors display its partner, programmed death-ligand 1 (PD-L1), which presses that brake on T cells that have found them.
+
+Pembrolizumab is an antibody that blocks PD-1, so the brake is released and T cells that recognize the tumor can act again. For stage II–III triple-negative breast cancer it is given with chemotherapy, as in the [KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen). A [checkpoint inhibitor](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) cannot create a T cell that recognizes the tumor or open a route into it, and released brakes can also cause inflammation in healthy organs.
 
 ## A worked comparison: equal counts, different routes
 
@@ -62,9 +66,8 @@ Now a researcher shows that blood T cells react to a proposed peptide in a labor
 
 <img src="../../concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg" alt="Three matching fictional tumor-tissue fields show eight specified T-cell symbols in both inflamed and excluded patterns, relocated from mainly inside cancer-cell regions to surrounding stroma; a desert field has two. Symbol count is distinct from a stromal-area score." data-theme-pair width="600" height="1500">
 
-*Fictional fields: inflamed and excluded have the same eight T-cell symbols, with different locations; desert has two. The outlines mark regions, not a proven wall. Counts are not a stromal-area lymphocyte score, and no clinical cutoff, receptor target, killing or treatment response follows.*
+*Same count, different places: inflamed and excluded fields both have eight T cells; the desert has two.*
 
-The first two fictional fields contain exactly eight symbols each; they compare locations, not a clinical count threshold or tracked cells moving between specimens. Presence and location leave natural target display, receptor specificity, access mechanisms and killing open.
 
 ## Use a question ladder
 
@@ -105,7 +108,8 @@ A fictional slide shows many T cells outside cancer nests. Someone proposes “m
 
 ## Sources and scope
 
-Foundation teaching about a conventional T-cell route, source-checked October 9, 2026; expert and learner review pending. Examples are fictional. Other immune cells and recognition formats have different requirements.
+Foundation teaching about a conventional T-cell route, source-checked November 7, 2026; expert and learner review pending. Examples are fictional. Other immune cells and recognition formats have different requirements.
 
 - [Chen and Mellman, 2013: the cancer-immunity cycle](https://doi.org/10.1016/j.immuni.2013.07.012), for dependencies in an antitumor immune response.
+- [KEYTRUDA prescribing information](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287), for pembrolizumab's PD-1 mechanism.
 - [NCI: Immunotherapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy), for immune treatment categories. The linked concepts provide the specialist sources.

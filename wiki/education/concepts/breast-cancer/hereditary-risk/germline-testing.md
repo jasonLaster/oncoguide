@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]"
   - "[[wiki/education/concepts/breast-cancer/hereditary-risk/hereditary-breast-cancer-genes]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]"]
 sensitive: false
 tags: [education, breast-cancer, genetics]
 updated: 2026-10-10
@@ -106,5 +106,6 @@ Source check: October 10, 2026. Examples are fictional; expert and learner revie
 
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
+- [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 - [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
 <!-- END GENERATED USED IN -->

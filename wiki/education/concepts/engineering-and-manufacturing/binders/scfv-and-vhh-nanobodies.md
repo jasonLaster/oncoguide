@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/ant
 used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -39,7 +39,9 @@ The [early engineered scFv study](https://pubmed.ncbi.nlm.nih.gov/3045807/) show
 
 Camelids also make naturally occurring heavy-chain antibodies without light chains. **VHH (variable domain of a heavy-chain-only antibody)** names the binding domain of such an antibody. An isolated VHH can serve as a single-domain binder, often called a **nanobody**. The [original heavy-chain antibody study](https://pubmed.ncbi.nlm.nih.gov/8502296/) established the underlying architecture. Not every engineered single-domain antibody is a camelid-derived VHH.
 
-Both formats can supply the binding region of a [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) or appear in other molecular therapies. Neither isolated format contains the full antibody constant region that normally helps recruit immune machinery. Those functions require other components in the finished design. A CAR also needs its membrane and signaling regions; the binder alone is not the receptor.
+Both formats can supply the binding region of a [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) or appear in other molecular therapies. Neither isolated format contains any of the antibody constant region that normally helps recruit immune machinery. Those functions require other components in the finished design. A CAR also needs its membrane and signaling regions; the binder alone is not the receptor.
+
+**The size difference is large.** An intact monoclonal antibody is about 150 kilodaltons (kDa); a monovalent scFv is about 25 to 30 kDa ([NCBI molecular-imaging monograph](https://pubmed.ncbi.nlm.nih.gov/20641540/)); a single-domain VHH can be as small as about 15 kDa ([Bathula et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32936001/)). That is roughly a fifth and a tenth of an antibody's mass, which is why these formats clear from blood faster and are described as penetrating tissue better — a property of the soluble protein, not of a cell carrying it.
 
 Format affects geometry and engineering options. A VHH has one domain, while an scFv has a paired-domain interface and linker. Either may be joined to additional binding units. An isolated single binding domain has one recognition site; joining several domains can change the number and geometry of contacts. **Affinity** describes an individual interaction; **avidity** describes the combined strength of multiple interactions. Compare matched formats rather than assuming that a multivalent molecule has improved intrinsic affinity. A small binding module on a cell does not make that whole living cell penetrate tissue like a small soluble protein.
 
@@ -95,11 +97,13 @@ Two fictional CARs use different binders for surface protein X. Both bind X in a
 
 ## Sources and scope
 
-Source check: October 10, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
+Source check: November 7, 2026 (format masses, constant-region wording); October 10, 2026 (rest); expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
 
 - [Huston et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3045807/) — engineered linked heavy- and light-chain variable domains.
 - [Hamers-Casterman et al., 1993](https://pubmed.ncbi.nlm.nih.gov/8502296/) — naturally occurring camelid heavy-chain antibodies.
 - [Long et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25939063/) — clustering, tonic signaling and exhaustion in specified CAR constructs.
+- [NCBI Molecular Imaging and Contrast Agent Database entry, 2004](https://pubmed.ncbi.nlm.nih.gov/20641540/) — intact monoclonal antibodies about 150 kDa, monovalent scFv 25 to 30 kDa, with the clearance and penetration consequences; checked November 7, 2026.
+- [Bathula et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32936001/) — nanobody molecular weights as low as about 15 kDa; a review, so treat the figure as a format range, not one product's mass; checked November 7, 2026.
 - [Ways and Parham, 1983](https://pubmed.ncbi.nlm.nih.gov/6197968/) — single-site affinity and bivalent avidity in defined antibody–cell binding experiments.
 
 <!-- BEGIN GENERATED USED IN -->

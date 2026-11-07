@@ -8,13 +8,13 @@ aliases: ["TNBC", "triple-negative breast cancer", "triple negative breast cance
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor]]", "[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor]]", "[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/multi-omics-foundations/02-cell-identity-and-state]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/multi-omics-foundations/02-cell-identity-and-state]]"]
 ---
 
 # Triple-negative breast cancer (TNBC)
@@ -48,6 +48,13 @@ The map gathers independent tests; it does not imply that one receptor causes an
 ## Why it matters in cancer
 
 The classification organizes treatment pathways and research cohorts, separating cancers without the usual positive hormone-receptor or HER2-overexpression findings from cancers that have them. It is useful because it answers a limited question clearly.
+
+What the label means for a newcomer, from the National Cancer Institute [NCI TNBC overview](https://www.cancer.gov/types/breast/breast-cancer-types/triple-negative):
+
+- TNBC is about 15% of breast cancers.
+- It is more often diagnosed at a younger age, is more common in Black women than in White women, and is more common in carriers of *BRCA1* or *BRCA2* variants.
+- It grows more quickly and is more likely to come back than other invasive breast cancers; it is rarely found as stage 0 [ductal carcinoma in situ](/wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis).
+- Because hormone and HER2 drugs do not apply, chemotherapy and immunotherapy carry treatment; for stage II–III disease the usual plan is [the KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen). [Recurrence timing](/wiki/education/concepts/breast-cancer/natural-history/tnbc-recurrence-timing-and-sites) describes when the risk is highest.
 
 Within TNBC, tumors differ in gene-expression programs and other features. **Basal-like** is an [intrinsic expression subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype), not the definition of TNBC. Direct comparisons show that expression labels and receptor categories do not map one to one.
 
@@ -98,8 +105,9 @@ Use the three completed receptor results to read the category, then ask separate
 
 ## Sources and scope
 
-General education about invasive breast cancer; fictional examples. Source-checked October 10, 2026. Expert and learner review remain pending.
+General education about invasive breast cancer; fictional examples. Source-checked November 7, 2026. Expert and learner review remain pending.
 
+- [NCI: Triple-negative breast cancer overview](https://www.cancer.gov/types/breast/breast-cancer-types/triple-negative): share of breast cancers, who is affected and growth.
 - [NCI, definition of TNBC](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/triple-negative-breast-cancer): the receptor category.
 - [ASCO/CAP, ER and PR recommendations (2020)](https://www.cap.org/wp-content/uploads/documents/erpgr_summaryrecommendations.pdf): negative and ER-low thresholds.
 - [CAP, breast biomarker template v1.6.2.0 (September 2026)](https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true): HER2 scoring and workup context.
@@ -110,8 +118,9 @@ General education about invasive breast cancer; fictional examples. Source-check
 
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
 - [Choose a target with a usable safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target)
+- [Read the diagnostic biopsy report](/wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy)
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
-- [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
+- [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)

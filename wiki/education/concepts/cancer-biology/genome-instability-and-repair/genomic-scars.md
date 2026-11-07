@@ -3,26 +3,27 @@ title: "Genomic scars"
 type: concept
 domain: cancer-biology/genome-instability-and-repair
 aliases: ["genomic scar", "genomic scars", "LOH scar score", "telomeric allelic imbalance", "TAI", "large-scale state transitions", "LST"]
-summary: "Genomic scars are persistent patterns of chromosome imbalance or rearrangement that record aspects of a tumor\u2019s past evolution, rather than directly measuring its current repair activity."
+summary: "Genomic scars are persistent patterns in a tumor genome, most often chromosome-scale imbalances and rearrangements but also characteristic small mutations, that record aspects of the tumor’s past repair history rather than directly measuring its current repair activity."
 glossary_anchor: genomic-scars
 level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]"
   - "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: "2026-10-09"
+source_checked: 2026-11-07
 tags: [education, DNA-repair]
+updated: 2026-11-07
 ---
 
 # Genomic scars
 
 ## In one sentence
 
-Genomic scars are persistent patterns of chromosome imbalance or rearrangement that record aspects of a tumor’s past evolution, rather than directly measuring its current repair activity.
+Genomic scars are persistent patterns in a tumor genome, most often chromosome-scale imbalances and rearrangements but also characteristic small mutations, that record aspects of the tumor’s past repair history rather than directly measuring its current repair activity.
 
 ## The intuition
 
@@ -42,7 +43,17 @@ Three widely studied scar measures count different features:
 
 A **megabase (Mb)** is one million DNA bases. The LST rule concerns adjacent segment sizes, not a 10-Mb deletion. These study-specific algorithms are not interchangeable clinical positivity thresholds.
 
-Some assays combine LOH, TAI and LST counts into a score. Telli and colleagues evaluated such a score in defined neoadjuvant triple-negative breast cancer studies. Association with response in that population did not establish a universal treatment rule. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/).
+This page concentrates on the chromosome-scale scars. Sequence-level scars, such as the single-base signature SBS3 and small deletions flanked by short repeated sequences (microhomology), are counted from mutation patterns instead; tools such as HRDetect combine both kinds. See [mutational signatures](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures).
+
+### Composite scores and cutoffs
+
+Most reports a reader meets give one **composite homologous recombination deficiency (HRD) score** rather than three counts. In the best-known form, the score is the unweighted sum of the LOH, TAI and LST counts. Telli and colleagues applied that sum in three neoadjuvant TNBC trials of platinum-containing chemotherapy, defining homologous recombination (HR) deficiency as a score of at least 42 or a BRCA1/2 mutation. HR-deficient tumors were more likely to reach [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) or minimal [residual cancer burden (RCB 0/I)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) on those platinum regimens. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/).
+
+Three things travel with any composite number:
+
+1. **The scale.** Laboratories compute their own scores from their own segmentation and normalization. A 45 on one assay is not a 45 on another, so one laboratory's number cannot be read against another's cutoff.
+2. **The cutoff's origin.** A threshold is set in a particular training population, for a particular question. The 42 cutoff above was tested for response to platinum-containing neoadjuvant chemotherapy, not for every drug or for recurrence risk.
+3. **The intended use.** An association with response in a study population is not by itself a drug-selection rule; a regulator-approved use names the assay, the cancer and the drug together.
 
 <img src="./images/genomic-scars-chromosome-tracks-v1-light.svg" alt="Chromosome-region tracks contrast A/B, copy-loss LOH and copy-neutral LOH; an end-reaching imbalance and two within-arm segment transitions show distinct scar-counting questions." width="780" height="1360" data-theme-pair>
 
@@ -116,6 +127,5 @@ Source check: 2026-10-09. Algorithm definitions and interpretation education; ex
 ## Used in
 
 - [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity)
-- [PARP trapping and recycling](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling)
 - [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
 <!-- END GENERATED USED IN -->

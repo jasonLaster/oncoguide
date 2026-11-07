@@ -107,6 +107,6 @@ Source check: October 10, 2026. Fictional exercise; expert and learner review re
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 - [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
 <!-- END GENERATED USED IN -->

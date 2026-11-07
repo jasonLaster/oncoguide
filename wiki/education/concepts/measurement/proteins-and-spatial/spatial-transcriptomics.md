@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/rna-and-mrna
 used_by: ["[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -34,14 +34,15 @@ A list of people at a gathering differs from a map of where they stood. Spatial 
 <p class="cartoon-caption">The capture spot is one positional barcode, not one cell. The separate imaging scene has six decoded G/H coordinates. Alternative estimated boundaries can change whether a coordinate is assigned. Gene R is absent from the observed panel; its hatched model value is not another detected molecule. All tissue, spot and boundary geometry is schematic, without a current-platform size claim.</p>
 </div>
 
-For a concrete assignment example, [Xenium’s official segmentation documentation](https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation) distinguishes masks, display polygons and transcript assignment. Its implementation details do not define every spatial platform.
-
-[Ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) measurements are linked to positions in a tissue section. Two broad strategies recover different kinds of evidence:
+[Ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) measurements are linked to positions in a tissue section. Three broad strategies recover different kinds of evidence:
 
 | Strategy | Observation | Resolution boundary |
 |---|---|---|
-| Sequencing-based capture | Sequence counts assigned to positional barcodes | A spot, bin or other capture unit is not automatically one cell |
+| Sequencing-based capture | Sequence counts assigned to positional barcodes across the section | A spot, bin or other capture unit is not automatically one cell |
 | Imaging-based detection | Probe-identified RNA signals decoded at image coordinates | Molecule coordinates and estimated cell boundaries are separate outputs |
+| Region-of-interest profiling | Probes released only from regions an operator draws, then counted | One readout per chosen region, not a continuous map |
+
+**Region-of-interest profiling** (digital spatial profiling) attaches a DNA tag to each antibody or RNA probe through a light-cleavable linker. Light shone on a chosen region releases only that region's tags for counting. In the method paper, a region covered 1 to about 5,000 cells; panels reached 44 proteins, or 1,412 genes with sequencing readout, on formalin-fixed tissue ([Merritt 2020](https://doi.org/10.1038/s41587-020-0472-9)). Because people choose the regions, for example tumor versus immune-rich stroma, the result depends on how regions were selected.
 
 An early sequencing-based method placed sections on arrays of positionally barcoded primers. RNA-derived sequence evidence could then be related to the tissue image. Later capture geometries vary. Smaller bins do not automatically supply complete single-cell profiles: capture efficiency and assignment still matter. [Ståhl 2016](https://pubmed.ncbi.nlm.nih.gov/27365449/).
 
@@ -109,9 +110,11 @@ What three labels help you read a spatial result?
 
 ## Sources and scope
 
-Source check: October 10, 2026. Examples are fictional. Expert and learner review remain pending. The cited methods establish distinct measurement and analysis principles; they do not validate every current platform or clinical claim.
+Source check: November 7, 2026. Examples are fictional. Expert and learner review remain pending. The cited methods establish distinct measurement and analysis principles; they do not validate every current platform or clinical claim.
 
 - [Ståhl et al., original spatial capture/sequencing method (2016)](https://pubmed.ncbi.nlm.nih.gov/27365449/).
+- [Merritt et al., digital spatial profiling of proteins and RNA in fixed tissue (2020)](https://doi.org/10.1038/s41587-020-0472-9) — region size and panel scale (PMID 32393914).
+- [Xenium segmentation documentation](https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation) — one platform's masks, display polygons and transcript assignment, as a worked example.
 - [Chen et al., multiplexed RNA imaging with MERFISH (2015)](https://pubmed.ncbi.nlm.nih.gov/25858977/).
 - [Petukhov et al., imaging-based cell segmentation (2022; online 2021)](https://pubmed.ncbi.nlm.nih.gov/34650268/).
 - [Biancalani et al., Tangram spatial alignment and reconstruction (2021)](https://pubmed.ncbi.nlm.nih.gov/34711971/).

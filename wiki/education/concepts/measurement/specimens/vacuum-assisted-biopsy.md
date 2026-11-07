@@ -12,7 +12,7 @@ prerequisites:
   - "[[wiki/education/concepts/measurement/specimens/core-needle-biopsy]]"
 used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]"]
 reviewed: "pending"
-source_checked: 2026-10-10
+source_checked: "2026-11-07"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 glossary_anchor: "vacuum-assisted-biopsy"
@@ -33,21 +33,12 @@ Imagine a sampling tool that can gather several plugs from nearby parts of a mat
 
 An image-guided probe is positioned near the target. Suction draws tissue into its sampling opening, and a cutter separates a piece for collection. Multiple pieces can be obtained through the positioned probe. They are then prepared for pathology, much like other [[wiki/education/concepts/measurement/specimens/core-needle-biopsy|core tissue samples]].
 
-<!-- BEGIN SUCCESSOR PROSPECTIVE brief-260-C: scratch SVG candidate, independent G3 pending, not adopted -->
-### Several pieces are not a mapped outer boundary
+Several vacuum-collected pieces widen the material available, but each still comes from a selected location. An oriented excision specimen is different evidence: its outer surfaces are inked and mapped to directions, so a pathologist can assess margins. Separate pieces cannot supply that map, and even an oriented specimen depends on documented orientation and careful handling.
 
-Several vacuum-collected pieces can widen the material available for examination. Each still comes from a selected location. Compare those separate pieces with a documented, oriented excision specimen: its removed outer surfaces can be mapped to directions and selected microscopic sections. That map is a different kind of evidence. It still does not inspect every cell left in the body or guarantee that every edge is clear.
-
+<div class="cartoon-frame">
 <img src="./images/sampled-pieces-versus-oriented-boundary-v2-light.svg" alt="One panel links three selected schematic tissue locations to three separate vacuum-collected pieces; another shows an oriented removed specimen with a documented direction key, an inked outer surface and one mapped section, without a negative-margin or clearance label." width="780" height="1910" data-theme-pair>
-
-Separate sampled pieces can preserve local tissue without forming a continuous map of the lesion's outer boundary. An oriented excision provides a documented boundary for evaluation; neither its outline nor visible removal supplies a margin result or proves complete clearance. Counts and shapes are fictional.
-
-**Handling limit:** Real tissue can change shape. The specimen's orientation must be documented; if it is unclear, this sketch cannot supply it. Ink can also enter cracks in the tissue. The clean outline does not certify handling or a clear margin.
-
-**Try it:** Three pieces show the same lesion, and little visible abnormality remains on imaging. Do the pieces establish negative surgical margins? **Answer:** No. Their local tissue findings do not supply the oriented outer-boundary assessment needed for that separate claim.
-
-[Return to the local sampling window](core-needle-biopsy.md#how-it-works).
-<!-- END SUCCESSOR PROSPECTIVE brief-260-C -->
+<p class="cartoon-caption">Several sampled pieces show local tissue; only an oriented, inked specimen gives a mapped outer boundary for margin assessment.</p>
+</div>
 
 The vacuum helps acquire material; it does not identify which cells are malignant. That requires examination of the collected tissue. Imaging may help document that the intended abnormality was sampled. For targets defined by calcifications, checking the collected material against that target can be important to radiology–pathology concordance: does the tissue finding explain the image?
 
@@ -60,6 +51,17 @@ flowchart TD
     C --> D[Pathology examines represented tissue]
     D --> E[Check agreement with the target]
 ```
+
+## Biopsy after neoadjuvant therapy
+
+A newer use is sampling the former tumor site after neoadjuvant (before-surgery) therapy, to predict a [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) without surgery. The question is the false-negative rate: how often the biopsy shows no cancer when surgery later finds some.
+
+| Study | Population | Result |
+|---|---|---|
+| RESPONDER ([Heil 2022](https://doi.org/10.1097/SLA.0000000000004246)) | 398 women, all subtypes, with imaging response; biopsy then standard surgery | Biopsy missed residual tumor in 37 of 208 (false-negative rate 17.8%); combining imaging with biopsy lowered it to 6.2% in an exploratory analysis |
+| Kuerer 2022 ([*Lancet Oncol*](https://doi.org/10.1016/S1470-2045(22)00613-1)) | 50 women aged 40 or older with triple-negative or HER2-positive cancer and a residual lesion under 2 cm; at least 12 cores | Biopsy showed pCR in 31 (62%); they had radiotherapy without breast surgery, with no in-breast recurrences at a median 26.4 months |
+
+A biopsy-defined pCR is a sample of the tumor bed, not the whole bed. Omitting surgery on that basis remains investigational and is limited to trial-like selection.
 
 ## Why it matters in cancer
 
@@ -106,10 +108,12 @@ Vacuum assistance can collect useful tissue efficiently; diagnosis, representati
 
 ## Sources and scope
 
-Source check: October 10, 2026. General sampling education; expert and learner review remain pending.
+Source check: November 7, 2026. General sampling education; expert and learner review remain pending.
 
 - [NCI: vacuum-assisted core biopsy](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/vacuum-assisted-core-biopsy) — official collection mechanism.
 - [ACR/RSNA: ultrasound-guided breast biopsy](https://www.radiologyinfo.org/en/info/breastbius) — multiple samples, targeting, limitations and tissue–imaging correlation.
+- [Heil et al., 2022: RESPONDER](https://doi.org/10.1097/SLA.0000000000004246) — vacuum-assisted biopsy after neoadjuvant therapy versus surgery (PMID 32657944).
+- [Kuerer et al., 2022](https://doi.org/10.1016/S1470-2045(22)00613-1) — omission of breast surgery after biopsy-defined pCR, single-arm phase 2 (PMID 36306810).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

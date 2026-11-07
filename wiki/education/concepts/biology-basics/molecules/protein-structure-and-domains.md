@@ -5,15 +5,16 @@ domain: biology-basics/molecules
 summary: "Protein structure is the three-dimensional arrangement of an amino-acid chain; domains are regions that form recognizable structural units within a protein."
 glossary_anchor: protein-structure-and-domains
 aliases: ["protein structure", "protein domain", "domain", "structural motif", "intrinsically disordered region"]
-level: foundation
+level: intermediate
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/protein-and-peptide]]"]
 used_by: []
 sensitive: false
 tags: [education, biology-basics]
-source_checked: 2026-10-09
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
+updated: 2026-11-07
 ---
 
 # Protein structure and domains

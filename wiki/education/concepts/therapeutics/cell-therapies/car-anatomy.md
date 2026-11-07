@@ -10,8 +10,8 @@ used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki
 level: "foundation"
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -56,7 +56,7 @@ In common usage, a **first-generation** CAR has an activation-signaling region, 
 
 Frequently borrowed regions come from **CD28 (cluster of differentiation 28)** or **4-1BB**, also called CD137. These are signaling regions within the engineered receptor, rather than separate injected receptors. Kawalekar's defined human-cell experiments associated these designs with different metabolic and memory features. They did not establish a universal persistence, speed, safety or patient-benefit ranking.
 
-Some authors call designs with inducible cytokine release **fourth-generation** or **TRUCKs**: T cells redirected for antigen-unrestricted cytokine-initiated killing. The [armoring concept](/wiki/education/concepts/therapeutics/cell-therapies/armoring) explains the added program and its research limits. Later generation labels vary: ask for actual domains and genes rather than assuming a standardized product or improvement.
+Some authors call designs with inducible cytokine release **fourth-generation** or **TRUCKs**, T cells redirected for universal cytokine-mediated killing ([Chmielewski and Abken, 2015](https://pubmed.ncbi.nlm.nih.gov/25985798/)). The [armoring concept](/wiki/education/concepts/therapeutics/cell-therapies/armoring) owns the term and explains the added program and its research limits. Later generation labels vary: ask for actual domains and genes rather than assuming a standardized product or improvement.
 
 ```mermaid
 flowchart TD

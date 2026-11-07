@@ -1,0 +1,9 @@
+Authored SVG direction (recorded November 7, 2026 from paired-reads-and-fragment-ancestry-v1-public-custody.json when the image was adopted into its owner page)
+Tool: authored SVG; the custody record lists no executed image-model call.
+Owner page: wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md
+Section: Try it
+Learner task: Distinguish paired reads and copies from independent fragments
+Gap addressed: Current process map does not depict molecular ancestry
+Scene: Five labeled fragment rows each have a left-end read and a right-end read joined as one pair; a separate vignette traces three sequenced copies and their six reads back to one source fragment.
+Scientific-accuracy guardrails: Trace paired ends, duplicates and independent source fragments separately. Ten reads from five fragments are at most five independent fragments, without guaranteed coverage or confirmation.
+Theme: light and dark variants share geometry; text and strokes meet contrast on both backgrounds.

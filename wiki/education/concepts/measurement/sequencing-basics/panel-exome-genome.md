@@ -8,8 +8,8 @@ aliases: ["WES", "WGS", "whole-exome sequencing", "whole-genome sequencing", "ta
 level: "foundation"
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-12"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -40,6 +40,8 @@ You can proofread selected pages, most recipe sections or an entire book. Broade
 | **Targeted panel** | Predefined genes or regions; some include selected introns or other targets | Exact coordinates and analyzed change classes, rather than gene count alone |
 | **[Whole-exome sequencing (WES)](/about/Terminology#wes)** | Primarily exons, the segments retained in processed [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna); nearby splice boundaries are often targeted | Capture design, untranslated-region coverage and reporting scope |
 | **[Whole-genome sequencing (WGS)](/about/Terminology#wgs)** | Coding and noncoding regions broadly | Difficult repeats, uneven measurement and which analyses were actually performed |
+
+**Rough sizes.** The human genome is about 3,000 million bases (megabases, Mb). Protein-coding sequence is about 1% of it, roughly 30 Mb across about 180,000 exons ([Ng 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2844771/)). A large tumor panel is far smaller again: one hospital panel covered 341, later 410, cancer genes and was sequenced to a mean depth of 718 reads per position. Down-sampling its data to a typical exome depth of 150 reads would have missed at least 9% of the mutations found ([Zehir 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5461196/)). So the usual trade is a few hundred genes read deeply, versus all genes read more thinly, versus the whole genome read more thinly still.
 
 Exons include untranslated sequence as well as protein-coding sequence. “Exome” therefore does not mean that every captured base codes for protein, or that every regulatory region and rearrangement breakpoint was examined. [NCI exon definition](https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/exon).
 
@@ -99,11 +101,13 @@ One answer: “where it looks; what it can detect reliably there.”
 
 ## Sources and scope
 
-Source check: October 10, 2026. Assay-category education; the examples are fictional. Expert and learner review remain pending. No laboratory or treatment recommendation is proposed.
+Source check: November 7, 2026. Assay-category education; the examples are fictional. Expert and learner review remain pending. No laboratory or treatment recommendation is proposed.
 
 - [NHGRI DNA-sequencing fact sheet: sequence measurement and broad assay scope](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet).
 - [NCI genetics dictionary: exon, including retained untranslated sequence](https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/exon).
 - [AMP/CAP 2017: end-to-end oncology sequencing validation by specimen, region and change class](https://pmc.ncbi.nlm.nih.gov/articles/PMC6941185/).
+- [Ng et al. 2009: exome capture](https://pmc.ncbi.nlm.nih.gov/articles/PMC2844771/) — protein-coding sequence about 1% of the genome, ~30 Mb (PMID 19684571).
+- [Zehir et al. 2017: prospective panel sequencing of 10,000 patients](https://pmc.ncbi.nlm.nih.gov/articles/PMC5461196/) — 341/410-gene panel, mean 718× depth, mutations missed at exome depth (PMID 28481359).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

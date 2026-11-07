@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/chemotherapy/chemotherap
 used_by: ["[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -62,7 +62,7 @@ Clinical assessment combines treatment delivery, symptoms, blood counts and dise
 ## Common confusions
 
 - **Taxane versus platinum:** taxanes alter microtubule dynamics; [platinum agents](/wiki/education/concepts/therapeutics/chemotherapy/platinum-agents) form chemical attachments to genetic material.
-- **Stabilizing versus destroying microtubules:** taxanes interfere by suppressing normal reorganization; not every microtubule-directed drug works this way.
+- **Stabilizers versus destabilizers:** taxanes freeze microtubules by stabilizing them. The opposite group blocks microtubule growth or assembly: vinca alkaloids, eribulin, and the antibody-drug conjugate payloads MMAE and DM1, which disrupt microtubule networks [eribulin label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=311a12f4-e5b3-4959-ab84-3d0eb6558d13), [T-DM1 label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e). Both groups stop division; see [ADC payload classes](/wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes).
 - **Same molecule versus same product:** formulation changes can matter even when the active molecule has the same name.
 - **Nerve symptoms versus effectiveness:** toxicity and cancer control require separate assessment.
 
@@ -86,11 +86,12 @@ In a fictional experiment, exposed cells show disorganized division, but survivi
 
 ## Sources and scope
 
-Source-checked October 9, 2026. General class mechanisms; expert and learner review pending. Product examples do not select a formulation or schedule.
+Source-checked October 9, 2026; stabilizer-versus-destabilizer confusion added November 7, 2026. General class mechanisms; expert and learner review pending. Product examples do not select a formulation or schedule.
 
 - [NCI Drug Dictionary: paclitaxel](https://www.cancer.gov/publications/dictionaries/cancer-drug/def/paclitaxel) — tubulin and microtubule mechanism.
 - [NCI Drug Dictionary: docetaxel](https://www.cancer.gov/publications/dictionaries/cancer-drug/def/docetaxel) — a second taxane example, not a formulation-equivalence claim.
 - [Schiff, Fant and Horwitz, 1979](https://pubmed.ncbi.nlm.nih.gov/423966/) — primary microtubule-assembly experiment.
+- [Eribulin prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=311a12f4-e5b3-4959-ab84-3d0eb6558d13), section 12.1 — inhibition of the microtubule growth phase.
 - [Albumin-bound paclitaxel prescribing information, revised May 2025](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6) — sections 2.1, 5.2 and 12.1; formulation distinction, neuropathy and interphase/mitotic functions.
 
 <!-- BEGIN GENERATED USED IN -->

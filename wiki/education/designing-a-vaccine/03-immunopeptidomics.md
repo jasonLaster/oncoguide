@@ -8,8 +8,8 @@ objectives: ["Identify which question each immune assay answers.", "Separate bin
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics]]", "[[wiki/education/concepts/measurement/immune-monitoring/flow-cytometry]]", "[[wiki/education/concepts/measurement/immune-monitoring/elispot]]", "[[wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays]]"]
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -17,7 +17,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 # Measure presentation, binding and response
 
-**Three useful immune measurements can agree without proving the final clinical claim.** Read each result as an answer to a specific question. This is step five of the [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index).
+**Three useful immune measurements can agree without proving the final clinical claim.** Read each result as an answer to a specific question. This is step five of the [vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index); the file name does not track the step.
 
 **Before you start:** [Human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) displays protein fragments. [Immunopeptidomics](/wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics) identifies recovered fragments. [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) measures features of prepared cells. [Enzyme-linked immunospot (ELISpot)](/wiki/education/concepts/measurement/immune-monitoring/elispot) records secretion-associated spots. [Functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays) test target-cell death.
 

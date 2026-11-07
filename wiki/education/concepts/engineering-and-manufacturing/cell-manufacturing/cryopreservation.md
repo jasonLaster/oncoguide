@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-c
 used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
-updated: "2026-10-13"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -33,7 +33,7 @@ The pause analogy has a limit: freezing and thawing can kill cells, change the r
 
 As water freezes, ice formation and changing solute concentrations can injure cells. Cooling rate and water movement influence whether damaging ice forms inside cells. Preservation methods control those stresses for the particular material.
 
-A **cryoprotectant** helps limit freezing injury. Dimethyl sulfoxide (DMSO) is used in some cell-product formulations, but its concentration, exposure and clinical risks are product-specific. A familiar ingredient does not validate a new freezing method.
+A **cryoprotectant** helps limit freezing injury. Dimethyl sulfoxide (DMSO) is the usual one for cell products, typically at a few percent of the final formulation: the YESCARTA (axicabtagene ciloleucel) label describes a formulation containing 5% DMSO and 2.5% human albumin ([DailyMed label, section 11](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59)). The cryoprotectant is infused with the thawed cells, so it is also a clinical exposure: that label attributes possible hypersensitivity reactions to DMSO or residual gentamicin. Concentration, exposure and risk remain product-specific, and a familiar ingredient does not validate a new freezing method.
 
 The preservation process includes the formulation, container, freezing, storage, transport and thawing conditions. [Chain of identity and custody](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody) maintains the link to the collected cells and intended product throughout.
 
@@ -93,14 +93,15 @@ Each dot stands for one million cells in this invented counting example. Teal do
 ## Related concepts
 
 - [Ex vivo cell expansion](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion)
-- [Good manufacturing practice and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release)
+- [Good manufacturing practice](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) and [batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release)
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. This is not a freezing, thawing or infusion recipe. Practice counts are fictional.
+Source check: November 7, 2026 (DMSO concentration and exposure); October 9, 2026 (rest); expert and learner review pending. This is not a freezing, thawing or infusion recipe. Practice counts are fictional.
 
 - [Mazur, 1963](https://pubmed.ncbi.nlm.nih.gov/14085017/) — water movement, cooling rate and intracellular freezing.
-- [Panch et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31178392/) — primary study of autologous CAR T-cell cryopreservation.
+- [Panch et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31178392/) — 158 autologous CAR T-cell products from six single-center trials: cryopreserving the starting mononuclear cells lowered their viability but did not change final fold expansion, transduction efficiency, CD3% or CD4:CD8 ratio, and persistence and clinical responses did not differ between fresh and cryopreserved final products (abstract checked November 7, 2026).
+- [YESCARTA prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59) — 5% DMSO and 2.5% albumin in the formulation; hypersensitivity reactions attributed in part to DMSO; checked November 7, 2026.
 - [Wang et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30910382/) — product-specific post-thaw functional-assay conditions.
 - [FDA final CAR T-cell guidance, January 2024](https://www.fda.gov/media/156896/download) — preservation, shipping, stability and in-use handling.
 

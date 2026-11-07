@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/measurement/proteins-and-spatial/mass
 used_by: ["[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -57,7 +57,7 @@ flowchart TD
 
 *Detection and reliable quantification are different claims about the same analyte.*
 
-The **limit of detection (LOD)** concerns distinguishing signal from background under stated error criteria. The **lower limit of quantification (LLOQ)** is the lower boundary at which quantitative performance meets defined criteria, such as precision and bias. An upper boundary also limits the usable range. These limits depend on the analyte, matrix and complete workflow. “Detected below LOQ” can be meaningful without supporting a reliable numerical amount. Neither it nor “not detected” means biological zero. [Carr 2014](https://pubmed.ncbi.nlm.nih.gov/24443746/).
+The **limit of detection (LoD)** concerns distinguishing signal from background under stated error criteria. The **lower limit of quantitation (LoQ)**, often written LLOQ in mass spectrometry papers, is the lower boundary at which quantitative performance meets defined criteria, such as precision and bias. The general definitions are on [limits of detection and quantitation](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation); this page covers what is specific to peptides. An upper boundary also limits the usable range. These limits depend on the analyte, matrix and complete workflow. “Detected below LoQ” can be meaningful without supporting a reliable numerical amount. Neither it nor “not detected” means biological zero. [Carr 2014](https://pubmed.ncbi.nlm.nih.gov/24443746/).
 
 ## Why it matters in cancer
 
@@ -72,20 +72,20 @@ A quantitative result is a measurement claim. Tumor dependence and clinical bene
 | Measures and how | Selected peptide amounts: extract, digest, measure specified ions/fragments with controls, calibrate and assess analyte performance |
 | Input and tissue cost | Validated tissue, cell or fluid matrix; extraction and digestion consume material; required mass/volume and compatibility with fixation are assay-specific |
 | Output and units | Peptide identity, amount or ratio; examples include femtomoles per microgram of total extracted protein or concentration per volume; retain the denominator and peptide-to-protein inference |
-| Thresholds | Analyte-specific LOD, LLOQ, upper quantification limit, bias/precision acceptance and reportable range; no universal LOQ or treatment threshold |
+| Thresholds | Analyte-specific LoD, LoQ, upper quantitation limit, bias/precision acceptance and reportable range; no universal LoQ or treatment threshold |
 | Failure modes | Incomplete recovery/digestion, shared peptides, interference, unstable standards, matrix effects and signal outside the validated range |
 | Limits | No automatic intact-form, location, cell-of-origin, surface-accessibility, occupancy or drug-dependence conclusion |
 | Validation tier | Fit-for-purpose research tiers describe analytical characterization; they do not themselves confer clinical approval. Clinical use needs validation of the exact assay, specimen and intended decision |
 
 ## Common confusions
 
-- **LOD versus LOQ:** recognizing a signal does not guarantee accurate quantification.
+- **LoD versus LoQ:** recognizing a signal does not guarantee accurate quantification.
 - **Precision versus accuracy:** repeated agreement can coexist with systematic bias.
 - **Peptide amount versus protein function:** sequence fragments answer a narrower question.
 
 ## Try it
 
-A fictional assay detects receptor-derived peptide R below its LLOQ. A summary changes this to “R is absent.” What should it say?
+A fictional assay detects receptor-derived peptide R below its LoQ. A summary changes this to “R is absent.” What should it say?
 
 **Answer:** Retain “detected below the validated quantification limit,” with the relevant limit and units. The result supports detection under that assay's rules, but not a dependable amount or biological absence.
 
@@ -106,7 +106,7 @@ Why does an isotope-labeled peptide added after digestion leave uncertainty?
 
 ## Sources and scope
 
-Source check: October 10, 2026. Examples are fictional. Expert and learner review remain pending. Plasma-method results illustrate validation; they do not establish tumor-specific clinical cutoffs.
+Source check: November 7, 2026. Examples are fictional. Expert and learner review remain pending. Plasma-method results illustrate validation; they do not establish tumor-specific clinical cutoffs.
 
 - [Carr et al., fit-for-purpose targeted peptide measurements (2014)](https://pubmed.ncbi.nlm.nih.gov/24443746/).
 - [Addona et al., multilaboratory plasma MRM assessment (2009)](https://pubmed.ncbi.nlm.nih.gov/19561596/).

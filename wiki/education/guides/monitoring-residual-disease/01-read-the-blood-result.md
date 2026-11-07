@@ -2,8 +2,8 @@
 title: "Read the blood result before reading the trend"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -56,7 +56,7 @@ Next identify the assay's job. A test can look for selected known tumor features
 
 An invalid or failed sample is not a negative result. [Blank, detection and quantitation limits](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) answer different analytical questions. A detected signal below a reliable quantitation range may support “present” more strongly than an exact fold change. The report's own qualifications deserve to stay beside its number.
 
-For mutation-based signals, record how the method checks blood-cell origin. [Clonal hematopoiesis and clonal hematopoiesis of indeterminate potential (CHIP)](/wiki/education/concepts/measurement/liquid-biopsy/chip) can contribute DNA to plasma. A white-blood-cell comparison helps within its sensitivity and coverage; it is not a perfect origin certificate.
+For mutation-based signals, record how the method checks blood-cell origin. [Clonal hematopoiesis](/wiki/education/concepts/measurement/liquid-biopsy/chip), expanded families of blood-forming cells carrying acquired mutations, can contribute DNA to plasma. In triple-negative breast cancer the trap is TP53: it is the tumor's most common mutated gene and also one that chemotherapy can select in blood cells. A white-blood-cell comparison helps within its sensitivity and coverage; it is not a perfect origin certificate.
 
 ## A worked trend near the limit
 
@@ -71,6 +71,8 @@ A useful serial comparison keeps the method and input conditions as consistent a
 ## What does a negative result say?
 
 “Not detected” means the sample did not meet that assay's qualifying-signal rule. It can be encouraging within a validated setting. It still does not prove that no cancer cells exist.
+
+**Picture the tube.** One assay input in a breast-cancer study was 4,500 genome copies of cell-free DNA (about 15 nanograms). At a tumor fraction of 0.01%, that input holds on average fewer than half a copy of any single tumor mutation, so a one-mutation test would often see nothing even though tumor DNA is in the bloodstream. Tracking many mutations is how assays climb back toward detection; the arithmetic is on [blood sampling and detection limits](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling) ([Santonja 2023](https://doi.org/10.15252/emmm.202216505)).
 
 Three possibilities illustrate the boundary: there may be no remaining tumor signal, too few tumor fragments may have reached the tube, or the tracked features may not represent the relevant remaining cells. The result alone cannot choose among all possibilities.
 
@@ -104,7 +106,7 @@ One possible answer: “a qualifying tumor-associated signal; this dated plasma 
 
 ## Sources and scope
 
-Source check: October 9, 2026. The example and values are fictional. This lesson teaches interpretation, not a draw schedule or treatment decision. Expert and learner review pending.
+Source check: November 7, 2026. The example and values are fictional. This lesson teaches interpretation, not a draw schedule or treatment decision. Expert and learner review pending.
 
 - [FDA 2024 ctDNA guidance](https://www.fda.gov/media/183874/download) — method and input considerations.
 - [ESMO 2022 ctDNA recommendations](https://pubmed.ncbi.nlm.nih.gov/35809752/) — assay limitations and intended use; dated guidance, not a universal current rule.

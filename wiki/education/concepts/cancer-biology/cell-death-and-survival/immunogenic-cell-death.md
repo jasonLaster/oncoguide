@@ -5,13 +5,13 @@ domain: "cancer-biology/cell-death-and-survival"
 summary: "Immunogenic cell death is regulated cell death that can initiate an antigen-specific adaptive immune response in a compatible, immune-competent host."
 glossary_anchor: "immunogenic-cell-death"
 aliases: ["ICD", "immunogenic death"]
-level: "foundation"
+level: intermediate
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/cross-presentation]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/local-treatment-modalities/06-comparisons]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -56,7 +56,7 @@ Follow the two stages in the picture. First measure what the dying preparation c
 
 ICD offers a way to investigate how local injury might support broader immune recognition. DAMP measurements alone cannot demonstrate tumor-specific immune memory, distant control or patient benefit.
 
-A recognized functional test uses treated, dying tumor cells as a vaccine in compatible immune-competent mice, then challenges them with living matched tumor cells. The consensus describes removing the inducing chemical and adding no separate immune adjuvant. Protection and specificity are tested with appropriate comparison groups. This addresses immunogenicity in that model; it does not validate a clinical regimen. Comparing immune-competent and immune-deficient hosts alone may reveal immune involvement without isolating ICD from other immunostimulation.
+The classic inducers are [anthracyclines](/wiki/education/concepts/therapeutics/chemotherapy/anthracyclines) such as doxorubicin, the "A" in AC chemotherapy. In mouse tumor models, anthracycline-treated tumor cells moved the protein calreticulin to their surface before dying, which helped dendritic cells take them up and made them work as a vaccine, whereas cells killed by some other DNA-damaging drugs did not. [Obeid et al., 2007](https://pubmed.ncbi.nlm.nih.gov/17187072/). This explains why anthracyclines are studied alongside immunotherapy; it does not show that ICD drives their benefit in patients. Comparing immune-competent and immune-deficient hosts alone may reveal immune involvement without isolating ICD from other immune stimulation.
 
 ## Assay card
 

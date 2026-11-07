@@ -3,8 +3,8 @@ title: "Read the safety plan for engineered cells"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -48,7 +48,7 @@ A tissue stain, culture assay and patient adverse event answer different questio
 
 [Cytokine release syndrome (CRS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome) concerns systemic inflammatory activation. [Immune effector cell-associated neurotoxicity syndrome (ICANS)](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans) concerns a defined neurologic syndrome. They can occur together or separately. Other neurologic and inflammatory harms need appropriate assessment rather than automatically receiving either label.
 
-The **American Society for Transplantation and Cellular Therapy (ASTCT)** issued expanded consensus toxicity definitions and grading in 2026. Retain the named version a study actually used; do not relabel old events from a headline alone. Grading supports consistent reporting, but it is not a patient's self-treatment algorithm. [ASTCT 2026](https://pubmed.ncbi.nlm.nih.gov/42711241/).
+The **American Society for Transplantation and Cellular Therapy (ASTCT)** published its first consensus grading for CRS and ICANS in 2019. The 2026 update revises CRS, ICANS and immune effector cell-associated hemophagocytic lymphohistiocytosis-like syndrome (IEC-HS), and adds definitions for five other harms: hematotoxicity; non-ICANS neurologic toxicities such as parkinsonism, cranial nerve palsies and polyneuropathies; IEC-associated enterocolitis; tumor inflammation-associated neurotoxicity; and on-target, off-tumor toxicity. It applies to T-cell engager therapy as well as engineered cells. A late parkinsonism or a low blood count weeks after infusion is therefore its own graded category, not ICANS or CRS. Retain the named version a study actually used; do not relabel old events from a headline alone. Grading supports consistent reporting, but it is not a patient's self-treatment algorithm. [ASTCT 2026](https://pubmed.ncbi.nlm.nih.gov/42711241/).
 
 Likewise, low lymphocyte and neutrophil counts are different observations. [Neutropenia](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf) concerns infection risk, while a documented infection is a separate outcome. Preparation, prior treatment, the cell product and disease can each contribute. Compare timing, severity and recovery within the full protocol. Omitting an added cytokine does not eliminate CRS or ICANS risk.
 
@@ -96,7 +96,7 @@ An integrating [lentiviral vector](/wiki/education/concepts/engineering-and-manu
 
 The current Food and Drug Administration (FDA) ABECMA label warns about T-cell malignancies following specified autologous BCMA- or CD19-directed blood-cancer therapies and calls for lifelong secondary-malignancy monitoring. BCMA means B-cell maturation antigen; CD19 is another B-cell-associated marker. This warning is not an incidence estimate for experimental solid-tumor therapies or proof of insertional causation in every event. [Current label](https://www.fda.gov/media/147055/download).
 
-A deeply investigated T-cell lymphoma after CAR-T therapy showed no evidence of oncogenic retroviral integration. That finding supports careful attribution, not dismissal of the safety signal. [Hamilton et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38865660/). Long-term observation should match the product's persistence and delayed-risk assessment. [FDA follow-up guidance](https://www.fda.gov/media/113768/download).
+Among 724 people treated with T-cell therapies at one center, one lethal T-cell lymphoma followed axicabtagene ciloleucel, a CD19 CAR-T product made with a gammaretroviral vector ([NCI drug dictionary](https://www.cancer.gov/publications/dictionaries/cancer-drug/def/768723); its label says "retroviral vector"), not the lentiviral vectors described above. Both are retroviruses that integrate. Deep profiling found no evidence that the vector's integration caused it. That finding supports careful attribution, not dismissal of the safety signal. [Hamilton et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38865660/). Long-term observation should match the product's persistence and delayed-risk assessment. [FDA follow-up guidance](https://www.fda.gov/media/113768/download).
 
 ## What can go wrong when reading a safety claim
 
@@ -120,13 +120,13 @@ A fictional early study treats six people. No named toxicity is observed during 
 
 ## Sources and scope
 
-Source check: October 10, 2026; expert and learner review pending. The cell-count and six-person exercises are fictional; the gavo-cel records are published cohort observations. These are evidence-reading questions, not clinical management instructions.
+Source check: November 7, 2026 (ASTCT categories, lymphoma attribution); October 10, 2026 (rest); expert and learner review pending. The cell-count and six-person exercises are fictional; the gavo-cel records are published cohort observations. These are evidence-reading questions, not clinical management instructions.
 
-- [ASTCT 2026 consensus](https://pubmed.ncbi.nlm.nih.gov/42711241/) — expanded toxicity definitions and grading; retain the version used in each report.
+- [Perales et al., ASTCT 2026 consensus, *Transplant Cell Ther* 32(10):1189-1211](https://pubmed.ncbi.nlm.nih.gov/42711241/) — revised CRS, ICANS and IEC-HS grading plus the five added categories; abstract checked November 7, 2026. Retain the version used in each report.
 - [Di Stasi et al., 2011](https://pubmed.ncbi.nlm.nih.gov/22047558/) — inducible caspase-9 in donor T cells after transplantation.
 - [FDA CAR-T development guidance, January 2024](https://www.fda.gov/media/156896/download) — product-specific recognition, functional controls and clinical monitoring.
 - [FDA ABECMA label](https://www.fda.gov/media/147055/download) — current secondary-malignancy warning, with defined product/population scope.
-- [Hamilton et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38865660/) — molecular attribution of a secondary T-cell lymphoma.
+- [Hamilton et al., 2024, *NEJM*](https://pubmed.ncbi.nlm.nih.gov/38865660/) — 724 treated people; molecular attribution of one secondary T-cell lymphoma after axicabtagene ciloleucel; abstract checked November 7, 2026.
 - [FDA long-term follow-up guidance, January 2020](https://www.fda.gov/media/113768/download) — risk-based follow-up and integration/clonality investigation.
 
 - [Hassan et al., gavo-cel phase 1 report, July 27, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10427427/) — added exercise source check October 13, 2026: Results, clinical trial design and safety; Methods, adverse-event assessment; reference 27 identifies ASTCT 2019. Individual management rationale and bedside monitoring schedule remain unreported in the summarized passages.

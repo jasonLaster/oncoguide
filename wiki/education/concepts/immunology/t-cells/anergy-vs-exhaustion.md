@@ -2,7 +2,7 @@
 title: "Anergy versus exhaustion"
 type: comparison
 domain: immunology/t-cells
-aliases: []
+aliases: ["T-cell dysfunction", "anergy vs exhaustion"]
 summary: "Anergy and exhaustion are different explanations for reduced T-cell responsiveness, distinguished by response history and controlled functional and program evidence."
 level: intermediate
 sensitive: false
@@ -12,10 +12,11 @@ prerequisites:
   - "[[wiki/education/concepts/immunology/t-cells/anergy]]"
   - "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]"
 used_by: []
-reviewed: pending
+updated: 2026-11-07
+source_checked: 2026-11-07
+reviewed: "pending"
 reviewed_by: ""
-expert_review: pending
-learner_review: pending
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # Anergy versus exhaustion
@@ -48,6 +49,8 @@ History helps frame a hypothesis. It does not diagnose a state without the relev
 | What is tested later? | Reduced antigen-driven responsiveness despite suitable later stimulation and viable cells | Several functions and a broader differentiation program assessed in context |
 | What supports mechanism? | Appropriate induction controls and mechanistic evidence for reduced responsiveness | History, functional findings and compatible program evidence together |
 | What remains uncertain? | Whether this explanation fits another cell type or setting | Which subsets are present and which capacities each retains |
+| What does the cell look like? | Mainly a growth arrest: low interleukin-2 (IL-2) production and proliferation; in classic clones, effector functions are often kept and added IL-2 can reverse the block ([Schwartz, 2003](https://pubmed.ncbi.nlm.nih.gov/12471050/)) | Several inhibitory receptors at once (PD-1, TIM-3, LAG-3), graded loss of effector functions, and a program driven by the transcription factor TOX ([Wherry and Kurachi, 2015](https://pubmed.ncbi.nlm.nih.gov/26205583/); [Khan et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31207603/)) |
+| How reversible is it? | Adaptive tolerance in vivo reverses when antigen is removed | Partly: PD-1 pathway blockade re-engages effector genes, but the chromatin pattern changes little and cells can become exhausted again ([Pauken et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27789795/)) |
 | What does neither establish? | Antigen specificity from a weak result; a treatment benefit | Antigen specificity from a state label; a treatment benefit |
 
 These columns organize questions. They do not supply laboratory cutoffs or require every real population to fit one box.
@@ -58,6 +61,7 @@ Use the anergy comparison when a study tests whether particular activation condi
 
 ## Common confusions
 
+- **"Dysfunction" is a third, broader word.** Tumor papers often say "T-cell dysfunction" for any T cell in a tumor that is not controlling it. It is an umbrella for anergy, exhaustion, senescence, suppression by other cells and missing recognition. Ask which mechanism the authors measured.
 - **Weak response means anergy.** The matching cells could be absent, the preparation damaged or the stimulus unsuitable.
 - **Programmed cell death protein 1 (PD-1) positivity means exhaustion.** This [checkpoint protein](/wiki/education/concepts/immunology/immune-regulation/immune-checkpoint) can also accompany activation; one marker does not establish the program.
 - **Exhaustion means every cell is terminal and inert.** Exhausted populations contain varied subsets with different capacities.
@@ -87,13 +91,15 @@ One possible answer: “an observation; response history plus suitable controlle
 
 ## Related concepts
 
-Continue with [anergy's induction-and-retest logic](/wiki/education/concepts/immunology/t-cells/anergy) and [the broader state map](/wiki/education/concepts/immunology/t-cells/t-cell-states). [The existing count-versus-function lesson](/wiki/education/oncology-101/3-t-cell-states#try-it) provides a separate marker/proximity exercise.
+Continue with [anergy's induction-and-retest logic](/wiki/education/concepts/immunology/t-cells/anergy) and [the broader state map](/wiki/education/concepts/immunology/t-cells/t-cell-states), and [T-cell exhaustion](/wiki/education/concepts/immunology/t-cells/t-cell-exhaustion) for the marker set and subsets. [The existing count-versus-function lesson](/wiki/education/oncology-101/3-t-cell-states#try-it) provides a separate marker/proximity exercise.
 
 ## Sources and scope
 
-Source check: October 12, 2026. Primary abstracts were read for the following focused distinctions; full-text access was incomplete. These studies use different experimental contexts and are not a matched clinical comparison. The diagram and exercise are invented. Independent peer, expert and learner review pending.
+Source check: November 7, 2026. Primary abstracts were read for the following focused distinctions; full-text access was incomplete. These studies use different experimental contexts and are not a matched clinical comparison. The diagram and exercise are invented. Independent peer, expert and learner review pending.
 
 - [Jenkins and Schwartz, 1987](https://pubmed.ncbi.nlm.nih.gov/3029267/): mouse antigen-specific clones and altered presenting cells, followed by normal presenting cells.
 - [Macián et al., 2002](https://pubmed.ncbi.nlm.nih.gov/12086671/): mechanistic lymphocyte-anergy experiments and gene programs.
 - [Wherry et al., 2007](https://pubmed.ncbi.nlm.nih.gov/17950003/): chronic viral-infection model; distinct exhaustion and anergy programs.
+- [Schwartz, 2003](https://pubmed.ncbi.nlm.nih.gov/12471050/): review of clonal anergy and adaptive tolerance, including IL-2 reversal.
+- [Wherry and Kurachi, 2015](https://pubmed.ncbi.nlm.nih.gov/26205583/), [Khan et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31207603/) and [Pauken et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27789795/): exhaustion features, TOX and epigenetic stability, mainly in mice.
 - [Miller et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30778252/): exhausted subsets in mouse tumors and associated observations in melanoma. No universal treatment prediction is imported.

@@ -7,11 +7,11 @@ glossary_anchor: "cell-division-and-why-chemo-hits-dividing-cells"
 aliases: ["cell division", "mitosis", "cytokinesis", "why chemotherapy affects dividing cells"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/cell-cycle]]"]
-used_by: []
+used_by: ["[[wiki/education/index]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -33,11 +33,11 @@ Imagine making two functioning workshops from one. You must copy the instruction
 
 Producing cells is part of normal tissue maintenance. Blood-forming cells, the intestinal lining and growing hair follicles contain renewing populations. Repeated copying and division can make these populations vulnerable to some of the same drugs used against cancer.
 
-[Cytotoxic chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy) includes several mechanisms. [Platinum agents](/wiki/education/concepts/therapeutics/chemotherapy/platinum-agents) attach to DNA and can obstruct its use and copying. [Taxanes](/wiki/education/concepts/therapeutics/chemotherapy/taxanes) stabilize microtubules, the changing protein structures that help organize chromosome separation. These are different molecular actions, even when both interfere with successful cell production.
+[Cytotoxic chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy) includes several mechanisms. [Platinum agents](/wiki/education/concepts/therapeutics/chemotherapy/platinum-agents) attach to DNA and can obstruct its use and copying. [Taxanes](/wiki/education/concepts/therapeutics/chemotherapy/taxanes) stabilize microtubules, the changing protein structures that help organize chromosome separation. [Anthracyclines](/wiki/education/concepts/therapeutics/chemotherapy/anthracyclines) such as doxorubicin interfere with DNA and the enzyme topoisomerase II, which untangles DNA strands during copying. [Alkylating agents](/wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents) such as cyclophosphamide attach reactive chemical groups to DNA. (The "AC" in common breast cancer regimens is doxorubicin, sold as Adriamycin, plus cyclophosphamide.) These are different molecular actions, even when all of them interfere with successful cell production.
 
 Drugs vary in how their effects relate to cell-cycle phase, concentration and exposure time. A phase label is not a complete treatment rule. Uptake, repair, damage tolerance and cell-death responses also matter. A cell can pause, recover, divide abnormally or die after an exposure.
 
-Crucially, **nondividing does not mean protected from every chemotherapy effect**. Microtubules also serve functions outside mitosis. Paclitaxel's prescribing information describes interference with both interphase and mitotic functions. In a primary experiment using adult mouse sensory-neuron cultures, paclitaxel altered distal axon growth. That model illustrates vulnerability outside cell division; it does not establish every mechanism of nerve toxicity in people.
+Crucially, **nondividing does not mean protected from every chemotherapy effect**. Microtubules also serve functions outside mitosis. The prescribing information for paclitaxel injection (the standard solvent-based form, as opposed to albumin-bound paclitaxel) describes interference with both interphase and mitotic functions. In a primary experiment using adult mouse sensory-neuron cultures, paclitaxel altered distal axon growth. That model illustrates vulnerability outside cell division; it does not establish every mechanism of nerve toxicity in people.
 
 ```mermaid
 flowchart TD
@@ -97,15 +97,15 @@ A fictional culture starts with 1,000 cells. After treatment it contains 1,200; 
 
 ## Sources
 
-Source-checked October 9, 2026; expert and learner review pending. The exercise is fictional. The neuronal experiment retains its mouse-culture scope; no drug or schedule is selected here.
+Source-checked November 7, 2026; expert and learner review pending. The exercise is fictional. The neuronal experiment retains its mouse-culture scope; no drug or schedule is selected here.
 
 - [NCI: chemotherapy to treat cancer](https://www.cancer.gov/about-cancer/treatment/types/chemotherapy) — renewing normal tissues and treatment effects.
 - [NCI Drug Dictionary: carboplatin](https://www.cancer.gov/publications/dictionaries/cancer-drug/def/carboplatin) — platinum–DNA attachments and cross-links.
-- [Albumin-bound paclitaxel prescribing information, version 5](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6&version=5) — section 12.1: microtubule functions in interphase and mitosis.
+- [Paclitaxel injection prescribing information (solvent-based, Hospira), DailyMed](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ea28753a-8631-460a-bfdc-b101eb8ac84a) — Clinical Pharmacology: microtubule stabilization disrupts interphase and mitotic functions.
 - [Gornstein and Schwarz, 2017](https://pubmed.ncbi.nlm.nih.gov/27894788/) — primary adult mouse sensory-neuron experiment; local axon effects, not a universal clinical toxicity model.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [Learn the biology and evidence](/wiki/education/index)
 <!-- END GENERATED USED IN -->

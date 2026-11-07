@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-c
 used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/cellular-therapies/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]"]
 sensitive: false
 tags: ["education", "immunology", "gamma-delta-T-cells"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,7 +35,7 @@ Cells do not recognize every dangerous-looking tumor. Recognition depends on mol
 
 *A native subset-specific contact and an added CAR have different target requirements.*
 
-The upper contact is a **Vγ9Vδ2 example**: BTN2A1 directly engages part of the native receptor, while BTN3A1 participates in linking target-cell phosphoantigens to activation. The dashed contact denotes additional receptor engagement in a simplified mechanism, rather than a resolved atomic structure. The small metabolites are inside the target-cell compartment; they are not a free peptide in an HLA groove. The lower contact asks a separate question: does an added CAR have its own surface target X? Native recognition varies across subsets, including Vδ1, and either route still needs activation and function tests. [Rigau et al.: molecular evidence](https://pubmed.ncbi.nlm.nih.gov/31919129/)
+The upper contact is a **Vγ9Vδ2 example**: BTN2A1 directly engages part of the native receptor, while BTN3A1 participates in linking target-cell phosphoantigens to activation. The dashed contact denotes additional receptor engagement in a simplified mechanism, rather than a resolved atomic structure. The small metabolites are inside the target-cell compartment; they are not a free peptide in a [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) groove. The lower contact asks a separate question: does an added chimeric antigen receptor (CAR) have its own surface target X? Native recognition varies across subsets, including Vδ1, and either route still needs activation and function tests. [Rigau et al.: molecular evidence](https://pubmed.ncbi.nlm.nih.gov/31919129/)
 
 
 The [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) contains either alpha and beta chains or gamma and delta chains. Gamma-delta cells also carry other activating and inhibitory receptors. They remain T cells, distinct from [natural killer (NK) cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self).

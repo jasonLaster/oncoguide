@@ -8,11 +8,11 @@ minutes: 10
 objectives: ["Separate recognition from supportive signaling.", "Read armoring and logic rules as specific design hypotheses.", "Distinguish activity control from cell elimination."]
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]"]
 sensitive: false
-source_checked: "2026-10-10"
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: "2026-10-10"
+updated: 2026-11-07
 ---
 
 # Cytokines and programmable receptors
@@ -31,7 +31,6 @@ After [engineering and delivery](/wiki/education/cellular-therapies/06-in-vivo-d
 
 *The CAR that contacts the target and the added supportive receptor perform separate jobs. A growth response depends on the receptor and cell context; signaling or cell accumulation alone does not establish safe tumor killing. Shapes and relays are schematic.*
 
-View full-size: [light illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-light.png) · [dark illustration](https://4pdxqyvytfd88yy1.public.blob.vercel-storage.com/sites/diana/files/wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-dark.png).
 
 [Cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) are signaling proteins. [Receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) receive compatible signals, and [signal transduction](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases) relays them within the cell. The resulting **phenotype** is an observable state or behavior.
 
@@ -64,7 +63,7 @@ An added growth receptor need not change the CAR's target. Changing signaling in
 
 A phase 1 study in metastatic castration-resistant prostate cancer tested such armored CAR-T cells. Serious inflammatory events included a fatal event with concurrent sepsis. The complete product and regimen were tested; the study does not isolate the armor's contribution or establish another cancer's safety. [Narayan et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35314843/).
 
-**TRUCKs**, commonly expanded as **T cells redirected for universal cytokine-mediated killing**, use a cytokine payload. An early design coupled activation to an interleukin-12 (IL-12) expression program. In those tumor models, cytokine-supported macrophages helped attack antigen-loss cells. This did not make the CAR recognize the missing antigen. “Universal” is terminology, not a measured clinical guarantee. [Chmielewski et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21742772/).
+**TRUCKs**, T cells redirected for universal cytokine-mediated killing ([Chmielewski and Abken, 2015](https://pubmed.ncbi.nlm.nih.gov/25985798/)); [armoring](/wiki/education/concepts/therapeutics/cell-therapies/armoring) owns the term. They use a cytokine payload. An early design coupled activation to an interleukin-12 (IL-12) expression program. In those tumor models, cytokine-supported macrophages helped attack antigen-loss cells. This did not make the CAR recognize the missing antigen. “Universal” is terminology, not a measured clinical guarantee. [Chmielewski et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21742772/).
 
 Payload control matters. An activation-responsive promoter uses a cellular response to control transcription, rather than secreting continuously. It does not prove local-only exposure. In a separate metastatic-melanoma study, engineered tumor-infiltrating lymphocytes produced inducible IL-12; serious systemic toxicity accompanied activity. Those were engineered lymphocytes, not the same CAR/TRUCK product. [Zhang et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25695689/).
 
@@ -117,4 +116,3 @@ Source check: October 10, 2026; expert and learner review pending. The table use
 - [Roybal et al., 2016](https://pubmed.ncbi.nlm.nih.gov/26830879/) — sequential synNotch-to-CAR circuit experiments.
 - [Kloss et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23242161/) — combined recognition with balanced activation and costimulation.
 
-<!-- Local illustration sources: [source](./images/cytokine-message-and-receptor-v2-light.png) [source](./images/cytokine-message-and-receptor-v2-dark.png) -->

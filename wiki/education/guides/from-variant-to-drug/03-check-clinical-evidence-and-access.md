@@ -8,8 +8,8 @@ objectives: ["Match a drug claim to the studied disease, biomarker, treatment se
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]", "[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]"]
 sensitive: false
 tags: ["education", "molecular-interpretation"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -48,7 +48,7 @@ The PARP example makes the distinction concrete. The table describes named studi
 | Evidence | Population and question | Boundary |
 |---|---|---|
 | OlympiA randomized trial | High-risk early breast cancer with qualifying germline BRCA1/2 variants; adjuvant olaparib versus placebo after initial therapy | It does not directly establish benefit for somatic-only early breast cancer. |
-| TBCRC 048 and its expansion cohorts | Metastatic breast cancer with specified germline PALB2 or somatic BRCA1/2 alterations; olaparib response | A metastatic response study does not establish adjuvant recurrence benefit. |
+| TBCRC 048 and its expansion cohorts | Metastatic breast cancer; olaparib response. The 2020 trial enrolled several germline and somatic repair-gene alterations, and responses occurred only with germline PALB2 or somatic BRCA1/2. The 2026 expansion (54 patients, 7 with TNBC) reported 75% response with germline PALB2 and 36.7% (11 of 30) with somatic BRCA1/2, which **missed its prespecified target** | A metastatic single-arm response study does not establish adjuvant recurrence benefit, and a somatic finding needs its own setting-specific evidence. |
 | A functional tumor model | A particular model at a particular drug exposure | It does not establish patient benefit, safe exposure, or indication eligibility. |
 
 [OlympiA 2022](https://pubmed.ncbi.nlm.nih.gov/36228963/), [TBCRC 048 2020](https://pubmed.ncbi.nlm.nih.gov/33119476/), [expansion-cohort publication 2026](https://pubmed.ncbi.nlm.nih.gov/41604601/).
@@ -75,7 +75,7 @@ An indication defines a specified approved use. **Off-label** use involves an ap
 
 A treatment effect in another disease can be transferred without justification. A subgroup response can be quoted without its population or comparator. A target-engagement result can be presented as efficacy. A permissive access route can be treated as evidence that treatment is appropriate.
 
-Write an **evidence ledger**, a short table recording each observation, its source, the conclusion it supports, and the remaining gap. [The shared care-plan lesson](/wiki/education/molecular-profiling/07-from-data-to-care-plan) supplies a model. The [variant-to-benefit chain](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit) makes those links explicit. An untested use leaves [an evidence gap](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence), rather than proving benefit or proving failure. A transparent “unknown” is more useful than a chain whose weakest link is hidden.
+Write an **evidence ledger**, a short table recording each observation, its source, the conclusion it supports, and the remaining gap. [The integrate-the-evidence lesson](/wiki/education/molecular-profiling/07-from-data-to-care-plan) supplies a model. The [variant-to-benefit chain](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit) makes those links explicit. An untested use leaves [an evidence gap](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence), rather than proving benefit or proving failure. A transparent “unknown” is more useful than a chain whose weakest link is hidden.
 
 ## Try it
 
@@ -102,7 +102,7 @@ One possible answer: “a mechanism-based hypothesis; the observed outcomes in i
 
 ## Sources and scope
 
-Source check: 2026-10-09. General education; worked scenarios are fictional. Named studies and labels illustrate their specified populations and evidence boundaries. Expert and learner review pending.
+Source check: 2026-11-07. General education; worked scenarios are fictional. Named studies and labels illustrate their specified populations and evidence boundaries. Expert and learner review pending.
 
 - [Le Tourneau 2015: the SHIVA molecular-matching randomized trial](https://pubmed.ncbi.nlm.nih.gov/26342236/).
 - [Geyer 2022: OlympiA overall-survival analysis](https://pubmed.ncbi.nlm.nih.gov/36228963/).

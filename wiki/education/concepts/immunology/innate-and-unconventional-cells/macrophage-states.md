@@ -7,7 +7,7 @@ glossary_anchor: "macrophage-states"
 aliases: ["macrophage state", "macrophage states", "macrophage polarization", "M1/M2", "M1-like macrophages", "M2-like macrophages"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation]]", "[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
+used_by: ["[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-10"
@@ -100,7 +100,6 @@ Source check: October 10, 2026. Experimental nomenclature, human stimulation stu
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
 <!-- END GENERATED USED IN -->

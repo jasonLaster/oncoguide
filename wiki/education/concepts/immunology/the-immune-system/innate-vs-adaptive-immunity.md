@@ -6,7 +6,7 @@ summary: "Innate immunity uses inherited sensing systems, while adaptive immunit
 glossary_anchor: "innate-vs-adaptive-immunity"
 aliases: ["innate immunity", "adaptive immunity"]
 prerequisites: []
-used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
@@ -100,7 +100,8 @@ Source-checked October 10, 2026. Foundation mechanisms and bounded experimental 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 <!-- END GENERATED USED IN -->

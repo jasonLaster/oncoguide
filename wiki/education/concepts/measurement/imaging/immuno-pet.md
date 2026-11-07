@@ -10,7 +10,7 @@ prerequisites: ["[[wiki/education/concepts/measurement/imaging/pet-ct]]", "[[wik
 used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]"]
 sensitive: false
 tags: ["education", "measurement", "imaging"]
-source_checked: "2026-10-10"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -92,7 +92,7 @@ Read the binder, label, mass, clearance and target context together. An image is
 
 ## Sources and scope
 
-Source check: October 10, 2026. Primary abstracts checked; full-text methods were not accessible for these three studies during this check. Examples support bounded format and distribution explanations, without a current approval or access claim. Practice is fictional; expert and learner review remain pending.
+Source check: November 7, 2026. Examples support bounded format and distribution explanations, without a current approval or access claim. Practice is fictional; expert and learner review remain pending.
 
 - [Dijkers et al. (2010), 89Zr-trastuzumab](https://pubmed.ncbi.nlm.nih.gov/20357763/): 14-person HER2-positive metastatic breast feasibility study; mass and imaging-time context.
 - [Keyaerts et al. (2016), 68Ga-HER2 nanobody](https://pubmed.ncbi.nlm.nih.gov/26449837/): phase 1 imaging, biodistribution and dosimetry; 20 women with HER2 IHC scores of 2+ or 3+.

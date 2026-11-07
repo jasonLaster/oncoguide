@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc]]"
   - "[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]"
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]"]
+used_by: []
 sensitive: false
 tags: [education, breast-cancer, metastasis, evidence]
 updated: 2026-10-10
@@ -110,5 +110,5 @@ Source check: October 10, 2026. The arithmetic exercise is fictional; historical
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

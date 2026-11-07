@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-
 used_by: ["[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -58,7 +58,7 @@ A fictional model learns RNA responses after interventions in one cell line. It 
 
 - Predicted RNA is not measured RNA, protein activity or patient benefit.
 - High agreement across all genes can conceal poor prediction of the few genes that changed.
-- A **baseline** is a simple comparison method, such as predicting an average response. A complex model should earn its added value against meaningful baselines.
+- A **baseline** is a simple comparison method, such as predicting an average response. A complex model should earn its added value against meaningful baselines. In a 2025 benchmark, none of five single-cell foundation models and two other deep-learning models predicted gene-expression changes after single or double gene perturbations better than deliberately simple baselines ([Ahlmann-Eltze 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/)).
 - An association learned from untreated tissue does not automatically identify a causal drug effect.
 - Changing the test set repeatedly until performance looks good weakens its independence.
 
@@ -97,7 +97,7 @@ One answer: “RNA values; images; new donors; a drug response and clinical bene
 
 ## Sources and scope
 
-Source check: October 9, 2026. Model evaluation principles; performance belongs to a particular task and version. Expert and learner review remain pending.
+Source check: November 7, 2026. Model evaluation principles; performance belongs to a particular task and version. Expert and learner review remain pending.
 
 - [Lotfollahi et al., 2019: scGen perturbation-response experiments](https://www.nature.com/articles/s41592-019-0494-8) — particular evaluated data contexts, rather than universal portability.
 - [Ahlmann-Eltze et al., 2025: primary comparison with simple perturbation-prediction baselines](https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/) — benchmark-specific findings.

@@ -3,13 +3,13 @@ title: "Connect treatment jobs with evidence"
 type: guide-lesson
 guide: start-here
 step: 3
-minutes: 10
-objectives: ["Separate local treatment, systemic treatment and measurement.", "Distinguish a mechanism, a response observation and comparative evidence."]
+minutes: 12
+objectives: ["Describe the standard stage II–III TNBC sequence and why systemic treatment comes before surgery.", "Read one real trial number as population, comparison, endpoint and time.", "Distinguish a mechanism, a response observation and comparative evidence."]
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"]
 sensitive: false
 tags: [education, foundations, evidence]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -17,7 +17,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 # Connect treatment jobs with evidence
 
-**A treatment has a job, a test has a question and a study has a comparison. Keep all three visible when a result becomes a claim about what to do.**
+**For stage II–III triple-negative breast cancer, chemotherapy with pembrolizumab comes first, surgery measures the response, and the result shapes what follows. A treatment has a job, a test has a question and a study has a comparison.**
 
 **Before you start:** [Clinical actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) asks whether evidence supports an action in the relevant setting. [Prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) separates information about outcome from evidence about a treatment difference.
 
@@ -33,13 +33,31 @@ flowchart TD
   class C current
 ```
 
-## Put the jobs on a simple map
+## The standard sequence and why it runs in this order
 
-Surgery and external-beam radiation act on selected local or regional tissues. Systemic medicines can reach sites through the body, although distribution and biological effects differ among medicines and tissues. Tests collect information. They do not become treatment merely because their result is reassuring or worrying.
+Surgery and radiation act on the breast and nearby nodes. Medicines that travel through the body, called systemic treatment, reach cells that may have spread. For stage II–III triple-negative breast cancer (TNBC), the usual plan is the [KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen) [1]:
 
-This distinction helps explain combination treatment. The parts may address different risks or mechanisms. One part working well does not establish that every other part is unnecessary. Conversely, several plausible mechanisms do not establish that combining them improves outcomes.
+```mermaid
+flowchart TD
+  A["About 24 weeks: chemotherapy plus pembrolizumab"] --> B["Surgery: breast and lymph nodes"]
+  B --> C["Radiation when indicated"]
+  B --> D["About 27 weeks: pembrolizumab, plus extra medicine if cancer remains"]
+```
 
-[Chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy) affects cellular processes such as replication or division. [Immune-checkpoint inhibition](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) changes particular regulatory interactions in immune responses. Neither phrase names one universal drug, benefit or toxicity profile.
+Systemic treatment comes first, before surgery, which is called [neoadjuvant](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant) treatment. It starts treating the whole body early, it can shrink the tumor, and it lets surgery show how well it worked. No invasive cancer left in the breast and nodes is called [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr). If cancer remains, there are tested options to add after surgery.
+
+[Chemotherapy](/wiki/education/concepts/therapeutics/chemotherapy/chemotherapy) damages dividing cells. Pembrolizumab, a [checkpoint inhibitor](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor), releases a T-cell brake. The parts address different risks, so one part working well does not make the others unnecessary.
+
+## Read one real number
+
+The KEYNOTE-522 trial randomized 1,174 people with stage II–III TNBC to chemotherapy plus pembrolizumab or chemotherapy plus placebo [1, 2].
+
+| Who, compared with what | Endpoint and time | Pembrolizumab | Placebo | Absolute difference |
+|---|---|---|---|---|
+| First 602 randomized | pCR at surgery | 64.8% | 51.2% | 13.6 points |
+| All 1,174 | Alive at 5 years | 86.6% | 81.7% | About 5 points |
+
+Both numbers are true. They answer different questions. Out of 100 people, about 5 more were alive at 5 years with pembrolizumab. That is the number to quote for survival, not the 13.6-point pCR difference. [Absolute and relative risk](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt) explains the rest of the habit.
 
 ## Move carefully between three kinds of evidence
 
@@ -51,13 +69,9 @@ This distinction helps explain combination treatment. The parts may address diff
 
 These cards are not interchangeable. A clinical study also needs scrutiny: the endpoint, follow-up, comparison and uncertainty matter. Start with [reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index) when you want to inspect those details.
 
-## A worked claim: a favorable test and an omission proposal
+## A worked claim: a favorable blood test
 
-Imagine a fictional patient receives systemic treatment before breast surgery. A blood assay later reports no qualifying tumor signal. Someone proposes skipping surgery because “the treatment worked.”
-
-The assay measured a blood sample under a detection rule. It did not examine the breast and nodes removed at surgery. It also did not compare surgery with omission of surgery in the relevant population. The favorable observation and the omission proposal therefore have different evidence requirements.
-
-Now imagine a laboratory experiment finds that a new drug kills cells from that patient's sample. That supports an experimental finding in a model. To claim clinical benefit, you still need to consider exposure, normal tissues, the clinical setting and outcomes. A clear mechanism earns a better question; it does not finish the answer.
+Imagine a fictional patient finishes treatment before surgery. A blood test reports no tumor DNA, and someone proposes skipping surgery because "the treatment worked." The blood test measured a sample of blood; it did not examine the breast and nodes, and no trial has compared skipping surgery on that basis. The observation and the proposal need different evidence. [Reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index) practises this in depth.
 
 ## Build one sentence you can check
 
@@ -82,19 +96,23 @@ Which claim is supported by a fictional experiment showing cell killing in a dis
 
 ## Explain it back
 
-“This evidence establishes ___; the proposed action additionally requires ___.”
+“This evidence establishes ___; a bigger claim additionally requires ___.”
 
-**One possible answer:** “This evidence establishes a favorable blood-assay result; omitting local treatment additionally requires evidence for that omission strategy.”
+**One possible answer:** “This evidence establishes a 13.6-point higher pCR rate; claiming a survival benefit additionally requires the survival comparison, about 5 points at 5 years.”
 
 ## Takeaway
 
 **Match the strength and setting of the evidence to the treatment claim.**
 
-**Next:** [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index), or choose another question from [the learning paths](/wiki/education/index).
+**Next:** [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index).
 
 ## Sources and scope
 
-General teaching, source-checked October 9, 2026; expert and learner review pending. Cases are fictional and do not propose a treatment change.
+General teaching, source-checked November 7, 2026; expert and learner review pending. Cases are fictional and do not propose a treatment change.
+
+1. [Schmid and colleagues, NEJM 2020: KEYNOTE-522](https://pubmed.ncbi.nlm.nih.gov/32101663/) — design, cycle counts and pCR.
+2. [Schmid and colleagues, NEJM 2024: overall survival](https://pubmed.ncbi.nlm.nih.gov/39282906/).
+
 
 - [NCI: Breast cancer treatment](https://www.cancer.gov/types/breast/treatment), for local and systemic roles.
 - [NCI: Clinical trials](https://www.cancer.gov/about-cancer/treatment/clinical-trials), for clinical questions and comparison.

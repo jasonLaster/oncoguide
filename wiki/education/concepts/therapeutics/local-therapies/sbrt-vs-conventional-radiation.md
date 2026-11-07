@@ -9,8 +9,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/local-therapies/radiatio
 used_by: []
 sensitive: false
 tags: ["education", "local-treatment", "comparison"]
-updated: "2026-10-12"
-source_checked: "2026-10-12"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; independent scientific, native-visual, task, and learner reviews pending"
@@ -49,7 +49,7 @@ Image guidance and conformal beam shaping are not exclusive to SBRT. The NCI des
 
 ## Why the calendar can mislead
 
-**Hypofractionation** means using fewer, larger fractions relative to a specified comparison schedule. SBRT is one setting in which this occurs; hypofractionation also occurs outside SBRT. For example, FAST-Forward studied a short postoperative whole-breast or chest-wall radiation course after surgery for early breast cancer. That particular treatment setting illustrates why a small number of fractions does not, by itself, establish SBRT. It is not a basis for choosing a schedule for another setting. [Brunt et al., 2020, abstract](https://pubmed.ncbi.nlm.nih.gov/32580883/).
+**Hypofractionation** means using fewer, larger fractions relative to a specified comparison schedule. SBRT is one setting in which this occurs; hypofractionation also occurs outside SBRT. For example, FAST-Forward tested 26 Gy or 27 Gy in 5 fractions over one week against 40 Gy in 15 fractions over three weeks, to the whole breast or chest wall after surgery for early breast cancer; 26 Gy in 5 was non-inferior for breast tumor relapse at five years. That particular treatment setting illustrates why a small number of fractions does not, by itself, establish SBRT. It is not a basis for choosing a schedule for another setting. [Brunt et al., 2020, abstract](https://pubmed.ncbi.nlm.nih.gov/32580883/).
 
 Likewise, a biologically effective dose (BED) calculation compares modeled biological effect under stated assumptions. A BED value does not tell you whether stereotactic localization, motion management, or delivery verification occurred. Schedule and a model result cannot replace a description of the delivered technique.
 
@@ -83,4 +83,4 @@ Explain the difference between “How was the target located and treated?” and
 
 ## Sources and scope
 
-*Sources checked 2026-10-12: ASTRO—abstract and selected scope, nomenclature, localization, planning and quality-assurance passages; NCI—selected external-beam technique, positioning and schedule sections; FAST-Forward—complete abstract only. Independent reviews remain pending.*
+*Sources checked 2026-10-12: ASTRO—abstract and selected scope, nomenclature, localization, planning and quality-assurance passages; NCI—selected external-beam technique, positioning and schedule sections; FAST-Forward—complete abstract only, rechecked 2026-11-07 for the schedules. Independent reviews remain pending.*

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/tests-and-pre
 used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
 sensitive: false
 tags: ["education", "model-trust"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -48,7 +48,7 @@ flowchart TD
 
 *This illustrates separate roles; it does not mandate one split proportion or replace a suitable cross-validation design.*
 
-**Evaluate what matters.** Use appropriate simple baselines, the relevant measured reference, uncertainty and failure rates. [Discrimination](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index) describes ordering; [calibration](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration) evaluates probability agreement. Inspect relevant subgroups as well as the overall result. Small subgroup samples can leave substantial uncertainty. [2]
+**Evaluate what matters.** Use appropriate simple baselines, the relevant measured reference, uncertainty and failure rates. Baselines can win: In a 2025 benchmark, none of five single-cell foundation models and two other deep-learning models predicted gene-expression changes after single or double gene perturbations better than deliberately simple baselines. [3] [Discrimination](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index) describes ordering; [calibration](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration) evaluates probability agreement. Inspect relevant subgroups as well as the overall result. Small subgroup samples can leave substantial uncertainty. [2]
 
 An external evaluation uses data outside model development and documents how the new setting differs. Independent replication also asks whether other investigators can reproduce the specified evaluation. A different team using overlapping development patients does not establish an independent population test. If you revise the model after seeing results, record a new version and evaluate it again appropriately.
 
@@ -103,7 +103,7 @@ A fictional dataset contains cells from 20 donors. Each donor's cells are split 
 
 ## Sources and scope
 
-Source check: October 10, 2026. The donor example is fictional. Expert and learner review remain pending.
+Source check: November 7, 2026. The donor example is fictional. Expert and learner review remain pending.
 
 1. [TRIPOD+AI, 2024: prediction-model reporting and dataset roles](https://pmc.ncbi.nlm.nih.gov/articles/PMC11019967/) — guidance for clinical prediction reporting, not a certificate of quality.
 2. [Riley et al., 2024: external evaluation, calibration and subgroups](https://pmc.ncbi.nlm.nih.gov/articles/PMC10788734/).

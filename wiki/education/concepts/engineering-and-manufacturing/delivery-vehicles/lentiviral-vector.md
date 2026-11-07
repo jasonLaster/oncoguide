@@ -2,7 +2,7 @@
 title: "Lentiviral vector"
 type: "concept"
 domain: "engineering-and-manufacturing/delivery-vehicles"
-summary: "A lentiviral vector is an engineered viral delivery system that carries genetic instructions into cells."
+summary: "A lentiviral vector is an engineered viral delivery system that carries genetic instructions into cells and integrates them permanently into the host cell's genome."
 glossary_anchor: "lentiviral-vector"
 aliases: ["lentiviral vector", "lentivirus vector"]
 level: "intermediate"
@@ -21,7 +21,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## In one sentence
 
-A lentiviral vector is an engineered viral delivery system that carries genetic instructions into cells.
+A lentiviral vector is an engineered viral delivery system that carries genetic instructions into cells and integrates them permanently into the host cell's genome.
 
 ## The intuition
 

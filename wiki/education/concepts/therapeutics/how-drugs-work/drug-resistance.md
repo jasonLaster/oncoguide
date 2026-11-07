@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/how-drugs-work/drug-targ
 used_by: ["[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,7 +35,7 @@ The analogy is incomplete: cells can also acquire sequence changes, change their
 
 Treatment changes which populations survive and grow. This is **selection**. New [sequence changes](/wiki/education/concepts/biology-basics/genetics/mutation-types) can also arise over time. Finding a variant in a later resistant sample does not establish when it arose, whether it caused resistance, or whether it was present below the earlier test's detection limit.
 
-A target can change, disappear or become less accessible. Cells can use an alternative [signaling route](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases), change drug handling, or avoid the process that normally causes death. The surrounding [stroma](/wiki/education/concepts/biology-basics/cells/epithelium-and-stroma) can affect exposure and survival signals. The proposed mechanism must fit the actual treatment's requirements.
+A target can change, disappear or become less accessible. Cells can use an alternative [signaling route](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases), change drug handling (for example, by making more of the [efflux pumps](/wiki/education/concepts/therapeutics/how-drugs-work/drug-efflux-transporters) that push drugs out), or avoid the process that normally causes death. The surrounding [stroma](/wiki/education/concepts/biology-basics/cells/epithelium-and-stroma) can affect exposure and survival signals. The proposed mechanism must fit the actual treatment's requirements.
 
 Sequence changes are not the only explanation. Sharma and colleagues observed reversible drug-tolerant states in defined human cancer cell-line experiments. Some survivors regained sensitivity after drug removal. That supports a model-specific state mechanism; it neither proves that every resistant tumor is reversible nor identifies a safe treatment strategy in people.
 
@@ -51,7 +51,7 @@ flowchart TD
 
 ## Why it matters in cancer
 
-The same later sample can contain several resistant populations. A finding from one region need not explain every disease site. **Cross-resistance** means resistance to one treatment also reduces sensitivity to another; it must be established for the particular drugs and mechanism.
+The same later sample can contain several resistant populations. A finding from one region need not explain every disease site. **Cross-resistance** means resistance to one treatment also reduces sensitivity to another; it must be established for the particular drugs and mechanism. For antibody-drug conjugates that share a payload class, see [cross-resistance between ADCs](/wiki/education/concepts/therapeutics/antibody-based/adc-cross-resistance).
 
 Likewise, avoiding one failure point creates new requirements. A [combination rationale](/wiki/education/concepts/therapeutics/how-drugs-work/combination-therapy-rationale) must show that its components address the measured problem at useful exposures, with tolerable harm. A pathway diagram or a new target name cannot establish a clinical rescue.
 
@@ -101,6 +101,8 @@ One possible answer: “reduced effect in a defined setting; which populations r
 - [Cell lineage and differentiation](/wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation).
 - [Variant allele fraction and cancer-cell fraction](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction).
 - [Preclinical evidence](/wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence).
+- [Drug efflux transporters](/wiki/education/concepts/therapeutics/how-drugs-work/drug-efflux-transporters), one route to resistance across many drugs.
+- [Cross-resistance between ADCs](/wiki/education/concepts/therapeutics/antibody-based/adc-cross-resistance).
 
 ## Sources and scope
 

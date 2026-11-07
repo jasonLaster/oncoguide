@@ -8,8 +8,8 @@ objectives: ["Keep a combination trial's population, treatment sequence and endp
 prerequisites: ["[[wiki/education/local-treatment-modalities/02-timing]]", "[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]"]
 sensitive: false
 tags: [education, local-treatment, evidence]
-updated: "2026-10-13"
-source_checked: 2026-10-09
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -34,9 +34,9 @@ Use the [survival-endpoint concept](/wiki/education/concepts/evidence-and-statis
 | BOOSTER, 2025 | Advanced non-small-cell lung cancer with limited residual disease after a response to checkpoint treatment; ablation plus continued immunotherapy versus continued immunotherapy | A progression-free survival signal for the tested strategy in this selected phase-2 setting | This was probe-based ablation, not an SBRT trial, and not a breast-cancer trial |
 | PACIFIC, five-year report 2022 | Unresectable stage-III non-small-cell lung cancer without progression after concurrent platinum-based chemotherapy and radiation; durvalumab consolidation versus placebo | Sustained progression-free and overall survival benefit for that sequence | It did not require SBRT or test whether shrinkage elsewhere was an abscopal effect |
 | CURB, 2024 | Oligoprogressive metastatic breast cancer or non-small-cell lung cancer; standard care with or without SBRT to progressing sites | Progression-free survival improvement was seen in the lung cohort; the breast cohort did not show a significant improvement | A lung result cannot be assigned to breast cancer; the breast cohort does not establish every subtype's effect precisely |
-| NRG-BR002, full report 2026 | Oligometastatic breast cancer with a controlled primary and no progression on first-line systemic treatment; systemic treatment with or without metastasis-directed ablation, mainly SBRT | The phase-2 comparison did not demonstrate improved progression-free survival; no significant overall survival difference was detected | The planned phase-3 portion did not proceed; this does not erase symptom-relief or other established local-treatment goals |
+| NRG-BR002, full report 2026 | 125 analyzable people with breast cancer and at most four metastases, a controlled primary and no progression after up to 12 months of first-line systemic treatment; systemic treatment with or without metastasis-directed ablation by SBRT or surgery (SBRT in 93%) | No benefit: median progression-free survival 23.0 months without ablation versus 19.5 months with it (hazard ratio 0.92, 95% confidence interval 0.57–1.47; stratified P = .42); overall survival hazard ratio 1.07 (P = .52). The authors advise against routine ablation outside trials, except for palliation | The planned phase 3 did not proceed. 79% had hormone receptor–positive, human epidermal growth factor receptor 2 (HER2)–negative disease, so triple-negative cancer was at most a fifth of participants; symptom relief remains a separate goal |
 
-BOOSTER measured its primary progression-free survival from immunotherapy initiation, before later ablation. That clock and enrollment below the planned sample size matter when comparing headlines or generalizing its estimate. [BOOSTER full report](https://www.nature.com/articles/s41392-025-02460-z.pdf).
+BOOSTER measured its primary progression-free survival from immunotherapy initiation, before randomization and later ablation, so both medians include time every participant had to survive to enter. It planned 137 participants and randomized 65. Both facts matter when comparing headlines or generalizing its estimate. [BOOSTER full report](https://www.nature.com/articles/s41392-025-02460-z.pdf).
 
 The cards summarize the primary reports linked below. In NRG-BR002, “metastasis-directed ablation” included SBRT or surgery; it does not mean the probe-based heating or freezing used in BOOSTER. NRG-BR002 is cited here as a [full journal report](https://ascopubs.org/doi/10.1200/JCO-26-00201). Publication format matters because a [conference abstract and a full paper](/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed) allow different amounts of inspection.
 
@@ -60,7 +60,7 @@ The defensible report is: “Local control was achieved; the study leaves the si
 
 ## Common failure modes
 
-Watch for an unnamed “benefit,” an omitted comparator, or a switch from lung to breast cancer midway through a claim. Also watch for a nonrandomized comparison of freezing versus heating inside a trial whose randomization addressed ablation versus no ablation. The original randomization does not make every subgroup comparison randomized.
+Watch for an unnamed “benefit,” an omitted comparator, or a switch from lung to breast cancer midway through a claim. Also watch for a nonrandomized comparison of freezing versus heating inside a trial whose randomization addressed ablation versus no ablation. BOOSTER's report does this: a subgroup analysis says cryoablation (13 patients) gave potentially better progression-free survival than thermal ablation (31 patients). Patients were randomized 2:1 to ablation or no ablation, not to freezing or heating, so who received which method was not randomized and the groups are small. The original randomization does not make every subgroup comparison randomized; treat the subgroup as a hypothesis.
 
 ## Try it
 
@@ -82,10 +82,10 @@ Next: [read a proposal through five questions](/wiki/education/local-treatment-m
 
 Focused denominator check: October 13, 2026; Ho’s primary abstract read via Europe PMC after PubMed access failed. No new full-text reading is claimed; the other study cards retain their earlier source-check scope. Expert and learner review remain pending.
 
-Source check: 2026-10-09. The worked study is fictional; the named clinical trials are real. Expert and learner review pending.
+Source check: 2026-11-07 for the NRG-BR002 result (PubMed abstract), and the BOOSTER subgroup, PFS clock and planned sample size (full text); 2026-10-09 for the rest. The worked study is fictional; the named clinical trials are real. Expert and learner review pending.
 
-- [Yang et al., 2025: BOOSTER](https://pubmed.ncbi.nlm.nih.gov/41213939/) — randomized phase-2 ablation after an immunotherapy response in lung cancer.
+- [Yang et al., 2025: BOOSTER](https://pubmed.ncbi.nlm.nih.gov/41213939/) — randomized phase-2 ablation after an immunotherapy response in lung cancer; [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC12603194/) checked for the primary-endpoint clock and sample size.
 - [Spigel et al., 2022: PACIFIC five-year outcomes](https://pubmed.ncbi.nlm.nih.gov/35108059/) — consolidation after concurrent chemoradiation in unresectable stage-III lung cancer.
 - [Tsai et al., 2024: CURB](https://pubmed.ncbi.nlm.nih.gov/38104577/) — breast and lung oligoprogression; separate the cohorts.
-- [Chmura et al., 2026: NRG-BR002](https://ascopubs.org/doi/10.1200/JCO-26-00201) — full randomized report published October 7, 2026.
+- [Chmura et al., 2026: NRG-BR002](https://pubmed.ncbi.nlm.nih.gov/42842849/) — randomized phase II/III report, *Journal of Clinical Oncology*, online October 7, 2026; abstract checked.
 - [Ho et al., 2020: radiation plus pembrolizumab](https://pubmed.ncbi.nlm.nih.gov/31747077/) — small single-arm metastatic triple-negative breast-cancer study.

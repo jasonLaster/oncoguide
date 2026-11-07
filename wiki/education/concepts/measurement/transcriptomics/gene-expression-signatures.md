@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-
 used_by: ["[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/multi-omics-foundations/03-reading-rna-counts]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -53,7 +53,7 @@ flowchart TD
 
 *The rules and reference are part of the test; a score's usefulness needs separate validation.*
 
-For a clinical predictor, the complete procedure should be **locked**: specimen requirements, measurement, preprocessing, algorithm and decision threshold are fixed before validation. Changing them creates a new version requiring evidence. Analytical repeatability asks whether the test measures consistently. Clinical validity asks whether its result relates to the intended outcome. Clinical utility asks whether using it improves a clinical decision or outcome. [McShane 2013](https://link.springer.com/article/10.1186/1741-7015-11-220).
+For a clinical predictor, the complete procedure should be **locked**: specimen requirements, measurement, preprocessing, algorithm and decision threshold are fixed before validation. Changing them creates a new version requiring evidence. Locking matters because many genes and few patients invite [overfitting](/wiki/education/concepts/measurement/computational-analysis/overfitting): in breast cancer, more than 90% of random gene sets larger than 100 genes were significantly associated with outcome ([Venet 2011](https://doi.org/10.1371/journal.pcbi.1002240)), so an outcome association alone does not show a signature's named biology matters. Analytical repeatability asks whether the test measures consistently. Clinical validity asks whether its result relates to the intended outcome. Clinical utility asks whether using it improves a clinical decision or outcome. [McShane 2013](https://link.springer.com/article/10.1186/1741-7015-11-220).
 
 ## Why it matters in cancer
 
@@ -102,12 +102,13 @@ Complete: “To interpret this signature, I need the genes, _____ and _____.”
 
 ## Sources and scope
 
-Source check: October 10, 2026. Examples are fictional. Expert and learner review remain pending. The cited methods illustrate different algorithms; they are not an inventory of currently approved clinical tests.
+Source check: November 7, 2026. Examples are fictional. Expert and learner review remain pending. The cited methods illustrate different algorithms; they are not an inventory of currently approved clinical tests.
 
 - [Parker et al., original intrinsic-subtype and risk-predictor study (2009)](https://pubmed.ncbi.nlm.nih.gov/19204204/).
 - [Subramanian et al., original GSEA method (2005)](https://pubmed.ncbi.nlm.nih.gov/16199517/).
 - [Seurat authors: AddModuleScore algorithm documentation](https://satijalab.org/seurat/reference/addmodulescore).
 - [McShane et al., criteria for omics predictors in clinical trials (2013)](https://link.springer.com/article/10.1186/1741-7015-11-220).
+- [Venet et al., random gene signatures and breast-cancer outcome (2011)](https://doi.org/10.1371/journal.pcbi.1002240) (PMID 22028643).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

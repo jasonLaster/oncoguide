@@ -2,9 +2,9 @@
 title: "Pathologic complete response (pCR)"
 type: concept
 domain: breast-cancer/surgery-and-pathology-results
-summary: "Pathologic complete response means no residual invasive cancer in the breast or sampled regional nodes after neoadjuvant treatment."
+summary: "Pathologic complete response means no residual invasive cancer in the breast or sampled regional nodes after neoadjuvant treatment, usually written ypT0/Tis ypN0 (residual ductal carcinoma in situ allowed)."
 glossary_anchor: pcr
-aliases: ["pcr"]
+aliases: ["pcr", "pathologic complete response", "pathological complete response", "ypT0/Tis ypN0"]
 prerequisites:
   - "[[wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant]]"
   - "[[wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis]]"
@@ -13,9 +13,9 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, breast-cancer]
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
+updated: 2026-11-07
+source_checked: 2026-11-07
 review_status: "Source-checked; expert and learner review pending"
 ---
 
@@ -23,7 +23,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## In one sentence
 
-Pathologic complete response means no residual invasive cancer in the breast or sampled regional nodes after neoadjuvant treatment.
+Pathologic complete response means no residual invasive cancer in the breast or sampled regional nodes after neoadjuvant treatment, usually written ypT0/Tis ypN0 (residual ductal carcinoma in situ allowed).
 
 ## The intuition
 
@@ -54,9 +54,9 @@ Residual DCIS can therefore be compatible with the common invasive-clearance end
 
 ## Why it matters in cancer
 
-In the Collaborative Trials in Neoadjuvant Breast Cancer (CTNeoBC) pooled analysis, people attaining pCR had better long-term outcomes, with particularly strong association in [triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc). This is an association among patients; it does not make pCR a guarantee for an individual.
+In the Collaborative Trials in Neoadjuvant Breast Cancer (CTNeoBC) pooled analysis of 11,955 patients, people reaching pCR had better long-term outcomes. The link was strongest in [triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc): hazard ratio 0.24 for event-free survival and 0.16 for overall survival, compared with no pCR [1]. This is an association among patients; it does not make pCR a guarantee for an individual.
 
-A different question is whether a treatment-induced increase in a trial's pCR rate predicts its improvement in survival. CTNeoBC did **not validate trial-level surrogacy** for event-free or overall survival. “Responders do better” and “this intervention improves survival because it increases responses” are different claims. Long-term outcomes still matter.
+A different question is whether a treatment that raises a trial's pCR rate also improves survival. CTNeoBC found little trial-level agreement (R² 0.03 for event-free survival, 0.24 for overall survival), so it did **not validate pCR as a surrogate** [1]. [Surrogate endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints) explains the two levels. In KEYNOTE-522, a pCR gain did come with survival gains, but that had to be shown directly.
 
 ## Worked example
 
@@ -80,7 +80,7 @@ Now change one fact: a sampled node contains residual invasive carcinoma. The co
 
 ## Common confusions
 
-- Imaging complete response, negative blood testing and pCR are different assessments.
+- Imaging complete response, negative [circulating tumor DNA (ctDNA)](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) testing and pCR are different assessments.
 - Breast-only clearance does not establish combined breast-and-node pCR.
 - pCR does not mean every definition excludes DCIS, that margins are automatically clear, or that cure is certain.
 - A higher pCR rate does not automatically quantify a treatment's survival benefit.
@@ -105,22 +105,28 @@ Explain why “no invasive breast cancer” is insufficient to establish the com
 
 - [Surgical margins](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins)
 - [Residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden)
+- [Surrogate endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints)
+- [Post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation)
 
 ## Sources and scope
 
-Source-checked October 10, 2026; expert and learner review pending. All examples are fictional and make no personal forecast.
+Source-checked November 7, 2026; expert and learner review pending. All examples are fictional and make no personal forecast.
 
 - [FDA: pCR as an endpoint in high-risk early-stage breast cancer, July 2020](https://www.fda.gov/media/83507/download), sections III and IV, for complete-specimen definitions and the responder-versus-trial distinction.
-- [Cortazar and colleagues, 2014: CTNeoBC](https://pubmed.ncbi.nlm.nih.gov/24529560/), primary abstract, for patient associations and unvalidated trial-level surrogacy.
+1. [Cortazar and colleagues, Lancet 2014: CTNeoBC](https://pubmed.ncbi.nlm.nih.gov/24529560/), primary abstract, for subtype hazard ratios and trial-level R².
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
 - [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study)
+- [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
+- [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
+- [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
 - [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)

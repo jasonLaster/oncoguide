@@ -6,7 +6,7 @@ aliases: ["tumor-normal sequencing", "matched normal sequencing", "tumor-only se
 summary: "Tumor–normal sequencing compares tumor DNA with a suitable normal sample from the same person to help attribute variants, while tumor-only sequencing must infer their origin without that paired comparison."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage]]"]
-used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 glossary_anchor: "tumor-normal-vs-tumor-only-sequencing"
 sensitive: false
 tags: ["education", "measurement"]
@@ -92,6 +92,7 @@ Source check: October 9, 2026. Expert and learner review remain pending. Example
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
 - [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

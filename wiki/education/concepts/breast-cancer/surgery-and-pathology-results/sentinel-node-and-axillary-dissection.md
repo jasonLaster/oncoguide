@@ -7,11 +7,11 @@ glossary_anchor: "sentinel-node-and-axillary-dissection"
 aliases: ["sentinel lymph node biopsy", "SLNB", "axillary lymph node dissection", "ALND", "targeted axillary dissection"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla]]", "[[wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging]]"]
-used_by: ["[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
+used_by: ["[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -58,7 +58,15 @@ Follow the tracer lines from the illustrative drainage territory to A and B. The
 
 Nodal procedures can provide staging information and contribute to regional treatment. Their interpretation depends on the pretreatment nodal findings, whether surgery occurs before or after systemic treatment, mapping method and the complete local-treatment plan. Finding a positive sentinel node does not establish one universal next operation.
 
-The American College of Surgeons Oncology Group (ACOSOG) Z1071 study tested sentinel sampling followed by dissection after chemotherapy in patients initially presenting with node-positive breast cancer. It documented missed residual disease under that study's conditions. Caudle and colleagues subsequently studied adding retrieval of a clipped node. These studies show why population and technique belong beside a test result; their accuracy estimates are not universal values for every nodal procedure today.
+Two studies changed nodal surgery after preoperative chemotherapy in people who started node-positive:
+
+| Study | Procedure checked against full dissection | False-negative rate |
+|---|---|---|
+| ACOSOG Z1071 (American College of Surgeons Oncology Group), cN1 disease | Sentinel-node biopsy with 2 or more sentinel nodes removed | 12.6% (39 missed among those with residual nodal cancer); the study's goal was 10% or less [1] |
+| Caudle and colleagues, biopsy-proven positive node clipped before treatment | Sentinel nodes alone | 10.1% [2] |
+| Same study | Targeted axillary dissection: sentinel nodes plus the clipped node | 2.0% (1 of 50) [2] |
+
+Z1071 also found no residual nodal cancer in 41.0% of patients with 2 or more sentinel nodes [1], so in many patients a full dissection removed no cancer. Removing the clipped node was the fix that made a smaller operation reliable. These rates belong to their populations and techniques; they are not universal values for every procedure.
 
 Nodal surgery also has costs. Disrupted lymph flow can contribute to **lymphedema**, persistent swelling, and other surgical effects. Sampling fewer nodes generally reduces some risks, but SLNB is not risk-free and dissection does not guarantee complications.
 
@@ -100,15 +108,17 @@ A fictional post-treatment report says three sentinel nodes were negative, but d
 
 ## Sources and scope
 
-Source check: October 10, 2026. Procedures and measurement limits; the exercise is fictional. No recommendation for an individual's nodal surgery. Expert and learner review remain pending.
+Source check: November 7, 2026 (false-negative rates from the primary abstracts). Procedures and measurement limits; the exercise is fictional. No recommendation for an individual's nodal surgery. Expert and learner review remain pending.
 
 - [NCI: sentinel lymph node biopsy](https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet) — mapping, risks and false-negative results.
 - [CAP breast resection protocol, version 4.11.0.0, June 2026](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true) — node identification, sampling and reporting, Note M.
-- [Boughey et al., 2013: ACOSOG Z1071](https://pubmed.ncbi.nlm.nih.gov/24101169/) — sentinel sampling after chemotherapy in an initially node-positive population.
-- [Caudle et al., 2016](https://pubmed.ncbi.nlm.nih.gov/26811528/) — prospective study of clipped-node evaluation and targeted axillary dissection after neoadjuvant therapy.
+1. [Boughey et al., JAMA 2013: ACOSOG Z1071](https://pubmed.ncbi.nlm.nih.gov/24101169/) — sentinel sampling after chemotherapy in an initially node-positive population.
+2. [Caudle et al., JCO 2016](https://pubmed.ncbi.nlm.nih.gov/26811528/) — clipped-node evaluation and targeted axillary dissection after neoadjuvant therapy.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
+- [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
+- [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 <!-- END GENERATED USED IN -->

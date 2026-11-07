@@ -61,7 +61,7 @@ The DNA is a manufacturing input for an RNA product; using a DNA template does n
 | **Thresholds** | Product- and method-specific acceptance/reporting criteria; an expected mass is not a universal pass. |
 | **Failure modes** | Wrong or incompletely prepared template, degradation, truncation, unintended products or loss during cleanup. Free building blocks can inflate absorbance-based quantity estimates. |
 | **Cannot tell** | A correct-sized band does not identify every sequence or impurity; total mass does not establish full-length functional RNA. |
-| **Validation context** | A research protocol establishes a tested method. [Good manufacturing practice (GMP) batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) requires its own controlled process and justified specifications. |
+| **Validation context** | A research protocol establishes a tested method. [Good manufacturing practice (GMP)](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) and [batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release) requires its own controlled process and justified specifications. |
 
 ## Common confusions
 

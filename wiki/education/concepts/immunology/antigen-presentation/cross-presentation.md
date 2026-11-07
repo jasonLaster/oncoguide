@@ -4,14 +4,14 @@ type: "concept"
 domain: "immunology/antigen-presentation"
 summary: "Cross-presentation occurs when a cell displays externally acquired antigen on class-I human leukocyte antigen molecules."
 glossary_anchor: "cross-presentation"
-aliases: ["cross-presentation", "cross-priming"]
+aliases: ["cross-presentation", "cross presentation"]
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -91,7 +91,7 @@ Explain why the antigen source and the responding cell's activation are two diff
 
 ## Sources and scope
 
-Source check: October 10, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
+Source check: November 7, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
 
 - [Primary dendritic-cell cross-priming experiments in mice](https://pubmed.ncbi.nlm.nih.gov/11120766/).
 - [Jongbloed et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20479116/), human CD141-positive DC experiments with defined antigen and activation conditions.
@@ -102,10 +102,9 @@ Source check: October 10, 2026. This is a mechanism explanation, not a treatment
 ## Used in
 
 - [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 - [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
-- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 <!-- END GENERATED USED IN -->

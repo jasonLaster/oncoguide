@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -46,7 +46,7 @@ The family has several members and overlapping roles. SREBP-2 is especially asso
 
 Growing cells need membrane material. Some cancer models change lipid production, uptake, or storage. Dependence on one route depends partly on what the environment supplies and whether another route compensates.
 
-A cholesterol-synthesis inhibitor changes one biochemical step. It does not reproduce every possible SCAP alteration. A statin inhibits HMG-CoA reductase in the mevalonate pathway, which also supplies products beyond cholesterol. A rescue by mevalonate therefore does not uniquely identify cholesterol as the missing product.
+A cholesterol-synthesis inhibitor changes one biochemical step. It does not reproduce every way the SCAP–SREBP control system can change. A statin inhibits HMG-CoA reductase in the mevalonate pathway, which also supplies products beyond cholesterol. A rescue by mevalonate therefore does not uniquely identify cholesterol as the missing product.
 
 ## A worked example
 
@@ -65,13 +65,23 @@ The culture still grows after a synthesis perturbation in lipid-rich medium. Tha
 
 Research readouts include precursor and nuclear SREBP, responsive transcripts, cellular sterols, uptake, and synthesis rates. Labeling experiments can follow new production rather than total amount. Culture lipids, cell density, and timing affect interpretation. Controlled supplementation helps test the proposed supply bottleneck, but viability and specificity remain separate questions.
 
+## Explain it back
+
+“SCAP senses ___ and moves SREBP to ___, where it is cut to release ___; a statin blocks ___.”
+
+**One possible answer:** sterol levels in the endoplasmic reticulum; the Golgi; a fragment that switches on lipid-production and uptake genes; HMG-CoA reductase, an early step in making cholesterol and other mevalonate products.
+
+## Takeaway
+
+**Cells match cholesterol production and uptake to their sterol supply through SCAP–SREBP, so a lipid result means little until you know what the environment supplies and which route the cell is using.**
+
 ## Related concepts
 
 [PI3K–AKT–mTOR](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor) coordinates growth and resources through different machinery. [Oxidative phosphorylation](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) supplies an energy foundation. [The lipid lesson](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor) compares resource regulation and drug hypotheses.
 
 ## Sources
 
-Source check: 2026-10-09. General mechanism education; the worked example is fictional. Expert and learner review pending.
+Source check: 2026-11-07. General mechanism education; the worked example is fictional. Expert and learner review pending.
 
 - [Radhakrishnan 2008: ER cholesterol and SREBP-2 transport](https://pmc.ncbi.nlm.nih.gov/articles/PMC2652870/).
 - [Lange 2008: rapid ER cholesterol and HMG-CoA reductase responses](https://pubmed.ncbi.nlm.nih.gov/18024962/).

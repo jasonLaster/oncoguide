@@ -7,13 +7,13 @@ glossary_anchor: hazard-ratio
 aliases: ["hazard ratio", "hazard-ratio", "proportional hazards"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: 2026-10-10
-updated: 2026-10-10
+source_checked: 2026-11-07
+updated: 2026-11-07
 tags: [education, evidence-and-statistics]
 ---
 
@@ -74,6 +74,8 @@ Trial reports often headline HRs. Read the endpoint, actual survival curves, abs
 - HR 1 is a model's rate comparison, not proof that every aspect of two curves is identical.
 - An adjusted HR does not repair unmeasured confounding.
 - A cause-specific HR and a competing-risk subdistribution HR have different meanings; do not substitute one for the other.
+- **An HR is not a ratio of median survival times.** Only when both hazards are constant (exponential survival) does the median ratio equal 1/HR; otherwise the medians can differ by much more or less.
+- **Is a randomized HR causal?** Randomization balances groups at time zero, but later the HR compares the people still at risk, who may differ because the treatment changed who survived. Hernán argues this makes even a randomized HR hard to read as a causal effect and favors survival curves or risks at fixed times [Hernán 2010](https://pubmed.ncbi.nlm.nih.gov/20010207/); others defend the HR as a useful average summary. Report absolute risks beside it either way.
 
 ## Try it
 
@@ -84,6 +86,8 @@ An article reverses the comparison from treatment/control HR 0.70 to control/tre
 ## Explain it back
 
 Explain why the people still at risk matter when defining a hazard.
+
+**One possible answer:** A hazard is the event rate among people who have not yet had the event, so the comparison changes as each group's at-risk set changes.
 
 ## Takeaway
 
@@ -97,9 +101,10 @@ Read HR as a conditional rate comparison, with its endpoint, direction, model an
 
 ## Sources and scope
 
-Source check: 2026-10-10. General statistics education; expert and learner review pending. The study and numerical example are fictional, not personal prognosis estimates.
+Source check: November 7, 2026. General statistics education; expert and learner review pending. The study and numerical example are fictional, not personal prognosis estimates.
 
 - [Cox 1972: original proportional-hazards regression method](https://doi.org/10.1111/j.2517-6161.1972.tb00899.x).
+- [Hernán 2010: the hazards of hazard ratios](https://pubmed.ncbi.nlm.nih.gov/20010207/) — the causal-interpretation critique.
 - [National Cancer Institute: hazard ratio](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/hazard-ratio).
 - [Altman and Andersen 1999: time-specific absolute effects and number needed to treat](https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/).
 
@@ -110,5 +115,6 @@ Source check: 2026-10-10. General statistics education; expert and learner revie
 
 - [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
+- [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 <!-- END GENERATED USED IN -->

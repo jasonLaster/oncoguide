@@ -7,11 +7,11 @@ glossary_anchor: "costimulation"
 aliases: ["costimulation", "co-stimulation", "signal two"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -32,7 +32,7 @@ Recognizing the right task is not the same as receiving support to undertake it.
 
 <img src="./images/same-antigen-different-supporting-contacts-v1-light.svg" alt="The same peptide–HLA recognition is compared with present and absent CD80/CD86 support for CD28; a separate scene shows CTLA-4 can remove shared ligands." data-theme-pair />
 
-*Identical peptide–HLA recognition can occur with different supporting contacts. CD28 is one costimulation example; CTLA-4 can reduce shared ligand availability.*
+*Identical peptide–[human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) recognition can occur with different supporting contacts. CD28 is one costimulation example; CTLA-4 can reduce shared ligand availability.*
 
 A [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes a particular peptide–[human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) combination. This supplies antigen specificity. Costimulatory receptors engage additional partners that alter activation, survival, division or differentiation. They do not substitute a different antigen into the receptor's recognition rule.
 
@@ -101,7 +101,6 @@ Source check: October 10, 2026. Supporting interactions and experimental interpr
 ## Used in
 
 - [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
 <!-- END GENERATED USED IN -->

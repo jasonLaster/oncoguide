@@ -2,16 +2,16 @@
 title: "Use the findings in the next conversation"
 sensitive: false
 tags: ["education"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 type: "guide-lesson"
 guide: "treating-early-tnbc"
 step: 3
-minutes: 11
-objectives: ["Separate local completion, systemic treatment and safety questions.", "Distinguish risk information from evidence for added benefit."]
+minutes: 12
+objectives: ["Separate local completion, systemic treatment and safety questions.", "Name the tested options after pCR, after residual disease and for germline BRCA carriers.", "Distinguish risk information from evidence for added benefit."]
 prerequisites: ["[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr]]", "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden]]", "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"]
 ---
 
@@ -39,7 +39,7 @@ The surgical report describes submitted tissue after its particular treatment hi
 
 A favorable tissue response is meaningful. It is not a guarantee that recurrence cannot occur. Residual invasive disease is also meaningful. It does not establish inevitable recurrence or that every component of earlier treatment had no benefit.
 
-Use [the pathology path](/wiki/education/guides/reading-pathology-and-surgery-results/index) for the report-reading steps. Here the task is to sort the next questions, rather than calculate a response score or prescribe a postoperative regimen.
+Use [the pathology path](/wiki/education/guides/reading-pathology-and-surgery-results/index) for the report-reading steps. Here the task is to sort the next questions and name the tested options, not to prescribe a postoperative regimen.
 
 ## Put the questions on three cards
 
@@ -51,21 +51,31 @@ Use [the pathology path](/wiki/education/guides/reading-pathology-and-surgery-re
 
 The cards connect. Recovery can affect timing, and local treatment can affect a systemic plan. Keeping the questions distinct makes those connections easier to explain; they remain coordinated clinical decisions.
 
+## The systemic card has named options
+
+After [KEYNOTE-522](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen)-style treatment, the systemic card usually starts from these branches. [Post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation) gives the evidence for each.
+
+| Finding at surgery | Options with randomized evidence | Still open |
+|---|---|---|
+| pCR | Complete the postoperative pembrolizumab phase, up to 9 cycles | Whether everyone with pCR needs every remaining cycle |
+| Residual invasive cancer | Continue pembrolizumab; capecitabine (CREATE-X triple-negative subgroup: 5-year disease-free survival 69.8% vs 56.1%) | Adding capecitabine **to** pembrolizumab has no reported randomized test; antibody-drug conjugate trials are ongoing |
+| Germline *BRCA1* or *BRCA2* variant, high risk | 1 year of olaparib (OlympiA) | Adding olaparib to pembrolizumab has no reported randomized test |
+
+Platinum instead of capecitabine (EA1131) and sequencing-matched drugs (BRE12-158) were tested for residual TNBC and were not better.
+
 ## A worked case: one report, several questions
 
-Imagine a fictional report shows sparse invasive cancer in the breast, one involved regional node and an involved margin. During preoperative treatment, an inflammatory toxicity interrupted an immune medicine.
+Imagine a fictional report after KEYNOTE-522-style treatment: a small amount of invasive cancer in the breast, one involved node and an involved margin. Germline testing found no *BRCA1* or *BRCA2* variant. Earlier, an inflammatory side effect paused the immune medicine.
 
-The invasive findings prevent the common combined pCR endpoint. The bed and node measurements contribute to residual burden and residual staging. The margin creates a local completion question. The earlier inflammatory event creates a separate safety question about further immune treatment.
+- **Local card.** The margin raises a re-excision or radiation question, and the node feeds the radiation plan.
+- **Systemic card.** Residual disease means no pCR. The tested branches are continuing pembrolizumab and adding capecitabine, whose evidence predates pembrolizumab. Olaparib's evidence does not apply without a germline variant. A trial of an antibody-drug conjugate may be worth asking about.
+- **Safety card.** The earlier inflammatory event is its own question: can pembrolizumab resume safely?
 
-None of these observations alone identifies the best added medicine. A higher-risk finding may justify a conversation about additional treatment, but proposed benefit needs evidence in the relevant setting. Safety history can also change feasible options.
-
-Now add a negative blood assay. It does not erase the invasive tissue findings or the margin. It is another observation from another sampling method. Changing care based on it needs evidence for that decision strategy.
+Now add a negative [circulating tumor DNA (ctDNA)](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) test. It does not erase the residual tissue or the margin. In people with residual TNBC, a positive ctDNA test was linked to higher risk, but no trial has shown that changing treatment because of ctDNA improves survival.
 
 ## Risk and added benefit ask different questions
 
-An RCB category can be associated with outcomes in studied groups: prognostic evidence. To claim that an added treatment helps, identify a study with the relevant population, prior therapy, comparator and endpoint. To claim it helps especially in that category, inspect the subgroup evidence and uncertainty.
-
-[Response-adapted therapy](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy) tests a defined next step after an assessed response. A high-risk group does not automatically respond to every intervention. A promising mechanism also does not establish benefit after a particular prior regimen. Eligibility for access, evidence for benefit and the choice to use treatment are separate steps.
+A [residual cancer burden (RCB)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) class is prognostic: it says who is at higher risk. To claim that an added drug helps, find a randomized comparison in a matching population, after a matching earlier regimen. [Response-adapted therapy](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy) explains why a high-risk group does not automatically benefit from every added treatment.
 
 [Immune-related adverse events](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event) illustrates why safety remains explicit. An intended immune effect does not establish that inflammatory harm is acceptable or restarting treatment is appropriate.
 
@@ -78,15 +88,15 @@ An RCB category can be associated with outcomes in studied groups: prognostic ev
 
 ## Try it
 
-A fictional report assigns a residual-burden category. A proposed drug has laboratory activity against a related pathway. Does that establish postoperative benefit in this category?
+A fictional person reached pCR after KEYNOTE-522-style treatment. A relative asks whether she should now add capecitabine, because it helped after surgery in CREATE-X. Does CREATE-X answer that?
 
-**Answer:** No. The report establishes residual findings; the experiment establishes activity under its conditions. Postoperative benefit needs relevant clinical evidence, with safety and prior treatment considered.
+**Answer:** No. CREATE-X enrolled only people with residual invasive cancer, so it says nothing about adding capecitabine after pCR. The tested branch after pCR is completing postoperative pembrolizumab.
 
 ## Explain it back
 
 “The finding informs ___; choosing the next treatment also requires ___.”
 
-**One possible answer:** “The margin informs local completion; choosing the next treatment also requires relevant clinical evidence and safety assessment.”
+**One possible answer:** “Residual disease informs the systemic card; choosing capecitabine also requires knowing it was tested without pembrolizumab, plus a safety assessment.”
 
 ## Takeaway
 
@@ -96,9 +106,11 @@ A fictional report assigns a residual-burden category. A proposed drug has labor
 
 ## Sources and scope
 
-Source-checked October 9, 2026; expert and learner review pending. The fictional case is not a treatment recommendation.
+Source-checked November 7, 2026 against the primary abstracts; expert and learner review pending. The fictional case is not a treatment recommendation.
 
-- [NCI: Pathology reports](https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet).
+- [Schmid and colleagues, NEJM 2022: KEYNOTE-522 event-free survival](https://pubmed.ncbi.nlm.nih.gov/35139274/) — postoperative pembrolizumab phase.
+- [Masuda and colleagues, NEJM 2017: CREATE-X](https://pubmed.ncbi.nlm.nih.gov/28564564/).
+- [Tutt and colleagues, NEJM 2021: OlympiA](https://pubmed.ncbi.nlm.nih.gov/34081848/).
+- [Mayer and colleagues, JCO 2021: EA1131](https://pubmed.ncbi.nlm.nih.gov/34092112/).
+- [Radovich and colleagues, JAMA Oncology 2020](https://pubmed.ncbi.nlm.nih.gov/32644110/) — ctDNA within residual TNBC.
 - [Symmans and colleagues, 2007: residual cancer burden](https://doi.org/10.1200/JCO.2007.10.6823).
-- [CTNeoBC pooled analysis](https://pubmed.ncbi.nlm.nih.gov/24529560/), for response-outcome association and the distinct surrogacy question.
-- [NCI: Breast cancer treatment by stage](https://www.cancer.gov/types/breast/treatment/by-stage).

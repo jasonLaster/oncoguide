@@ -14,7 +14,7 @@ reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
-used_by: ["[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 ---
 
 # HER2: receptor biology and test status
@@ -45,7 +45,7 @@ This simplified map uses the September 2026 College of American Pathologists (CA
 | 2+ | Equivocal; commonly weak to moderate complete membrane staining in more than 10%; requires workup |
 | 3+ | Positive; intense, complete membrane staining in more than 10% of a homogeneous, contiguous invasive tumor-cell population |
 
-**HER2-low** describes IHC 1+ or IHC 2+/ISH-negative staining. **HER2-ultralow** describes the limited faint membrane-staining pattern historically within IHC 0. The 2026 template separates that pattern as **0+** from absent staining as **0**. Both remain negative for overexpression/amplification. Intense complete staining limited to at most 10%, and some incomplete patterns, also fall into the equivocal workup group.
+**HER2-low** describes IHC 1+ or IHC 2+/ISH-negative staining. **HER2-ultralow** describes the limited faint membrane-staining pattern historically within IHC 0. The 2026 template separates that pattern as **0+** from absent staining as **0**. Both remain negative for overexpression/amplification. How well these categories predict benefit from [antibody-drug conjugates](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) is covered in [target expression versus ADC response](/wiki/education/concepts/therapeutics/antibody-based/target-expression-vs-adc-response). Intense complete staining limited to at most 10%, and some incomplete patterns, also fall into the equivocal workup group.
 
 <img src="./images/her2-membrane-patterns-v1-light.svg" alt="Five illustrative HER2 IHC rows separate membrane stain completeness and intensity from stained-cell extent for scores 0, 0+, 1+, 2+ and 3+." width="780" height="1510" data-theme-pair>
 
@@ -119,6 +119,12 @@ General education; fictional example. Source-checked October 10, 2026. Expert an
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Match the payload to the failure](/wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure)
+- [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
+- [Read the diagnostic biopsy report](/wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy)
+- [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
+- [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
 - [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
+- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
 <!-- END GENERATED USED IN -->

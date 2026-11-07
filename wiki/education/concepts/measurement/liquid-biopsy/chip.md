@@ -2,8 +2,8 @@
 title: "CHIP (clonal hematopoiesis of indeterminate potential)"
 sensitive: false
 tags: [education, measurement, liquid-biopsy]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -16,7 +16,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]"
   - "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]"
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
 ---
 
 # CHIP (clonal hematopoiesis of indeterminate potential)
@@ -38,7 +38,7 @@ The analogy ends at cause: a larger clone is not automatically cancer, and a mut
 <p class="cartoon-caption">Compare the same variant across compartments: a blood-cell match supports a contribution, while a tumor non-detection needs its own sampling and assay limits.</p>
 </div>
 
-The [cfDNA and ctDNA diagram](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) explains the difference between defining a source class and assigning an unknown fragment.
+The [cell-free DNA (cfDNA) and circulating tumor DNA (ctDNA) diagram](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) explains the difference between defining a source class and assigning an unknown fragment.
 
 **Read the comparison:** The same V is detected in blood cells but not in the sampled tumor. Is every possible tumor contribution excluded?
 
@@ -60,9 +60,24 @@ flowchart TD
 
 *The DNA change may be real while its attribution to a solid tumor is wrong.*
 
-Matched white-blood-cell sequencing provides a useful comparison. Its gene coverage, molecule depth and detection rules matter. A clone below that test's sensitivity may remain unseen. A variant present in both blood and tumor needs careful interpretation; “subtract every blood match” is not a complete attribution method. Razavi and colleagues studied paired plasma, blood-cell and tumor sequencing, including an explicit ambiguous-source category.
+### Which genes to expect
 
-CH becomes more common with age, but there is no age at which a plasma variant can simply be dismissed. Some cancer treatments can favor existing clones with particular DNA-damage-response mutations. Bolton and colleagues demonstrated therapy-associated selection; that does not mean every new detection was newly caused by treatment.
+Clonal hematopoiesis concentrates in a short list of genes, so the gene name is the first clue to a blood-cell source.
+
+| Gene group | Genes | What selects the clone | Source |
+|---|---|---|---|
+| Age-related | **DNMT3A**, **TET2**, **ASXL1** | Ageing; ASXL1 is also enriched in smokers | In blood-cell exomes from 17,182 people, most clonal variants fell in these three genes; clones were rare before age 40 and seen in 9.5% of people aged 70–79 ([Jaiswal 2014](https://doi.org/10.1056/NEJMoa1408617)) |
+| Therapy-selected (DNA-damage response) | **PPM1D**, **TP53**, **CHEK2** | Radiation, platinum drugs and topoisomerase II inhibitors such as doxorubicin | Sequential samples showed these clones outgrowing others after exposure ([Bolton 2020](https://doi.org/10.1038/s41588-020-00710-0)); PPM1D and TP53 clones were linked to prior chemotherapy in 8,810 people with solid cancers ([Coombs 2017](https://doi.org/10.1016/j.stem.2017.07.010)) |
+
+**Why TP53 is the trap in triple-negative breast cancer.** TP53 is the gene most often mutated in triple-negative tumors, and it is also a gene that platinum and anthracycline treatment can select in blood-forming cells. A TP53 variant found in plasma after chemotherapy could therefore come from either compartment. Only a comparison with the person's own blood-cell DNA (and, where available, the tumor's variant list) can assign it.
+
+The scale of the problem is large. In paired plasma and white-blood-cell sequencing, 53.2% of plasma mutations in 124 people with metastatic cancer, and 81.6% in 47 people without cancer, had features of clonal hematopoiesis ([Razavi 2019](https://doi.org/10.1038/s41591-019-0652-7)).
+
+### How the comparison is done
+
+Matched white-blood-cell sequencing is the standard comparison. Its gene coverage, depth and detection rules matter: a clone below that test's sensitivity may remain unseen. A variant present in both blood and tumor needs careful interpretation; “subtract every blood match” is not a complete attribution method, and Razavi's study kept an explicit ambiguous-source category.
+
+CH becomes more common with age, but there is no age at which a plasma variant can simply be dismissed. Therapy-associated selection mostly expands clones that already existed; it does not mean every new detection was newly caused by treatment.
 
 ## Why it matters in cancer
 
@@ -110,15 +125,18 @@ A fictional plasma assay detects a variant. Sensitive matched blood-cell sequenc
 
 ## Sources and scope
 
-Source check: October 10, 2026. General biology and source attribution; no clone-specific risk forecast or care recommendation. Expert and learner review remain pending.
+Source check: November 7, 2026. General biology and source attribution; no clone-specific risk forecast or care recommendation. Expert and learner review remain pending.
 
 - [NCI: CHIP definition](https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/chip) — formal category and VAF threshold.
 - [Razavi et al. 2019: sources of plasma cfDNA variants](https://doi.org/10.1038/s41591-019-0652-7) — paired-compartment sequencing in metastatic cancers and non-cancer controls.
-- [Bolton et al. 2020: therapy and clonal hematopoiesis](https://doi.org/10.1038/s41588-020-00710-0) — exposure-dependent selection of blood-cell clones.
+- [Bolton et al. 2020: therapy and clonal hematopoiesis](https://doi.org/10.1038/s41588-020-00710-0) — exposure-dependent selection of blood-cell clones (PMID 33106634).
+- [Jaiswal et al. 2014: age-related clonal hematopoiesis](https://doi.org/10.1056/NEJMoa1408617) — DNMT3A, TET2 and ASXL1 in 17,182 blood-cell exomes (PMID 25426837).
+- [Coombs et al. 2017: therapy-related clonal hematopoiesis](https://doi.org/10.1016/j.stem.2017.07.010) — PPM1D and TP53 after chemotherapy in 8,810 people with solid cancers (PMID 28803919).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
+- [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
 <!-- END GENERATED USED IN -->

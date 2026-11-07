@@ -7,11 +7,11 @@ glossary_anchor: "isotypes-and-fc-silencing"
 aliases: ["antibody isotype", "isotype", "Fc silencing", "IgG subclass"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]"]
+used_by: []
 sensitive: false
 tags: ["education", "immunology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -47,7 +47,7 @@ The analogy breaks at “off.” Fc silencing is not one universal switch. A mol
 
 A B-cell lineage can undergo **class switching**, changing its heavy-chain constant region while retaining the rearranged variable-region sequence. This is different from the mutations that can change antibody affinity during a response. Neither the class name nor a switch establishes what antigen an antibody recognizes.
 
-For IgG, **Fc gamma receptors (FcγRs)** on immune cells bind Fc. Some promote activation; others inhibit it. **Complement** is a network of proteins that can help clear targets or damage membranes. Its C1q component can recognize appropriately arranged antibody Fc regions. Subclass, sugars attached to Fc, target geometry and available cells all affect these interactions. IgG1 and IgG4 are therefore not interchangeable, but neither name completely predicts a molecule's behavior.
+For IgG, **Fc gamma receptors (FcγRs)** on immune cells bind Fc. Some promote activation; others inhibit it. **Complement** is a network of proteins that can help clear targets or damage membranes. Its C1q component can recognize appropriately arranged antibody Fc regions. Subclass, sugars attached to Fc, target geometry and available cells all affect these interactions. IgG1 and IgG4 are therefore not interchangeable, but neither name completely predicts a molecule's behavior. A real example: pembrolizumab, the PD-1 blocking antibody, is a humanized IgG4 kappa antibody ([FDA label, section 11](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf)). Its intended job is to block a receptor rather than to recruit killer cells to the T cells it binds.
 
 **Fc silencing** uses design changes to reduce selected receptor or complement interactions. Lo and colleagues tested amino-acid substitutions in human and mouse antibody systems, including reduced effector activity in a mouse safety model. This supports engineering a particular interaction; it does not prove universal human safety or silence in every assay.
 
@@ -93,7 +93,7 @@ Two fictional antibodies bind the same receptor equally well. One has reduced Fc
 
 ## Sources and scope
 
-Source check: October 9, 2026. General classes and selective engineering; fictional practice, no product ranking. Expert and learner review remain pending.
+Source check: November 7, 2026. General classes and selective engineering; fictional practice, no product ranking. Expert and learner review remain pending.
 
 - [Immunobiology: B-cell activation and class switching](https://www.ncbi.nlm.nih.gov/books/NBK27142/) — the distinction between class switching and variable-region changes.
 - [Vidarsson et al., 2014](https://pubmed.ncbi.nlm.nih.gov/25368619/) — authoritative review of human IgG subclasses, Fc receptors and FcRn.
@@ -102,5 +102,5 @@ Source check: October 9, 2026. General classes and selective engineering; fictio
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

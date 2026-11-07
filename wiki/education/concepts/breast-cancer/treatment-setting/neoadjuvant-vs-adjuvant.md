@@ -8,14 +8,14 @@ aliases: ["neoadjuvant", "adjuvant", "neoadjuvant therapy", "adjuvant therapy", 
 level: "foundation"
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites:
   - "[[wiki/education/concepts/breast-cancer/treatment-setting/curative-intent]]"
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/02-timing]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/02-timing]]"]
 ---
 
 # Neoadjuvant versus adjuvant therapy
@@ -53,6 +53,8 @@ flowchart TD
 ## Why it matters in cancer
 
 Timing changes what can be observed. With neoadjuvant treatment, examination, imaging and later surgical pathology can describe response. In an adjuvant setting there may be no measurable tumor to watch. The aim can be recurrence-risk reduction rather than shrinkage of a visible mass.
+
+In stage II–III triple-negative breast cancer, a main modern reason to treat first is that **the response helps choose what comes next**. Surgery shows whether [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) was reached. Residual cancer after preoperative chemotherapy is the population in which the CREATE-X trial tested capecitabine (5-year disease-free survival 69.8% versus 56.1% in its triple-negative subgroup) [1]. That option depends on treating first. Olaparib, by contrast, helped high-risk carriers of a germline *BRCA1* or *BRCA2* variant whether chemotherapy came before or after surgery [2]. See [post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation). Shrinkage can also make a smaller operation possible.
 
 Keep timing separate from [curative intent](/wiki/education/concepts/breast-cancer/treatment-setting/curative-intent), which describes the plan's goal. Neither a preoperative drug nor a postoperative drug establishes intent from its calendar position alone.
 
@@ -94,21 +96,29 @@ Name the two details that distinguish neoadjuvant treatment from a drug that mer
 
 - [Curative intent](/wiki/education/concepts/breast-cancer/treatment-setting/curative-intent)
 - [Pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr)
+- [Post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation)
+- [The KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen)
 
 ## Sources and scope
 
-Source-checked October 10, 2026; expert and learner review pending. Plans are fictional and do not prescribe an individual's sequence.
+Source-checked November 7, 2026; expert and learner review pending. Plans are fictional and do not prescribe an individual's sequence.
 
 - [NCI: Neoadjuvant therapy](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/neoadjuvant-therapy), for pre-main-treatment timing and examples.
 - [NCI: Adjuvant therapy](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/adjuvant-therapy), for recurrence-risk reduction after primary treatment.
 - [NCI: Palliative care in cancer](https://www.cancer.gov/about-cancer/advanced-cancer/care-choices/palliative-care-fact-sheet), for supportive care alongside curative care.
 - [CDC: Adjuvants and vaccines](https://www.cdc.gov/vaccine-safety/about/adjuvants.html), for the separate ingredient meaning.
 
+1. [Masuda and colleagues, NEJM 2017: CREATE-X](https://pubmed.ncbi.nlm.nih.gov/28564564/) — capecitabine after residual HER2-negative disease.
+2. [Tutt and colleagues, NEJM 2021: OlympiA](https://pubmed.ncbi.nlm.nih.gov/34081848/) — adjuvant olaparib for germline *BRCA1/2* carriers.
+
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
+- [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
+- [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 - [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)

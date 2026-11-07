@@ -7,10 +7,10 @@ glossary_anchor: "exploratory-vs-prespecified-analysis"
 aliases: ["prespecified analysis", "pre-specified analysis", "exploratory analysis", "post hoc analysis"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]"]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: 2026-10-10
+updated: 2026-11-07
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -49,7 +49,7 @@ A fictional protocol names [event-free survival (EFS)](/wiki/education/concepts/
 
 Keep three statements separate: the planned primary result; the planned exploratory subgroup result; and the new cutoff-generated hypothesis. The last search should include all tested cutoffs and its selection method. A new study can lock the cutoff and evaluate whether it predicts a treatment difference.
 
-<img src="./images/locked-plan-results-and-twelve-cutoffs-v1-light.svg" alt="A dated plan precedes results access; afterward12 additional cutoff choices are searched and one selected cutoff becomes a hypothesis for an independent test" data-theme-pair width="600" height="1000">
+<img src="./images/locked-plan-results-and-twelve-cutoffs-v1-light.svg" alt="A dated plan precedes results access; afterward 12 additional cutoff choices are searched and one selected cutoff becomes a hypothesis for an independent test" data-theme-pair width="600" height="1000">
 
 *Keep the dated plan, data access and later search in their actual order.*
 
@@ -100,7 +100,8 @@ Source check: October 10, 2026. Fictional protocol and searches. Expert and lear
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 <!-- END GENERATED USED IN -->

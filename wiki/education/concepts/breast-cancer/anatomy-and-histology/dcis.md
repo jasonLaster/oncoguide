@@ -8,11 +8,11 @@ summary: "Ductal carcinoma in situ (DCIS) describes abnormal breast cells confin
 level: foundation
 prerequisites:
   - "[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy]]","[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]"]
 sensitive: false
 tags: [education, breast-cancer, pathology]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -40,7 +40,7 @@ The [myoepithelial cell layer and basement membrane](/wiki/education/concepts/br
 
 A report can describe **both** DCIS and invasive cancer in the same breast. Read each component separately. The phrase “DCIS present” does not erase a separately reported invasive diagnosis. Conversely, “in situ” alone does not establish that invasion was found. The [NCI histology reference](https://training.seer.cancer.gov/breast/types.html) distinguishes these tissue patterns.
 
-**Grade** describes microscopic appearance; **stage** describes disease extent under a staging system. High-grade DCIS does not mean distant spread. Stage 0 is a name commonly used for breast carcinoma in situ. See [histologic grade](/wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade) and [staging](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging) for the different jobs of these labels.
+**Grade** describes microscopic appearance; **stage** describes disease extent under a staging system. High-grade DCIS does not mean distant spread. In AJCC eighth-edition staging, stage 0 is Tis N0 M0, where Tis is DCIS or Paget disease of the nipple without underlying carcinoma. See [histologic grade](/wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade) and [staging](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging) for the different jobs of these labels.
 
 ## Why it matters in cancer
 
@@ -73,6 +73,7 @@ Source check: October 9, 2026. General pathology terminology; the example is fic
 
 - [NCI: ductal carcinoma in situ](https://www.cancer.gov/types/breast/breast-cancer-types/dcis) — the anatomical distinction, diagnostic assessment and naming conventions.
 - [NCI SEER training: breast histologies](https://training.seer.cancer.gov/breast/types.html) — in-situ and invasive tissue patterns.
+- [NCI professional PDQ: AJCC eighth-edition tables](https://www.cancer.gov/types/breast/hp/breast-treatment-pdq) — stage 0 as Tis N0 M0 and the Tis categories; checked November 7, 2026.
 - [CAP breast resection protocol, version 4.11.0.0, June 2026](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true) — separate reporting of DCIS and invasive components; illustration source check October 12, 2026.
 - [Gusterson et al., 1982](https://pubmed.ncbi.nlm.nih.gov/6290045/) — primary human-tissue study separating myoepithelial cells from basement-membrane proteins; abstract checked October 12, 2026, with full text not accessed.
 
@@ -80,5 +81,6 @@ Source check: October 9, 2026. General pathology terminology; the example is fic
 ## Used in
 
 - [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study)
+- [Read the diagnostic biopsy report](/wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy)
 - [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins)
 <!-- END GENERATED USED IN -->

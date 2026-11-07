@@ -7,7 +7,7 @@ glossary_anchor: "b-cells-and-plasma-cells"
 aliases: ["B cell", "B cells", "B lymphocyte", "plasma cell", "plasma cells", "plasmablast"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"]
+used_by: ["[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -92,6 +92,5 @@ Source check: October 9, 2026. Lineage, differentiation and interpretation; fict
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [See what is inside a tissue sample](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue)
 <!-- END GENERATED USED IN -->

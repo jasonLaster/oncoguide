@@ -8,8 +8,8 @@ objectives: ["Compare targeted formats by recognition, action, and bottleneck ra
 prerequisites: ["[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -76,11 +76,13 @@ A binding assay tests recognition. A controlled functional experiment tests acti
 
 For a dated example, Nathan and colleagues' 2021 randomized tebentafusp trial studied previously untreated, HLA-A*02:01-positive people with metastatic uveal melanoma. Overall survival improved relative to the trial's investigator-selected comparator treatments. That supports a benefit claim for a specific product and population. It does not establish that every engager works, that an intact surface target behaves the same way, or that benefit transfers to breast cancer or a postoperative setting.
 
+A breast-cancer example makes the same point. In ASCENT, 468 people with relapsed or refractory metastatic triple-negative breast cancer, all previously given a taxane and without brain metastases, received sacituzumab govitecan or single-agent chemotherapy of the physician's choice. Median progression-free survival was 5.6 versus 1.7 months (hazard ratio 0.41), and overall survival 12.1 versus 6.7 months (hazard ratio 0.48) [Bardia 2021](https://pubmed.ncbi.nlm.nih.gov/33882206/). That result belongs to that antibody-drug conjugate, that metastatic population and that comparator. It does not show benefit after surgery for early-stage disease, or after another ADC with the same [payload class](/wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes).
+
 Read the product, disease, biomarker definition, treatment setting, comparator, endpoint, and follow-up together. Eligibility and access are later practical questions; they cannot fill a missing clinical comparison. [The evidence-to-access lesson](/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access) develops that boundary.
 
 ## What can go wrong at this step
 
-**A preserved target can be treated as a solved resistance problem.** Recheck which delivery or action step failed.
+**A preserved target can be treated as a solved resistance problem.** Recheck which delivery or action step failed; a payload-level failure can follow the drug to a new target ([cross-resistance between ADCs](/wiki/education/concepts/therapeutics/antibody-based/adc-cross-resistance)).
 
 **A format label can substitute for a safety study.** Use the full product, relevant healthy tissues, and product-specific exposure.
 
@@ -104,7 +106,7 @@ Complete: “Before comparing formats, I need to know ______. Before claiming be
 
 **A useful comparison links a measured problem to a product-specific mechanism, safety question, and appropriately scoped clinical evidence.**
 
-**Next:** [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index), or revisit [the guide map](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index) to apply the evidence ledger again.
+**Next:** [Match the payload to the failure](/wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure), then [judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index), or revisit [the guide map](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index) to apply the evidence ledger again.
 
 For a reference map of recognition and action, use [target versus therapeutic format](/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis).
 
@@ -112,9 +114,10 @@ For a reference map of recognition and action, use [target versus therapeutic fo
 
 ## Sources and scope
 
-Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General comparisons and fictional exercises; expert and learner review remain pending. The dated clinical example illustrates evidence scope, not an approval inventory or treatment recommendation.
+ASCENT example added November 7, 2026. Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General comparisons and fictional exercises; expert and learner review remain pending. The dated clinical example illustrates evidence scope, not an approval inventory or treatment recommendation.
 
 - [Nathan and colleagues, 2021: randomized tebentafusp trial](https://pubmed.ncbi.nlm.nih.gov/34551229/) — defined product, HLA group, disease, setting, and comparator.
+- [Bardia and colleagues, 2021: ASCENT](https://pubmed.ncbi.nlm.nih.gov/33882206/) — sacituzumab govitecan versus chemotherapy in previously treated metastatic triple-negative breast cancer.
 - [Primary ERBB2 CAR T-cell case report, 2010](https://pubmed.ncbi.nlm.nih.gov/20179677/) — a specific serious event and proposed normal-tissue mechanism.
 - [NCI: CAR T cells](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells) — receptor signaling and solid-tumor barriers.
 - [Primary phase 1 solitomab study, 2018](https://pubmed.ncbi.nlm.nih.gov/30221040/) — product-specific toxicity and dose limits.

@@ -11,9 +11,9 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
+updated: 2026-11-07
+source_checked: 2026-11-07
 review_status: "Source-checked; expert and learner review pending"
 ---
 
@@ -46,7 +46,7 @@ Distant recurrence-free **survival** can count any-cause death, unlike the STEEP
 
 The clock can begin at randomization, consent, surgery or a biomarker assessment. KEYNOTE-522 used [pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) and EFS as co-primary endpoints; renaming its EFS result IDFS changes the claim. A postoperative cohort's clock is another comparison.
 
-<img src="./images/one-participant-two-endpoint-clocks-v1-light.svg" alt="One fictional participant has objective progression at month12 and dies at month30; the PFS clock stops at progression while the OS clock continues to death from the same randomization origin" data-theme-pair width="600" height="1000">
+<img src="./images/one-participant-two-endpoint-clocks-v1-light.svg" alt="One fictional participant has objective progression at month 12 and dies at month 30; the PFS clock stops at progression while the OS clock continues to death from the same randomization origin" data-theme-pair width="600" height="1000">
 
 *The same event can stop one endpoint clock while another continues.*
 
@@ -79,7 +79,7 @@ Among 1,000 fictional participants, 50 first recurrences are recorded; 20 are as
 | `20/50 = 40%` | What share of recorded first recurrences was assigned to X? |
 | `20/1000 = 2%` | What crude fraction of enrolled participants had that recorded event? |
 
-Neither calculation automatically gives five-year risk. A **cumulative incidence** estimate accounts for follow-up and competing events. Death before recurrence prevents that recurrence; a different first site prevents X from being the first site. A later recurrence at X is a different endpoint. [Fine and Gray](https://doi.org/10.1080/01621459.1999.10474144).
+Neither calculation automatically gives five-year risk. A **cumulative incidence** estimate accounts for follow-up and competing events. Death before recurrence prevents that recurrence; a different first site prevents X from being the first site. A later recurrence at X is a different endpoint. The cumulative incidence curve is estimated nonparametrically (the Aalen–Johansen estimator); Fine–Gray regression models covariate effects on it [Austin and colleagues, 2016](https://pubmed.ncbi.nlm.nih.gov/26858290/).
 
 ## Common confusions
 
@@ -113,7 +113,8 @@ General teaching, source-checked October 10, 2026. The examples are hypothetical
 - [STEEP 2.0: updated event sets and distinct invasive breast cancer–free survival](https://doi.org/10.1200/JCO.20.03613).
 - [STEEP standardized breast-trial endpoint definitions](https://pubmed.ncbi.nlm.nih.gov/17513820/).
 - [KEYNOTE-522 EFS primary report](https://pubmed.ncbi.nlm.nih.gov/35139274/).
-- [Fine and Gray 1999: cumulative incidence and competing risks](https://doi.org/10.1080/01621459.1999.10474144).
+- [Austin, Lee and Fine, Circulation 2016: competing-risks tutorial](https://pubmed.ncbi.nlm.nih.gov/26858290/) — cumulative incidence estimation.
+- [Fine and Gray 1999: competing-risk regression](https://doi.org/10.1080/01621459.1999.10474144).
 - [FDA 2018: Clinical Trial Endpoints for the Approval of Cancer Drugs and Biologics](https://www.fda.gov/media/71195/download).
 
 <!-- BEGIN GENERATED USED IN -->
@@ -121,8 +122,8 @@ General teaching, source-checked October 10, 2026. The examples are hypothetical
 
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
-- [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read a single success story or a calculator](/wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 - [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 - [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)
 <!-- END GENERATED USED IN -->

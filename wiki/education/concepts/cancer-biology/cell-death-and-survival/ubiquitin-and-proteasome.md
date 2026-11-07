@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis]]","[[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -51,9 +51,9 @@ The proteasome can remove damaged proteins and also working proteins whose job i
 
 ## Why it matters in cancer
 
-Turnover controls growth and stress regulators as well as protein quality. A high protein amount can arise from more production, less removal or both. A variant in an E3 component does not establish a general proteasome defect or sensitivity to a proteasome inhibitor.
+Turnover controls growth and stress regulators as well as protein quality. A high protein amount can arise from more production, less removal or both. A variant in an E3 component does not establish a general proteasome defect or sensitivity to a proteasome inhibitor. Proteasome inhibitors are established in multiple myeloma, a cancer of antibody-making plasma cells: in relapsed myeloma the proteasome inhibitor bortezomib lengthened time to progression compared with high-dose dexamethasone (median 6.2 versus 3.5 months). [Richardson 2005](https://pubmed.ncbi.nlm.nih.gov/15958804/).
 
-For example, **cullin 3 (CUL3)** is a scaffold used with different adaptors. **Kelch-like ECH-associated protein 1 (KEAP1)** is one adaptor studied in handling **nuclear factor erythroid 2-related factor 2 (NRF2)**. The [KEAP1–NRF2 owner](/wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1) explains that stress circuit. A CUL3 finding alone cannot assign its consequence to NRF2 or every substrate.
+For example, **cullin 3 (CUL3)** is a scaffold used with different adaptors. **Kelch-like ECH-associated protein 1 (KEAP1)** is one adaptor studied in handling **nuclear factor erythroid 2-related factor 2 (NRF2)**. The [KEAP1–NRF2 owner](/wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1) explains that stress circuit. Because CUL3 serves many adaptors, a change in CUL3 alone cannot be assigned to NRF2 or to any single substrate.
 
 ## How it is measured
 
@@ -91,8 +91,9 @@ One answer: “activates ubiquitin; carries it; helps select and modify a substr
 
 ## Sources and scope
 
-Source check: October 10, 2026. General mechanism education; protein P is fictional. Expert and learner review remain pending.
+Source check: November 7, 2026. General mechanism education; protein P is fictional. Expert and learner review remain pending.
 
+- [Richardson et al. (2005)](https://pubmed.ncbi.nlm.nih.gov/15958804/): bortezomib versus high-dose dexamethasone in relapsed multiple myeloma.
 - [Hershko et al. (1983)](https://pubmed.ncbi.nlm.nih.gov/6305978/): E1/E2/E3 separation and ATP-dependent conjugation in reticulocyte extracts.
 - [Hershko and Rose (1987)](https://pubmed.ncbi.nlm.nih.gov/3031653/): ubiquitin recycling and its relationship to degradation in a rabbit-reticulocyte system.
 - [Kobayashi et al. (2004)](https://pubmed.ncbi.nlm.nih.gov/15282312/): KEAP1 adaptor function in CUL3-dependent NRF2 turnover.

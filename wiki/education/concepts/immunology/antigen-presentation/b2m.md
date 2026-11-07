@@ -6,12 +6,12 @@ summary: "Beta-2 microglobulin supports the assembly and stable surface expressi
 glossary_anchor: "b2m"
 aliases: ["B2M", "beta-2 microglobulin"]
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]"]
-used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -43,7 +43,9 @@ A shared support piece can affect many display cases. B2M is not the antigen bei
 
 Classical [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) class I contains a heavy chain, a peptide and beta-2 microglobulin (B2M). Functional B2M supports normal assembly and surface expression. Many conventional CD8 T-cell responses depend on this display system.
 
-Loss of functional B2M can impair many class-I targets at once. That differs from losing a single HLA allele, which may leave other presenting alleles usable. Class-II presentation does not use B2M by the same mechanism.
+Loss of functional B2M can impair many class-I targets at once. That differs from losing a single HLA allele, which may leave other presenting alleles usable. Class II HLA is a different heterodimer, an alpha and a beta chain, and contains no B2M.
+
+B2M is also the light chain of several nonclassical class I-like molecules: HLA-E (the ligand for the natural killer cell inhibitory receptor NKG2A), HLA-G, MR1 (which shows microbial metabolites to MAIT cells), CD1 molecules (which show lipids, including CD1d to NKT cells) and the neonatal Fc receptor FcRn (which recycles antibodies) ([UniProt P61769](https://www.uniprot.org/uniprotkb/P61769/entry); [Wani et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16549777/)). Complete B2M loss can therefore remove more than classical class I.
 
 A reported [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna) variant, low [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) level and absent surface class-I protein are different observations. Variant interpretation, copy number, protein assessment and functional experiments help establish whether presentation is actually impaired. A blood concentration of B2M is also a different measurement from tumor-cell presentation.
 
@@ -59,7 +61,8 @@ A fictional design uses several peptides presented by different class-I alleles.
 
 - B2M loss is not identical to losing one HLA allele.
 - A B2M variant is not automatically complete functional loss.
-- Reduced class-I display does not guarantee natural killer-cell killing.
+- Reduced class-I display does not guarantee natural killer-cell killing. B2M loss removes ligands for both KIR and NKG2A inhibitory receptors, but activating signals are still needed.
+- B2M loss is not class II loss: class II contains no B2M, so CD4 T-cell recognition can remain.
 
 ## Read the evidence in layers
 
@@ -89,10 +92,12 @@ Explain why one lost HLA allele and a shared class-I assembly defect can affect 
 
 ## Sources and scope
 
-Source check: October 10, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
+Source check: November 7, 2026. This is a mechanism explanation, not a treatment recommendation. Expert and learner review remain pending.
 
 - [Class-I assembly and processing](https://www.ncbi.nlm.nih.gov/books/NBK459467/).
 - [Primary B2M/HLA mutation analysis](https://pubmed.ncbi.nlm.nih.gov/31345234/), associations in cancer datasets rather than proof that every variant abolishes display.
+- [UniProt P61769: B2M partners](https://www.uniprot.org/uniprotkb/P61769/entry), including HLA-E, HLA-G and MR1.
+- [Wani et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16549777/), a B2M mutation causing FcRn deficiency in people.
 - [Zaretsky et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27433843/), acquired-resistance biopsies in metastatic melanoma, including a B2M truncation and lost surface class I.
 
 <!-- BEGIN GENERATED USED IN -->
@@ -102,6 +107,8 @@ Source check: October 10, 2026. This is a mechanism explanation, not a treatment
 - [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
 - [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 - [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)
 - [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)

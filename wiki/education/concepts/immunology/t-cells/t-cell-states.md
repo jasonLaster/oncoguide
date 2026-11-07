@@ -4,14 +4,14 @@ type: "concept"
 domain: "immunology/t-cells"
 summary: "T-cell states describe changing differentiation and functional programs, rather than simply whether a T cell is present."
 glossary_anchor: "t-cell-states"
-aliases: ["T-cell states", "exhaustion"]
+aliases: ["T-cell states", "T-cell state"]
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 level: "intermediate"
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -38,6 +38,8 @@ A **naive** T cell has not undergone its initial antigen-driven activation. This
 [Anergy](/wiki/education/concepts/immunology/t-cells/anergy) describes antigen-related reduced responsiveness in defined contexts. **Exhaustion** is a differentiation program associated with persistent stimulation and altered function. These are different mechanisms, not two names for any inactive cell. External suppression and a missing target encounter are further possibilities.
 
 Exhausted populations can contain **progenitor-like exhausted T cells (Tpex)** and more differentiated subsets with different capacities. Tpex can maintain a response and produce more differentiated descendants under persistent stimulation. The transcription factor **T-cell factor 1 (TCF1)** is associated with such populations, but it also appears in other T-cell contexts; TCF1 positivity alone does not assign Tpex identity. Miller and colleagues tested these differences in tumor models and studied related features in human melanoma. The chronic-infection study by Utzschneider and colleagues described a related response context. These settings support biological distinctions; they do not make one subset count a universal treatment-selection test.
+
+**Where do the cells that respond to PD-1 blockade come from? Two models are both supported.** In mice with chronic viral infection, the burst of division after PD-1 blockade came almost entirely from TCF1-positive, PD-1-positive progenitor cells ([Im et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27501248/)). In paired human biopsies of basal-cell and squamous-cell skin cancers taken before and after anti-PD-1 therapy, many of the expanded tumor T-cell clones had not been seen in the tumor before treatment ([Yost et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31359002/)). This "clonal replacement" suggests that new arrivals from outside the tumor, not only revived resident cells, carry much of the response. The models can overlap, because progenitor-like cells in lymph nodes or blood may be the source of new arrivals. [T-cell exhaustion](/wiki/education/concepts/immunology/t-cells/t-cell-exhaustion) holds the marker set and the reversibility evidence.
 
 Tpex are not automatically ordinary memory cells. A shared marker or capacity to divide does not make two differentiation programs identical. Burger and colleagues also found heterogeneous TCF1-positive populations in a mouse lung-tumor model: marker positivity did not imply equivalent responses. Their human analyses were associations, not a validated universal marker requirement for vaccination or checkpoint therapy.
 
@@ -96,6 +98,7 @@ The stain did not establish either specificity. The peptide response also does n
 
 - Anergy and exhaustion do not describe identical mechanisms.
 - Memory and progenitor-like exhaustion are distinct categories.
+- "Reinvigoration" of cells already in the tumor and "clonal replacement" by new arrivals are different explanations for a response.
 - Regulatory cells are not simply worn-out effectors.
 - Proximity to a tumor cell does not establish recognition of that cell.
 
@@ -118,12 +121,15 @@ State labels summarize a bounded biological program; they do not replace specifi
 - [Immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
 - [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals)
 - [Immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape)
+- [T-cell exhaustion](/wiki/education/concepts/immunology/t-cells/t-cell-exhaustion)
 
 ## Sources and scope
 
-Source check: October 10, 2026. Mechanism interpretation and fictional exercises, not a treatment recommendation. Expert and learner review remain pending.
+Source check: November 7, 2026. Mechanism interpretation and fictional exercises, not a treatment recommendation. Expert and learner review remain pending.
 
 - [Miller et al., 2019: exhausted subsets and checkpoint response](https://pubmed.ncbi.nlm.nih.gov/30778252/) — tumor models and related human melanoma observations.
+- [Im et al., 2016: progenitor cells supply the burst after PD-1 blockade](https://pubmed.ncbi.nlm.nih.gov/27501248/) — chronic viral infection in mice.
+- [Yost et al., 2019: clonal replacement after PD-1 blockade](https://pubmed.ncbi.nlm.nih.gov/31359002/) — paired human skin-cancer biopsies.
 - [Utzschneider et al., 2016: persistent viral-infection responses](https://pubmed.ncbi.nlm.nih.gov/27533016/) — a distinct experimental disease setting.
 - [Macián et al., 2002: anergy signaling and transcription](https://pubmed.ncbi.nlm.nih.gov/12086671/) — controlled mechanistic experiments.
 - [Tran et al., 2007: induced FOXP3 without suppressive function](https://pubmed.ncbi.nlm.nih.gov/17644734/) — human T-cell culture experiments.
@@ -135,12 +141,10 @@ Source check: October 10, 2026. Mechanism interpretation and fictional exercises
 - [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 - [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
 - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
-- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
 - [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
 - [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)

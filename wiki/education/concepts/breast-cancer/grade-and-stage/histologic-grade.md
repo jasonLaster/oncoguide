@@ -14,7 +14,7 @@ reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: []
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]"]
+used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy]]","[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]"]
 ---
 
 # Histologic grade
@@ -123,8 +123,9 @@ General education about invasive breast cancer; fictional example. Source-checke
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Read the diagnostic biopsy report](/wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy)
 - [Place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
-- [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
+- [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
 <!-- END GENERATED USED IN -->

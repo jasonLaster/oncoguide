@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/antig
 used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: [education, immunotherapy]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -42,7 +42,7 @@ First ask **what the vaccine is trying to prevent or treat**. Preventive vaccine
 
 Next ask **how antigens are selected**. A personalized vaccine is tailored using a person's tumor information or material. A shared-antigen vaccine uses targets found across multiple people's cancers. Shared targets can include [tumor-associated antigens](/wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen) or recurring mutation-derived [neoantigens](/wiki/education/concepts/immunology/antigen-presentation/neoantigen). A personalized product can include shared targets, too. Neither label proves that every cancer cell carries or presents the target.
 
-Then ask **how antigen material is supplied**. Designed vaccines provide selected material or instructions: peptides, nucleic acids, cells or other platforms. In [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination), the tumor within the body supplies material, while interventions try to support its collection and useful immune activation. Local injury alone does not establish vaccination. An early lymphoma study combined local radiation with an immune-sensor stimulus and assessed responses at untreated sites; that defined regimen is not evidence for every local intervention. [Brody and colleagues](https://pubmed.ncbi.nlm.nih.gov/20697067/).
+Then ask **how antigen material is supplied**. Designed vaccines provide selected material or instructions: peptides, nucleic acids, cells or other platforms. In [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination), the tumor within the body supplies material, while interventions try to support its collection and useful immune activation. Local injury alone does not establish vaccination. An early study in 15 patients with low-grade B-cell lymphoma combined low-dose radiation to one tumor with injection of CpG oligodeoxynucleotide, a Toll-like receptor 9 (TLR9) agonist of the kind used as a [vaccine adjuvant](/wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants), into that same tumor. It then assessed responses at untreated sites (one complete and three partial responses). That defined regimen is not evidence for every local intervention. [Brody and colleagues](https://pubmed.ncbi.nlm.nih.gov/20697067/).
 
 These are separate axes. “Personalized” does not mean “messenger RNA,” “shared” does not mean “peptide,” and an in-situ strategy does not control antigen selection in the same way as a manufactured product. A personal long-peptide vaccine study in melanoma demonstrated feasibility and antigen-reactive responses, providing a concrete example without establishing a universal platform ranking. [Ott and colleagues](https://pubmed.ncbi.nlm.nih.gov/28678778/).
 
@@ -98,7 +98,7 @@ Source-checked October 10, 2026. General education and a fictional exercise; exp
 - [NCI: cancer prevention overview](https://www.cancer.gov/about-cancer/causes-prevention/patient-prevention-overview-pdq) — infection-prevention vaccines and cancer risk.
 - [NCI: cancer treatment vaccines](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines) — treatment purposes and antigen sources.
 - [Ott et al., 2017: a personal neoantigen vaccine in melanoma](https://pubmed.ncbi.nlm.nih.gov/28678778/) — a defined long-peptide approach and immune measurements.
-- [Brody et al., 2010: in-situ vaccination in lymphoma](https://pubmed.ncbi.nlm.nih.gov/20697067/) — local radiation plus an immune stimulus, with untreated-site assessments.
+- [Brody et al., 2010: in-situ vaccination in lymphoma](https://pubmed.ncbi.nlm.nih.gov/20697067/) — local radiation plus an injected CpG TLR9 agonist, with untreated-site assessments.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

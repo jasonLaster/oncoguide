@@ -14,7 +14,7 @@ reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/modeling-tumor-response/index]]","[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]","[[wiki/education/multi-omics-foundations/02-cell-identity-and-state]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/index]]","[[wiki/education/modeling-tumor-response/index]]","[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]","[[wiki/education/multi-omics-foundations/02-cell-identity-and-state]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
 ---
 
 # Tumor heterogeneity: one cancer, several populations
@@ -96,12 +96,13 @@ Source check: October 10, 2026. Fictional counts are teaching examples; expert a
 ## Used in
 
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
+- [Match the payload to the failure](/wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
 - [Read tumor and normal data before choosing targets](/wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
-- [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
+- [Learn the biology and evidence](/wiki/education/index)
 - [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
 - [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
 - [Add the geography of cells and signals](/wiki/education/molecular-profiling/04-spatial-biology)

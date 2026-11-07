@@ -3,8 +3,8 @@ title: "Cell therapies as living drugs"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-13
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -83,6 +83,7 @@ A vial is off the shelf and creates engineered cells inside the patient. Must th
 **Compare two product cards:** Both descriptions are fictional. Card A says, “A ready-made carrier is administered to supply receptor instructions to the recipient's own T cells inside the body.” Card B says, “A vial of donor-derived T cells, already engineered outside the body, is administered.” Name the source, engineering location and administered object for each.
 
 **Answer:** A has recipient-derived downstream cells, in vivo engineering and a carrier as the administered object. B has donor-derived cells, ex vivo engineering and manufactured cells as the administered object. “Ready-made” does not make A's cells donor-derived. In A, carrier input still needs downstream evidence of cell-specific delivery, receptor expression and function. In B, cell-lot measurements do not establish later survival, location or function. Neither description establishes availability, benefit or an interchangeable dose.
+
 ## Explain it back
 
 “Source tells me ___; engineering location tells me ___.” One answer: “whose cells; where genetic changes are introduced.”

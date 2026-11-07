@@ -46,7 +46,7 @@ Personalized vaccines may use a shared process while changing the antigen sequen
 
 ## How the role is checked
 
-Read the agreed scope and quality records. Ask which facility performs each operation, who approves changes, and who reviews failed tests or deviations. A certificate of analysis reports specified measurements. [Batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) is the applicable documented disposition; clinical authorization and patient eligibility remain separate questions.
+Read the agreed scope and quality records. Ask which facility performs each operation, who approves changes, and who reviews failed tests or deviations. A certificate of analysis reports specified measurements. [Batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release) is the applicable documented disposition; clinical authorization and patient eligibility remain separate questions.
 
 ## Worked example and practice
 

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ct
 used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -48,6 +48,8 @@ flowchart TD
   <img src="./images/average-one-can-be-zero-v1-light.svg" alt="A fictional fixed-volume sampling model plots the chance of zero original target molecules against the expected target-molecule count per evaluated aliquot. The curve is exp(−lambda); at an expected count of one, the chance of zero is 36.8%. Equal-volume illustrative aliquots show possible counts of zero, one and two, not observed frequencies. Recovery, assay detection and cancer status are separate questions." data-theme-pair />
   <p class="text-sm text-muted-foreground mt-2">An average of one is not a guaranteed molecule. In this fictional Poisson model, independent random counts in equal evaluated aliquots of one fixed volume give P(zero) = exp(−1) ≈ 36.8%. No clinical volume or assay performance is implied. More reads cannot recover an original molecule absent from the aliquot; recovery and calling rules are additional gates. This is not a clinical false-negative rate, and a negative blood test does not establish absence of cancer.</p>
 </div>
+
+**Worked scale example.** DNA mass converts to genome copies at 3.3 picograms per haploid copy. A breast-cancer study used 4,500 copies, about 15 nanograms, as one assay input ([Santonja 2023](https://doi.org/10.15252/emmm.202216505)). At a tumor fraction of 0.01% (1 in 10,000), that input holds on average 0.45 copies of any one tumor position, so by the Poisson model above a single-mutation test would see zero copies about 64% of the time (exp(−0.45)). Tracking 20 independent tumor mutations raises the expected tumor copies to 9, and the chance that all of them are absent falls to about 0.01% (exp(−9)). This is why multi-mutation designs reach lower detection limits at the same input; recovery losses and calling rules still apply.
 
 **Recovery and representation:** extraction, library construction and sequencing retain or observe some starting molecules. Amplifying one molecule into many reads does not create independent original tumor molecules. Multiple [tracking targets](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay) can add opportunities to detect signal, but their number alone does not establish complete recovery or clinical sensitivity.
 
@@ -96,10 +98,11 @@ Follow material from the body to the call; every gate has a scope.
 
 ## Sources and scope
 
-Source check: October 10, 2026. Poisson example and input quantities are fictional; expert and learner review remain pending.
+Source check: November 7, 2026. The Poisson arithmetic is illustrative; the 4,500-copy input comes from the cited breast cancer study; expert and learner review remain pending.
 
 - [FDA 2024 circulating tumor DNA (ctDNA) drug-development guidance](https://www.fda.gov/media/183874/download) — shedding, sampling, input and complete-workflow validation.
 - [Newman et al. 2016](https://doi.org/10.1038/nbt.3520) — molecular recovery, input and error-suppression limits in a defined sequencing method.
+- [Santonja et al. 2023](https://doi.org/10.15252/emmm.202216505) — 4,500-copy assay input and tumor-informed detection limits in breast cancer (PMID 37161793).
 - [CLSI harmonized terminology](https://htd.clsi.org/listterms.asp?button=Submit) — specified detection probability and distinction from clinical sensitivity.
 
 <!-- BEGIN GENERATED USED IN -->

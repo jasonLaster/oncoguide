@@ -94,7 +94,8 @@ A fictional university proposes an IIT using a marketed drug by a new route. The
 ## Related concepts
 
 - [Trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization)
-- [Good manufacturing practice and batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release)
+- [Good manufacturing practice](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release)
+- [Batch release: a decision about one lot](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release)
 
 ## Sources and scope
 

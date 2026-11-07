@@ -23,7 +23,7 @@ prerequisites: ["[[wiki/education/concepts/breast-cancer/treatment-setting/neoad
 
 ## Where this step sits
 
-This is step 1 of [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index). Identify the specimen first, read residual findings next and then build a clinical question.
+This is step 1 of [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index), after [the diagnostic biopsy](/wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy). Identify the specimen first, read residual findings next and then build a clinical question.
 
 ```mermaid
 flowchart TD

@@ -7,13 +7,13 @@ glossary_anchor: antigen-and-epitope
 aliases: [antigen, epitope, antigenic determinant]
 level: foundation
 prerequisites: []
-used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 reviewed: pending
 reviewed_by: ""
 sensitive: false
 tags: [education, immunology]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 review_status: "Source-checked; expert and learner review pending"
 ---
 
@@ -34,7 +34,7 @@ The analogy has a limit: receptors recognize molecular shapes and chemical inter
 
 <img src="./images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg" alt="The same protein supplies an accessible folded antibody epitope and a processed peptide held by HLA for recognition by a conventional T-cell receptor." data-theme-pair />
 
-*The same source protein can supply different recognition surfaces: an accessible folded epitope or a peptide–HLA complex. The displayed T-cell contact follows [Janeway’s peptide–MHC recognition chapter](https://www.ncbi.nlm.nih.gov/sites/books/NBK27098/), checked through its search-returned text on October 13, 2026.*
+*The same source protein can supply different recognition surfaces: an accessible folded epitope or a peptide–[human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) complex. The displayed T-cell contact follows [Janeway’s peptide–MHC recognition chapter](https://www.ncbi.nlm.nih.gov/sites/books/NBK27098/).*
 
 An [antibody or B-cell receptor](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure) can recognize an accessible part of a molecule directly. Its epitope may be a continuous stretch of sequence or a surface formed by folding. Accessibility matters: binding an isolated protein does not establish that the same site is reachable on an intact cell.
 
@@ -99,6 +99,5 @@ Source-checked October 10, 2026. The example is fictional. This page focuses on 
 - [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
 - [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
 - [Choose a target with a usable safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
 <!-- END GENERATED USED IN -->

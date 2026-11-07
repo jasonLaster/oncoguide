@@ -8,8 +8,8 @@ objectives: ["Separate binding, internalization, active payload formation, and c
 prerequisites: ["[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/therapeutics/chemotherapy/chemotherapy]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,7 +29,7 @@ This is step 2 of [Aiming a drug at a surface target](/wiki/education/guides/aim
 
 ## Follow the product through the cell
 
-For a familiar ADC route, the product reaches a cell, binds its target, enters the cell, and is processed. An active payload or breakdown product must then reach a susceptible process. The route is product-specific; a diagram should never turn these stages into universal guarantees.
+For a familiar ADC route, the product reaches a cell, binds its target, enters the cell, and is processed. An active payload or breakdown product must then reach a susceptible process, which depends on its [payload class](/wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes). The route is product-specific; a diagram should never turn these stages into universal guarantees.
 
 ```mermaid
 %%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
@@ -69,6 +69,8 @@ Notice how the conclusion grows with each assay. “Binds M,” “enters cells,
 **Dose** is the amount administered. **Exposure** concerns concentration and time in a named place. [**Pharmacokinetics**](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) describes how the body handles the product; **pharmacodynamics** concerns its biological effects. These are related but distinct questions.
 
 An ADC can generate several measurable species. The antibody carrying payload, the total antibody signal, and unconjugated payload need not follow identical time courses. A long-lasting antibody signal cannot, by itself, show sustained exposure to active payload at the tumor. The FDA's ADC guidance recommends product-appropriate measurements of the conjugate and its constituent parts to interpret benefit and harm.
+
+Free payload has its own clock and its own harms. Payload that comes off in the blood, through an unstable linker or one designed to release gradually, acts like ordinary chemotherapy wherever it goes; sacituzumab govitecan's hydrolyzable linker, for example, releases SN-38 gradually outside as well as inside cells ([Goldenberg 2015](https://pubmed.ncbi.nlm.nih.gov/26101915/)). How linker design trades tumor release against blood release is covered in [ADC conjugation chemistry](/wiki/education/concepts/therapeutics/antibody-based/adc-conjugation-chemistry); the side effects that follow are in [ADC payload toxicities](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/adc-payload-toxicity).
 
 An engager's format also shapes the exposure question. The [T-cell-engager explanation](/wiki/education/concepts/therapeutics/antibody-based/t-cell-engager) distinguishes compact constructs, antibody-like structures and half-life-extension strategies; these descriptions can overlap. A format name alone does not supply a concentration curve, dose schedule or safety advantage.
 
@@ -120,10 +122,11 @@ Complete: “The dose tells me ______; the exposure measurement tells me ______;
 
 ## Sources and scope
 
-Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General delivery and timing concepts with fictional examples; expert and learner review remain pending. No treatment duration, dose, or access promise is supplied here.
+Free-payload paragraph added November 7, 2026. Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General delivery and timing concepts with fictional examples; expert and learner review remain pending. No treatment duration, dose, or access promise is supplied here.
 
 - [FDA, 2024: ADC clinical pharmacology](https://www.fda.gov/media/155997/download) — measurement of conjugate, constituent parts, and exposure–response.
 - [Tomabechi and colleagues, 2022: active payload-product transport](https://pubmed.ncbi.nlm.nih.gov/36741448/) — a specific intracellular delivery step.
+- [Goldenberg and colleagues, 2015](https://pubmed.ncbi.nlm.nih.gov/26101915/) — gradual SN-38 release from sacituzumab govitecan's linker (company authors).
 - [Primary phase 1 solitomab study, 2018](https://pubmed.ncbi.nlm.nih.gov/30221040/) — exposure and clinical toxicity limits for one engager.
 - [NCI: CAR T cells](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells) — manufacture and potential expansion of living cells.
 - [FDA, 2019: therapeutic radiopharmaceutical development](https://www.fda.gov/media/129547/download) — biodistribution, radiation dose, and safety assessment.

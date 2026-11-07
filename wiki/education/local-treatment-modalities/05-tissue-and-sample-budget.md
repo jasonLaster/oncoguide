@@ -8,8 +8,8 @@ objectives: ["Distinguish anatomical response, tissue measurements and functiona
 prerequisites: ["[[wiki/education/local-treatment-modalities/04-decision-questions]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
 sensitive: false
 tags: [education, local-treatment, measurement]
-updated: "2026-10-13"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,7 +29,7 @@ First name the claim: “The treated site is controlled,” “immune cells ente
 
 | Measurement | Useful question | What it cannot establish alone |
 |---|---|---|
-| Anatomical imaging, such as [computed tomography (CT)](/wiki/education/concepts/measurement/imaging/pet-ct) or [magnetic resonance imaging (MRI)](/wiki/education/concepts/measurement/imaging/breast-mri) | Where is disease detected, and how does a lesion change? | Which immune mechanism caused the change |
+| Anatomical imaging, such as computed tomography (CT) or [magnetic resonance imaging (MRI)](/wiki/education/concepts/measurement/imaging/breast-mri) | Where is disease detected, and how does a lesion change? | Which immune mechanism caused the change |
 | [Positron emission tomography with computed tomography (PET/CT)](/wiki/education/concepts/measurement/imaging/pet-ct), with a specified tracer | Where was that tracer detected under the scan conditions? | Effective therapeutic radiation dose or complete coverage of unseen disease |
 | Immunohistochemistry | Which cells stain for a selected protein, where, and using what scoring method? | Whole-body expression or T-cell killing capacity |
 | Bulk RNA sequencing | Which messages were captured from this tissue mixture? | Accessible surface protein or the activity of each individual cell |

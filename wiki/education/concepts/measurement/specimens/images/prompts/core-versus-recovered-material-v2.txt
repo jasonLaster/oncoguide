@@ -1,0 +1,9 @@
+Authored SVG direction (recorded November 7, 2026 from core-versus-recovered-material-v2-public-custody.json when the image was adopted into its owner page)
+Tool: authored SVG; the custody record lists no executed image-model call.
+Owner page: wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md
+Section: How it works
+Learner task: Compare recovered cells with preserved local architecture
+Gap addressed: Current preparation branching lacks a physical sampling contrast
+Scene: Two schematic panels compare neighboring cells in a continuous core with a vessel containing fluid, individual cells, a cell cluster and a small tissue fragment; an optional preparation arrow leads from the recovered material to a cell block that does not reconstruct its original locations.
+Scientific-accuracy guardrails: Separate recovered cells/fluid/fragments from preserved oriented architecture. Do not depict all FNA material as dispersed single cells or infer complete lesion representation/clearance.
+Theme: light and dark variants share geometry; text and strokes meet contrast on both backgrounds.

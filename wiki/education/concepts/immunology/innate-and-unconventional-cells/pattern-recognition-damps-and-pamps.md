@@ -7,7 +7,7 @@ glossary_anchor: "pattern-recognition-damps-and-pamps"
 aliases: ["pattern-recognition receptor", "PRR", "PAMP", "PAMPs", "pathogen-associated molecular patterns", "DAMP", "DAMPs", "damage-associated molecular patterns", "danger signals"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity]]", "[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]"]
+used_by: []
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -97,5 +97,5 @@ Source check: October 9, 2026. Sensing categories and defined experimental mecha
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

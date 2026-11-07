@@ -2,8 +2,8 @@
 title: "Understand blood tests and imaging after treatment"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -48,11 +48,34 @@ flowchart TD
 
 ## Concepts you will use
 
-[Molecular residual disease](/wiki/education/concepts/measurement/liquid-biopsy/mrd) defines the signal being discussed. [Detection limits and finite sampling](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling) explains a tube's boundary; [blank, detection and quantitation limits](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) separates finding a signal from measuring its amount. [Measured lead time](/wiki/education/concepts/measurement/liquid-biopsy/lead-time) identifies the two dates behind an earlier-detection claim.
+**What the blood contains (lesson 1):**
+- [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|cfDNA versus ctDNA]]: total DNA versus the tumor's share, with a sense of scale.
+- [[wiki/education/concepts/measurement/liquid-biopsy/chip|Clonal hematopoiesis]]: blood-cell mutations that imitate tumor signal.
+- [Molecular residual disease](/wiki/education/concepts/measurement/liquid-biopsy/mrd): the signal being discussed.
 
-Begin with [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|cfDNA versus ctDNA]], [[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay|tumor-informed monitoring]] and [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|units and limits]].
+**How the test reads it (lesson 1):**
+- [[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay|Tumor-informed versus tumor-naive assays]]: why tracking many known mutations lowers the detection limit.
+- [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|Units]], [detection limits and finite sampling](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling) and [blank, detection and quantitation limits](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation).
 
-Then use [[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates|predictive values and base rates]], [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|prognostic versus predictive evidence]], [[wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias|lead-time bias]] and [[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility|validity and clinical utility]]. The [[wiki/education/molecular-profiling/06-ctdna-and-mrd|multi-omics blood lesson]] is an optional companion.
+**What a result means (lessons 2 and 3):**
+- [Blood–imaging discordance](/wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance).
+- [Measured lead time](/wiki/education/concepts/measurement/liquid-biopsy/lead-time) and [[wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias|lead-time bias]].
+- [[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates|Predictive values and base rates]], [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|prognostic versus predictive evidence]], [surrogate endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints) and [[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility|validity and clinical utility]].
+
+The [[wiki/education/molecular-profiling/06-ctdna-and-mrd|multi-omics blood lesson]] is an optional companion.
+
+## What one study found after neoadjuvant therapy
+
+In the I-SPY2 trial, a tumor-informed test tracking up to 16 mutations was run on serial blood from 84 people with high-risk early breast cancer receiving neoadjuvant chemotherapy ([Magbanua 2021, *Ann Oncol*](https://doi.org/10.1016/j.annonc.2020.11.007)):
+
+| Finding | Number |
+|---|---|
+| ctDNA detected before treatment | 61 of 84 (73%); 9% just before surgery |
+| People with a [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) who were ctDNA-negative after chemotherapy | 17 of 17 |
+| Without pCR: metastatic recurrence risk if ctDNA-positive versus negative after chemotherapy | Hazard ratio 10.4 (95% CI 2.3–46.6) |
+| Without pCR but ctDNA-negative | Outcomes similar to pCR (hazard ratio 1.4; 95% CI 0.15–13.5) |
+
+This is prognostic association in a small cohort of mixed subtypes; the wide intervals show the uncertainty. It does not show that changing treatment because of the blood result improves outcomes. That is lesson 3's question, and the c-TRAK TN trial there is the early-TNBC test of it.
 
 ## Applied to Diana
 
@@ -66,8 +89,9 @@ A molecular result may be clinically useful for one indication and investigation
 
 ## Sources and scope
 
-Source check: October 9, 2026. Interpretation education with fictional exercises; expert and learner review pending. This guide does not set a surveillance schedule.
+Source check: November 7, 2026. Interpretation education with fictional exercises; expert and learner review pending. This guide does not set a surveillance schedule.
 
 - [FDA 2024 ctDNA guidance](https://www.fda.gov/media/183874/download) — assay and clinical-trial design.
 - [Magbanua et al. 2021, MRI and ctDNA in I-SPY2](https://doi.org/10.1038/s41523-021-00239-3) — complementary measurements in a pilot cohort.
+- [Magbanua et al. 2021, ctDNA during neoadjuvant chemotherapy in I-SPY2](https://doi.org/10.1016/j.annonc.2020.11.007) — 84 patients; detection, pCR and recurrence (PMID 33232761).
 - [Turner et al. 2023, c-TRAK TN](https://pubmed.ncbi.nlm.nih.gov/36423745/) — prospective detection and intervention feasibility in a defined early-TNBC setting.

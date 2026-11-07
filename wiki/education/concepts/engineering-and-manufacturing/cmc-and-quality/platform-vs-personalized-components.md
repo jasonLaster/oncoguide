@@ -65,7 +65,7 @@ Personalized starting material is another axis. An autologous [chimeric antigen 
 
 Reuse can support consistent handling, shared process learning and repeatable testing. Individual specification is useful when the intended target message or starting material must match the recipient. They commonly work together. Neither category wins on efficacy by itself.
 
-A [comparability assessment](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) asks what a defined change does to product quality. [Good manufacturing practice and release testing](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) concern controlled manufacture and lot acceptance. They cannot substitute for evidence that the encoded targets are naturally presented or that treatment benefits people.
+A [comparability assessment](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability) asks what a defined change does to product quality. [Good manufacturing practice](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) and [batch release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release) concern controlled manufacture and lot acceptance. They cannot substitute for evidence that the encoded targets are naturally presented or that treatment benefits people.
 
 ## How the distinction is checked
 

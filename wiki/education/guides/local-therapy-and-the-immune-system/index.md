@@ -6,8 +6,8 @@ audience: "Curious reader or family member; introductory immune and evidence con
 minutes: 94
 sensitive: false
 tags: [education, guide, local-treatment]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -19,7 +19,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 Local treatment can have an important job at a particular site. A second idea is more uncertain: could injury at that site help the immune system recognize cancer elsewhere? This guide gives you the language to keep those questions separate while reading a study or discussing a proposal.
 
-You do not need to choose a treatment to follow the course. Start with the mechanism, carry the disease setting into the evidence, then practice inspecting a proposal and its measurements.
+You do not need to choose a treatment to follow the course.
 
 ## The big ideas
 
@@ -34,11 +34,11 @@ Follow the arrows as a reading order, rather than as a clinical decision algorit
 
 ```mermaid
 flowchart TD
-  A[1. Separate injury from immune learning] --> B[2. Put the setting before the clock]
-  B --> C[3. Read the combination evidence]
-  C --> D[4. Inspect the proposal]
-  D --> E[5. Match measurements to claims]
-  E --> F[6. Compare delivery and recognition]
+  A[1. Separate local injury from immune learning] --> B[2. Put the disease setting before the clock]
+  B --> C[3. Ask what a combination trial proved]
+  C --> D[4. Read a proposal through five questions]
+  D --> E[5. Match each measurement to its claim]
+  E --> F[6. Compare delivery and recognition separately]
   F --> G[7. Read an injected-treatment study]
 ```
 
@@ -56,7 +56,7 @@ flowchart TD
 | 6 | [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons) | How do different tools direct exposure and produce effects? | 14 | Three fictional “targeted” proposals and a capstone |
 | 7 | [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study) | What did the injection add to the background treatment? | 14 | A fictional twelve-participant route and outcome exercise |
 
-The full path is about 94 minutes, including practice. The first six lessons take about 80 minutes; the injection-study extension adds 14. If you are reading one proposal today, lesson 4 can help organize your questions; use its prerequisite links to fill in the earlier steps.
+The full path is about 94 minutes, including practice. If you are reading one proposal today, start with lesson 4 and use its prerequisite links to fill in earlier steps.
 
 ## Concepts you will use
 
@@ -64,7 +64,9 @@ The [cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology
 
 [Intratumoral immunotherapy](/wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy) explains the route; [oncolytic viruses](/wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus) explain one payload category.
 
-For the physical tools, use [ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation), [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics), [stereotactic body radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/sbrt) and [hypofractionation](/wiki/education/concepts/therapeutics/local-therapies/hypofractionation). [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) and [randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) help you judge outcome claims.
+For the physical tools, use [ablation](/wiki/education/concepts/therapeutics/local-therapies/ablation) and [cryoablation versus heat-based ablation](/wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa), [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics), [stereotactic body radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/sbrt) and [how it differs from conventional radiation](/wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation), and [hypofractionation](/wiki/education/concepts/therapeutics/local-therapies/hypofractionation). [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) and [randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) help you judge outcome claims.
+
+Surgery is local therapy too, and in early breast cancer it is the most common one. This guide focuses on ablation and radiation, so read [breast surgery basics](/wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics), [completion surgery](/wiki/education/concepts/therapeutics/local-therapies/completion-surgery) and [regional nodal irradiation after neoadjuvant therapy](/wiki/education/concepts/therapeutics/local-therapies/regional-nodal-irradiation-after-neoadjuvant-therapy) for the operation and the radiation questions that follow it.
 
 ## Practice with two sites
 
@@ -88,8 +90,8 @@ After the course, use [the local-treatment reference shelf](/wiki/education/loca
 
 ## Sources and scope
 
-Source check: 2026-10-09; the two-site practice addition was checked October 10, 2026 through the linked concepts. General education; all named practice patients are fictional. Expert and learner review pending. Each lesson identifies the sources supporting its specific claims.
+Source check: 2026-11-07 for the lesson map, surgery links and NRG-BR002 result; 2026-10-09 otherwise; the two-site practice addition was checked October 10, 2026 through the linked concepts. General education; all named practice patients are fictional. Expert and learner review pending. Each lesson identifies the sources supporting its specific claims.
 
 - [National Cancer Institute: radiation therapy](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy) — treatment goals and physical exposure.
 - [Galluzzi et al., 2020: immunogenic cell death guidance](https://pubmed.ncbi.nlm.nih.gov/32209603/) — signals, immune responses and measurement boundaries.
-- [Chmura et al., 2026: NRG-BR002](https://ascopubs.org/doi/10.1200/JCO-26-00201) — a breast-cancer-specific comparison of adding metastasis-directed treatment.
+- [Chmura et al., 2026: NRG-BR002](https://pubmed.ncbi.nlm.nih.gov/42842849/) — in oligometastatic breast cancer, adding metastasis-directed treatment to first-line systemic therapy did not improve progression-free or overall survival.

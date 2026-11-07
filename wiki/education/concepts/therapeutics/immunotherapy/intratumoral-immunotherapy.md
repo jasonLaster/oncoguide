@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/cancer-im
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/index]]"]
 sensitive: false
 tags: [education, immunotherapy, local-treatment]
-updated: 2026-10-09
-source_checked: 2026-10-09
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -33,7 +33,7 @@ Think of bringing a lesson to the place where its material is found. A tumor con
 
 The clinician needs a lesion that can be identified and safely accessed. Injection changes where exposure starts. It does not establish uniform distribution through the lesion, confinement there, or a safe systemic exposure. The accessible lesion may also differ from cancer at other sites.
 
-An immune strategy might recruit or activate [dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells), help them collect tumor material, or alter inhibitory signals. Presentation and [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) may involve the tumor and its [draining lymph nodes](/wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics). Priming still leaves the problems of travel, tumor-cell recognition and sustained function. A primary lymphoma study tested a defined combination of dendritic-cell recruitment, radiation and an innate stimulus; its findings do not establish that every injection produces this chain. [Hammerich et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30962585/).
+An immune strategy might recruit or activate [dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells), help them collect tumor material, or alter inhibitory signals. Presentation and [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals) may involve the tumor and its [draining lymph nodes](/wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics). Priming still leaves the problems of travel, tumor-cell recognition and sustained function. A primary study in advanced indolent non-Hodgkin lymphoma injected Flt3 ligand (a growth factor that recruits dendritic cells) and poly-ICLC (a Toll-like receptor 3 agonist used as a [vaccine adjuvant](/wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants)) into one tumor, with low-dose radiation ([NCT01976585](https://clinicaltrials.gov/study/NCT01976585)). Its findings do not establish that every injection produces this chain. [Hammerich et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30962585/).
 
 ## Keep three measurements separate
 
@@ -77,7 +77,7 @@ In a fictional experiment, immune cells collected after an injection recognize t
 
 ## Sources and scope
 
-Source check: October 9, 2026. General route and evidence principles; a lymphoma experiment and an approved melanoma product retain their own settings. No individual eligibility, schedule or access conclusion. Expert and learner review pending.
+Source check: November 7, 2026. General route and evidence principles; a lymphoma experiment and an approved melanoma product retain their own settings. No individual eligibility, schedule or access conclusion. Expert and learner review pending.
 
 - [NCI: intratumoral](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/intratumoral).
 - [Marabelle et al., 2018: reporting and development recommendations for human intratumoral immunotherapy](https://pubmed.ncbi.nlm.nih.gov/30295695/) — consistent route, lesion and outcome attribution.

@@ -9,11 +9,11 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism]]"
   - "[[wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module]]"
-used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
+used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/comparisons/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
 sensitive: false
 tags: [education, therapeutics]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -65,7 +65,9 @@ flowchart TD
 
 ## Why it matters in cancer
 
-Changing formats may change a resistance problem, but does not automatically solve it. Target loss can affect several products using that target. A processing defect might matter to one conjugate while a proposed engager faces a different immune-access problem.
+**One target, three drugs.** Human epidermal growth factor receptor 2 (HER2) shows the idea in real products that even share one antibody, trastuzumab. Trastuzumab alone blocks HER2 signaling and recruits immune cells; it helps HER2-positive cancers, which depend on HER2. Trastuzumab emtansine (T-DM1) adds a microtubule payload through a noncleavable linker and is also used only for HER2-positive disease. Trastuzumab deruxtecan adds about eight topoisomerase I payloads through a cleavable linker; in DESTINY-Breast04 it lengthened survival in HER2-low metastatic breast cancer, where HER2 is an address rather than a growth driver [5, 6]. Same target, same binder, different format, different patients.
+
+Changing formats may change a resistance problem, but does not automatically solve it. Target loss can affect several products using that target. A processing defect might matter to one conjugate while a proposed engager faces a different immune-access problem. When the payload is the problem, a new target carrying the same payload class can fail the same way; see [cross-resistance between ADCs](/wiki/education/concepts/therapeutics/antibody-based/adc-cross-resistance).
 
 The format also changes the consequences of healthy-tissue recognition. [On-target, off-tumor toxicity](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity) remains possible even when binding is accurate. One product's tolerability cannot establish another's safety.
 
@@ -100,20 +102,25 @@ A fictional tumor retains target M after an ADC stops controlling it. A proposed
 
 - [Format constraints on binders](/wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders)
 - [Drug resistance](/wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance)
+- [Bispecific ADC](/wiki/education/concepts/therapeutics/antibody-based/bispecific-adc), a chassis that changes recognition with two binding arms
+- [ADC payload classes](/wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes)
 
 ## Sources and scope
 
-Source check: October 10, 2026. Surface-target formats and a fictional exercise; this is not a treatment ranking or an approval inventory. Expert and learner review remain pending.
+Source check: November 7, 2026. Surface-target formats and a fictional exercise; this is not a treatment ranking or an approval inventory. Expert and learner review remain pending.
 
-- [NCI: monoclonal antibodies](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies) — different actions following recognition, including immune recruitment.
-- [FDA, March 2024: clinical pharmacology considerations for ADCs](https://www.fda.gov/media/155997/download) — components, processing and separate exposure measurements.
-- [NCI: CAR T cells](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells) — receptor design, living-cell behavior and solid-tumor barriers.
-- [FDA, August 2019: therapeutic radiopharmaceutical development](https://www.fda.gov/media/129547/download) — ligand, radiation, biodistribution and absorbed-dose questions.
+1. [NCI: monoclonal antibodies](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies) — different actions following recognition, including immune recruitment.
+2. [FDA, March 2024: clinical pharmacology considerations for ADCs](https://www.fda.gov/media/155997/download) — components, processing and separate exposure measurements.
+3. [NCI: CAR T cells](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells) — receptor design, living-cell behavior and solid-tumor barriers.
+4. [FDA, August 2019: therapeutic radiopharmaceutical development](https://www.fda.gov/media/129547/download) — ligand, radiation, biodistribution and absorbed-dose questions.
+5. US prescribing information for [trastuzumab emtansine](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e) and [trastuzumab deruxtecan](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) — linker, payload, loading and indications.
+6. [Modi et al., 2022: DESTINY-Breast04](https://pubmed.ncbi.nlm.nih.gov/35665782/) — trastuzumab deruxtecan in previously treated HER2-low metastatic breast cancer.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison)
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
 - [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions)

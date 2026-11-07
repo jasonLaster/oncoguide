@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/ant
 used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/02-timing]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]","[[wiki/education/targeted-therapy-modalities/index]]"]
 sensitive: false
 tags: ["education", "therapeutics", "immunology"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,7 +29,7 @@ Imagine a temporary bridge between a target-bearing cell and a T cell capable of
 
 ## How it works
 
-Many engagers are **bispecific** proteins: they recognize two molecular features. One part recognizes a chosen target; another commonly binds [cluster of differentiation 3 (CD3)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), the receptor-associated T-cell signaling complex. Some have additional binding parts. “Bispecific” alone does not mean T-cell engagement: two targets can serve other purposes.
+Many engagers are **bispecific** proteins: they recognize two molecular features. One part recognizes a chosen target; another commonly binds [cluster of differentiation 3 (CD3)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), the receptor-associated T-cell signaling complex. Some have additional binding parts. “Bispecific” alone does not mean T-cell engagement: two targets can serve other purposes, as in a [bispecific antibody-drug conjugate (ADC)](/wiki/education/concepts/therapeutics/antibody-based/bispecific-adc), which uses both arms to find and enter the tumor cell.
 
 A surface-target engager can redirect T cells without their native [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizing a tumor peptide. CD3 signaling still matters. Target-bearing cells and functional T cells need productive contact. Bypassing native antigen specificity for recognition does not bypass immune-cell availability or function.
 
@@ -45,7 +45,7 @@ A surface-target engager can redirect T cells without their native [T-cell recep
 | Immunoglobulin G (IgG)-like | An antibody-like assembly with an [Fc region](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure); binding-domain numbers/layouts vary | Equivalent geometry or preserved Fc effector activity |
 | Half-life-extended (HLE) | Engineering intended to prolong exposure, which can include an added Fc region | A distinct, mutually exclusive architecture or a universal dosing interval |
 
-These labels overlap. Giffin's 2021 AMG 757 study added an effector-functionless Fc region to a BiTE core and assessed exposure in nonhuman primates. It illustrates an HLE BiTE, not a rule that all Fc-containing engagers are identical or safer. [Pharmacokinetics](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) belongs to the actual product and population.
+These labels overlap. Giffin's 2021 study of AMG 757, the DLL3-directed engager later approved as tarlatamab for small-cell lung cancer ([tarlatamab label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e7b6163-5d83-42ea-82c9-cf7620cdc782)), added an effector-functionless Fc region to a BiTE core and assessed exposure in nonhuman primates. It illustrates an HLE BiTE, not a rule that all Fc-containing engagers are identical or safer. [Pharmacokinetics](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) belongs to the actual product and population.
 
 A neighboring route targets peptide displayed by [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). [TCR mimics and soluble TCR/CD3 engagers](/wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers) still require the matching peptide–HLA target, even when recruited T cells need no native specificity for it.
 

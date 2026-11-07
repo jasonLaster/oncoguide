@@ -7,7 +7,7 @@ glossary_anchor: "adcc-adcp-cdc"
 aliases: ["ADCC", "ADCP", "CDC", "antibody-dependent cellular cytotoxicity", "antibody-dependent cell-mediated cytotoxicity", "antibody-dependent cellular phagocytosis", "complement-dependent cytotoxicity", "opsonization"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]"]
+used_by: []
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -112,5 +112,5 @@ Source check: October 9, 2026. Mechanisms and assay interpretation; the exercise
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

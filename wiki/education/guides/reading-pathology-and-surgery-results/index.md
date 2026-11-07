@@ -2,15 +2,15 @@
 title: "Read pathology and surgery results"
 sensitive: false
 tags: ["education"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 type: "guide"
 goal: "Read the specimen, residual disease and margins before deciding which clinical question each finding informs."
 audience: "Curious reader or family member; no pathology training needed"
-minutes: 32
+minutes: 42
 ---
 
 # Read pathology and surgery results
@@ -19,24 +19,24 @@ minutes: 32
 
 A pathology report describes submitted tissue. Its observations and final interpretation help establish diagnosis, response and local findings. It does not directly inspect every part of the body or select a whole treatment plan.
 
-This path begins with the specimen and its treatment context. It then separates breast response, nodes and margins before turning those findings into questions. Each lesson has a fictional report excerpt and a short exercise. You can use the linked concepts as a reference without memorizing a staging or scoring formula.
+This path begins with the diagnostic biopsy, then the specimen and its treatment context. It then separates breast response, nodes and margins before turning those findings into questions. Each lesson has a fictional report excerpt and a short exercise. You can use the linked concepts as a reference without memorizing a staging or scoring formula.
 
 The lessons focus on breast specimens, particularly after treatment before surgery. A biopsy, a surgery-first specimen and a post-treatment specimen are different settings. Keep that distinction visible rather than treating every pathology label as interchangeable.
 
-Have a report in front of you? Use the [six-question report card](/wiki/education/reading-a-tumor/index#read-the-report-in-this-order) to write down the specimen, measurement, evidence status, comparison, limits and decision question. Its [answered fictional example](/wiki/education/reading-a-tumor/index#work-through-a-fictional-result) shows how to complete the card without turning an observation into a treatment conclusion.
-
 ## The big ideas
 
-1. Collection date, report date and treatment timing provide different information. Read the specimen before the summary label.
-2. A treated tumor bed's footprint is not the same as the amount of invasive cancer within it.
-3. Breast and regional-node findings jointly inform some response endpoints, but margins ask about evaluated cut edges.
-4. A response or risk category does not by itself identify the best added treatment. Local completion, systemic benefit and safety need their own questions.
+1. The diagnostic biopsy defines the cancer: type, grade, receptors (triple-negative means estrogen receptor, progesterone receptor and HER2 all negative), Ki-67 and immune cells. Stage is separate.
+2. Collection date, report date and treatment timing provide different information. Read the specimen before the summary label.
+3. A treated tumor bed's footprint is not the same as the amount of invasive cancer within it.
+4. Breast and regional-node findings jointly inform some response endpoints, but margins ask about evaluated cut edges.
+5. A response or risk category does not by itself pick the added treatment, but two next questions are standard after residual disease: capecitabine and germline *BRCA* status for olaparib.
 
 ## The map
 
 ```mermaid
 flowchart TD
-  A[1. Specimen and treatment context] --> B[2. Residual disease and margins]
+  Z[0. Diagnostic biopsy] --> A[1. Specimen and treatment context]
+  A --> B[2. Residual disease and margins]
   B --> C[3. Questions for the next conversation]
 ```
 
@@ -44,6 +44,7 @@ flowchart TD
 
 | Step | Lesson | The question it answers | Minutes | Learning aid |
 |---|---|---|---|---|
+| 0 | [Read the diagnostic biopsy report](/wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy) | What do type, grade, receptors, Ki-67 and sTILs say before treatment? | 10 | Five-field table and a worked biopsy report |
 | 1 | [Place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time) | Which tissue and treatment moment does this report describe? | 10 | Report card and three-date exercise |
 | 2 | [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins) | What do breast, node, bed and edge findings establish? | 12 | Two-bed comparison and combined-response example |
 | 3 | [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question) | What decision needs which additional evidence? | 10 | Observation-to-question worksheet |
@@ -54,7 +55,9 @@ flowchart TD
 
 **Extent and diagnostic clues:** [N categories and nodal burden](/wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden) explains the regional-node assessment; [AJCC prognostic staging](/wiki/education/concepts/breast-cancer/grade-and-stage/ajcc-prognostic-staging) separates anatomic and prognostic groups. [SOX10 and basal markers](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers) shows why one stain cannot supply origin, RNA subtype and treatment benefit. [Breast surgery basics](/wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics) places the submitted tissue in the operation's broader jobs.
 
-**Residual findings:** [Tumor-bed cellularity](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity), [pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), [residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) and [surgical margins](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins).
+**Biopsy readouts:** [stromal tumor-infiltrating lymphocyte scoring](/wiki/education/concepts/measurement/pathology-readouts/stil-scoring), [estrogen receptor](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor) and [HER2](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2).
+
+**Residual findings:** [Tumor-bed cellularity](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity), [pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), [residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden), [surgical margins](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins) and [post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation).
 
 **Interpretation:** [Prognostic versus predictive evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) and [clinical actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability).
 
@@ -68,7 +71,7 @@ A report can require addenda or integration of separately submitted margins. A s
 
 ## Sources and scope
 
-Source-checked October 9, 2026; expert and learner review pending. The lessons cite the definitions and primary evidence they use.
+Source-checked November 7, 2026; expert and learner review pending. The lessons cite the definitions and primary evidence they use.
 
 - [NCI: Pathology reports](https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet).
 - [MD Anderson: residual cancer burden method](https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3).

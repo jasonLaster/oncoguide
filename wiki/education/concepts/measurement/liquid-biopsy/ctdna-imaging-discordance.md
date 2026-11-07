@@ -2,8 +2,8 @@
 title: "ctDNA–imaging discordance"
 sensitive: false
 tags: [education, measurement, liquid-biopsy]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -16,7 +16,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]"
   - "[[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units]]"
-used_by: ["[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
 ---
 
 # ctDNA–imaging discordance
@@ -69,7 +69,7 @@ A mismatch is a question to investigate. Check dates, assay qualifications, the 
 | Cannot tell you | An exact cell count, lesion location from blood alone, or treatment benefit from agreement/disagreement |
 | Validation tier | Review each test's intended use and evidence; validating their combination requires its own population and decision context |
 
-**Finite-input arithmetic:** in a fictional conversion, assume 6.6 picograms per *diploid* human genome equivalent. Then 6.6 nanograms of recovered DNA represents 1,000 diploid mass equivalents, or 2,000 *haploid* equivalents using 3.3 picograms. Those are DNA-mass units, not 1,000 intact cells. Fragment recovery, locus coverage and a tumor's altered chromosome copy numbers affect usable target molecules. A tiny fraction does not guarantee a target entered the tested aliquot.
+**Finite input:** a blood test often examines only thousands of genome copies at a time, so a tiny tumor fraction can leave no tumor molecule in the tested aliquot. The worked arithmetic is on [blood sampling and detection limits](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling).
 
 ## Common confusions
 
@@ -100,7 +100,7 @@ A fictional person has no qualifying ctDNA signal after treatment. A breast MRI 
 
 ## Sources and scope
 
-Source check: October 10, 2026. The arithmetic and practice scenario are fictional. No universal draw interval, lesion forecast or treatment rule. Expert and learner review remain pending.
+Source check: November 7, 2026. The arithmetic and practice scenario are fictional. No universal draw interval, lesion forecast or treatment rule. Expert and learner review remain pending.
 
 - [FDA 2024 ctDNA guidance](https://www.fda.gov/media/183874/download) — assay, sampling and validation considerations for curative-intent solid-tumor drug development.
 - [Diehl et al. 2008: circulating mutant DNA](https://doi.org/10.1038/nm.1789) — colorectal-cancer study; the early post-resection half-life estimate came from one subject.
@@ -110,6 +110,7 @@ Source check: October 10, 2026. The arithmetic and practice scenario are fiction
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
 - [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
 <!-- END GENERATED USED IN -->

@@ -105,5 +105,5 @@ Source check: October 10, 2026. Studies, effects and weights are fictional. Expe
 ## Used in
 
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 <!-- END GENERATED USED IN -->

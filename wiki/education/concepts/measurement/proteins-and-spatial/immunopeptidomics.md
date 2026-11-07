@@ -7,7 +7,7 @@ glossary_anchor: "immunopeptidomics"
 aliases: ["immunopeptidomics"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: 2026-10-10
@@ -106,7 +106,6 @@ Focused source check: October 14, 2026. The preservation addition uses the Siroi
 ## Used in
 
 - [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 - [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
 - [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)

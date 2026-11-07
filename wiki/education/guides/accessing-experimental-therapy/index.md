@@ -3,14 +3,14 @@ title: "Understand access to an experimental therapy"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 goal: "Understand how an approved or investigational therapy could become a feasible clinician-led option, with uncertainty and access gates kept visible."
 audience: "Patients and caregivers exploring a proposed treatment; no regulatory background assumed."
-minutes: 36
+minutes: 46
 ---
 
 # Understand access to an experimental therapy
@@ -24,7 +24,7 @@ You do not need to solve every regulatory detail yourself. The useful goal is to
 ## The big ideas
 
 1. [Off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) concerns an approved drug used outside its labeling. A never-approved product needs a different access route.
-2. [Clinical trials and expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) serve different primary purposes. A single-patient [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) is one expanded-access mechanism, rather than a marketing approval.
+2. [Clinical trials and expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) serve different primary purposes. A single-patient [Investigational New Drug (IND) application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla), filed by the physician on Form FDA 3926 after the company agrees to supply, is the usual non-trial route. FDA allows about 99% of requests; the company's agreement is the usual bottleneck.
 3. A trial's [phase and assignment design](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) describe its scientific plan. They do not establish an individual's eligibility or guarantee the experimental arm.
 4. [Finding a trial](/wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial) starts with a registry record. “Recruiting” is an invitation to check availability. A site and the relevant cohort must still be open, and screening must establish eligibility.
 5. [Approval pathways and expedited designations](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) distinguish authorization from development support. Supplier agreement, review, consent, product readiness and monitoring are separate gates. Authorization to proceed is not evidence that treatment will help.
@@ -32,21 +32,17 @@ You do not need to solve every regulatory detail yourself. The useful goal is to
 ## The map
 
 ```mermaid
-%%{init: {"htmlLabels":false,"themeVariables":{"fontSize":"13px"},"flowchart":{"htmlLabels":false,"padding":4,"nodeSpacing":8,"rankSpacing":28}}}%%
 flowchart TD
-  A[1. Identify<br/>the product<br/>and proposed<br/>use] --> B{Which<br/>route<br/>applies?}
-  B --> C[Approved<br/>drug:<br/>review<br/>on-label<br/>or<br/>off-label<br/>use]
-  B --> D[Investigational<br/>product: check<br/>trial opportunity]
-  D --> E[2.<br/>Confirm<br/>protocol,<br/>site and<br/>cohort]
-  D --> F[If trial<br/>access is<br/>not<br/>feasible:<br/>assess<br/>other<br/>pathways]
-  E --> G[3. Confirm<br/>consent,<br/>supply and<br/>clinical<br/>readiness]
+  A["1. Name the product and proposed use"] --> B{"Which route?"}
+  B --> C["Approved drug: on-label or off-label use"]
+  B --> D["Investigational drug: 2. check a trial"]
+  D --> F["No trial fits: 4. single-patient expanded access"]
+  D --> G["3. Readiness ledger: consent, supply, monitoring"]
   F --> G
   C --> G
-  E --- F
-  linkStyle 8 stroke:transparent,stroke-width:0
 ```
 
-*Follow the numbered lesson links below. A pathway becomes usable only when the relevant gates have been resolved.*
+*Lesson numbers sit on the boxes. A pathway becomes usable only when its gates are resolved.*
 
 ## Lessons
 
@@ -57,6 +53,7 @@ Minutes are suggested reading budgets. Each lesson includes a fictional case, a 
 | 1 | [Name the access route](/wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route) | Is this an approved drug, a study or another investigational pathway? | 12 | Route comparison and fictional choices |
 | 2 | [Check a real trial opportunity](/wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity) | Can the relevant site and cohort evaluate this patient now? | 12 | Screening record and randomization example |
 | 3 | [Build the readiness picture](/wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture) | Who supplies, reviews, delivers and monitors treatment? | 12 | Readiness ledger and timing example |
+| 4 | [Walk the non-trial route](/wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route) | When no trial fits, how does a single-patient request work, and who pays? | 10 | Five-owner step table and charging rule |
 
 ## Concepts you will use
 
@@ -80,8 +77,9 @@ Practical availability changes. A study may pause enrollment, a cohort may fill,
 
 ## Sources and scope
 
-U.S. integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General education; expert and learner review pending. No individual eligibility or access determination is made here.
+U.S. integration source check: November 7, 2026 (lesson 4 and big idea 2); retained examples and other source scopes last checked October 9, 2026. General education; expert and learner review pending. No individual eligibility or access determination is made here.
 
 - [FDA: expanded access and other treatment options](https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options) — route categories.
+- [FDA: expanded access request forms](https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms) — Form FDA 3926 and the 99% figure.
 - [NCI: steps to find a clinical trial](https://www.cancer.gov/research/participate/clinical-trials-search/steps) — search and site confirmation.
 - [FDA: expanded access information for review boards](https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs) — supply, review, treatment and monitoring responsibilities.

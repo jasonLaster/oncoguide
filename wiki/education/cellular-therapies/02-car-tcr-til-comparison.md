@@ -3,8 +3,8 @@ title: "Compare immune-cell recognition systems"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-13
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -97,6 +97,7 @@ A cell is harvested from a tumor. Does that prove its receptor recognizes cancer
 What recognition and identity facts are still missing?
 
 **Answer:** A needs the receptor's identity and type; if it is a conventional TCR, the exact peptide–HLA requirement and paired receptor identity matter. “Installed” alone does not name the target or demonstrate expression and function. B describes origin and expansion, but leaves cell identities, receptor mixture and measured tumor reactivity open; bystanders may be present. C names the added receptor family and starting cell family, but leaves the CAR's target, construct and native NK inputs unspecified. Each needs evidence from the actual preparation and relevant targets. Family labels do not supply a safety ranking, universal HLA independence or clinical suitability.
+
 ## Explain it back
 
 “The family name tells me ___, but suitability still needs ___.” One answer: “a recognition and cell strategy; target, safety, clinical evidence and access assessment.”

@@ -98,5 +98,5 @@ Source check: October 10, 2026. The five-pass sequence is a teaching synthesis s
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
 - [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 <!-- END GENERATED USED IN -->

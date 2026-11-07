@@ -2,8 +2,8 @@
 title: "Fragmentomics and methylation in cell-free DNA"
 sensitive: false
 tags: [education, measurement, liquid-biopsy]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -43,6 +43,8 @@ The analogy stops at certainty. No fragment has a printed “cancer” address. 
 
 [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|Cell-free DNA (cfDNA)]] includes fragments from many cell types. **Fragmentomics** studies their lengths, breakpoints, end sequences and distributions across the genome. DNA wrapped around proteins can be protected differently from exposed DNA. A **nucleosome** is DNA wrapped around histone proteins; its positioning helps leave a footprint in recovered fragments. Snyder and colleagues tested this connection experimentally.
 
+**The basic size fact.** Plasma DNA fragments cluster at about 166 base pairs, roughly the DNA wrapped around one nucleosome plus a short linker ([Lo 2010](https://doi.org/10.1126/scitranslmed.3001720)). Tumor-derived fragments are on average shorter. In 344 plasma samples from 200 people with cancer, tumor DNA was enriched among fragments of 90 to 150 base pairs, and selecting that size range enriched tumor DNA more than twofold (median) in over 95% of cases ([Mouliere 2018](https://doi.org/10.1126/scitranslmed.aat4921)). Size is a shift in the distribution, not a label on each fragment.
+
 **[[wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation|DNA methylation]]** adds chemical marks to DNA bases without changing their sequence. Many assays examine marked cytosines next to guanine, called **CpG sites**. Methylation patterns can differ among normal cell types and in cancer. Some methods chemically convert DNA to distinguish marked from unmarked bases; others use different measurement technologies.
 
 ```mermaid
@@ -80,7 +82,7 @@ These features can complement mutation tracking, including when few informative 
 
 ## Common confusions
 
-- **Shorter equals cancer:** length distributions overlap; patterns and context matter.
+- **Shorter equals cancer:** tumor fragments are shorter *on average*, but most short fragments in a sample still come from normal cells because normal DNA vastly outnumbers tumor DNA; patterns and context matter.
 - **Methylation equals abnormality:** normal cells also have characteristic methylation.
 - **Cell origin equals malignant identity:** tissue injury can contribute normal DNA from that organ.
 - **One classifier equals all liquid biopsies:** models, reference sets and cutoffs differ.
@@ -107,9 +109,11 @@ A fictional fragment classifier was trained on promptly processed plasma. New sa
 
 ## Sources and scope
 
-Source check: October 10, 2026. Measurement principles and scoped experiments, not a screening endorsement. The exercise is fictional. Expert and learner review remain pending.
+Source check: November 7, 2026. Measurement principles and scoped experiments, not a screening endorsement. The exercise is fictional. Expert and learner review remain pending.
 
 - [Snyder et al. 2016: nucleosome footprints](https://doi.org/10.1016/j.cell.2015.11.050) — fragment protection and source-cell inference.
+- [Lo et al. 2010: maternal plasma DNA sequencing](https://doi.org/10.1126/scitranslmed.3001720) — the 166-base-pair nucleosomal peak (PMID 21148127).
+- [Mouliere et al. 2018: fragment size analysis](https://doi.org/10.1126/scitranslmed.aat4921) — tumor DNA enriched at 90–150 base pairs in 200 people with cancer (PMID 30404863).
 - [Moss et al. 2018: methylation atlas](https://doi.org/10.1038/s41467-018-07466-6) — reference-based estimates of cfDNA contributors.
 - [Cristiano et al. 2019: genome-wide fragmentation](https://doi.org/10.1038/s41586-019-1272-6) — classifier proof of principle in defined cohorts.
 - [Van der Pol et al. 2022: preanalytical variables](https://doi.org/10.1093/clinchem/hvac029) — feature-dependent effects of collection and processing.

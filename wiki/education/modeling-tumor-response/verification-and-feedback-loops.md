@@ -8,8 +8,8 @@ objectives: ["Distinguish an interpretable model response, clinical prediction a
 prerequisites: ["[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: 2026-10-11
-source_checked: "2026-10-11"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -23,7 +23,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## Where this step sits
 
-This is step 3 of [Predict response before treating](/wiki/education/guides/predicting-response-before-treating/index). The first lessons chose and checked a model. This final step asks what independent evidence connects its result to the proposed decision, and how later observations should update that evidence.
+This is step 3 of [Predict response before treating](/wiki/education/guides/predicting-response-before-treating/index). The first lessons chose and checked a model. This final step asks what independent evidence connects its result to the proposed decision, and how later observations should update that evidence. It covers laboratory and computer models; blood and imaging signals measured during treatment belong to [understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index).
 
 ## Climb one claim at a time
 
@@ -50,7 +50,7 @@ Lock this toy assay before their outcomes are known:
 - For reportable cases, treated-count median divided by vehicle-count median at 48 hours at or below 0.5 predicts positive. This is an invented classification rule, **not 50% killing**.
 - Independently assess the same prespecified imaging-volume measure before treatment and at week 6 after fictional drug A. A blinded assessor supplies the percentage change from that donor's pre-treatment volume. A decline of at least 20% is stipulated reference-positive; otherwise reference-negative.
 
-The reference is a separate observation, not the culture score. For arithmetic, assume these invented labels are correct. The volume cutoff is a **toy criterion**, not standard clinical imaging-response criteria, an accepted clinical threshold or evidence of benefit. It is not a validated clinical reference standard. In actual studies, an imperfect comparator supports agreement; diagnostic accuracy terminology requires appropriate reference evidence. [FDA statistical guidance, 2007](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda).
+The reference is a separate observation, not the culture score. For the arithmetic, assume these invented labels are correct. The 20% cutoff is a toy rule, not a clinical response criterion. In real studies the comparator is itself imperfect, so results are reported as agreement rather than true accuracy ([FDA statistical guidance, 2007](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda)).
 
 Clinical validation must still name disease, regimen, setting, specimen timing, version and endpoint. Imaging, pathology, blood signals and survival are different outcomes; a [surrogate endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints) requires its own evidence bridge.
 
@@ -76,7 +76,21 @@ A [denominator](/wiki/education/concepts/evidence-and-statistics/reasoning-tools
 | Of positive predictions, reference positive? | 6 / (6 + 3) = 66.7%; toy positive predictive value |
 | Of everyone offered testing, got a report? | 20 / 30 = 66.7%; reportable coverage |
 
-PPV conditions on positive predictions; it uses nine here, not eight. The ten no-results are excluded from the classification matrix and retained in coverage. There is no established accuracy for them. Neither 75% reportable accuracy nor 15/30 establishes patient-level accuracy or clinical utility. These tiny invented fractions provide no universal performance or calibrated uncertainty.
+PPV conditions on positive predictions; it uses nine here, not eight. The ten no-results are excluded from the classification matrix and retained in coverage. Counted against everyone offered testing, only 15 of 30 donors (50%) received a correct classification: the 15 correct calls divided by all 30 offered, including the ten with no report. Neither 75% nor 50% establishes clinical utility.
+
+## Now read a real study with the same shape
+
+Ladan and colleagues tested a 3-day anthracycline assay on tissue slices from breast-cancer biopsies taken before neoadjuvant chemotherapy, and compared it with each patient's MRI response ([Ladan 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/)).
+
+| Step | Count | What it teaches |
+|---|---|---|
+| Biopsies that could be tested | 30 | The offered group |
+| Usable assay results | 23 (7 failed, mostly from high baseline cell death) | Coverage 77%; failures are not resistance |
+| Treated and evaluable against MRI | 20 (three did not receive chemotherapy) | The matrix denominator |
+| Assay and MRI agreed | 15 of 20 (75%; 95% confidence interval 53–89%) | Agreement, not accuracy against truth |
+| Tumors the assay called resistant | 0 | The assay's ability to detect resistance was never tested |
+
+The last row is the lesson the toy cannot teach. A test that never produced a "resistant" call cannot claim to identify resistant tumors, however good its overall agreement. Agreement figures from other model types are collected on the [comparison page](/wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment).
 
 ## Write the prediction before the outcome
 
@@ -101,7 +115,7 @@ flowchart TD
 
 If the model responds and the patient does not, check model selection, exposure, cell composition, timing and the clinical endpoint. If a computer prediction differs from a living experiment, inspect inputs, task and portability. A disagreement need not have one simple explanation.
 
-[Blood monitoring](/wiki/education/molecular-profiling/06-ctdna-and-mrd), imaging and clinical assessment can supply complementary observations. A changing blood signal does not identify the effect of one drug, establish that every cancer site responded or measure every surviving population. Feedback should preserve those limits.
+[Blood monitoring](/wiki/education/concepts/measurement/liquid-biopsy/mrd), imaging and clinical assessment can supply complementary observations. A changing blood signal does not identify the effect of one drug, establish that every cancer site responded or measure every surviving population. Feedback should preserve those limits.
 
 ## What can go wrong at this step
 
@@ -132,10 +146,10 @@ One answer: “an interpretable laboratory response; the tested model and exposu
 
 ## Sources and scope
 
-Source check: October 11, 2026. Model validation and feedback principles, rather than treatment advice. Expert and learner review remain pending.
+Source check: November 7, 2026. Model validation and feedback principles, rather than treatment advice. Expert and learner review remain pending.
 
-- [Ladan et al., 2023: a specified ex vivo assay and neoadjuvant breast-cancer response study](https://pubmed.ncbi.nlm.nih.gov/37777518/).
+- [Ladan et al., 2023: ex vivo anthracycline assay on breast biopsies versus MRI response](https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/) — 30 tested, 23 usable, 15 of 20 concordant, no ex vivo resistant result (PMID 37777518).
 - [Ahlmann-Eltze et al., 2025: task-specific independent perturbation evaluation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/).
 - [NCI biomarker testing: methods, clinical context and treatment evidence](https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment).
 
-Fresh selected Ladan assay/cohort/outcome sections and Ahlmann-Eltze held-out-expression methods were checked. Ladan used a particular anthracycline-based assay and presurgical imaging comparison; its cohort and response categories are not this invented binary matrix, even though a percentage coincides. NCI and FDA sources bound clinical context and reference terminology. No full-paper, regulatory, clinical-utility or human-review certification is claimed.
+MODEL-PRACTICE-01 is invented. Ladan's real response categories were three-level (sensitive, intermediate, resistant), not the toy's binary labels.

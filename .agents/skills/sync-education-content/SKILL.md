@@ -35,6 +35,8 @@ Validate the local receipt, then plan against the chosen committed source:
     bun run check:content-consistency
     bun scripts/education-content-sync.ts plan --source <diana-repo-or-vault> --ref <commit> --report /tmp/education-sync-plan.json
 
+A version 2 or 3 supplemental manifest refuses to plan ("Joint custody manifest must bind the exact committed export source") until it is rebound to the new source commit. For each entry, compare the file, every bound artwork and the owner page with `git show <ref>:obsidian/<path>` hashes. If any file or artwork hash, byte size or path changed, stop and review that custody. If only owner pages changed (ordinary teaching edits), update those `ownerSha256` values and `reviewedSourceCommit`, keeping the file's JSON formatting so the diff shows only hash lines. Then plan.
+
 Read the plan before applying it. The comparison uses the previous receipt, the current destination and the proposed source. Destination-only edits, simultaneous differences, missing imported files and new-path collisions are conflicts. Do not replace the receipt to make an unexplained edit pass.
 
 Use a fresh JSON filename for each report, outside both repositories, the renderer checkout and their Git directories. Existing files and symlinked report targets cannot be overwritten.

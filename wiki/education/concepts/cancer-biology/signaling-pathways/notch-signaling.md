@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -50,15 +50,15 @@ flowchart TD
 
 ## Why it matters in cancer
 
-Cancer can alter developmental signals. The relevant signaling cells may be malignant cells, vessel cells, or other neighbors. Activating NOTCH1 mutations were identified in T-cell acute lymphoblastic leukemia. Inactivating alterations in a head-and-neck squamous cancer study instead suggested a tumor-suppressor role. These are different disease contexts; neither assigns a direction to an uncharacterized allele. A claim about “Notch activity” therefore needs a cell type and a specific biological question.
+Cancer can alter developmental signals. The relevant signaling cells may be malignant cells, vessel cells, or other neighbors. The clearest example is T-cell acute lymphoblastic leukemia (T-ALL): more than half of human T-ALLs carry activating NOTCH1 mutations, in the region that holds the receptor closed or the region that marks the released fragment for destruction. [Weng 2004](https://pubmed.ncbi.nlm.nih.gov/15472075/). Inactivating alterations in a head-and-neck squamous cancer study instead suggested a tumor-suppressor role. These are different disease contexts; neither assigns a direction to an uncharacterized allele. A claim about “Notch activity” therefore needs a cell type and a specific biological question.
 
 Blocking a ligand and blocking gamma-secretase interrupt different parts of the system. Gamma-secretase also acts on proteins beyond Notch. A response to a broad perturbation does not automatically identify the relevant ligand or receptor.
 
 ## A worked example
 
-A fictional tissue has high DLL4, a Notch ligand, around blood vessels. Most of the signal comes from vessel cells. Tumor cells do not show increased nuclear NICD in an adequate assay.
+A fictional T-ALL sample carries a NOTCH1 mutation in the region that normally keeps the receptor closed until a ligand pulls on it. The leukemia cells show high nuclear NICD even without a neighboring cell supplying ligand, and NICD falls when gamma-secretase is blocked.
 
-The tissue supports a vascular ligand observation. It does not yet support active Notch signaling inside malignant cells. Researchers could next examine the receiving cell population, nuclear signal, and suitable downstream targets under controlled conditions.
+Together these observations support ligand-independent Notch activation inside the malignant cells. A tumor with a lot of Notch ligand, such as DLL4 on blood-vessel cells, would be a different observation: it shows a sender, not a signal received by the tumor cells. Researchers would still need to test whether the leukemia depends on the signal, and gamma-secretase blockade also affects proteins other than Notch.
 
 ## Common confusions
 
@@ -95,7 +95,7 @@ One answer: “what is present; received signaling; an attributed functional eff
 
 ## Sources
 
-Source check: 2026-10-09. General mechanism education; the worked example is fictional. Expert and learner review pending.
+Source check: 2026-11-07. General mechanism education; the worked example is fictional. Expert and learner review pending.
 
 - [Schroeter 1998: release of the Notch intracellular domain](https://pubmed.ncbi.nlm.nih.gov/9620803/).
 - [Mumm 2000: ligand-regulated extracellular cleavage](https://pubmed.ncbi.nlm.nih.gov/10882062/).

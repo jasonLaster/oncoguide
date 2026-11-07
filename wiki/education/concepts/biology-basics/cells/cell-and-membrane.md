@@ -7,7 +7,7 @@ glossary_anchor: "cell-and-membrane"
 aliases: ["cell membrane", "plasma membrane", "selective permeability", "lipid bilayer"]
 level: "foundation"
 prerequisites: []
-used_by: []
+used_by: ["[[wiki/education/index]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 updated: "2026-10-09"
@@ -108,5 +108,5 @@ Source-checked October 9, 2026; expert and learner review pending. The experimen
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [Learn the biology and evidence](/wiki/education/index)
 <!-- END GENERATED USED IN -->

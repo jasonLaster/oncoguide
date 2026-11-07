@@ -7,7 +7,7 @@ glossary_anchor: "anergy"
 aliases: ["anergy", "T-cell anergy", "clonal anergy"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/t-cells/costimulation]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/3-t-cell-states]]"]
+used_by: ["[[wiki/education/oncology-101/3-t-cell-states]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-09"
@@ -92,6 +92,5 @@ Source check: October 9, 2026. T-cell anergy and experimental interpretation; fi
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
 <!-- END GENERATED USED IN -->

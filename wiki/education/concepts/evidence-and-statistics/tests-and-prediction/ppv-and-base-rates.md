@@ -11,7 +11,7 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
 updated: "2026-10-12"
 source_checked: 2026-10-10
 review_status: "Source-checked; expert and learner review pending"
@@ -120,6 +120,7 @@ General teaching, source-checked October 10, 2026. The examples are hypothetical
 
 - [Compare related ideas](/wiki/education/comparisons/index)
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
+- [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)

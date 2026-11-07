@@ -8,13 +8,13 @@ aliases: ["sTIL", "sTILs", "stils", "stromal TIL", "stromal tumor-infiltrating l
 level: "foundation"
 sensitive: false
 tags: ["education", "measurement"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
-used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 ---
 
 # Stromal TIL scoring: what the percentage counts
@@ -49,7 +49,12 @@ flowchart TD
 
 ## Why it matters in cancer
 
-sTILs describe an immune feature of sampled tissue. Study-specific associations can inform research and prognosis. A score alone does not prove tumor-specific recognition, access to each malignant nest or benefit from a particular immunotherapy. Those are separate measurements and validation questions.
+In early triple-negative breast cancer (TNBC), the pretreatment sTIL score is a well-validated **prognostic** factor:
+
+- In 2,148 patients with early TNBC given anthracycline-based adjuvant chemotherapy, each 10% increase in sTILs was associated with an invasive disease-free survival hazard ratio (HR) of 0.87 (95% CI 0.83–0.91) and an overall survival HR of 0.84 (0.79–0.89), after adjusting for other clinical factors ([Loi et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30650045/)).
+- In 906 patients with TNBC in six neoadjuvant chemotherapy trials, pathological complete response was 31% with low (0–10%), 31% with intermediate (11–59%) and 50% with high (≥60%) sTILs ([Denkert et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29233559/)).
+
+These findings describe outcome after chemotherapy. They do not establish that the score predicts extra benefit from pembrolizumab, which would need a comparison of treatment arms by sTIL level. A score also does not prove tumor-specific recognition or access to each malignant nest. The [TIL concept](/wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes#why-it-matters-in-cancer) carries the same evidence for readers who start there.
 
 ## Worked example
 
@@ -74,6 +79,7 @@ Additional stains can identify subtypes and location, but change the measurement
 - Percent stromal area, percent positive nuclei and cells per square millimeter are different units.
 - Bulk immune [ribonucleic acid (RNA)](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) abundance is not a microscopy-based sTIL score.
 - A high score is not a permanent “hot tumor” label or a universal immunotherapy rule.
+- Prognostic (tracks outcome) is not predictive (tracks benefit from one treatment over another).
 
 ## Try it
 
@@ -101,14 +107,20 @@ For a fictional area map, region A contains 4 units of eligible stroma and 0.4 u
 
 ## Sources and scope
 
-Source check: October 10, 2026. Setting-specific measurement teaching, not a therapy-selection rule. Expert and learner review remain pending.
+Source check: November 7, 2026. Setting-specific measurement teaching, not a therapy-selection rule. Expert and learner review remain pending.
 
 - [Salgado et al., 2015: Working Group recommendations](https://tilsinbreastcancer.org/wp-content/uploads/2017/11/Salgado-et-al.-Annals-of-Oncology-2015.pdf) — Table 2 and adjacent passages on eligible regions, exclusions and overall assessment.
+- [Loi et al., 2019: pooled sTIL prognosis in early TNBC](https://pubmed.ncbi.nlm.nih.gov/30650045/).
+- [Denkert et al., 2018: TILs and neoadjuvant response by subtype](https://pubmed.ncbi.nlm.nih.gov/29233559/).
 - [Dieci et al., 2018: updated recommendations](https://pubmed.ncbi.nlm.nih.gov/29024776/) and the [residual-disease supplement](https://tilsinbreastcancer.org/wp-content/uploads/2017/10/Suppl-File-3-Recommendations-for-assessing-tumor-infiltrating-lymphocytes-TILs-in-RD.pdf) — selected residual-bed and compartment guidance; no universal benefit threshold.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Read the diagnostic biopsy report](/wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy)
+- [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
 - [Add the geography of cells and signals](/wiki/education/molecular-profiling/04-spatial-biology)
 - [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)

@@ -18,8 +18,8 @@ sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: 2026-10-09
-updated: 2026-10-10
+source_checked: 2026-11-07
+updated: 2026-11-07
 tags: [education, guide-lesson, evidence-and-statistics]
 ---
 
@@ -63,7 +63,7 @@ The censoring mark does not create a downward step. It changes who remains in th
 
 ## A larger worked example: keep both effect sizes
 
-Now use a separate fictional randomized trial of two postoperative strategies in eligible adults with operable cancer. The endpoint is first recurrence or death from randomization. Its estimated five-year event risks are 20% with B and 14% with A. Assume the report supplies adequate follow-up and appropriate outcome estimates; these are invented teaching figures.
+Now use a separate fictional randomized trial of two postoperative strategies in eligible adults with operable cancer. The endpoint is first recurrence or death from randomization. Its estimated five-year event risks are 20% with B and 14% with A. Assume the report supplies mature data, meaning enough follow-up and events (see [interim analysis](/wiki/education/concepts/evidence-and-statistics/study-design/interim-analysis)); these are invented teaching figures.
 
 | Measure at five years | Calculation | Meaning in this comparison |
 |---|---|---|
@@ -83,6 +83,22 @@ For a binary response endpoint, a report may use an [odds ratio (OR)](/wiki/educ
 Suppose the fictional five-year absolute reduction has a 95% confidence interval from 2 to 10 percentage points. The corresponding number-needed-to-treat limits are 10 to 50, reversing the positive risk-difference limits. Do not report 17 as though it were exact. If a risk-difference interval crosses zero, the transformed interval can span benefit, infinity, and harm. Reporting the risk difference and its interval is often clearer. [Altman: confidence intervals for number needed to treat](https://doi.org/10.1136/bmj.317.7168.1309).
 
 A confidence interval is not a range containing 95% of patients. Its coverage describes the method across repeated studies under its assumptions, not a 95% probability assigned to a fixed effect after seeing this interval.
+
+## Practise on a real trial
+
+KEYNOTE-522 randomized 1,174 people with previously untreated stage II–III triple-negative breast cancer to chemotherapy plus pembrolizumab or chemotherapy plus placebo [1]. At its fourth planned interim analysis, after a median 39.1 months:
+
+| Arm | 36-month event-free survival |
+|---|---|
+| Pembrolizumab | 84.5% (95% CI 81.7–86.9) |
+| Placebo | 76.8% (95% CI 72.2–80.7) |
+
+The report gives HR 0.63 (95% CI 0.48–0.82) for an event or death [1]. Work it through:
+
+- **Absolute difference at 36 months:** 84.5% − 76.8% = 7.7 percentage points, about 8 fewer events per 100 people by 3 years.
+- **Number needed to treat at 36 months:** 1 / 0.077 ≈ 13.
+- **HR 0.63** is a 37% lower hazard over follow-up. It is not a 37% drop in the 36-month event risk: that risk fell from 23.2% to 15.5%, a relative reduction of about 33%.
+- **Data maturity:** this was an interim look. Overall survival was reported later, at 60 months: 86.6% versus 81.7% [2].
 
 ## What can go wrong at this step
 
@@ -111,8 +127,10 @@ Finish: “By ___, A had ___ fewer defined events per 100 people than B. The int
 
 ## Sources and scope
 
-Source check: 2026-10-09. General statistical interpretation; expert and learner review pending. All participants, trials, and numerical results are fictional.
+Source check: November 7, 2026. General statistical interpretation; expert and learner review pending. All participants, trials and numbers are fictional except the KEYNOTE-522 practice, taken from the primary abstracts.
 
+1. [Schmid and colleagues, NEJM 2022: KEYNOTE-522 event-free survival](https://pubmed.ncbi.nlm.nih.gov/35139274/).
+2. [Schmid and colleagues, NEJM 2024: overall survival](https://pubmed.ncbi.nlm.nih.gov/39282906/).
 - [Kaplan and Meier 1958: estimation with incomplete observations](https://doi.org/10.1080/01621459.1958.10501452).
 - [Cox 1972: proportional-hazards regression](https://doi.org/10.1111/j.2517-6161.1972.tb00899.x).
 - [Cook and Sackett 1995: number needed to treat](https://doi.org/10.1136/bmj.310.6977.452).

@@ -10,8 +10,8 @@ prerequisites: []
 used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -39,6 +39,8 @@ This is a memory aid. Actual rules depend on the test, jurisdiction and intended
 
 A **laboratory-developed test (LDT)** describes a test developed and used within a laboratory. It describes the test's origin rather than its usefulness. LDT does not mean research-only, and does not mean the Food and Drug Administration (FDA) approved it. A laboratory test can have more than one relevant status; these labels are not sequential stages.
 
+**Current status in plain terms:** most LDTs reach patients without FDA premarket review. FDA's 2024 rule that would have phased in that review was vacated by a federal court in March 2025, and FDA restored the earlier regulation text in September 2025 [1]. Oversight of an LDT therefore runs mainly through laboratory certification under CLIA, below, and state or accreditor programs. That oversight covers laboratory quality, not whether the test's result helps choose treatment.
+
 The **Clinical Laboratory Improvement Amendments (CLIA)** program sets laboratory standards for testing human specimens for health assessment, diagnosis, prevention or treatment. Certification concerns laboratory quality, including applicable analytical-performance requirements. It does not establish [clinical validity or clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) for every claimed test use.
 
 **FDA authorization** concerns a product and intended use through a specific pathway. Clearance, approval and emergency authorization differ. For an “FDA-approved” claim, request the product record and labeling: specimen, disease, biomarker, purpose and limitations.
@@ -53,7 +55,6 @@ For treatment-linked requirements, check the exact [companion diagnostic](/wiki/
 | FDA-cleared or approved test | Exact product, pathway and intended use | Uses outside the labeling |
 | Companion diagnostic | Corresponding treatment and label-defined context | Benefit from any drug sharing a target name |
 
-The dated LDT legal-status note in Sources and scope identifies which historical rule changed. The procedural history does not determine a particular test's evidence, permitted use or every applicable requirement.
 
 ```mermaid
 %%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
@@ -118,11 +119,11 @@ One answer: “the laboratory; intended use; studies of the actual test-guided d
 
 ## Sources and scope
 
-U.S. regulatory source check: October 10, 2026. Expert and learner review remain pending. Rules can change, so verify a specific test's current status before using it.
+U.S. regulatory source check: November 7, 2026. Expert and learner review remain pending. Rules can change, so verify a specific test's current status before using it.
 
-**LDT legal-status check, October 10, 2026:** FDA's current notice confirms its May 2024 rule was vacated on March 31, 2025. The September 19, 2025 final rule removed the added laboratory-manufacturer wording from the regulation, restoring prior text. The vacated phaseout schedule is not a current requirement. This procedural history does not decide every test's permitted use or establish validity, utility, payment or patient benefit.
+**LDT legal-status check, November 7, 2026:** FDA's current notice confirms its May 2024 rule was vacated on March 31, 2025. The September 19, 2025 final rule removed the added laboratory-manufacturer wording from the regulation, restoring prior text. The vacated phaseout schedule is not a current requirement. This procedural history does not decide every test's permitted use or establish validity, utility, payment or patient benefit.
 
-- [FDA: laboratory-developed tests](https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests) — current vacatur and regulatory-text update.
+1. [FDA: laboratory-developed tests](https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests) — current vacatur and regulatory-text update.
 - [CMS: Clinical Laboratory Improvement Amendments](https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments) — laboratory-quality program.
 - [CMS: LDT and CLIA questions](https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf) — 2013 explanation of analytical oversight versus clinical validity; its old FDA-authority/enforcement discussion is not used to state current LDT law.
 - [FDA: research-use-only diagnostic-product final guidance, November 2013](https://www.fda.gov/media/87374/download) — selected intended-use and labeling sections checked; not a legal determination for an individual test.

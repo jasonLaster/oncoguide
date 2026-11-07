@@ -7,7 +7,7 @@ glossary_anchor: "calibration"
 aliases: ["calibration", "calibrated probability"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index]]"]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]"]
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
 updated: 2026-10-10
@@ -108,5 +108,5 @@ Source check: October 10, 2026. Examples are fictional; expert and learner revie
 ## Used in
 
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
-- [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
+- [Read a single success story or a calculator](/wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story)
 <!-- END GENERATED USED IN -->

@@ -8,8 +8,8 @@ objectives: ["Trace a repair-gene finding through RNA, protein, and current repa
 prerequisites: ["[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]", "[[wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]"]
 sensitive: false
 tags: ["education", "molecular-interpretation"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -67,7 +67,7 @@ One present-function readout is **RAD51 foci**, visible assemblies of a repair p
 
 **Poly(ADP-ribose) polymerase (PARP)** proteins help coordinate responses to DNA damage. [PARP inhibitors](/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping) can reduce enzyme activity and can trap PARP–DNA complexes. Trapping can create an obstacle for DNA-copying machinery. Cells then need ways to tolerate or resolve the resulting stress.
 
-Some HR-deficient cells are especially vulnerable to that challenge, illustrating synthetic lethality. Experiments also show that catalytic inhibition and trapping strength can differ between compounds. Laboratory trapping measurements do not rank the best medicine for a person. Exposure, normal-tissue effects, resistance, and clinical setting remain important. [Murai 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/).
+Some HR-deficient cells are especially vulnerable to that challenge, illustrating synthetic lethality. Experiments also show that catalytic inhibition and trapping strength can differ between compounds. Niraparib and olaparib trapped PARP more strongly than veliparib ([Murai 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/)), and talazoparib, a breast cancer PARP inhibitor, trapped about 100 times more potently than olaparib while inhibiting the enzyme similarly ([Murai 2014](https://pubmed.ncbi.nlm.nih.gov/24356813/)). Laboratory trapping measurements do not rank the best medicine for a person. Exposure, normal-tissue effects, resistance, and clinical setting remain important. [The optional trapping lesson](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling) adds what can remove a trapped PARP.
 
 ## Keep five claims separate
 
@@ -138,9 +138,10 @@ One possible answer: “what damage accumulated; how a repair function behaves u
 
 ## Sources and scope
 
-Source check: 2026-10-09. General education; worked scenarios are fictional. Named studies and labels illustrate their specified populations and evidence boundaries. Expert and learner review pending.
+Source check: 2026-11-07. General education; worked scenarios are fictional. Named studies and labels illustrate their specified populations and evidence boundaries. Expert and learner review pending.
 
 - [Nguyen 2020: pan-cancer genetic causes and HRD scars](https://pubmed.ncbi.nlm.nih.gov/33149131/).
 - [Cruz 2018: RAD51 foci as a functional repair biomarker](https://pubmed.ncbi.nlm.nih.gov/29635390/).
 - [Waks 2020: repair restoration in selected resistant metastatic breast cancers](https://pubmed.ncbi.nlm.nih.gov/32245699/).
 - [Murai 2012: catalytic inhibition and differential PARP trapping](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/).
+- [Murai 2014: talazoparib's PARP trapping compared with olaparib and rucaparib](https://pubmed.ncbi.nlm.nih.gov/24356813/).

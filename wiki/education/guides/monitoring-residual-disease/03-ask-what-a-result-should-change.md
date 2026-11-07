@@ -2,8 +2,8 @@
 title: "Ask what a result should change"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -62,7 +62,7 @@ First ask whether Drug Q was tested in this assay-defined setting. If the study 
 
 Next ask what happens before treatment starts. Does the protocol confirm the result, establish disease extent and review relevant safety factors? A “molecular-only” intervention study needs to know whether participants already have radiographically detectable disease. That changes the question being tested.
 
-Finally ask how benefit is measured. A falling blood signal may be a useful research endpoint. It is not automatically a validated substitute for fewer recurrences, longer survival or better quality of life. The strategy needs an appropriate comparison and adequate follow-up.
+Finally ask how benefit is measured. A falling blood signal may be a useful research endpoint. It is not automatically a validated [surrogate endpoint](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints) for fewer recurrences, longer survival or better quality of life. The strategy needs an appropriate comparison and adequate follow-up.
 
 ## What a prospective trial can teach
 
@@ -98,7 +98,7 @@ One possible answer: “a qualifying tumor signal associated with risk in a defi
 
 ## Sources and scope
 
-Source check: October 9, 2026. The Drug Q example is fictional. This lesson does not determine surveillance or treatment; expert and learner review pending.
+Source check: November 7, 2026. The Drug Q example is fictional. This lesson does not determine surveillance or treatment; expert and learner review pending.
 
 - [Turner et al. 2023, c-TRAK TN](https://pubmed.ncbi.nlm.nih.gov/36423745/) — prospective detection and intervention feasibility.
 - [FDA 2024 ctDNA guidance](https://www.fda.gov/media/183874/download) — drug-development and endpoint considerations.

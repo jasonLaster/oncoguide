@@ -7,11 +7,11 @@ glossary_anchor: "lymph-nodes-and-lymphatics"
 aliases: ["lymph node", "lymph nodes", "lymphatics", "lymphatic vessels"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
+used_by: ["[[wiki/education/oncology-101/2-dendritic-cells]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -51,7 +51,6 @@ flowchart TD
 
 *Material and lymphocytes have different entry routes. Meeting in a node does not demonstrate successful priming.*
 
-<!-- Scratch figure proposal; independent native/theme/reader review pending. Preserve original Mermaid. -->
 <img src="./images/lymph-node-entry-routes-v3-20261011-light.png" alt="A lymph-node cutaway shows tissue material arriving in afferent lymph and entering the subcapsular sinus, separate B-cell follicles and a T-cell region, an artery connected through a schematic capillary branch to an HEV and outgoing vein, a naive lymphocyte crossing from HEV blood into node tissue, and separate efferent lymph continuing toward further lymphatics. An enlarged HEV view keeps red cells in blood and shows the lymphocyte crossing into tissue." width="1024" height="1536" data-theme-pair>
 
 *Tissue material can arrive in afferent lymph, while naive lymphocytes commonly enter from blood through high endothelial venules (HEVs). The coral artery, capillary branch, HEV and outgoing vein show one simplified connected blood route; efferent lymph leaves through a separate vessel and continues through further lymphatics before returning to blood downstream. Regions, colors and counts are schematic. Drainage does not prove cancer involvement, and arrival does not prove successful priming.*
@@ -109,6 +108,5 @@ Source-checked October 10, 2026. General drainage and immune organization; the e
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 <!-- END GENERATED USED IN -->

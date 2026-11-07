@@ -8,8 +8,8 @@ objectives: ["Match a biological question to a model and an observable response.
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/measurement/functional-models/organoid]]", "[[wiki/education/concepts/measurement/computational-analysis/virtual-cell-model]]"]
 sensitive: false
 tags: ["education", "functional-models"]
-updated: 2026-10-11
-source_checked: "2026-10-11"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -23,7 +23,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## Where this step sits
 
-This supporting library lesson supplies step 1 of [Predict response before treating](/wiki/education/guides/predicting-response-before-treating/index). First choose a question and model. The next lessons check the experiment, then ask how far its result can travel toward patient care.
+This lesson is step 1 of [Predict response before treating](/wiki/education/guides/predicting-response-before-treating/index). First choose a question and model. The next lessons check the experiment, then ask how far its result can travel toward patient care.
 
 ## Begin with the sentence you want to test
 
@@ -31,22 +31,33 @@ A model is a deliberately incomplete representation. Think of trying out a bicyc
 
 Write the question with a biological action and an endpoint: “Does drug A reduce the number of living malignant cells at these exposures?” That is clearer than “Which drug works?” The second question hides delivery, immune interactions, toxicity, timing and clinical outcomes inside one word.
 
-A [molecular profile](/wiki/education/reading-a-tumor/omics-and-multi-omics) can suggest an intervention. Detecting a sequence change or high [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma) is different from exposing living cells to a drug. A computed response is also a prediction, even when the input came from measured patient tissue.
+A [molecular profile](/wiki/education/reading-a-tumor/omics-and-multi-omics) can suggest an intervention. Detecting a sequence change or high [ribonucleic acid (RNA) expression](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) is different from exposing living cells to a drug. A computed response is also a prediction, even when the input came from measured patient tissue.
 
 ## Choose what must be present
 
-| Model | A question it can help test | What must still be checked |
-|---|---|---|
-| [Cell line](/wiki/education/concepts/measurement/functional-models/cell-lines) | What happens after a controlled intervention in a maintained cell population? | Identity, selection, passage and relevance to the intended cancer |
-| [Ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen) using cells or [tumor fragments](/wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments) | What response follows a defined exposure outside the original body? | Viability, tumor-cell attribution, retained neighbors and exposure |
-| Patient-derived organoid | What do selected cultured populations do under repeated experiments? | Malignant identity, culture selection, matrix and missing cell types |
-| [Patient-derived xenograft (PDX)](/wiki/education/concepts/measurement/functional-models/patient-derived-xenograft) | What happens to tumor growth after dosing an animal host? | Host immunity, species-specific compartments, engraftment and passage |
-| Immune [co-culture](/wiki/education/concepts/measurement/functional-models/co-culture) or a method retaining immune cells | Do specified immune and tumor populations interact after an intervention? | Compatibility, cell persistence, recognition controls and readout |
-| Virtual cell model | Which measured cellular response might follow an intervention? | Task, version, training context, independent tests and uncertainty |
+| Model | A question it can help test | What must still be checked | Time to a patient-specific result |
+|---|---|---|---|
+| [Cell line](/wiki/education/concepts/measurement/functional-models/cell-lines) | What happens after a controlled intervention in a maintained cell population? | Identity, selection, passage and relevance to the intended cancer | Not a patient-specific route: existing lines come from other people |
+| [Ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen) using cells or [tumor fragments](/wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments) | What response follows a defined exposure outside the original body? | Viability, tumor-cell attribution, retained neighbors and exposure | **Days**: breast biopsy slices were read after a 3-day drug exposure ([Ladan 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/)) |
+| Patient-derived organoid | What do selected cultured populations do under repeated experiments? | Malignant identity, culture selection, matrix and missing cell types | **Weeks**: median 6 weeks (range 4–10) from biopsy to a drug panel in colorectal cancer ([Cartry 2023](https://doi.org/10.1186/s13046-023-02853-4)) |
+| [Patient-derived xenograft (PDX)](/wiki/education/concepts/measurement/functional-models/patient-derived-xenograft) | What happens to tumor growth after dosing an animal host? | Host immunity, species-specific compartments, engraftment and passage | **Months**: normally 4–8 months to a study-ready model ([Hidalgo 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/)) |
+| Immune [co-culture](/wiki/education/concepts/measurement/functional-models/co-culture) or a method retaining immune cells | Do specified immune and tumor populations interact after an intervention? | Compatibility, cell persistence, recognition controls and readout | Adds immune-cell preparation to the organoid timeline |
+| Virtual cell model | Which measured cellular response might follow an intervention? | Task, version, training context, independent tests and uncertainty | Fast to compute once measured input data exist; the prediction itself is untested |
+
+Every route also needs fresh, living tissue, and each can fail to produce a result: 61.5% of colorectal core biopsies yielded an organoid in the study above, and 23 of 30 breast biopsies gave a usable slice result. The [comparison page](/wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment) sets the three living models side by side with their published agreement figures.
 
 These categories overlap. An organoid can supply an ex vivo screen. A model can retain selected immune cells without retaining an entire immune system. The name tells you where to begin checking; it does not complete the check.
 
-A living animal experiment is **in vivo**. A later experiment on cells removed from that animal is outside-body testing. A computer simulation is **in silico**. These labels describe the experimental setting rather than a ranking of fidelity.
+Four Latin labels name where an experiment happens:
+
+| Label | Literal meaning | Example |
+|---|---|---|
+| **In vivo** | "in the living" | Dosing a mouse that carries a PDX |
+| **Ex vivo** | "out of the living" | Treating a fresh tumor slice that was just removed, before it is grown or expanded |
+| **In vitro** | "in glass" | Treating cells grown and expanded in a dish, such as a cell line or organoid |
+| **In silico** | "in silicon" | Running a computer model |
+
+The line between ex vivo and in vitro is blurry; organoid studies often call their drug tests either. These labels describe the setting, not a ranking of fidelity.
 
 ## The surroundings can change the question
 
@@ -116,10 +127,13 @@ One answer: “a direct drug effect on living malignant cells; selected tumor po
 
 ## Sources and scope
 
-Source check: October 11, 2026. Model-selection education, not a testing recommendation or universal accuracy ranking. Expert and learner review remain pending.
+Source check: November 7, 2026. Model-selection education, not a testing recommendation or universal accuracy ranking. Expert and learner review remain pending.
 
 - [Neal et al., 2018: selected immune-containing organoid systems](https://pubmed.ncbi.nlm.nih.gov/30550791/).
 - [DeRose et al., 2011: breast-tumor graft features and species-specific stroma](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/).
 - [Lotfollahi et al., 2019: a specified computational perturbation-response model](https://www.nature.com/articles/s41592-019-0494-8).
+- [Hidalgo et al., 2014: PDX review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/) — 4–8 months to a study-ready model (PMID 25185190).
+- [Cartry et al., 2023: organoid drug testing in colorectal cancer](https://doi.org/10.1186/s13046-023-02853-4) — 6-week median turnaround, 61.5% take from core biopsies (PMID 37880806).
+- [Ladan et al., 2023: breast biopsy slice assay](https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/) — 3-day exposure; 23 of 30 usable.
 
-The linked project is fictional. Fresh selected Neal immune-retention and DeRose species/stroma sections support the model distinctions; they establish no universal engraftment success. The computational source concerns its specified expression task.
+The linked project is fictional. Neal and DeRose support the immune and stromal distinctions, not a universal engraftment rate; Lotfollahi concerns one expression-prediction task. Times to result come from the named studies and vary by laboratory and tumor type.

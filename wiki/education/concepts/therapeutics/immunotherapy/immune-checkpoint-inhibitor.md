@@ -7,11 +7,11 @@ glossary_anchor: "ici"
 aliases: ["ICI", "immune checkpoint inhibitor", "immune checkpoint inhibitors", "checkpoint inhibitor", "checkpoint blockade"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/immune-regulation/immune-checkpoint]]", "[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
 sensitive: false
 tags: ["education", "therapeutics", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -65,6 +65,15 @@ flowchart TD
 
 ## Why it matters in cancer
 
+**In triple-negative breast cancer (TNBC), checkpoint inhibitors have randomized evidence in two settings:**
+
+| Setting | Trial and population | Result |
+|---|---|---|
+| Early, stage II–III | KEYNOTE-522: 1,174 patients, pembrolizumab or placebo with chemotherapy before surgery, then alone after | 60-month overall survival 86.6% vs 81.7% ([Schmid et al., 2024](https://pubmed.ncbi.nlm.nih.gov/39282906/)); enrolled regardless of PD-L1 |
+| Advanced, first line | KEYNOTE-355: 847 patients, pembrolizumab or placebo with chemotherapy | Median overall survival 23.0 vs 16.1 months (hazard ratio 0.73) when the PD-L1 combined positive score was ≥10 ([Cortés et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35857659/)) |
+
+The lesson [what checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change) walks through both trials and the markers used with them.
+
 Blocking an inhibitory interaction does not install a new [T-cell receptor](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) or rebuild a genetically lost [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) display route. Recognition, tissue access and [T-cell state](/wiki/education/concepts/immunology/t-cells/t-cell-states) remain important.
 
 Other immune treatments change other inputs. [Treatment vaccines](/wiki/education/guides/personalized-cancer-vaccine/index) supply antigen instructions or material to support target-directed responses. [Cell therapies](/wiki/education/guides/engineered-cell-therapy/index) supply or engineer living responders. [Cytokine therapies](/wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy) alter signaling that can affect growth and function. A combination rationale needs evidence for the actual regimen.
@@ -104,20 +113,25 @@ A fictional sample contains many PD-1-positive T cells. A reader concludes, “A
 
 ## Sources and scope
 
-Source check: October 10, 2026. General mechanism, with a fictional exercise; no approval inventory or individual treatment prediction. Expert and learner review remain pending.
+Source check: November 7, 2026. General mechanism and two TNBC trial anchors, with a fictional exercise; no approval inventory or individual treatment prediction. Expert and learner review remain pending.
 
 - [National Cancer Institute (NCI): immune checkpoint inhibitors](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors).
 - [NCI: different types of immunotherapy](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy).
 - [Qureshi et al., 2011: CTLA-4 captures supporting ligands](https://pubmed.ncbi.nlm.nih.gov/21474713/) — mechanistic experiments, not a comparison of clinical regimens.
+- [Schmid et al., 2024: KEYNOTE-522 overall survival](https://pubmed.ncbi.nlm.nih.gov/39282906/).
+- [Cortés et al., 2022: KEYNOTE-355 overall survival](https://pubmed.ncbi.nlm.nih.gov/35857659/).
 - [Hui et al., 2017: PD-1 signaling can inhibit CD28](https://pubmed.ncbi.nlm.nih.gov/28280247/) — biochemical and cellular experiments.
 - [Pembrolizumab prescribing information, revised July 2026, sections 12.1 and 5.1](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287) — an anti-PD-1 example, not evidence that all checkpoint antibodies act identically.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study)
 - [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
 - [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
+- [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 - [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)

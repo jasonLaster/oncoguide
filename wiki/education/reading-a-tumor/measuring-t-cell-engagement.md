@@ -8,8 +8,8 @@ objectives: ["Match an immune assay to the claim it supports.", "Separate tissue
 prerequisites: ["[[wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]", "[[wiki/education/concepts/measurement/immune-monitoring/flow-cytometry]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-12
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -33,7 +33,7 @@ This is lesson 5 of [the immune-system guide](/wiki/education/guides/how-the-imm
 
 When someone says “T-cell engagement,” ask what they mean: target recognition, a signaling or secretion response, or killing in a defined experiment? Then ask which test directly addressed that claim. A receptor sequence, tissue location and clinical outcome each answer other parts of the story. The evidence ladder below keeps those parts visible.
 
-For the receptor mechanism, use [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing). For definitions, the glossary has [TCR](/about/Terminology#tcr), [TCR sequencing](/about/Terminology#tcr-seq) and [T-cell states](/about/Terminology#t-cell-states). This lesson's job is to match measurements to claims, rather than repeat those definitions.
+For definitions, use the concept pages for the [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor), [TCR sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) and [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states). This lesson's job is to match measurements to claims, rather than repeat those definitions.
 
 ## Two sample lanes, several jobs
 
@@ -80,7 +80,7 @@ Uneven per-target responses can describe [immunodominance](/wiki/education/conce
 
 ## Pair tumor and immune readouts carefully
 
-[Circulating tumor DNA (ctDNA)](/about/Terminology#ctdna) measures tumor-derived DNA in blood. Its [units and assay rules](/wiki/education/concepts/measurement/liquid-biopsy/ctdna-units) matter. It does not directly measure T-cell activity.
+[Circulating tumor DNA (ctDNA)](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) measures tumor-derived DNA in blood. Its [units and assay rules](/wiki/education/concepts/measurement/liquid-biopsy/ctdna-units) matter. It does not directly measure T-cell activity.
 
 If a tumor-DNA signal falls while a clone becomes more frequent, both observations can be reported. Their timing does not prove that the clone caused the decline. Chemotherapy, surgery, other treatment effects, shedding changes and assay sampling may also matter. Likewise, a stable blood repertoire does not prove that a response was caused only by chemotherapy: relevant cells may be unsampled or located elsewhere.
 

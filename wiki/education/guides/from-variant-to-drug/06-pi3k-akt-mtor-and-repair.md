@@ -13,10 +13,11 @@ prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]"
 sensitive: false
-reviewed: pending
+reviewed: "pending"
 reviewed_by: ""
-review_status: "Expert and learner review pending"
-source_checked: 2026-10-09
+review_status: "Source-checked; expert and learner review pending"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 tags: [education, PI3K, AKT, mTOR, PARP, autophagy]
 ---
 
@@ -55,13 +56,13 @@ The first branch concerns repair. In some BRCA-proficient triple-negative breast
 
 The second branch concerns [autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy), the recycling process from [supporting lesson 5](./05-autophagy-flux-and-dependence). mTORC1 restrains machinery that starts this process. Reducing that restraint can make initiation easier. It does not show that cargo completes degradation or that the increased recycling helps the cell survive. Those are separate measurements. Experiments connecting mTORC1 to the initiation protein ULK1 support this control mechanism. ULK1 is a kinase involved in starting autophagy. [Kim 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3987946/).
 
-A different preclinical experiment found that mTOR inhibition increased talazoparib resistance in HeLa cervical cancer cells; reducing ATG7, an autophagy machinery protein, partly reversed that effect. This was a particular model and intervention, rather than a demonstrated effect of every growth-pathway drug in breast cancer. [Hoslett 2026](https://www.nature.com/articles/s41556-026-01961-5).
-
 An intervention can therefore make repair less effective while also changing a stress response. Whether those changes cooperate or compete depends on the actual cell state, compound, dose, and timing. A cell already lacking a repair function cannot be assumed to gain the same added vulnerability as a cell in which the intervention first reduces that function.
 
 ## Feedback can make neighboring signals disagree
 
-**Rapalogs** are drugs related to rapamycin that inhibit signaling through mTORC1. In some studied systems, mTORC1 inhibition relieved feedback that had been suppressing upstream growth signals. AKT activity then rose while the targeted mTORC1 output fell. This is a measured feedback response, rather than a contradiction of the pathway diagram. It is conditional, not an inevitable result in every tumor. [O'Reilly 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC3193604/).
+Two named links explain the main loop. Going down, AKT phosphorylates **TSC2**, which disables the TSC complex; that complex normally switches off **RHEB**, a small GTPase that turns mTORC1 on. So AKT activates mTORC1 by releasing a brake on RHEB ([Inoki 2002](https://pubmed.ncbi.nlm.nih.gov/12172553/); [Inoki 2003](https://pubmed.ncbi.nlm.nih.gov/12869586/)). Coming back up, mTORC1 activates the kinase **S6K1**, which phosphorylates **IRS-1** (insulin receptor substrate 1), the adaptor that connects insulin and IGF-1 receptors to PI3K. That dampens the upstream signal.
+
+**Rapalogs** are drugs related to rapamycin that inhibit signaling through mTORC1. Because they also quiet S6K1, they can relieve the IRS-1 brake: in the studied cancer cells and patient tumor samples, upstream signaling and AKT activity rose while the targeted mTORC1 output fell. This is a measured feedback response, rather than a contradiction of the pathway diagram. It is conditional, not an inevitable result in every tumor. [O'Reilly 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC3193604/).
 
 [PI3K and AKT inhibitors](/wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors), a rapalog, and a drug that inhibits mTOR's kinase activity act differently. The last can affect a broader set of mTOR functions than a rapalog. They cannot stand in for one another merely because their targets appear on the same diagram.
 
@@ -109,11 +110,12 @@ One possible answer: “which instructions are present; whether a specified prot
 
 ## Sources and scope
 
-Source check: 2026-10-09. General signaling education; expert and learner review pending. The worked lab case is fictional. Research examples establish mechanisms in their studied systems, not a safe or effective personal combination.
+Source check: 2026-11-07. General signaling education; expert and learner review pending. The worked lab case is fictional. Research examples establish mechanisms in their studied systems, not a safe or effective personal combination.
 
 - [Maehama and Dixon 1998: PTEN lipid-phosphatase activity](https://pubmed.ncbi.nlm.nih.gov/9593664/).
 - [Ibrahim 2012: PI3K inhibition, BRCA expression, and PARP response in breast cancer models](https://pmc.ncbi.nlm.nih.gov/articles/PMC5125254/).
 - [Kim 2011: mTOR regulation of autophagy initiation](https://pmc.ncbi.nlm.nih.gov/articles/PMC3987946/).
 - [O'Reilly 2006: feedback activation of AKT after mTOR inhibition](https://pmc.ncbi.nlm.nih.gov/articles/PMC3193604/).
-- [Hoslett 2026: mTOR inhibition, autophagy, and PARP response in a preclinical model](https://www.nature.com/articles/s41556-026-01961-5).
+- [Inoki 2002: AKT phosphorylates and inhibits TSC2](https://pubmed.ncbi.nlm.nih.gov/12172553/).
+- [Inoki 2003: RHEB is the direct target of TSC2](https://pubmed.ncbi.nlm.nih.gov/12869586/).
 - [Rodrik-Outmezguine 2011: feedback after mTOR kinase inhibition](https://aacrjournals.org/cancerdiscovery/article/1/3/248/676/mTOR-Kinase-Inhibition-Causes-Feedback-Dependent).

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -31,7 +31,7 @@ Imagine a book with tabs that help a reading team find particular passages. A re
 
 <img src="./images/bet-mark-pocket-and-depletion-v1-light.svg" alt="Three stacked molecular comparisons retain the same DNA-wrapped histone and acetyl mark on a histone tail. A continuous generic BET protein contains two bromodomains, BD1 and BD2, and an extra-terminal interaction region, ET. The first comparison shows acetyl-mark recognition at a pocket. The second places an inhibitor in that pocket while the mark and other protein regions remain. The third uses a dashed outline to indicate less reader protein after depletion, a distinct perturbation requiring verification. One representative pocket is drawn; the illustration does not claim single-domain specificity, identical BET family functions or a clinical response." width="780" height="1540" data-theme-pair="./images/bet-mark-pocket-and-depletion-v1-dark.svg" />
 
-*Reading, occupying a pocket and depleting a protein are different operations.* The acetyl mark remains attached to the histone tail in all three comparisons. The generic BET reader shows two bromodomains (BD1 and BD2) and an extra-terminal (ET) region; one representative pocket interaction is enlarged. The middle scene illustrates competition at that pocket, not a claim that JQ1 acts only on BD1. Other protein regions remain; whether their interactions function needs testing. A dashed outline represents less protein after a separately verified depletion. BET is one bromodomain family, and its members are not interchangeable. [Filippakopoulos 2010](https://pubmed.ncbi.nlm.nih.gov/20871596/); [Shu 2016, full resistance and perturbation experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC4854653/). No BRD3-variant-to-BRD4-dependence or clinical response prediction follows.
+*Reading, occupying a pocket and depleting a protein are different operations.* The acetyl mark remains attached to the histone tail in all three comparisons. The generic BET reader shows two bromodomains (BD1 and BD2) and an extra-terminal (ET) region; one representative pocket interaction is enlarged. The middle scene illustrates competition at that pocket, not a claim that JQ1 acts only on BD1. Other protein regions remain; whether their interactions function needs testing. A dashed outline represents less protein after a separately verified depletion. BET is one bromodomain family, and its members are not interchangeable. [Filippakopoulos 2010](https://pubmed.ncbi.nlm.nih.gov/20871596/); [Shu 2016, full resistance and perturbation experiments](https://pmc.ncbi.nlm.nih.gov/articles/PMC4854653/).
 
 **Chromatin** is DNA packaged with proteins, including **histones**. An **acetyl mark** is a chemical modification that can be attached to lysine, an amino acid in a protein. Adding, removing and reading a mark are different molecular jobs.
 
@@ -53,9 +53,11 @@ flowchart TD
 
 ## Why it matters in cancer
 
+The clearest cancer role for a BET protein is **NUT carcinoma**, a rare, aggressive carcinoma. A chromosome translocation fuses almost the whole BRD4 gene to a gene called NUT, which is normally active only in testis, creating the BRD4-NUT fusion oncogene. [French 2003](https://pubmed.ncbi.nlm.nih.gov/12543779/). In a compassionate-use report, two of four patients with BRD4-NUT carcinoma treated with the oral BET inhibitor OTX015 (MK-8628) had rapid tumor regression; side effects included reversible grade 3 thrombocytopenia (low platelets), a recurring problem for BET inhibitors. [Stathis 2016](https://pubmed.ncbi.nlm.nih.gov/26976114/). BET inhibitors were also studied as indirect ways to lower [MYC](/wiki/education/concepts/cancer-biology/signaling-pathways/myc).
+
 Some cancer models rely on transcriptional programs supported by BET proteins. A primary triple-negative breast cancer study found sensitivity in certain cultures and in-vivo models. It also identified resistant cultures that still depended on BRD4 through bromodomain-independent regulation. Dependence on a protein and sensitivity to one way of inhibiting it can therefore diverge.
 
-A BRD3 sequence change does not establish BRD4 dependence, nor predict response to a broad BET inhibitor. Ask what the alteration actually changes, which family member matters, and whether the tested intervention reaches that function. A change in a growth-associated transcript is not proof of selective tumor killing.
+For any BET finding, ask what the alteration actually changes, which family member matters, and whether the tested intervention reaches that function. A fusion that makes a tumor depend on BRD4, as in NUT carcinoma, is a different situation from an ordinary sequence variant in a BET gene. A change in a growth-associated transcript is not proof of selective tumor killing.
 
 ## How it is measured
 
@@ -67,21 +69,25 @@ Fixed tissue may support protein staining; chromatin assays and RNA profiling co
 
 - **Reader versus writer:** a BET protein recognizes a mark; it is not the enzyme that adds the acetyl group.
 - **BET versus every bromodomain:** BET is one family within a broader group.
-- **BRD3 versus BRD4:** related proteins do not make their alterations interchangeable.
+- **One family member versus another:** BRD2, BRD3 and BRD4 are related, but an alteration in one does not show dependence on another.
 - **Pocket inhibition versus protein depletion:** the remaining protein can retain other functions.
 - **JQ1 versus a treatment plan:** a chemical probe establishes experimental biology, not a patient-ready regimen.
 
 ## Try it
 
-In the fictional middle scene, a probe occupies a BET acetyl-recognition pocket, while the acetyl mark and the rest of the protein remain. A BRD3-altered culture resists that probe, but an independently controlled BRD4 depletion reduces growth. Are the observations contradictory?
+In the fictional middle scene, a probe occupies a BET acetyl-recognition pocket, while the acetyl mark and the rest of the protein remain. A culture keeps growing on the probe, but an independently controlled BRD4 depletion stops its growth. Are the observations contradictory?
 
-**Answer:** no. Pocket engagement and less BRD4 protein test different operations. Verify inhibitor engagement and depletion, then test which function supports growth. Remaining regions do not guarantee intact function. The result does not make the BRD3 alteration a response biomarker or predict a clinical benefit.
+<details><summary>Show answer</summary>
+
+No. Pocket engagement and less BRD4 protein test different operations: the culture can depend on BRD4 through regions the probe does not block. A primary TNBC study found exactly this pattern in resistant cultures. Verify inhibitor engagement and depletion before drawing the conclusion; neither result predicts clinical benefit.
+
+</details>
 
 ## Explain it back
 
-“BET proteins read ___; inhibiting a pocket differs from ___; a BRD3 variant does not prove ___.”
+“BET proteins read ___; inhibiting a pocket differs from ___; the clearest BET-driven cancer is ___.”
 
-One answer: “acetyl marks; removing every protein function; dependence on the family or a clinical drug response.”
+One answer: “acetyl marks on chromatin; removing the whole protein; NUT carcinoma, driven by a BRD4-NUT fusion.”
 
 ## Takeaway
 
@@ -95,8 +101,10 @@ One answer: “acetyl marks; removing every protein function; dependence on the 
 
 ## Sources
 
-Source check: October 9, 2026; expert and learner review pending. The exercise is fictional. No clinical response prediction follows from a BET-family variant.
+Source check: November 7, 2026; expert and learner review pending. The exercise is fictional. No clinical response prediction follows from a BET-family variant.
 
+- [French et al., 2003: the BRD4-NUT fusion oncogene in NUT carcinoma](https://pubmed.ncbi.nlm.nih.gov/12543779/).
+- [Stathis et al., 2016: BET inhibitor responses and thrombocytopenia in four patients with BRD4-NUT carcinoma](https://pubmed.ncbi.nlm.nih.gov/26976114/).
 - [Yang et al., 2005: BRD4 recruitment of transcription-elongation machinery](https://pubmed.ncbi.nlm.nih.gov/16109377/).
 - [Filippakopoulos et al., 2010: experimental BET bromodomain inhibition](https://pubmed.ncbi.nlm.nih.gov/20871596/).
 - [Shu et al., 2016: response and resistance in TNBC models](https://pubmed.ncbi.nlm.nih.gov/26735014/).

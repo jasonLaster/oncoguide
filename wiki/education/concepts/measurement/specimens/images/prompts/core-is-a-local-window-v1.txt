@@ -1,0 +1,9 @@
+Authored SVG direction (recorded November 7, 2026 from core-is-a-local-window-v1-public-custody.json when the image was adopted into its owner page)
+Tool: authored SVG; the custody record lists no executed image-model call.
+Owner page: wiki/education/concepts/measurement/specimens/core-needle-biopsy.md
+Section: How it works
+Learner task: See a structured core as a small local window
+Gap addressed: Workflow does not depict the sampled cylinder relative to heterogeneous target
+Scene: Three panels show a narrow sampled strip within an uneven tissue target, the matching tissue core enlarged with neighboring cells still together, and the examined window beside regions outside it that the core does not represent.
+Scientific-accuracy guardrails: Show a local structured core within a heterogeneous target and the limited sampled window. A core preserves some architecture but does not represent every region or guarantee clearance/diagnostic sufficiency.
+Theme: light and dark variants share geometry; text and strokes meet contrast on both backgrounds.

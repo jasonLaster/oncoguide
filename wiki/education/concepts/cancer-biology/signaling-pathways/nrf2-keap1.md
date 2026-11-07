@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet]]","[[wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -31,7 +31,7 @@ A cell needs an emergency-response program, but leaving it permanently on change
 
 <div data-education-visual="next-gap-270">
 <img src="../cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png" width="1024" height="1536" alt="Existing selected-cargo cartoon separates E1, E2 and E3 tagging, proteasomal unfolding and fragmentation with ubiquitin recycling, and another tagged protein that remains intact." data-theme-pair />
-<p>Use this existing cargo scene for selection, tagging, destruction and ubiquitin reuse. The inset below names NRF2 as one selected substrate of KEAP1/CUL3 regulation; CUL3 also works with other adaptors and substrates.</p>
+<p>The cargo scene shows selection, tagging, destruction and ubiquitin reuse. The inset below names NRF2 as one selected substrate of KEAP1/CUL3 regulation; CUL3 also works with other adaptors and substrates.</p>
 </div>
 
 <div data-education-visual="next-gap-270-inset">
@@ -43,7 +43,7 @@ A cell needs an emergency-response program, but leaving it permanently on change
 
 Oxidative or electrophilic stress can alter KEAP1-dependent regulation and reduce NRF2 destruction. Electrophiles are chemicals that react with electron-rich parts of other molecules. More NRF2 can then participate in nuclear gene regulation. This need not mean that KEAP1 physically lets go of every NRF2 molecule. The mechanism concerns altered turnover and regulation, not simply a latch opening. [Zhang 2004](https://pubmed.ncbi.nlm.nih.gov/15572695/).
 
-The resulting program includes enzymes involved in antioxidant defense, detoxification, and metabolism. Different target genes and cell types respond differently. CUL3 also works with other adaptors and substrates. A CUL3 variant cannot be assigned a specific NRF2 consequence from its name alone.
+The resulting program includes enzymes involved in antioxidant defense, detoxification, and metabolism. Different target genes and cell types respond differently. CUL3 also works with other adaptors and substrates, so a change in CUL3 cannot be assigned a specific NRF2 consequence from its name alone.
 
 ```mermaid
 flowchart TD
@@ -59,6 +59,8 @@ flowchart TD
 
 The program can help normal cells withstand stress. Sustained NRF2 activity can also help some cancers survive. Preclinical oncogene-driven models demonstrate that NRF2 regulation can support detoxification and tumor development under particular conditions. [DeNicola 2011](https://pubmed.ncbi.nlm.nih.gov/21734707/).
 
+The best-documented human example is lung cancer. In non-small-cell lung cancer, somatic KEAP1 mutations were found in 10 of 54 tumors (19%), often with loss of the other copy; the loss of KEAP1 left NRF2 active and switched on antioxidant, detoxification and drug-efflux genes, which may help tumor cells withstand chemotherapy. [Singh 2006](https://pubmed.ncbi.nlm.nih.gov/17020408/).
+
 Protection and dependence are distinct. High defenses may resist a stressor. A cell may also become reliant on one defense, but that reliance needs a perturbation experiment. Neither outcome follows automatically from antioxidant RNA abundance.
 
 ## A worked example
@@ -71,7 +73,7 @@ This supports a KEAP1-related regulatory consequence in the model. Survival afte
 
 - **NRF2 protein versus NFE2L2 gene:** one names the regulator and the other its gene.
 - **A stress transcript versus a full mechanism:** several causes can change one readout.
-- **CUL3 versus one substrate:** a shared scaffold has multiple jobs.
+- **The scaffold versus one substrate:** CUL3 works with many adaptors and substrates, not only KEAP1 and NRF2.
 - **Defense versus vulnerability:** stronger protection can mean resistance; dependence is a separate experimental claim.
 
 ## How it is measured
@@ -82,9 +84,13 @@ Broadly toxic compounds can lower short-lived proteins without selectively inhib
 
 ## Try it
 
-A fictional model has a CUL3 variant and high antioxidant RNA. A translation-inhibiting compound lowers NRF2 and kills the cells. Does this establish a CUL3-driven NRF2 dependency?
+A fictional lung cancer line has lost both working copies of KEAP1. Predict what happens to NRF2 protein and to its target genes, and name one experiment that would show the cells depend on NRF2.
 
-**Answer:** No. The variant's effect and the cause of the RNA pattern remain untested. Broad translation inhibition can lower NRF2 alongside many other proteins. Establish the pathway state, allele effect and specific functional requirement separately.
+<details><summary>Show answer</summary>
+
+Without KEAP1, NRF2 escapes tagging and destruction, so NRF2 protein builds up in the nucleus and its antioxidant and detoxification genes rise. To test dependence, remove NRF2 specifically (for example by genetic knockdown) and compare growth or survival under a defined stress with control cells; restoring KEAP1 should reverse the program. A broad drug that lowers NRF2 by blocking all protein production, such as brusatol in cell experiments, would not isolate the NRF2 effect.
+
+</details>
 
 ## Explain it back
 
@@ -102,8 +108,9 @@ One answer: “protection or a stress response; a controlled loss of a defined f
 
 ## Sources
 
-Source check: 2026-10-09. General mechanism education; the worked example is fictional. Expert and learner review pending.
+Source check: 2026-11-07. General mechanism education; the worked example is fictional. Expert and learner review pending.
 
+- [Singh 2006: KEAP1 mutations and NRF2 activation in non-small-cell lung cancer](https://pubmed.ncbi.nlm.nih.gov/17020408/).
 - [Kobayashi 2004: KEAP1, CUL3, and NRF2 turnover](https://pubmed.ncbi.nlm.nih.gov/15282312/).
 - [Zhang 2004: redox-regulated KEAP1 ubiquitin-ligase activity](https://pubmed.ncbi.nlm.nih.gov/15572695/).
 - [DeNicola 2011: NRF2-dependent detoxification in oncogene-driven models](https://pubmed.ncbi.nlm.nih.gov/21734707/).

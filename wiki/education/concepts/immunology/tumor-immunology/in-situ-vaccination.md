@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/cross
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -55,7 +55,7 @@ A route is not the strategy. [Intratumoral immunotherapy](/wiki/education/concep
 
 This framework helps organize missing evidence. Local shrinkage, assay-defined immune recognition, distant response and longer-term clinical benefit are different outcomes. A positive result at one step can help locate the next question without establishing success at every later step.
 
-Brody's early study tested local radiation plus an innate immune stimulus in low-grade B-cell lymphoma. Hammerich's work combined presenting-cell recruitment, radiation and an innate stimulus in indolent lymphoma, alongside mechanistic models. Their settings do not validate every injection or establish a breast-cancer treatment. In Hammerich's report, restored responsiveness to checkpoint blockade was demonstrated in mice; that combination result should not be presented as established benefit in people. [Brody 2010](https://pubmed.ncbi.nlm.nih.gov/20697067/), [Hammerich 2019](https://pubmed.ncbi.nlm.nih.gov/30962585/).
+Brody's early study tested low-dose radiation plus an injected CpG Toll-like receptor 9 (TLR9) agonist in low-grade B-cell lymphoma. Hammerich's work combined Flt3 ligand (to recruit dendritic cells), radiation and the Toll-like receptor 3 agonist poly-ICLC in indolent lymphoma, alongside mechanistic models. Both stimuli belong to the class taught under [vaccine adjuvants](/wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants). Their settings do not validate every injection or establish a breast-cancer treatment. In Hammerich's report, restored responsiveness to checkpoint blockade was demonstrated in mice; that combination result should not be presented as established benefit in people. [Brody 2010](https://pubmed.ncbi.nlm.nih.gov/20697067/), [Hammerich 2019](https://pubmed.ncbi.nlm.nih.gov/30962585/).
 
 ## Assay card
 
@@ -97,6 +97,7 @@ After a fictional injected treatment, blood cells react to supplied tumor peptid
 
 - [Cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle)
 - [Abscopal effect](/wiki/education/concepts/immunology/tumor-immunology/abscopal-effect)
+- [In-situ versus designed vaccine](/wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine)
 
 ## Sources and scope
 

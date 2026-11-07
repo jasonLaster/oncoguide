@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anato
 used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -45,7 +45,7 @@ Adding a sensor does not replace the whole responder. A natural killer cell can 
 
 Some inhibitory NK receptors recognize particular [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) class I molecules. Reduced self-display can weaken inhibition: [missing-self recognition](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self). Activating signals, prior NK education and the environment still matter. HLA loss does not guarantee killing by any NK product.
 
-Cell sources include donor blood, umbilical cord blood and cells derived from induced pluripotent stem cells. These are different starting materials with different manufacturing and quality questions. Donor-derived products face host immune rejection; the absence of a conventional T-cell receptor does not remove every compatibility or contamination risk.
+Cell sources include donor blood, umbilical cord blood, cells derived from induced pluripotent stem cells, and continuously growing NK cell lines such as NK-92 and its variant NK-92MI. NK-92 came from a patient with lymphoma, so clinical products are irradiated before infusion to stop them dividing; in a first-in-human CD33-CAR NK-92 study, cells received 10 Gy ([Tang et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30034945/)). An irradiated line cannot expand or persist the way donor-derived cells can, so its results do not transfer to a primary-cell product. These are different starting materials with different manufacturing and quality questions. Donor-derived products face host immune rejection; the absence of a conventional T-cell receptor does not remove every compatibility or contamination risk.
 
 Engineering can add [supportive signaling](/wiki/education/concepts/therapeutics/cell-therapies/armoring) or a [cell-elimination switch](/wiki/education/concepts/therapeutics/cell-therapies/safety-switches). Those features may change expansion and persistence, so a short lifespan should not be assigned to every CAR-NK product. [One cord-blood CAR-NK study](https://pubmed.ncbi.nlm.nih.gov/32023374/) combined a CAR with interleukin-15 support and inducible caspase-9. Its observed behavior belongs to that construct and treated population.
 
@@ -108,6 +108,7 @@ A fictional tumor loses a presenting HLA allele but retains surface antigen X. A
 Source check: October 10, 2026; expert and learner review pending. This is foundational teaching, not a treatment recommendation. Worked examples are fictional.
 
 - [Liu et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32023374/) — one cord-blood construct in relapsed or refractory CD19-positive lymphoid cancers.
+- [Tang et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30034945/) — CD33-CAR NK-92 cells, irradiated at 10 Gy, in relapsed or refractory acute myeloid leukemia; checked November 7, 2026.
 - [Kärre et al., 1986](https://pubmed.ncbi.nlm.nih.gov/3951539/) — missing-self recognition in mouse lymphoma experiments.
 - [FDA lymphocyte-product guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products) — related engineered NK products require their own evaluation.
 

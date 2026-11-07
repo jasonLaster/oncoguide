@@ -1,0 +1,9 @@
+Authored SVG direction (recorded November 7, 2026 from sampled-pieces-versus-oriented-boundary-v2-public-custody.json when the image was adopted into its owner page)
+Tool: authored SVG; the custody record lists no executed image-model call.
+Owner page: wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md
+Section: How it works
+Learner task: Distinguish sampled pieces from an oriented excision boundary
+Gap addressed: The workflow does not depict selected sample locations versus intact margins
+Scene: One panel links three selected schematic tissue locations to three separate vacuum-collected pieces; another shows an oriented removed specimen with a documented direction key, an inked outer surface and one mapped section, without a negative-margin or clearance label.
+Scientific-accuracy guardrails: Show multiple recovered pieces versus an oriented excision boundary. Sampling is not a complete margin assessment or proof that the lesion was removed/cleared.
+Theme: light and dark variants share geometry; text and strokes meet contrast on both backgrounds.

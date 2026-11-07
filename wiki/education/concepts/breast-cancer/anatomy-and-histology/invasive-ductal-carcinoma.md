@@ -7,7 +7,7 @@ glossary_anchor: "idc"
 aliases: ["invasive ductal carcinoma", "IDC", "infiltrating ductal carcinoma", "invasive carcinoma of no special type", "IBC-NST"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy]]", "[[wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis]]"]
-used_by: []
+used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy]]"]
 sensitive: false
 tags: ["education", "breast-cancer"]
 updated: "2026-10-10"
@@ -108,5 +108,5 @@ Source check: October 10, 2026. Histologic naming and interpretation; the exerci
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [Read the diagnostic biopsy report](/wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy)
 <!-- END GENERATED USED IN -->

@@ -10,8 +10,8 @@ prerequisites: []
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -37,15 +37,15 @@ Ablation treats a place. Imagine a three-dimensional treatment zone surrounding 
 
 **Answer:** Probe temperature is the applicator reading. The outer ice-zone boundary is visible on imaging. Neither directly maps lethal exposure everywhere in the target.
 
-Many procedures place an applicator near or within a lesion under imaging guidance; others use focused ultrasound. The [international consensus](https://pubmed.ncbi.nlm.nih.gov/25442132/) distinguishes thermal, chemical and other methods. Name the actual technique when comparing studies.
+Most procedures place an applicator in or near a lesion under imaging guidance. The [international consensus](https://pubmed.ncbi.nlm.nih.gov/25442132/) distinguishes thermal, chemical and other methods; name the actual technique when comparing studies.
 
 | Method | How injury is produced | What the name does not guarantee |
 |---|---|---|
 | **Radiofrequency ablation (RFA)** | Alternating electrical current passes through conductive tissue, producing resistive heating near the electrode; heat also spreads by conduction | Uniform temperature throughout the target |
 | **Microwave ablation (MWA)** | An antenna produces an oscillating electromagnetic field; polar molecules, particularly water, respond and generate heat in tissue | Immunity to blood-flow cooling or a universal coverage advantage |
-| **Cryoablation** | Cooling extracts heat; freezing and thawing injure cells and local tissue | That every visibly frozen point receives lethal exposure |
+| **Cryoablation** | Cooling extracts heat. The classic technique is a fast freeze, a slow thaw, and a repeat of the cycle; ice crystals, osmotic swelling during thaw and loss of blood supply injure cells | That every visibly frozen point receives lethal exposure |
 
-Heat damages proteins and tissue structures. Chemical ablation uses a tissue-damaging substance; irreversible electroporation uses membrane-disrupting pulses. These mechanisms differ from ionizing [radiation](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics). Name and test the method.
+Chemical ablation uses a tissue-damaging substance; irreversible electroporation uses membrane-disrupting pulses. All differ from ionizing [radiation](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics).
 
 ```mermaid
 %%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
@@ -58,13 +58,13 @@ flowchart TD
 
 *Placing a device is a delivery step; coverage and later local control require their own assessment.*
 
-Temperature varies across tissue and time. Probe temperature does not describe the whole zone. A visible ice ball guides cryoablation; it does not establish lethal exposure everywhere inside. An [animal experiment in normal kidney tissue](https://pubmed.ncbi.nlm.nih.gov/22933102/) measured a nonlethal margin inside the visible ice ball; its dimensions do not define a universal human treatment margin. With heating, nearby blood flow can carry heat away, as tested in [experimental liver models](https://pubmed.ncbi.nlm.nih.gov/25738477/). These observations explain why exposure must be assessed in context; they do not rank methods universally.
+Temperature varies across tissue and time. The probe is the coldest point, and tissue warms with distance from it. The visible edge of an ice ball is the 0 °C line where water freezes, but reliable cell death needs much colder tissue: reviews place the lethal range at roughly −20 to −40 °C, and Gage and Baust recommended reaching −50 °C in tumor tissue. So the outer rim of visible ice is frozen but not reliably killed. In an [experiment in normal swine kidney](https://pubmed.ncbi.nlm.nih.gov/22933102/), that nonlethal rim averaged 0.75 mm wide (maximum 1.15 ± 0.51 mm), widening next to large vessels; the authors extrapolated a 6 mm margin of visible ice beyond a kidney tumor. Those figures come from one animal tissue and do not define a universal human margin, but they show why the ice must extend past the target. With heating, nearby blood flow can carry heat away, as tested in [experimental liver models](https://pubmed.ncbi.nlm.nih.gov/25738477/).
 
-A margin around visible tumor accounts for edge disease and uncertainty. Feasibility depends on anatomy, geometry, equipment and nearby structures. A study's size threshold is not a universal physical limit; adding devices does not remove safety constraints.
+A margin around visible tumor accounts for edge disease, the nonlethal rim of a freeze or heat zone, and imaging uncertainty. Feasibility depends on anatomy, geometry, equipment and nearby structures; a study's size threshold is not a universal physical limit.
 
 ## Why it matters in cancer
 
-Ablation can support local control or symptom relief in selected settings, depending on organ, cancer, distribution, alternatives and evidence. It does not physically treat all microscopic disease throughout the body. It can also damage normal tissue and affect tissue available for later pathology or testing. Risks depend on the approach and nearby structures; bleeding, infection or injury to vessels, ducts or nerves remain possible.
+Ablation can support local control or symptom relief in selected settings. It does not treat microscopic disease elsewhere in the body. It can damage normal tissue, leave less tissue for later pathology, and cause bleeding, infection or injury to vessels, ducts or nerves.
 
 Released material motivates [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination) research. Physical destruction or experimental antigen preservation does not establish immune priming, distant benefit or a best technique.
 
@@ -77,7 +77,7 @@ Released material motivates [in-situ vaccination](/wiki/education/concepts/immun
 | Initial technique efficacy | Defined follow-up evidence of complete ablation | Procedural completion alone does not establish it |
 | Later local progression | Tumor appearing at the treated margin after initial adequate ablation by the stated criteria | New disease elsewhere is a separate outcome |
 
-Keep retreatments and complications attached to the result. There is no universal safe size, temperature or margin for every method and organ.
+Keep retreatments and complications attached to the result.
 
 ## Worked example and practice
 
@@ -88,7 +88,7 @@ Keep retreatments and complications attached to the result. There is no universa
 ## Common confusions
 
 - Ablation destroys tissue in place; surgery usually removes tissue for examination.
-- Probe temperature, image appearance and lethal tissue exposure are different measurements.
+- Probe temperature, image appearance and lethal tissue exposure are different measurements. In cryoablation, the ice edge is about 0 °C, while the lethal range is about −20 to −40 °C or colder.
 - Repeatability depends on the organ, prior injury and new treatment zone; it is not unlimited.
 - A local control result is not proof of systemic immune benefit.
 
@@ -96,7 +96,7 @@ Keep retreatments and complications attached to the result. There is no universa
 
 Why is “the probe got cold” different from “the target received lethal exposure”?
 
-**One answer:** Probe temperature is local. Tissue temperature varies with distance, time, blood flow and the freeze–thaw process; an image needs method-specific interpretation.
+**One answer:** Probe temperature is local. Tissue temperature rises with distance, blood flow and time, so the edge of the visible ice is only about 0 °C, far warmer than the roughly −20 to −40 °C needed to kill cells reliably.
 
 ## Takeaway
 
@@ -110,12 +110,15 @@ Name the physics, assess the whole boundary and follow the local result. None of
 
 ## Sources and scope
 
-Source check: October 10, 2026. Local-ablation mechanisms, coverage and reporting vocabulary; no universal size threshold, technique ranking or systemic-benefit claim. Expert and learner review remain pending.
+Source check: November 7, 2026 for the freeze–thaw cycle, isotherms and rim width; October 10, 2026 for the rest. Local-ablation mechanisms, coverage and reporting vocabulary; no universal size threshold, technique ranking or systemic-benefit claim. Expert and learner review remain pending.
 
 - [Ahmed et al., 2014: international consensus on ablation methods, terminology and reporting](https://pubmed.ncbi.nlm.nih.gov/25442132/) — complete abstract and selected author-manuscript measurement/reporting passages checked.
 - [NCI: cryosurgery mechanisms, local targeting and normal-tissue risks](https://www.cancer.gov/about-cancer/treatment/types/surgery/cryosurgery).
 - [Lubner et al., 2010: microwave and radiofrequency heating mechanisms](https://pmc.ncbi.nlm.nih.gov/articles/PMC3065977/) — selected author-manuscript mechanism passages checked; historical device or approval inventory not used.
-- [Georgiades et al., 2013: the visible ice ball and nonlethal margin in normal swine kidney tissue](https://pubmed.ncbi.nlm.nih.gov/22933102/).
+- [Georgiades et al., 2013: the visible ice ball and nonlethal margin in normal swine kidney tissue](https://pubmed.ncbi.nlm.nih.gov/22933102/) — abstract checked for rim width and the extrapolated margin.
+- [Gage and Baust, 1998: mechanisms of tissue injury in cryosurgery](https://pubmed.ncbi.nlm.nih.gov/9787063/) — abstract checked for rapid freeze, slow thaw, repeat cycles and the −50 °C tumor target.
+- [Erinjeri and Clark, 2010: cryoablation mechanism of action and devices](https://pmc.ncbi.nlm.nih.gov/articles/PMC6661161/) — full text checked for the 0 °C ice edge, death below −40 °C and the four injury factors.
+- [Fermanian et al., 2025: cryoablation for breast cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC12190262/) — full-text review checked for the −20 to −40 °C lethal range.
 - [Pillai et al., 2015: the cooling effect of flow during radiofrequency and microwave ablation in an ex-vivo calf liver model](https://pubmed.ncbi.nlm.nih.gov/25738477/).
 
 <!-- BEGIN GENERATED USED IN -->

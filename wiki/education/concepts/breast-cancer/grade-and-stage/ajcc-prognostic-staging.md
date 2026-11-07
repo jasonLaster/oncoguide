@@ -13,8 +13,8 @@ prerequisites:
 used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]"]
 sensitive: false
 tags: [education, breast-cancer]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -54,6 +54,18 @@ The biological inputs include [histologic grade](/wiki/education/concepts/breast
 [Neoadjuvant treatment](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant) means treatment before the definitive operation. These patients retain their pretreatment clinical stage, while postoperative **ypT and ypN** describe what remains after therapy. The restriction on pathological prognostic grouping does not invalidate the residual pathological measurements.
 
 Some narrowly defined hormone-receptor-positive, HER2-negative settings allow a specified multigene test to contribute to staging. This is not permission to substitute any RNA signature, a [TNBC research subtype](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes), or a gene-expression risk score for the prescribed inputs.
+
+## How biology moves the stage in triple-negative disease
+
+Grade 3 triple-negative tumors are often placed in a higher clinical prognostic stage than their anatomic stage. In the AJCC eighth-edition clinical prognostic table [1]:
+
+| TNM | Anatomic stage group | Clinical prognostic stage, grade 3, ER−, PR−, HER2− |
+|---|---|---|
+| T2 N1 M0 | IIB | **IIIB** |
+| T3 N1 M0 | IIIA | **IIIC** |
+| T4 or N3, M0 | IIIB or IIIC | IIIC |
+
+So one tumor can correctly be called "stage IIB" anatomically and "stage IIIB" prognostically. Neither label is a mistake; ask which table was used.
 
 ## Why it matters in cancer
 
@@ -102,9 +114,9 @@ One answer: the staging system, edition, assessment type, and timing relative to
 
 ## Sources and scope
 
-Source check: October 10, 2026. Staging literacy, not a self-staging calculator or individual forecast. The example is fictional; expert and learner review pending.
+Source check: November 7, 2026 (triple-negative rows read from NCI PDQ tables 8 and 9). Staging literacy, not a self-staging calculator or individual forecast. The example is fictional; expert and learner review pending.
 
-- [NCI professional PDQ: TNM and prognostic-stage rules](https://www.cancer.gov/types/breast/hp/breast-treatment-pdq) — AJCC eighth-edition tables, neoadjuvant restrictions, and treatment-context notes.
+1. [NCI professional PDQ: TNM and prognostic-stage rules](https://www.cancer.gov/types/breast/hp/breast-treatment-pdq) — AJCC eighth-edition tables 8 (anatomic) and 9 (clinical prognostic), neoadjuvant restrictions, and treatment-context notes.
 - [NCI: breast-cancer stages](https://www.cancer.gov/types/breast/stages) — clinical versus surgery-first pathological prognostic assessment.
 - [AJCC current staging-system table, 2026](https://www.facs.org/media/c5ik5tkr/ajcc-current-staging-system-2026.pdf) — breast remains listed under edition eight at this source check.
 

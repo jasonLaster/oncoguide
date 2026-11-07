@@ -7,7 +7,7 @@ glossary_anchor: "mrd"
 aliases: ["MRD", "minimal residual disease", "measurable residual disease", "molecular residual disease"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]"]
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: "2026-10-10"
@@ -93,5 +93,6 @@ Source check: October 10, 2026. Fictional exercise; expert and learner review re
 
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
+- [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
 - [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
 <!-- END GENERATED USED IN -->

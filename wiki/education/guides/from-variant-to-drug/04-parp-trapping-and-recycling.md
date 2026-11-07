@@ -3,19 +3,20 @@ title: "PARP trapping and recycling"
 type: guide-lesson
 guide: from-variant-to-drug
 step: 4
-minutes: 12
+minutes: 9
 objectives:
   - "Distinguish PARP enzyme inhibition from trapping a protein on DNA."
-  - "Explain why present repair function and selective clearance can change the response."
-  - "Separate a repair-based hypothesis from a label-defined clinical indication."
+  - "Explain how a selective clearance route could change the response to a trapped PARP."
+  - "Say what an experiment must measure before crediting clearance for a drug response."
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]"
   - "[[wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality]]"
 sensitive: false
-reviewed: pending
+reviewed: "pending"
 reviewed_by: ""
-review_status: "Expert and learner review pending"
-source_checked: 2026-10-09
+review_status: "Source-checked; expert and learner review pending"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 tags: [education, PARP, HRD, autophagy, resistance]
 ---
 
@@ -27,7 +28,7 @@ tags: [education, PARP, HRD, autophagy, resistance]
 
 ## Where this step sits
 
-This is optional step 4 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). Start by identifying the obstacle. In [the guide's map](/wiki/education/guides/from-variant-to-drug/index#the-map), this comes before measuring recycling, following growth signals, and reading the experiment.
+This is optional step 4 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index), the first lesson in the mechanism casebook shown on [the guide's map](/wiki/education/guides/from-variant-to-drug/index#the-map). [Step 2](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity) covered repair capacity, scars and RAD51; this lesson adds the other side of the story: what happens to the obstacle itself.
 
 ## The repair worker can become an obstacle
 
@@ -35,17 +36,15 @@ Imagine a repair worker who normally spots damage, calls for help, and moves on.
 
 PARP1 is a protein that responds to DNA damage. It adds chains of ADP-ribose that help organize the response. **Catalytic inhibition** means blocking this chemical activity. [**PARP trapping**](/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping) means stabilizing a PARP–DNA complex so the protein stays bound longer. A [replication fork](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress), the moving machinery that copies DNA, can run into that obstacle. The collision can generate stress and damage the cell must resolve.
 
-Trapping strength differs between compounds in a defined assay. Murai and colleagues found stronger trapping with niraparib and olaparib than with veliparib in their experimental comparisons, despite all inhibiting PARP activity. This is a laboratory distinction. It does not rank the best drug for a person: exposure, toxicity, dose, resistance, and the clinical setting also matter. [Murai 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/).
+Trapping strength differs between compounds in a defined assay. Murai and colleagues found stronger trapping with niraparib and olaparib than with veliparib, despite all inhibiting PARP activity ([Murai 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/)). Talazoparib, used for germline-BRCA breast cancer, trapped PARP about 100 times more potently than olaparib while inhibiting the enzyme comparably ([Murai 2014](https://pubmed.ncbi.nlm.nih.gov/24356813/)). This is a laboratory distinction. It does not rank the best drug for a person: exposure, toxicity, dose, resistance, and the clinical setting also matter.
 
 <img src="./images/parp-obstacle-and-clearance-light.png" alt="Four panels show PARP responding to DNA damage, a trapped PARP obstacle at a replication fork, repair capacity, and selective clearance of trapped PARP" data-theme-pair>
 
 *Creating an obstacle, repairing its damage, and removing it are separate parts of the response.*
 
-## A repair weakness changes the consequences
+## Why the obstacle matters more in some cells
 
-A cell with **homologous recombination deficiency (HRD)** has impaired HR repair. Some damage produced during PARP inhibition can then be harder to tolerate. This is the paired vulnerability explained by the synthetic-lethality concept. It is more useful to ask “which repair function is missing?” than to treat every repair-gene variant as the same defect.
-
-Present function also matters. A [genomic scar](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) records accumulated chromosome damage. It can remain after repair is partly restored. A **BRCA reversion** is a later alteration that restores function of a previously disrupted repair protein. Selected metastatic breast cancers have shown this mechanism after resistance; that observation is not a prevalence estimate for all tumors. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
+A cell with impaired homologous recombination has fewer ways to repair the breaks that form when replication forks hit trapped PARP. [Step 2](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity) explains why present repair function, not an old scar, decides that vulnerability. Here, the question is different: can the cell remove the obstacle before it does harm?
 
 ## A clearance route is a specific hypothesis
 
@@ -53,54 +52,51 @@ Present function also matters. A [genomic scar](/wiki/education/concepts/cancer-
 
 That finding does not show that a high recycling-related gene-expression score predicts resistance. Nor does it show that chloroquine or hydroxychloroquine selectively blocks this route. These drugs alter lysosomal functions more broadly. To attribute a response to trapped-PARP clearance, an experiment needs measurements of that cargo and pathway, alongside cell survival.
 
-## A worked example: similar scars, different repair
+## A worked example: three readings of one result
 
-Consider two fictional tumor models with similar historical scar patterns. These are teaching cases, not clinical predictions.
+A fictional lab adds a lysosomal drug to a PARP inhibitor and sees more cell death. Three explanations fit:
 
-| Question | Model A | Model B |
+| Explanation | What would support it | What would argue against it |
 |---|---|---|
-| What happened earlier? | Repair failure left chromosome scars. | Repair failure left chromosome scars. |
-| What do adequate current repair measurements suggest? | HR remains impaired. | HR function has partly returned. |
-| What hypothesis follows? | A repair-related PARP vulnerability remains plausible. | The old scar may overstate the present vulnerability. |
-| What remains unknown? | Drug exposure, other resistance routes, and survival response. | The degree of restoration and the actual drug response. |
+| The lysosomal drug blocked clearance of trapped PARP | More PARP1 stays bound to chromatin; disrupting TEX264 or p97 reproduces the effect | Trapped PARP is unchanged, yet death still rises |
+| The lysosomal drug is toxic on its own | Similar death with the lysosomal drug alone at that dose | Little death with that drug alone |
+| A different stress response changed | Markers of another pathway shift with the death | The effect follows the clearance machinery specifically |
 
-One possible present-function readout is **RAD51 foci**, visible assemblies of a repair protein. Enough damaged, cycling tumor cells must be present for a low-foci result to mean much. Some assays use fixed tissue; a functional repair readout does not always require a living drug culture. [Cruz 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5961353/).
+Only the first row is the clearance hypothesis, and it needs a measurement of the cargo, not only survival.
 
 ## What can go wrong at this step
 
-A mechanism can be mistaken for a treatment indication. [Germline and somatic variants](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic) describe different origins. The U.S. Food and Drug Administration (FDA) olaparib label's early breast cancer indication requires a qualifying **germline BRCA mutation**, high-risk disease without human epidermal growth factor receptor 2 (HER2) overexpression, and prior chemotherapy, among its criteria. A somatic BRCA alteration or high genomic-scar score does not replace that germline requirement. Broader HRD-based use remains a separate treatment hypothesis needing evidence for its specific setting. [FDA label, section 1.4](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/208558s031lbl.pdf).
+A mechanism can be mistaken for a treatment indication. A clearance route discovered in models says nothing about who should receive a PARP inhibitor; [step 3](/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access) covers the label and trial evidence.
 
 A second error is treating broad lysosomal disruption as proof of selective PARP clearance. The same drug can change several processes. Measuring only survival cannot identify which one caused the effect.
 
 ## Try it
 
-A researcher reports high scars, few RAD51 foci, and greater cell death with a PARP inhibitor plus a lysosomal drug. The sample had few cycling cells. Can the researcher conclude that current HRD and trapped-PARP clearance caused the combination response?
+A fictional study reports that hydroxychloroquine plus a PARP inhibitor kills more tumor cells than the PARP inhibitor alone, and concludes that the combination "blocks removal of trapped PARP." What two measurements would you ask for first?
 
 <details>
 <summary>Show the answer</summary>
 
-No. Few cycling cells make the repair result potentially uninformative. The combination response is an observation in that model. It needs adequate repair controls and direct evidence about trapping and clearance before the proposed causal explanation is supported.
+First, chromatin-bound PARP1 with and without hydroxychloroquine, to show the obstacle actually lasts longer. Second, a selective perturbation of the clearance machinery (for example TEX264 or p97) that reproduces the effect, because hydroxychloroquine changes lysosomes broadly. Without both, the result is a combination observation, not evidence for the clearance mechanism.
 
 </details>
 
 ## Explain it back
 
-“A PARP inhibitor can create ___; its consequences depend partly on ___; a scar tells us ___.”
+“A PARP inhibitor can create ___; a clearance route can ___; to credit clearance for a response, an experiment must measure ___.”
 
-One possible answer: “a protein obstacle on DNA; current repair and other survival responses; what damage accumulated in the past.”
+One possible answer: “a protein obstacle on DNA; remove that obstacle before it causes lethal damage; the trapped PARP itself, not only cell survival.”
 
 ## Takeaway
 
-**The obstacle, present repair capacity, and proposed clearance route each need their own evidence.**
+**Creating the obstacle and clearing it are separate steps, and each needs its own measurement.**
 
 **Next:** [Separate recycling amount, flow, and dependence](./05-autophagy-flux-and-dependence).
 
 ## Sources and scope
 
-Source check: 2026-10-09. General mechanism education; expert and learner review pending. Clearance experiments are preclinical; the worked models are fictional. This lesson does not select a drug or infer individual benefit.
+Source check: 2026-11-07. General mechanism education; expert and learner review pending. Clearance experiments are preclinical; the worked models are fictional. This lesson does not select a drug or infer individual benefit.
 
 - [Murai 2012: differential PARP trapping](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/).
 - [Hoslett 2026: nucleophagy of trapped PARP1](https://www.nature.com/articles/s41556-026-01961-5).
-- [Waks 2020: repair restoration after resistance in selected breast cancers](https://pubmed.ncbi.nlm.nih.gov/32245699/).
-- [Cruz 2018: RAD51 foci as a functional repair readout](https://pmc.ncbi.nlm.nih.gov/articles/PMC5961353/).
-- [FDA olaparib prescribing information, 2025 label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/208558s031lbl.pdf).
+- [Murai 2014: talazoparib's PARP trapping](https://pubmed.ncbi.nlm.nih.gov/24356813/).

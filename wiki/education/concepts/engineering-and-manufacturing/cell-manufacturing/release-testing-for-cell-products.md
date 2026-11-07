@@ -7,11 +7,11 @@ glossary_anchor: "release-testing-for-cell-products"
 aliases: ["cell-product release testing", "cell therapy release testing", "release testing for cell products"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release]]", "[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays]]"]
-used_by: []
+used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-13"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -39,6 +39,10 @@ Begin with the specified product and lot. [Chain of identity and custody](/wiki/
 
 Microbiological safety checks address relevant contamination risks, such as bacteria, mycoplasma or endotoxin. These are different targets, not alternative names for sterility. Living final products require suitable manufacturing controls; terminal sterilization that destroys the cells cannot be treated as an ordinary solution. The applicable test set depends on product, process and development stage.
 
+**Some release results arrive after infusion.** The compendial sterility test is a culture that runs for about 14 days. For cells given fresh or soon after manufacture, FDA guidance recommends releasing on a negative Gram stain of the final product plus a no-growth result from an in-process sterility sample taken 48 to 72 hours before harvest. The final-product culture keeps running after the patient is treated; a positive result is reported to the investigator and FDA and guides that patient's care ([FDA gene-therapy CMC guidance, sterility under controls of critical steps (3.2.P.3.4)](https://www.fda.gov/media/113760/download)). A cryopreserved product can be held until its culture is complete, so read which results existed at release.
+
+For cells engineered with an integrating vector, two genetic attributes join the package. **Vector copy number (VCN)** is the average number of vector integrations per cell, and FDA asks that it be reported per receptor-positive cell — per [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy)-positive cell for a CAR product — on each lot's certificate of analysis, because dividing by all cells hides risk in the modified ones. **Replication-competent virus testing** checks that no vector has regained the ability to copy itself, as described on the [lentiviral vector](/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector) page ([FDA CAR T-cell guidance, vector copy number and vector testing sections](https://www.fda.gov/media/156896/download)).
+
 Handling is part of the evidence. Cryopreservation, thawing and the interval before administration may change relevant attributes. Results should be interpreted at their actual sampling point, with supporting stability and handling data. A pre-freeze result is not automatically a post-thaw result.
 
 ```mermaid
@@ -61,7 +65,8 @@ An engineered immune-cell product may contain live cells that express a receptor
 | Cellular identity or composition | Defined populations by flow cytometry | State the gating and denominator |
 | Viability and amount | Live fraction and a specified cell count | Live cells are not necessarily functional cells |
 | Activity | Product-relevant assay or justified assay matrix | Assay conditions do not reproduce a whole patient |
-| Safety | Results for named contaminants | One target does not cover every hazard |
+| Safety | Results for named contaminants | One target does not cover every hazard; a final sterility culture may still be running at infusion |
+| Genetic modification | VCN per CAR-positive cell; replication-competent virus result | Applies to integrating vectors; an average copy number does not show where insertions landed |
 | Stability | Attributes after specified storage or handling | Conditions and time point limit the inference |
 
 These examples are not a product's acceptance specification. [A COA](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis) reports selected lot results; it is not every supporting study.
@@ -89,6 +94,7 @@ No. The fictional counts describe viability and receptor expression under stated
 - Viability, purity and potency are different attributes.
 - A sample's count is not automatically the administered dose.
 - A valid test result is not the complete quality disposition.
+- "Released" does not always mean every result is final: a fresh product's 14-day sterility culture can finish after infusion.
 - Quality release, patient eligibility and treatment benefit remain separate gates.
 
 ## Explain it back
@@ -103,14 +109,15 @@ No. The fictional counts describe viability and receptor expression under stated
 
 - [Flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry)
 - [Autologous versus allogeneic cell therapy](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy)
+- [Manufacturing failure and out-of-specification product](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product)
 
 ## Sources and scope
 
-Source check: October 10, 2026. General cell-product quality education, with chimeric antigen receptor (CAR) T-cell examples; not a release specification. Actual expert and learner review remains pending.
+Source check: November 7, 2026 (sterility timing, VCN and replication-competent virus); October 10, 2026 (rest). General cell-product quality education, with chimeric antigen receptor (CAR) T-cell examples; not a release specification. Actual expert and learner review remains pending.
 
 - [FDA: CAR T-cell product-development guidance, January 2024](https://www.fda.gov/media/156896/download), analytical testing, microbiological controls and in-use stability sections.
 - [FDA: potency tests for cellular and gene therapy products, January 2011](https://www.fda.gov/media/79856/download), product-specific potency testing and acceptance-criteria limits.
-- [FDA: gene-therapy CMC information for investigational applications, January 2020](https://www.fda.gov/media/113760/download), product control and stability sections.
+- [FDA: gene-therapy CMC information for investigational applications, January 2020](https://www.fda.gov/media/113760/download), product control and stability sections; its sterility recommendations under controls of critical steps (3.2.P.3.4) cover in-process sterility 48 to 72 hours before harvest, Gram stain release and the 14-day final culture (checked November 7, 2026).
 
 
 Visual relationship check: October 13, 2026. The new illustration was checked against the relevant FDA CAR T-cell guidance sections; invented arithmetic is teaching data. Existing paper citations retain their stated scope. Expert and learner review remain pending.
@@ -118,5 +125,6 @@ Visual relationship check: October 13, 2026. The new illustration was checked ag
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
+- [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 <!-- END GENERATED USED IN -->

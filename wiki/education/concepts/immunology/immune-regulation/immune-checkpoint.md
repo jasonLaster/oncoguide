@@ -7,11 +7,11 @@ glossary_anchor: "immune-checkpoint"
 aliases: ["checkpoint", "PD-1", "PD-L1", "CTLA-4"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -63,6 +63,10 @@ These are **nonexclusive emphases**. Antigen-presenting cells and responding T c
 
 Checkpoint pathways can restrain cancer-reactive responses. A [checkpoint inhibitor](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) interrupts a particular pathway. It does not teach every T cell a new target. Recognition, access and useful function remain requirements; changing normal regulation can also harm healthy organs. Clinical benefit needs evidence for the drug, population and setting.
 
+- **Tumors induce the ligand.** Interferon gamma from attacking T cells raises programmed death-ligand 1 (PD-L1) on nearby cells; see [adaptive immune resistance](/wiki/education/concepts/immunology/tumor-immunology/adaptive-immune-resistance).
+- **The clinical anchor in TNBC.** Adding the PD-1 blocker pembrolizumab to chemotherapy improved event-free and overall survival in early triple-negative breast cancer; see [the KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen) and [what checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change).
+- **The biomarker.** [PD-L1 scoring](/wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring) selects patients for checkpoint inhibitors in advanced, not early, triple-negative breast cancer.
+
 ## How it is measured
 
 Protein staining measures selected components in sampled cells. [Gene expression](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) measures another layer. Neither alone establishes ligand contact or causal inhibition. A controlled functional experiment can compare the same stimulus with and without a specific perturbation, alongside viability and specificity controls. Its result remains bounded to that model.
@@ -107,11 +111,10 @@ Source check: October 10, 2026. These primary studies support scoped mechanisms,
 ## Used in
 
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
-- [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study)
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
 - [Ask what happens after binding](/wiki/education/oncology-101/1-ligands)
 - [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
-- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 <!-- END GENERATED USED IN -->

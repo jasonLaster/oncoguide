@@ -8,8 +8,8 @@ objectives: ["Distinguish an accessible surface target from a peptide–HLA targ
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/t-cell-engager]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-13"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -29,7 +29,9 @@ This is step 1 of [Aiming a drug at a surface target](/wiki/education/guides/aim
 
 ## The address and the action
 
-Imagine four products recognizing the same surface protein. One blocks a signal. One carries a chemical payload. One recruits a T cell. One carries a radionuclide, a radioactive atom. Their address may be similar, but the action and its requirements differ. Even attaching cargo can change a binder's behavior, so a tested binder is not automatically a tested therapeutic product.
+Imagine four products recognizing the same surface protein. One blocks a signal. One carries a chemical payload. One recruits a T cell. One carries a radionuclide, a radioactive atom. Their address may be similar, but the action and its requirements differ. Real examples of each: trastuzumab blocks signaling by [human epidermal growth factor receptor 2 (HER2)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2); trastuzumab deruxtecan carries a topoisomerase I payload on the same antibody; tarlatamab recruits T cells to delta-like ligand 3 (DLL3) on small-cell lung cancer; lutetium-177-PSMA-617 carries a radionuclide to prostate-specific membrane antigen (PSMA) on prostate cancer.
+
+Even attaching cargo can change a binder's behavior. Many payloads repel water, so loading several of them can make the antibody clump and be cleared from the blood faster; in one mouse study, an eight-payload conjugate cleared three times faster than a four-payload version of the same antibody ([Hamblett 2004](https://pubmed.ncbi.nlm.nih.gov/15501986/), [Lyon 2015](https://pubmed.ncbi.nlm.nih.gov/26076429/)). A tested binder is therefore not automatically a tested therapeutic product; see [ADC conjugation chemistry](/wiki/education/concepts/therapeutics/antibody-based/adc-conjugation-chemistry).
 
 A [binder is a targeting module](/wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module) that recognizes a molecular feature. The [epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope) is the particular feature it recognizes. Finding the protein's name in a report does not establish that the epitope is exposed on living tumor cells. Tissue preparation, location on the cell, and product access all matter.
 
@@ -56,7 +58,7 @@ A tissue stain finds protein M in a fictional tumor. Investigators then show tha
 Now consider four proposed products made around that antibody:
 
 - **A blocking antibody:** investigators must test whether it changes the relevant signal and whether that change affects survival.
-- **An ADC:** investigators must follow delivery and active payload production, then measure the cells' response.
+- **An ADC:** investigators must follow delivery and active payload production, then measure the cells' response. Which [payload class](/wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes) it carries decides which response to look for.
 - **A T-cell engager:** investigators must test T-cell-dependent activation and killing, with target-negative and no-T-cell controls.
 - **A radiolabeled product:** investigators must measure distribution over time and absorbed radiation dose in tumor and vulnerable tissues. Binding alone supplies neither.
 
@@ -96,7 +98,7 @@ Complete: “The binder tells me ______. The format tells me ______. A binding a
 
 ## Sources and scope
 
-Focused transfer revision: October 13, 2026; FDA ADC component guidance and tebentafusp mechanism section checked for the address/action distinction. Expert and learner review remain pending.
+Real-product examples and cargo effects added November 7, 2026 (trastuzumab deruxtecan and tarlatamab labels; Hamblett 2004; Lyon 2015; VISION). Focused transfer revision: October 13, 2026; FDA ADC component guidance and tebentafusp mechanism section checked for the address/action distinction. Expert and learner review remain pending.
 
 Integration source check: October 10, 2026; retained examples and other source scopes last checked October 9, 2026. General mechanisms with fictional exercises; expert and learner review remain pending. This lesson does not establish treatment selection or access.
 
@@ -105,3 +107,5 @@ Integration source check: October 10, 2026; retained examples and other source s
 - [Tebentafusp prescribing information, mechanism section](https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=24a49f57-d2fc-4ffe-9eb1-fe0460c6b067) — a soluble TCR/CD3 engager with a specific peptide–HLA target.
 - [NCI: CAR T cells](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells) — receptor signaling and living-cell behavior.
 - [FDA, 2019: therapeutic radiopharmaceutical development](https://www.fda.gov/media/129547/download) — ligand, radiation, distribution, and dosimetry questions.
+- [Trastuzumab deruxtecan](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) and [tarlatamab](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e7b6163-5d83-42ea-82c9-cf7620cdc782) prescribing information — payload and engager mechanisms.
+- [Sartor et al., 2021: VISION](https://pubmed.ncbi.nlm.nih.gov/34161051/) — lutetium-177-PSMA-617 in prostate cancer.

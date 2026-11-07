@@ -2,22 +2,22 @@
 title: "Read timing around surgery"
 sensitive: false
 tags: ["education"]
-updated: 2026-10-10
-source_checked: "2026-10-10"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 type: "guide-lesson"
 guide: "treating-early-tnbc"
 step: 2
-minutes: 11
-objectives: ["Explain what preoperative and postoperative timing contributes.", "Distinguish a planned regimen from delivered treatment."]
+minutes: 12
+objectives: ["Give three reasons stage II–III TNBC is usually treated before surgery.", "Name the evidence behind breast, node and radiation decisions.", "Distinguish a planned regimen from delivered treatment."]
 prerequisites: ["[[wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant]]", "[[wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging]]"]
 ---
 
 # Read timing around surgery
 
-**Timing around surgery changes the task and the evidence available. A treatment calendar must also say what was actually delivered.**
+**In stage II–III triple-negative breast cancer (TNBC), treatment usually starts before surgery so that surgery can measure the response and the response can choose what follows. A treatment calendar must also say what was actually delivered.**
 
 **Before you start:** [Neoadjuvant versus adjuvant therapy](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant) names treatment before or after the main local treatment. [TNM staging](/wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging) describes tumor, regional nodes and distant metastasis, including clinical and pathologic prefixes.
 
@@ -33,32 +33,27 @@ flowchart TD
   class B current
 ```
 
-## The operation is a landmark, not the whole timeline
+## Why treatment usually comes before surgery
 
-Treatment before surgery can begin systemic care and reduce disease in the breast or regional nodes. It also creates an opportunity to examine response in later surgical tissue. Treatment after surgery addresses a different moment: the primary local operation has happened, and its findings can inform further care.
+For stage II–III [TNBC](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc), systemic treatment usually comes first, for three reasons.
 
-These terms describe timing, rather than one drug or a guarantee of success. A medicine can have uses before and after surgery. Surgery first can be appropriate in some settings; a preoperative approach can be appropriate in others. Read the stage, clinical question and tested strategy before assuming a universal order.
+1. **It treats the whole body early.** Chemotherapy and immunotherapy reach cells that may already have left the breast.
+2. **Surgery then measures the response.** The surgical specimen shows whether [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) was reached. In a pooled analysis of 11,955 patients, people with TNBC who reached pCR had a much lower hazard of recurrence or death (hazard ratio 0.24) than those who did not [1].
+3. **The response chooses what comes next.** Residual cancer opens options tested in that group, such as capecitabine, and olaparib for people who also carry a germline *BRCA1* or *BRCA2* variant. See [post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation).
 
-For nonmetastatic [triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc), disease extent and risk help frame sequencing. A strategy studied for a defined higher-risk population does not automatically apply unchanged to every small tumor or to metastatic disease.
+Shrinkage can also make a smaller operation possible. pCR was also the first primary endpoint of [KEYNOTE-522](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen), the trial behind the usual sequence: about 24 weeks of chemotherapy with pembrolizumab, surgery, then up to 9 more three-weekly pembrolizumab cycles [2].
 
-## Keep three clocks separate
+Surgery first can still be appropriate in some settings. A strategy studied in higher-risk disease does not automatically apply to every small tumor or to metastatic disease.
 
-The first clock is **biological sampling**: when the biopsy, scan or blood draw occurred. The second is **treatment delivery**: when doses, surgery or radiation happened. The third is **reporting**: when a result or addendum became available.
+## Surgery and radiation have their own evidence
 
-A report issued after surgery may describe a sample collected before it. A later appointment may review an earlier scan. Attaching only the reporting date can create a false sequence of response and treatment.
+- **Breast surgery.** In randomized trials, lumpectomy plus radiation gave the same long-term survival as mastectomy for eligible early breast cancer. See [lumpectomy versus mastectomy](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy).
+- **Node surgery after preoperative treatment.** Removing a previously clipped positive node with the sentinel nodes lowers the chance of missing residual cancer. See [sentinel-node biopsy and axillary dissection](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection).
+- **Radiation** is a separate local decision that considers disease extent before treatment as well as the surgical findings. See [radiation basics](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics), [regional nodal irradiation after neoadjuvant therapy](/wiki/education/concepts/therapeutics/local-therapies/regional-nodal-irradiation-after-neoadjuvant-therapy) and, when margins or nodes need more surgery, [completion surgery](/wiki/education/concepts/therapeutics/local-therapies/completion-surgery).
 
-<!-- BEGIN NATIVE PRODUCTION01 brief-280-companion -->
-Use the shared specimen-and-treatment timeline below. Its planned and recorded states are separate; a held event is not a documented administration.
+## Keep the trial schedule and the delivered course apart
 
-<div class="my-6">
-  <img src="../reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-light.svg" alt="A shared day-0-to-120 timeline separates biopsy A at day 0 and surgery tissue B at day 100 from treatment plan and record rows. Four treatment events are planned at days 10, 30, 50 and 80; administrations are documented at 10, 50 and 80, while 30 is explicitly held. A day-120 addendum refers back to stored biopsy A, with no new sample." width="360" height="760" data-theme-pair />
-  <p class="text-sm text-muted-foreground mt-2">A new report can describe old tissue, and a planned treatment event may be held. Follow specimen identity and the documented record; these fictional days do not prescribe a schedule or explain an outcome.</p>
-</div>
-<!-- END NATIVE PRODUCTION01 brief-280-companion -->
-
-[The KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen) supplies one concrete example of a studied perioperative sequence. Its planned blocks and postoperative phase are not automatically separate [lines of therapy](/wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy).
-
-Next separate the tested trial schedule, the clinician's planned adaptation and the delivered course. These can be related without being identical. Retain holds or changes and their documented reasons. Expected visits are not proof of completed doses.
+A trial's schedule is evidence about that regimen and population. The clinician's plan adapts it; the delivered record shows what happened, including holds and substitutions. The planned blocks are not separate [lines of therapy](/wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy). For sample, treatment and report dates, use [place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time).
 
 ## A worked calendar
 
@@ -81,7 +76,7 @@ An imaging response needs the modality, examined region and [response definition
 
 ## What can go wrong at this step
 
-- Equating “before surgery” with “only to shrink the tumor” loses systemic and response-assessment roles.
+- Equating “before surgery” with “only to shrink the tumor” loses the systemic, response-measuring and next-step-choosing roles.
 - Equating “after surgery” with “visible cancer is left” misreads adjuvant treatment's risk-reduction purpose.
 - Treating an expected calendar as completed loses holds, substitutions and dose changes.
 - Treating report dates as sample dates creates a false response sequence.
@@ -106,9 +101,9 @@ A fictional calendar lists six planned doses. Five administration records are pr
 
 ## Sources and scope
 
-Source-checked October 10, 2026; expert and learner review pending. The calendar is fictional.
+Source-checked November 7, 2026 against the primary abstracts; expert and learner review pending. The calendar is fictional.
 
-- [NCI: Breast cancer treatment by stage](https://www.cancer.gov/types/breast/treatment/by-stage).
-- [NCI: Triple-negative breast cancer treatment](https://www.cancer.gov/types/breast/treatment/triple-negative-breast-cancer).
-- [KEYNOTE-522 primary trial](https://pubmed.ncbi.nlm.nih.gov/32101663/), for one studied strategy, not a personal delivery record.
-- [CTNeoBC pooled analysis](https://pubmed.ncbi.nlm.nih.gov/24529560/), for defined pathologic response and outcome association.
+1. [Cortazar and colleagues, Lancet 2014: CTNeoBC pooled analysis](https://pubmed.ncbi.nlm.nih.gov/24529560/) — pCR and long-term outcome by subtype.
+2. [Schmid and colleagues, NEJM 2020: KEYNOTE-522](https://pubmed.ncbi.nlm.nih.gov/32101663/) — sequence and cycle counts.
+3. [NCI: Triple-negative breast cancer treatment](https://www.cancer.gov/types/breast/treatment/triple-negative-breast-cancer).
+4. [NCI: Breast cancer treatment by stage](https://www.cancer.gov/types/breast/treatment/by-stage).

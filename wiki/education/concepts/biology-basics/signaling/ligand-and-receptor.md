@@ -7,11 +7,11 @@ glossary_anchor: "ligand"
 aliases: ["ligand", "receptor"]
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/oncology-101/1-ligands]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -61,6 +61,8 @@ Try asking the same question three times: **what does the receiving cell change 
 *Three selected mechanisms answer the same question differently: ER/PR can regulate transcription inside a cell; EGFR receives EGF outside and relays a growth signal inside; PD-1 can dampen signaling in a responding T cell after contact with PD-L1. Receptor shapes, relay dots and molecule counts are schematic. This is a classical ER/PR transcription example and a representative EGFR pair, not an atomic structure, complete pathway or treatment-selection rule.*
 
 **ER and PR: a classical nuclear response.** The [estrogen receptor (ER)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor) and [progesterone receptor (PR)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor) are distinct intracellular hormone receptors. Estrogen and progesterone bind their respective receptors. In the classical mechanism shown, the receptor and its cellular partners regulate **transcription**, making [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) from [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/molecules/dna). The useful readout is a specified gene's response, not just whether the hormone bound. ER and PR do not become one receptor or necessarily regulate the same genes. PR forms and cellular context can change the direction of transcriptional regulation. [ER experiments](https://pubmed.ncbi.nlm.nih.gov/3690665/) and [PR isoform experiments](https://pubmed.ncbi.nlm.nih.gov/9407067/) support that distinction. Nuclear-receptor family membership does not mean every molecule stays in the nucleus or every effect requires new transcription; the [receptor-types page](/wiki/education/concepts/biology-basics/signaling/receptor-types) keeps that nuance.
+
+**Why "triple-negative" names three receptors.** A breast cancer pathology report tests three receptors: ER, PR and [HER2](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2), a surface receptor in the EGFR family. Triple-negative breast cancer lacks ER and PR and does not overexpress or amplify HER2, so drugs that block those three receptors are not the main options; see [TNBC](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc).
 
 **EGFR: an outside input with an inside relay.** **Epidermal growth factor (EGF)** binds the extracellular portion of the **epidermal growth factor receptor (EGFR)**. A receptor partnership couples that contact to its intracellular kinase machinery; a [kinase](/wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases) is an enzyme that transfers phosphate groups. The ligand can remain outside while signaling changes inside. [EGF–EGFR structural experiments](https://pubmed.ncbi.nlm.nih.gov/12297050/) and [EGFR kinase experiments](https://pubmed.ncbi.nlm.nih.gov/16777603/) examined defined molecular systems. The cartoon compresses those mechanisms into one representative pair and a relay. A changed relay readout is not proof that the cells divided, depend on EGFR or would respond to an EGFR-targeted treatment.
 
@@ -128,8 +130,6 @@ Comparison source check: October 12, 2026. The named research studies were check
 
 - [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
 - [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Notch, Wnt, and FGFR: locate the signal before choosing a target](/wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr)
 - [Ask what happens after binding](/wiki/education/oncology-101/1-ligands)
-- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 <!-- END GENERATED USED IN -->

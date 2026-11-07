@@ -7,11 +7,11 @@ glossary_anchor: "autologous-vs-allogeneic-cell-therapy"
 aliases: ["autologous","allogeneic","autologous cell therapy","allogeneic cell therapy"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug]]"]
-used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/comparisons/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
-updated: "2026-10-13"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -43,7 +43,9 @@ Two immune directions matter. **Graft-versus-host disease** means donor immune c
 
 In the two recognition panels, teal marks donor cells and amber marks recipient cells. The arrows describe possible immune directions, not rates or inevitable events. The source panel asks whose cells do the work; the location panel asks where they are changed. Neither axis supplies a universal safety ranking.
 
-Conventional donor T cells can recognize foreign [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). Particular products may use selection or genetic changes to reduce harmful recognition. The resulting risks depend on the actual cells and engineering; “allogeneic” does not establish safety.
+Conventional donor T cells can recognize foreign [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla). Specific engineering addresses each direction, and a trial document will name it. To limit graft-versus-host disease, the donor cells' own T-cell receptor gene is disrupted. UCART19, the first allogeneic CD19 product given to people, was made from non-HLA-matched donor cells with the T-cell receptor alpha chain and the CD52 gene both edited ([Qasim et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28123068/)). To limit rejection, other designs disrupt HLA class-I genes alongside the receptor gene ([Chen et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38231412/), a preclinical study of HLA-A/B and TRAC disruption).
+
+**Allogeneic products also tend to need heavier lymphodepletion,** because the recipient's own immune system would otherwise clear the donor cells. In the UCART19 trials, patients received fludarabine and cyclophosphamide with or without alemtuzumab, an antibody against CD52 — which is why the CD52 gene is edited out of the product, so the antibody depletes host lymphocytes and spares the infused cells ([Qasim et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28123068/)). A pharmacology analysis of those trials found the alemtuzumab-containing regimen sustained UCART19 expansion and persistence ([Dupouy et al., 2022](https://pubmed.ncbi.nlm.nih.gov/36970059/)). The resulting risks depend on the actual cells and engineering; “allogeneic” does not establish safety.
 
 ## Compare source with engineering location
 
@@ -94,11 +96,15 @@ A fictional ready-made particle vial enters a patient's T cells and supplies CAR
 
 ## Sources and scope
 
-Source check: October 9, 2026; expert and learner review pending. These are source categories, not a ranking of products. The worked example is fictional.
+Source check: November 7, 2026 (named edits and lymphodepletion); October 9, 2026 (rest); expert and learner review pending. These are source categories, not a ranking of products. The worked example is fictional.
 
 - [NCI dictionary: autologous](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/autologous).
 - [NCI dictionary: allogeneic](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/allogeneic).
 - [FDA final CAR T-cell guidance, January 2024](https://www.fda.gov/media/156896/download) — source-specific manufacturing and clinical considerations.
+- [Qasim et al., 2017, *Sci Transl Med*](https://pubmed.ncbi.nlm.nih.gov/28123068/) — UCART19 made by lentiviral transduction of non-HLA-matched donor cells with TALEN editing of the T-cell receptor alpha chain and CD52 loci, given after lymphodepleting chemotherapy and anti-CD52 serotherapy; checked November 7, 2026.
+- [Benjamin et al., 2020, *Lancet*](https://pubmed.ncbi.nlm.nih.gov/33308471/) — two phase 1 studies of genome-edited donor-derived anti-CD19 CAR T cells in 7 children and 14 adults, with fludarabine and cyclophosphamide with or without alemtuzumab; checked November 7, 2026.
+- [Dupouy et al., 2022, *Cancer Res Commun*](https://pubmed.ncbi.nlm.nih.gov/36970059/) — the alemtuzumab-based regimen sustained UCART19 expansion and persistence; checked November 7, 2026.
+- [Chen et al., 2024, *Cancer Immunol Immunother*](https://pubmed.ncbi.nlm.nih.gov/38231412/) — preclinical allogeneic CAR-T cells with HLA-A/B and TRAC disruption; checked November 7, 2026.
 - [NCI stem-cell transplantation](https://www.cancer.gov/about-cancer/treatment/types/stem-cell-transplant) — graft-versus-host disease; transplant risks should not be numerically transferred to every engineered cell product.
 
 
@@ -109,5 +115,6 @@ Visual relationship check: October 13, 2026. The new illustration was checked ag
 
 - [Cell therapies as living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer)
 - [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 <!-- END GENERATED USED IN -->

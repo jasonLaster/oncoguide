@@ -3,8 +3,8 @@ title: "Read a neoantigen design board"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-13
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -56,6 +56,12 @@ Premature stops can also trigger [nonsense-mediated RNA decay](/wiki/education/c
 | Clinical outcome with a suitable comparison | Benefit estimate in that population | Transfer to another product or setting |
 
 A recovered [immunopeptidome](/wiki/education/concepts/immunology/antigen-presentation/immunopeptidome) subset needs cell, HLA class, time and assay context. Non-detection requires coverage and sensitivity context. Artificial peptide loading can bypass natural processing. The board should name exactly what was tested, with method and version.
+
+### Ask whether the mutation changed the binding, not just the sequence
+
+**Agretopicity** is how well a peptide binds its presenting HLA molecule — the "agretope" is the face of the peptide that contacts HLA, as distinct from the epitope face a T-cell receptor reads. A board column sometimes reports the **differential agretopicity index (DAI)**: the gap between the predicted HLA-binding strength of the mutant peptide and that of the matching normal peptide. The idea is that a mutation which binds much better than its normal counterpart creates something the immune system has not been taught to tolerate, whereas a peptide whose normal version binds equally well may already be seen as self.
+
+In one analysis of five advanced non-small-cell lung cancer and melanoma cohorts, a sample's mean DAI correlated with overall survival in three of the five, and only for clonal peptides ([Ghorani et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29361136/)). Read that as a hypothesis with cohort-level support, not a selection rule: DAI is built from two predictions, so it inherits both models' errors, and a high DAI is not a measurement of presentation or of recognition.
 
 ### Keep the score's meaning attached
 
@@ -111,15 +117,16 @@ A board adds ten peptide windows, all from one alteration and all restricted to 
 
 **Choose and audit targets by their evidence and failure dependencies, not just their count or score.**
 
-**Next:** [Measure displayed peptides](/wiki/education/designing-a-vaccine/03-immunopeptidomics).
+**Next:** step five, [measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics) (filed as `03-`).
 
 ## Sources and scope
 
-Source check: October 10, 2026; expert and learner review pending. The ten-row candidate example is fictional. Company-specific ranking remains in its owner bundle.
+Source check: November 7, 2026 (agretopicity and DAI); October 10, 2026 (rest); expert and learner review pending. The ten-row candidate example is fictional. Company-specific ranking remains in its owner bundle.
 
 - [Primary HLA presentation dataset](https://www.nature.com/articles/s41587-019-0322-9).
 - [Wells et al., primary neoantigen-prediction benchmark](https://pubmed.ncbi.nlm.nih.gov/33038342/) — measured binding/recognition support has task-specific scope.
 - [TNBC-MERIT clinical example](https://www.nature.com/articles/s41586-025-10004-2).
 - [Official NetMHCpan-4.1 output documentation](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/), for prediction tasks and score interpretation. The linked concepts carry the primary sources for tolerance, immunodominance and spreading.
 - [Lindeboom et al., transcript-context rules for nonsense-mediated decay](https://www.nature.com/articles/ng.3664), derived from matched cancer exomes and transcriptomes.
+- [Ghorani et al., 2018, *Annals of Oncology*](https://pubmed.ncbi.nlm.nih.gov/29361136/) — differential agretopicity index defined as the predicted class-I binding difference between wild-type and mutant peptide; mean DAI correlated with overall survival in three of five cohorts, for clonal peptides only; checked November 7, 2026.
 - [Litchfield et al., frameshift expression and immune recognition](https://www.nature.com/articles/s41467-020-17526-5), including melanoma cohorts and functional screens; this does not validate a specific candidate or predict vaccine benefit in TNBC.

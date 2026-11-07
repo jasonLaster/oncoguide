@@ -12,7 +12,7 @@ prerequisites:
   - "[[wiki/education/concepts/biology-basics/cells/epithelium-and-stroma]]"
 used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/reading-a-tumor/index]]"]
 reviewed: "pending"
-source_checked: 2026-10-10
+source_checked: "2026-11-07"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 glossary_anchor: "core-needle-biopsy"
@@ -37,23 +37,12 @@ A [[wiki/education/concepts/measurement/specimens/fine-needle-aspiration|fine ne
 
 Preparation then determines which additional questions remain possible. [[wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable|Fixed, frozen and viable material]] are different inputs. A core placed in formalin is not a living-cell bank merely because it came from a living tumor.
 
-<!-- BEGIN SUCCESSOR PROSPECTIVE brief-260-A: scratch SVG candidate, independent G3 pending, not adopted -->
-<!-- BEGIN INDEPENDENT INSERTION PROOF brief-260: scratch SVG candidate, independent G3 pending, not adopted -->
-A core can give you a close view of neighboring cells. That is useful: their arrangement can answer questions that isolated cells cannot. But a close view is still a view from somewhere. Follow the sampled strip in this picture. The enlarged piece keeps some relationships from that strip; it does not suddenly include the regions around it.
+A core is a close view from one place. Keep two questions apart when reading the result: "Can this material be read?" and "Does it explain the imaging target?" A well-preserved core can still be the wrong window, so imaging and tissue findings are interpreted together ([ACR/RSNA biopsy information](https://www.radiologyinfo.org/en/info/breastbius)).
 
-When you read a result, keep two questions beside each other: “Can this material be read?” and “Does this material explain the target?” A beautifully preserved piece can still be the wrong window. The imaging and tissue findings need to be interpreted together. [ACR/RSNA biopsy information](https://www.radiologyinfo.org/en/info/breastbius)
-
+<div class="cartoon-frame">
 <img src="./images/core-is-a-local-window-v1-light.svg" alt="Three panels show a narrow sampled strip within an uneven tissue target, the matching tissue core enlarged with neighboring cells still together, and the examined window beside regions outside it that the core does not represent." width="780" height="1750" data-theme-pair>
-
-A core preserves some local tissue relationships within a sampled window; its interpretation still depends on what was sampled and whether the finding explains the imaging target. This sketch shows no patient's tissue and makes no claim about adequate sample number or complete removal.
-
-**Try it beside the picture:** The sample is easy to read, but it contains only benign fat. Does good preservation prove that a suspicious imaging target is benign?  
-**Answer:** No. Good preservation helps with reading the submitted material. Whether it explains the imaging target is a separate question. The example does not choose a follow-up procedure.
-<!-- END INDEPENDENT INSERTION PROOF brief-260 -->
-
-For the other two sampling questions, compare [recovered cells and fragments](fine-needle-aspiration.md#a-piece-of-tissue-or-recovered-cells) with the local core, then compare [selected tissue pieces with a mapped outer boundary](vacuum-assisted-biopsy.md#several-pieces-are-not-a-mapped-outer-boundary). These connected comparisons keep useful local findings separate from whole-lesion representation and margin assessment.
-
-<!-- END SUCCESSOR PROSPECTIVE brief-260-A -->
+<p class="cartoon-caption">A core keeps neighboring cells together within its sampled strip, but it does not show the regions around that strip.</p>
+</div>
 
 ```mermaid
 flowchart TD
@@ -108,7 +97,7 @@ A core provides a structured window into tissue, and every interpretation should
 
 ## Sources and scope
 
-Source check: October 10, 2026. General sampling education, with breast biopsy as the example; expert and learner review remain pending.
+Source check: November 7, 2026. General sampling education, with breast biopsy as the example; expert and learner review remain pending.
 
 - [NCI: how breast cancer is diagnosed](https://www.cancer.gov/types/breast/diagnosis) — official descriptions of needle sampling.
 - [ACR/RSNA: ultrasound-guided breast biopsy](https://www.radiologyinfo.org/en/info/breastbius) — collection methods, sampling limitations and concordance.

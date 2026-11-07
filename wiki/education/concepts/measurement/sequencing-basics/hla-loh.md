@@ -3,15 +3,15 @@ title: "HLA loss of heterozygosity"
 type: "concept"
 domain: "measurement/sequencing-basics"
 aliases: ["HLA-LOH", "HLA loss of heterozygosity", "allele-specific HLA loss"]
-summary: "Loss of heterozygosity at a class-I human leukocyte antigen locus removes one previously present inherited allele from a tumor-cell population, which can narrow the peptides those cells present."
+summary: "HLA loss of heterozygosity is the loss, in tumor cells, of one parent's copy of the human leukocyte antigen region, often removing HLA-A, -B and -C alleles together and narrowing the peptides those cells can present."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/biology-basics/genetics/allele-and-zygosity]]", "[[wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing]]"]
 used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]"]
 glossary_anchor: "hla-loh"
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -21,7 +21,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## In one sentence
 
-Loss of heterozygosity at a class-I human leukocyte antigen locus removes one previously present inherited allele from a tumor-cell population, which can narrow the peptides those cells present.
+HLA loss of heterozygosity is the loss, in tumor cells, of one parent's copy of the human leukocyte antigen region, often removing HLA-A, -B and -C alleles together and narrowing the peptides those cells can present.
 
 ## The intuition
 
@@ -29,7 +29,9 @@ Imagine a cell using several different display cases. Losing one kind can remove
 
 ## How it works
 
-An [allele](/wiki/education/concepts/biology-basics/genetics/allele-and-zygosity) is an inherited sequence version. A person may carry two different versions at a class-I HLA locus, such as HLA-A. **Loss of heterozygosity (LOH)** means that the tumor cells no longer retain both versions. Total DNA copy count alone cannot establish which version remains.
+An [allele](/wiki/education/concepts/biology-basics/genetics/allele-and-zygosity) is an inherited sequence version. The three class-I genes, HLA-A, HLA-B and HLA-C, sit next to each other on chromosome 6 (at 6p21), so each parent passes down one linked set, a **haplotype**, of one allele of each. A person can therefore carry up to six different class-I alleles. **Loss of heterozygosity (LOH)** means that the tumor cells no longer retain both versions. Because the genes are linked, one deletion or copy-loss event commonly removes the whole maternal or paternal haplotype: three alleles at once, not one. Total DNA copy count alone cannot establish which haplotype remains.
+
+In 90 non-small-cell lung cancers, the LOHHLA method found HLA LOH in 36 (40%); in the tumors examined region by region, a region typically had either all three loci lost or none ([McGranahan 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5720478/)). Breast-cancer frequencies need their own studies.
 
 Allele-aware analysis compares tumor sequence evidence with a suitable [matched normal](/wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing). HLA regions are highly variable, so a generic reference alignment can obscure the distinction. The original LOHHLA method used patient-specific HLA sequences together with estimated tumor purity, the malignant-cell proportion, and ploidy, the chromosome-copy context. Its primary study was in lung cancer, not a prevalence estimate for every breast cancer. [McGranahan 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5720478/).
 
@@ -66,14 +68,14 @@ The [copy-number example](/wiki/education/concepts/measurement/sequencing-basics
 **Answer:** No. Retention, expression and B2M support are different evidence questions. Current surface display and function need separate measurements.
 
 - **LOH versus low expression:** losing DNA and making less RNA or protein are different mechanisms.
-- **One allele versus the entire system:** other alleles may remain; B2M disruption has a different scope.
+- **One allele versus one haplotype versus the entire system:** a single event often removes one parent's whole set of class-I alleles; the other parent's set may remain; B2M disruption affects all class-I display.
 - **Negative versus uninformative:** insufficient usable tumor evidence cannot exclude loss.
 
 ## Try it
 
-A fictional design includes peptide P predicted to bind allele A1. Tumor analysis supports A1 loss while A2 is retained. Does this prove that every peptide in the design is unusable?
+A fictional person's maternal haplotype carries HLA-A\*X, -B\*Y and -C\*Z. A vaccine design includes peptides predicted to bind A\*X and others predicted to bind B\*Y. Tumor analysis supports loss of the maternal haplotype. Which peptides are challenged?
 
-**Answer:** No. It challenges the A1-dependent candidate. Examine other candidates' allele dependencies and presentation evidence. Retained A2 does not itself prove that a useful peptide is displayed.
+**Answer:** Both groups, because B\*Y travelled on the same lost haplotype as A\*X. Peptides predicted to bind the retained paternal alleles are not challenged by this finding, but retention alone does not prove they are displayed; that needs presentation evidence.
 
 ## Explain it back
 
@@ -92,7 +94,7 @@ One answer: “which inherited versions exist; which of those versions remain in
 
 ## Sources and scope
 
-Source check: October 10, 2026. Mechanism and assay interpretation; the exercise is fictional. Expert and learner review remain pending. No population prevalence or treatment recommendation is proposed.
+Source check: November 7, 2026. Mechanism and assay interpretation; the exercise is fictional. Expert and learner review remain pending. No population prevalence or treatment recommendation is proposed.
 
 - [McGranahan and colleagues 2017: allele-specific HLA loss and LOHHLA in lung cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC5720478/).
 - [Puttick and colleagues 2024: distinct genomic and transcriptional HLA escape mechanisms](https://www.nature.com/articles/s41588-024-01883-8).

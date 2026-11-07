@@ -56,7 +56,7 @@ Peptides used to test an immune response can differ from the material administer
 
 Chromatography separates components and can estimate purity under a stated method. Mass spectrometry helps check molecular mass and identity. Neither alone settles every impurity or finished-product question. The primary neoantigen manufacturing study used both and reported purification separately from crude synthesis. [Methods and results](https://www.nature.com/articles/s41598-019-56943-5)
 
-Product-specific [batch-release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release) criteria govern the applicable quality disposition. A synthesis paper's experimental purity criterion is not a universal clinical-release threshold.
+Product-specific [batch-release](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release) criteria govern the applicable quality disposition. A synthesis paper's experimental purity criterion is not a universal clinical-release threshold.
 
 ## Worked example and practice
 

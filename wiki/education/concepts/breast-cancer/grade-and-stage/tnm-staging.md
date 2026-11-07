@@ -113,7 +113,7 @@ Source-checked October 10, 2026; expert and learner review pending. Examples are
 - [Place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
-- [Start here: read the biology, then the evidence](/wiki/education/guides/start-here/index)
+- [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 <!-- END GENERATED USED IN -->

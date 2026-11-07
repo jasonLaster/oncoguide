@@ -20,8 +20,8 @@ tags:
   - "education"
   - "measurement"
   - "functional-models"
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -45,7 +45,7 @@ In a **pooled screen**, many guide sequences are introduced across a large cell 
 
 Several guides per gene, non-targeting controls and reference essential genes help assess performance. Follow-up can test editing, repeat the effect independently and ask whether restoring the function reverses it. [Controlled perturbation](/wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls) strengthens a causal interpretation.
 
-**Copy-number amplification** means extra DNA copies of a region. Cutting many copies can impair growth through DNA damage even when loss of the nominated gene is not the cause. Meyers and colleagues developed the CERES computational correction to reduce this confounding in cancer-line screens. A corrected score still depends on its method, assumptions and experimental quality. [Primary method and results](https://pmc.ncbi.nlm.nih.gov/articles/PMC5709193/).
+**Copy-number amplification** means extra DNA copies of a region. Cutting many copies can impair growth through DNA damage even when loss of the nominated gene is not the cause. Meyers and colleagues developed the CERES computational correction to reduce this confounding in cancer-line screens for the Cancer Dependency Map (DepMap), a public catalog of gene dependencies across cancer cell lines [primary method and results](https://pmc.ncbi.nlm.nih.gov/articles/PMC5709193/). A later method from the same group, **Chronos**, models how each knocked-out cell population grows over time; across two pan-cancer screen datasets it showed the lowest copy-number and screen-quality bias of the methods compared ([Dempster 2021](https://doi.org/10.1186/s13059-021-02540-7)). When reading a gene-effect score, check which algorithm and data release produced it. A corrected score still depends on its method, assumptions and experimental quality.
 
 ```mermaid
 flowchart TD
@@ -111,11 +111,12 @@ One answer: “fitness after a defined genetic intervention in a model; response
 
 ## Sources and scope
 
-Source check: October 10, 2026. Primary screening abstracts and accessible CERES methods/results; model-dependent genetic fitness, not a treatment recommendation. The exercise is fictional. Expert and learner review remain pending.
+Source check: November 7, 2026. Primary screening abstracts and accessible CERES methods/results; model-dependent genetic fitness, not a treatment recommendation. The exercise is fictional. Expert and learner review remain pending.
 
 - [Shalem et al., 2014: Genome-scale CRISPR-Cas9 knockout screening in human cells](https://pubmed.ncbi.nlm.nih.gov/24336571/).
 - [Wang et al., 2014: Genetic screens in human cells using the CRISPR-Cas9 system](https://pubmed.ncbi.nlm.nih.gov/24336569/).
 - [Meyers et al., 2017: Computational correction of copy number effect improves specificity of CRISPR-Cas9 essentiality screens in cancer cells](https://pmc.ncbi.nlm.nih.gov/articles/PMC5709193/).
+- [Dempster et al., 2021: Chronos, a cell population dynamics model of CRISPR experiments](https://doi.org/10.1186/s13059-021-02540-7) (PMID 34930405).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

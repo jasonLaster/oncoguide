@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/ant
 used_by: ["[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -49,14 +49,7 @@ The [binder profile](/wiki/education/concepts/engineering-and-manufacturing/bind
 
 ## How it is measured
 
-| Assay card | What to record |
-|---|---|
-| Method and input | Purified-target binding and relevant live-cell assays; identify the actual binder or finished construct |
-| Consumption | Protein and cell aliquots are consumed; patient-derived tests may use finite tissue |
-| Output and units | Binding curves or cell-associated fluorescence, followed by separate delivery or function readouts |
-| Thresholds and controls | Prespecified assay criteria, target-negative cells and unrelated-target controls; no universal therapeutic cutoff |
-| Failures and limits | Tags, altered protein folding or surface-only signal can mislead; binding does not measure uptake, exposure or clinical benefit |
-| Validation tier | Research interaction evidence unless the method and use have further validation; product safety needs broader evidence |
+A binder is a part of a design, not a quantity, so it has no assay of its own. [The binder profile](/wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability) owns the measurements — binding strength, epitope accessibility and developability — and [format constraints](/wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders) explains why each one must be remeasured on the assembled product.
 
 ## Common confusions
 
@@ -87,7 +80,7 @@ A fictional binder recognizes purified protein R and binds living R-positive can
 
 ## Sources and scope
 
-Source check: October 10, 2026. General mechanisms and a fictional exercise; expert and learner review remain pending.
+Source check: November 7, 2026 (measurement section delegated to the binder-profile page); October 10, 2026 (rest). General mechanisms and a fictional exercise; expert and learner review remain pending.
 
 - [NCI: monoclonal antibodies](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies) — recognition and different immune actions.
 - [Eshhar et al., 1993](https://pubmed.ncbi.nlm.nih.gov/8421711/) — antibody-type recognition linked to cellular activation in an experimental receptor model.

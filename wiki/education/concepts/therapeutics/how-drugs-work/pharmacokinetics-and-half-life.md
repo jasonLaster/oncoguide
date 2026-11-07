@@ -7,7 +7,7 @@ glossary_anchor: "pharmacokinetics-and-half-life"
 aliases: ["pharmacokinetics","PK","half-life","clearance","Cmax","concentration–time AUC","drug exposure"]
 level: "intermediate"
 prerequisites: []
-used_by: ["[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/targeted-therapy-modalities/02-timing]]"]
+used_by: ["[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/targeted-therapy-modalities/02-timing]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-10-10"
@@ -118,8 +118,5 @@ Source check: October 10, 2026. General PK teaching with an idealized fictional 
 ## Used in
 
 - [Build the readiness picture](/wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture)
-- [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
-- [Connect evidence to a decision](/wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision)
-- [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
 - [Follow delivery, exposure, and the treatment clock](/wiki/education/targeted-therapy-modalities/02-timing)
 <!-- END GENERATED USED IN -->

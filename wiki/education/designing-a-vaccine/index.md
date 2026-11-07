@@ -3,8 +3,8 @@ title: "Why a personalized cancer vaccine can help"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-13
-source_checked: "2026-10-08"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -17,7 +17,7 @@ prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/innate-v
 
 # Why a personalized cancer vaccine can help
 
-**A vaccine can prime and expand useful antigen-reactive cells; it does not normally rewrite their receptors.** This lesson starts the [personalized-vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index).
+**A vaccine can prime and expand useful antigen-reactive cells; it does not normally rewrite their receptors.** This is step one of the [personalized-vaccine guide](/wiki/education/guides/personalized-cancer-vaccine/index), which holds the map and the full lesson list.
 
 **Before you start:** [Innate and adaptive immunity](/wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity) separates sensing from a specific response. [A T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor) recognizes a peptide together with [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla).
 
@@ -67,6 +67,7 @@ A vaccine causes a tenfold rise in one sampled receptor sequence. Has a new rece
 **First detection or new specificity?** A fictional pre-dose blood report detects no clone Q. Its [detection-limit statement](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) says the assay cannot reliably detect Q below 0.1% of sampled receptor units. A compatible post-dose report measures Q at 1% of those units. A separate peptide-stimulation test shows a response, without linking it to Q. What has been earned: first detection, expansion, natural tumor recognition or benefit?
 
 **Answer:** Q was first detected in these samples. Earlier non-detection does not prove absence. The later frequency is consistent with enrichment, but lacks a measured baseline for an exact fold change and compatible absolute-cell counts for expansion. The mixture's peptide response has not been assigned to Q. No natural tumor-recognition or clinical outcome comparison is supplied. Neither first detection nor that response proves receptor rewriting. These numbers and assay limits are invented, with comparable sampling and methods assumed.
+
 ## Explain it back
 
 “A vaccine can increase ___, while the tumor still needs to ___.” One possible answer: “useful responding cells; display a target they recognize.”

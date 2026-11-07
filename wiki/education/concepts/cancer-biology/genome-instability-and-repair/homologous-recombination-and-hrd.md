@@ -9,14 +9,14 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/index]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Expert and learner review pending"
-source_checked: 2026-10-09
+source_checked: 2026-11-07
 tags: [education, DNA-repair, HRD, BRCA]
-updated: 2026-10-10
+updated: 2026-11-07
 ---
 
 # Homologous recombination and HRD
@@ -43,7 +43,7 @@ After a cell copies its DNA, each chromosome has a closely matching sister copy.
 
 [BRCAness](/wiki/education/concepts/breast-cancer/hereditary-risk/brcaness) is a research description of BRCA-like biology without an identified BRCA1/2 mutation. Its definition and evidence need to stay attached; it is not a single interchangeable assay result.
 
-Repair failure can leave [genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars), persistent patterns that describe accumulated damage rather than today's repair capacity. Different assays and cutoffs need their own validation for a defined treatment and cancer setting. Telli and colleagues studied one scar-based score in triple-negative breast cancer treated with chemotherapy before surgery; that setting does not establish a universal drug-response cutoff. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/).
+Repair failure can leave [genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars), persistent patterns that describe accumulated damage rather than today's repair capacity. Different assays and cutoffs need their own validation for a defined treatment and cancer setting. Telli and colleagues studied one composite scar score in triple-negative breast cancer treated with **platinum-containing** chemotherapy before surgery; that setting does not establish a cutoff for other chemotherapy regimens or other drugs. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/). [Genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) explains how such composite scores and cutoffs are built.
 
 A tumor can retain old scars while a surviving population restores repair. A **BRCA reversion** is a later genetic change that restores a previously disrupted protein's function, sometimes by restoring its readable coding sequence. Such changes were observed in a selected metastatic breast cancer cohort after resistance to repair-targeting treatment. That study did not estimate their frequency in all breast cancers. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
 
@@ -51,12 +51,16 @@ A tumor can retain old scars while a surviving population restores repair. A **B
 <img src="./images/hr-scar-and-current-function-v1-light.png" width="1254" height="1254" data-theme-pair alt="Two illustrative timepoints retain the same chromosome-pattern marks while an earlier impaired repair scene becomes a possible template-supported repair scene; a separate question asks for current functional evidence.">
 <p><em>Old genome patterns can remain while repair changes. This is one possible history, not an assay result: a gene finding, scar score and current function answer different questions. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5961353/">Cruz 2018</a> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7946408/">Waks 2020</a></em></p>
 <p>Compare the two timepoints: the old pattern marks stay while repair may recover. The marks describe history, so they cannot by themselves tell us how repair works now. A possible repair-gene defect and a current functional result need their own evidence and controls; neither this drawing nor the retained marks determine treatment choice.</p>
-<p><a href="./images/prompts/hrd-039-public-provenance.json">Drawing provenance</a> · <a href="./images/prompts/hrd-039-public-provenance.zip">Original prompts and review records</a></p>
 </div>
 
 ## Why it matters in cancer
 
-Impaired HR can create a vulnerability to some DNA-damaging or repair-targeting drugs. The related concept of [synthetic lethality](/wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality) explains why a second impairment may become especially harmful in a cell that already lacks an important repair function.
+Impaired HR matters clinically because two drug classes exploit it:
+
+- **Platinum drugs** such as carboplatin and cisplatin create DNA crosslinks whose repair relies partly on HR. HR-deficient TNBC was more likely to respond to platinum-containing neoadjuvant chemotherapy in pooled trials. [Platinum agents](/wiki/education/concepts/therapeutics/chemotherapy/platinum-agents); [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/).
+- **PARP inhibitors** such as olaparib block a second repair enzyme and trap it on DNA. In laboratory models, BRCA1- or BRCA2-deficient cells were profoundly more sensitive to PARP inhibition than repair-competent cells, the founding example of [synthetic lethality](/wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality): two losses that are each survivable become lethal together. [PARP inhibitors and trapping](/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping); [Farmer 2005](https://pubmed.ncbi.nlm.nih.gov/15829967/).
+
+When HR fails, cells lean on error-prone backups, [non-homologous and microhomology-mediated end joining](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej). Those backups leave the [genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) and [mutational signatures](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures) used to infer HRD. HR also protects stalled DNA-copying forks, which links it to [replication stress](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress). For the wider map of damage types and repair routes, see the [DNA damage and repair overview](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview).
 
 Biological plausibility and a drug's approved use are separate questions. For example, the U.S. Food and Drug Administration (FDA) olaparib label specifies a **germline BRCA mutation**, along with other clinical criteria, for its early breast cancer use after primary treatment. A tumor-only BRCA finding or high scar score does not substitute for that germline criterion. Somatic BRCA alterations and broader HRD hypotheses need evidence in their own setting. [FDA label, section 1.4](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/208558s031lbl.pdf).
 
@@ -71,19 +75,43 @@ Gene testing asks about a possible cause; scar testing asks about accumulated co
 - **Germline versus somatic:** [where a variant arose](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic) matters for inheritance and for some treatment indications.
 - **Weak signal versus weak repair:** an inadequate functional assay cannot establish HRD.
 - **HRD versus guaranteed response:** other resistance mechanisms, exposure, and treatment setting still matter.
+- **Three meanings of "HR":** in DNA repair it means homologous recombination; in pathology, hormone receptor; in trial results, hazard ratio.
+
+## Try it
+
+A fictional tumor has lost both working copies of BRCA2. Which repair route does it lose for breaks after DNA copying, which routes take over, and what would you expect to find in its genome years later?
+
+<details><summary>Show answer</summary>
+
+It loses template-guided homologous recombination. Error-prone end joining, including microhomology-mediated end joining, takes over, leaving small deletions flanked by short repeats and larger chromosome rearrangements: genomic scars. Those scars would remain even if a later reversion restored BRCA2, so a scar score alone could not tell you whether repair is impaired today.
+
+</details>
+
+## Explain it back
+
+Homologous recombination repairs a break by copying ______; when it fails, cells rely on ______, which leaves ______ that can outlast the defect.
+
+**One possible answer:** the matching sister DNA; error-prone end joining; genomic scars.
+
+## Takeaway
+
+**Homologous recombination is template-guided DNA repair; losing it makes tumors more vulnerable to platinum and PARP inhibitors, but a gene finding, a scar score and current repair function are three different pieces of evidence.**
 
 ## Related concepts
 
 - [Synthetic lethality](/wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality) explains the paired vulnerability.
+- [Genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) and [mutational signatures](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures) are the main ways HRD is inferred from DNA.
+- [NHEJ and MMEJ](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej) are the backup break-repair routes.
 - [Oncogenes and tumor suppressors](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor) explain how gene function can change.
 - [Analytical validity, clinical validity, and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) separate measurement from medical benefit.
 
 ## Sources
 
-Source check: 2026-10-09. Mechanism and measurement education; expert and learner review pending. No universal score threshold or individual response prediction is implied.
+Source check: 2026-11-07. Mechanism and measurement education; expert and learner review pending. No universal score threshold or individual response prediction is implied.
 
-- [Farmer 2005: repair deficiency and PARP inhibition in experimental models](https://www.nature.com/articles/nature03445).
-- [Telli 2016: a genomic-scar score in neoadjuvant triple-negative breast cancer studies](https://pubmed.ncbi.nlm.nih.gov/26957554/).
+- [Farmer 2005: BRCA-deficient cells are highly sensitive to PARP inhibition in experimental models](https://pubmed.ncbi.nlm.nih.gov/15829967/).
+- [Telli 2016: a composite genomic-scar score in platinum-containing neoadjuvant triple-negative breast cancer trials](https://pubmed.ncbi.nlm.nih.gov/26957554/).
+- Drawing provenance for the scar-and-function figure: [provenance record](./images/prompts/hrd-039-public-provenance.json) and [original prompts and review records](./images/prompts/hrd-039-public-provenance.zip).
 - [Waks 2020: repair restoration in selected resistant metastatic breast cancers](https://pubmed.ncbi.nlm.nih.gov/32245699/).
 - [Cruz 2018: RAD51 foci and PARP-inhibitor resistance](https://pmc.ncbi.nlm.nih.gov/articles/PMC5961353/).
 - [FDA olaparib prescribing information, 2025 label, sections 1.4 and 14.4](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/208558s031lbl.pdf).
@@ -97,6 +125,7 @@ Source check: 2026-10-09. Mechanism and measurement education; expert and learne
 - [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
 - [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
+- [Learn the biology and evidence](/wiki/education/index)
 - [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
 - [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
 <!-- END GENERATED USED IN -->

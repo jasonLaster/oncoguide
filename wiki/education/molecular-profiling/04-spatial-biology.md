@@ -8,8 +8,8 @@ objectives: ["Separate immune-cell abundance from location.", "Distinguish direc
 prerequisites: ["[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
 sensitive: false
 tags: ["education", "multi-omics"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -27,7 +27,7 @@ This is step 12 of [[wiki/education/reading-a-tumor/omics-and-multi-omics|Unders
 
 ## A map can answer a new question
 
-An **inflamed** pattern has relevant immune cells among malignant cells. An **excluded** pattern has them concentrated at a boundary or surrounding stroma. A **desert** pattern has few relevant immune cells in the assessed region. These are useful descriptions, rather than exhaustive permanent labels.
+An **inflamed** pattern has relevant immune cells among malignant cells. An **excluded** pattern has them concentrated at a boundary or surrounding stroma. A **desert** pattern has few relevant immune cells in the assessed region. "Cold" usually means desert, though some authors include excluded tumors too, so check the [canonical definitions](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor#how-it-works). These are useful descriptions, rather than exhaustive permanent labels.
 
 An inflamed and an excluded region can have similar total immune abundance. A desert need not have that same abundance. No one pattern alone establishes that a checkpoint inhibitor will work or that another treatment should be added.
 

@@ -2,7 +2,7 @@
 title: "PDX, organoid or tumor fragment: choose by the question"
 type: "comparison"
 domain: "measurement/functional-models"
-summary: "PDX, organoids and tumor fragments preserve different cells, surroundings and experimental settings; the useful choice depends on the question and the current preparation."
+summary: "PDX, organoids and tumor fragments preserve different cells and surroundings and take days, weeks or months to answer; the useful choice depends on the question and the decision window."
 glossary_anchor: "pdx-vs-organoid-vs-tumor-fragment"
 aliases: ["PDX vs organoid vs ex vivo fragment", "PDX vs organoid vs tumor fragment"]
 level: "intermediate"
@@ -10,138 +10,93 @@ prerequisites: ["[[wiki/education/concepts/measurement/functional-models/patient
 used_by: []
 sensitive: false
 tags: ["education", "functional-models", "comparison"]
-updated: "2026-10-12"
-source_checked: "2026-10-12"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
-review_status: "Author source reading recorded; independent scientific and learner review pending"
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # PDX, organoid or tumor fragment: choose by the question
 
 ## In one sentence
 
-Choose a living model by the cells, surroundings and measurements your question needs, then check that those features still work in the actual preparation.
+PDX, organoids and tumor fragments preserve different cells and surroundings and take days, weeks or months to answer; the useful choice depends on the question and the decision window.
 
 ## The intuition
 
-You can study a plant by moving it into another garden, growing selected seeds in a greenhouse, or lifting a small patch of soil with its neighbors. Each makes a different experiment possible. None transports the entire original ecosystem.
+You can study a plant by moving it into another garden, growing selected seeds in a greenhouse, or lifting a small patch of soil with its neighbors for an afternoon. The transplant shows whole-plant growth but slowly, in foreign soil. The greenhouse lets you test many conditions on chosen seeds. The soil patch keeps the original neighbors, but only briefly. None transports the entire original ecosystem.
 
-A **patient-derived xenograft (PDX)** grows human tumor material in another species, commonly a mouse. An **organoid** is a three-dimensional culture that organizes into selected tissue features. An **ex vivo tumor fragment** is a piece or slice of living tissue studied outside its original body. These describe preparations. “Expose it to a reagent and track T-cell movement” describes an experiment. The preparation's name does not supply its controls, result or clinical usefulness.
+- A **patient-derived xenograft (PDX)** grows human tumor material in another species, usually an immunodeficient mouse.
+- An **organoid** is a three-dimensional culture of tumor cells that organizes into selected tissue features.
+- An **ex vivo tumor fragment** (or slice) is a piece of living tumor kept alive outside the body for a short experiment.
 
-## How the three compare
+## What they share
 
-The table describes common starting designs. Specialized immune-containing organoids, co-cultures and humanized grafts change the contents and require their own checks. They do not erase the distinctions. [1,2]
+All three start from living patient tumor, so all three need fresh viable tissue rather than formalin-fixed tissue (see [FFPE versus fresh-frozen versus viable](/wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable)). All three can fail to produce a result, and none reproduces whole-body drug metabolism, healthy-organ toxicity or recruitment of new immune cells from blood.
 
-| Check | Conventional PDX | Tumor organoid | Ex vivo tumor fragment |
-|---|---|---|---|
-| What researchers do | Implant human tumor material and establish growth in an animal | Establish and often expand a selected three-dimensional culture | Cut living tissue into pieces or slices for a defined experimental window |
-| What may be retained | Useful human malignant-cell features and some tissue organization | Selected tumor populations and organization under culture conditions | Some original tumor cells, neighbors and local matrix architecture |
-| What can change or be missing | Human supporting cells can be replaced by mouse stroma and vessels; conventional hosts lack an intact human immune system | Culture and passage select populations; conventional epithelial preparations may lack original immune and supporting cells | Cutting injury, diffusion and changing survival alter the preparation; visible vessels do not establish blood flow |
-| Species and surroundings | Human tumor within a mouse; assign species to each relevant compartment | Tumor cells may be human; added cells, gel and medium have their own sources | Retained cells may be from the human sample; medium replaces bodily supply, and only a small region is sampled |
-| Current function to demonstrate | Growth, exposure and the species-specific target interaction needed by this experiment | Relevant cell behavior and response now, rather than identity alone | Viability and the required local behavior now; an immune-cell stain alone does not prove a functional interaction |
-| Selection and failures to retain | Submitted specimens, grafts established, passages and interpretable experiments | Submitted specimens, cultures established, normal-cell overgrowth, lost populations and usable assays | Collected samples, adequate tumor content, viable preparations and interpretable assays |
-| A bounded question it can help answer | How does this characterized graft grow under measured mouse exposure? | How do these identified cultured tumor cells respond under controlled conditions? | How do retained local cells behave in this characterized tissue during the stated window? |
+## The axis on which they differ
 
-Neither culture reproduces whole-body absorption, metabolism, healthy-organ toxicity or recruitment of new immune cells from the circulation. A mouse supplies circulation and whole-animal exposure, but its physiology is mouse physiology. A model response is therefore narrower than a human treatment-benefit claim. [1,3]
+They trade **time and expandability** against **how much of the original neighborhood survives**. The fragment keeps the most original neighbors for the shortest time. The organoid keeps selected tumor cells and can be expanded and re-tested. The PDX adds a living circulation, but a mouse's, and takes the longest.
 
 <div class="cartoon-frame">
 <img src="./images/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-light.svg" width="600" height="1800" data-theme-pair alt="Three stacked fictional preparations. PDX P has human tumor cells within mouse supporting tissue and circulation. Organoid O contains selected human tumor cells in a supplied gel with no demonstrated T-cell compartment. Fragment F retains local human tumor cells, T cells and matrix in a cut tissue piece without perfused blood flow. These contents indicate what to check, not a hierarchy or a functional result.">
-<p class="cartoon-caption">These are the three fictional preparations below, not every PDX, organoid or fragment. Shapes identify example compartments, not cell fractions. Retention makes a question possible; direct measurements establish whether the needed behavior persists.</p>
+<p class="cartoon-caption">Each model keeps a different compartment: the PDX swaps in mouse support and circulation, the organoid keeps selected tumor cells in a gel, and the fragment keeps local neighbors without blood flow.</p>
 </div>
 
-## Work through a question before choosing
+## Side by side
 
-Welcome to **MODEL-COMPARE-19**. All preparations, exposures, observations and numbers below are invented for learning. They are separate from any patient or service offer.
-
-The team asks: **Does reagent M change the movement of resident human T cells toward identified malignant epithelial nests through the sample's retained local matrix during six hours?** This asks about local movement and access, not tumor killing, immune recognition or patient benefit.
-
-Three preparations are available:
-
-| Preparation | Characterized contents now | Function and history | Fit for this exact question |
+| Check | Conventional PDX | Tumor organoid | Ex vivo tumor fragment or slice |
 |---|---|---|---|
-| **P: conventional PDX** | Verified human tumor cells in an immunodeficient mouse; species checks identify mouse supporting cells and vessels; the required resident human T-cell population has not been demonstrated | Established graft, passage 2; growth and mouse circulation are observed | Mouse growth cannot substitute for the missing human T-cell/matrix context of the original sample |
-| **O: tumor-only organoid** | Verified human malignant epithelial cells in a supplied gel; no T cells detected in the stated composition assay | Passage 3; viable growth under the specified medium, with culture selection recorded | Useful for a separate direct tumor-cell question; it lacks demonstrated T-cell movement through retained original tissue architecture |
-| **F: fresh tumor fragment** | Characterized in the card below | No expansion or animal engraftment; required behavior checked over the proposed window | The candidate that contains this question's local components; it still needs the proposed controlled experiment |
+| Time to a first result | **Months.** Developing a PDX ready for a drug study normally takes 4–8 months [1] | **Weeks.** Median 6 weeks (range 4–10) from biopsy to a 25-drug panel in colorectal cancer [2]; mean 6.8 weeks in pancreatic cancer [3] | **Days.** Breast biopsy slices were exposed to anthracycline chemotherapy for 3 days [4] |
+| How often a model is obtained | Varies by tumor type; more aggressive tumors generally engraft more often [1] | 61.5% of colorectal core biopsies [2]; 62% in pretreated pancreatic cancer [3] | 23 of 30 breast biopsies gave a usable result [4] |
+| What survives | Human malignant cells; human stroma and vessels are largely replaced by mouse tissue [5] | Selected tumor populations; conventional cultures usually lack immune and supporting cells [6] | Original tumor cells, immune cells and matrix, but no blood flow, and viability falls with time |
+| Throughput and repeat testing | Few drugs per model; can be passaged into more mice | Many drugs at once; can be frozen and re-tested | Few conditions; limited by the tissue piece; cannot be re-grown |
+| Best-fit question | Growth under whole-animal dosing in a characterized graft | Direct tumor-cell response to many drugs | Short-term local response, including immune activity in the original neighborhood |
 
-**F's characterized fragment card**
+## What agreement with patients has looked like
 
-| Field | Fictional record |
-|---|---|
-| Input and history | One human lung-tumor specimen, cut into matched adjacent slices; no culture expansion or graft passage. Pieces sample only part of the specimen |
-| Tumor identity | Source-matched pathology and epithelial labeling identify malignant nests; the label alone is not the malignancy test |
-| Retained compartments | Imaging identifies resident human T cells, stromal cells and collagen-rich local matrix beside malignant nests; spatial continuity is partly retained |
-| Current function | Validated live labeling permits T-cell tracking. Matched run-in slices retain viable malignant cells and trackable T-cell movement throughout the six-hour handling window. This demonstrates the stipulated movement, not antigen-specific recognition or killing |
-| Missing function and surroundings | Vessels may be visible, but no perfused circulation is demonstrated. There is no replenishment of blood-derived cells, human organ metabolism or whole-body toxicity test |
-| Exposure and clock | Proposed M exposure: 0.5 micromoles per liter for six hours; matched carrier, medium and handling. This invented culture condition is not a human dose or an established assay protocol |
-| Measurement | Prespecified T-cell track speed in micrometers per minute; fraction of initially eligible tracked T cells entering identified malignant nests during six hours. Fix eligibility, region boundaries and tracking rules before comparison |
-| Controls and quality | Matched vehicle slices, baseline and end-window viability, label-only/phototoxicity checks and a prespecified motility-assay response control. Keep individual slice results and independent donor identities |
-| Failure record | Poor viability, untrackable cells or absent malignant nests make the corresponding endpoint uninterpretable; exclusions keep their reasons and original denominators |
+These are the kinds of numbers a reader should ask for. Each is one small study in one setting.
 
-Primary human lung-slice experiments show that movement and matrix relationships can be measured in a specified preparation. Their methods included introduced T cells as well as observations of resident cells; they do not validate this fictional resident-cell labeling or six-hour experiment. [4]
+| Model | Study and population | Result |
+|---|---|---|
+| Fragment or slice | Ladan 2023: breast cancer biopsies before neoadjuvant chemotherapy [4] | 15 of 20 evaluable patients (75%) matched their MRI response. No tumor tested resistant in the dish, so the assay's ability to flag resistance was untested |
+| Organoid | Vlachogiannis 2018: heavily pretreated metastatic gastrointestinal cancers, 21 drug–patient comparisons [7] | Positive predictive value 88%, negative predictive value 100% |
+| Organoid | Boilève 2024: 34 evaluable patients with pretreated pancreatic cancer [3] | Sensitivity 83.3%, specificity 92.9% |
+| Fragment | Voabil 2021: patient tumor fragments exposed to an anti-PD-1 antibody [8] | The ability of immune cells to reactivate in the fragment was associated with clinical response to PD-1 blockade |
 
-## Answer the question-fit practice
+These are agreement studies. None shows that choosing treatment by the model improves survival; that needs a trial comparing model-guided with standard choice (see [how a model earns trust](/wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust)).
 
-**1. Choose P, O or F for the team's exact movement question. Explain the choice and one remaining limit.**
+## When each wins
 
-**Answer:** F is the candidate because its card demonstrates the required resident human T cells, local matrix and observable movement in the stated window. Compare M with vehicle using the specified tracking endpoints and quality checks. P and O, as currently characterized, do not contain the required context. F cannot establish new T-cell recruitment from blood, antigen-specific killing or clinical benefit. No M-versus-vehicle result has yet been supplied.
+- **Fragment:** the decision is days away and the question needs the original immune neighbors, as with checkpoint antibodies.
+- **Organoid:** you need to compare many drugs and can wait weeks.
+- **PDX:** you need whole-animal exposure or growth over time, and the answer can wait months, as in drug development rather than a single patient's next step.
 
-**2. The team now asks whether M reduces the number of living malignant cells directly after 48 hours, without an immune mechanism. Must F still win?**
+**Mental model:** fragment = original neighbors, days; organoid = chosen cells, many drugs, weeks; PDX = living host, months.
 
-**Answer:** No. O may support that narrower experiment if its 48-hour quality, exposures and attributed counts are checked. Compare starting and later counts with vehicle, and measure division and death separately when those claims matter. F's demonstrated six-hour window does not establish a viable 48-hour window. A whole-fragment metabolic decrease would also mix cell contributions. Changing the question changes the fit.
+## Try it
 
-**3. A third team asks about graft growth over a stated dosing schedule in a living mouse. Which preparation supplies that setting?**
+A team must choose a post-surgery treatment within three weeks and wants to know whether a checkpoint antibody reactivates the tumor's own T cells. Which model fits?
 
-**Answer:** P supplies the living mouse setting. The team must specify measured mouse exposure, schedule, baseline burden, assessment time, animal controls and species-specific target binding. Its answer concerns that graft in that mouse context. Several mice from one donor are not several independent human donors; mouse dosing does not establish a safe or useful human treatment.
-
-The three questions have three different possible fits. Adding immune cells to O or human components to P creates a revised preparation, whose compatibility and function must be characterized again.
-
-**4. Could the team choose F to show that a checkpoint-blocking antibody restores tumor-specific T-cell killing, because F contains moving T cells?**
-
-**Answer:** That conclusion remains untested in all three current records. F demonstrates movement, not tumor-specific recognition or killing. A suitable preparation would need persistent compatible cells, evidence for the required recognition interaction, attributed tumor-cell death and immune-function measurements, with appropriate antibody, tumor-only and recognition controls. Specialized immune organoids or supplemented grafts are possible revised designs, not capabilities supplied automatically by their names. Even a supported laboratory interaction leaves clinical usefulness unanswered.
-
-## Complete the experiment board
-
-Model choice starts the plan. Carry the required fields into each proposed experiment rather than treating its name as a completed test. These records are fictional; an explicitly missing field remains a reason to pause.
-
-| Preparation | Required current components | Exposure and clock | Readout and controls | Remaining limit or missing evidence |
-|---|---|---|---|---|
-| P: does the characterized graft grow differently under regimen R in a mouse? | Growing human malignant cells; identified mouse host/support; verify any species-specific target interaction | Proposed regimen R over days 0–7; dose, route and measured mouse/tumor exposure are **not supplied** | Baseline and day-7 graft volume in cubic millimeters; matched vehicle animals and handling, baseline burden and exposure checks; retain donor, graft and animal counts | This plan is incomplete until regimen and exposure records are supplied. Growth below a later control is not necessarily regression below baseline, or a human treatment prediction |
-| O: does M change viable malignant-cell counts directly over 48 hours? | Identified cultured malignant cells; no immune mechanism presumed; verify viability over the longer window | Proposed fictional 0.5 micromoles per liter M for 48 hours; matched medium/carrier and handling | Attributed viable tumor-cell count at start and 48 hours; vehicle, assay-response and mechanism controls; retain individual wells and donor identities | The current growth observation does not certify the whole 48-hour experiment. Measure division and death separately; medium exposure, culture selection and missing body systems limit the claim |
-| F: does M alter local T-cell movement toward malignant nests over six hours? | Characterized resident T cells, malignant nests, some native matrix and demonstrated trackable movement | Proposed fictional 0.5 micromoles per liter M for six hours; matched carrier/handling | Track speed and predefined entry fraction; vehicle, label/phototoxicity, motility-response and viability controls from F's card | No M result yet; no perfused recruitment, tumor-specific killing or patient benefit supplied |
-
-**Check the missing evidence:** Which plan needs an exposure record before even interpreting its proposed dosing comparison?
-
-**Answer:** P. “A PDX experiment” does not fill in regimen R. O and F have defined fictional culture exposures, but their quality and control results must also be documented before attributing an M effect. Extra wells, slices or animals improve measurement within a donor model; they do not turn one donor into several independent donors.
-
-## Keep models that failed in the denominator
-
-Here are separate fictional cohorts. The model-response criteria belong to their different locked experiments, so their fractions cannot rank the three model families.
-
-| Model experiment | Specimens submitted | Preparations meeting its quality rule | Interpretable donor-model experiments | Meeting its model-response criterion |
-|---|---:|---:|---:|---:|
-| P: mouse graft-growth experiment | 12 | 5 established grafts | 4 | 2 |
-| O: direct tumor-cell count experiment | 12 | 9 established cultures | 8 | 4 |
-| F: local movement experiment | 12 | 10 qualified fragments | 9 | 3 |
-
-**Practice:** What does F's 3/9 mean, and where do the other specimens go?
-
-**Answer:** Three of nine interpretable donor-model experiments meet F's predefined movement criterion. Quality coverage is separately 10/12; interpretable-result coverage is 9/12. Two failed qualification and one additional qualified preparation failed to yield the endpoint. Retain all three with reasons. None is automatically a negative biological response or a resistant cancer. P's 2/4 and O's 4/8 describe different experiments and endpoints; they are not competing accuracy or clinical-response rates.
-
-A primary breast-slice study likewise reported assay failures separately from evaluable results and limited its outcome comparison to a specified assay, treatment and imaging endpoint. That supports keeping failure and validation context visible; it does not establish universal fragment performance. [3]
+**Answer:** a fragment. It keeps resident T cells and returns a result in days. A conventional organoid usually lacks the T cells, and a PDX takes months in a host without a human immune system. The fragment result would still be one small-sample laboratory association, not proof of patient benefit.
 
 ## Common confusions
 
-- **“Patient-derived means patient-identical.”** Sampling, culture and engraftment can select populations; current species and composition still matter.
-- **“I can see T cells, so the immune mechanism works.”** Presence, movement, target recognition and killing are different measurements.
-- **“The more complex model is always better.”** Complexity helps only when it supplies biology needed by the question.
-- **“A successful assay makes a useful treatment decision.”** Reproducibility and association with clinical outcomes are separate from evidence that using the result improves decisions and patient outcomes.
+- **“Patient-derived means patient-identical.”** Sampling, culture and engraftment select populations.
+- **“A failed model means a resistant tumor.”** A culture or graft that does not grow gives no result; keep it in the denominator.
+- **“I can see T cells, so the immune mechanism works.”** Presence, movement, recognition and killing are different measurements.
+- **“More complex is better.”** Complexity helps only when it supplies biology the question needs, inside the time available.
 
 ## Explain it back
 
-“Our question is ___. This preparation currently retains ___ and demonstrates ___. It omits ___. Our measured result could support ___.”
+“For a decision due in ___, I would choose ___ because it keeps ___ ; it still leaves out ___.”
 
-One answer: “a six-hour local movement response; resident T cells and some original matrix; trackable movement; circulation; an effect under these experimental conditions.”
+**One possible answer:** “two weeks; a fragment; the tumor's own immune cells; blood flow, whole-body metabolism and proof of patient benefit.”
+
+## Takeaway
+
+**Pick the model whose preserved biology matches the question and whose time to result fits the decision.**
 
 ## Related concepts
 
@@ -149,13 +104,17 @@ One answer: “a six-hour local movement response; resident T cells and some ori
 - [Organoid](/wiki/education/concepts/measurement/functional-models/organoid)
 - [Ex vivo tumor fragments](/wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments)
 - [How a model earns trust](/wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust)
-- [Check an actual functional experiment](/wiki/education/molecular-profiling/05-functional-drug-response)
+- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
 
 ## Sources and scope
 
-Author source reading: October 12, 2026. All MODEL-COMPARE-19 records are fictional. This teaches question fit, not a model procurement, tissue-collection or treatment recommendation. Independent scientific and learner review remain pending.
+Source check: November 7, 2026. Times and agreement figures come from the named studies and do not generalize to every laboratory. Expert and learner review remain pending.
 
-1. [DeRose et al., 2011: primary breast-tumor graft study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/) — selected establishment and species/stromal results personally read. The studied grafts retained useful tumor features while human stromal components changed; no universal PDX success rate is inferred.
-2. [Neal et al., 2018: tumor immune-microenvironment organoids](https://pubmed.ncbi.nlm.nih.gov/30550791/) — complete primary abstract read; full-text XML and rendered PMC access failed. It describes a specialized immune-containing method, not every organoid or this fictional preparation.
-3. [Ladan et al., 2023: specified breast-tumor slice assay](https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/) — selected full-text Methods, Results and Discussion read, including quality rules, failures, diffusion and systemic/immune limitations. Original figure pixels, supplements and the full article were not reviewed.
-4. [Salmon et al., 2012: T-cell movement and matrix in human lung slices](https://www.jci.org/articles/view/45817) — selected primary Results, preparation/imaging passages and captions read. No original figure/video pixel or complete-method review is claimed; added-cell experiments are distinct from the fictional resident-cell tracking design.
+1. [Hidalgo et al., 2014: patient-derived xenograft review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/) — 4–8 months to a study-ready PDX; take rates (PMID 25185190).
+2. [Cartry et al., 2023: organoids in advanced colorectal cancer](https://doi.org/10.1186/s13046-023-02853-4) — 61.5% take from core biopsies; 6-week median turnaround (PMID 37880806).
+3. [Boilève et al., 2024: organoids in advanced pancreatic cancer](https://doi.org/10.1053/j.gastro.2024.05.032) — 62% take; 6.8-week mean turnaround; sensitivity and specificity in 34 evaluable patients (PMID 38866343).
+4. [Ladan et al., 2023: breast biopsy slice anthracycline assay](https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/) — 3-day exposure; 23/30 usable; 15/20 concordant with MRI response.
+5. [DeRose et al., 2011: breast-tumor grafts and species-specific stroma](https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/).
+6. [Neal et al., 2018: immune-containing tumor organoids](https://pubmed.ncbi.nlm.nih.gov/30550791/) — a specialized method; conventional organoids lack these cells.
+7. [Vlachogiannis et al., 2018: organoids in metastatic gastrointestinal cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC6112415/) — 21 comparisons; PPV 88%, NPV 100% (PMID 29472484).
+8. [Voabil et al., 2021: ex vivo tumor fragments and PD-1 blockade](https://doi.org/10.1038/s41591-021-01398-3) (PMID 34239134).

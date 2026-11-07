@@ -9,11 +9,11 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy]]"
   - "[[wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant]]"
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: [education, therapeutics, breast-cancer]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -95,6 +95,8 @@ A fictional operative note records breast-conserving excision, sentinel-node bio
 
 - [Breast lymphatic drainage](/wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla)
 - [Pathologic complete response](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr)
+- [Completion surgery](/wiki/education/concepts/therapeutics/local-therapies/completion-surgery)
+- [Regional nodal irradiation after neoadjuvant therapy](/wiki/education/concepts/therapeutics/local-therapies/regional-nodal-irradiation-after-neoadjuvant-therapy)
 
 ## Sources and scope
 
@@ -108,7 +110,8 @@ Source check: October 10, 2026. General surgical roles and a fictional exercise;
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
-- [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
+- [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)
 <!-- END GENERATED USED IN -->

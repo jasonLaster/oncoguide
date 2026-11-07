@@ -7,7 +7,7 @@ glossary_anchor: "angiogenesis"
 aliases: ["angiogenesis", "tumor angiogenesis", "vascular normalization"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-10"
@@ -101,5 +101,4 @@ Source check: October 10, 2026. General vessel biology and selected preclinical 
 ## Used in
 
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 <!-- END GENERATED USED IN -->

@@ -1,0 +1,9 @@
+Authored SVG direction (recorded November 7, 2026 from peptide-observation-and-protein-inference-v1-public-custody.json when the image was adopted into its owner page)
+Tool: authored SVG; the custody record lists no executed image-model call.
+Owner page: wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics.md
+Section: How it works
+Learner task: Distinguish shared peptide evidence from an intact protein or surface count
+Gap addressed: Current workflow does not show digestion and shared-source inference
+Scene: Three scenes show proteins from a mixed tissue extract cut into peptides, a measured peptide signal matching a shared segment in two candidate protein sequences, and unresolved questions about the intact form, cell source and surface accessibility.
+Scientific-accuracy guardrails: Separate peptide observations, shared-source protein inference and intact/surface protein quantities. A shared peptide need not uniquely identify one protein, isoform, cell source or target accessibility.
+Theme: light and dark variants share geometry; text and strokes meet contrast on both backgrounds.

@@ -10,8 +10,8 @@ used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/
 glossary_anchor: "sequencing-reads"
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -73,18 +73,11 @@ A small tumor population may contribute few variant-containing molecules. Many r
 
 ## Try it
 
-<!-- BEGIN INDEPENDENT INSERTION PROOF brief-098: scratch SVG candidate, independent G3 pending, not adopted -->
-Start at the left of the picture, where the fragments live. Each bracket joins two observations from the same fragment: one read from each end. You can count ten reads, but those ten observations are grouped into five pairs. Reading the second end adds information about that fragment; it does not add another original molecule. [Illumina's paired-end explanation](https://www.illumina.com/science/technology/next-generation-sequencing/plan-experiments/paired-end-vs-single-read.html)
-
-Now follow the separate copy example. Several sequenced copies can trace back to one fragment. The instrument has made more observations, while the molecular ancestry remains shared. That is why a read count needs the preparation and counting rules beside it. A list of alignment records is another count again: one read may appear in several records. [SAM specification, sections 1.2 and 1.4](https://samtools.github.io/hts-specs/SAMv1.pdf)
-
+<div class="cartoon-frame">
 <img src="./images/paired-reads-and-fragment-ancestry-v1-light.svg" alt="Five labeled fragment rows each have a left-end read and a right-end read joined as one pair; a separate vignette traces three sequenced copies and their six reads back to one source fragment." width="780" height="1880" data-theme-pair>
+<p class="cartoon-caption">Ten paired-end reads come from at most five fragments, and amplified copies can trace back to one fragment: more reads are not more molecules.</p>
+</div>
 
-Fictional example: ten overlapping paired-end reads represent at most five distinct library fragments; copies can reduce independent support further. The separate copy vignette shows ancestry, not a universal duplicate-filter rule or a count of cells.
-
-**Explain it back:** “The two ends help me place the fragment, but ____.”  
-**One answer:** “…they still come from the same fragment, and copies may share an earlier ancestor.”
-<!-- END INDEPENDENT INSERTION PROOF brief-098 -->
 
 A fictional finding has ten supporting reads, comprising five overlapping read pairs from five library fragments. Are there ten independent fragments?
 
@@ -107,7 +100,7 @@ One answer: how they handle paired ends, duplicates, molecular tags and alignmen
 
 ## Sources
 
-Source check: October 10, 2026. Expert and learner review remain pending. Examples are fictional.
+Source check: November 7, 2026. Expert and learner review remain pending. Examples are fictional.
 
 - [NCBI SRA: file formats and read records](https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/).
 - [Ewing and Green 1998: Phred error probabilities](https://doi.org/10.1101/gr.8.3.186).

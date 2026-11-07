@@ -12,13 +12,13 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"
   - "[[wiki/education/concepts/biology-basics/cells/epithelium-and-stroma]]"
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]"]
+used_by: ["[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
 sensitive: false
 tags:
   - education
   - immunology
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -59,7 +59,16 @@ flowchart TD
 
 ## Why it matters in cancer
 
-Different lymphocytes can support, restrain or accompany a response. Presence can help describe a specimen and generate questions. It does not establish that all cells attack cancer, that another disease site has the same pattern or that a particular therapy will help.
+**In early triple-negative breast cancer (TNBC), stromal TILs (sTILs) are one of the best-validated prognostic factors.** Two pooled analyses anchor this:
+
+| Study | Population | Finding |
+|---|---|---|
+| [Loi et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30650045/) | 2,148 patients with early TNBC from nine studies, given anthracycline-based adjuvant chemotherapy, with or without a taxane | Each 10% increase in sTILs: invasive disease-free survival (iDFS) hazard ratio (HR) 0.87 (95% CI 0.83–0.91); overall survival (OS) HR 0.84 (0.79–0.89). Node-negative patients with sTILs ≥30% had 3-year OS of 99% |
+| [Denkert et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29233559/) | 3,771 patients from six German Breast Group neoadjuvant chemotherapy trials, 906 of them with TNBC | TNBC [pathological complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr): 31% with low (0–10%), 31% with intermediate (11–59%) and 50% with high (≥60%) sTILs |
+
+These are **prognostic** findings in chemotherapy-treated patients: they describe who tends to do better. They do not show that a high or low sTIL value changes how much a patient gains from adding pembrolizumab, which is a **predictive** question that needs a comparison between treatment arms. See [prognostic vs predictive](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive).
+
+Lymphocyte presence still does not establish that every cell attacks cancer or that another disease site has the same pattern.
 
 [TIL therapy](/wiki/education/concepts/therapeutics/cell-therapies/til-therapy) collects tumor-derived immune cells, expands them outside the body and transfers a manufactured cell product. That is a treatment category. A tissue count is not product yield, composition, potency or proof of successful therapy; culture can change the represented population.
 
@@ -99,6 +108,7 @@ A fictional breast section has 2 mm² of eligible tumor-associated stroma, with 
 - TIL describes location; CD8 describes a cell phenotype.
 - An area percentage and a cell fraction are different measurements.
 - Presence, specificity and useful function are different claims.
+- Prognostic (sTILs track outcome after chemotherapy) is not predictive (sTILs tell you who gains from a specific drug).
 - TIL biology, stromal scoring and TIL therapy have different jobs.
 
 ## Explain it back
@@ -116,14 +126,16 @@ A fictional breast section has 2 mm² of eligible tumor-associated stroma, with 
 
 ## Sources and scope
 
-Source-checked October 10, 2026. Cell-location terminology, a human specificity study and breast-scoring rules; fictional practice. Expert and learner review remain pending.
+Source-checked November 7, 2026. Cell-location terminology, a human specificity study, breast-scoring rules and two pooled TNBC prognosis analyses; fictional practice. Expert and learner review remain pending.
 
 - [NCI: tumor-infiltrating lymphocyte](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-infiltrating-lymphocyte).
 - [Simoni et al., 2018: bystander CD8 T cells in lung and colorectal tumors](https://pubmed.ncbi.nlm.nih.gov/29769722/).
 - [Salgado et al., 2015: stromal-area scoring recommendations](https://pmc.ncbi.nlm.nih.gov/articles/PMC6267863/).
+- [Loi et al., 2019: pooled sTIL prognosis in early TNBC, *J Clin Oncol* 37:559–569](https://pubmed.ncbi.nlm.nih.gov/30650045/).
+- [Denkert et al., 2018: TILs and response in 3,771 neoadjuvant patients, *Lancet Oncol* 19:40–50](https://pubmed.ncbi.nlm.nih.gov/29233559/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
 <!-- END GENERATED USED IN -->

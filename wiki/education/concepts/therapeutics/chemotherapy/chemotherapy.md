@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/targeted-therapy-modalities/02-timing]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]","[[wiki/education/targeted-therapy-modalities/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -40,6 +40,8 @@ Chemotherapy is a family of treatments, not one mechanism. Here it means convent
 | [Anthracyclines](/wiki/education/concepts/therapeutics/chemotherapy/anthracyclines) | DNA handling, including topoisomerase II cut-and-reseal processes | Doxorubicin |
 | [Classic alkylating agents](/wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents) | Cellular functions through reactive attachments, including DNA lesions | Cyclophosphamide's active metabolites |
 | [Fluoropyrimidines](/wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines) | Nucleotide metabolism and RNA biology | Fluorouracil; capecitabine supplies a prodrug route |
+| [Topoisomerase I inhibitors](/wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors) | DNA unwinding; a trapped enzyme becomes a break during copying | Irinotecan; SN-38 and DXd as antibody-drug conjugate payloads |
+| Microtubule destabilizers | Microtubule assembly, the opposite of taxanes' stabilizing action | Eribulin; auristatins (MMAE) and maytansinoids (DM1) as [ADC payloads](/wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes) |
 
 These consequences overlap without identical chemistry. “Chemotherapy damages DNA” is therefore too narrow. Paclitaxel's microtubule effects include interphase functions outside division. Fluorouracil metabolites affect nucleotide synthesis and can enter RNA or DNA.
 
@@ -116,7 +118,7 @@ A fictional assay shows half as many cells after exposure, but no direct death m
 
 ## Sources and scope
 
-Source check: October 10, 2026. General mechanisms with fictional practice; no drug, dose or schedule selection. Expert and learner review remain pending.
+Source check: October 10, 2026; payload rows linked November 7, 2026. General mechanisms with fictional practice; no drug, dose or schedule selection. Expert and learner review remain pending.
 
 - [NCI: chemotherapy to treat cancer](https://www.cancer.gov/about-cancer/treatment/types/chemotherapy) — purposes, routes and renewing-tissue effects.
 - [Tewey et al., 1984](https://pubmed.ncbi.nlm.nih.gov/6093249/) — topoisomerase II-mediated damage in laboratory experiments.

@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/chemotherapy/chemotherap
 used_by: ["[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -63,6 +63,7 @@ Clinical records distinguish the dose per administration from the cumulative amo
 
 - **“Antibiotic” versus infection treatment:** anthracyclines are called antitumor antibiotics because of their origin/classification; that does not make them routine infection medicines.
 - **Inhibitor versus topoisomerase poison:** stabilizing a damaging intermediate differs from simply preventing all enzyme activity.
+- **Topoisomerase II versus topoisomerase I:** anthracyclines poison topoisomerase II, which cuts both DNA strands. [Topoisomerase I inhibitors](/wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors), such as irinotecan's active form SN-38 and the antibody-drug conjugate payload DXd, trap the enzyme that cuts one strand. Both are poisons, but of different enzymes, so resistance to one does not by itself imply resistance to the other, although a shared efflux pump can affect both.
 - **One dose versus cumulative exposure:** previous treatment can remain relevant.
 - **Same active drug versus same formulation:** liposomal and conventional products require their own instructions and evidence.
 
@@ -85,7 +86,7 @@ In a fictional experiment, doxorubicin increases enzyme-associated DNA breaks. A
 
 ## Sources and scope
 
-Source-checked October 9, 2026; expert and learner review pending. Mechanism examples and monitoring vocabulary; no cumulative-dose limit or treatment recommendation.
+Source-checked October 9, 2026; topoisomerase I contrast added November 7, 2026; expert and learner review pending. Mechanism examples and monitoring vocabulary; no cumulative-dose limit or treatment recommendation.
 
 - [NCI Drug Dictionary: doxorubicin hydrochloride](https://www.cancer.gov/publications/dictionaries/cancer-drug/def/doxorubicin-hydrochloride) — intercalation, topoisomerase II and reactive-molecule mechanisms.
 - [NCI Drug Dictionary: epirubicin hydrochloride](https://www.cancer.gov/publications/dictionaries/cancer-drug/def/epirubicin-hydrochloride) — confirms the second family example; no interchangeable dosing or toxicity inferred.

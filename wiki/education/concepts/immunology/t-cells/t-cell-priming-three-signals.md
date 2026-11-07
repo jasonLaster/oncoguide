@@ -4,14 +4,14 @@ type: "concept"
 domain: "immunology/t-cells"
 summary: "T-cell priming is the initial activation of a naive T cell by antigen recognition and a supporting signal context."
 glossary_anchor: "t-cell-priming-three-signals"
-aliases: ["priming", "three signals"]
+aliases: ["priming", "three signals", "cross-priming"]
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -34,13 +34,13 @@ It is a teaching model, rather than a literal three-button machine. Signals over
 
 <img src="./images/priming-contact-context-and-distinct-outcomes-v1-light.svg" alt="One naive T-cell priming encounter locates peptide–HLA recognition, CD28 support and local cytokine exposure, with division kept separate from cytolytic function." data-theme-pair />
 
-*Recognition, support and cytokine context occur in one encounter; division, cytolytic function, tumor access and clinical benefit need separate evidence. TCR means T-cell receptor; p–HLA means peptide–human leukocyte antigen; IL-12 means interleukin 12.*
+*Recognition, support and cytokine context occur in one encounter; division, cytolytic function, tumor access and clinical benefit need separate evidence. TCR means T-cell receptor; p–HLA means peptide–human leukocyte antigen; IL-12 means interleukin 12, one signal-three cytokine; type I interferon is another.*
 
 **Signal one** is recognition of a peptide–human leukocyte antigen ([HLA](/wiki/education/concepts/immunology/antigen-presentation/hla)) complex by a [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-receptor). A naive cell already has that receptor; the encounter selects a responsive cell rather than creating a receptor designed for this tumor.
 
 **Signal two** includes [costimulatory interactions](/wiki/education/concepts/immunology/t-cells/costimulation). One established example is cluster of differentiation 80/86 (CD80/CD86) on an antigen-presenting cell engaging CD28 on a T cell. Inhibitory inputs also shape the combined response. “More support” is not a general instruction to remove every brake.
 
-**Signal three** describes [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) that influence growth, differentiation and function. Cytokines are signaling proteins, not nutritional fuel. Interleukin 12 (IL-12) helped naive CD8 cells develop cytolytic function in Curtsinger and colleagues' defined experiments. Antigen-driven division without that supporting context did not provide the same function. This is a model-specific demonstration that proliferation and effector differentiation can separate, not a universal cytokine prescription.
+**Signal three** describes [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) that influence growth, differentiation and function. Cytokines are signaling proteins, not nutritional fuel. For naive CD8 T cells, two established signal-three cytokines are interleukin 12 (IL-12) and type I interferons (interferon alpha and beta). In Curtsinger and colleagues' experiments, either one let naive CD8 cells survive, expand and develop cytolytic function ([Curtsinger et al., 2005](https://pubmed.ncbi.nlm.nih.gov/15814665/)). Type I interferon links innate sensing, such as [cGAS-STING](/wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting), to T-cell priming. Antigen-driven division without that supporting context did not provide the same function. This is a model-specific demonstration that proliferation and effector differentiation can separate, not a universal cytokine prescription.
 
 [Dendritic cells](/wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells) are especially important for naive-cell priming, often after acquiring antigen and reaching a lymphoid meeting site. A tumor's ability to display a target is distinct from an antigen-presenting cell's ability to initiate the response. Recognition without appropriate support can favor tolerance or reduced responsiveness.
 
@@ -97,6 +97,7 @@ Priming combines recognition and supporting signals, while each resulting functi
 
 Source-checked October 10, 2026. The cultures are fictional; the cited experiments establish mechanisms within their stated systems. Expert and learner review remain pending.
 
+- [Curtsinger et al., 2005: type I interferons as a third signal](https://pubmed.ncbi.nlm.nih.gov/15814665/).
 - [Curtsinger et al., 2003: signal three and naive CD8 cells](https://pmc.ncbi.nlm.nih.gov/articles/PMC2193970/) — controlled in vitro and mouse experiments separating proliferation from cytolytic function.
 - [Linsley et al., 1991: B7–CD28 costimulation](https://pubmed.ncbi.nlm.nih.gov/1847722/) — binding and cellular activation experiments.
 - [Bennett et al., 1998: antigen-presenting-cell help](https://pubmed.ncbi.nlm.nih.gov/9624004/) — CD40 signaling in experimental cross-priming.
@@ -108,10 +109,9 @@ Source-checked October 10, 2026. The cultures are fictional; the cited experimen
 - [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
 - [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 - [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
-- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 <!-- END GENERATED USED IN -->

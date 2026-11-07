@@ -2,8 +2,8 @@
 title: "Tumor-informed versus tumor-naive residual-disease assays"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: "2026-10-12"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -27,7 +27,7 @@ A tumor-informed molecular residual disease assay uses features identified in a 
 
 A tumor-informed approach starts with a reference description, then looks for matching traces. A tumor-naive approach applies a previously designed detector without building that patient's tumor reference first. Think “known fingerprint” versus “specified screening features.”
 
-The analogy does not rank accuracy. A fingerprint can be poorly sampled, and a broader detector can be well validated. Performance belongs to the actual method and intended use.
+The analogy holds for sensitivity as a general pattern: knowing exactly what to look for usually lets an assay find fainter traces. It breaks for coverage. A fingerprint taken from one biopsy cannot match a clone that was not in that biopsy, and it cannot exist until the tumor has been sequenced.
 
 ## How it works
 
@@ -37,7 +37,7 @@ A **tumor-naive** assay does not require a patient-specific tumor reference to c
 
 <img src="./images/tumor-informed-mrd-assay-comparison-reference-routes-v1-light.svg" alt="Two reference branches join one illustrative later-plasma testing stage. A tumor-informed mutation strategy selects features from suitable sampled tumor material. A tumor-naive strategy begins with predefined features and rules. A single finite plasma tube represents a shared input constraint, not duplicated molecules or equal assay performance. Both routes retain source attribution, sample-quality, calling-rule and intended-use validation requirements." width="780" height="1200" data-theme-pair />
 
-*One axis, two reference routes: tumor-selected features versus predefined features and rules. Both meet finite plasma input, background attribution and assay-specific calling requirements. This is a design comparison, not a sensitivity hierarchy. [FDA 2024, section IV](https://www.fda.gov/media/183874/download).*
+*One axis, two reference routes: tumor-selected features versus predefined features and rules. Both meet the same finite plasma tube, background attribution and calling rules. [FDA 2024, section IV](https://www.fda.gov/media/183874/download).*
 
 | Question | Tumor-informed | Tumor-naive |
 |---|---|---|
@@ -46,7 +46,28 @@ A **tumor-naive** assay does not require a patient-specific tumor reference to c
 | Important limits | Reference quality, trackable features and representativeness of selected targets | Coverage, background discrimination and classifier transfer |
 | Shared limits | Finite blood input, shedding, specimen handling and validated calling rules | The same biological and sampling constraints still apply |
 
-Amplification and sequencing methods can be combined. Neither category is a fixed technological sensitivity tier. More targets may provide more opportunities for detection, but specificity, molecule recovery and the interpretation rule still matter. A fixed tracking panel should not be assumed to discover every newly emerging resistance variant.
+### Why tracking many known variants lowers the detection limit
+
+An assay sees only the genome copies put into it (see [limit of detection and sampling](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling)). In the breast-cancer study below, a standard input was 4,500 genome copies of cell-free DNA (cfDNA), about 15 nanograms. At a tumor fraction of 1 in 100,000, any single tumor position is then usually absent by chance. Each additional tumor-specific variant is another, largely independent chance to catch a tumor fragment. The study's theoretical detection limit was 1 ÷ (input copies × variants tracked): with 4,500 copies and 47 variants, 1 in 211,500, or 4.7 parts per million. Knowing the exact variants also lets the assay ignore everything else, which lowers background error. Whole-genome designs push the same logic further, integrating thousands of tumor mutations to reach tumor fractions near 1 in 100,000 ([Zviran 2020](https://doi.org/10.1038/s41591-020-0915-3)).
+
+**The general pattern, with a source.** In serial plasma from people with breast cancer, Santonja and colleagues ran tumor-informed and tumor-naive assays on the same samples. Tumor-informed assays were the most sensitive at low ctDNA levels. Hybrid-capture sequencing of 1,347 to 7,491 tumor-identified mutations per patient detected ctDNA down to an allele fraction of 2.4 parts per million (0.00024%); multiplex PCR across 21 to 47 tumor structural variants reached 4.7 parts per million ([Santonja 2023](https://doi.org/10.15252/emmm.202216505)).
+
+**What the tumor-informed design costs.**
+- **Tissue.** It needs enough tumor DNA (and usually a matched normal sample) to build the panel. After neoadjuvant therapy, little or no viable tumor may remain, so the pre-treatment biopsy is often the only source.
+- **Time.** Sequencing the tumor and building a personal panel delays the first result; reviews describe tumor-agnostic tests as faster and more accessible ([Sharma 2026](https://doi.org/10.3389/fonc.2026.1894198)).
+- **New clones.** A fixed list cannot see variants that arose after the tumor was sampled, such as resistance mutations.
+
+Specificity, molecule recovery and the calling rule still matter for both designs, and a given product's performance must be checked in its own validation.
+
+## When each wins
+
+| Situation | Usually better fit | Why |
+|---|---|---|
+| Lowest-level residual disease after curative treatment, tumor tissue available | Tumor-informed | More tracked variants per tube; known targets cut background |
+| No usable tumor tissue, or a result is needed quickly | Tumor-naive | No reference build |
+| Looking for new resistance variants | Tumor-naive (broad panel) | A fixed tracking list cannot see variants outside it |
+
+**Mental model:** tumor-informed is a search warrant for named suspects (sensitive but blind to strangers); tumor-naive is a patrol for known kinds of trouble (faster and broader, but needs more signal).
 
 ## Worked comparison: read the input contract
 
@@ -106,11 +127,14 @@ Describe the reference strategy, then inspect performance in the actual setting.
 
 ## Sources and scope
 
-Source check: October 10, 2026. Fictional comparison; expert and learner review remain pending.
+Source check: November 7, 2026. Fictional comparison; expert and learner review remain pending.
 
 - [FDA 2024 circulating tumor DNA (ctDNA) drug-development guidance](https://www.fda.gov/media/183874/download) — tumor-informed/tumor-naive design and complete-workflow validation.
 - [García-Murillas et al. 2019](https://doi.org/10.1001/jamaoncol.2019.1838) — a defined tumor-informed breast-cancer surveillance study, not a category-wide performance ranking.
 - [Razavi et al. 2019](https://doi.org/10.1038/s41591-019-0652-7) — plasma variant attribution with matched blood-cell and tumor material.
+- [Santonja et al. 2023](https://doi.org/10.15252/emmm.202216505) — same-sample comparison of tumor-informed and tumor-naive assays in breast cancer (PMID 37161793).
+- [Zviran et al. 2020](https://doi.org/10.1038/s41591-020-0915-3) — genome-wide mutation integration; limited fragment numbers restrict deep targeted sequencing (PMID 32483360).
+- [Sharma et al. 2026](https://doi.org/10.3389/fonc.2026.1894198) — colorectal-cancer review of assay selection: tissue access and processing time for tumor-informed tests (PMID 42609878).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

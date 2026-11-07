@@ -4,12 +4,12 @@ type: guide-lesson
 guide: start-here
 step: 1
 minutes: 10
-objectives: ["Separate a tumor's classification, appearance and extent.", "Attach a label to the specimen and method that produced it."]
+objectives: ["Say what triple-negative means and why it shapes treatment.", "Separate a tumor's classification, appearance and extent.", "Attach a label to the specimen and method that produced it."]
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
 sensitive: false
 tags: [education, foundations, breast-cancer]
-updated: 2026-10-10
-source_checked: 2026-10-09
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -57,7 +57,7 @@ A pathologist examines the tissue and integrates the relevant tests. The final i
 
 HER2 means human epidermal growth factor receptor 2. It is a protein and its associated testing category, rather than a name for all growth signals. [Estrogen receptor](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor) and [progesterone receptor](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor) are separate hormone receptors. Their reports help define hormone-receptor status.
 
-[Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) is a receptor-based category. The name does not mean the cancer has no proteins, no molecular differences or no treatment options. Different tumors within the category can have different biology.
+[Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) means the tumor tested **negative for all three**: estrogen receptor, progesterone receptor and HER2. That matters because those three are the targets of hormone therapy and HER2 drugs, the backbone of treatment for most other breast cancers. Without them, chemotherapy and immunotherapy carry treatment. TNBC is about 15% of breast cancers, is more often found at a younger age and grows faster than other invasive types [1]. "Triple-negative" does not mean the cancer has no other targets; tumors within the category still differ.
 
 ## A worked report: two descriptions can both be true
 
@@ -67,15 +67,9 @@ Imagine a fictional biopsy describes a high-grade invasive breast cancer with tr
 
 Now imagine a later surgical report finds sparse residual invasive cancer in a treated tumor bed. That later finding does not rewrite the earlier biopsy into a post-treatment measurement. You need both dates and settings to understand the change.
 
-## Keep three kinds of change apart
+## The picture can change over time
 
-The same tumor name can cover a changing picture:
-
-- **The cancer-cell mixture can change.** [Clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution) concerns related cancer-cell populations and their changing representation. A difference between two small samples does not by itself prove that a new resistant clone evolved.
-- **Cells can change state.** An alive cell can stop dividing without having died. [Senescence](/wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence) is one specific state; a low proliferation marker alone cannot assign it.
-- **The neighborhood can change.** Different vessels, immune populations and support tissue can alter the context. A mixed-sample signal may change because its contributors changed, even when a cancer-cell feature stayed the same.
-
-[Hallmarks of cancer](/wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer) organize biological capabilities and enabling conditions. They are a teaching framework, rather than a stage assignment or a checklist of findings in this specimen. [Metastasis and dormancy](/wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy) explain spread and forms of persistence; they do not supply a personal recurrence clock.
+The same tumor name can cover a changing picture: the mix of cancer cells can shift, cells can stop dividing without dying, and the surrounding tissue can change. That is why a biopsy before treatment and the surgical specimen after it are read as two moments. [Clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution) explains the first in more depth.
 
 ## What can go wrong at this step
 
@@ -104,9 +98,9 @@ A fictional report says “grade 3.” A friend reads this as “stage III” an
 
 ## Sources and scope
 
-General report-reading education, source-checked October 9, 2026; expert and learner review pending. The report is fictional and is not a staging calculation.
+General report-reading education, source-checked November 7, 2026; expert and learner review pending. The report is fictional and is not a staging calculation.
 
-Cancer, evolution, ecosystem and cell-state links added October 10, 2026. Their linked concepts carry the scoped mechanism sources; this lesson keeps the emphasis on interpreting the specimen.
+1. [NCI: Triple-negative breast cancer](https://www.cancer.gov/types/breast/breast-cancer-types/triple-negative) — definition, share of breast cancers, age and growth.
 
 - [NCI: What is cancer?](https://www.cancer.gov/about-cancer/understanding/what-is-cancer), for altered cell behavior and tumor diversity.
 - [NCI: Pathology reports](https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet), for specimen, description and final diagnosis.

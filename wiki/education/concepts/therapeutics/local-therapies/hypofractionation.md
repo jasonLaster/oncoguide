@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/local-therapies/radiatio
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -31,7 +31,7 @@ Radiation can be divided into differently sized portions. Fewer portions do not 
 
 In [radiation therapy](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics), a **fraction** is one treatment dose. Hypofractionation uses a larger dose per fraction than the conventional schedule used for comparison in that clinical setting. It commonly reduces the number of visits and may shorten the course. **Gray (Gy)** is the unit of absorbed radiation dose.
 
-Total dose equals dose per fraction multiplied by the number of fractions when the fractions are equal. Biological effect does not follow that multiplication alone. Tumor cells and normal tissues differ in their responses to dose size and in their ability to repair damage between exposures. Overall treatment time, oxygen and changing cell populations matter too. Normal tissues and tumors need not respond in the same way, so a fraction-size change is evaluated for both control and harm. A lower physical total dose can therefore belong to an effective tested schedule; it is not automatically undertreatment.
+Total dose equals dose per fraction multiplied by the number of fractions when the fractions are equal. Biological effect does not follow that multiplication alone. Tumor cells and normal tissues differ in their responses to dose size and in their ability to repair damage between exposures. Radiobiologists summarize this fraction-size sensitivity with a parameter called **α/β (alpha/beta)**, in Gy. By convention, about 10 Gy is used for tumors and early-responding tissues such as skin and mucosa, and about 3 Gy for late-responding normal tissues. A low α/β means a tissue is more sensitive to fraction size. Breast cancer breaks the convention: the START trials estimated about 4.6 Gy for tumor control and 3.4 Gy for late change in breast appearance. The trialists concluded that breast cancer and its dose-limiting normal tissues respond similarly to fraction size. Overall treatment time, oxygen and changing cell populations matter too. Normal tissues and tumors need not respond in the same way, so a fraction-size change is evaluated for both control and harm. A lower physical total dose can therefore belong to an effective tested schedule; it is not automatically undertreatment.
 
 ```mermaid
 %%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
@@ -49,7 +49,7 @@ Larger fraction size differs from accelerated treatment, which changes timing. A
 
 ## Why it matters in cancer
 
-Breast-cancer trials illustrate why direct testing matters. The [UK Standardisation of Breast Radiotherapy (START) trials](https://pubmed.ncbi.nlm.nih.gov/24055415/) studied defined postoperative schedules and followed local-regional relapse and late normal-tissue effects. The [FAST-Forward trial](https://pubmed.ncbi.nlm.nih.gov/32580883/) compared one-week and three-week schedules after primary surgery for early breast cancer. Their evidence remains attached to the tested regimens, populations and follow-up.
+Breast-cancer trials illustrate why direct testing matters. The [UK Standardisation of Breast Radiotherapy (START) trials](https://pubmed.ncbi.nlm.nih.gov/24055415/) studied defined postoperative schedules and followed local-regional relapse and late normal-tissue effects. START-B compared 50 Gy in 25 fractions over five weeks with 40 Gy in 15 over three weeks. The [FAST-Forward trial](https://pubmed.ncbi.nlm.nih.gov/32580883/) then randomized 4,096 people after primary surgery for early breast cancer to 40 Gy in 15 fractions over three weeks or to 27 Gy or 26 Gy in 5 fractions over one week. At five years, 26 Gy in 5 fractions was non-inferior for ipsilateral breast tumor relapse (2.1% after 40 Gy) and caused similar normal-tissue effects; 27 Gy in 5 caused more. Their evidence remains attached to the tested regimens, populations and follow-up.
 
 They do not show that any five-treatment schedule is equivalent to any longer course. Nor does evidence for local breast or chest-wall treatment automatically settle every nodal field, reirradiation context or other cancer. The treatment volume, population, dose and follow-up remain part of the evidence.
 
@@ -105,11 +105,12 @@ Count, dose size and biological effect are different quantities. Carry the compl
 
 ## Sources and scope
 
-Source check: October 10, 2026. Fractionation vocabulary and disease-specific trial illustrations; no individual schedule selection. Expert and learner review remain pending.
+Source check: November 7, 2026 (α/β convention and FAST-Forward schedules); October 10, 2026 for the rest. Fractionation vocabulary and disease-specific trial illustrations; no individual schedule selection. Expert and learner review remain pending.
 
 - [NCI: external-beam radiation schedules](https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam) — patient-education fractionation and accelerated-treatment sections checked.
-- [International Atomic Energy Agency, 2005: Radiation Oncology Physics, section 14.12](https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf) — selected fractionation and repair discussion checked; historical radiobiology teaching, not a current schedule recommendation.
+- [International Atomic Energy Agency, 2005: Radiation Oncology Physics, sections 14.7, 14.9 and 14.12](https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf) — fractionation, repair and the α/β ≈ 10 Gy and ≈ 3 Gy convention checked; historical radiobiology teaching, not a current schedule recommendation.
 - [Haviland et al., 2013: ten-year START trial results](https://pubmed.ncbi.nlm.nih.gov/24055415/) — complete primary abstract checked for postoperative population, exact START-B schedules and local-regional/late tissue endpoints.
+- [START Trialists' Group, 2008: START-A](https://pubmed.ncbi.nlm.nih.gov/18356109/) — abstract checked for α/β estimates (4.6 Gy, 95% confidence interval 1.1–8.1, tumor control; 3.4 Gy, 2.3–4.5, late change in breast appearance).
 - [Brunt et al., 2020: five-year FAST-Forward results](https://pubmed.ncbi.nlm.nih.gov/32580883/) — complete primary abstract checked for postoperative whole-breast/chest-wall population, specified schedules and endpoints; no broader indication inferred.
 
 <!-- BEGIN GENERATED USED IN -->

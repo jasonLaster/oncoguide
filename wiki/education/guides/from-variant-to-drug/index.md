@@ -3,11 +3,11 @@ title: "From a variant to a drug claim"
 type: "guide"
 goal: "Evaluate a molecular drug claim from credible finding through measured biology to clinical evidence and access."
 audience: "Curious reader or caregiver; basic DNA, RNA, and protein familiarity is helpful."
-minutes: 94
+minutes: 91
 sensitive: false
 tags: ["education"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -33,9 +33,21 @@ The core path takes about 46 minutes. Start with [DNA, RNA, and protein](/wiki/e
 
 ```mermaid
 flowchart TD
- A["Authenticate and attribute<br/>the finding"] --> B["Connect a measured<br/>biological consequence"]
- B --> C["Check clinical evidence<br/>and access"]
+ A["1. Authenticate and attribute<br/>the finding"] --> B["2. Connect a measured<br/>biological consequence"]
+ B --> C["3. Check clinical evidence<br/>and access"]
+ B -.-> D
+ subgraph D["Optional mechanism casebook"]
+  D4["4. What removes<br/>a trapped PARP?"] --> D5["5. Amount, flow<br/>and dependence"]
+  D5 --> D6["6. Competing growth<br/>signals"]
+ end
+ D -.-> E["7. Read a functional<br/>experiment"]
+ E -.-> C
+ style A fill:#dbeafe,stroke:#1d4ed8
+ style B fill:#dbeafe,stroke:#1d4ed8
+ style C fill:#dcfce7,stroke:#15803d
 ```
+
+Solid arrows are the 46-minute core. Dotted arrows show the optional lessons: a casebook of mechanism questions, then one experiment-reading lesson that feeds back into step 3.
 
 ## Lessons
 
@@ -49,11 +61,12 @@ The repair example teaches a general method. It does not make every drug claim a
 
 ## Supporting mechanistic lessons
 
-The three-step core takes about 46 minutes. These four optional lessons add about 48 minutes of mechanism and experiment practice. They follow one connected story: a drug creates a DNA obstacle, a cell tries to repair or clear it, growth signals change several responses, and an experiment tests the result.
+These lessons form an optional mechanism casebook.
+The three-step core takes about 46 minutes. These four optional lessons add about 45 minutes. Each teaches one general question you can ask of any drug claim: what does the drug physically do, is a busy-looking pathway actually completing its work, can one intervention push survival two ways, and what would a convincing experiment show? The worked examples happen to use PARP inhibitors, recycling and growth signals; the questions apply to other drugs and pathways too.
 
 | Step | Lesson | The question it answers | Minutes | Learning aid |
 |---|---|---|---|---|
-| 4 | [PARP trapping and recycling](./04-parp-trapping-and-recycling) | What obstacle does the drug create, and what might remove it? | 12 | An obstacle cartoon and fictional models |
+| 4 | [PARP trapping and recycling](./04-parp-trapping-and-recycling) | What obstacle does the drug create, and what might remove it? | 9 | An obstacle cartoon and a three-explanation table |
 | 5 | [Autophagy: traffic, flow, and dependence](./05-autophagy-flux-and-dependence) | Does a busy-looking recycling system help a cell survive? | 12 | A delivery analogy and snapshot exercise |
 | 6 | [Growth signals, repair, and recycling](./06-pi3k-akt-mtor-and-repair) | How can one intervention push survival in different directions? | 12 | A pathway cartoon and feedback example |
 | 7 | [Read a functional experiment](./07-reading-a-functional-experiment) | What would a convincing combination result establish? | 12 | Controls and interaction arithmetic |
@@ -72,7 +85,7 @@ For translation, use [clinical actionability](/wiki/education/concepts/evidence-
 
 Use the [variant-to-benefit evidence chain](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit) to keep the bridges visible. At each step, record the observation, its source, the conclusion it supports, and the next unresolved question. A fictional repair-gene variant may be confirmed in DNA, alter an RNA junction, and accompany a protein signal. A functional assay then asks whether repair is impaired. A clinical study asks a different question about benefit in a defined population.
 
-[From data to a care plan](/wiki/education/molecular-profiling/07-from-data-to-care-plan) is the shared supporting lesson for this ledger. [Judging a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index) helps assess the claim's wording and validation. [Accessing experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index) develops the practical final gate.
+[Integrating the evidence](/wiki/education/molecular-profiling/07-from-data-to-care-plan) is the shared supporting lesson for this ledger. [Judging a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index) helps assess the claim's wording and validation. [Accessing experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index) develops the practical final gate.
 
 ## Applied to Diana
 
@@ -84,4 +97,4 @@ Selective removal of trapped PARP remains a research question. One preclinical s
 
 A model can differ from the tumor in cell mixture, exposure, and environment. A pathway can be active without being a selective bottleneck. A clinical signal can be real while leaving an unstudied setting unresolved. Each uncertainty should stay attached to the claim it limits.
 
-Source check: 2026-10-09. General education; expert and learner review pending. Study and indication examples are dated in the lessons and need a fresh check for a real clinical decision.
+Source check: 2026-11-07. General education; expert and learner review pending. Study and indication examples are dated in the lessons and need a fresh check for a real clinical decision.

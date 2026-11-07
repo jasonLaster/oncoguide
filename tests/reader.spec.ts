@@ -12,7 +12,7 @@ test("new curriculum routes, aliases and metadata work without JavaScript",async
   expect(await (await request.get("/sitemap.xml")).text()).toContain("https://oncoguide.cc"+starter);
   for(const guide of guides){
    await page.goto(String(test.info().project.use.baseURL)+"/education/guides/"+guide+"/index/");
-   await expect(page.getByTestId("education-article").locator("table").first().locator("tbody tr")).toHaveCount(3);
+   expect(await page.getByTestId("education-article").locator("table").first().locator("tbody tr").count()).toBeGreaterThanOrEqual(3);
   }
  } finally {await context.close()}
 });

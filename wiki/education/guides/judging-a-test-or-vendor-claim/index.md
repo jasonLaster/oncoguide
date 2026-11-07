@@ -3,8 +3,8 @@ title: "Judge a test or company claim"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: 2026-10-10
-source_checked: "2026-10-09"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -61,7 +61,7 @@ Start with the [three validity questions](/wiki/education/concepts/measurement/c
 
 If the claim includes a drug, the next foundations are [drug labeling and off-label use](/wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use) and [trial phases and randomization](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization).
 
-For laboratory compound claims, [chemical probes and target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) help interpret mechanism experiments. [Pharmacokinetics and half-life](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) separates the administered amount from exposure in the body.
+Claims about a drug or compound, rather than a test, follow [from variant to drug](/wiki/education/guides/from-variant-to-drug/index). The main applied example of a test claim in this wiki is [understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index).
 
 ## Applied to Diana
 
@@ -75,7 +75,7 @@ An unpublished company result can be worth investigating. It remains a company-s
 
 ## Sources and scope
 
-Source check: October 9, 2026. General education with fictional exercises; expert and learner review pending.
+Source check: November 7, 2026. General education with fictional exercises; expert and learner review pending.
 
 - [MedlinePlus Genetics: valid and useful testing](https://medlineplus.gov/genetics/understanding/testing/validtest/) — measurement, clinical association and usefulness.
 - [FDA–NIH BEST: predictive biomarker](https://www.ncbi.nlm.nih.gov/books/NBK402283/) — evidence about a particular treatment effect.

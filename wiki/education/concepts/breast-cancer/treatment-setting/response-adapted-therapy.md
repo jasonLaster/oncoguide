@@ -5,8 +5,8 @@ domain: breast-cancer/treatment-setting
 level: foundation
 sensitive: false
 tags: [education, breast-cancer]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -37,9 +37,9 @@ An adaptive strategy specifies **who**, **what is measured**, **when**, **which 
 
 The assessment must match the decision. [Magnetic resonance imaging (MRI)](/wiki/education/concepts/measurement/imaging/breast-mri) measures imaging signals. [Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) is a defined tissue endpoint. A prediction of pCR is not the surgical finding itself. A negative biopsy also samples only its submitted tissue.
 
-For a real research example, the **I-SPY2.2** phase 2 platform studied presurgical treatment blocks in high-risk stage II–III breast cancer. Its datopotamab-deruxtecan/durvalumab report used subtype-specific rules, serial MRI and a core biopsy. Participants meeting combined criteria could proceed to surgery before later blocks. This was a protocolized research strategy, not a rule allowing any favorable scan to cancel chemotherapy or surgery. The report's response findings do not by themselves establish equivalent long-term survival for every omission strategy. [Primary report](https://pubmed.ncbi.nlm.nih.gov/39277672/).
+For a real research example, the **I-SPY2.2** phase 2 platform studied presurgical treatment blocks in high-risk stage II–III breast cancer. Its datopotamab-deruxtecan/durvalumab report used subtype-specific rules, serial MRI and a core biopsy. Participants meeting combined criteria could proceed to surgery before later blocks. This was a protocolized research strategy, not a rule allowing any favorable scan to cancel chemotherapy or surgery, and its response findings do not establish equivalent long-term survival [1].
 
-Adaptation can also use postoperative findings. **CREATE-X** randomized people with [human epidermal growth factor receptor 2 (HER2)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2)-negative residual invasive breast cancer after preoperative chemotherapy to postsurgical care with or without capecitabine. The response-defined population and randomized treatment comparison supplied evidence beyond “residual disease means higher risk.” It did not test adding capecitabine after a modern perioperative pembrolizumab course. [Primary report](https://pubmed.ncbi.nlm.nih.gov/28564564/).
+Adaptation can also use postoperative findings, which is how most of it works today in triple-negative breast cancer (TNBC). **CREATE-X** randomized 910 people with [human epidermal growth factor receptor 2 (HER2)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2)-negative residual invasive cancer after preoperative chemotherapy to capecitabine or no capecitabine. In its TNBC subgroup, 5-year disease-free survival was 69.8% versus 56.1% (hazard ratio 0.58) [2]. **OlympiA** showed benefit from 1 year of olaparib in people with a germline *BRCA1* or *BRCA2* variant and high-risk HER2-negative disease [3]. **EA1131** found that platinum was not better than capecitabine for residual basal-subtype TNBC [4]. Neither CREATE-X nor OlympiA tested adding its drug after a modern perioperative pembrolizumab course. [Post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation) ranks these options and the ongoing antibody-drug conjugate trials.
 
 ## Why it matters in cancer
 
@@ -91,18 +91,21 @@ Apply only the stated fictional rule. The magnetic resonance imaging (MRI) input
 ## Related concepts
 
 - [Neoadjuvant versus adjuvant therapy](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant)
+- [Post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation)
 - [Test validity and clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility)
-- [Surrogate endpoints: the pCR paradox](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints)
+- [Surrogate endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints)
 - [Randomization and trial phases](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization)
 
 ## Sources and scope
 
 Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
 
-Source-checked October 10, 2026. General education; the practice trial is fictional. Expert and learner review remain pending. The cited studies illustrate defined strategies, not individual treatment instructions.
+Source-checked November 7, 2026 (CREATE-X, OlympiA and EA1131 added from primary abstracts). General education; the practice trial is fictional. Expert and learner review remain pending. The cited studies illustrate defined strategies, not individual treatment instructions.
 
-- [Shatsky and colleagues, 2024: I-SPY2.2](https://pubmed.ncbi.nlm.nih.gov/39277672/) — primary abstract and selected full-text design, treatment-block, eligibility, serial-MRI and analysis sections; presurgical response-guided research in high-risk stage II–III breast cancer.
-- [Masuda and colleagues, 2017: CREATE-X](https://pubmed.ncbi.nlm.nih.gov/28564564/) — primary abstract; randomized postsurgical treatment in HER2-negative residual invasive disease after preoperative chemotherapy.
+1. [Shatsky and colleagues, 2024: I-SPY2.2](https://pubmed.ncbi.nlm.nih.gov/39277672/) — presurgical response-guided research in high-risk stage II–III breast cancer.
+2. [Masuda and colleagues, NEJM 2017: CREATE-X](https://pubmed.ncbi.nlm.nih.gov/28564564/) — randomized capecitabine after residual HER2-negative disease; TNBC subgroup figures from the abstract.
+3. [Tutt and colleagues, NEJM 2021: OlympiA](https://pubmed.ncbi.nlm.nih.gov/34081848/) — adjuvant olaparib for germline *BRCA1/2* carriers.
+4. [Mayer and colleagues, JCO 2021: EA1131](https://pubmed.ncbi.nlm.nih.gov/34092112/) — platinum versus capecitabine for residual TNBC.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

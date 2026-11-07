@@ -7,14 +7,14 @@ glossary_anchor: adc-vs-radioligand-therapy
 aliases: ["ADC vs RLT", "ADC versus radioligand therapy"]
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]", "[[wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy]]"]
-used_by: ["[[wiki/education/comparisons/index]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]"]
 sensitive: false
 tags: [education, therapeutics, comparison]
-updated: 2026-10-12
-source_checked: 2026-10-12
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
-review_status: "Author source check complete; independent scientific, visual, expert and learner review pending"
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # ADC versus radioligand therapy
@@ -23,93 +23,99 @@ review_status: "Author source check complete; independent scientific, visual, ex
 
 A cytotoxic antibody-drug conjugate supplies active chemical material, while a radioligand product delivers radiation whose tissue exposure depends on distribution, retention and radioactive decay.
 
+**Before you start:** An [antibody-drug conjugate (ADC)](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) links an antibody to chemical cargo. [Radioligand therapy (RLT)](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy) uses a target-binding molecule carrying a radionuclide, an unstable radioactive atom.
+
 ## What they share
 
-Both use a molecular address to influence where a product goes. That address can also occur in healthy tissue. A shared target does not establish the same binder, distribution, action or safety window.
+Both use a molecular address to steer a toxic cargo toward tumor cells, and both reach healthy tissue that carries the same address or clears the product. A shared target does not mean a shared binder, distribution or safety profile.
 
-**Before you start:** An [antibody-drug conjugate (ADC)](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) links an antibody to chemical cargo. [Radioligand therapy (RLT)](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy) uses a target-binding molecule carrying a radionuclide, an unstable radioactive isotope.
+## The intuition: chemistry versus a radiation source
 
-## The intuition
+An ADC is a parcel of poison that must be opened inside the cell and must find a vulnerable process there. A radioligand is a small radiation source that does not need to be opened: it harms whatever lies within range of its particles for as long as it stays put. The ADC asks *did the drug get in and work?* The radioligand asks *where did the radiation land, and for how long?*
 
-One addressed product carries a chemical tool. The other carries a source of radiation. Finding the address is useful, but it leaves different unfinished questions: did active chemical material reach its action site, or where did radiation deposit energy over time?
-
-Chemical material can sometimes reach neighbors; radiation can reach nearby tissue depending on its emissions. Neither local effect proves immune memory.
-
-## How it works: the axis is chemical action versus radiation exposure
-
-In the fictional comparison, both recognize accessible surface feature **M**. A1 is an internalizing ADC whose specified processing route is intended to make active chemical material available. R1 is a small-ligand radioactive product. The shared M label does not make their binding geometries or exposure equivalent.
+## How it works: the axis is chemical action versus radiation
 
 <img src="./images/adc-vs-radioligand-therapy-comparison-action-axis-v1-light.svg" alt="Two fictional M-addressed routes distinguish a chosen ADC processing pathway supplying active chemical material from a radioactive ligand whose distribution over time supplies radiation exposure in tumor and normal tissue. Dashed links are measurements still needed; no dose values, cell killing or clinical outcome is depicted." width="360" height="760" data-theme-pair>
 
-*Binding leaves different measurements unfinished: active chemical material and cellular response for A1; changing tissue radioactivity, absorbed dose and response for R1. This is one chosen ADC route, with schematic symbols rather than measured amounts or radiation ranges.*
+*Left: an ADC must be taken in and processed before its payload acts. Right: a radioligand acts wherever it sits, and its dose builds up over time as it decays. Schematic, not measured amounts.*
 
-ADC processing and active products vary. RLT vectors can be small molecules or peptides; a radioactive antibody is a related **radioimmunotherapy** format. Their distributions are not interchangeable.
+## Side by side
 
-## Compare the complete products
-
-| Question | Cytotoxic ADC | Radioligand product |
+| Question | Cytotoxic ADC | Radioligand |
 |---|---|---|
-| What is supplied? | A specified antibody, linker and chemical payload | A specified binding vector, attachment chemistry and radionuclide |
-| What acts? | Active payload or an active processing product at a susceptible molecular process | Energy deposited by radiation as the radionuclide decays |
-| What exposure matters? | Intact conjugate, active material, compartments and time | Radioactivity in tissues over time, emissions, geometry and tissue mass |
-| What does uptake miss? | Whether active material reaches its action site | Time-integrated activity and absorbed radiation dose |
-| What about normal tissue? | Binding, released material and its biological effects | Product distribution and energy deposited in vulnerable tissues |
-| What follows a failure? | Identify the failed step; another format creates a new hypothesis | Test radiation exposure and response; chemical resistance supplies no answer |
+| Real examples | Sacituzumab govitecan (SN-38), trastuzumab deruxtecan (DXd) in breast cancer [1] | Lutetium-177 (¹⁷⁷Lu)-PSMA-617 in prostate cancer; ¹⁷⁷Lu-dotatate in neuroendocrine tumors [2, 3] |
+| Typical vehicle | A full-size antibody, which circulates for days | Often a small molecule or peptide, which reaches tissue and clears quickly |
+| What kills | A chemical payload acting on one process, such as DNA copying | Energy deposited by beta or alpha particles, which damages DNA directly |
+| Must it enter the cell? | Usually, to release payload | No; it can act from the surface |
+| Reach beyond the target cell | Bystander effect if the payload crosses membranes | Crossfire: beta particles travel up to millimeters, alpha particles only a few cell widths |
+| What dose means | Milligrams per kilogram of conjugate; payload exposure measured separately | Activity in becquerels; absorbed dose in gray, estimated by imaging over time |
+| Typical healthy-tissue concern | Payload-class effects: low blood counts, diarrhea, lung disease, nerve or eye toxicity | Organs that clear or hold the product; for example, kidney, salivary glands or marrow, depending on the product |
+| Resistance it can bypass | Cells that ignore the payload class | Possibly some chemotherapy-resistant cells, since radiation damages DNA by another route; cells that tolerate DNA damage or resist cell death can resist both |
 
-**Activity** describes radioactive decays per second, measured in becquerels. **Absorbed dose** describes energy deposited per mass, measured in gray. Integrating tissue activity over time helps estimate dose, but emission energies and spatial geometry still matter. Neither quantity is a chemical-payload concentration or a clinical-benefit estimate.
+**Activity** counts radioactive decays per second (becquerels). **Absorbed dose** is energy deposited per kilogram of tissue (gray). Neither is a drug concentration, and neither is a benefit estimate.
+
+## Why it matters in cancer: when each wins
+
+- **An ADC fits** when the target is taken into the cell efficiently, the tumor is sensitive to the payload class, and disease is spread widely enough that a drug circulating for days helps. This describes the ADCs approved in breast cancer.
+- **A radioligand fits** when the target can be imaged before treatment, tumor uptake is high relative to normal organs, and chemical payloads have stopped working for a reason radiation might avoid, such as a drug pump. VISION, for example, enrolled only men whose tumors were positive on a PSMA scan [2].
+- **Neither fits** when the target is also abundant in a critical healthy organ, or when the tumor sample shows the target but living tumors do not take up the product.
 
 ## Worked example: two early signals
 
-Both cards concern the same fictional M-positive model:
+Both products recognize the same fictional surface protein M:
 
 | Field | ADC A1 | Radioligand R1 |
 |---|---|---|
-| Complete product | Specified antibody/linker/payload | Specified small ligand/radionuclide |
-| Observation | Antibody-associated signal is detected after uptake | An early calibrated image measures therapeutic-product radioactivity |
-| Not measured | Active material at its action site or target-cell response | Later distribution, normal-tissue activity, absorbed dose or target-cell response |
+| Observation | Antibody signal is detected inside cells after uptake | An early scan shows radioactivity in tumors |
+| Not yet measured | Released payload at its action site; cell killing | Later distribution, normal-organ dose, cell killing |
 
-**Try it:** Which unfinished measurement belongs to each product? If later A1 testing finds little active payload after binding, does the early R1 image establish that radiation bypasses the failure safely?
+**Try it:** If A1 turns out to release little payload, does R1's bright early scan show that radiation will work instead?
 
-**Answer:** For A1, distinguish intact/processed material, verify active chemical exposure and measure response with suitable controls. For R1, follow radioactivity over time in tumor and normal tissues, estimate absorbed dose using the specified emissions and geometry, and measure biological effects. A1's finding identifies a chemical-delivery problem to investigate; it proves neither R1's radiation response nor safety or benefit. The two early signals even have different units and cannot rank the products.
+<details>
+<summary>Show the answer</summary>
 
-If the image used a different diagnostic tracer, first establish what that tracer can tell you about the therapeutic product. [Target imaging](/wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging) and therapeutic dosimetry are related questions, not interchangeable measurements.
+No. A1's result points to a processing problem in that ADC. R1 still needs repeated images to estimate how much dose tumors and normal organs receive over time, and evidence of response. The two early signals have different units and cannot rank the products.
 
-## Why it matters in cancer: choose the evidence question
-
-To investigate a chemical-processing bottleneck, start with the existing [ADC Models A and B](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate#worked-example). To investigate radiation exposure, use the [equal-early-uptake exercise](/wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy#try-it).
+</details>
 
 ## Common confusions
 
-- A bright image is not a complete delivery, dose or benefit result.
-- Radioactivity and absorbed dose are different quantities.
-- Not every radioligand is an antibody.
-- Chemical resistance does not demonstrate radiation sensitivity.
-- Local chemical bystander effects and radiation crossfire are different mechanisms; neither is proof of immune priming.
+- **A bright scan is not a dose or a benefit.** One time point misses how long the product stays.
+- **Activity is not absorbed dose.** Becquerels count decays; gray measures energy deposited in tissue.
+- **Not every radioligand is an antibody.** Radiolabeled antibodies are called radioimmunotherapy and circulate much longer.
+- **Bystander killing is not crossfire.** One is a chemical diffusing to neighbors; the other is particles traveling through tissue. Neither proves immune priming.
+- **Chemical resistance does not prove radiation sensitivity.** It removes one route of failure, not all of them.
 
 ## Explain it back
 
-“After binding, A1 still needs ___; R1 still needs ___.”
+"After binding, an ADC still needs ___; a radioligand still needs ___."
 
-**One answer:** active chemical material at its action site and a measured response; distribution over time, absorbed dose and a measured response. Both need normal-tissue and clinical evidence.
+**One answer:** to be taken in, release its payload and find a vulnerable process; to stay in the tumor long enough to deliver a damaging dose while sparing the organs that clear it.
 
 ## Takeaway
 
-**The same address can lead to chemical action or radiation exposure; each route needs its own completed measurements.**
+**One-line mental model: an ADC is poison that must be opened inside the cell; a radioligand is a radiation source that works wherever it sits.**
 
 ## Related concepts
 
 - [Target versus therapeutic format](/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis)
+- [ADC payload classes](/wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes)
 - [Theranostics](/wiki/education/concepts/therapeutics/local-therapies/theranostics)
+- [Target PET and theranostic imaging](/wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging)
 
 ## Sources and scope
 
-Author source check: October 12, 2026. Fictional matched-address cards; no isotope, dose, indication or clinical ranking. Independent scientific/visual and expert/learner review remain pending.
+Source check: November 7, 2026. Mechanism comparison with approved examples from different cancers; no cross-format efficacy ranking is implied. Expert and learner review remain pending.
 
-- [Ogitani et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4946713/) — selected full-text processing, permeability and model Methods/Results; effects depend on the tested conjugate. No clinical efficacy or universal release route is inferred.
-- [Violet et al., 2019](https://jnm.snmjournals.org/content/60/4/517.full) — selected full-text imaging/dosimetry method for one lutetium-177 product in metastatic prostate cancer; serial activity, tumor and normal-tissue regions remain distinct. No published dose or response threshold is transferred to the fictional cards.
+1. [Sacituzumab govitecan](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) and [trastuzumab deruxtecan](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) US prescribing information — payload, mechanism and indications.
+2. [Sartor et al., 2021: VISION](https://pubmed.ncbi.nlm.nih.gov/34161051/) — ¹⁷⁷Lu-PSMA-617 in PSMA-PET-positive metastatic castration-resistant prostate cancer.
+3. [Strosberg et al., 2017: NETTER-1](https://pubmed.ncbi.nlm.nih.gov/28076709/) — ¹⁷⁷Lu-dotatate in metastatic midgut neuroendocrine tumors.
+4. [Sgouros et al.: Medical Internal Radiation Dose pamphlet 22](https://pmc.ncbi.nlm.nih.gov/articles/PMC5680544/) — alpha and beta particle ranges and dosimetry.
+5. [Ogitani et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27166974/) — ADC payload bystander killing in mixed models.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Compare related ideas](/wiki/education/comparisons/index)
+- [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 <!-- END GENERATED USED IN -->

@@ -8,8 +8,8 @@ objectives: ["Separate T-cell abundance, target specificity and function.", "Exp
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-states]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-repertoire]]", "[[wiki/education/concepts/immunology/immune-regulation/immune-checkpoint]]", "[[wiki/education/concepts/immunology/t-cells/regulatory-t-cells]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-12
-source_checked: 2026-10-12
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -53,7 +53,14 @@ A stain for forkhead box P3, or FOXP3, is a clue to a regulatory program. In hum
 
 Programmed cell death protein 1, or PD-1, can be expressed during activation as well as during persistent stimulation. A PD-1-positive cell is not automatically terminally exhausted. A high signal for one protein cannot assign a complete cell state.
 
-**Progenitor-like exhausted T cells (Tpex)** can help sustain responses to [checkpoint blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor). More differentiated exhausted cells can have restricted responses. Primary tumor experiments and observations in melanoma support this distinction, while chronic-infection experiments describe a related but different setting. The [state concept](/wiki/education/concepts/immunology/t-cells/t-cell-states) holds the shared biology and marker limits. Neither a Tpex label nor T-cell factor 1 (TCF1) positivity is a universal predictor; clinical response still depends on the cancer and treatment.
+[T-cell exhaustion](/wiki/education/concepts/immunology/t-cells/t-cell-exhaustion) is a graded program, and two explanations compete for where a [checkpoint-blockade](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) response comes from:
+
+| Model | Evidence | What it implies |
+|---|---|---|
+| **Progenitor-like exhausted T cells (Tpex) are revived** | In mice, the cells that divided after PD-1 blockade were mostly T-cell factor 1 (TCF1)-positive progenitors ([Im et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27501248/); [Miller et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30778252/)) | The response depends on a renewable pool already present |
+| **Clonal replacement** | In paired human skin-cancer biopsies before and after anti-PD-1, many expanded clones were new to the tumor ([Yost et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31359002/)) | Fresh recruits from outside the tumor carry much of the response |
+
+The models can overlap: new arrivals may themselves come from progenitor-like cells in lymph nodes. Neither a Tpex label nor TCF1 positivity is a universal predictor.
 
 ## A worked example: three samples with many T cells
 
@@ -81,8 +88,6 @@ The intervention changes regulation, while the marker is an observation. Keeping
 <img src="../concepts/immunology/t-cells/images/controlled-peptide-tests-v2-light.svg" alt="Two equal-looking fictional six-symbol populations both have PD-1 observed near cancer cells, but paired receptor tags differ: R1 has a viral-peptide response and R2 a tumor-peptide response in controlled tests. Natural tumor display, access and killing remain unestablished." data-theme-pair width="600" height="1100">
 
 *Fictional observations: the same marker and proximity do not identify a target or state. R1 and R2 have different controlled-test responses; checkpoint blockade does not rewrite their receptors. Natural tumor display, access, killing and treatment response remain open.*
-
-R1 and R2 are fictional paired-receptor identifiers. Marker and proximity observations, response history, and separately controlled peptide tests answer different questions. A positive peptide-test response does not establish natural tumor display, entry or killing; blockade does not replace the receptor. The six symbols are illustration counts, not independent biological replicates or assay thresholds.
 
 ## New arrivals are not the whole repertoire
 
@@ -122,13 +127,16 @@ One possible answer: “who is in the sample; the right recognition, access and 
 
 ## Sources and scope
 
-Source check: October 10, 2026. General cell-state interpretation; fictional examples. Expert and learner review remain pending.
+Source check: November 7, 2026. General cell-state interpretation; fictional examples. Expert and learner review remain pending.
 
 The proliferation/senescence distinction was added October 10, 2026. The linked cell-state concepts carry the focused sources and measurement limits.
 
 The T-cell cytotoxicity qualification was checked October 12, 2026, using selected primary full-text passages. It concerns human cell-population experiments; retained killing alone does not establish persistence, state reversal or clinical benefit.
 
 - [Siddiqui et al., 2019: exhausted subsets and checkpoint response](https://pubmed.ncbi.nlm.nih.gov/30635237/) — tumor experiments and melanoma observations.
+- [Im et al., 2016: progenitor cells supply the burst after PD-1 blockade](https://pubmed.ncbi.nlm.nih.gov/27501248/) — chronic viral infection in mice.
+- [Miller et al., 2019: exhausted subsets differ in tumor control](https://pubmed.ncbi.nlm.nih.gov/30778252/).
+- [Yost et al., 2019: clonal replacement after PD-1 blockade](https://pubmed.ncbi.nlm.nih.gov/31359002/) — paired human basal-cell and squamous-cell carcinoma biopsies.
 - [Utzschneider et al., 2016: TCF1 and chronic-infection responses](https://pubmed.ncbi.nlm.nih.gov/27533016/) — a distinct disease context.
 - [Han et al., 2014: receptor identity and cell phenotype](https://www.nature.com/articles/nbt.2938).
 - [Tran et al., 2007: induced FOXP3 without suppressive function](https://pubmed.ncbi.nlm.nih.gov/17644734/) — human T-cell culture experiments.

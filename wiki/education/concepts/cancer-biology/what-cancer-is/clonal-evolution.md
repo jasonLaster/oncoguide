@@ -9,11 +9,11 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"
   - "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/index]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
 sensitive: false
 tags: [education, cancer-biology]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -43,7 +43,7 @@ Cells do not plan their evolution. Samples miss cells, regions impose different 
 
 Evolution can branch rather than follow a ladder of successively improved cells. Gerlinger and colleagues compared regions of renal cancers from four participants, finding branching relationships and alterations missed by sampling one region. This cancer type, sampling and treatment context does not supply a universal percentage of missed variants for all biopsies. [Primary study](https://pubmed.ncbi.nlm.nih.gov/22397650/).
 
-Nor is every expanding branch explained by a new advantageous mutation. Williams and colleagues tested a defined neutral-growth model using variant-frequency distributions. Its simple model assumes no substantial subclonal selection or genetic drift. A model fit is not proof that all mutations are neutral or that selection never occurred. Distinguish the hypothesis, its assumptions and the sampled data. [Primary model study](https://pubmed.ncbi.nlm.nih.gov/26780609/).
+Nor is every expanding branch explained by a new advantageous mutation. Williams and colleagues tested a defined neutral-growth model using variant-frequency distributions. In that model, "neutral" means no subclonal selection: once the tumor starts growing, no later-arising subclone outgrows its neighbors, so each subclonal variant's frequency mainly reflects how early in the expansion it arose. Chance still shapes the frequencies; what the model excludes is selection. Later correspondence disputed how well the test separates neutral from selected growth, and a model fit is not proof that all mutations are neutral or that selection never occurred. Distinguish the hypothesis, its assumptions and the sampled data. [Primary model study](https://pubmed.ncbi.nlm.nih.gov/26780609/).
 
 ## Why it matters in cancer
 
@@ -106,7 +106,7 @@ Source-checked October 10, 2026. General evolutionary interpretation and fiction
 
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
+- [Learn the biology and evidence](/wiki/education/index)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
-- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 - [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

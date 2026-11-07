@@ -4,10 +4,11 @@ description: "Choose a question and follow its lessons, worked examples and prac
 type: navigation
 sensitive: false
 tags: [education]
-updated: 2026-10-09
+updated: 2026-11-07
 review_status: "Source-checked; expert and learner review pending"
 reviewed: pending
 reviewed_by: ""
+source_checked: 2026-11-07
 ---
 
 # Learning paths
@@ -24,7 +25,7 @@ If the terms are new, begin with [Start here](/wiki/education/guides/start-here/
 | What each treatment contributes and how timing works | [Standard treatment](/wiki/education/guides/treating-early-tnbc/index) |
 | How to read a specimen, residual disease and margins | [Pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index) |
 | What immune recognition and attack require | [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index) |
-| What different molecular layers add | [Multi-omics](/wiki/education/reading-a-tumor/omics-and-multi-omics) |
+| What different molecular layers add | [Multi-omics](/wiki/education/reading-a-tumor/omics-and-multi-omics): eight [vocabulary lessons](/wiki/education/multi-omics-foundations/index), then seven [assay lessons](/wiki/education/molecular-profiling/index) |
 | How blood tests and imaging supply different evidence | [Residual-disease monitoring](/wiki/education/guides/monitoring-residual-disease/index) |
 | How a personalized cancer vaccine is designed | [Personalized cancer vaccine](/wiki/education/guides/personalized-cancer-vaccine/index) |
 | How engineered immune-cell therapies differ | [Engineered cell therapy](/wiki/education/guides/engineered-cell-therapy/index) |
@@ -38,8 +39,8 @@ If the terms are new, begin with [Start here](/wiki/education/guides/start-here/
 
 ## Use the references when you need them
 
-The [concept library](/wiki/education/concepts/index) explains building blocks. [Terminology](/about/Terminology) supplies short definitions and links. Each path identifies useful prerequisites and the next lesson; you do not need to learn the whole library before starting.
+The [concept library](/wiki/education/concepts/index) explains building blocks, and [comparisons](/wiki/education/comparisons/index) separate ideas that are easy to mix up. [Terminology](/about/Terminology) supplies short definitions and links. Each path identifies useful prerequisites and the next lesson; you do not need to learn the whole library before starting.
 
-These pages teach general biology and evidence reading. Each guide links current findings and clinical decisions to their existing owners. Source checking and practice answers help you use a page; they do not replace expert review. Expert and learner review remain pending. The [curriculum checklist](/project-management/audits/2026-10-08-education-content-audit/implementation#remaining-curriculum-work) tracks the advanced concepts and migrations still to come.
+These pages teach general biology and evidence reading. Each guide links current findings and clinical decisions to their existing owners. Source checking and practice answers help you use a page; they do not replace expert review. Expert and learner review remain pending.
 
 **Takeaway:** Choose one question, follow its path, and bring the evidence limits along with the explanation.

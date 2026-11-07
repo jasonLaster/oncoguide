@@ -2,7 +2,7 @@
 title: "Test a copy-aware clone model"
 type: guide-lesson
 guide: what-multi-omics-tells-us
-step: 16
+step: 17
 role: optional-advanced-extension
 minutes: 12
 objectives:
@@ -15,11 +15,11 @@ prerequisites:
   - "[[wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh]]"
 sensitive: false
 tags: [education, multi-omics, worked-exercise]
-updated: 2026-10-12
-source_checked: 2026-10-12
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
-review_status: "Private source-checked teaching draft; independent, expert and learner review pending"
+review_status: "Source-checked; expert and learner review pending"
 ---
 
 # Test a copy-aware clone model

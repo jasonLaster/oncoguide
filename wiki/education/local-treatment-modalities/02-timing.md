@@ -8,8 +8,8 @@ objectives: ["State a local treatment's goal before asking when to deliver it.",
 prerequisites: ["[[wiki/education/local-treatment-modalities/01-mechanism]]", "[[wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant]]"]
 sensitive: false
 tags: [education, local-treatment, treatment-setting]
-updated: "2026-10-13"
-source_checked: 2026-10-09
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -63,7 +63,7 @@ Which history belongs beside a residual-disease question, and which belongs besi
 
 External radiation is often divided into fractions, or treatment sessions. [Hypofractionation](/wiki/education/concepts/therapeutics/local-therapies/hypofractionation) uses larger doses per fraction than a specified conventional comparator. Fewer sessions do not automatically make a course [stereotactic body radiation therapy (SBRT)](/wiki/education/concepts/therapeutics/local-therapies/sbrt). Treatment volume, planning, normal-tissue constraints and the clinical evidence all matter.
 
-FAST-Forward studied postoperative whole-breast or chest-wall radiation in a defined early-breast-cancer population. It is evidence about local control and normal-tissue effects for the tested schedules. It did not test an optimal immune-priming schedule or turn every short breast-radiation course into SBRT. [Brunt and colleagues, 2020](https://pubmed.ncbi.nlm.nih.gov/32580883/).
+FAST-Forward studied postoperative whole-breast or chest-wall radiation in a defined early-breast-cancer population. It compared 40 Gy in 15 fractions over three weeks with 26 Gy or 27 Gy in 5 fractions over one week; 26 Gy in 5 fractions was non-inferior for breast tumor relapse at five years. It is evidence about local control and normal-tissue effects for the tested schedules. It did not test an optimal immune-priming schedule or turn every short breast-radiation course into SBRT. [Brunt and colleagues, 2020](https://pubmed.ncbi.nlm.nih.gov/32580883/).
 
 Other clocks include recovery, healing, prior exposure, overlapping toxicity and protocol assessment times. Their presence is a reason to ask how a sequence was studied, not to invent a universal interval between treatments.
 
@@ -92,6 +92,8 @@ Next: [read the combination-trial evidence](/wiki/education/local-treatment-moda
 ## Sources and scope
 
 Focused scan-card revision: October 13, 2026; CURB and BOOSTER primary abstracts checked for the named setting distinctions. The cards do not reproduce full eligibility rules. Expert and learner review remain pending.
+
+FAST-Forward schedules checked against the five-year abstract: November 7, 2026.
 
 Source check: 2026-10-09. All people and proposals above are fictional; expert and learner review pending.
 

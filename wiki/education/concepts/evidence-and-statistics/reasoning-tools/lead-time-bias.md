@@ -12,7 +12,7 @@ level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
 used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/02-timing]]"]
-updated: "2026-10-10"
+updated: "2026-11-07"
 source_checked: "2026-10-10"
 review_status: "Source-checked; expert and learner review pending"
 ---
@@ -39,7 +39,7 @@ A post-treatment molecular result creates a related problem. People can be label
 
 Two other screening biases are different. **Length bias** favors detecting conditions with longer detectable preclinical periods. **Overdiagnosis** means detecting disease that would not have caused clinical harm in the person's lifetime. Neither is merely another name for lead-time bias. Do not assume their magnitude in a post-treatment molecular-monitoring cohort from screening examples alone.
 
-<img src="./images/earlier-detection-same-outcome-date-v1-light.svg" alt="Aligned fictional timelines move detection from year4 to year3, keep death at year6 and lengthen survival measured from detection from two years to three" data-theme-pair width="600" height="1000">
+<img src="./images/earlier-detection-same-outcome-date-v1-light.svg" alt="Aligned fictional timelines move detection from year 4 to year 3, keep death at year 6 and lengthen survival measured from detection from two years to three" data-theme-pair width="600" height="1000">
 
 *The start moved earlier; the outcome date stayed fixed.*
 
@@ -97,6 +97,6 @@ Source check: October 10, 2026. Fictional timelines; expert and learner review r
 - [Ask what a result should change](/wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 - [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
 <!-- END GENERATED USED IN -->

@@ -8,8 +8,8 @@ objectives: ["Separate respiratory RNA, oxygen consumption, and ATP-linked respi
 prerequisites: ["[[wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1]]", "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/cancer-biology/metabolism-and-stress/reactive-oxygen-species]]"]
 sensitive: false
 tags: ["education", "pathway-biology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -61,7 +61,7 @@ All numbers below are fictional. They illustrate reasoning, rather than assay cu
 | Baseline per 10,000 viable cells | 60 picomoles/minute | 60 picomoles/minute |
 | After ATP-synthase inhibition, per 10,000 cells | 30 picomoles/minute | 40 picomoles/minute |
 
-A initially looks busier because the well contains more cells. After normalization, the baseline rates match. Their raw inhibitor-sensitive differences are 30 and 20 picomoles/minute per 10,000 cells.
+A initially looks busier because the well contains more cells. After normalization, the baseline rates match. Their normalized inhibitor-sensitive differences are 30 and 20 picomoles/minute per 10,000 cells.
 
 Under appropriate assay conditions, those differences help estimate ATP-linked respiration. They are not ATP-production rates. A complete calculation needs assumptions about coupling and other respiratory components, plus the method's corrections. Published ATP-rate equations have been corrected; specify the version instead of copying a convenient formula.
 

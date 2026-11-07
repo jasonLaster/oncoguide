@@ -12,8 +12,8 @@ level: foundation
 sensitive: false
 tags: [education, breast-cancer]
 used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 review_status: "Expert and learner review pending"
 ---
 
@@ -39,11 +39,11 @@ This reused area example has 25% in situ cancer. It is a separate fictional exam
 
 *Breast inputs describe the tumor bed; node inputs describe regional nodal disease.*
 
-**Read the compartments:** Can a sparse breast bed tell you the nodal contribution? **Answer:** No. Node count and largest metastasis remain separate protocol inputs. These schematics do not calculate a personal prognosis; RCB is not validated for neoadjuvant endocrine therapy.
+**Read the compartments:** Can a sparse breast bed tell you the nodal contribution? **Answer:** No. Node count and largest metastasis remain separate protocol inputs.
 
 The method is not validated for neoadjuvant endocrine therapy. The College of American Pathologists' June 2026 breast-resection protocol advises against reporting an RCB score or class in that setting, even though individual [tumor-bed cellularity observations](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity) may still describe remaining disease. [CAP version 4.11.0.0, note K](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true).
 
-The calculation uses two tumor-bed dimensions, overall [cancer cellularity](/about/Terminology#tumor-cellularity) and the proportion that is in situ, plus the number of involved nodes and the largest nodal metastasis. These are pathology measurements obtained under the scoring protocol, rather than values inferred from an imaging report or the longest invasive focus alone.
+The calculation uses two tumor-bed dimensions, overall [cancer cellularity](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity) and the proportion that is in situ, plus the number of involved nodes and the largest nodal metastasis. These are pathology measurements obtained under the scoring protocol, rather than values inferred from an imaging report or the longest invasive focus alone.
 
 | Input | Meaning and units |
 | --- | --- |
@@ -75,13 +75,17 @@ RCB-0 corresponds to [pCR (pathologic complete response)](/wiki/education/concep
 
 The [cellularity explanation](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity#worked-example) names the two area denominators before calculating the invasive share. Neither percentage is the purity estimate used in sequencing a selected sample. A low cellularity does not mean every part of the bed or every node is free of cancer.
 
-RCB is prognostic in studied breast-cancer populations, but an RCB class is not a single personal recurrence probability. Receptor subtype, treatment era, follow-up, clinical stage and subsequent therapy affect how a cohort applies. The score does not establish that an investigational vaccine works best in one class or needs more boosters in another.
+RCB is prognostic in studied breast-cancer populations, but an RCB class is not a single personal recurrence probability. Receptor subtype, treatment era, follow-up, clinical stage and subsequent therapy affect how a cohort applies.
 
 RCB and ypTNM answer related but different questions: one summarizes residual burden, the other classifies residual anatomic extent. Neither replaces the report’s margins, receptor findings or other local-management details.
 
 ## Why it matters in cancer
 
-It provides a reproducible description of residual disease, while keeping prognostic evidence separate from the choice of additional treatment.
+RCB grades "residual disease" instead of treating it as one category. In plain terms: RCB-0 is pCR, RCB-I is minimal residual disease, RCB-II moderate and RCB-III extensive.
+
+In a pooled analysis of 5,161 patients from 12 institutions and trials treated with neoadjuvant chemotherapy, a higher RCB score meant worse event-free survival in every subtype [1]. Each one-unit increase raised the hazard of an event by a factor of 1.55 to 2.16, depending on subtype. In hormone receptor-negative, human epidermal growth factor receptor 2 (HER2)-negative (triple-negative) disease, the adjusted hazard ratio per unit was 1.93 (95% CI 1.74–2.13) [1]. So the difference between RCB-I and RCB-III is large, not cosmetic.
+
+That is prognostic evidence. Which added treatment helps after residual disease is a separate, comparative question; see [post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation).
 
 ## Worked example
 
@@ -100,19 +104,20 @@ This describes residual burden. It does not mean “stage II,” a 2.811% recurr
 - RCB-II means a residual-burden category, not “stage II.”
 - RCB is not interchangeable with a percentage of living cells in a sequencing tube.
 - Prognostic association does not establish benefit from a proposed additional drug.
+- A hazard ratio per unit is not a recurrence percentage; it compares hazards between scores one unit apart.
 
 ## Related concepts
 
-[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr|pCR]] and [[wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging|TNM staging]].
+[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr|pCR]], [[wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging|TNM staging]] and [[wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation|post-neoadjuvant escalation]].
 
 ## Sources and scope
 
-General teaching, source-checked October 10, 2026. The numeric specimen is fictional. Arithmetic illustrates the published formula; clinical scoring depends on a valid pathology assessment. Expert and learner review remain pending.
+General teaching, source-checked November 7, 2026 (Yau figures from the abstract and Table 2 of the full text). The numeric specimen is fictional. Arithmetic illustrates the published formula; clinical scoring depends on a valid pathology assessment. Expert and learner review remain pending.
 
 - [MD Anderson RCB calculator and method](https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3).
 - [MD Anderson pathology assessment protocol](https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf), for obtaining the inputs.
 - [Symmans and colleagues, original RCB development and validation](https://pubmed.ncbi.nlm.nih.gov/17785706/), for the formula and class cutoffs.
-- [Multicenter pooled RCB analysis](https://pubmed.ncbi.nlm.nih.gov/34902335/).
+1. [Yau and colleagues, Lancet Oncology 2022: pooled RCB analysis](https://pubmed.ncbi.nlm.nih.gov/34902335/), [full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC9455620/).
 - [CAP breast-resection protocol, June 2026, version 4.11.0.0, note K](https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true) — applicability boundary for endocrine treatment.
 
 <!-- BEGIN GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: abstract-vs-peer-reviewed
 aliases: [conference abstract, peer review, preprint, full publication, abstract versus paper]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: [education, evidence, publications]
 updated: 2026-10-10
@@ -110,6 +110,7 @@ Source check: October 10, 2026. Counts are invented to illustrate version tracki
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 - [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)

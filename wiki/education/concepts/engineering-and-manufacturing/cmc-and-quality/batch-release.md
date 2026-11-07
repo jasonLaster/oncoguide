@@ -7,11 +7,11 @@ glossary_anchor: "batch-release"
 aliases: ["batch release", "lot release", "release testing", "batch disposition"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
+used_by: ["[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -98,6 +98,7 @@ Some tests passed, but the stated required activity result is not supplied. The 
 
 - [Product dossier: CMC](/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls)
 - [Chain of identity and custody](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody)
+- [Manufacturing failure and out-of-specification product](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product)
 
 ## Sources and scope
 
@@ -111,5 +112,7 @@ Source check: October 10, 2026. A general quality-decision model; actual require
 ## Used in
 
 - [How a personalized vaccine is manufactured](/wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured)
+- [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 - [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
 <!-- END GENERATED USED IN -->

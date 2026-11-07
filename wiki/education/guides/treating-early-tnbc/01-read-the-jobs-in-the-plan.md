@@ -2,8 +2,8 @@
 title: "Read the jobs in the treatment plan"
 sensitive: false
 tags: ["education"]
-updated: 2026-10-10
-source_checked: "2026-10-10"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -11,7 +11,7 @@ type: "guide-lesson"
 guide: "treating-early-tnbc"
 step: 1
 minutes: 11
-objectives: ["Identify the distinct jobs of systemic medicines and local treatment.", "Separate mechanism, evidence and safety in a combination."]
+objectives: ["Identify the distinct jobs of systemic medicines and local treatment.", "Fill a regimen card for the KEYNOTE-522 plan.", "Separate mechanism, evidence and safety in a combination."]
 prerequisites: ["[[wiki/education/concepts/therapeutics/chemotherapy/chemotherapy]]", "[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]"]
 ---
 
@@ -89,13 +89,20 @@ These questions explain different jobs, not one universal side-effect plan. A su
 
 [Curative intent](/wiki/education/concepts/breast-cancer/treatment-setting/curative-intent) describes the plan's aim, while measured response and long-term outcome describe what happens. The intensity or number of medicines cannot establish that aim by itself.
 
-## A worked proposal: fill in the missing fields
+## A worked card: the KEYNOTE-522 regimen
 
-Consider a fictional proposal to add a new pathway inhibitor to an established preoperative regimen. It includes a convincing mechanism diagram and cell-killing data from a laboratory model.
+Fill the card for the usual plan in stage II–III triple-negative breast cancer.
 
-Those observations belong in the mechanism and experimental-evidence fields. The proposal still needs evidence about the clinical population, combination, achievable exposure and toxicity. It also needs an explanation of where the intervention fits around surgery and the other medicines.
+| Field | Filled in for [KEYNOTE-522](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen) |
+|---|---|
+| Setting and goal | Previously untreated stage II–III TNBC; curative intent |
+| Mechanism | Paclitaxel and carboplatin, then an anthracycline with cyclophosphamide, injure dividing cells; pembrolizumab releases a T-cell brake |
+| Clinical evidence | Randomized phase 3, 1,174 people: pathologic complete response 64.8% vs 51.2%; 5-year overall survival 86.6% vs 81.7% [1, 2] |
+| Delivery | 4 + 4 three-weekly cycles before surgery, then up to 9 three-weekly pembrolizumab cycles after |
+| Safety | Grade 3 or higher treatment-related adverse events 78.0% vs 73.0%; immune-related events need their own monitoring [1] |
+| Local treatment | Surgery after about 24 weeks of systemic therapy; radiation by local indications |
 
-The next statement is “this raises a combination question.” It is too early to conclude that adding a mechanism necessarily adds benefit. A pathway can matter biologically while the intervention is ineffective or difficult to deliver.
+Now compare a fictional proposal to add a new pathway inhibitor. It brings a mechanism diagram and laboratory data, so it fills only the mechanism row. Every other row is blank, which is why it is a research question rather than a plan.
 
 ## What can go wrong at this step
 
@@ -124,7 +131,11 @@ A fictional combination is described as “better because it attacks three mecha
 
 ## Sources and scope
 
-General teaching, source-checked October 10, 2026; expert and learner review pending. The proposal is fictional.
+General teaching, source-checked November 7, 2026; expert and learner review pending. The pathway-inhibitor proposal is fictional.
+
+1. [Schmid and colleagues, NEJM 2020: KEYNOTE-522](https://pubmed.ncbi.nlm.nih.gov/32101663/) — design, pCR and adverse events.
+2. [Schmid and colleagues, NEJM 2024: overall survival](https://pubmed.ncbi.nlm.nih.gov/39282906/).
+
 
 - [NCI: Chemotherapy](https://www.cancer.gov/about-cancer/treatment/types/chemotherapy), for systemic and normal-tissue roles.
 - [NCI: Breast cancer surgery](https://www.cancer.gov/types/breast/treatment/surgery), for removal and node examination.

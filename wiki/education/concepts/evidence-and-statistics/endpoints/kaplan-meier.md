@@ -12,8 +12,8 @@ sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: 2026-10-10
-updated: 2026-10-10
+source_checked: 2026-11-07
+updated: 2026-11-07
 tags: [education, evidence-and-statistics]
 ---
 
@@ -68,7 +68,7 @@ Read the endpoint, origin, cutoff, censoring rules, number-at-risk table and [co
 
 ## Why it matters in cancer
 
-A recurrence curve may treat death as a competing event. Censoring deaths and taking `1 − Kaplan–Meier` does not automatically estimate the real-world probability of recurrence; a competing-risk analysis addresses that different question. [Fine and Gray](https://doi.org/10.1080/01621459.1999.10474144).
+A recurrence curve may treat death as a competing event. Censoring deaths and taking `1 − Kaplan–Meier` does not automatically estimate the real-world probability of recurrence; a competing-risk analysis addresses that different question. The nonparametric **cumulative incidence** estimate (the Aalen–Johansen estimator) gives that probability; Fine–Gray is a separate regression model for covariate effects on the subdistribution hazard [Austin and colleagues, 2016](https://pubmed.ncbi.nlm.nih.gov/26858290/).
 
 ## Common confusions
 
@@ -104,6 +104,7 @@ Source check: 2026-10-10. General curve-reading education; expert and learner re
 
 - [Kaplan and Meier 1958: original estimation method](https://doi.org/10.1080/01621459.1958.10501452).
 - [U.S. Food and Drug Administration: cancer-trial endpoint guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics).
+- [Austin, Lee and Fine, Circulation 2016: competing-risks tutorial](https://pubmed.ncbi.nlm.nih.gov/26858290/) — cumulative incidence versus 1 − Kaplan–Meier, and cause-specific versus subdistribution hazards.
 - [Fine and Gray 1999: original competing-risk regression method](https://doi.org/10.1080/01621459.1999.10474144).
 
 - [NIST: product-limit calculation with censored observations](https://www.itl.nist.gov/div898/handbook/apr/section2/apr215.htm).
@@ -113,5 +114,5 @@ Source check: 2026-10-10. General curve-reading education; expert and learner re
 ## Used in
 
 - [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 <!-- END GENERATED USED IN -->

@@ -12,8 +12,8 @@ prerequisites:
 used_by: ["[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -48,13 +48,13 @@ The companion [target and format comparison](/wiki/education/concepts/therapeuti
 
 The word *monoclonal* refers to a defined antibody lineage or design. A therapeutic batch contains many molecules made from that design. Manufacturing can still produce molecular variations, so identity and quality need testing. It does not mean that every molecule in a vial is physically identical in every detail.
 
-A conventional antibody recognizes one epitope. Engineering can combine recognition regions into a product that binds different partners. An antibody may recognize a cell-surface target or a soluble molecule. Recognition can support several different [mechanisms of action](/wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism):
+A conventional antibody recognizes one epitope. Engineering can combine recognition regions into a product that binds different partners: a [T-cell engager](/wiki/education/concepts/therapeutics/antibody-based/t-cell-engager) binds a tumor target and a T cell, while a [bispecific ADC](/wiki/education/concepts/therapeutics/antibody-based/bispecific-adc) binds two tumor targets. An antibody may recognize a cell-surface target or a soluble molecule. Recognition can support several different [mechanisms of action](/wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism):
 
 | Job | What needs to happen beyond binding |
 |---|---|
 | Block a signal | Binding must disrupt a relevant interaction or receptor function. |
 | Recruit immune effectors | Other antibody regions and available immune cells must support the intended response. |
-| Carry a payload | The attachment, distribution and payload action must work in the finished product. |
+| Carry a payload | The attachment, distribution and payload action must work in the finished product; see [antibody-drug conjugate](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate). |
 | Bring two cells together | Both partners must be engaged in a geometry that supports the intended cellular response. |
 
 [Immune-checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor), [antibody–drug conjugates](/wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate) and [T-cell engagers](/wiki/education/concepts/therapeutics/antibody-based/t-cell-engager) therefore require different follow-through tests. [NCI's overview](https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies) illustrates these distinct antibody uses.

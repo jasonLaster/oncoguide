@@ -8,8 +8,8 @@ objectives: ["Distinguish inflamed, excluded and desert observations.", "Explain
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor]]", "[[wiki/education/concepts/measurement/pathology-readouts/stil-scoring]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-12
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -54,7 +54,7 @@ Routine pathology and molecular profiling add different layers:
 | Which immune expression programs appear in a mixed sample? | [Bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) | Mixed signals do not directly preserve cell location |
 | Which receptors are sampled? | [T-cell receptor sequencing](/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing) | Sequence does not establish antigen specificity or position inside a tissue section |
 
-The stromal denominator matters. A high stromal lymphocyte score is not the percentage of all cancer cells that are immune cells. Nor is it identical to a count inside cancer-cell nests.
+The stromal denominator matters. A high stromal lymphocyte score is not the percentage of all cells in the tumor that are immune cells. Nor is it identical to a count inside cancer-cell nests.
 
 ## A gathering can have its own organization
 
@@ -62,7 +62,9 @@ The stromal denominator matters. A high stromal lymphocyte score is not the perc
 
 This adds another spatial question: are the cells merely numerous, or do they form a structure under a stated scoring definition? Density, organization and maturity are separate properties. A lymph-node specimen naturally contains lymphoid architecture; do not relabel its native structure as a TLS.
 
-Breast-cancer and immunotherapy cohort studies have linked organized immune features with outcomes in their defined settings. Those associations do not establish that making a TLS causes benefit or that one image selects a drug. Ask which population, specimen and treatment support the proposed interpretation.
+Breast-cancer and immunotherapy cohort studies have linked organized immune features with outcomes in their defined settings. Those associations do not establish that making a TLS causes benefit or that one image selects a drug.
+
+The best-established outcome link is simpler than TLS: in early triple-negative breast cancer (TNBC), a higher stromal lymphocyte (sTIL) score goes with better survival after chemotherapy. In 2,148 patients, each 10% increase was associated with an overall survival hazard ratio of 0.84 ([Loi et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30650045/)). That is **prognostic**. It does not show who gains more from a checkpoint inhibitor. The [TIL concept](/wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes#why-it-matters-in-cancer) gives the populations, and [prognostic vs predictive](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive) explains the difference.
 
 ## A worked example: the edge and the center
 
@@ -77,11 +79,7 @@ Now suppose a second sample has cells throughout the tumor. That establishes a d
 
 <img src="../concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg" alt="Three matching fictional tumor-tissue fields show eight specified T-cell symbols in both inflamed and excluded patterns, relocated from mainly inside cancer-cell regions to surrounding stroma; a desert field has two. Symbol count is distinct from a stromal-area score." data-theme-pair width="600" height="1500">
 
-[Open the canonical matched tissue fields](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor#shared-visual-reference). Compare where the same specified T-cell symbols sit before looking at how many there are.
-
-*Fictional fields: inflamed and excluded have the same eight T-cell symbols, with different locations; desert has two. The outlines mark regions, not a proven wall. Counts are not a stromal-area lymphocyte score, and no clinical cutoff, receptor target, killing or treatment response follows.*
-
-The matched fields count specified T-cell symbols in a fixed fictional field. Stromal TIL scoring uses method-defined intratumoral stromal area; these symbols are not a stromal-area score, do not represent all scored mononuclear cells and cannot be converted into an sTIL percentage. Site, sampling time and method remain necessary. The outer frame is sampled tumor tissue containing stroma and cancer-cell regions. It is not a lymph node, and the region outlines do not prove collagen caused exclusion. Keep the native-follicle/TLS distinction and the scoring rules in the surrounding lesson.
+*Same eight T-cell symbols, two locations: compare where cells sit before counting them. The [canonical figure](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor#shared-visual-reference) explains why symbol counts are not an sTIL score.*
 
 ## What can go wrong at this step
 

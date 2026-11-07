@@ -10,8 +10,8 @@ prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma
 used_by: []
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -53,7 +53,7 @@ MYC is a [proto-oncogene](/wiki/education/concepts/cancer-biology/what-cancer-is
 
 MYC also supports normal proliferating tissues. A genetically controlled mouse study showed tumor regression and effects on normal regenerating tissues after MYC inhibition. That model establishes biology; it cannot substitute for a particular medicine's exposure, safety and clinical evidence.
 
-[BET bromodomain proteins](/wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins) are related transcriptional regulators, but BET inhibition and MYC inhibition are different interventions. A changed MYC message does not prove that it caused a later response.
+[BET bromodomain proteins](/wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins) read acetyl marks on chromatin and help switch on transcription, including of the MYC gene in some models. That is why BET inhibitors were studied as an indirect way to lower MYC: in multiple myeloma models, the BET inhibitor JQ1 reduced MYC transcription and slowed growth ([Delmore 2011](https://pubmed.ncbi.nlm.nih.gov/21889194/)). BET inhibition and MYC inhibition are still different interventions, because BET proteins regulate many other genes. A changed MYC message does not prove that it caused a later response.
 
 ## How it is measured
 
@@ -97,8 +97,9 @@ One answer: “high RNA or a subtype label; an attributed functional effect afte
 
 ## Sources
 
-Source check: October 9, 2026; expert and learner review pending. The exercise is fictional. Preclinical dependencies do not establish clinical efficacy.
+Source check: November 7, 2026; expert and learner review pending. The exercise is fictional. Preclinical dependencies do not establish clinical efficacy.
 
+- [Delmore and colleagues (2011)](https://pubmed.ncbi.nlm.nih.gov/21889194/): BET bromodomain inhibition with JQ1 lowered MYC transcription in multiple myeloma models.
 - [Blackwood and Eisenman, 1991: the MYC–MAX DNA-binding complex](https://pubmed.ncbi.nlm.nih.gov/2006410/).
 - [Sabò et al., 2014: selective MYC transcriptional regulation](https://pubmed.ncbi.nlm.nih.gov/25043028/).
 - [Horiuchi et al., 2012: MYC patterns and intervention experiments in TNBC models](https://pubmed.ncbi.nlm.nih.gov/22430491/).

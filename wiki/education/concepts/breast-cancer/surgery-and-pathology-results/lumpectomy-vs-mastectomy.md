@@ -7,11 +7,11 @@ glossary_anchor: "mastectomy"
 aliases: ["lumpectomy", "breast-conserving surgery", "mastectomy", "partial mastectomy"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy]]", "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins]]"]
-used_by: ["[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
 sensitive: false
 tags: ["education", "breast-cancer"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -58,7 +58,14 @@ Imagine tracing the warm tissue marked for removal. In the upper sketch it is a 
 
 Mastectomy can also be followed by radiation. Removing the breast does not, by itself, remove the need to consider the chest wall, regional nodes or disease outside the surgical field. Medicines and local treatments have different jobs.
 
-Disease extent relative to breast size, lesion distribution, margins, prior treatment, radiation feasibility, inherited risk and preferences can all enter the choice. The right comparison is between appropriate complete treatment plans in the relevant population, rather than a ranking based only on how much tissue is removed. This definition does not recommend an operation.
+**For eligible patients, the smaller operation plus radiation gives the same survival as mastectomy.** Two randomized trials followed patients for 20 years:
+
+| Trial | Who | Comparison | Survival result |
+|---|---|---|---|
+| NSABP B-06 (National Surgical Adjuvant Breast and Bowel Project) | 1,851 women with invasive breast cancer | Total mastectomy vs lumpectomy with or without breast radiation | No significant difference in overall survival; hazard ratio for death, lumpectomy plus radiation vs mastectomy, 0.97 [1] |
+| Milan I | 701 women with tumors ≤2 cm | Radical mastectomy vs quadrantectomy plus radiation | Death from any cause 41.2% vs 41.7% at 20 years [2] |
+
+What differed was recurrence in the same breast. In B-06 it was 14.3% after lumpectomy with radiation versus 39.2% without radiation [1], which is why breast conservation usually includes radiation. Disease extent relative to breast size, lesion distribution, margins, prior treatment, radiation feasibility, inherited risk and preferences then decide the choice. This page does not recommend an operation.
 
 [Lymph-node surgery](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection) must be named separately. A mastectomy with sentinel-node biopsy is not automatically an axillary dissection. Reconstruction restores or reshapes the breast area; it is another decision and does not replace cancer-directed treatment.
 
@@ -66,7 +73,7 @@ Disease extent relative to breast size, lesion distribution, margins, prior trea
 
 The operative report describes what was done. Pathology identifies what was present in the submitted material and at its final margins. Imaging and the pretreatment diagnosis add context that the specimen alone may not supply, especially after [neoadjuvant treatment](/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant).
 
-“Negative margins” is a local boundary finding. It does not prove that every cell anywhere in the body is cancer-free. Conversely, a larger operation does not guarantee a better outcome in every eligible disease setting.
+“Negative margins” is a local boundary finding. It does not prove that every cell anywhere in the body is cancer-free. Conversely, a larger operation does not improve survival in eligible patients, as the trials above showed.
 
 ## Common confusions
 
@@ -74,6 +81,7 @@ The operative report describes what was done. Pathology identifies what was pres
 - Skin- or nipple-sparing mastectomy preserves selected outer structures, rather than the whole gland.
 - Mastectomy does not automatically mean axillary dissection or no radiation.
 - Breast conservation describes retained anatomy, rather than an intention to leave known tumor behind.
+- Equal survival is not equal local recurrence; radiation closes most of that gap.
 
 ## Try it
 
@@ -98,7 +106,10 @@ A fictional plan lists “mastectomy with sentinel-node biopsy.” A learner sum
 
 ## Sources and scope
 
-Source check: October 10, 2026. General surgical terminology; the exercise is fictional. No individual surgical or radiation recommendation. Expert and learner review remain pending.
+Source check: November 7, 2026 (trial results from the primary abstracts). General surgical terminology; the exercise is fictional. No individual surgical or radiation recommendation. Expert and learner review remain pending.
+
+1. [Fisher and colleagues, NEJM 2002: NSABP B-06 at 20 years](https://pubmed.ncbi.nlm.nih.gov/12393820/).
+2. [Veronesi and colleagues, NEJM 2002: Milan I at 20 years](https://pubmed.ncbi.nlm.nih.gov/12393819/).
 
 - [NCI: lumpectomy](https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy) — breast-conserving excision, margins and other treatment.
 - [NCI: mastectomy](https://www.cancer.gov/types/breast/treatment/surgery/mastectomy) — extent and different operation names.
@@ -109,5 +120,8 @@ Source check: October 10, 2026. General surgical terminology; the exercise is fi
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare related ideas](/wiki/education/comparisons/index)
 - [Read the jobs in the treatment plan](/wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan)
+- [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
+- [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 <!-- END GENERATED USED IN -->

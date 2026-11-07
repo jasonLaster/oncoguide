@@ -7,7 +7,7 @@ glossary_anchor: "tme"
 aliases: ["tumor microenvironment","TME","tumor immune microenvironment","TIME"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/epithelium-and-stroma]]","[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/oncology-101/index]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
+used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/index]]","[[wiki/education/oncology-101/4-escape-mechanisms]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-10"
@@ -104,9 +104,8 @@ Source check: October 10, 2026. This is a tissue-biology foundation, not an indi
 
 - [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
+- [Learn the biology and evidence](/wiki/education/index)
 - [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
-- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
 <!-- END GENERATED USED IN -->

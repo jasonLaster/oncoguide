@@ -8,8 +8,8 @@ objectives: ["Distinguish physical tumor injury from an antigen-specific immune 
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
 sensitive: false
 tags: [education, local-treatment, immunology]
-updated: "2026-10-13"
-source_checked: 2026-10-09
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -86,9 +86,7 @@ Next: [put the disease setting before the timing question](/wiki/education/local
 
 ## Sources and scope
 
-Focused gate exercise: October 13, 2026; the primary Galluzzi and Chen/Mellman abstracts were checked alongside the linked public concepts, not newly read in full. Expert and learner review remain pending.
-
-Source check: 2026-10-09. Leah and her measurements are fictional. Mechanisms do not establish a clinical regimen; expert and learner review pending.
+Source check: October 9, 2026; the gate exercise was rechecked October 13, 2026 against the Galluzzi and Chen/Mellman abstracts. Leah and her measurements are fictional. Mechanisms do not establish a clinical regimen. Expert and learner review remain pending.
 
 - [Galluzzi et al., 2020: definition and detection of immunogenic cell death](https://pubmed.ncbi.nlm.nih.gov/32209603/) — consensus framework for distinguishing signals from demonstrated immunity.
 - [Vanpouille-Box et al., 2017: radiation dose and DNA sensing](https://pubmed.ncbi.nlm.nih.gov/28598415/) — experimental models, not a patient dosing rule.

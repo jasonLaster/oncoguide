@@ -7,11 +7,11 @@ glossary_anchor: "hot-excluded-cold-tumor"
 aliases: ["immune-hot", "immune-excluded", "immune-cold", "immune desert", "inflamed tumor"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/index]]","[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -43,6 +43,19 @@ Different tumor regions or disease sites can have different patterns. A small bi
 
 Presence also differs from specificity. Some cells in a tumor respond to infections or other antigens. Others restrain immune activity. “Hot” therefore does not mean every visible T cell is attacking cancer. Conversely, few visible cells do not show that no immune response exists elsewhere.
 
+### Candidate reasons T cells stay out
+
+"Excluded" names a pattern. Studies have identified several mechanisms that can produce it, each tested in its own setting:
+
+| Candidate mechanism | What it does | Example evidence |
+|---|---|---|
+| Missing recruitment signals | T cells follow chemokines such as CXCL9 and CXCL10 through their receptor CXCR3; without them, fewer cells enter | Mouse tumors: anti-PD-1 benefit needed intratumoral CXCR3 signaling ([Chow et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31097342/)) |
+| Fibroblast-rich stroma and TGF-β | Transforming growth factor beta (TGF-β) signaling in stroma keeps T cells at the edge | Urothelial cancer treated with atezolizumab: a stromal TGF-β signature went with non-response and exclusion; in mice, blocking TGF-β together with PD-L1 let T cells into the tumor ([Mariathasan et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29443960/)) |
+| Tumor-intrinsic WNT/β-catenin signaling | Reduces recruitment of the dendritic cells that start a response, which yields a desert more than an excluded rim | Melanoma patients and mouse models ([Spranger et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25970248/)) |
+| Abnormal vessels | Leaky, disorganized vessels and low adhesion-molecule display limit entry | Proposed across many tumor types; see [cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) for the signals involved |
+
+None of these is shown by the image itself. Each needs its own measurement.
+
 
 ### Shared visual reference
 
@@ -54,7 +67,11 @@ The matched fields count specified T-cell symbols in a fixed fictional field. St
 
 ## Why it matters in cancer
 
-The pattern helps organize questions about priming, recruitment, access and local function. It can motivate more measurement. It does not by itself select a vaccine, checkpoint drug or treatment combination.
+The pattern helps organize questions about priming, recruitment, access and local function. It does not by itself select a vaccine, checkpoint drug or treatment combination.
+
+- **Outcome association in early triple-negative breast cancer (TNBC):** the best-studied version of "hot" is the stromal tumor-infiltrating lymphocyte (sTIL) score. In 2,148 patients with early TNBC given adjuvant chemotherapy, each 10% increase in sTILs was associated with an invasive disease-free survival hazard ratio of 0.87 and an overall survival hazard ratio of 0.84 ([Loi et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30650045/)). That is a prognostic finding; see [tumor-infiltrating lymphocytes](/wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes#why-it-matters-in-cancer) for the population and the neoadjuvant data.
+- **Prognostic is not predictive:** those data do not show that a hot tumor gains more from adding a checkpoint inhibitor. See [prognostic vs predictive](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive).
+- **From hot to PD-L1:** T cells that recognize a tumor release interferon gamma, which can make tumor and immune cells display programmed death-ligand 1 (PD-L1). This [adaptive immune resistance](/wiki/education/concepts/immunology/tumor-immunology/adaptive-immune-resistance) links an inflamed pattern to the [PD-L1 score](/wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring) ([Taube et al., 2012](https://pubmed.ncbi.nlm.nih.gov/22461641/)).
 
 ## Worked example
 
@@ -108,9 +125,12 @@ A fictional section shows many T cells at the border but few within cancer-cell 
 
 ## Sources and scope
 
-Source check: October 10, 2026. Descriptive tissue patterns; clinical predictions require assay-, population- and treatment-specific evidence. Expert and learner review remain pending.
+Source check: November 7, 2026. Descriptive tissue patterns; clinical predictions require assay-, population- and treatment-specific evidence. Expert and learner review remain pending.
 
 - [Chen and Mellman, 2017: immune profiles in the cancer–immune set-point framework](https://www.nature.com/articles/nature21349).
+- [Loi et al., 2019: pooled sTIL prognosis in early TNBC](https://pubmed.ncbi.nlm.nih.gov/30650045/).
+- [Taube et al., 2012: interferon-linked PD-L1 and adaptive resistance](https://pubmed.ncbi.nlm.nih.gov/22461641/).
+- Exclusion mechanisms: [Chow et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31097342/); [Mariathasan et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29443960/); [Spranger et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25970248/).
 - [Salgado et al., 2015: breast-cancer lymphocyte-scoring recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/).
 - [Kos et al., 2020: variability and pitfalls in stromal lymphocyte assessment](https://pubmed.ncbi.nlm.nih.gov/32411819/).
 - [Preclinical in-situ tumor-array study, 2023](https://www.nature.com/articles/s41586-023-06132-2). Spatially distinct and changing patterns in mouse models support keeping location and timing attached; model associations do not create a universal clinical cutoff.
@@ -119,7 +139,10 @@ Source check: October 10, 2026. Descriptive tissue patterns; clinical prediction
 ## Used in
 
 - [Compare related ideas](/wiki/education/comparisons/index)
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Learn the biology and evidence](/wiki/education/index)
+- [Add the geography of cells and signals](/wiki/education/molecular-profiling/04-spatial-biology)
 - [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
 - [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
 - [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)

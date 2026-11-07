@@ -8,8 +8,8 @@ objectives: ["Locate immune failure at target, display, access or cell function.
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self]]", "[[wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-13
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -66,6 +66,8 @@ In the cited selected metastatic-melanoma series, Janus kinase (JAK) defects aff
 
 ## Several failures can coexist
 
+The [immune-escape concept](/wiki/education/concepts/immunology/tumor-immunology/immune-escape#how-it-works) lists the documented routes with an example study for each, from antigen loss to T-cell exhaustion.
+
 | Possible bottleneck | What to test | What the label alone cannot tell you |
 |---|---|---|
 | Antigen loss | Target expression across relevant regions | Whether every site lost the target |
@@ -105,7 +107,7 @@ One possible answer: “that it avoids the measured failure; that the new route 
 
 **A different route creates a new set of testable requirements; it is not an automatic rescue.**
 
-**Next:** [Compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison), then explore [vaccine design](/wiki/education/guides/personalized-cancer-vaccine/index) or [engineered cell therapy](/wiki/education/guides/engineered-cell-therapy/index).
+**Next:** [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change), then [compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison) or explore [vaccine design](/wiki/education/guides/personalized-cancer-vaccine/index) or [engineered cell therapy](/wiki/education/guides/engineered-cell-therapy/index).
 
 ## Sources and scope
 

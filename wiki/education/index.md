@@ -3,15 +3,20 @@ title: "Learn the biology and evidence"
 type: navigation
 sensitive: false
 tags: [education]
-updated: 2026-10-09
+updated: 2026-11-07
 review_status: "Source-checked; expert and learner review pending"
 reviewed: pending
 reviewed_by: ""
+source_checked: 2026-11-07
 ---
 
 # Learn the biology and evidence
 
 **Choose the question you want to understand, then follow a path in order.** These pages teach concepts and how to read evidence. Current results and treatment choices are linked from each guide’s case box.
+
+> **New here?** Start with [Start here](/wiki/education/guides/start-here/index), about 30 minutes. It explains report labels, immune recognition and how to read a treatment claim, then points you to the next path.
+
+There are three ways in: follow a [learning path](/wiki/education/guides/index) toward a goal, look up one idea in the [concept library](/wiki/education/concepts/index), or untangle two similar ideas with a [comparison](/wiki/education/comparisons/index).
 
 ## Begin with your goal
 
@@ -32,20 +37,31 @@ reviewed_by: ""
 | Does a molecular finding support a drug? | [From a variant to a drug question](/wiki/education/guides/from-variant-to-drug/index): origin, functional consequence and matched clinical evidence |
 | How do treatment formats reach a target? | [Aim a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index): recognition, delivery and matched evidence |
 | Can local injury create an immune response? | [Local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index): injury, disease setting, combination evidence and measurements |
-| What does injection into a tumor change? | [Intratumoral immunotherapy](/wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy) and [reading an injection study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study): route, measurements and attribution |
-| How do repair and survival pathways connect? | [Explore repair and survival mechanisms](/wiki/education/guides/from-variant-to-drug/index#supporting-mechanistic-lessons): repair, recycling, growth signals and experiments |
 
-If all of this is new, begin with **Start here**, then follow **standard treatment**, **pathology**, **immunotherapy** and **reading evidence** as your questions arise. Use the multi-omics vocabulary course when a report introduces unfamiliar cell or molecular terms; it is a supporting reference within the multi-omics path.
+**Shortcuts:** [injection into a tumor](/wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy) and [reading an injection study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study); [repair and survival mechanisms](/wiki/education/guides/from-variant-to-drug/index#supporting-mechanistic-lessons).
 
-The [Learning paths index](/wiki/education/guides/index) collects the ordered paths in one place. The [local-treatment reference shelf](/wiki/education/local-treatment-modalities/index) helps you find modality and study references after the lessons.
+If all of this is new, begin with **Start here**, then follow **standard treatment**, **pathology**, **immunotherapy** and **reading evidence** as your questions arise. Use the [multi-omics vocabulary lessons](/wiki/education/multi-omics-foundations/index) when a report introduces unfamiliar cell or molecular terms; they are the first eight steps of the multi-omics path.
 
-Want to untangle two similar ideas? [Compare related ideas](/wiki/education/comparisons/index) groups short comparison pages by question. Pick one, try its practice question and read the answer.
+## Biology foundations, in order
+
+If you want the biology underneath the paths, read these concept pages in order. Each takes about five minutes.
+
+1. [The cell and its membrane](/wiki/education/concepts/biology-basics/cells/cell-and-membrane)
+2. [DNA](/wiki/education/concepts/biology-basics/molecules/dna), [genes](/wiki/education/concepts/biology-basics/molecules/gene), [RNA](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) and [proteins](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide)
+3. [The central dogma and the genetic code](/wiki/education/concepts/biology-basics/genetics/central-dogma), then [gene regulation](/wiki/education/concepts/biology-basics/genetics/gene-regulation)
+4. [Mutation types](/wiki/education/concepts/biology-basics/genetics/mutation-types) and [germline vs somatic](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic)
+5. [Oncogenes and tumor suppressors](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor), then [what cancer is](/wiki/education/concepts/cancer-biology/what-cancer-is/cancer) and the [hallmarks of cancer](/wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer)
+6. [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) and [clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution)
+7. [The tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment) and [metastasis and dormancy](/wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy)
+8. Why treatment works: [why chemotherapy hits dividing cells](/wiki/education/concepts/biology-basics/cells/cell-division-and-why-chemo-hits-dividing-cells), [homologous recombination deficiency (HRD)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd), [how cancer cells die](/wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-vs-necrosis-vs-ferroptosis) and [cancer dependencies](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-addiction-vs-synthetic-lethality)
+
+The [local-treatment reference shelf](/wiki/education/local-treatment-modalities/index) helps you find modality and study references after the lessons.
 
 ## Look up a concept
 
 [[wiki/education/concepts/index|Concept library]] provides stable definitions, examples and common confusions. [[about/Terminology|Terminology]] provides short definitions and links to explanations. [[about/tags|Topic tags]] organize navigation separately.
 
-For immune geography, use [[wiki/education/reading-a-tumor/immune-hot-vs-cold|hot, excluded and cold patterns]]. For receptor tracking, use [[wiki/education/molecular-profiling/tcr-and-tcr-sequencing|receptor sequencing]]. For blood numbers, use [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|blood measurements and limits]].
+For immune geography, use [[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor|hot, excluded and cold patterns]]. For receptor tracking, use [[wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing|T-cell receptor sequencing]]. For blood numbers, use [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|blood measurements and limits]].
 
 ## Apply the learning
 

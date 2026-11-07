@@ -7,7 +7,7 @@ glossary_anchor: immunoediting
 aliases: ["cancer immunoediting"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/immunology/tumor-immunology/immune-escape]]"]
-used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: [education, tumor-biology]
 updated: "2026-10-10"
@@ -114,5 +114,6 @@ Source-checked October 10, 2026. General education and a fictional experiment; e
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 <!-- END GENERATED USED IN -->

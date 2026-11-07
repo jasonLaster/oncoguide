@@ -7,7 +7,7 @@ glossary_anchor: absolute-relative-risk-and-nnt
 aliases: ["absolute risk", "relative risk", "risk ratio", "absolute risk reduction", "relative risk reduction", "number needed to treat", "ARR", "RRR", "NNT"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
@@ -114,5 +114,7 @@ Source check: 2026-10-10. General effect-size education; expert and learner revi
 ## Used in
 
 - [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
+- [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
+- [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
 <!-- END GENERATED USED IN -->

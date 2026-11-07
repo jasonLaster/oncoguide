@@ -12,10 +12,11 @@ prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]"
 sensitive: false
-reviewed: pending
+reviewed: "pending"
 reviewed_by: ""
-review_status: "Expert and learner review pending"
-source_checked: 2026-10-09
+review_status: "Source-checked; expert and learner review pending"
+updated: 2026-11-07
+source_checked: "2026-11-07"
 tags: [education, autophagy, PARP, functional-testing]
 ---
 
@@ -71,7 +72,7 @@ Suppose recycling completes efficiently during drug treatment. Does it help the 
 | Less drug-induced death | Recycling may have contributed to the death response. | Does an independent perturbation reproduce the result? |
 | Changed flux, similar survival | Recycling may not limit survival in these conditions. | Could timing or compensation conceal an effect? |
 
-Published breast cancer experiments illustrate why both directions deserve attention. Bellare and colleagues found that disrupting autophagy increased talazoparib sensitivity in the HR-proficient models they studied. Arun and colleagues found that reducing ATG5, an autophagy machinery protein, partly reduced olaparib-induced apoptosis in the BRCA2-mutant HCC-1428 cell line. **Apoptosis** is a regulated cell-death process. These studies used different models, drugs, and perturbations. Their results do not define a universal tumor label or individual treatment effect. [Bellare 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8007595/), [Arun 2015](https://www.spandidos-publications.com/10.3892/ijo.2015.3003).
+Published breast cancer experiments illustrate why both directions deserve attention. Bellare and colleagues found that disrupting autophagy increased talazoparib sensitivity in the HR-proficient models they studied. Arun and colleagues found that reducing ATG5, an autophagy machinery protein, partly reduced olaparib-induced apoptosis in the BRCA2-mutant HCC-1428 cell line, which is estrogen-receptor-positive rather than triple-negative ([Mouron 2021](https://pubmed.ncbi.nlm.nih.gov/33579347/)). **Apoptosis** is a regulated cell-death process. These studies used different models, drugs, and perturbations. Their results do not define a universal tumor label or individual treatment effect. [Bellare 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8007595/), [Arun 2015](https://www.spandidos-publications.com/10.3892/ijo.2015.3003).
 
 Read Bellare's report with its [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/), which replaced an incorrectly assembled representative liver-histology image in Figure 6f.
 
@@ -106,7 +107,7 @@ One possible answer: “how much machinery or cargo is present; how much materia
 
 ## Sources and scope
 
-Source check: 2026-10-09. General measurement education; expert and learner review pending. Delivery counts are fictional. Published drug interactions discussed here come from preclinical models.
+Source check: 2026-11-07. General measurement education; expert and learner review pending. Delivery counts are fictional. Published drug interactions discussed here come from preclinical models.
 
 - [Klionsky 2021: fourth-edition guidelines for interpreting autophagy assays](https://pubmed.ncbi.nlm.nih.gov/33634751/).
 - [Bellare 2021: autophagy perturbation in HR-proficient breast cancer models](https://pmc.ncbi.nlm.nih.gov/articles/PMC8007595/); [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/).

@@ -7,7 +7,7 @@ glossary_anchor: "cgas-sting"
 aliases: ["cGAS-STING", "cGAS", "STING", "DNA sensing"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
+used_by: ["[[wiki/education/oncology-101/2-dendritic-cells]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -113,6 +113,5 @@ Source-checked October 10, 2026. Molecular mechanisms and context-dependent mode
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Understand how the immune system recognizes cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 <!-- END GENERATED USED IN -->

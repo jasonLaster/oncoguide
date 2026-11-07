@@ -3,8 +3,8 @@ title: "Dose a vaccine and measure its response"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -73,7 +73,7 @@ Blood may miss tissue-resident responses. Artificial peptide loading may bypass 
 
 ## Try it
 
-[[about/Terminology#ctdna|Circulating tumor DNA (ctDNA)]] becomes undetectable after standard treatment plus vaccine. Does that establish the vaccine caused clearance?
+[Circulating tumor DNA (ctDNA)](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) becomes undetectable after standard treatment plus vaccine. Does that establish the vaccine caused clearance?
 
 **Answer:** No. Timing, assay limits, standard treatment and a suitable comparison matter. A blood result does not isolate one component of a combined intervention.
 

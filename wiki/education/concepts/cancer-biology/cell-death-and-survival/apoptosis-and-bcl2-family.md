@@ -12,8 +12,8 @@ prerequisites:
 used_by: ["[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/oncology-101/index]]"]
 sensitive: false
 tags: [education]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -71,7 +71,7 @@ flowchart TD
 
 ## Why it matters in cancer
 
-Cancer cells can evade apoptosis by changing survival and death machinery. That motivates testing vulnerabilities, but strong BCL-2-family staining is not a dependency result. BCL2 and BCL2L1 are different genes; BCL-XL is one product of BCL2L1. An inhibitor's selectivity must match the proposed mechanism.
+Cancer cells can evade apoptosis by changing survival and death machinery. That motivates testing vulnerabilities, but strong BCL-2-family staining is not a dependency result. BCL2 and BCL2L1 are different genes; BCL-XL is one product of BCL2L1. An inhibitor's selectivity must match the proposed mechanism. Venetoclax shows why. Its predecessor navitoclax blocked both BCL-2 and BCL-XL and worked in some BCL-2-dependent blood cancers, but blocking BCL-XL also lowered platelets, which need BCL-XL to survive. Venetoclax (ABT-199) was re-engineered to block BCL-2 alone; it spared human platelets and caused rapid tumor breakdown in patients with refractory chronic lymphocytic leukemia. [Souers 2013](https://pubmed.ncbi.nlm.nih.gov/23291630/). A tumor that depends on BCL-XL rather than BCL-2 would not be expected to respond to venetoclax.
 
 Apoptosis is not automatically immune-silent or immunogenic. [Obeid's tumor-model experiments](https://pubmed.ncbi.nlm.nih.gov/17187072/) linked calreticulin exposure to immune protection under tested conditions. The [immunogenic-cell-death concept](/wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death) holds that separate claim.
 
@@ -90,7 +90,7 @@ Cleaved-caspase measurements, membrane changes and microscopy address different 
 
 A fictional culture stains strongly for BCL-XL. A researcher concludes that any BCL-2 inhibitor will kill it. What needs checking?
 
-**Answer:** Protein abundance is the observation. Dependency needs a controlled functional test, and the compound's selectivity must include the relevant protein. Mitochondrial response, sustained killing and benefit in people remain separate outcomes.
+**Answer:** Protein abundance is the observation. Dependency needs a controlled functional test, and the compound's selectivity must include the relevant protein: a BCL-2-selective drug such as venetoclax is not designed to block BCL-XL. Mitochondrial response, sustained killing and benefit in people remain separate outcomes.
 
 ## Explain it back
 
@@ -108,8 +108,9 @@ A fictional culture stains strongly for BCL-XL. A researcher concludes that any 
 
 ## Sources and scope
 
-Source-checked October 10, 2026. General mechanism and research interpretation; fictional exercise. Expert and learner review remain pending. The added mitochondrial inset was source-checked October 12, 2026, using the linked primary-paper abstracts; it is a spatial teaching schematic.
+Source-checked November 7, 2026. General mechanism and research interpretation; fictional exercise. Expert and learner review remain pending. The added mitochondrial inset was source-checked October 12, 2026, using the linked primary-paper abstracts; it is a spatial teaching schematic.
 
+- [Souers et al., 2013: venetoclax (ABT-199), a BCL-2-selective inhibitor that spares platelets](https://pubmed.ncbi.nlm.nih.gov/23291630/).
 - [Galluzzi et al., 2018: mechanism-based cell-death definitions](https://www.nature.com/articles/s41418-017-0012-4).
 - [Czabotar et al., 2014: BCL-2-family roles and interactions](https://www.nature.com/articles/nrm3722).
 - [Wei et al., 2001: BAX/BAK loss-of-function experiments](https://pubmed.ncbi.nlm.nih.gov/11326099/).

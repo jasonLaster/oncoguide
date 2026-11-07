@@ -13,7 +13,7 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, breast-cancer]
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
+used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]"]
 updated: 2026-10-10
 source_checked: 2026-10-10
 review_status: "Source-checked; expert and learner review pending"
@@ -78,7 +78,7 @@ The separate 2016 DCIS consensus used 2 mm as an adequate-margin standard for DC
 
 Negative invasive and involved DCIS margins can coexist. A [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) definition allowing DCIS can also coexist with a DCIS margin concern. Response and local edges answer different questions.
 
-Completion surgery might involve another excision or mastectomy, but a margin finding alone does not choose the operation. Extent, anatomy, prior treatment and the overall plan remain relevant.
+[Completion surgery](/wiki/education/concepts/therapeutics/local-therapies/completion-surgery) might involve another excision or mastectomy, but a margin finding alone does not choose the operation. Extent, anatomy, prior treatment and the overall plan remain relevant.
 
 ## Worked example
 
@@ -126,5 +126,4 @@ Source-checked October 10, 2026; expert and learner review pending. Examples are
 - [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)
-- [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
 <!-- END GENERATED USED IN -->

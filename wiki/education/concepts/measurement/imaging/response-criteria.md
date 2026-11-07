@@ -1,8 +1,8 @@
 ---
-title: "Response criteria: RECIST and iRECIST"
+title: "Response criteria: RECIST, iRECIST and PERCIST"
 type: "concept"
 domain: "measurement/imaging"
-aliases: ["RECIST", "RECIST 1.1", "iRECIST", "response criteria", "iUPD", "iCPD"]
+aliases: ["RECIST", "RECIST 1.1", "iRECIST", "response criteria", "iUPD", "iCPD", "PERCIST", "PET Response Criteria in Solid Tumors"]
 summary: "Response criteria apply predefined imaging rules to selected lesions and other disease findings, producing trial response categories that do not by themselves establish tissue clearance or treatment benefit."
 glossary_anchor: "response-criteria"
 level: "intermediate"
@@ -10,13 +10,14 @@ prerequisites: ["[[wiki/education/concepts/measurement/imaging/pet-ct]]"]
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
 sensitive: false
 tags: ["education", "measurement", "imaging"]
-source_checked: "2026-10-10"
+updated: "2026-11-07"
+source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Response criteria: RECIST and iRECIST
+# Response criteria: RECIST, iRECIST and PERCIST
 
 ## In one sentence
 
@@ -47,6 +48,18 @@ Unequivocal non-target progression or an unequivocal new malignant lesion can es
 This handles possible **pseudoprogression**: apparent worsening followed by response. It does not assume that growth or new lesions are pseudoprogression.
 
 In trials permitting treatment beyond iUPD, the framework calls for reassessment generally 4–8 weeks later and continued treatment only in clinically stable participants under the protocol. Stability includes no relevant deterioration in performance, disease-related symptoms or need for intensified symptom management. iRECIST organizes trial data; clinical decisions still require the treating team and participant. The label iUPD is not permission to continue therapy automatically. [Primary iRECIST paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC5648544/) and [RECIST Working Group clarifications](https://recist.eortc.org/irecist/).
+
+## What PERCIST adds
+
+**PERCIST** (PET Response Criteria in Solid Tumors) measures change in tumor sugar uptake on [fluorodeoxyglucose PET](/wiki/education/concepts/measurement/imaging/pet-ct) rather than change in size. The draft 1.0 framework ([Wahl 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/)) specifies:
+
+- uptake normalized to lean body mass (SUL), so results are comparable between scans;
+- a fixed small region, about 1 cubic centimeter, placed on the most active part of the hottest tumor (up to five tumors optionally);
+- a normal-liver reference region, to check the scans are comparable;
+- a decline of at least 30% as the threshold for metabolic response, chosen because test–retest studies showed about 20% change in uptake from measurement variability alone;
+- falling back to RECIST 1.1 when a tumor does not take up the tracer.
+
+PERCIST helps where tumors respond without shrinking much. A metabolic response is still not a tissue result: it does not establish a pathologic complete response.
 
 ## Why it matters in cancer
 
@@ -96,11 +109,12 @@ A response category is a rule-based summary. Keep its reference measurement, ful
 
 ## Sources and scope
 
-Source check: October 10, 2026. General trial measurement and fictional arithmetic; expert and learner review remain pending. This is an introduction, not a replacement for protocol-specific assessment or clinical judgment.
+Source check: November 7, 2026. General trial measurement and fictional arithmetic; expert and learner review remain pending. This is an introduction, not a replacement for protocol-specific assessment or clinical judgment.
 
 - [Eisenhauer et al. (2009), RECIST 1.1](https://recist.eortc.org/recist/wp-content/uploads/sites/14/2025/12/RECISTGuidelines.pdf): selection, dimensions, reference sums and overall response.
 - [Seymour et al. (2017), iRECIST](https://pmc.ncbi.nlm.nih.gov/articles/PMC5648544/): unconfirmed progression, reassessment and clinical stability.
 - [RECIST Working Group, iRECIST clarifications](https://recist.eortc.org/irecist/): data handling versus patient management and confirmation scenarios.
+- [Wahl et al. (2009), from RECIST to PERCIST](https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/): draft PERCIST 1.0 framework (PMID 19403881).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

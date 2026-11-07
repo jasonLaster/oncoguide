@@ -1,5 +1,5 @@
 ---
-title: "Surrogate endpoints: the pCR paradox"
+title: "Surrogate endpoints: patient-level and trial-level evidence"
 type: concept
 domain: evidence-and-statistics/endpoints
 summary: "A surrogate endpoint is a measured outcome used in place of a direct clinical benefit outcome, with evidence needed to support that substitution in a specified setting."
@@ -9,17 +9,17 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"
   - "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr]]"
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
 sensitive: false
 tags: [education, evidence-and-statistics]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-07
+source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 ---
 
-# Surrogate endpoints: the pCR paradox
+# Surrogate endpoints: patient-level and trial-level evidence
 
 ## In one sentence
 
@@ -52,13 +52,19 @@ Start with the unit: a person above, a randomized A–B comparison below. Pathol
 
 ## Why it matters in cancer
 
-[Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) is assessed in tissue after treatment before surgery. The 2014 Collaborative Trials in Neoadjuvant Breast Cancer (CTNeoBC) pooled analysis included 11,955 patients from 12 breast-cancer trials. Achieving pCR was associated with better long-term outcomes, with a particularly strong association in aggressive subtypes. Yet the analysis could not validate changes in pCR rates between treatment groups as a surrogate for improved [event-free survival (EFS) or overall survival (OS)](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints). [Cortazar et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24529560/).
+[Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) is assessed in the surgical specimen after preoperative (neoadjuvant) treatment, not on a biopsy or scan before surgery. Breast cancer shows both levels of evidence clearly:
 
-This is the “pCR paradox”: a favorable result for a person and a valid substitute for comparing treatments are different claims. It does not mean pCR is useless, that increasing it can never accompany survival benefit, or that the 2014 analysis answers every later regimen. Nor does it turn a group association into an individual's forecast.
+| Level | Study | Result |
+|---|---|---|
+| Patient level | CTNeoBC (Collaborative Trials in Neoadjuvant Breast Cancer), 11,955 patients from 12 trials [1] | Reaching pCR (ypT0/Tis ypN0) was linked to better [event-free survival (EFS)](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints): hazard ratio 0.48 overall and 0.24 in triple-negative disease; for overall survival, 0.36 overall and 0.16 in triple-negative disease |
+| Trial level | Same analysis [1] | Bigger pCR gains between arms barely tracked EFS gains (R² 0.03, 95% CI 0.00–0.25) or overall-survival gains (R² 0.24, 0.00–0.70) |
+| Trial level | Conforti and colleagues, 54 randomized trials, 32,611 patients [2] | Weak agreement again: R² 0.14 for disease-free survival and 0.08 for overall survival |
+
+R² is the share of variation in survival effects explained by pCR effects; 1 would be perfect. So pCR is a strong **prognostic** marker for a person, but a weak **substitute** for comparing treatments. This is sometimes called the pCR paradox. It does not mean pCR gains never bring survival gains: in KEYNOTE-522, a 13.6-point pCR gain came with event-free and overall-survival gains [3]. Each new regimen still needs its own survival evidence, and a group association is not an individual forecast.
 
 ## Read the endpoint card
 
-Record the population, intervention, comparator, definition, assessment time and intended clinical outcome. For pCR, retain the breast-and-node pathology definition and how missing surgery or specimens were handled. Report rates with their denominators and uncertainty. Survival has its own event definition, starting clock and follow-up.
+Record the population, intervention, comparator, definition, assessment time and intended clinical outcome. For pCR, retain the definition (usually ypT0/Tis ypN0: no invasive cancer in breast or nodes) and how missing surgery or specimens were handled. Report rates with their denominators and uncertainty. Survival has its own event definition, starting clock and follow-up.
 
 The U.S. Food and Drug Administration (FDA) distinguishes context-specific surrogate uses. A measure accepted for one development program should not be transferred automatically to another; “validated” and “reasonably likely” are different evidence claims. [FDA surrogate-endpoint table and limitations](https://www.fda.gov/drugs/development-resources/table-surrogate-endpoints-were-basis-drug-approval-or-licensure). [Approval types](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) explains the regulatory distinction.
 
@@ -89,16 +95,20 @@ A fictional randomized trial increases pCR from 40 of 100 to 55 of 100 participa
 
 ## Sources and scope
 
-Source check: October 10, 2026. General endpoint teaching; the practice trial is fictional. CTNeoBC is a versioned pooled analysis, not a personal prognosis model. Expert and learner review pending.
+Source check: November 7, 2026 (CTNeoBC and Conforti figures from the primary abstracts). General endpoint teaching; the practice trial is fictional. CTNeoBC is a versioned pooled analysis, not a personal prognosis model. Expert and learner review pending.
 
+1. [Cortazar et al., Lancet 2014: CTNeoBC pooled analysis](https://pubmed.ncbi.nlm.nih.gov/24529560/) — primary breast-cancer analysis; selected methods and discussion also checked in the [author-hosted original paper](https://unclineberger.org/peroulab/wp-content/uploads/sites/1008/2015/04/pCR-endpoint-FDA-Cortazar-LANCET-2014.pdf).
+2. [Conforti et al., BMJ 2021](https://pubmed.ncbi.nlm.nih.gov/34933868/) — trial-level meta-analysis of 54 neoadjuvant randomized trials.
+3. [Schmid et al., NEJM 2020](https://pubmed.ncbi.nlm.nih.gov/32101663/) and [2024](https://pubmed.ncbi.nlm.nih.gov/39282906/) — KEYNOTE-522 pCR and overall survival.
 - [Buyse et al., 2000: individual-level and trial-level surrogate validation](https://pubmed.ncbi.nlm.nih.gov/12933525/) — primary statistical framework.
-- [Cortazar et al., 2014: CTNeoBC pooled analysis](https://pubmed.ncbi.nlm.nih.gov/24529560/) — primary breast-cancer analysis; selected methods and discussion also checked in the [author-hosted original paper](https://unclineberger.org/peroulab/wp-content/uploads/sites/1008/2015/04/pCR-endpoint-FDA-Cortazar-LANCET-2014.pdf).
 - [FDA: surrogate-endpoint table, context and limitations](https://www.fda.gov/drugs/development-resources/table-surrogate-endpoints-were-basis-drug-approval-or-licensure) — official explanation, not a treatment recommendation.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Ask what a result should change](/wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change)
+- [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
-- [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index)
+- [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 - [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
 <!-- END GENERATED USED IN -->
