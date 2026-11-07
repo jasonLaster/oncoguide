@@ -9,7 +9,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics]]"
   - "[[wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging]]"
-used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-11-07"
@@ -117,6 +117,7 @@ Source-checked November 7, 2026 (approved examples, daughter recoil and intuitio
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Read a new payload strategy](/wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions)
 - [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)

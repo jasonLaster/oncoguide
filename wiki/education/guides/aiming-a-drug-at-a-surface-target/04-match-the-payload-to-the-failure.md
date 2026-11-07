@@ -121,7 +121,7 @@ Complete: "Before choosing the next ADC, I would ask whether the last one failed
 
 **Ask why the last ADC failed before choosing the next one: a new address may fix a delivery problem, but a payload problem calls for testing a payload the defense does not touch.**
 
-**Next:** [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index), or read [the plain-language payload summary](/wiki/research/reviews/2026-11-new-adc-payloads-short-version) to see how drug developers are using this reasoning.
+**Next:** [Read a new payload strategy](/wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy), which applies this reasoning to the designs drug developers are testing now.
 
 ## Sources and scope
 

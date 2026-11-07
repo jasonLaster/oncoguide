@@ -9,7 +9,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]"
   - "[[wiki/education/concepts/therapeutics/chemotherapy/chemotherapy]]"
-used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/02-timing]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/02-timing]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-11-07"
@@ -38,7 +38,7 @@ A payload class is defined by its cellular target, not by the company or the ant
 | **Microtubule inhibitors** | The spindle a cell needs to divide: auristatins (such as MMAE) and maytansinoids (such as DM1) | Enfortumab vedotin, brentuximab vedotin, trastuzumab emtansine (T-DM1) | Nerve damage (neuropathy) with MMAE; eye toxicity with some, including DM4, MMAF and the MMAE product tisotumab vedotin; low platelets and liver injury with T-DM1 |
 | **[Topoisomerase I (TOP1) inhibitors](/wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors)** | The enzyme that relieves DNA twisting; trapped enzyme breaks DNA during copying | Sacituzumab govitecan (SN-38), trastuzumab deruxtecan and datopotamab deruxtecan (deruxtecan, DXd) | Low white-cell counts, diarrhea; lung inflammation with the deruxtecan products |
 | **DNA-damaging agents** | DNA itself, by cutting or cross-linking it: calicheamicin, pyrrolobenzodiazepines (PBDs) | Gemtuzumab ozogamicin, loncastuximab tesirine | Very high potency, so fewer payloads per antibody; marrow and liver injury (including veno-occlusive disease with calicheamicin); fluid retention and skin reactions with PBDs |
-| **Emerging classes** | Transcription (amanitin), DNA-damage-response enzymes (ATR, CHK1, PARP1), immune alarms (STING, TLR agonists), protein degraders | None approved | Human benefit and repeat-dose safety largely unproven |
+| **Emerging classes** | [Transcription](/wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads) (amanitin), [DNA-damage-response enzymes](/wiki/education/concepts/therapeutics/antibody-based/ddr-inhibitor-payloads) (ATR, CHK1, PARP1), [immune alarms](/wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc) (STING, TLR agonists), protein degraders | None approved | Human benefit and repeat-dose safety largely unproven |
 
 ```mermaid
 flowchart LR
@@ -59,9 +59,9 @@ Three properties follow from the class and the specific molecule:
 
 1. **Potency sets loading.** Very potent payloads are attached at fewer copies per antibody. The average [drug-to-antibody ratio](/wiki/education/concepts/therapeutics/antibody-based/adc-conjugation-chemistry) is about 8 for trastuzumab deruxtecan, 7 to 8 for sacituzumab govitecan and 3.5 for T-DM1, but only 2.3 for the ultra-potent PBD conjugate loncastuximab tesirine [9].
 2. **Membrane permeability sets reach.** A released payload that crosses membranes can kill neighboring cells that lack the target, a bystander effect shown for DXd in mixed preclinical models [2]. A charged payload or breakdown product, such as the lysine-linked DM1 released from T-DM1, tends to stay in the cell that took it up. The linker decides where release happens; see [ADC conjugation chemistry](/wiki/education/concepts/therapeutics/antibody-based/adc-conjugation-chemistry).
-3. **Pump handling sets one kind of resistance.** Some payloads are substrates of [drug efflux transporters](/wiki/education/concepts/therapeutics/how-drugs-work/drug-efflux-transporters), which push them out of the cell.
+3. **Pump handling sets one kind of resistance.** Some payloads are substrates of [drug efflux transporters](/wiki/education/concepts/therapeutics/how-drugs-work/drug-efflux-transporters), which push them out of the cell. Chemists now tune all three properties within the TOP1 class; see [next-generation TOP1 payloads](/wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads).
 
-**Dual-payload ADCs** carry two payloads from different classes on one antibody, for example a TOP1 inhibitor with a microtubule inhibitor, or a TOP1 inhibitor with an ATR inhibitor that blocks the cell's response to the damage it causes. Their aim is to kill cells that survive one mechanism. Their burden is that two payloads need two loading ratios, two exposure measurements and evidence that the second payload adds benefit [3].
+**[Dual-payload ADCs](/wiki/education/concepts/therapeutics/antibody-based/dual-payload-adc)** carry two payloads from different classes on one antibody, for example a TOP1 inhibitor with a microtubule inhibitor, or a TOP1 inhibitor with an ATR inhibitor that blocks the cell's response to the damage it causes. Their aim is to kill cells that survive one mechanism. Their burden is that two payloads need two loading ratios, two exposure measurements and evidence that the second payload adds benefit [3].
 
 ## Why it matters in cancer
 
@@ -95,6 +95,11 @@ How this applies to her is owned by the [drug-panel preferences](/wiki/diagnosti
 - [Therapeutic index](/wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index)
 - [ADC conjugation chemistry](/wiki/education/concepts/therapeutics/antibody-based/adc-conjugation-chemistry)
 - [ADC payload toxicities](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/adc-payload-toxicity)
+- [Dual-payload ADC](/wiki/education/concepts/therapeutics/antibody-based/dual-payload-adc)
+- [Next-generation TOP1 payloads](/wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads)
+- [DNA-damage-response inhibitor payloads](/wiki/education/concepts/therapeutics/antibody-based/ddr-inhibitor-payloads)
+- [Transcription-inhibitor payloads](/wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads)
+- [Immune-stimulating ADC](/wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc)
 
 ## Sources and scope
 
@@ -114,6 +119,7 @@ Source check: November 7, 2026. General mechanisms and approved-product examples
 ## Used in
 
 - [Match the payload to the failure](/wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure)
+- [Read a new payload strategy](/wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
 - [Follow delivery, exposure, and the treatment clock](/wiki/education/targeted-therapy-modalities/02-timing)

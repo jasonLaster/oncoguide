@@ -9,7 +9,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]"
   - "[[wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes]]"
-used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/02-timing]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/02-timing]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-11-07"
@@ -98,6 +98,7 @@ Source check: November 7, 2026. Label rates are from pooled trial populations na
 ## Used in
 
 - [Match the payload to the failure](/wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure)
+- [Read a new payload strategy](/wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Follow delivery, exposure, and the treatment clock](/wiki/education/targeted-therapy-modalities/02-timing)
 <!-- END GENERATED USED IN -->
