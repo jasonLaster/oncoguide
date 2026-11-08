@@ -11,7 +11,7 @@ prerequisites:
   - "[[wiki/education/concepts/immunology/t-cells/t-cell]]"
   - "[[wiki/education/concepts/immunology/t-cells/anergy]]"
   - "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]"
-used_by: []
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states]]"]
 updated: 2026-11-07
 source_checked: 2026-11-07
 reviewed: "pending"
@@ -91,7 +91,7 @@ One possible answer: “an observation; response history plus suitable controlle
 
 ## Related concepts
 
-Continue with [anergy's induction-and-retest logic](/wiki/education/concepts/immunology/t-cells/anergy) and [the broader state map](/wiki/education/concepts/immunology/t-cells/t-cell-states), and [T-cell exhaustion](/wiki/education/concepts/immunology/t-cells/t-cell-exhaustion) for the marker set and subsets. [The existing count-versus-function lesson](/wiki/education/oncology-101/3-t-cell-states#try-it) provides a separate marker/proximity exercise.
+Continue with [anergy's induction-and-retest logic](/wiki/education/concepts/immunology/t-cells/anergy) and [the broader state map](/wiki/education/concepts/immunology/t-cells/t-cell-states), and [T-cell exhaustion](/wiki/education/concepts/immunology/t-cells/t-cell-exhaustion) for the marker set and subsets. [The existing count-versus-function lesson](/wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states#try-it) provides a separate marker/proximity exercise.
 
 ## Sources and scope
 
@@ -103,3 +103,10 @@ Source check: November 7, 2026. Primary abstracts were read for the following fo
 - [Schwartz, 2003](https://pubmed.ncbi.nlm.nih.gov/12471050/): review of clonal anergy and adaptive tolerance, including IL-2 reversal.
 - [Wherry and Kurachi, 2015](https://pubmed.ncbi.nlm.nih.gov/26205583/), [Khan et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31207603/) and [Pauken et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27789795/): exhaustion features, TOX and epigenetic stability, mainly in mice.
 - [Miller et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30778252/): exhausted subsets in mouse tumors and associated observations in melanoma. No universal treatment prediction is imported.
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Compare related ideas](/wiki/education/comparisons/index)
+- [Why a T-cell count does not tell the whole story](/wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states)
+<!-- END GENERATED USED IN -->

@@ -7,13 +7,13 @@ glossary_anchor: hazard-ratio
 aliases: ["hazard ratio", "hazard-ratio", "proportional hazards"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]"]
+used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 tags: [education, evidence-and-statistics]
 ---
 
@@ -73,7 +73,7 @@ Trial reports often headline HRs. Read the endpoint, actual survival curves, abs
 - “Lower hazard” does not equal “lower risk by the same percentage.”
 - HR 1 is a model's rate comparison, not proof that every aspect of two curves is identical.
 - An adjusted HR does not repair unmeasured confounding.
-- A cause-specific HR and a competing-risk subdistribution HR have different meanings; do not substitute one for the other.
+- A cause-specific HR and a [competing-risk](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks) subdistribution HR have different meanings; do not substitute one for the other.
 - **An HR is not a ratio of median survival times.** Only when both hazards are constant (exponential survival) does the median ratio equal 1/HR; otherwise the medians can differ by much more or less.
 - **Is a randomized HR causal?** Randomization balances groups at time zero, but later the HR compares the people still at risk, who may differ because the treatment changed who survived. Hernán argues this makes even a randomized HR hard to read as a causal effect and favors survival curves or risks at fixed times [Hernán 2010](https://pubmed.ncbi.nlm.nih.gov/20010207/); others defend the HR as a useful average summary. Report absolute risks beside it either way.
 
@@ -115,6 +115,7 @@ Source check: November 7, 2026. General statistics education; expert and learner
 
 - [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
+- [Read a real trial: KEYNOTE-522](/wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial)
 - [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 <!-- END GENERATED USED IN -->

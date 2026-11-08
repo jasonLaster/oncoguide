@@ -7,7 +7,7 @@ glossary_anchor: binding-prediction
 aliases: [binding prediction, predicted affinity, peptide-HLA prediction]
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]"]
+used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation]]","[[wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board]]"]
 reviewed: pending
 reviewed_by: ""
 sensitive: false
@@ -108,6 +108,6 @@ Source-checked October 10, 2026. The example is fictional. NetMHCpan-4.1 is a do
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
-- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
+- [HLA and antigen presentation in vaccine design](/wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation)
+- [Read a neoantigen design board](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board)
 <!-- END GENERATED USED IN -->

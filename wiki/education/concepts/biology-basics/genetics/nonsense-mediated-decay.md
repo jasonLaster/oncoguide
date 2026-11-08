@@ -7,7 +7,7 @@ glossary_anchor: nonsense-mediated-decay
 aliases: ["NMD", "nonsense-mediated decay", "nonsense-mediated mRNA decay"]
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/rna-and-mrna]]", "[[wiki/education/concepts/biology-basics/genetics/splicing]]", "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]"]
+used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board]]"]
 sensitive: false
 tags: [education, biology-basics]
 source_checked: 2026-10-09
@@ -28,7 +28,7 @@ Imagine a reader noticing that an instruction ends unexpectedly and asking wheth
 
 ## How it works
 
-During **translation**, a ribosome reads [messenger RNA (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) to build an amino-acid chain. A normal stop codon ends that process in an appropriate context. A **premature termination codon**, an earlier stop in the relevant coding sequence, can arise from a [stop-gain variant, frameshift](/wiki/education/concepts/biology-basics/genetics/mutation-types) or altered [splicing](/wiki/education/concepts/biology-basics/genetics/splicing).
+During **translation**, a ribosome reads [messenger RNA (mRNA)](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) to build an amino-acid chain. A normal [stop codon](/wiki/education/concepts/biology-basics/genetics/genetic-code) ends that process in an appropriate context. A **premature termination codon**, an earlier stop in the relevant coding sequence, can arise from a [stop-gain variant, frameshift](/wiki/education/concepts/biology-basics/genetics/mutation-types) or altered [splicing](/wiki/education/concepts/biology-basics/genetics/splicing).
 
 One important human NMD route connects splicing to translation termination. Splicing can leave an **exon junction complex**, a group of proteins near a join between retained RNA segments. Translating ribosomes normally remove complexes they pass. Terminating while an appropriate complex remains farther downstream can help recruit decay machinery. Experiments linked these junction-associated proteins to RNA-surveillance factors. [Le Hir 2001](https://pubmed.ncbi.nlm.nih.gov/11532962/).
 
@@ -109,5 +109,5 @@ Visual source check: October 11, 2026. [Le Hir et al., 2000](https://pubmed.ncbi
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
+- [Read a neoantigen design board](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board)
 <!-- END GENERATED USED IN -->

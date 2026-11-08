@@ -42,6 +42,8 @@ flowchart LR
  A["1 · Address vs action"] --> B["2 · Delivery and exposure"]
  B --> C["3 · Compare formats"]
  C --> D["4 · Match the payload<br/>to the failure"]
+ D --> E["5 · Read a new<br/>payload strategy"]
+ E --> F["6 · Choose a target"]
  style D fill:#dcfce7,stroke:#16a34a
 ```
 

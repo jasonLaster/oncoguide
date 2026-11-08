@@ -3,11 +3,11 @@ title: "Read trial claims, survival statistics and single success stories"
 type: guide
 goal: "Read a trial result, a survival curve or a single success story: identify what was compared and measured, describe the effect with uncertainty, and judge how far it applies."
 audience: "Curious reader; no specialist training assumed"
-minutes: 48
+minutes: 63
 sensitive: false
 tags: [education, guide]
-updated: 2026-11-07
-source_checked: 2026-11-07
+updated: 2026-11-08
+source_checked: 2026-11-08
 review_status: "Source-checked; expert and learner review pending"
 reviewed: pending
 reviewed_by: ""
@@ -34,6 +34,7 @@ flowchart TD
   A[1. Name the comparison and endpoint] --> B[2. Read the curve and effect]
   B --> C[3. Check applicability and uncertainty]
   C --> D[4. Read a single story or a calculator]
+  D --> E[5. Practise on a real trial]
 ```
 
 *Keep the study's question attached to its result through every step.*
@@ -46,6 +47,7 @@ flowchart TD
 | 2 | [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect) | How much changed, by when, and with what precision? | 15 | A censoring example, worked risk arithmetic and a KEYNOTE-522 exercise |
 | 3 | [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty) | What can this result justify? | 12 | A claim comparison and an explain-it-back sentence |
 | 4 | [Read a single success story or a calculator](/wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story) | What does one person's outcome, or one model's number, establish? | 10 | The denominator question and a calculator checklist |
+| 5 | [Read a real trial: KEYNOTE-522](/wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial) | What did one published trial establish, for whom, and what did it leave open? | 15 | A filled study card, three results stated two ways and a maturing hazard ratio |
 
 ## Concepts you will use
 
@@ -55,7 +57,7 @@ Start with [trial phases and randomization](/wiki/education/concepts/evidence-an
 
 For the numbers, use the [Kaplan–Meier curve](/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier), [hazard ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio), [absolute risk, relative risk, and number needed to treat](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt), and [confidence interval](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) pages. They are reference stops, not extra lessons you must memorize.
 
-For a response result, first name the [response-rate definition](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) and its denominator. [Surrogate endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints) explain the separate question of whether a treatment's effect on an earlier measure predicts another benefit. The [odds ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio) then describes one way to compare binary outcomes. For a statistical claim, bring in [interim analysis](/wiki/education/concepts/evidence-and-statistics/study-design/interim-analysis), [p-values and multiple testing](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing) and [planned versus exploratory analysis](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis). [Meta-analysis](/wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis) explains what pooling studies adds and what it leaves unresolved.
+For a response result, first name the [response-rate definition](/wiki/education/concepts/evidence-and-statistics/endpoints/response-rates) and its denominator. [Surrogate endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints) explain the separate question of whether a treatment's effect on an earlier measure predicts another benefit. The [odds ratio](/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio) then describes one way to compare binary outcomes. For a statistical claim, bring in [interim analysis](/wiki/education/concepts/evidence-and-statistics/study-design/interim-analysis), [p-values and multiple testing](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing) and [planned versus exploratory analysis](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis). For the design itself, [analysis populations](/wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations) say who was counted, [statistical power](/wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size) says what effect the study could detect, and [non-inferiority trials](/wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials) and [Bayesian and adaptive designs](/wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs) explain two less familiar trial types. When death or another event can prevent the event of interest, use [competing risks](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks). [Meta-analysis](/wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis) explains what pooling studies adds and what it leaves unresolved.
 
 When a test result becomes a proposed action, bring in [analytical validity, clinical validity, and clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility). [Lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) explains why earlier detection needs its own benefit comparison.
 
@@ -71,11 +73,11 @@ Use these reading steps alongside [the survival evidence review](/wiki/research/
 
 Studies can leave the durability of an effect, less common harms, or relevance to a smaller group unresolved. More follow-up may sharpen one answer while a different comparison remains untested. Writing that missing question down is useful progress. [Absence of evidence](/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence) helps distinguish an unanswered question from informative evidence against a claim. [Cross-trial comparison](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison) explains why separate study headlines cannot establish a treatment ranking.
 
-After the four lessons, practise again on the KEYNOTE-522 exercise in lesson 2, or on [cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence). For a test or commercial claim, continue with [judging a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index).
+Lesson 5 practises every step on KEYNOTE-522. Afterward, try [cell-therapy evidence](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence). For a test or commercial claim, continue with [judging a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index).
 
 ## Sources and scope
 
-Source check: November 7, 2026. General evidence-reading education; expert and learner review pending. Worked studies are fictional except the KEYNOTE-522 exercise in lesson 2.
+Source check: November 8, 2026. General evidence-reading education; expert and learner review pending. Worked studies are fictional except the KEYNOTE-522 exercise in lesson 2 and the real-trial lesson 5.
 
 - [National Cancer Institute: how cancer clinical trials work](https://www.cancer.gov/research/participate/clinical-trials/how-trials-work).
 - [FDA 2018: clinical trial endpoints for cancer drugs and biologics](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics).

@@ -6,7 +6,7 @@ summary: "T-cell priming is the initial activation of a naive T cell by antigen 
 glossary_anchor: "t-cell-priming-three-signals"
 aliases: ["priming", "three signals", "cross-priming"]
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
@@ -106,12 +106,12 @@ Source-checked October 10, 2026. The cultures are fictional; the cited experimen
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
-- [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
+- [Cytokines and programmable receptors](/wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [How dendritic cells help start a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response)
+- [Why the immune system doesn't just kill a tumor, and what checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Separate local injury from immune learning](/wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
+- [Why a personalized cancer vaccine can help](/wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
-- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
-- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 <!-- END GENERATED USED IN -->

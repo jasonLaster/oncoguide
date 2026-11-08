@@ -15,7 +15,7 @@ prerequisites:
   - "[[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive]]"
 sensitive: false
 tags: ["education", "immunology", "immunotherapy"]
-updated: 2026-11-07
+updated: 2026-11-08
 source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
@@ -35,7 +35,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## Where this step sits
 
-The earlier lessons followed a response from display through priming, cell states, location, measurement and escape. This step asks what happens when a drug changes one of those steps.
+This is lesson 7 of [the immune-system guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index). Lessons 1 to 6 followed a response from display through priming, travel into the tumor, the tissue map, cell states and escape. This step asks what happens when a drug changes one of those steps.
 
 ```mermaid
 flowchart TD
@@ -76,7 +76,7 @@ Where do the responding cells come from? In mice, mainly from progenitor exhaust
 | KEYNOTE-522 | 1,174 patients with untreated stage II or III TNBC, enrolled regardless of PD-L1 | Pembrolizumab or placebo with chemotherapy before surgery, then pembrolizumab or placebo for up to nine cycles after | [Pathological complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) 64.8% vs 51.2% in the first 602 patients ([Schmid et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32101663/)); 36-month event-free survival 84.5% vs 76.8%, hazard ratio (HR) 0.63 ([Schmid et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35139274/)); 60-month overall survival 86.6% vs 81.7% ([Schmid et al., 2024](https://pubmed.ncbi.nlm.nih.gov/39282906/)) |
 | KEYNOTE-355 | 847 patients with untreated advanced (metastatic or inoperable) TNBC | Pembrolizumab or placebo with chemotherapy | Median overall survival 23.0 vs 16.1 months (HR 0.73) when the combined positive score (CPS) was ≥10; not significant when CPS was ≥1 (HR 0.86) ([Cortés et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35857659/)) |
 
-Two details are worth carrying. First, the 64.8% pCR figure comes from the first interim analysis; across all 1,174 patients the US label reports 63.0% vs 55.6% ([FDA label, section 14.20](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf)). Second, KEYNOTE-522 was not designed to separate the effect of pembrolizumab before surgery from its effect after. The [KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen) page gives the full schedule.
+Two details are worth carrying. First, the 64.8% pCR figure comes from the first interim analysis; across all 1,174 patients the US label reports 63.0% vs 55.6% ([FDA label, section 14.20](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf)). Second, KEYNOTE-522 was not designed to separate the effect of pembrolizumab before surgery from its effect after. The [KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen) page gives the full schedule, and the [perioperative immune window](/wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window) explains why timing around surgery is a biological question.
 
 ## Which markers select patients
 
@@ -108,7 +108,7 @@ A friend says: "My tumor was PD-L1 negative, so pembrolizumab won't help me in e
 
 **Checkpoint blockade lifts one late brake; in early TNBC it added to chemotherapy's effect regardless of PD-L1, and it can inflame healthy organs.**
 
-**Next:** step 8, [compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison), or return to the [guide](/wiki/education/guides/how-the-immune-system-fights-cancer/index).
+**Next:** [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response).
 
 ## Sources and scope
 

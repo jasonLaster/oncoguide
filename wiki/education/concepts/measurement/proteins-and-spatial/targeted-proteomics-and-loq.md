@@ -7,7 +7,7 @@ summary: "Targeted proteomics measures selected protein-derived peptides, with r
 glossary_anchor: "targeted-proteomics-and-loq"
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics]]", "[[wiki/education/concepts/biology-basics/molecules/protein-and-peptide]]"]
-used_by: ["[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/06-read-protein]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: "2026-11-07"
@@ -115,6 +115,5 @@ Source check: November 7, 2026. Examples are fictional. Expert and learner revie
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read protein: presence, place and activation](/wiki/education/guides/what-multi-omics-tells-us/06-read-protein)
 <!-- END GENERATED USED IN -->

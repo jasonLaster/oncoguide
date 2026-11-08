@@ -33,7 +33,7 @@ The [epitope](/wiki/education/concepts/immunology/antigen-presentation/antigen-a
 
 ## TNBC recognition and measurement board
 
-[Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) names a subtype, not one receptor target. Compare these eight research categories by **recognition specifications and missing measurements**, rather than treatments or clinical maturity. **None of the eight has yet shown clinical benefit in TNBC with any engineered cell product;** the [solid-tumor lesson](/wiki/education/cellular-therapies/08-solid-tumor-barriers) states the current human evidence, and the [CAR-T in TNBC treatment page](/wiki/treatment/therapeutics/car-t) keeps the programs.
+[Triple-negative breast cancer (TNBC)](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc) names a subtype, not one receptor target. Compare these eight research categories by **recognition specifications and missing measurements**, rather than treatments or clinical maturity. **None of the eight has yet shown clinical benefit in TNBC with any engineered cell product;** the [solid-tumor lesson](/wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers) states the current human evidence, and the [CAR-T in TNBC treatment page](/wiki/treatment/therapeutics/car-t) keeps the programs.
 
 Read [immunohistochemistry](/wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry) for tissue location and distribution, and [flow cytometry](/wiki/education/concepts/measurement/immune-monitoring/flow-cytometry) for defined cell populations. A staining antibody, the proposed receptor's binder and a soluble-protein assay may recognize different features. Keep their identities visible.
 
@@ -96,7 +96,7 @@ Sampling misses negative populations. Assays measure intracellular rather than a
 
 **Assess tumor coverage and healthy-tissue recognition together for the actual receptor product.**
 
-**Next:** [Build the receptor](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks).
+**Next:** [Build the receptor](/wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks).
 
 ## Sources and scope
 

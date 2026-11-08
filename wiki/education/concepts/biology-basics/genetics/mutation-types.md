@@ -8,13 +8,13 @@ aliases: ["mutation types", "SNV", "single-nucleotide variant", "indel", "CNV", 
 level: "foundation"
 sensitive: false
 tags: ["education", "biology-basics"]
-updated: 2026-10-10
+updated: 2026-11-08
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/index]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]","[[wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board]]","[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]","[[wiki/education/guides/what-multi-omics-tells-us/04-test-a-copy-aware-clone-model]]"]
 ---
 
 # Mutation types: what changed in the DNA?
@@ -43,7 +43,7 @@ Keep [ribonucleic acid (RNA)](/wiki/education/concepts/biology-basics/molecules/
 
 Consequences depend on where the change sits. Within a protein-coding sequence, a **missense** change alters an amino acid; a **nonsense** change introduces an early stop; a **synonymous** change preserves the encoded amino acid, though it can affect RNA processing.
 
-A **frameshift** changes the grouping of the translated sequence into three-base units, or codons. A net coding insertion or deletion not divisible by three can shift that frame. An **in-frame** change preserves the downstream grouping. This reasoning assumes the stated transcript and coding sequence; an indel outside the coding region is not automatically a frameshift.
+A **frameshift** changes the grouping of the translated sequence into three-base units, or codons; [the genetic code](/wiki/education/concepts/biology-basics/genetics/genetic-code) explains that reading frame. A net coding insertion or deletion not divisible by three can shift that frame. An **in-frame** change preserves the downstream grouping. This reasoning assumes the stated transcript and coding sequence; an indel outside the coding region is not automatically a frameshift.
 
 <div class="my-6">
   <img src="./images/mutation-edit-and-reading-frame-v1-light.svg" alt="A fictional coding-strand DNA window grouped into triplets shows a one-base substitution, a three-base deletion that retains downstream grouping, and a one-base deletion that shifts it; a separate six-segment DNA exchange leaves RNA and protein unmeasured." data-theme-pair />
@@ -105,12 +105,9 @@ Source check: October 10, 2026. Change classes and consequences; expert and lear
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
-- [Learn the biology and evidence](/wiki/education/index)
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
-- [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
-- [Test a copy-aware clone model](/wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read a neoantigen design board](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
+- [Test a copy-aware clone model](/wiki/education/guides/what-multi-omics-tells-us/04-test-a-copy-aware-clone-model)
 <!-- END GENERATED USED IN -->

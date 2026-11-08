@@ -57,6 +57,8 @@ These drugs can affect cancer cells and susceptible normal tissues. Their useful
 
 Cyclophosphamide also has immune-suppressing activity. In another context, it may be part of [lymphodepletion](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion) before a cell therapy. A shared drug name does not make that protocol equivalent to a breast-cancer chemotherapy regimen.
 
+The ovaries are one of the susceptible normal tissues: cyclophosphamide-containing regimens can end ovarian function, and that risk is the reason [ovarian function suppression during chemotherapy](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/ovarian-function-suppression-during-chemotherapy) has been tested in randomized trials.
+
 ## How it is measured
 
 Researchers can measure chemical DNA attachments, cross-links, metabolite concentrations and survival after defined exposure. Measuring parent drug alone can miss differences in activation.

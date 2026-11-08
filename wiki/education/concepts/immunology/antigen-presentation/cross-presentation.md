@@ -6,7 +6,7 @@ summary: "Cross-presentation occurs when a cell displays externally acquired ant
 glossary_anchor: "cross-presentation"
 aliases: ["cross-presentation", "cross presentation"]
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response]]","[[wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "immunology"]
@@ -101,10 +101,9 @@ Source check: November 7, 2026. This is a mechanism explanation, not a treatment
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
-- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [How dendritic cells help start a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response)
+- [Separate local injury from immune learning](/wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
+- [Why a personalized cancer vaccine can help](/wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
-- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
-- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
 <!-- END GENERATED USED IN -->

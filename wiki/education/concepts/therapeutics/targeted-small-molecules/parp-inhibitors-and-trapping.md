@@ -2,7 +2,7 @@
 title: "PARP inhibitors and trapping"
 type: concept
 domain: therapeutics/targeted-small-molecules
-aliases: [PARP inhibitor, PARP inhibitors, PARPi, PARP trapping]
+aliases: [PARP, PARP inhibitor, PARP inhibitors, PARPi, PARP trapping]
 summary: "PARP inhibitors block damage-response enzyme activity and can hold PARP proteins on DNA, creating obstacles that cells must tolerate or resolve."
 glossary_anchor: parp-inhibitors-and-trapping
 level: intermediate
@@ -10,7 +10,7 @@ prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]"
   - "[[wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/predicting-response-before-treating/01-choose-a-model]]"]
 sensitive: false
 tags: [education, PARP, DNA-repair]
 updated: 2026-11-07
@@ -126,4 +126,5 @@ Artwork source check: October 11, 2026. Primary research sections and caption te
 - [PARP trapping and recycling](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling)
 - [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
+- [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model)
 <!-- END GENERATED USED IN -->

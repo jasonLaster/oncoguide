@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/what-cancer-is/cancer]]"
   - "[[wiki/education/concepts/biology-basics/cells/cell-cycle]]"
-used_by: ["[[wiki/education/index]]"]
+used_by: []
 sensitive: false
 tags: [education, cancer-biology]
 updated: 2026-10-10
@@ -103,5 +103,5 @@ Source-checked October 10, 2026. General mechanisms and a fictional counting exe
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Learn the biology and evidence](/wiki/education/index)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

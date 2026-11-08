@@ -6,7 +6,7 @@ aliases: ["phosphoproteome", "phosphopeptide analysis", "phosphosite measurement
 summary: "Phosphoproteomics measures phosphorylated protein-derived molecules and their modification sites to study signaling states, while requiring separate evidence for protein amount, site function and pathway dependence."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics]]", "[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/06-read-protein]]"]
 glossary_anchor: "phosphoproteomics"
 sensitive: false
 tags: ["education", "measurement"]
@@ -98,6 +98,5 @@ Source check: October 9, 2026. Expert and learner review remain pending. Example
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read protein: presence, place and activation](/wiki/education/guides/what-multi-omics-tells-us/06-read-protein)
 <!-- END GENERATED USED IN -->

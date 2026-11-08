@@ -3,6 +3,7 @@ title: "CAR-T learning lab"
 type: "navigation"
 sensitive: false
 tags: [education, cell-therapy, evidence, learning-tool]
+summary: "An interactive lab for building an engineered T cell, reading a tumor-volume graph against both its baseline and its control, and practising six evidence distinctions."
 description: "Explore the components of an engineered T cell, compare a tumor with its baseline and control, and practice six evidence distinctions."
 minutes: 15
 objectives:
@@ -12,7 +13,7 @@ objectives:
 prerequisites:
   - "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"
   - "[[wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering]]"
-updated: "2026-10-09"
+updated: "2026-11-08"
 source_checked: "2026-10-09"
 reviewed: "pending"
 reviewed_by: ""
@@ -41,11 +42,9 @@ Take the activities in any order. Try an answer before revealing the reasoning. 
 
 *The numbers are invented for practice. The illustration simplifies biology and is not experimental evidence. Your answers are not saved or sent anywhere.*
 
-[Open the learning lab on its own](../cellular-therapies/tools/in-vivo-car-t-learning-lab.html) if you would like more space. For a text version of the key reasoning, use [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence).
+[Open the learning lab on its own](../cellular-therapies/tools/in-vivo-car-t-learning-lab.html) if you would like more space. For a text version of the key reasoning, use [Reading cell-therapy evidence](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence).
 
-**Offline download:** The [original learning lab ZIP](/api/file?path=wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.zip) remains available. Unzip it and open the included HTML file in a browser.
-
-The quiz calls one added receptor “MIMIC.” For this exercise, read that as a synthetic signaling component. Its question asks what increased cell counts establish; it does not demonstrate a program's clinical performance.
+**One naming note before you start.** The quiz labels an added receptor “MIMIC.” That is a company's coined name, not a scientific category: read it as **a synthetic cytokine receptor**, an engineered component that delivers a growth-supporting signal. Its question asks what a higher cell count establishes, which is a separate matter from whether any program works. [Armoring](/wiki/education/concepts/therapeutics/cell-therapies/armoring) is the concept page for added components of this kind.
 
 ## Start with this experiment
 
@@ -67,7 +66,7 @@ One possible answer is: “The treated tumor is smaller than the control, but th
 
 ## Sources and scope
 
-Source-checked October 9, 2026; expert and learner review remain pending. The original lab and archive are preserved unchanged, including the lab's September 15, 2026 footer. The graph and quiz use conceptual scenarios, with no patient results or treatment recommendations.
+Source-checked October 9, 2026; the vendor-coined quiz term was reframed and the offline archive link removed on November 8, 2026. Expert and learner review remain pending. The embedded lab itself is preserved unchanged, including its September 15, 2026 footer. The graph and quiz use conceptual scenarios, with no patient results or treatment recommendations.
 
 - [NCI: CAR T Cells—Engineering Patients' Immune Cells to Treat Their Cancers](https://www.cancer.gov/about-cancer/treatment/research/car-t-cells): receptor structure, target recognition and the challenges posed by solid tumors.
 - [Hunter et al., Science, 2025](https://pubmed.ncbi.nlm.nih.gov/40536974/): in vivo engineering studied in human-cell samples, humanized mice and nonhuman primates. These are distinct evidence settings.

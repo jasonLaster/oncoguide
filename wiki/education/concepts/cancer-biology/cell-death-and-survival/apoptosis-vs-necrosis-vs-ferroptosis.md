@@ -10,7 +10,7 @@ tags: [education, comparison, cancer-biology]
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family]]"
   - "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis]]"
-used_by: []
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]"]
 updated: 2026-11-07
 source_checked: 2026-11-07
 reviewed: "pending"
@@ -108,3 +108,11 @@ Source check: November 7, 2026. Concept comparison with fictional practice; expe
 - [Dixon et al. (2012)](https://pubmed.ncbi.nlm.nih.gov/22632970/): ferroptosis as an iron-dependent, nonapoptotic cell death.
 - [Obeid et al. (2007)](https://pubmed.ncbi.nlm.nih.gov/17187072/): calreticulin exposure and the immunogenicity of anthracycline-induced death.
 - [Souers et al. (2013)](https://pubmed.ncbi.nlm.nih.gov/23291630/): venetoclax (ABT-199), a BCL-2-selective inhibitor.
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Compare related ideas](/wiki/education/comparisons/index)
+- [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment)
+- [Why the immune system doesn't just kill a tumor, and what checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+<!-- END GENERATED USED IN -->

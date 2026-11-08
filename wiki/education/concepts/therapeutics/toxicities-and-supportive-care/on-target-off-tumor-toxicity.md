@@ -7,7 +7,7 @@ glossary_anchor: "on-target-off-tumor-toxicity"
 aliases: ["on-target off-tumor toxicity"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/engineered-cell-therapy/02-choosing-a-target]]","[[wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-10-10"
@@ -99,12 +99,13 @@ Source check: October 10, 2026. This page explains a method or mechanism. Expert
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
+- [Separate the address from the killing mechanism](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism)
+- [Compare formats with evidence and normal-tissue risk](/wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons)
+- [Choose a target worth aiming at](/wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Choose a target with a usable safety window](/wiki/education/guides/engineered-cell-therapy/02-choosing-a-target)
+- [The journey through a solid tumor](/wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers)
 - [Read the safety plan for engineered cells](/wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
-- [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions)
-- [Compare formats with evidence and normal-tissue risk](/wiki/education/targeted-therapy-modalities/06-comparisons)
+- [Ask the questions a therapy format demands](/wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions)
 <!-- END GENERATED USED IN -->

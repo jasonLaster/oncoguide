@@ -7,7 +7,7 @@ summary: "PET-CT combines a map of an administered radioactive tracer with X-ray
 glossary_anchor: "pet-ct"
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget]]","[[wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging]]"]
 sensitive: false
 tags: ["education", "measurement", "imaging"]
 source_checked: "2026-11-07"
@@ -101,6 +101,6 @@ Source check: November 7, 2026. General modality education and fictional practic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
-- [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
+- [Match each measurement to its claim](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget)
+- [Compare blood results with imaging](/wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging)
 <!-- END GENERATED USED IN -->

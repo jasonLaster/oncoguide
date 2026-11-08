@@ -7,10 +7,10 @@ glossary_anchor: "trial-phases-and-randomization"
 aliases: ["trial phases", "randomization", "randomized controlled trial", "RCT"]
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]"]
+used_by: ["[[wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing]]","[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: 2026-11-07
+updated: 2026-11-08
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -42,13 +42,15 @@ Cancer treatment trials often move through these phases. A protocol is the study
 
 Some studies combine phases. Phase is a development purpose, not a fixed sample-size rule or assignment method. Phase 1 can also measure drug exposure and early activity. Some phase 2 studies are randomized; a **single-arm** study has one intervention group and no concurrent randomized comparator. Look for the actual comparison and the [outcome being measured](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints).
 
+A phase 3 comparison can ask whether the new option is better (superiority) or not meaningfully worse ([non-inferiority](/wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials)). Its sample size comes from a [power calculation](/wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size). Some phase 2 platforms, such as I-SPY2, use [Bayesian and adaptive designs](/wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs) that change assignment as results accrue.
+
 **Randomization** uses chance to assign eligible, consenting participants to study groups. It reduces the risk that human choices place healthier people in one group. It can also help balance factors researchers did not measure. Chance can still leave imbalances, especially in small studies.
 
 **Allocation concealment** protects the next assignment from being known or manipulated while people enter the trial. It differs from blinding after assignment. An alternating A–B list that staff can predict is not a concealed random sequence.
 
 **Blinding** is a separate design feature: keeping participants, staff or outcome assessors unaware of assignment when feasible. It can reduce differences in care or assessment. Randomization does not automatically make a study blinded.
 
-Researchers should report how assignment was performed and how outcomes were analyzed. Ask whether participants were analyzed in their original assigned groups, and retain the reasons for exclusions. Dropout, missing assessments, treatment changes and unequal follow-up can complicate the result even after a sound assignment process.
+Researchers should report how assignment was performed and how outcomes were analyzed. Ask whether participants were analyzed in their original assigned groups, called [intention-to-treat](/wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations), and retain the reasons for exclusions. Dropout, missing assessments, treatment changes and unequal follow-up can complicate the result even after a sound assignment process.
 
 
 ### A closer look
@@ -97,6 +99,7 @@ A fictional phase 2 study assigns two groups by chance. Is it less randomized be
 - [Clinical trials versus expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access)
 - [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints)
 - [Interim analysis](/wiki/education/concepts/evidence-and-statistics/study-design/interim-analysis): why results arrive at planned looks with stricter thresholds.
+- [Analysis populations](/wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations): intention-to-treat, per-protocol and safety sets.
 - [Prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive)
 
 ## Sources and scope
@@ -112,16 +115,16 @@ Source check: October 10, 2026. Examples are fictional; no trial outcomes or enr
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
 - [Check a real trial opportunity](/wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity)
 - [Understand access to an experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index)
+- [Reading cell-therapy evidence](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence)
 - [Read a research-product study without losing the denominator](/wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study)
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
+- [Ask what a combination trial actually proved](/wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing)
 - [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
-- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 <!-- END GENERATED USED IN -->

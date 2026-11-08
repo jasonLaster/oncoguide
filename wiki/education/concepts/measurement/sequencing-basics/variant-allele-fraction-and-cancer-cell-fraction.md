@@ -14,7 +14,7 @@ reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/mutation-types]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]","[[wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board]]","[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]","[[wiki/education/guides/what-multi-omics-tells-us/04-test-a-copy-aware-clone-model]]","[[wiki/education/guides/what-multi-omics-tells-us/index]]"]
 ---
 
 # Variant allele fraction vs cancer cell fraction
@@ -107,6 +107,7 @@ One answer: defined cell purity, local copies, mutant multiplicity and model unc
 
 ## Related concepts
 
+- [Tumor purity and ploidy](/wiki/education/concepts/measurement/sequencing-basics/tumor-purity-and-ploidy): how normal-cell admixture and genome doubling change every tumor DNA number.
 - [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity): clones and sampling.
 - [Germline versus somatic](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic): origin of a change.
 
@@ -122,14 +123,13 @@ Source check: October 10, 2026. Fictional mixture arithmetic; expert and learner
 ## Used in
 
 - [Compare related ideas](/wiki/education/comparisons/index)
-- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
 - [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
+- [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
 - [Read tumor and normal data before choosing targets](/wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data)
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
-- [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
-- [Separate DNA copies from cancer-cell fractions](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones)
-- [Test a copy-aware clone model](/wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read a neoantigen design board](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
+- [Test a copy-aware clone model](/wiki/education/guides/what-multi-omics-tells-us/04-test-a-copy-aware-clone-model)
+- [What does multi-omics tell us about a tumor?](/wiki/education/guides/what-multi-omics-tells-us/index)
 <!-- END GENERATED USED IN -->

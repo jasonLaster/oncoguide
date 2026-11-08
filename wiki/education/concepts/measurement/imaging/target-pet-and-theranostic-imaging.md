@@ -7,7 +7,7 @@ summary: "Target-directed PET maps a specified tracer's distribution around a mo
 glossary_anchor: "target-pet-and-theranostic-imaging"
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/imaging/pet-ct]]", "[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget]]"]
 sensitive: false
 tags: ["education", "measurement", "imaging"]
 source_checked: "2026-10-10"
@@ -103,5 +103,5 @@ Source check: October 10, 2026. General mechanism education and fictional practi
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
+- [Match each measurement to its claim](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget)
 <!-- END GENERATED USED IN -->

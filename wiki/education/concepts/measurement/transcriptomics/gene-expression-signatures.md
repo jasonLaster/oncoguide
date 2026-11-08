@@ -7,7 +7,7 @@ summary: "A gene-expression signature combines selected RNA measurements using d
 glossary_anchor: "gene-expression-signatures"
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration]]"]
-used_by: ["[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/multi-omics-foundations/03-reading-rna-counts]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/05-read-rna]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: "2026-11-07"
@@ -113,7 +113,5 @@ Source check: November 7, 2026. Examples are fictional. Expert and learner revie
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
-- [Read RNA counts without counting proteins](/wiki/education/multi-omics-foundations/03-reading-rna-counts)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read RNA: counts, preparation and splice products](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna)
 <!-- END GENERATED USED IN -->

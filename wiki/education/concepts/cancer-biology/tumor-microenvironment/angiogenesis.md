@@ -7,11 +7,11 @@ glossary_anchor: "angiogenesis"
 aliases: ["angiogenesis", "tumor angiogenesis", "vascular normalization"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: 2026-11-08
+source_checked: 2026-11-08
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -56,6 +56,8 @@ Blocking VEGF signaling can reduce vessel formation. Under some experimental con
 
 ## Why it matters in cancer
 
+Breast cancer supplies a clear lesson on what blocking vessels can and cannot do. In the E2100 trial of 722 people with metastatic breast cancer, adding bevacizumab, an antibody against vascular endothelial growth factor (VEGF), to paclitaxel doubled median progression-free survival (11.8 versus 5.9 months) but did not lengthen overall survival (26.7 versus 25.2 months) [Miller 2007](https://pubmed.ncbi.nlm.nih.gov/18160686/). After later trials also failed to show a survival gain, the U.S. Food and Drug Administration canceled the breast cancer approval in November 2011 [Tanne 2011](https://pubmed.ncbi.nlm.nih.gov/22121166/). Slowing growth and extending life are different endpoints.
+
 Blood vessels influence oxygen, nutrient and drug delivery, and provide routes that cells can enter or leave. An antiangiogenic treatment therefore changes part of the [tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment), rather than simply switching all cancer cells off.
 
 Primary experiments illustrate the nuance. Tong and colleagues studied VEGFR2 blockade and transport into tumors. Winkler and colleagues studied a temporary normalization window and radiation response in mouse brain-tumor models. These studies support mechanisms under their tested conditions, not a schedule or benefit prediction for another cancer. [Tong et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15172975/), [Winkler et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15607960/).
@@ -96,9 +98,11 @@ Source check: October 10, 2026. General vessel biology and selected preclinical 
 - [Holash et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10373119/) — co-option, regression and subsequent angiogenesis in studied tumor models.
 - [Tong et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15172975/) — VEGFR2 blockade, vessel function and molecular transport in experimental tumors.
 - [Winkler et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15607960/) — normalization and radiation response in studied mouse brain-tumor models.
+- [Miller et al., 2007](https://pubmed.ncbi.nlm.nih.gov/18160686/) — E2100, paclitaxel with or without bevacizumab in metastatic breast cancer.
+- [Tanne, 2011](https://pubmed.ncbi.nlm.nih.gov/22121166/) — news report of the FDA's cancellation of bevacizumab's breast cancer approval.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
+- [The journey through a solid tumor](/wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers)
 <!-- END GENERATED USED IN -->

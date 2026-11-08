@@ -7,7 +7,7 @@ glossary_anchor: "myoepithelial"
 aliases: ["myoepithelial", "myoepithelial cells", "breast basement membrane"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample]]"]
 sensitive: false
 tags: ["education", "breast-cancer"]
 updated: "2026-10-10"
@@ -104,5 +104,5 @@ Source check: October 10, 2026. Breast architecture and diagnostic-marker limits
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [See what is inside a tissue sample](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue)
+- [See what is inside a tissue sample](/wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample)
 <!-- END GENERATED USED IN -->

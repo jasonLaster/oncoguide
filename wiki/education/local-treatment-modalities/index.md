@@ -43,9 +43,9 @@ This is a bibliography organized by question, rather than a ranking of treatment
 
 ## Find the mechanism or measurement boundary
 
-For a claim that local injury acts as [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination), consult [Galluzzi et al.'s 2020 immunogenic-cell-death guidance](https://pubmed.ncbi.nlm.nih.gov/32209603/). It explains why released signals need evidence of a corresponding immune response. Use the [mechanism lesson](/wiki/education/local-treatment-modalities/01-mechanism) to follow presentation, priming and recognition.
+For a claim that local injury acts as [in-situ vaccination](/wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination), consult [Galluzzi et al.'s 2020 immunogenic-cell-death guidance](https://pubmed.ncbi.nlm.nih.gov/32209603/). It explains why released signals need evidence of a corresponding immune response. Use the [mechanism lesson](/wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism) to follow presentation, priming and recognition.
 
-For a radioactive-drug exposure claim, consult [FDA's 2019 therapeutic radiopharmaceutical guidance](https://www.fda.gov/media/129547/download). It separates biodistribution, absorbed radiation dose and normal-organ questions. Use the [measurement lesson](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget) to distinguish imaging, tissue readouts and functional evidence.
+For a radioactive-drug exposure claim, consult [FDA's 2019 therapeutic radiopharmaceutical guidance](https://www.fda.gov/media/129547/download). It separates biodistribution, absorbed radiation dose and normal-organ questions. Use the [measurement lesson](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget) to distinguish imaging, tissue readouts and functional evidence.
 
 ## A citation check to keep nearby
 
@@ -53,7 +53,7 @@ Before carrying a source into a proposal, record the enrolled population, both s
 
 If the source is a [conference abstract or full paper](/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed), state which version you inspected. If it is a [case report](/wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1), keep the observation attached to that person rather than estimating a treatment's added effect.
 
-For more practice, use [reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index). For a structured proposal review, use [the five-question lesson](/wiki/education/local-treatment-modalities/04-decision-questions).
+For more practice, use [reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index). For a structured proposal review, use [the five-question lesson](/wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions).
 
 ## Sources and scope
 

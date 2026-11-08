@@ -7,7 +7,7 @@ glossary_anchor: "receptor-tyrosine-kinases"
 aliases: ["receptor tyrosine kinase", "RTK", "RTKs", "FGFR", "fibroblast growth factor receptor"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: 2026-11-07
@@ -118,5 +118,6 @@ Source check: November 7, 2026; expert and learner review pending. The practice 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Notch, Wnt, and FGFR: locate the signal before choosing a target](/wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr)
+- [Locate the active signaling step](/wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: "cancer-associated-fibroblasts-and-stroma"
 aliases: ["CAF", "CAFs", "cancer-associated fibroblast", "cancer-associated fibroblasts", "stromal fibroblasts"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: []
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-09"
@@ -116,5 +116,5 @@ Source check: October 9, 2026; expert and learner review pending. The exercise i
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [How T cells reach a tumor, and what keeps them out](/wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor)
 <!-- END GENERATED USED IN -->

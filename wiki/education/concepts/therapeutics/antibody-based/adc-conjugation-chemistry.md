@@ -9,7 +9,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]"
   - "[[wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life]]"
-used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/02-timing]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-11-07"
@@ -112,8 +112,8 @@ Source check: November 7, 2026. Linker types and loading values come from US lab
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Separate the address from the killing mechanism](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism)
+- [Follow delivery, exposure, and the treatment clock](/wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing)
 - [Match the payload to the failure](/wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
-- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
-- [Follow delivery, exposure, and the treatment clock](/wiki/education/targeted-therapy-modalities/02-timing)
 <!-- END GENERATED USED IN -->

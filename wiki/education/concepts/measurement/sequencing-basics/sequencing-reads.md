@@ -6,7 +6,7 @@ aliases: ["sequencing read", "reads", "paired-end reads"]
 summary: "A sequencing read is an instrument-derived sequence of bases from a prepared molecule, with quality information that helps assess how reliably those bases were identified."
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]"]
 glossary_anchor: "sequencing-reads"
 sensitive: false
 tags: ["education", "measurement"]
@@ -110,6 +110,5 @@ Source check: November 7, 2026. Expert and learner review remain pending. Exampl
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
 <!-- END GENERATED USED IN -->

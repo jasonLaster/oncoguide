@@ -10,8 +10,8 @@ prerequisites: []
 used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route]]","[[wiki/education/guides/accessing-experimental-therapy/index]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
-updated: "2026-11-07"
-source_checked: "2026-11-07"
+updated: "2026-11-08"
+source_checked: "2026-11-08"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -64,8 +64,8 @@ The April 2026 FDA guidance distinguishes these routes. The time rules below con
 |---|---|
 | New individual-patient IND, non-emergency | Effective **30 calendar days after FDA receipt**, unless held, or on earlier FDA notification that use may begin. Applicable IRB review and consent must be completed. |
 | Individual-patient protocol under an existing active IND, non-emergency | No automatic 30-day waiting period. The protocol must be submitted to FDA and obtain applicable IRB approval before use; FDA can impose a clinical hold. Consent still applies. |
-| Emergency individual-patient IND or protocol | Prior FDA authorization may be given by telephone or other rapid communication. The written follow-up is due within **15 working days of FDA authorization**. |
-| Emergency use without time for prospective IRB review | Notify the IRB within **5 working days of emergency use**. This exception is specific to that circumstance. |
+| Emergency individual-patient IND or protocol | Prior FDA authorization may be given by telephone or other rapid communication, and treatment may begin on that authorization. The written expanded-access submission, for one patient usually Form FDA 3926, is due within **15 working days of FDA authorization** (21 CFR 312.310(d)). |
+| Emergency use without time for prospective IRB review | Report the use to the IRB within **5 working days** (21 CFR 56.104(c)). Any later use of the product at that institution needs IRB review. This exception is specific to that circumstance. |
 
 The no-wait protocol rule is not universal: a widespread-use **treatment protocol** under an existing IND has a 30-day rule or earlier FDA notification. Emergency procedures address an acute need for treatment before a written submission can be made; a time-sensitive chronic-treatment plan is not automatically an emergency.
 
@@ -75,7 +75,9 @@ Supplier review, manufacture, shipping, institutional readiness and clinical sch
 
 Permission to proceed answers an access question. It does not establish benefit in a disease setting, assure usable supply or create a team that can manage toxicity.
 
-In practice, a physician files a single-patient request on **Form FDA 3926**, usually with a letter of authorization from the company that agreed to supply the drug. FDA reports allowing about 99% of expanded-access requests; the company's decision to supply is more often the obstacle. A company may charge only with prior written FDA authorization and, for one patient, only for direct costs of making and shipping the drug [FDA forms page](https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms); [21 CFR 312.8](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.8). The [non-trial route lesson](/wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route) walks the steps. [Federal Right to Try](/wiki/education/concepts/access-and-regulation/trials-and-access/right-to-try) is another pathway with distinct eligibility and review rules.
+In practice, a physician files a single-patient request on **Form FDA 3926**, usually with a letter of authorization from the company that agreed to supply the drug. FDA reports allowing about 99% of expanded-access requests; the company's decision to supply is more often the obstacle ([FDA forms page](https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms)).
+
+The default is that nobody charges. A company may charge only with **prior written FDA authorization**, and for one patient it may recover only **direct costs**: those that can be “specifically and exclusively attributed” to supplying the drug for the authorized use. Examples are per-unit manufacturing (raw materials, labor and nonreusable supplies) or acquisition, plus shipping and storage. **Indirect costs** cannot be charged. The regulation names facilities and equipment meant mainly for commercial-scale production, and research, development, administrative or labor costs the company would incur anyway. Larger expanded-access programs (intermediate-size populations and treatment protocols) may also recover monitoring, reporting and directly associated administrative costs ([21 CFR 312.8](https://www.law.cornell.edu/cfr/text/21/312.8)). The [non-trial route lesson](/wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route) walks the steps. [Federal Right to Try](/wiki/education/concepts/access-and-regulation/trials-and-access/right-to-try) is another pathway with distinct eligibility and review rules.
 
 ## Common confusions
 
@@ -107,7 +109,7 @@ Two fictional non-emergency requests are prepared. A physician submits a new ind
 
 ## Sources and scope
 
-Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
+Charging rule and emergency deadlines source-checked November 8, 2026. Visual addition source check: October 13, 2026. Expert and learner review pending. Original teaching source bounds are retained below.
 
 U.S. source check: October 10, 2026. Fictional exercise; general drug/biologic education, not an individual legal or clinical determination. Expert and learner review pending.
 
@@ -116,6 +118,7 @@ U.S. source check: October 10, 2026. Fictional exercise; general drug/biologic e
 - [21 CFR 312.310](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-I/section-312.310) — individual-patient criteria and emergency follow-up.
 - [FDA: IND introduction](https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind) — calendar-day unit for a new IND.
 - [FDA: expanded access information for IRBs](https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs) — consent, individual-patient review and emergency notification.
+- [21 CFR 312.8](https://www.law.cornell.edu/cfr/text/21/312.8) and [21 CFR 56.104(c)](https://www.law.cornell.edu/cfr/text/21/56.104) (Cornell Legal Information Institute mirror of the Code of Federal Regulations) — charging authorization, direct and indirect cost definitions, and the 5-working-day IRB report after emergency use; read November 8, 2026.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

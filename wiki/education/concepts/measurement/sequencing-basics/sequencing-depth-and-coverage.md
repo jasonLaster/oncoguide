@@ -6,7 +6,7 @@ aliases: ["read depth", "sequencing depth", "coverage breadth", "depth of covera
 summary: "Sequencing depth counts usable observations at a position, while coverage breadth describes how much of a defined target meets an explicitly stated measurement criterion."
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/measurement/sequencing-basics/sequencing-reads]]", "[[wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome]]"]
-used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]"]
 glossary_anchor: "sequencing-depth-and-coverage"
 sensitive: false
 tags: ["education", "measurement"]
@@ -110,6 +110,5 @@ Source check: October 10, 2026. Expert and learner review remain pending. Exampl
 ## Used in
 
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
 <!-- END GENERATED USED IN -->

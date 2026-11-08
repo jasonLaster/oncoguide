@@ -7,7 +7,7 @@ glossary_anchor: case-reports-and-n-of-1
 aliases: [case report, single-patient evidence, N-of-1, N-of-1 trial, individual treatment experience]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: [education, evidence, study-design]
 updated: 2026-10-10
@@ -112,8 +112,8 @@ Source check: October 10, 2026. Both examples are fictional. This page explains 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Ask what a combination trial actually proved](/wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read a single success story or a calculator](/wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story)
-- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 - [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)
 <!-- END GENERATED USED IN -->

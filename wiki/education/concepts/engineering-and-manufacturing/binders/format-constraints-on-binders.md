@@ -7,7 +7,7 @@ glossary_anchor: "format-constraints-on-binders"
 aliases: ["binder format constraints", "format-dependent binder engineering"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module]]", "[[wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies]]"]
-used_by: ["[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: "2026-10-10"
@@ -105,6 +105,5 @@ Source check: October 10, 2026. Primary examples are limited to their constructs
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
+- [Separate the address from the killing mechanism](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism)
 <!-- END GENERATED USED IN -->

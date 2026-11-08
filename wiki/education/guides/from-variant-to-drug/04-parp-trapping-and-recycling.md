@@ -15,8 +15,8 @@ sensitive: false
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: 2026-11-07
-source_checked: "2026-11-07"
+updated: 2026-11-08
+source_checked: "2026-11-08"
 tags: [education, PARP, HRD, autophagy, resistance]
 ---
 
@@ -28,7 +28,7 @@ tags: [education, PARP, HRD, autophagy, resistance]
 
 ## Where this step sits
 
-This is optional step 4 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index), the first lesson in the mechanism casebook shown on [the guide's map](/wiki/education/guides/from-variant-to-drug/index#the-map). [Step 2](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity) covered repair capacity, scars and RAD51; this lesson adds the other side of the story: what happens to the obstacle itself.
+This is optional step 4 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index), the first of the supporting lessons shown on [the guide's map](/wiki/education/guides/from-variant-to-drug/index#the-map). [Step 2](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity) covered repair capacity, scars and RAD51; this lesson adds the other side of the story: what happens to the obstacle itself.
 
 ## The repair worker can become an obstacle
 
@@ -36,7 +36,7 @@ Imagine a repair worker who normally spots damage, calls for help, and moves on.
 
 PARP1 is a protein that responds to DNA damage. It adds chains of ADP-ribose that help organize the response. **Catalytic inhibition** means blocking this chemical activity. [**PARP trapping**](/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping) means stabilizing a PARP–DNA complex so the protein stays bound longer. A [replication fork](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress), the moving machinery that copies DNA, can run into that obstacle. The collision can generate stress and damage the cell must resolve.
 
-Trapping strength differs between compounds in a defined assay. Murai and colleagues found stronger trapping with niraparib and olaparib than with veliparib, despite all inhibiting PARP activity ([Murai 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/)). Talazoparib, used for germline-BRCA breast cancer, trapped PARP about 100 times more potently than olaparib while inhibiting the enzyme comparably ([Murai 2014](https://pubmed.ncbi.nlm.nih.gov/24356813/)). This is a laboratory distinction. It does not rank the best drug for a person: exposure, toxicity, dose, resistance, and the clinical setting also matter.
+Trapping strength differs between compounds in a defined assay. Murai and colleagues found stronger trapping with niraparib and olaparib than with veliparib, despite all inhibiting PARP activity ([Murai 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/)). In cell-based assays, talazoparib trapped PARP–DNA complexes about 100 times more potently than olaparib or rucaparib, although all three inhibited the enzyme comparably ([Murai 2014](https://pubmed.ncbi.nlm.nih.gov/24356813/)). Talazoparib is approved for HER2-negative locally advanced or metastatic breast cancer with a germline BRCA1 or BRCA2 variant ([talazoparib label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f2423edd-6d24-495c-aec1-c2f457f08d9a)); in the EMBRACA trial of 431 such patients it lengthened median progression-free survival from 5.6 to 8.6 months compared with standard chemotherapy (hazard ratio 0.54) ([Litton 2018](https://pubmed.ncbi.nlm.nih.gov/30110579/)). Potency in a trapping assay is still a laboratory distinction. It does not rank the best drug for a person: exposure, toxicity, dose, resistance, and the clinical setting also matter.
 
 <img src="./images/parp-obstacle-and-clearance-light.png" alt="Four panels show PARP responding to DNA damage, a trapped PARP obstacle at a replication fork, repair capacity, and selective clearance of trapped PARP" data-theme-pair>
 
@@ -91,12 +91,13 @@ One possible answer: “a protein obstacle on DNA; remove that obstacle before i
 
 **Creating the obstacle and clearing it are separate steps, and each needs its own measurement.**
 
-**Next:** [Separate recycling amount, flow, and dependence](./05-autophagy-flux-and-dependence).
+**Next:** [Separate recycling amount, flow, and dependence](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence).
 
 ## Sources and scope
 
-Source check: 2026-11-07. General mechanism education; expert and learner review pending. Clearance experiments are preclinical; the worked models are fictional. This lesson does not select a drug or infer individual benefit.
+Source check: 2026-11-08. General mechanism education; expert and learner review pending. Clearance experiments are preclinical; the worked models are fictional. This lesson does not select a drug or infer individual benefit.
 
 - [Murai 2012: differential PARP trapping](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/).
 - [Hoslett 2026: nucleophagy of trapped PARP1](https://www.nature.com/articles/s41556-026-01961-5).
-- [Murai 2014: talazoparib's PARP trapping](https://pubmed.ncbi.nlm.nih.gov/24356813/).
+- [Murai 2014: talazoparib's PARP trapping compared with olaparib and rucaparib](https://pubmed.ncbi.nlm.nih.gov/24356813/).
+- [Litton 2018: EMBRACA, talazoparib in germline BRCA-mutated advanced breast cancer](https://pubmed.ncbi.nlm.nih.gov/30110579/).

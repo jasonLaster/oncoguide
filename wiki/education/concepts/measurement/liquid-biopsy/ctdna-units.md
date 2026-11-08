@@ -11,7 +11,7 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, measurement]
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/index]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response]]","[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging]]","[[wiki/education/guides/monitoring-residual-disease/index]]"]
 updated: "2026-10-10"
 source_checked: "2026-10-10"
 review_status: "Source-checked; expert and learner review pending"
@@ -102,11 +102,8 @@ Source check: October 10, 2026. Fictional arithmetic; expert and learner review 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response)
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
+- [Compare blood results with imaging](/wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
-- [Learn the biology and evidence](/wiki/education/index)
-- [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
-- [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
-- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

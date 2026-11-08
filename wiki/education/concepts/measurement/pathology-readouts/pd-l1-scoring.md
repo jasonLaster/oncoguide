@@ -13,15 +13,15 @@ aliases:
   - "SP142"
   - "SP263"
   - "22C3"
-summary: "PD-L1 scoring measures defined staining patterns using an assay-specific antibody and algorithm; combined positive score, tumor proportion score and immune-cell score count different cells and are not interchangeable."
+summary: "Programmed death-ligand 1 (PD-L1) scoring measures defined staining patterns using an assay-specific antibody and algorithm; combined positive score, tumor proportion score and immune-cell score count different cells and are not interchangeable."
 level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"
   - "[[wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology]]"
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/what-multi-omics-tells-us/06-read-protein]]","[[wiki/education/guides/what-multi-omics-tells-us/11-read-one-report]]"]
 reviewed: "pending"
 source_checked: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 glossary_anchor: "pd-l1-scoring"
@@ -32,7 +32,7 @@ sensitive: false
 
 ## In one sentence
 
-PD-L1 scoring measures defined staining patterns using an assay-specific antibody and algorithm; combined positive score, tumor proportion score and immune-cell score count different cells and are not interchangeable.
+Programmed death-ligand 1 (PD-L1) scoring measures defined staining patterns using an assay-specific antibody and algorithm; combined positive score, tumor proportion score and immune-cell score count different cells and are not interchangeable.
 
 ## The intuition
 
@@ -57,10 +57,12 @@ Three antibody assays recur in breast cancer: **22C3** (scored as CPS, paired wi
 ```mermaid
 flowchart TD
     A[Validated PD-L1 stain] --> B[Identify eligible cells]
-    B --> C["CPS includes<br>stained immune cells"]
-    B --> D["TPS counts<br>stained tumor cells"]
-    C --> E["Attach assay<br>and clinical context"]
+    B --> C["CPS: stained tumor and<br>immune cells per tumor cell"]
+    B --> D["TPS: stained tumor cells<br>per tumor cell"]
+    B --> F["IC: area of stained<br>immune cells"]
+    C --> E["Attach assay, drug<br>and clinical context"]
     D --> E
+    F --> E
 ```
 
 ## Why it matters in cancer
@@ -86,7 +88,7 @@ Tumors that T cells already attack often show more PD-L1, because T cells releas
 | Measures | Eligible staining under a named scoring algorithm |
 | How | Prepare tissue → stain with controls → assess adequacy → identify/count eligible cells → score |
 | Input and tissue cost | A formalin-fixed tissue section for the specified workflow; further sections use finite tissue |
-| Output and units | CPS, a capped score, or TPS, a tumor-cell percentage |
+| Output and units | CPS, a capped score; TPS, a tumor-cell percentage; or IC, the percentage of tumor area covered by stained immune cells |
 | Thresholds | Assay/population-specific; the cited TNBC 22C3 manual requires at least 100 viable tumor cells for evaluation |
 | Failure modes | Inadequate cells, poor staining controls, wrong cell attribution, necrosis or heterogeneous sampling |
 | Cannot show alone | A complete immune state, guaranteed individual benefit or eligibility in another setting |
@@ -143,7 +145,8 @@ Source check: November 7, 2026. Scoring education, not a treatment-selection ins
 ## Used in
 
 - [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
-- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Why the immune system doesn't just kill a tumor, and what checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
-- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
+- [Read protein: presence, place and activation](/wiki/education/guides/what-multi-omics-tells-us/06-read-protein)
+- [Read one report with the six-question card](/wiki/education/guides/what-multi-omics-tells-us/11-read-one-report)
 <!-- END GENERATED USED IN -->

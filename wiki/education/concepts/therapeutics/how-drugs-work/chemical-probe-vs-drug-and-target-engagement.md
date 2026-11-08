@@ -7,7 +7,7 @@ glossary_anchor: "chemical-probe-vs-drug-and-target-engagement"
 aliases: ["chemical probe","target engagement","probe versus drug"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence]]"]
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis]]","[[wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor]]","[[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/08-test-a-supply-dependence-with-rescue]]","[[wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-10-10"
@@ -126,7 +126,7 @@ Source check: October 10, 2026. General research-method teaching and fictional p
 ## Used in
 
 - [Compare related ideas](/wiki/education/comparisons/index)
-- [Autophagy and proteostasis: amount, flow, and dependence](/wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis)
-- [Lipid supply and mTOR: measuring resource control](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor)
-- [Stress defenses and chromatin readers: test the direction](/wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet)
+- [Autophagy: traffic, flow, and dependence](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence)
+- [Test a supply dependence with a rescue experiment](/wiki/education/guides/from-variant-to-drug/08-test-a-supply-dependence-with-rescue)
+- [Test the direction of a stress defense](/wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: "abscopal-effect"
 aliases: ["abscopal response", "distant response after radiation"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics]]", "[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]"]
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism]]","[[wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing]]","[[wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
 updated: 2026-10-10
@@ -106,8 +106,8 @@ Source-checked October 10, 2026. Mouse mechanism, one case report and one define
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Separate local injury from immune learning](/wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism)
+- [Ask what a combination trial actually proved](/wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing)
+- [Read a proposal through five questions](/wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
-- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
-- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
-- [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions)
 <!-- END GENERATED USED IN -->

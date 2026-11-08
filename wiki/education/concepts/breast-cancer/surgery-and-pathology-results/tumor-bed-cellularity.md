@@ -12,13 +12,13 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant]]"
   - "[[wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis]]"
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]"]
+used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]","[[wiki/education/guides/what-multi-omics-tells-us/12-profile-residual-tumor]]"]
 sensitive: false
 tags:
   - education
   - breast-cancer
   - pathology
-updated: 2026-10-10
+updated: 2026-11-08
 source_checked: 2026-10-10
 reviewed: pending
 reviewed_by: ""
@@ -75,7 +75,7 @@ flowchart TD
 
 Bed dimensions and cellularity describe different aspects of remaining disease. Under current CAP guidance, the residual span used for RCB can include separated invasive foci; the largest contiguous residual invasive focus used for ypT is a different measurement. Scarring alone is not an interchangeable tumor dimension.
 
-Neither cellularity percentage can replace [sequencing cell purity](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction). Area, counted-cell fractions and DNA contributions have different denominators. An assay-specific sample assessment may also concern a selected block rather than the whole residual bed.
+Neither cellularity percentage can replace [sequencing cell purity](/wiki/education/concepts/measurement/sequencing-basics/tumor-purity-and-ploidy). Area, counted-cell fractions and DNA contributions have different denominators. An assay-specific sample assessment may also concern a selected block rather than the whole residual bed.
 
 ## Worked example
 
@@ -133,5 +133,6 @@ Source-checked October 10, 2026; expert and learner review pending. This teaches
 - [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
-- [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
+- [Read single-cell data after treatment](/wiki/education/guides/what-multi-omics-tells-us/12-profile-residual-tumor)
 <!-- END GENERATED USED IN -->

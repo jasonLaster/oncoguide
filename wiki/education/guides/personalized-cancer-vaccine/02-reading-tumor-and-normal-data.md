@@ -46,7 +46,7 @@ Matched normal material helps distinguish [germline from somatic findings](/wiki
 
 [Variant allele fraction (VAF)](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction) is the proportion of usable reads, or assay-defined molecules, at a locus supporting the variant. Normal-cell admixture, copy-number changes and the number of mutant copies affect it. It is not automatically the percentage of cancer cells carrying a target.
 
-Use [copies, alleles and clones](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones) for a worked interpretation. [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) separates a local cancer-cell estimate from a **truncal** ancestry inference across sampled branches. A **subclonal** alteration occurs in a subset of cancer cells. One small biopsy may not establish either pattern across every site. Neither ancestry nor read fraction proves that a peptide is displayed.
+Use [copies, alleles and clones](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna) for a worked interpretation. [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) separates a local cancer-cell estimate from a **truncal** ancestry inference across sampled branches. A **subclonal** alteration occurs in a subset of cancer cells. One small biopsy may not establish either pattern across every site. Neither ancestry nor read fraction proves that a peptide is displayed.
 
 ## Worked example: maintain an evidence ledger
 
@@ -79,7 +79,7 @@ A variant appears in half the reads. Can it be called present in half the cancer
 
 **Source quality, expression and tumor coverage are separate entries in a candidate’s evidence ledger.**
 
-**Next:** [HLA matching and presentation](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation).
+**Next:** [HLA matching and presentation](/wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation).
 
 ## Sources and scope
 
@@ -87,4 +87,4 @@ Source check: October 8, 2026; expert and learner review pending. This is a read
 
 - [NHGRI DNA sequencing overview](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet).
 - [Primary neoantigen prediction and validation study](https://pubmed.ncbi.nlm.nih.gov/33038342/).
-- [Copies, alleles and clones](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones) — sourced quantitative examples.
+- [Copies, alleles and clones](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna) — sourced quantitative examples.

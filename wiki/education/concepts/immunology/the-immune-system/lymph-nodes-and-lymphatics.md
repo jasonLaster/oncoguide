@@ -7,7 +7,7 @@ glossary_anchor: "lymph-nodes-and-lymphatics"
 aliases: ["lymph node", "lymph nodes", "lymphatics", "lymphatic vessels"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine]]"]
-used_by: ["[[wiki/education/oncology-101/2-dendritic-cells]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-11-07
@@ -108,5 +108,6 @@ Source-checked October 10, 2026. General drainage and immune organization; the e
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
+- [How dendritic cells help start a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response)
+- [How T cells reach a tumor, and what keeps them out](/wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor)
 <!-- END GENERATED USED IN -->

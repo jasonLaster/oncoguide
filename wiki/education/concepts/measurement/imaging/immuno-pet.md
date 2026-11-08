@@ -2,15 +2,16 @@
 title: "Immuno-PET: tracking an antibody-based tracer"
 type: "concept"
 domain: "measurement/imaging"
-aliases: ["immuno-PET", "immunoPET", "antibody PET", "antibody-based PET"]
+aliases: ["immuno-PET", "immunoPET", "antibody PET", "antibody-based PET", "CD8 PET", "granzyme B PET", "immune-cell PET"]
 summary: "Immuno-PET uses a radiolabeled antibody or antibody-derived binding format to image its distribution, with uptake reflecting target access and tracer behavior rather than proving therapeutic benefit."
 glossary_anchor: "immuno-pet"
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/imaging/pet-ct]]", "[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]"]
-used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget]]"]
 sensitive: false
 tags: ["education", "measurement", "imaging"]
-source_checked: "2026-11-07"
+updated: "2026-11-08"
+source_checked: "2026-11-08"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -56,6 +57,17 @@ Keyaerts and colleagues studied a 68Ga-HER2 nanobody in 20 women with primary or
 
 In Bensch and colleagues' 22-person study across three tumor types, 89Zr-atezolizumab showed heterogeneous uptake and substantial lymphoid-tissue and inflammation signal. Associations with later response were exploratory, not a universal patient-selection threshold. Its target, **programmed death-ligand 1 (PD-L1)**, participates in [immune checkpoint signaling](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor). PET signal did not uniquely identify malignant cells. [Primary study](https://pubmed.ncbi.nlm.nih.gov/30478423/).
 
+### Imaging T cells and their killing activity
+
+Two kinds of tracer try to show immune cells rather than cancer cells. Both are investigational.
+
+| Tracer target | What it binds | Human evidence so far | What it cannot show |
+|---|---|---|---|
+| **CD8**, a surface protein on cytotoxic T cells | An antibody-derived binder, such as a minibody or one-armed antibody labeled with 89Zr | First-in-human study, 15 people with melanoma, lung or liver cancer: tumor uptake in 10, including 7 of 8 on immunotherapy; also strong uptake in spleen, marrow and lymph nodes ([Farwell 2022](https://pubmed.ncbi.nlm.nih.gov/34413145/)). Phase 1/2 study, 38 people: uptake varied within and between patients, was higher in inflamed than immune-desert lesions and sat where tissue staining showed CD8 ([Kist de Ruijter 2022](https://pubmed.ncbi.nlm.nih.gov/36471036/)) | Whether the T cells recognize the tumor or are killing it |
+| **Granzyme B**, an enzyme released by cytotoxic T cells and natural killer cells when they kill | A small peptide labeled with 68Ga or 18F; not an antibody | In mice, it separated responders from non-responders to checkpoint therapy before tumors shrank ([Larimer 2017](https://pubmed.ncbi.nlm.nih.gov/28461564/)). Early human studies report feasibility and safety; standard thresholds and multicenter validation are still missing ([2026 review](https://pubmed.ncbi.nlm.nih.gov/42223848/)) | Which cells released it, or whether the release will lead to lasting response |
+
+In the 38-person CD8 study, higher uptake was associated with longer overall survival, but changes in individual lesions during treatment did not follow tumor response. Those are exploratory associations in small mixed cohorts, not a validated way to choose or stop treatment.
+
 ## How it is measured
 
 **Input:** the exact antibody or fragment, radioactive label, protein mass, administered activity and timing. **Output:** activity distribution and region-based uptake, such as [standardized uptake value](/wiki/education/concepts/measurement/imaging/pet-ct). Activity uses megabecquerels (MBq); protein mass may use micrograms or milligrams. Neither unit means the proportion of tumor cells bearing the target.
@@ -68,6 +80,7 @@ Interpret uptake with blood-pool background, normal-organ distribution, lesion s
 - **Immune-related PET versus antibody PET:** a peptide tracer measuring an immune-associated process is not an antibody tracer merely because its biology involves immunity.
 - **Uptake versus expression percentage:** distribution includes exposure and access, not just target amount.
 - **Exploratory correlation versus clinical utility:** an association with response does not prove that using the scan improves treatment outcomes.
+- **CD8 presence versus killing:** a CD8 scan counts where T cells gather; a granzyme B scan looks for released killing enzyme. Neither shows that the cells recognize the cancer.
 
 ## Try it
 
@@ -85,6 +98,10 @@ One answer: “a named antibody-based tracer; its dose and imaging conditions; e
 
 Read the binder, label, mass, clearance and target context together. An image is evidence about the tested tracer, not a promise about treatment.
 
+## In Diana's case
+
+Whether an immune-activity PET scan would change any decision is discussed in [the granzyme B PET question](/wiki/questions/granzyme-b-pet).
+
 ## Related concepts
 
 - [Target PET and theranostic imaging](/wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging): distribution, absorbed dose and benefit are distinct claims.
@@ -92,14 +109,16 @@ Read the binder, label, mass, clearance and target context together. An image is
 
 ## Sources and scope
 
-Source check: November 7, 2026. Examples support bounded format and distribution explanations, without a current approval or access claim. Practice is fictional; expert and learner review remain pending.
+Source check: November 8, 2026. Examples support bounded format and distribution explanations, without a current approval or access claim. Practice is fictional; expert and learner review remain pending.
 
 - [Dijkers et al. (2010), 89Zr-trastuzumab](https://pubmed.ncbi.nlm.nih.gov/20357763/): 14-person HER2-positive metastatic breast feasibility study; mass and imaging-time context.
 - [Keyaerts et al. (2016), 68Ga-HER2 nanobody](https://pubmed.ncbi.nlm.nih.gov/26449837/): phase 1 imaging, biodistribution and dosimetry; 20 women with HER2 IHC scores of 2+ or 3+.
 - [Bensch et al. (2018), 89Zr-atezolizumab](https://pubmed.ncbi.nlm.nih.gov/30478423/): 22-person exploratory study across three tumor types; heterogeneous and normal-tissue uptake, with response association.
+- [Farwell et al. (2022), CD8 minibody PET](https://pubmed.ncbi.nlm.nih.gov/34413145/) and [Kist de Ruijter et al. (2022), CD8 one-armed antibody PET](https://pubmed.ncbi.nlm.nih.gov/36471036/): first-in-human (15 people) and phase 1/2 (38 people) CD8 imaging studies.
+- [Larimer et al. (2017), granzyme B PET](https://pubmed.ncbi.nlm.nih.gov/28461564/): preclinical proof of concept; [2026 review of granzyme B PET](https://pubmed.ncbi.nlm.nih.gov/42223848/) for the state of human studies.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
+- [Match each measurement to its claim](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget)
 <!-- END GENERATED USED IN -->

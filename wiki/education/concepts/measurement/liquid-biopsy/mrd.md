@@ -7,10 +7,10 @@ glossary_anchor: "mrd"
 aliases: ["MRD", "minimal residual disease", "measurable residual disease", "molecular residual disease"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]"]
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops]]"]
 sensitive: false
 tags: ["education", "measurement"]
-updated: "2026-10-10"
+updated: "2026-11-08"
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -77,8 +77,9 @@ MRD is a method-bound residual-disease assessment, not a universal declaration o
 
 ## Related concepts
 
-- [tumor informed mrd assay](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay)
-- [ctdna imaging discordance](/wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance)
+- [Tumor-informed versus tumor-naive residual-disease assays](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays)
+- [ctDNA–imaging discordance](/wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance)
+- [Surveillance after treatment for early breast cancer](/wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment): routine follow-up, as distinct from investigational ctDNA surveillance
 
 ## Sources and scope
 
@@ -93,6 +94,5 @@ Source check: October 10, 2026. Fictional exercise; expert and learner review re
 
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
-- [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
-- [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
+- [Test clinical relevance and learn from feedback](/wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops)
 <!-- END GENERATED USED IN -->

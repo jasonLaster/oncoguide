@@ -4,14 +4,14 @@ type: "concept"
 domain: "therapeutics/how-drugs-work"
 summary: "Combination therapy uses more than one treatment to pursue a defined benefit, which must be tested against an appropriate alternative along with its added harms."
 glossary_anchor: "combination-therapy-rationale"
-aliases: ["combination therapy", "combination rationale"]
+aliases: ["combination therapy", "combination rationale", "drug synergy", "synergy", "Bliss independence", "Loewe additivity", "highest single agent", "HSA", "combination index", "isobologram"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism]]", "[[wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index]]"]
 used_by: []
 sensitive: false
 tags: ["education", "therapeutics"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: "2026-11-08"
+source_checked: "2026-11-08"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -35,9 +35,19 @@ A rationale should name the job of each component. One might attack a [growth pa
 
 **Synergy** is a narrower claim: the combined effect exceeds a stated reference model. A result that is stronger than either single drug does not automatically exceed every reference. [The functional-experiment lesson](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment) compares highest-single-agent, Bliss and Loewe expectations using explicit fictional data.
 
-**Independent drug action** asks a different question. In that model, a person's outcome on a combination is the better of the outcomes the components would produce alone. If different people are sensitive to different components, the group can benefit without an extra within-person interaction. Palmer and Sorger tested this explanation using clinical data, tumor-model data and simulations. Their analysis supports an important alternative explanation, not a rule that all effective combinations lack synergy.
+### Three reference models for "more than expected"
 
-The phrase “independent action” also does not mean every statistical assumption is independence. Correlation between responses to the components affects the predicted group benefit. Shared resistance can reduce the advantage of covering different responders.
+Each laboratory model defines what "no interaction" would look like. Synergy means beating that expectation; antagonism means falling short of it.
+
+| Model | Expected effect with no interaction | Its assumption | What it needs |
+|---|---|---|---|
+| **Highest single agent (HSA)** | The larger of the two single-drug effects at the doses used | None about mechanism; the easiest bar to clear | Each drug alone at the same doses |
+| **Bliss independence** | For effects written as fractions, A + B − A × B: the chance that either drug alone would have hit the cell | The two drugs act independently, like two separate chances of killing a cell | Each drug alone at the same doses |
+| **Loewe additivity** | The effect expected if each drug can stand in for part of the other's dose, so that a drug combined with itself is exactly additive | The two drugs behave like dilutions of one another | Full dose-response curves for each drug, often drawn as an isobologram or summarized as a combination index, where below 1 means synergy |
+
+The models answer different questions, so the same data can be synergistic under one and additive under another [4, 5]. Decades after the first definitions, there is still no consensus on which model to use [6]. A synergy claim is only meaningful with its model, its measurement scale and its uncertainty named.
+
+**Independent drug action** asks a different question. In that model, a person's outcome on a combination is the better of the outcomes the components would produce alone, so if different people are sensitive to different components, the group can benefit with no extra within-person interaction. Palmer and Sorger tested this using clinical data, tumor models and simulations [1]; it is an alternative explanation, not a rule that effective combinations lack synergy. The phrase does not mean every statistical assumption is independence either: correlation between responses, and shared resistance, both reduce the advantage of covering different responders.
 
 ```mermaid
 flowchart TD
@@ -51,9 +61,9 @@ flowchart TD
 
 ## Why it matters in cancer
 
-Combining mechanisms may broaden activity or address a measured escape route. It may also increase toxicity, alter [drug exposure](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) or force lower doses. Simultaneous and sequential treatment are different strategies; a molecular diagram cannot choose between them.
+Combining mechanisms may broaden activity or address a measured escape route. It may also add toxicity, alter [drug exposure](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) or force lower doses. Simultaneous and sequential treatment are different strategies, and a molecular diagram cannot choose between them.
 
-Clinical comparison should specify disease, prior treatment, doses, schedule, comparator and outcome. Evidence that one regimen beats one component does not establish superiority to every alternative, or identify which component supplied the benefit.
+Clinical comparison should specify disease, prior treatment, doses, schedule, comparator and outcome. Evidence that one regimen beats one component does not establish superiority to every alternative, or identify which component supplied the benefit. For example, in ASCENT-04, people with untreated metastatic triple-negative breast cancer whose tumors expressed programmed death-ligand 1 (PD-L1) had longer progression-free survival with sacituzumab govitecan plus pembrolizumab than with chemotherapy plus pembrolizumab (median 11.2 versus 7.8 months, hazard ratio 0.65) [7]. That shows the antibody-drug conjugate was the better partner for pembrolizumab in that setting. It does not, by itself, show synergy between the two drugs.
 
 ## Worked example
 
@@ -106,11 +116,15 @@ One possible answer: “the contribution of each component; added benefit and ha
 
 ## Sources and scope
 
-Source check: October 9, 2026. The ten-tumor arithmetic is fictional. This explains rationales and evidence boundaries, not a regimen or sequence for an individual. Expert and learner review pending.
+Source check: October 9, 2026; reference-model table added November 8, 2026. The ten-tumor arithmetic is fictional. This explains rationales and evidence boundaries, not a regimen or sequence for an individual. Expert and learner review pending.
 
-- [Palmer and Sorger, 2017: independent action and variation between tumors](https://pubmed.ncbi.nlm.nih.gov/29245013/) — primary analysis of clinical datasets, tumor models and simulations; an explanatory model with assumptions.
-- [Ianevski et al., 2017: combination dose-response analysis](https://pubmed.ncbi.nlm.nih.gov/28379339/) — primary computational method for named laboratory interaction references.
-- [NCI: targeted cancer therapies](https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies) — general resistance and combination rationale; not validation of every pairing.
+1. [Palmer and Sorger, 2017: independent action and variation between tumors](https://pubmed.ncbi.nlm.nih.gov/29245013/) — primary analysis of clinical datasets, tumor models and simulations; an explanatory model with assumptions.
+2. [Ianevski et al., 2017: combination dose-response analysis](https://pubmed.ncbi.nlm.nih.gov/28379339/) — primary computational method for named laboratory interaction references.
+3. [NCI: targeted cancer therapies](https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies) — general resistance and combination rationale; not validation of every pairing.
+4. [Greco, Bravo and Parsons, 1995: the search for synergy](https://pubmed.ncbi.nlm.nih.gov/7568331/) — classic review of Loewe additivity, Bliss independence and response-surface methods.
+5. [Chou, 2006: synergism and antagonism in drug combination studies](https://pubmed.ncbi.nlm.nih.gov/16968952/) — the combination index and isobologram, from the Loewe tradition.
+6. [Meyer and colleagues, 2020: charting the fragmented landscape of drug synergy](https://pubmed.ncbi.nlm.nih.gov/32113653/) — why no single synergy model has consensus.
+7. [Sacituzumab govitecan prescribing information, section 14](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) — ASCENT-04 progression-free survival with pembrolizumab versus chemotherapy with pembrolizumab.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

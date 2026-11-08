@@ -7,7 +7,7 @@ summary: "RNA fusion and splice detection tests which sequence joins are support
 glossary_anchor: "fusion-and-splice-detection"
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/splicing]]", "[[wiki/education/concepts/measurement/sequencing-basics/sequencing-reads]]"]
-used_by: ["[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/05-read-rna]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: "2026-10-10"
@@ -113,6 +113,5 @@ Source check: October 10, 2026. The practice is fictional. Expert and learner re
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read RNA: counts, preparation and splice products](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna)
 <!-- END GENERATED USED IN -->

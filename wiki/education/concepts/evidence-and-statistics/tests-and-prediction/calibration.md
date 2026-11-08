@@ -62,7 +62,7 @@ Now imagine predictions of 10% and 50%, with 20 and 40 events in those groups. P
 | Failure | Counting every censored participant as event-free, or checking only the overall average. |
 | Cannot tell | Which individual has an event or whether using the model improves outcomes. |
 
-For survival predictions, incomplete follow-up needs an appropriate time-to-event method. Competing-event predictions need their corresponding outcome definition and estimation. Check relevant subgroups as well as overall agreement. [Riley and colleagues](https://www.bmj.com/content/384/bmj-2023-074820).
+For survival predictions, incomplete follow-up needs an appropriate time-to-event method. [Competing-event](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks) predictions need their corresponding outcome definition and estimation. Check relevant subgroups as well as overall agreement. [Riley and colleagues](https://www.bmj.com/content/384/bmj-2023-074820).
 
 ## Why it matters in cancer
 

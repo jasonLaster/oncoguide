@@ -22,7 +22,7 @@ A small blood-test number can feel like a direct count of cancer. A clear scan c
 ## The big ideas
 
 1. [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|Cell-free DNA and circulating tumor DNA]] describe total material and tumor origin. Plenty of extracted DNA does not guarantee a detectable tumor signal.
-2. A [[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay|tumor-informed assay]] tracks selected features from a reference tumor. Its scope is narrower than every possible molecular change.
+2. A [[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays|tumor-informed assay]] tracks selected features from a reference tumor. Its scope is narrower than every possible molecular change.
 3. [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|Units and detection limits]] travel with the result. A fraction, a concentration and a detection call have different meanings.
 4. Blood testing and magnetic resonance imaging (MRI) look through different windows. Neither replaces surgical pathology when tissue response is the question.
 5. Earlier detection, recurrence association and benefit from acting earlier are distinct claims. A useful plan names the evidence for the proposed action.
@@ -43,7 +43,7 @@ flowchart TD
 | Step | Lesson | Question it answers | Minutes | Learning aid |
 |---|---|---|---|---|
 | 1 | [Read the blood result](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result) | What was sampled, tracked and detected? | 11 | Sample-to-report ledger |
-| 2 | [Compare blood and imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri) | Why can two results disagree? | 12 | Two-window cartoon and four-pattern exercise |
+| 2 | [Compare blood and imaging](/wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging) | Why can two results disagree? | 12 | Two-window cartoon and four-pattern exercise |
 | 3 | [Ask what a result should change](/wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change) | Does evidence support the proposed next action? | 12 | Evidence ladder and fictional protocol |
 
 ## Concepts you will use
@@ -54,15 +54,13 @@ flowchart TD
 - [Molecular residual disease](/wiki/education/concepts/measurement/liquid-biopsy/mrd): the signal being discussed.
 
 **How the test reads it (lesson 1):**
-- [[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay|Tumor-informed versus tumor-naive assays]]: why tracking many known mutations lowers the detection limit.
+- [[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays|Tumor-informed versus tumor-naive assays]]: why tracking many known mutations lowers the detection limit.
 - [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|Units]], [detection limits and finite sampling](/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling) and [blank, detection and quantitation limits](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation).
 
 **What a result means (lessons 2 and 3):**
 - [Blood–imaging discordance](/wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance).
 - [Measured lead time](/wiki/education/concepts/measurement/liquid-biopsy/lead-time) and [[wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias|lead-time bias]].
 - [[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates|Predictive values and base rates]], [[wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive|prognostic versus predictive evidence]], [surrogate endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints) and [[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility|validity and clinical utility]].
-
-The [[wiki/education/molecular-profiling/06-ctdna-and-mrd|multi-omics blood lesson]] is an optional companion.
 
 ## What one study found after neoadjuvant therapy
 

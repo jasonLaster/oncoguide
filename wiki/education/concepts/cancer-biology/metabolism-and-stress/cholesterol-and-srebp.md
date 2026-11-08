@@ -7,7 +7,7 @@ glossary_anchor: "cholesterol-and-srebp"
 aliases: ["cholesterol", "SREBP", "SCAP", "sterol homeostasis"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/08-test-a-supply-dependence-with-rescue]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: 2026-11-07
@@ -77,7 +77,7 @@ Research readouts include precursor and nuclear SREBP, responsive transcripts, c
 
 ## Related concepts
 
-[PI3K–AKT–mTOR](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor) coordinates growth and resources through different machinery. [Oxidative phosphorylation](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) supplies an energy foundation. [The lipid lesson](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor) compares resource regulation and drug hypotheses.
+[PI3K–AKT–mTOR](/wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor) coordinates growth and resources through different machinery. [Oxidative phosphorylation](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) supplies an energy foundation. [The lipid lesson](/wiki/education/guides/from-variant-to-drug/08-test-a-supply-dependence-with-rescue) compares resource regulation and drug hypotheses.
 
 ## Sources
 
@@ -89,6 +89,6 @@ Source check: 2026-11-07. General mechanism education; the worked example is fic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Lipid supply and mTOR: measuring resource control](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor)
-- [Pathway mechanisms: a supporting lesson library](/wiki/education/molecular-profiling/evee-proposed-pathways)
+- [Test a supply dependence with a rescue experiment](/wiki/education/guides/from-variant-to-drug/08-test-a-supply-dependence-with-rescue)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

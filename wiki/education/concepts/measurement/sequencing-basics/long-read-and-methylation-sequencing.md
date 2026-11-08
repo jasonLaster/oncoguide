@@ -6,7 +6,7 @@ aliases: ["long-read sequencing", "long-read DNA sequencing", "native-DNA methyl
 summary: "Long-read sequencing follows extended DNA or RNA molecules; methylation sequencing measures specified chemical marks through a separately defined workflow."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/sequencing-basics/sequencing-reads]]", "[[wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation]]"]
-used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]"]
 glossary_anchor: "long-read-and-methylation-sequencing"
 sensitive: false
 tags: ["education", "measurement"]
@@ -103,5 +103,5 @@ Source check: October 10, 2026. Method categories, not a platform ranking or cli
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
 <!-- END GENERATED USED IN -->

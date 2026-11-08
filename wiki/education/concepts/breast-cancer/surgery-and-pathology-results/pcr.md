@@ -13,7 +13,7 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, breast-cancer]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial]]","[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
 updated: 2026-11-07
 source_checked: 2026-11-07
 review_status: "Source-checked; expert and learner review pending"
@@ -112,16 +112,19 @@ Explain why “no invasive breast cancer” is insufficient to establish the com
 
 Source-checked November 7, 2026; expert and learner review pending. All examples are fictional and make no personal forecast.
 
-- [FDA: pCR as an endpoint in high-risk early-stage breast cancer, July 2020](https://www.fda.gov/media/83507/download), sections III and IV, for complete-specimen definitions and the responder-versus-trial distinction.
 1. [Cortazar and colleagues, Lancet 2014: CTNeoBC](https://pubmed.ncbi.nlm.nih.gov/24529560/), primary abstract, for subtype hazard ratios and trial-level R².
+- [FDA: pCR as an endpoint in high-risk early-stage breast cancer, July 2020](https://www.fda.gov/media/83507/download), sections III and IV, for complete-specimen definitions and the responder-versus-trial distinction.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
 - [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study)
+- [Compare blood results with imaging](/wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
+- [Test clinical relevance and learn from feedback](/wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
+- [Read a real trial: KEYNOTE-522](/wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial)
 - [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
@@ -130,5 +133,4 @@ Source-checked November 7, 2026; expert and learner review pending. All examples
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
 - [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
-- [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
 <!-- END GENERATED USED IN -->

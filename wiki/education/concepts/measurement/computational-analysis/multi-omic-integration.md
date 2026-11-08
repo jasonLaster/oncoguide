@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]"
-used_by: ["[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/reading-a-tumor/index]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence]]","[[wiki/education/guides/what-multi-omics-tells-us/11-read-one-report]]","[[wiki/education/guides/what-multi-omics-tells-us/index]]"]
 sensitive: false
 tags: [education, measurement]
 updated: 2026-10-10
@@ -116,7 +116,7 @@ Source check: October 10, 2026. The Target Q and processing examples are fiction
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Build an integrated claim without skipping the clinical question](/wiki/education/molecular-profiling/07-from-data-to-care-plan)
-- [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Integrate the evidence and meet the clinical gate](/wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence)
+- [Read one report with the six-question card](/wiki/education/guides/what-multi-omics-tells-us/11-read-one-report)
+- [What does multi-omics tell us about a tumor?](/wiki/education/guides/what-multi-omics-tells-us/index)
 <!-- END GENERATED USED IN -->

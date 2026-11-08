@@ -7,7 +7,7 @@ glossary_anchor: "false-discovery-rate"
 aliases: ["FDR", "false discovery rate"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
 updated: 2026-10-10
@@ -110,5 +110,5 @@ Source check: October 10, 2026. Invented p-values; expert and learner review rem
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
+- [Choose the comparison before interpreting the signal](/wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison)
 <!-- END GENERATED USED IN -->

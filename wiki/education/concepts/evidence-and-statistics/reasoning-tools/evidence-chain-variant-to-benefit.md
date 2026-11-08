@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/evidence-and-statistics/biomarkers/actionability]]"
   - "[[wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison]]","[[wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence]]","[[wiki/education/guides/what-multi-omics-tells-us/11-read-one-report]]","[[wiki/education/guides/what-multi-omics-tells-us/index]]"]
 sensitive: false
 tags: [education, evidence-and-statistics]
 updated: 2026-10-10
@@ -110,5 +110,8 @@ Source check: October 10, 2026. General reasoning, with a fictional model. Funct
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
 - [Check clinical evidence and access](/wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
-- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
+- [Choose the comparison before interpreting the signal](/wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison)
+- [Integrate the evidence and meet the clinical gate](/wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence)
+- [Read one report with the six-question card](/wiki/education/guides/what-multi-omics-tells-us/11-read-one-report)
+- [What does multi-omics tell us about a tumor?](/wiki/education/guides/what-multi-omics-tells-us/index)
 <!-- END GENERATED USED IN -->

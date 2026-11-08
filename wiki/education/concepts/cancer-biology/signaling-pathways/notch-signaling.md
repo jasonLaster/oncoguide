@@ -7,7 +7,7 @@ glossary_anchor: "notch-signaling"
 aliases: ["Notch", "Notch signaling", "NICD", "DLL4"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: 2026-11-07
@@ -91,7 +91,7 @@ One answer: “what is present; received signaling; an attributed functional eff
 
 ## Related concepts
 
-[Ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) provides the foundation. [Wnt–β-catenin](/wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin) is another developmental signal with different machinery. [The signaling lesson](/wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr) compares contact, secreted, and receptor-kinase signals.
+[Ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor) provides the foundation. [Wnt–β-catenin](/wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin) is another developmental signal with different machinery. [The signaling lesson](/wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step) compares contact, secreted, and receptor-kinase signals.
 
 ## Sources
 
@@ -106,6 +106,6 @@ Source check: 2026-11-07. General mechanism education; the worked example is fic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Notch, Wnt, and FGFR: locate the signal before choosing a target](/wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr)
-- [Pathway mechanisms: a supporting lesson library](/wiki/education/molecular-profiling/evee-proposed-pathways)
+- [Locate the active signaling step](/wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

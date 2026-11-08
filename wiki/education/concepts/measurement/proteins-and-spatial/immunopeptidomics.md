@@ -7,7 +7,7 @@ glossary_anchor: "immunopeptidomics"
 aliases: ["immunopeptidomics"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]"]
+used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/what-multi-omics-tells-us/06-read-protein]]","[[wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context]]","[[wiki/education/guides/what-multi-omics-tells-us/12-profile-residual-tumor]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: 2026-10-10
@@ -105,9 +105,9 @@ Focused source check: October 14, 2026. The preservation addition uses the Siroi
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics)
+- [Measure presentation, binding and response](/wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
-- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
-- [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)
-- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
+- [Read protein: presence, place and activation](/wiki/education/guides/what-multi-omics-tells-us/06-read-protein)
+- [Add geography and immune context](/wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context)
+- [Read single-cell data after treatment](/wiki/education/guides/what-multi-omics-tells-us/12-profile-residual-tumor)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: "lod"
 aliases: ["limit of blank", "LoB", "limit of detection", "LoD", "LOD95", "limit of quantitation", "limit of quantification", "LoQ", "limits-of-detection-and-quantitation"]
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help]]"]
 sensitive: false
 tags: ["education", "evidence"]
 updated: "2026-10-10"
@@ -101,10 +101,9 @@ Source check: October 10, 2026. Fictional quantities; expert and learner review 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
-- [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
+- [Why a personalized cancer vaccine can help](/wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help)
 <!-- END GENERATED USED IN -->

@@ -19,7 +19,7 @@ reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 tags: [education, guide-lesson, evidence-and-statistics]
 ---
 
@@ -98,7 +98,7 @@ The report gives HR 0.63 (95% CI 0.48–0.82) for an event or death [1]. Work it
 - **Absolute difference at 36 months:** 84.5% − 76.8% = 7.7 percentage points, about 8 fewer events per 100 people by 3 years.
 - **Number needed to treat at 36 months:** 1 / 0.077 ≈ 13.
 - **HR 0.63** is a 37% lower hazard over follow-up. It is not a 37% drop in the 36-month event risk: that risk fell from 23.2% to 15.5%, a relative reduction of about 33%.
-- **Data maturity:** this was an interim look. Overall survival was reported later, at 60 months: 86.6% versus 81.7% [2].
+- **Data maturity:** this was an interim look. Overall survival was reported later, at 60 months: 86.6% versus 81.7% [2]. [Lesson 5](/wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial) carries this trial through every step.
 
 ## What can go wrong at this step
 

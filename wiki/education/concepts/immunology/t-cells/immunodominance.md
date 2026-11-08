@@ -7,7 +7,7 @@ glossary_anchor: immunodominance
 aliases: [immunodominance, immunodominant epitope]
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response]]","[[wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board]]"]
 reviewed: pending
 reviewed_by: ""
 sensitive: false
@@ -98,6 +98,6 @@ Source-checked October 10, 2026. The vaccine and response values are fictional. 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
-- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
+- [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response)
+- [Read a neoantigen design board](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board)
 <!-- END GENERATED USED IN -->

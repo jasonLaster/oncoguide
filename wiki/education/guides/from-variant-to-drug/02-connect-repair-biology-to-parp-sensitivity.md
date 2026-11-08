@@ -8,8 +8,8 @@ objectives: ["Trace a repair-gene finding through RNA, protein, and current repa
 prerequisites: ["[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]", "[[wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]"]
 sensitive: false
 tags: ["education", "molecular-interpretation"]
-updated: 2026-11-07
-source_checked: "2026-11-07"
+updated: 2026-11-08
+source_checked: "2026-11-08"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -57,9 +57,9 @@ Finally, researchers measure a repair response under adequate assay conditions. 
 
 ## A scar records a history
 
-A [**genomic scar**](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) summarizes patterns of accumulated chromosome damage. Different assays use different features and cutoffs. A scar compatible with past repair deficiency is not a clock that reports today's repair capacity.
+A [**genomic scar**](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) summarizes patterns of accumulated chromosome damage. Different assays use different features and cutoffs; a [composite HRD score](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores) adds several of them, and its cutoff belongs to the assay and trial that set it. A scar compatible with past repair deficiency is not a clock that reports today's repair capacity.
 
-Repair can partly return while old scars remain. A **BRCA reversion** is a later change that restores function to a previously disrupted repair protein. Selected resistant metastatic breast cancers have demonstrated repair-restoring changes. That finding explains a mechanism; it is not a prevalence estimate for every cancer. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
+Repair can partly return while old scars remain. A [**BRCA reversion**](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations) is a later change that restores function to a previously disrupted repair protein, often by restoring the reading frame. In 8 metastatic BRCA-mutant breast cancers biopsied before and after resistance, 4 had acquired a reversion and 2 more regained repair by other routes. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
 
 One present-function readout is **RAD51 foci**, visible assemblies of a repair protein. Interpretation requires adequate damaged and cycling cells, suitable scoring, and controls. Few foci in a sample with too few informative cells can be an uninformative result rather than proof of HRD. [Cruz 2018](https://pubmed.ncbi.nlm.nih.gov/29635390/).
 
@@ -67,7 +67,7 @@ One present-function readout is **RAD51 foci**, visible assemblies of a repair p
 
 **Poly(ADP-ribose) polymerase (PARP)** proteins help coordinate responses to DNA damage. [PARP inhibitors](/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping) can reduce enzyme activity and can trap PARP–DNA complexes. Trapping can create an obstacle for DNA-copying machinery. Cells then need ways to tolerate or resolve the resulting stress.
 
-Some HR-deficient cells are especially vulnerable to that challenge, illustrating synthetic lethality. Experiments also show that catalytic inhibition and trapping strength can differ between compounds. Niraparib and olaparib trapped PARP more strongly than veliparib ([Murai 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/)), and talazoparib, a breast cancer PARP inhibitor, trapped about 100 times more potently than olaparib while inhibiting the enzyme similarly ([Murai 2014](https://pubmed.ncbi.nlm.nih.gov/24356813/)). Laboratory trapping measurements do not rank the best medicine for a person. Exposure, normal-tissue effects, resistance, and clinical setting remain important. [The optional trapping lesson](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling) adds what can remove a trapped PARP.
+Some HR-deficient cells are especially vulnerable to that challenge, illustrating synthetic lethality. Experiments also show that catalytic inhibition and trapping strength can differ between compounds. Niraparib and olaparib trapped PARP more strongly than veliparib ([Murai 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/)). In cell-based assays, talazoparib, which is approved as a single agent for HER2-negative locally advanced or metastatic breast cancer with a germline BRCA1 or BRCA2 variant ([talazoparib label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f2423edd-6d24-495c-aec1-c2f457f08d9a)), trapped PARP about 100 times more potently than olaparib while inhibiting the enzyme comparably ([Murai 2014](https://pubmed.ncbi.nlm.nih.gov/24356813/)). Laboratory trapping measurements do not rank the best medicine for a person. Exposure, normal-tissue effects, resistance, and clinical setting remain important. [The optional trapping lesson](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling) adds what can remove a trapped PARP.
 
 ## Keep five claims separate
 
@@ -145,3 +145,4 @@ Source check: 2026-11-07. General education; worked scenarios are fictional. Nam
 - [Waks 2020: repair restoration in selected resistant metastatic breast cancers](https://pubmed.ncbi.nlm.nih.gov/32245699/).
 - [Murai 2012: catalytic inhibition and differential PARP trapping](https://pmc.ncbi.nlm.nih.gov/articles/PMC3528345/).
 - [Murai 2014: talazoparib's PARP trapping compared with olaparib and rucaparib](https://pubmed.ncbi.nlm.nih.gov/24356813/).
+- [Talazoparib prescribing information, DailyMed, October 2026](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f2423edd-6d24-495c-aec1-c2f457f08d9a).

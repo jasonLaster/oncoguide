@@ -9,7 +9,7 @@ summary: "A surgical resection specimen is removed tissue whose orientation, bou
 level: "foundation"
 prerequisites:
   - "[[wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology]]"
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/reading-a-tumor/index]]"]
+used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/what-multi-omics-tells-us/11-read-one-report]]"]
 reviewed: "pending"
 source_checked: 2026-10-10
 reviewed_by: ""
@@ -105,5 +105,5 @@ Source check: October 10, 2026. General specimen teaching with breast examples; 
 ## Used in
 
 - [Place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time)
-- [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
+- [Read one report with the six-question card](/wiki/education/guides/what-multi-omics-tells-us/11-read-one-report)
 <!-- END GENERATED USED IN -->

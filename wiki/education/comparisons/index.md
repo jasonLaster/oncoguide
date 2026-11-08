@@ -3,8 +3,8 @@ title: "Compare related ideas"
 type: navigation
 sensitive: false
 tags: [education]
-updated: 2026-11-07
-source_checked: 2026-11-07
+updated: 2026-11-08
+source_checked: 2026-11-08
 review_status: "Draft navigation; expert and learner review pending"
 reviewed: pending
 reviewed_by: ""
@@ -31,9 +31,10 @@ When reading a comparison, try its practice question before reading the answer. 
 | Which DNA in the blood is being discussed? | [Cell-free DNA vs circulating tumor DNA (cfDNA vs ctDNA)](/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna) |
 | Which fraction is being reported? | [Variant allele fraction vs cancer-cell fraction (VAF vs CCF)](/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction) |
 | Was the tumor compared with the patient's normal DNA? | [Tumor–normal vs tumor-only sequencing](/wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing) |
-| Which residual-disease blood test design is being discussed? | [Tumor-informed vs tumor-naive molecular residual disease (MRD) testing](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay) |
+| Which residual-disease blood test design is being discussed? | [Tumor-informed vs tumor-naive molecular residual disease (MRD) testing](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays) |
 | How much of the genome was sequenced? | [Panel vs exome vs genome sequencing](/wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome) |
 | Which RNA measurement view fits the question? | [Bulk vs single-cell vs spatial RNA](/wiki/education/concepts/measurement/transcriptomics/bulk-vs-single-cell-vs-spatial-rna) |
+| Should a tissue map measure proteins or RNA? | [Spatial protein vs spatial RNA methods](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared) |
 | What kind of tissue does a test need? | [Fixed vs fresh-frozen vs viable tissue](/wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable) |
 
 ## What is happening in the immune system?
@@ -95,4 +96,4 @@ When reading a comparison, try its practice question before reading the answer. 
 | Is this a trial or another access route? | [Clinical trial vs expanded access](/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access) |
 | Which FDA application is being discussed? | [Investigational New Drug application (IND) vs marketing application](/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla) |
 
-Return to the [education index](/wiki/education/index) for a longer learning path.
+Every comparison also appears, with its one-sentence summary, in the [concept index](/wiki/education/concepts/index) and in [Terminology](/about/Terminology). Return to the [education home](/wiki/education/index) for a longer learning path.

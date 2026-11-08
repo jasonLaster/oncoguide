@@ -10,7 +10,7 @@ tags: [education, comparison]
 prerequisites:
   - "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"
   - "[[wiki/education/concepts/measurement/computational-analysis/binding-prediction]]"
-used_by: []
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell]]","[[wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context]]"]
 reviewed: pending
 reviewed_by: ""
 expert_review: pending
@@ -57,11 +57,11 @@ recognition or function?
 |---|---|---|---|
 | [Binding prediction](/wiki/education/concepts/measurement/computational-analysis/binding-prediction) | Exact peptide–allele pair, model and output task | A model estimate for that pair | Measured binding or natural display |
 | Measured peptide-to-HLA binding | Defined molecules and assay conditions | Binding under that assay | Processing, cancer-cell display or T-cell function |
-| [Immunopeptidomics](/wiki/education/designing-a-vaccine/03-immunopeptidomics) | Peptides recovered from an HLA preparation | Association with the recovered preparation, subject to identification controls | Guaranteed cancer-cell origin, surface location or complete recovery |
+| [Immunopeptidomics](/wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response) | Peptides recovered from an HLA preparation | Association with the recovered preparation, subject to identification controls | Guaranteed cancer-cell origin, surface location or complete recovery |
 | [Peptide–HLA multimer staining](/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining) | T cells binding a defined peptide–HLA reagent | Reagent-binding cells under the staining conditions | A peptide-affinity measurement or demonstrated killing |
 | Controlled response to naturally presenting target cells | Specified target cells and appropriate antigen/HLA controls | Recognition or the particular function actually measured | Recognition at every site, safety or patient benefit |
 
-Mixed-tissue recovery cannot assign a peptide to cancer cells automatically. A whole-cell HLA preparation can include intracellular complexes. Supplied-peptide stimulation can bypass processing steps; a positive response there is different from testing natural tumor display. For preparation and detection limits, read [the existing immunopeptidomics lesson](/wiki/education/designing-a-vaccine/03-immunopeptidomics).
+Mixed-tissue recovery cannot assign a peptide to cancer cells automatically. A whole-cell HLA preparation can include intracellular complexes. Supplied-peptide stimulation can bypass processing steps; a positive response there is different from testing natural tumor display. For preparation and detection limits, read [the existing immunopeptidomics lesson](/wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response).
 
 ## Which evidence fits the question?
 
@@ -73,9 +73,9 @@ A favorable score is not a measured affinity. A recovered peptide is not guarant
 
 ## Try it: reuse the evidence notebook
 
-Read [the fictional notebook and its worked interpretation](/wiki/education/designing-a-vaccine/03-immunopeptidomics#worked-example-an-evidence-notebook), then [the supplied-peptide exercise and answer](/wiki/education/designing-a-vaccine/03-immunopeptidomics#try-it). Carry a favorable exact-allele prediction alongside those cards if one is provided; it adds a model estimate, not a natural-target test.
+Read [the fictional notebook and its worked interpretation](/wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response#worked-example-an-evidence-notebook), then [the supplied-peptide exercise and answer](/wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response#try-it). Carry a favorable exact-allele prediction alongside those cards if one is provided; it adds a model estimate, not a natural-target test.
 
-**Explain the missing bridge:** mixed-tissue peptide recovery and a supplied-peptide response do not establish which cancer cells display the peptide naturally or whether those cells provoke the measured response. The linked answer explains why nondetection also needs assay limits. [The allele-mismatch example](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation#worked-example-the-missing-bridge) supplies another context check.
+**Explain the missing bridge:** mixed-tissue peptide recovery and a supplied-peptide response do not establish which cancer cells display the peptide naturally or whether those cells provoke the measured response. The linked answer explains why nondetection also needs assay limits. [The allele-mismatch example](/wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation#worked-example-the-missing-bridge) supplies another context check.
 
 ## Explain it back
 
@@ -89,7 +89,7 @@ For multimer staining: “a T-cell receptor; a peptide–HLA reagent; reagent bi
 
 ## Related concepts
 
-Use [the design-board lesson](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board) to carry these separate evidence fields into a candidate record, and [immune-function measurements](/wiki/education/reading-a-tumor/measuring-t-cell-engagement) to distinguish assay outputs.
+Use [the design-board lesson](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board) to carry these separate evidence fields into a candidate record, and [immune-function measurements](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response) to distinguish assay outputs.
 
 ## Sources and scope
 
@@ -99,3 +99,11 @@ Source check: October 12, 2026. Primary abstracts and the linked public lessons 
 - [Purcell et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31092913/): immunoaffinity capture of HLA-associated peptides from cells and tissues; abstract only here.
 - [Altman et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8810254/): defined peptide–HLA multimers binding antigen-specific T cells.
 - [Wells et al., 2020](https://pubmed.ncbi.nlm.nih.gov/33038342/): predicted candidates compared with patient-matched T-cell binding tests; no natural-tumor or benefit claim follows from this benchmark alone.
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Compare related ideas](/wiki/education/comparisons/index)
+- [How a T cell sees a cancer cell](/wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell)
+- [Add geography and immune context](/wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context)
+<!-- END GENERATED USED IN -->

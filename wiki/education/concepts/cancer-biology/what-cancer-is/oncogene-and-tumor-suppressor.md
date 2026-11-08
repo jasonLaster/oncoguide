@@ -8,13 +8,13 @@ aliases: ["oncogene", "proto-oncogene", "tumor suppressor", "tumor suppressor ge
 level: "foundation"
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: 2026-10-10
-source_checked: 2026-10-10
+updated: 2026-11-08
+source_checked: 2026-11-08
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"]
-used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/index]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]"]
 ---
 
 # Oncogenes and tumor suppressors: two routes to lost control
@@ -51,6 +51,12 @@ A **driver** contributes to cancer development or maintenance. A **passenger** t
 ## Why it matters in cancer
 
 An inhibitor can sometimes reduce an overactive function. Restoring a missing safeguard is a different engineering problem. Another approach is to target a vulnerability created by that loss. These are reasons to investigate a mechanism; they do not establish a treatment indication. Measured pathway activity, tumor dependence and patient benefit require different evidence.
+
+Breast cancer shows each strategy with real genes:
+
+- **Blocking an oncogene.** About 30% of breast cancers in a 1987 series had extra copies of the HER2 (ERBB2) gene, an oncogene [Slamon 1987](https://pubmed.ncbi.nlm.nih.gov/3798106/); the antibody trastuzumab, which blocks HER2, lengthened survival in HER2-overexpressing metastatic disease [Slamon 2001](https://pubmed.ncbi.nlm.nih.gov/11248153/). See [HER2](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2).
+- **A lost tumor suppressor.** TP53 was mutated in 80% of basal-like breast cancers, a group that overlaps heavily with triple-negative disease, in The Cancer Genome Atlas [TCGA 2012](https://pubmed.ncbi.nlm.nih.gov/23000897/). No approved drug restores its function.
+- **Exploiting a loss.** BRCA1 follows the two-hit pattern: an inherited faulty copy, then loss of the other in the tumor. That loss makes cells vulnerable to PARP inhibitors, the classic [synthetic-lethal](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-addiction-vs-synthetic-lethality) strategy.
 
 ## Worked example
 
@@ -96,13 +102,11 @@ Source check: October 10, 2026. Gene roles and bounded experimental exceptions; 
 - [Knudson (1971), retinoblastoma statistical study](https://pubmed.ncbi.nlm.nih.gov/5279523/): historical two-event hypothesis; complete abstract checked.
 - [Fero et al. (1998), mouse p27 haploinsufficiency experiment](https://pubmed.ncbi.nlm.nih.gov/9823898/): complete abstract checked, not full methods.
 - [Boettcher et al. (2019), dominant-negative TP53 effects](https://pubmed.ncbi.nlm.nih.gov/31395785/): selected full primary results in myeloid cell and mouse models; not a blanket breast-cancer variant rule.
+- [Slamon et al. (1987)](https://pubmed.ncbi.nlm.nih.gov/3798106/) and [Slamon et al. (2001)](https://pubmed.ncbi.nlm.nih.gov/11248153/): HER2 amplification in breast cancer and trastuzumab.
+- [TCGA Network (2012)](https://pubmed.ncbi.nlm.nih.gov/23000897/): TP53 mutations in 80% of basal-like breast cancers.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
-- [Learn the biology and evidence](/wiki/education/index)
-- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
-- [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
 <!-- END GENERATED USED IN -->

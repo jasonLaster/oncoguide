@@ -7,7 +7,7 @@ glossary_anchor: "extracellular-matrix"
 aliases: ["ECM", "extracellular matrix", "collagen matrix"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor]]","[[wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-09"
@@ -114,5 +114,6 @@ Source check: October 9, 2026; expert and learner review pending. The exercise i
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [See what is inside a tissue sample](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue)
+- [How T cells reach a tumor, and what keeps them out](/wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor)
+- [See what is inside a tissue sample](/wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample)
 <!-- END GENERATED USED IN -->

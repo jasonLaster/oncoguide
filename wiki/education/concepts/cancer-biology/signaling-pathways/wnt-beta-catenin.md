@@ -7,7 +7,7 @@ glossary_anchor: "wnt-beta-catenin"
 aliases: ["Wnt", "beta-catenin", "β-catenin", "canonical Wnt", "PORCN"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-09"
@@ -92,7 +92,7 @@ One answer: “β-catenin regulation; an upstream ligand-dependent route; functi
 
 ## Related concepts
 
-[Ubiquitin and the proteasome](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome) explains protein turnover. [Notch signaling](/wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling) supplies a neighboring developmental pathway. [The signaling lesson](/wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr) compares where different interventions act.
+[Ubiquitin and the proteasome](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome) explains protein turnover. [Notch signaling](/wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling) supplies a neighboring developmental pathway. [The signaling lesson](/wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step) compares where different interventions act.
 
 ## Sources
 
@@ -107,6 +107,6 @@ Source check: 2026-10-09. General mechanism education; the worked example is fic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Notch, Wnt, and FGFR: locate the signal before choosing a target](/wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr)
-- [Pathway mechanisms: a supporting lesson library](/wiki/education/molecular-profiling/evee-proposed-pathways)
+- [Locate the active signaling step](/wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

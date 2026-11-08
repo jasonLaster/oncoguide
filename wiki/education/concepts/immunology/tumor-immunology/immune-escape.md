@@ -6,12 +6,12 @@ summary: "Immune escape occurs when cancer cells survive by avoiding recognition
 glossary_anchor: "immune-escape"
 aliases: ["immune escape", "antigen escape"]
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-states]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]"]
 level: "intermediate"
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-11-07
-source_checked: 2026-11-07
+updated: 2026-11-08
+source_checked: 2026-11-08
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -34,12 +34,12 @@ Escape is the last phase of [cancer immunoediting](/wiki/education/concepts/canc
 | Escape route | What fails | Example evidence |
 |---|---|---|
 | **Antigen loss** | The targeted protein or mutation disappears | Neoantigens lost from lung tumors that became resistant to checkpoint blockade ([Anagnostou et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28031159/)) |
-| **HLA loss** | One presenting [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) allele is deleted ([HLA loss of heterozygosity](/wiki/education/concepts/measurement/sequencing-basics/hla-loh)) | Allele-specific HLA loss during lung cancer evolution ([McGranahan et al., 2017](https://pubmed.ncbi.nlm.nih.gov/29107330/)) |
+| **HLA loss** | One presenting [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) allele is deleted ([HLA loss of heterozygosity](/wiki/education/concepts/measurement/sequencing-basics/hla-loh)) | Allele-specific HLA loss during lung cancer evolution ([McGranahan et al., 2017](https://pubmed.ncbi.nlm.nih.gov/29107330/)); across 83,644 tumors of many types profiled by one genomic test, 17% had lost one inherited copy of at least one HLA class I gene ([Montesion et al., 2021](https://pubmed.ncbi.nlm.nih.gov/33127846/)) |
 | **Presentation machinery loss** | [B2M](/wiki/education/concepts/immunology/antigen-presentation/b2m) or [antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery) defects remove class I display for all alleles at once | A truncating B2M change in a melanoma relapse on PD-1 blockade ([Zaretsky et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27433843/)) |
 | **Lost interferon response** | JAK1 or JAK2 loss stops the tumor responding to interferon gamma | Same melanoma series; see the next section |
 | **[Adaptive PD-L1 display](/wiki/education/concepts/immunology/tumor-immunology/adaptive-immune-resistance)** | Interferon from attacking T cells induces programmed death-ligand 1 (PD-L1), which switches those T cells down | PD-L1 found next to immune infiltrates in melanoma ([Taube et al., 2012](https://pubmed.ncbi.nlm.nih.gov/22461641/)); the target of [checkpoint inhibitors](/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor) |
 | **Suppressive cells and signals** | [Regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells), suppressive myeloid cells, [adenosine and IDO](/wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido) reduce function after entry | Mechanism-specific studies on the linked pages |
-| **Exclusion** | Stroma, missing chemokines or tumor signaling keep T cells out | [Hot, excluded and cold patterns](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor#candidate-reasons-t-cells-stay-out) |
+| **Exclusion** | Stroma, abnormal vessels, missing chemokines or tumor signaling keep T cells out | [T-cell exclusion mechanisms](/wiki/education/concepts/immunology/tumor-immunology/t-cell-exclusion-mechanisms), including 681 triple-negative breast cancers sorted by immune pattern |
 | **T-cell exhaustion** | Persistent antigen drives responding T cells into a restrained program | [T-cell exhaustion](/wiki/education/concepts/immunology/t-cells/t-cell-exhaustion) |
 
 Losing one allele differs from impairing all class-I complexes. Reduced expression can be reversible; a deletion changes the underlying sequence. Several routes can coexist, and different sites can have different bottlenecks.
@@ -101,16 +101,18 @@ Whether these escape routes have been examined for Diana is tracked in [[wiki/qu
 
 - [Cancer immunoediting](/wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting)
 - [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states)
+- [T-cell exclusion mechanisms](/wiki/education/concepts/immunology/tumor-immunology/t-cell-exclusion-mechanisms)
 - [Chimeric antigen receptor (CAR) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy)
 
 ## Sources and scope
 
-Source check: November 7, 2026. General mechanism teaching and a fictional functional experiment; no treatment recommendation. Expert and learner review remain pending.
+Source check: November 8, 2026. General mechanism teaching and a fictional functional experiment; no treatment recommendation. Expert and learner review remain pending.
 
 - [Chen and Mellman, 2013: cancer-immunity-cycle framework](https://pubmed.ncbi.nlm.nih.gov/23890059/).
 - [Dunn et al., 2004: the three Es of cancer immunoediting](https://pubmed.ncbi.nlm.nih.gov/15032581/).
 - [Anagnostou et al., 2017: neoantigen loss under checkpoint blockade](https://pubmed.ncbi.nlm.nih.gov/28031159/).
 - [McGranahan et al., 2017: allele-specific HLA loss in lung cancer](https://pubmed.ncbi.nlm.nih.gov/29107330/).
+- [Montesion et al., 2021: HLA class I loss of heterozygosity across 83,644 tumors](https://pubmed.ncbi.nlm.nih.gov/33127846/) — pan-cancer prevalence from a commercial genomic database; not a breast-specific rate.
 - [Taube et al., 2012: adaptive PD-L1 resistance](https://pubmed.ncbi.nlm.nih.gov/22461641/).
 - [Zaretsky et al., 2016: acquired resistance in selected metastatic melanoma cases](https://pmc.ncbi.nlm.nih.gov/articles/PMC5007206/). Matched tissue and controlled functional experiments, including preserved recognition in tested JAK-knockout cells.
 - [Torrejon et al., 2020: genetic resistance models](https://pmc.ncbi.nlm.nih.gov/articles/PMC7416458/). Human cell and mouse experiments distinguish interferon defects from B2M loss; preclinical rescue is not a clinical recommendation.
@@ -118,13 +120,13 @@ Source check: November 7, 2026. General mechanism teaching and a fictional funct
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
-- [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
+- [The journey through a solid tumor](/wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers)
+- [Reading cell-therapy evidence](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [Find the step an immune response can lose](/wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step)
 - [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
-- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Why the immune system doesn't just kill a tumor, and what checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
 - [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 - [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
-- [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
 <!-- END GENERATED USED IN -->

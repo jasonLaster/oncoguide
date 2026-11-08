@@ -7,10 +7,10 @@ glossary_anchor: "regulatory-t-cells"
 aliases: ["regulatory T cell", "regulatory T cells", "Treg", "Tregs"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/immune-regulation/immune-checkpoint]]"]
-used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/3-t-cell-states]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
+updated: 2026-11-08
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -83,6 +83,7 @@ Regulatory identity and suppressive function require context; changing these pop
 
 ## Related concepts
 
+- [CD4 T-cell subsets](/wiki/education/concepts/immunology/t-cells/cd4-t-cell-subsets)
 - [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states)
 - [Cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine)
 
@@ -99,6 +100,6 @@ Source check: October 10, 2026. Regulatory mechanisms and marker limits; the exe
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
-- [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
+- [Why a T-cell count does not tell the whole story](/wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states)
+- [Find the step an immune response can lose](/wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step)
 <!-- END GENERATED USED IN -->

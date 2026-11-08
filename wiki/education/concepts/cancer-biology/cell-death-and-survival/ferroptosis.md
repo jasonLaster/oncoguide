@@ -7,7 +7,7 @@ glossary_anchor: "ferroptosis"
 aliases: ["ferroptosis", "GPX4", "lipid peroxidation"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet]]","[[wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense]]","[[wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-09"
@@ -93,7 +93,7 @@ One answer: “iron-dependent lipid damage causing death; general oxidation or a
 
 ## Related concepts
 
-[NRF2–KEAP1](/wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1) regulates stress defenses. [Oxidative phosphorylation](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) concerns mitochondrial energy production, which is a different process. [The stress lesson](/wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet) connects the evidence layers.
+[NRF2–KEAP1](/wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1) regulates stress defenses. [Oxidative phosphorylation](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) concerns mitochondrial energy production, which is a different process. [The stress lesson](/wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense) connects the evidence layers.
 
 ## Sources
 
@@ -107,7 +107,7 @@ Source check: 2026-10-09. General mechanism education; the worked example is fic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Stress defenses and chromatin readers: test the direction](/wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet)
-- [Oxidative metabolism and stress: energy, damage, and dependence](/wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress)
-- [Pathway mechanisms: a supporting lesson library](/wiki/education/molecular-profiling/evee-proposed-pathways)
+- [Test the direction of a stress defense](/wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense)
+- [Measure energy and damage separately](/wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

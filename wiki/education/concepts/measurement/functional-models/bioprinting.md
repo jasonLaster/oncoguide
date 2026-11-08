@@ -12,7 +12,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/cells/cell-and-membrane]]"
   - "[[wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix]]"
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/01-choose-a-model]]","[[wiki/education/guides/predicting-response-before-treating/index]]"]
 sensitive: false
 tags:
   - "education"
@@ -108,6 +108,6 @@ Source check: October 10, 2026. Kolesky's accessible primary PDF methods/figures
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
 <!-- END GENERATED USED IN -->

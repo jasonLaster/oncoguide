@@ -7,7 +7,7 @@ glossary_anchor: "epithelium-and-stroma"
 aliases: ["epithelium", "epithelial", "epithelial cells", "stroma", "stromal compartment"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/cell-and-membrane]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample]]","[[wiki/education/guides/what-multi-omics-tells-us/index]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 updated: "2026-10-10"
@@ -107,5 +107,6 @@ Source-checked October 10, 2026; expert and learner review pending. The exercise
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [See what is inside a tissue sample](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue)
+- [See what is inside a tissue sample](/wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample)
+- [What does multi-omics tell us about a tumor?](/wiki/education/guides/what-multi-omics-tells-us/index)
 <!-- END GENERATED USED IN -->

@@ -3,20 +3,22 @@ title: "Autophagy: traffic, flow, and dependence"
 type: guide-lesson
 guide: from-variant-to-drug
 step: 5
-minutes: 12
+minutes: 13
 objectives:
   - "Distinguish recycling machinery abundance from completed autophagic flux."
-  - "Explain why a static marker can rise when clearance is blocked."
+  - "Explain why a static marker can rise when clearance is blocked, and how a lysosomal-block comparison measures flux."
+  - "Contrast lysosomal recycling with proteasome turnover."
   - "Read a perturbation result without assuming autophagy always protects a tumor."
 prerequisites:
-  - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
+  - "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy]]"
+  - "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome]]"
   - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]"
 sensitive: false
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: 2026-11-07
-source_checked: "2026-11-07"
+updated: 2026-11-08
+source_checked: 2026-11-08
 tags: [education, autophagy, PARP, functional-testing]
 ---
 
@@ -24,43 +26,55 @@ tags: [education, autophagy, PARP, functional-testing]
 
 **A busy-looking recycling system may be working quickly, waiting at a blockage, or doing something that does not determine survival. Amount, completed flow, and dependence are separate questions.**
 
-**Before you start:** [DNA, RNA, and protein](/wiki/education/concepts/biology-basics/genetics/central-dogma) separates genetic instructions from the machinery they encode; [homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) is a DNA repair process that can change drug vulnerability. DNA means deoxyribonucleic acid, and RNA means ribonucleic acid.
+**Before you start:** [Autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy) delivers cell material to lysosomes for breakdown. [Ubiquitin and the proteasome](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome) is the cell's other disposal route. [Homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) is a DNA repair process that can change drug vulnerability.
 
 ## Where this step sits
 
-This is optional step 5 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). After identifying the [PARP obstacle](./04-parp-trapping-and-recycling), we ask what recycling is doing. PARP stands for poly(ADP-ribose) polymerase, an enzyme that builds chemical signals at DNA damage. The next lesson follows growth signals that can affect repair and recycling together.
+This is optional step 5 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). After identifying the [PARP obstacle](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling), we ask what recycling is doing. PARP stands for poly(ADP-ribose) polymerase, an enzyme that builds chemical signals at DNA damage. The next lesson follows growth signals that can affect repair and recycling together.
 
-## Count packages, then watch deliveries
+## Count bags, then watch the trucks
 
-In the [macroautophagy process](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy) used in this lesson, an **autophagosome** carries cell material to a **lysosome** for breakdown and reuse. The concept page explains the machinery; here we ask which measurement can distinguish a moving queue from a blocked one.
+In macroautophagy, the form used in this lesson, an **autophagosome** carries cell material to a **lysosome** for breakdown and reuse. The concept page explains the machinery; here we ask which measurement can distinguish a moving queue from a blocked one.
 
-Think of a delivery depot. A photograph showing many packages could mean many deliveries are arriving. It could also mean the trucks stopped leaving. The photograph alone does not tell you how much material completes its trip.
+Think of a recycling station. A photograph showing many bags could mean many deliveries are arriving. It could also mean the trucks stopped leaving. The photograph alone does not tell you how much material completes its trip.
+
+<img src="../../molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-v2-light.png" alt="Two recycling stations show identical six-bag snapshots; one has continuing flow and the other a possible late-clearance blockage, while a clipboard lists the perturbation, flux, survival and control fields of an experiment not yet run." data-theme-pair>
+
+*Equal piles show equal amount, not equal flow; survival dependence needs its own experiment.*
 
 **Autophagic flux** means material progressing through the process over time, including breakdown at the end. More autophagosomes at one moment do not establish greater flux. Likewise, [bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) measures instructions in a sampled mixture. It does not watch cargo move or show that a tumor depends on recycling.
 
 ## What the markers can and cannot tell you
 
-Two common laboratory markers need careful interpretation:
+- **LC3-II** is a lipid-attached form of microtubule-associated protein 1 light chain 3. It sits on autophagic membranes. More LC3-II can reflect more formation or less clearance.
+- **p62**, also called sequestosome 1, is a cargo adaptor that is broken down through autophagy. Its amount also depends on production. An increase alone does not establish a blockage.
 
-- **LC3-II** is a lipid-attached form of microtubule-associated protein 1 light chain 3. It associates with autophagic membranes. More LC3-II can reflect more package formation or less clearance.
-- **p62**, also called sequestosome 1, is a cargo adaptor that can be broken down through autophagy. Its amount also depends on production and other processes. An increase alone does not establish a blockage.
-
-Researchers therefore compare time points and conditions, often with and without a controlled block of lysosomal degradation. They may add a reporter with two colors that respond differently as cargo reaches an acidic compartment. The interpretation depends on controls for the marker, lysosome, and experiment. Expert assay guidelines recommend complementary measurements rather than a single static marker. [Klionsky 2021](https://pubmed.ncbi.nlm.nih.gov/33634751/).
+The standard flux test compares parallel cultures with and without a short, verified block of lysosomal breakdown, for example with bafilomycin A1. If LC3-II rises substantially when the block is added, material was flowing through. If it barely changes, either formation is low or clearance was already stuck. A two-color reporter that changes as cargo reaches an acidic compartment adds a second view [1]. Expert guidelines recommend combining complementary measurements rather than relying on one static marker [2].
 
 ## A worked example: the same queue, different flow
 
-These are invented delivery counts over one hour. They are an analogy, not assay values or thresholds.
+These are invented counts over one hour. They are an analogy, not assay values.
 
-| Observation | Depot A | Depot B |
+| Observation | Station A | Station B |
 |---|---:|---:|
-| Packages initially waiting | 20 | 20 |
-| New packages arriving | 30 | 5 |
-| Packages processed | 30 | 0 |
-| Packages left waiting | 20 | 25 |
+| Bags initially waiting | 20 | 20 |
+| New bags arriving | 30 | 5 |
+| Bags processed | 30 | 0 |
+| Bags left waiting | 20 | 25 |
 
-Both start with the same queue. Depot A processes many packages while keeping its queue stable. Depot B accumulates packages because nothing leaves. A single starting snapshot misses that difference.
+Both start with the same queue. Station A processes many bags while keeping its queue stable. Station B accumulates bags because nothing leaves. A single starting snapshot misses that difference; the lysosomal-block test above is how a laboratory tells A from B.
 
-Cells are more complicated than depots: cargo types differ, markers are made and degraded, and drug exposure can change several steps. The analogy's useful lesson is to measure *completion over time*, rather than infer it from the queue.
+## Two disposal routes, two kinds of cargo
+
+Cells have a second disposal system. The **ubiquitin–proteasome** route tags individual proteins, often short-lived regulators, with ubiquitin chains and shreds them in a barrel-shaped protease. Autophagy handles bulk material: protein clumps, damaged organelles and portions of the cytoplasm, which it delivers to lysosomes. The routes interact; p62, for example, links ubiquitin-tagged cargo to autophagic membranes. But they have different machinery and different drugs:
+
+| | Proteasome | Autophagy–lysosome |
+|---|---|---|
+| Typical cargo | Single tagged proteins | Bulk material, aggregates, organelles |
+| Approved drug example | Bortezomib, in multiple myeloma | None approved as a cancer drug; hydroxychloroquine blocks late lysosomal steps broadly |
+| Clinical anchor | Longer time to progression than high-dose dexamethasone in relapsed myeloma (median 6.2 versus 3.5 months) [3] | Adding hydroxychloroquine to chemotherapy in 112 people with metastatic pancreatic cancer did not improve 12-month survival (41% versus 49%) [4] |
+
+A finding in one route does not predict the other, and blocking both does not prove a selective harm to cancer cells.
 
 ## Flow still does not establish dependence
 
@@ -72,43 +86,48 @@ Suppose recycling completes efficiently during drug treatment. Does it help the 
 | Less drug-induced death | Recycling may have contributed to the death response. | Does an independent perturbation reproduce the result? |
 | Changed flux, similar survival | Recycling may not limit survival in these conditions. | Could timing or compensation conceal an effect? |
 
-Published breast cancer experiments illustrate why both directions deserve attention. Bellare and colleagues found that disrupting autophagy increased talazoparib sensitivity in the HR-proficient models they studied. Arun and colleagues found that reducing ATG5, an autophagy machinery protein, partly reduced olaparib-induced apoptosis in the BRCA2-mutant HCC-1428 cell line, which is estrogen-receptor-positive rather than triple-negative ([Mouron 2021](https://pubmed.ncbi.nlm.nih.gov/33579347/)). **Apoptosis** is a regulated cell-death process. These studies used different models, drugs, and perturbations. Their results do not define a universal tumor label or individual treatment effect. [Bellare 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8007595/), [Arun 2015](https://www.spandidos-publications.com/10.3892/ijo.2015.3003).
-
-Read Bellare's report with its [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/), which replaced an incorrectly assembled representative liver-histology image in Figure 6f.
+Published breast cancer experiments show why both directions deserve attention. Bellare and colleagues found that blocking autophagy, genetically or with chloroquine, increased sensitivity to the PARP inhibitor talazoparib in HR-proficient breast cancer cells and mouse models [5]. Arun and colleagues found that reducing ATG5, an autophagy machinery protein, partly reduced olaparib-induced apoptosis, a regulated cell-death process, in the BRCA2-mutant HCC-1428 cell line [6], which is estrogen-receptor-positive rather than triple-negative [7]. These studies used different models, drugs and perturbations. Read Bellare's report with its [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/), which replaced an incorrectly assembled liver-histology image in Figure 6f.
 
 ## What can go wrong at this step
 
-An RNA signal can be mistaken for a pathway rate. A static marker can be mistaken for completed recycling. A toxic lysosomal drug can be mistaken for a selective autophagy perturbation. Each move skips a measurement.
-
-It is also easy to call autophagy “protective” for an entire tumor. Dependence is conditional: the sampled cells, drug, timing, and environment shape the answer. A separate intervention that changes the intended process strengthens the explanation, especially if restoring the function reverses the result.
+- **A gene name for a process.** ATG13 and FIP200 help start autophagy [8], but an alteration in one does not show whether completed recycling rose or fell.
+- **A snapshot for a rate.** A static marker can be mistaken for completed recycling.
+- **A broad drug for a selective one.** Chloroquine and hydroxychloroquine change lysosomes broadly. Show [target engagement](/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement) and add a matching genetic perturbation to strengthen the claim.
+- **One outcome for a whole tumor.** Dependence is conditional on the cells, drug, timing and environment. Restoring the disrupted function and reversing the result strengthens a causal explanation.
+- **Measuring too late.** Death itself changes markers, so measure the proposed change before the outcome.
 
 ## Try it
 
-A fictional experiment shows more LC3-II after a drug and lower metabolic signal after adding a lysosomal blocker. A report calls this “high protective autophagy.” What is still missing?
+A fictional experiment shows more LC3-II after a drug and lower metabolic signal after adding a lysosomal blocker. A report calls this "high protective autophagy." What is still missing?
 
 <details>
 <summary>Show the answer</summary>
 
-The LC3-II snapshot cannot distinguish increased formation from blocked clearance. A controlled flux measurement is needed. Lower metabolic signal also does not prove cell death or autophagy dependence. The researcher needs survival or death measurements and evidence that the intended pathway caused the effect.
+The LC3-II snapshot cannot distinguish increased formation from blocked clearance, so a controlled flux comparison is needed. Lower metabolic signal does not prove cell death or autophagy dependence. The researcher needs survival or death measurements and a specific perturbation showing that the intended pathway caused the effect.
 
 </details>
 
 ## Explain it back
 
-“Amount asks ___; flux asks ___; dependence asks ___.”
+"Amount asks ___; flux asks ___; dependence asks ___."
 
-One possible answer: “how much machinery or cargo is present; how much material completes the process over time; whether changing the process changes survival.”
+One possible answer: "how much machinery or cargo is present; how much material completes the process over time; whether changing the process changes survival."
 
 ## Takeaway
 
 **Measure amount, flow, and survival dependence as three different claims.**
 
-**Next:** [Follow growth signals and their competing effects](./06-pi3k-akt-mtor-and-repair).
+**Next:** [Follow growth signals and their competing effects](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair).
 
 ## Sources and scope
 
-Source check: 2026-11-07. General measurement education; expert and learner review pending. Delivery counts are fictional. Published drug interactions discussed here come from preclinical models.
+Source check: November 8, 2026. General measurement education; expert and learner review pending. Station counts are fictional. Published drug interactions in breast cancer cells are preclinical.
 
-- [Klionsky 2021: fourth-edition guidelines for interpreting autophagy assays](https://pubmed.ncbi.nlm.nih.gov/33634751/).
-- [Bellare 2021: autophagy perturbation in HR-proficient breast cancer models](https://pmc.ncbi.nlm.nih.gov/articles/PMC8007595/); [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/).
-- [Arun 2015: autophagy and apoptosis in BRCA-mutant breast cancer cell models](https://www.spandidos-publications.com/10.3892/ijo.2015.3003).
+1. [Kimura and colleagues 2007: tracking autophagosome maturation with a tandem fluorescent reporter](https://pubmed.ncbi.nlm.nih.gov/17534139/).
+2. [Klionsky and colleagues 2021: guidelines for interpreting autophagy assays, fourth edition](https://pubmed.ncbi.nlm.nih.gov/33634751/).
+3. [Richardson and colleagues, *NEJM* 2005: bortezomib versus dexamethasone in relapsed myeloma](https://pubmed.ncbi.nlm.nih.gov/15958804/).
+4. [Karasic and colleagues, *JAMA Oncology* 2019: hydroxychloroquine with gemcitabine and nab-paclitaxel in pancreatic cancer](https://pubmed.ncbi.nlm.nih.gov/31120501/).
+5. [Pai Bellare and colleagues, *British Journal of Cancer* 2021: autophagy and talazoparib resistance in HR-proficient breast cancer](https://pubmed.ncbi.nlm.nih.gov/33473172/); [2025 correction](https://pubmed.ncbi.nlm.nih.gov/40527957/).
+6. [Arun and colleagues, *International Journal of Oncology* 2015: olaparib, autophagy and apoptosis in BRCA-mutant breast cancer cells](https://pubmed.ncbi.nlm.nih.gov/25975349/).
+7. [Dai and colleagues, *Journal of Cancer* 2017: receptor status of breast cancer cell lines, including HCC1428](https://pubmed.ncbi.nlm.nih.gov/29158785/).
+8. [Ganley and colleagues 2009: the ULK1–ATG13–FIP200 initiation complex](https://pubmed.ncbi.nlm.nih.gov/19258318/).

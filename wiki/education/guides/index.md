@@ -4,43 +4,31 @@ description: "Choose a question and follow its lessons, worked examples and prac
 type: navigation
 sensitive: false
 tags: [education]
-updated: 2026-11-07
+updated: 2026-11-08
 review_status: "Source-checked; expert and learner review pending"
 reviewed: pending
 reviewed_by: ""
-source_checked: 2026-11-07
+source_checked: 2026-11-08
 ---
 
 # Learning paths
 
-**Start with the question you have today. Each goal path connects short lessons, worked examples and chances to explain the idea in your own words.**
+**Each path answers one question in short lessons, with worked examples and practice.** New to the terms? Begin with [Start here](/wiki/education/guides/start-here/index). [The education home](/wiki/education/index) describes what each path is for.
 
-If the terms are new, begin with [Start here](/wiki/education/guides/start-here/index). You can then follow standard treatment and pathology, or choose the question that brought you here. Reading budgets are suggestions; pause and return whenever you need to.
+1. [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
+2. [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
+3. [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
+4. [Why the immune system doesn't just kill a tumor, and what checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+5. [What does multi-omics tell us about a tumor?](/wiki/education/guides/what-multi-omics-tells-us/index)
+6. [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
+7. [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
+8. [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+9. [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
+10. [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
+11. [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
+12. [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
+13. [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
+14. [Understand access to an experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index)
+15. [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
 
-## Choose a path
-
-| What you want to understand | Begin here |
-|---|---|
-| How to read biological labels and treatment claims | [Start here](/wiki/education/guides/start-here/index) |
-| What each treatment contributes and how timing works | [Standard treatment](/wiki/education/guides/treating-early-tnbc/index) |
-| How to read a specimen, residual disease and margins | [Pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index) |
-| What immune recognition and attack require | [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index) |
-| What different molecular layers add | [Multi-omics](/wiki/education/reading-a-tumor/omics-and-multi-omics): eight [vocabulary lessons](/wiki/education/multi-omics-foundations/index), then seven [assay lessons](/wiki/education/molecular-profiling/index) |
-| How blood tests and imaging supply different evidence | [Residual-disease monitoring](/wiki/education/guides/monitoring-residual-disease/index) |
-| How a personalized cancer vaccine is designed | [Personalized cancer vaccine](/wiki/education/guides/personalized-cancer-vaccine/index) |
-| How engineered immune-cell therapies differ | [Engineered cell therapy](/wiki/education/guides/engineered-cell-therapy/index) |
-| How a treatment reaches and acts on a surface target | [Surface-target treatments](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index) |
-| What local treatment can do and what immune claims need | [Local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index) |
-| Whether a molecular finding supports a drug question | [From a variant to a drug question](/wiki/education/guides/from-variant-to-drug/index) |
-| What an experiment or tumor model predicts | [Predicting response before treating](/wiki/education/guides/predicting-response-before-treating/index) |
-| What a study's comparison, effect size and uncertainty establish | [Reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index) |
-| How experimental-treatment access is evaluated | [Accessing experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index) |
-| How a test or company claim becomes evidence for an action | [Judging a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index) |
-
-## Use the references when you need them
-
-The [concept library](/wiki/education/concepts/index) explains building blocks, and [comparisons](/wiki/education/comparisons/index) separate ideas that are easy to mix up. [Terminology](/about/Terminology) supplies short definitions and links. Each path identifies useful prerequisites and the next lesson; you do not need to learn the whole library before starting.
-
-These pages teach general biology and evidence reading. Each guide links current findings and clinical decisions to their existing owners. Source checking and practice answers help you use a page; they do not replace expert review. Expert and learner review remain pending.
-
-**Takeaway:** Choose one question, follow its path, and bring the evidence limits along with the explanation.
+The [concept library](/wiki/education/concepts/index), [comparisons](/wiki/education/comparisons/index) and [terminology](/about/Terminology) explain the building blocks the paths link to. Expert and learner review remain pending.

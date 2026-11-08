@@ -7,7 +7,7 @@ summary: "An AAV vector is an engineered adeno-associated virus particle that de
 aliases: ["AAV", "rAAV", "adeno-associated viral vector", "adeno-associated virus vector"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: 2026-11-07
@@ -45,7 +45,7 @@ An **episome** is DNA outside the chromosomes. A study of sampled human muscle f
 
 An AAV carrier can be part of a cell-engineering or genome-editing workflow. Its name alone does not establish direct T-cell targeting inside a patient. For an editing design, the lasting genomic change can come from the editor rather than long-term persistence of the carrier DNA.
 
-Packaging capacity is limited to roughly 5 kilobases (kb) of DNA, close to the size of the wild-type AAV genome. When plasmid-encoded vectors of 4.7 to 8.7 kb were packaged in AAV2, AAV5 and AAV8 capsids, the packaged genomes never exceeded 5.2 kb: oversized designs were truncated at the 5' end and expressed much less efficiently than genomes under 5 kb ([Wu et al., 2010](https://pubmed.ncbi.nlm.nih.gov/19904234/), a laboratory study of specified vectors). A complex multi-component design therefore cannot simply assume that all its sequences fit or are delivered together. Whether intended and unintended cells receive an intact, functional construct requires direct testing. AAV's usual genetic behavior does not supply a universal safety advantage over another carrier.
+Packaging capacity is limited to roughly the size of the wild-type AAV genome, about 4.7 kilobases (kb) of DNA, with a practical ceiling near 5 kb. When plasmid-encoded vectors of 4.7 to 8.7 kb were packaged in AAV2, AAV5 and AAV8 capsids, the packaged genomes never exceeded 5.2 kb: oversized designs were truncated at the 5' end and expressed much less efficiently than genomes under 5 kb ([Wu et al., 2010](https://pubmed.ncbi.nlm.nih.gov/19904234/), a laboratory study of specified vectors). A complex multi-component design therefore cannot simply assume that all its sequences fit or are delivered together. Whether intended and unintended cells receive an intact, functional construct requires direct testing. AAV's usual genetic behavior does not supply a universal safety advantage over another carrier.
 
 ## How it is measured
 
@@ -88,12 +88,12 @@ Source check: November 7, 2026 (packaging capacity); October 10, 2026 (rest); ex
 - [Schnepp et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC5374867/) — vector forms and recovered-cassette expression in a human muscle study.
 - [Nakai et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11435577/) — extrachromosomal genomes and expression after mouse liver regeneration.
 - [Manno et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16474400/) — human liver-directed expression and capsid-immune limitations.
-- [Wu et al., 2010](https://pubmed.ncbi.nlm.nih.gov/19904234/) — construct size, packaged-genome integrity and expression in specified vectors; packaged genomes never exceeded 5.2 kb across three capsid types (abstract checked November 7, 2026).
+- [Wu et al., 2010](https://pubmed.ncbi.nlm.nih.gov/19904234/) — construct size, packaged-genome integrity and expression in specified vectors; packaged genomes never exceeded 5.2 kb across three capsid types (abstract checked November 7, 2026). The wild-type genome size of about 4.7 kb, which sets the practical limit, is the standard figure for the species and is not itself from this experiment.
 - [FDA, January 2020: long-term follow-up](https://www.fda.gov/media/113768/download) — risk-based, product-specific assessment.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
+- [How to engineer T cells inside the body](/wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 <!-- END GENERATED USED IN -->

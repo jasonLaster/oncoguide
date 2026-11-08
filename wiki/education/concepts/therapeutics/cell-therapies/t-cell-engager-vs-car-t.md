@@ -73,7 +73,7 @@ These completed cards describe fictional laboratory proposals, not patients:
 
 ## Why it matters in cancer: choose the evidence question
 
-If the question is whether recruited cells are available, investigate their location and function for P1. If it is whether supplied cells reach the target and remain functional, track C1. Neither question selects a universal winner. The existing [scarce-immune-contact card](/wiki/education/targeted-therapy-modalities/06-comparisons#worked-example-three-fictional-evidence-cards) develops the access problem without promising that engineering solves it.
+If the question is whether recruited cells are available, investigate their location and function for P1. If it is whether supplied cells reach the target and remain functional, track C1. Neither question selects a universal winner. The existing [scarce-immune-contact card](/wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons#worked-example-three-fictional-evidence-cards) develops the access problem without promising that engineering solves it.
 
 ## Common confusions
 

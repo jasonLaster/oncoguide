@@ -7,7 +7,7 @@ glossary_anchor: "bh3-profiling"
 aliases: ["BH3 profiling", "dynamic BH3 profiling", "DBP", "mitochondrial apoptotic priming", "delta priming"]
 level: "advanced"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]"]
-used_by: ["[[wiki/education/molecular-profiling/05-functional-drug-response]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model]]"]
 sensitive: false
 tags: ["education", "measurement", "functional-models"]
 updated: "2026-10-09"
@@ -120,5 +120,5 @@ Source-checked October 9, 2026. Assay mechanism and interpretation; human expert
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
+- [Test a mechanism in a living model](/wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model)
 <!-- END GENERATED USED IN -->

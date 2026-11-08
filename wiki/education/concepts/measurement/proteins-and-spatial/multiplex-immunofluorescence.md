@@ -7,7 +7,7 @@ aliases: [multiplex immunofluorescence, mIF, multiplexed immunofluorescence, cyc
 glossary_anchor: "mif"
 level: advanced
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
-used_by: ["[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response]]","[[wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context]]"]
 sensitive: false
 tags: [education, measurement]
 updated: "2026-10-09"
@@ -88,6 +88,7 @@ A fictional image labels a T cell next to a cancer cell. Their estimated centers
 
 ## Related concepts
 
+- [Spatial protein versus spatial RNA methods](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared): plex, resolution and region-versus-slide choices side by side.
 - [Imaging mass cytometry](/wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry)
 - [Hot, excluded and cold tumors](/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor)
 - [Analytical validity, clinical validity and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility)
@@ -103,7 +104,7 @@ Source-checked October 9, 2026. Spatial measurement principles and a fictional i
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
-- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read an immune map without overreading it](/wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map)
+- [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response)
+- [Add geography and immune context](/wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context)
 <!-- END GENERATED USED IN -->

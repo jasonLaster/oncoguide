@@ -7,7 +7,7 @@ glossary_anchor: "t-cell-repertoire"
 aliases: ["T-cell repertoire", "repertoire", "clonotype"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/index]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/oncology-101/3-t-cell-states]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/09-read-a-tcr-sequencing-report]]","[[wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -91,7 +91,8 @@ Source check: October 10, 2026. General repertoire dynamics; no cell-banking rec
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Why a personalized cancer vaccine can help](/wiki/education/designing-a-vaccine/index)
-- [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)
-- [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
+- [How a T cell sees a cancer cell](/wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell)
+- [Why a T-cell count does not tell the whole story](/wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states)
+- [Read a T-cell receptor sequencing report](/wiki/education/guides/how-the-immune-system-fights-cancer/09-read-a-tcr-sequencing-report)
+- [Why a personalized cancer vaccine can help](/wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help)
 <!-- END GENERATED USED IN -->

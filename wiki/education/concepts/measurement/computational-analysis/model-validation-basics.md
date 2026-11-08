@@ -7,7 +7,7 @@ glossary_anchor: "model-validation-basics"
 aliases: ["model validation basics", "prediction model validation", "model evaluation"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration]]", "[[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index]]"]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops]]","[[wiki/education/guides/predicting-response-before-treating/index]]"]
 sensitive: false
 tags: ["education", "model-trust"]
 updated: "2026-11-07"
@@ -114,6 +114,6 @@ Source check: November 7, 2026. The donor example is fictional. Expert and learn
 
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Check what the experiment actually tests](/wiki/education/guides/predicting-response-before-treating/02-check-the-experiment)
+- [Test clinical relevance and learn from feedback](/wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
 <!-- END GENERATED USED IN -->

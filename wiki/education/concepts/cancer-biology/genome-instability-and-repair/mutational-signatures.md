@@ -9,12 +9,12 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"
   - "[[wiki/education/concepts/measurement/sequencing-basics/variant-calling]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: "2026-10-09"
+source_checked: 2026-11-08
 tags: [education, DNA-repair]
 ---
 
@@ -55,6 +55,8 @@ flowchart TD
 The arrows move from observations to interpretation. They do not move directly from a signature to a drug choice.
 
 ## Why it matters in cancer
+
+Two signature families are common in breast cancer. The **APOBEC** signatures (SBS2 and SBS13) come from a family of enzymes that edit cytosine; across 2,680 exomes from 14 cancer types, the APOBEC pattern was prominent in bladder, cervical, breast, head and neck, and lung cancers, reaching 68% of all mutations in some samples [Roberts 2013](https://pubmed.ncbi.nlm.nih.gov/23852170/). HR-deficiency signatures are the other. HRDetect combines six of them, including SBS3 and microhomology-flanked deletions, and identified BRCA1- or BRCA2-deficient breast tumors with 98.7% sensitivity; in 560 breast cancers it suggested that up to 22% may be BRCA-deficient, against 1 to 5% with an inherited variant [Davies 2017](https://pubmed.ncbi.nlm.nih.gov/28288110/).
 
 Signatures help researchers investigate exposures, repair defects and tumor evolution. They may reveal a pattern when no single causative gene alteration has been established. That is a reason to investigate further, rather than fill the gap with an assumed mechanism.
 
@@ -110,10 +112,11 @@ Source check: 2026-10-09. Signature mechanisms and research interpretation; expe
 - [Alexandrov and colleagues 2013: recurring patterns in primary cancer-genome analyses](https://pubmed.ncbi.nlm.nih.gov/23945592/).
 - [Alexandrov and colleagues 2020: expanded signature repertoire and methodological uncertainty](https://pubmed.ncbi.nlm.nih.gov/32025018/); [2023 correction concerns consortium attribution and affiliations](https://doi.org/10.1038/s41586-022-05600-5).
 - [Davies and colleagues 2017: HRDetect model, genomic features and platform-specific performance](https://pubmed.ncbi.nlm.nih.gov/28288110/).
+- [Roberts and colleagues 2013: an APOBEC mutation pattern across human cancers](https://pubmed.ncbi.nlm.nih.gov/23852170/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity)
-- [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
+- [Integrate the evidence and meet the clinical gate](/wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence)
 <!-- END GENERATED USED IN -->

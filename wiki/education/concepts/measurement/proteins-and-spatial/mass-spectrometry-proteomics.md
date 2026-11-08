@@ -6,7 +6,7 @@ aliases: ["MS proteomics", "bottom-up proteomics", "LC-MS/MS proteomics"]
 summary: "Mass spectrometry proteomics identifies and measures protein-derived molecules through their mass-to-charge and fragmentation signatures, with conclusions limited by sample preparation, identification and quantification rules."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
-used_by: ["[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/06-read-protein]]"]
 glossary_anchor: "mass-spectrometry-proteomics"
 sensitive: false
 tags: ["education", "measurement"]
@@ -100,6 +100,5 @@ Source check: November 7, 2026. Expert and learner review remain pending. Exampl
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read protein: presence, place and activation](/wiki/education/guides/what-multi-omics-tells-us/06-read-protein)
 <!-- END GENERATED USED IN -->

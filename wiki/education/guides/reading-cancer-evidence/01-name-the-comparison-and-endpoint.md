@@ -17,7 +17,7 @@ reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-10-09
-updated: 2026-10-10
+updated: 2026-11-08
 tags: [education, guide-lesson, evidence-and-statistics]
 ---
 
@@ -56,7 +56,7 @@ You can usually find these details in the methods, trial protocol, or registrati
 | Starting time | Did the clock start at diagnosis, randomization, surgery, or another point? |
 | Follow-up and changes | What time horizon was assessed? How were stopping treatment, switching treatment, and missing observations handled? |
 
-The last row matters because patients' paths can change after assignment. An analysis of everyone as assigned asks a different question from an analysis restricted to people who completed treatment. Read the stated question and analysis plan together. The [FDA's framework for treatment-effect questions](https://www.fda.gov/media/148473/download) makes these choices explicit.
+The last row matters because patients' paths can change after assignment. An analysis of everyone as assigned ([intention-to-treat](/wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations)) asks a different question from an analysis restricted to people who completed treatment. Read the stated question and analysis plan together. The [FDA's framework for treatment-effect questions](https://www.fda.gov/media/148473/download) makes these choices explicit.
 
 ## Read the comparison as a whole
 

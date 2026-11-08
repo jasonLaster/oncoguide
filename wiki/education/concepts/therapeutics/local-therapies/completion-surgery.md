@@ -13,7 +13,7 @@ prerequisites:
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: [education, local-treatment, breast-cancer, surgery]
-updated: 2026-11-07
+updated: 2026-11-08
 source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
@@ -48,7 +48,7 @@ The node question has been tested most. Three trials show how the answer depends
 
 | Trial | Setting | Comparison | Result |
 |---|---|---|---|
-| [ACOSOG Z0011](https://pubmed.ncbi.nlm.nih.gov/28898379/) | Surgery first; clinical T1–T2 cancer, no palpable nodes, one or two positive sentinel nodes, lumpectomy plus whole-breast radiation; 891 randomized | Completion ALND versus sentinel-node surgery alone | 10-year overall survival 86.3% without dissection versus 83.6% with it; non-inferior (hazard ratio 0.85) |
+| [ACOSOG Z0011](https://pubmed.ncbi.nlm.nih.gov/28898379/) | Surgery first; clinical T1–T2 cancer, no palpable nodes, one or two positive sentinel nodes, lumpectomy plus whole-breast radiation; 891 randomized | Completion ALND versus sentinel-node surgery alone | 10-year overall survival 86.3% without dissection versus 83.6% with it; [non-inferior](/wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials) (hazard ratio 0.85) |
 | [EORTC AMAROS](https://pubmed.ncbi.nlm.nih.gov/25439688/) | Surgery first; T1–T2 cancer, no palpable nodes, positive sentinel node; 1,425 in the analysis | Completion ALND versus axillary radiation | 5-year axillary recurrence 0.43% after dissection versus 1.19% after radiation; lymphedema significantly more common after dissection |
 | [Alliance A011202](https://clinicaltrials.gov/study/NCT01901094) | After neoadjuvant chemotherapy; clinical T1–3 N1 cancer with a sentinel node still positive; 2,012 enrolled | Completion ALND plus nodal radiation versus axillary plus nodal radiation | Not yet reported; registry primary completion estimated 2031 |
 

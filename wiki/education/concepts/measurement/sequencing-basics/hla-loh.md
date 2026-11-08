@@ -6,7 +6,7 @@ aliases: ["HLA-LOH", "HLA loss of heterozygosity", "allele-specific HLA loss"]
 summary: "HLA loss of heterozygosity is the loss, in tumor cells, of one parent's copy of the human leukocyte antigen region, often removing HLA-A, -B and -C alleles together and narrowing the peptides those cells can present."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/biology-basics/genetics/allele-and-zygosity]]", "[[wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell]]","[[wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation]]","[[wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board]]","[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]"]
 glossary_anchor: "hla-loh"
 sensitive: false
 tags: ["education", "measurement"]
@@ -89,6 +89,7 @@ One answer: “which inherited versions exist; which of those versions remain in
 
 ## Related concepts
 
+- [Tumor purity and ploidy](/wiki/education/concepts/measurement/sequencing-basics/tumor-purity-and-ploidy): how normal-cell admixture and genome doubling change every tumor DNA number.
 - [HLA typing and nomenclature](/wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature).
 - [Antigen-processing machinery](/wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery).
 
@@ -103,8 +104,8 @@ Source check: November 7, 2026. Mechanism and assay interpretation; the exercise
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
-- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
-- [Separate DNA copies from cancer-cell fractions](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones)
+- [How a T cell sees a cancer cell](/wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell)
+- [HLA and antigen presentation in vaccine design](/wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation)
+- [Read a neoantigen design board](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
 <!-- END GENERATED USED IN -->

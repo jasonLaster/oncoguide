@@ -6,11 +6,11 @@ summary: "T-cell states describe changing differentiation and functional program
 glossary_anchor: "t-cell-states"
 aliases: ["T-cell states", "T-cell state"]
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism]]","[[wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors]]","[[wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 level: "intermediate"
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-11-07
+updated: 2026-11-08
 source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
@@ -43,7 +43,7 @@ Exhausted populations can contain **progenitor-like exhausted T cells (Tpex)** a
 
 Tpex are not automatically ordinary memory cells. A shared marker or capacity to divide does not make two differentiation programs identical. Burger and colleagues also found heterogeneous TCF1-positive populations in a mouse lung-tumor model: marker positivity did not imply equivalent responses. Their human analyses were associations, not a validated universal marker requirement for vaccination or checkpoint therapy.
 
-[Regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) have another role: helping restrain responses. They are not simply exhausted effector cells. They contribute to the [peripheral-tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) system.
+[Regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) have another role: helping restrain responses. They are one of several [CD4 T-cell subsets](/wiki/education/concepts/immunology/t-cells/cd4-t-cell-subsets). They are not simply exhausted effector cells. They contribute to the [peripheral-tolerance](/wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance) system.
 
 **Programmed cell death protein 1 (PD-1)** can rise during activation as well as in exhausted populations. In human cultures, **forkhead box P3 (FOXP3)** expression alone did not establish suppressive function. A single marker cannot assign a complete state or job.
 
@@ -138,14 +138,13 @@ Source check: November 7, 2026. Mechanism interpretation and fictional exercises
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
-- [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
+- [Separate the address from the killing mechanism](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism)
+- [Cytokines and programmable receptors](/wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors)
+- [The journey through a solid tumor](/wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [Read an immune map without overreading it](/wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map)
+- [Why a T-cell count does not tell the whole story](/wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states)
+- [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response)
 - [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
-- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
-- [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
-- [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
-- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
-- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
 <!-- END GENERATED USED IN -->

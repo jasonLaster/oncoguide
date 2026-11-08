@@ -7,7 +7,7 @@ summary: "Delivery targeting determines which cells receive an intervention, whi
 aliases: ["delivery targeting", "cancer targeting", "two targeting jobs"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/comparisons/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: "2026-10-12"
@@ -121,9 +121,9 @@ Source check: October 10, 2026; expert and learner review pending. Named experim
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
-- [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
 - [Compare related ideas](/wiki/education/comparisons/index)
+- [How to engineer T cells inside the body](/wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery)
+- [Reading cell-therapy evidence](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 <!-- END GENERATED USED IN -->

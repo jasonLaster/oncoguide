@@ -14,7 +14,7 @@ reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor]]", "[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2]]"]
-used_by: ["[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/multi-omics-foundations/02-cell-identity-and-state]]"]
+used_by: ["[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample]]","[[wiki/education/guides/what-multi-omics-tells-us/05-read-rna]]"]
 ---
 
 # Intrinsic breast-cancer subtype
@@ -120,6 +120,6 @@ General education; fictional example. Source-checked October 10, 2026. Expert an
 ## Used in
 
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
-- [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
-- [Separate cell identity from cell state](/wiki/education/multi-omics-foundations/02-cell-identity-and-state)
+- [See what is inside a tissue sample](/wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample)
+- [Read RNA: counts, preparation and splice products](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna)
 <!-- END GENERATED USED IN -->

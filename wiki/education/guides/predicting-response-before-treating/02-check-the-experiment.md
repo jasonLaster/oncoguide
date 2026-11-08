@@ -23,7 +23,7 @@ review_status: "Source-checked; expert and learner review pending"
 
 ## Where this step sits
 
-This is step 2 of [Predict response before treating](/wiki/education/guides/predicting-response-before-treating/index). You have chosen a model. Now check whether the experiment tests the intended claim before carrying it toward clinical interpretation.
+This is step 2 of [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index). You have chosen a model. Now check whether the experiment tests the intended claim before carrying it toward clinical interpretation.
 
 ## Put a small card beside the result
 
@@ -106,7 +106,7 @@ One answer: “drug exposure; a characterized culture; vehicle; slower net growt
 
 **Keep the cells, exposure, controls and actual endpoint attached to every response claim.**
 
-**Next:** [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops).
+**Next:** [Test clinical relevance and learn from feedback](/wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops).
 
 ## Sources and scope
 

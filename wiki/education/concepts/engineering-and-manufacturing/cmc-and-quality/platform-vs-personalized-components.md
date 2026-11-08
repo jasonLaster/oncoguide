@@ -7,7 +7,7 @@ glossary_anchor: "platform-vs-personalized-components"
 aliases: ["platform versus personalized components", "shared and personalized components"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release]]"]
-used_by: []
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/personalized-cancer-vaccine/07-making-the-product]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: "2026-10-10"
@@ -114,3 +114,11 @@ Source check: October 10, 2026. A component comparison, not a therapy comparison
 - [Lynn et al., 2020](https://www.nature.com/articles/s41587-019-0390-x) — sequence-related peptide manufacturing constraints in a specified preclinical vaccine platform.
 - [FDA, 2024: CAR T-cell product development](https://www.fda.gov/media/156896/download) — starting-material variation and chain of identity.
 - [FDA, 1999: vaccine chemistry, manufacturing and controls](https://www.fda.gov/media/73614/download) — quality categories and lot records; dated guidance with a defined scope.
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Compare related ideas](/wiki/education/comparisons/index)
+- [How a personalized vaccine is manufactured](/wiki/education/guides/personalized-cancer-vaccine/07-making-the-product)
+- [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
+<!-- END GENERATED USED IN -->

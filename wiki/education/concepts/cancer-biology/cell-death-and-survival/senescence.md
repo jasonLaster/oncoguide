@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/cells/cell-cycle]]"
   - "[[wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor]]"
-used_by: ["[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/oncology-101/index]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model]]"]
 sensitive: false
 tags: [education]
 updated: 2026-10-10
@@ -110,7 +110,7 @@ Source-checked October 10, 2026. General cell-state education and model-specific
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
-- [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
-- [Oncology 101: immune foundations](/wiki/education/oncology-101/index)
+- [Why a T-cell count does not tell the whole story](/wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states)
+- [Why the immune system doesn't just kill a tumor, and what checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
+- [Test a mechanism in a living model](/wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model)
 <!-- END GENERATED USED IN -->

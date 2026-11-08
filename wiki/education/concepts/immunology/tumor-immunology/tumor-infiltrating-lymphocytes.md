@@ -12,7 +12,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"
   - "[[wiki/education/concepts/biology-basics/cells/epithelium-and-stroma]]"
-used_by: ["[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map]]"]
 sensitive: false
 tags:
   - education
@@ -137,5 +137,5 @@ Source-checked November 7, 2026. Cell-location terminology, a human specificity 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
+- [Read an immune map without overreading it](/wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map)
 <!-- END GENERATED USED IN -->

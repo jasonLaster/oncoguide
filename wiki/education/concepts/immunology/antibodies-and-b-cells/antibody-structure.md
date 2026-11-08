@@ -7,7 +7,7 @@ glossary_anchor: "antibody-structure"
 aliases: ["antibody", "Fab", "Fc", "immunoglobulin"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/1-ligands]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/index]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -107,9 +107,6 @@ Source-checked October 10, 2026. Typical IgG architecture and format limits; fic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Separate the address from the killing mechanism](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
-- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
-- [Ask what happens after binding](/wiki/education/oncology-101/1-ligands)
-- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
-- [Targeted therapy mechanisms and comparisons](/wiki/education/targeted-therapy-modalities/index)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: "manufacturing-comparability"
 aliases: ["manufacturing comparability","comparability","comparability assessment"]
 level: "advanced"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release]]","[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/personalized-cancer-vaccine/07-making-the-product]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
 updated: "2026-10-09"
@@ -106,9 +106,9 @@ Source check: October 9, 2026; expert and learner review pending. The medium-cha
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
-- [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
-- [How a personalized vaccine is manufactured](/wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured)
+- [How to engineer T cells inside the body](/wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery)
+- [Reading cell-therapy evidence](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [How a personalized vaccine is manufactured](/wiki/education/guides/personalized-cancer-vaccine/07-making-the-product)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 <!-- END GENERATED USED IN -->

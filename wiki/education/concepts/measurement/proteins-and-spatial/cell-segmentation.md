@@ -7,7 +7,7 @@ aliases: [cell segmentation, whole-cell segmentation, cell masks, segmentation]
 glossary_anchor: "cell-segmentation"
 level: advanced
 prerequisites: ["[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
-used_by: ["[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response]]","[[wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context]]"]
 sensitive: false
 tags: [education, measurement]
 updated: "2026-10-09"
@@ -107,6 +107,6 @@ Source-checked October 9, 2026. Image-analysis principles and a fictional bounda
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response)
+- [Add geography and immune context](/wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context)
 <!-- END GENERATED USED IN -->

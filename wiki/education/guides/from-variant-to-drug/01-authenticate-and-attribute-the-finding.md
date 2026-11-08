@@ -8,7 +8,7 @@ objectives: ["Write an exact finding with its specimen, assay, coordinates, and 
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/mutation-types]]", "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]", "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]"]
 sensitive: false
 tags: ["education", "molecular-interpretation"]
-updated: 2026-11-07
+updated: 2026-11-08
 source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
@@ -38,7 +38,7 @@ flowchart TD
 
 “In specimen T, assay A reported sequence change V at a named genomic location, with a specified transcript and supporting read evidence.”
 
-A **transcript** is one RNA message produced from a gene. Different transcripts can change how a DNA coordinate maps to a protein consequence. A **reference genome** is the comparison sequence used by an analysis. Its version matters when coordinates are compared.
+A **transcript** is one RNA message produced from a gene. Different transcripts can change how a DNA coordinate maps to a protein consequence, because the [reading frame](/wiki/education/concepts/biology-basics/genetics/genetic-code) is counted from each transcript's own start codon. A **reference genome** is the comparison sequence used by an analysis. Its version matters when coordinates are compared.
 
 The report should distinguish a measured sequence from [variant-effect prediction](/wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction). A predicted splice consequence is a hypothesis about RNA processing. It is not the same evidence as measuring the relevant junctions in RNA. Keep the model version, transcript and score interpretation attached to that hypothesis.
 

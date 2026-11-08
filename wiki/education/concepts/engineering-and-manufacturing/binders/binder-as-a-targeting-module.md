@@ -7,7 +7,7 @@ glossary_anchor: "binder-as-a-targeting-module"
 aliases: ["binder", "targeting binder", "antigen-binding module", "targeting module"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope]]"]
-used_by: ["[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: 2026-11-07
@@ -91,6 +91,5 @@ Source check: November 7, 2026 (measurement section delegated to the binder-prof
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
+- [Separate the address from the killing mechanism](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism)
 <!-- END GENERATED USED IN -->

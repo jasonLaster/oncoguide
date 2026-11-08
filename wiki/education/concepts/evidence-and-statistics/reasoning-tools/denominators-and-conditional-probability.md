@@ -7,7 +7,7 @@ glossary_anchor: denominators-and-conditional-probability
 aliases: ["denominators-and-conditional-probability", "conditional probability", "denominator"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates]]"]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing]]","[[wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops]]","[[wiki/education/guides/predicting-response-before-treating/04-what-concordance-studies-show]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
@@ -67,7 +67,7 @@ A fictional study has forty enrolled people, thirty treated people and twenty ev
 
 ## Why it matters in cancer
 
-- A safety table may count treated people, while an efficacy table counts a different analysis set.
+- A safety table may count treated people, while an efficacy table counts a different [analysis set](/wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations).
 - A biomarker subgroup or later disease-free landmark changes who contributes to the estimate.
 - Several reports from the same participants do not create additional independent people.
 
@@ -97,9 +97,10 @@ Source check: October 10, 2026. General probability and denominator education; a
 
 - [Read the validation behind the claim](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
+- [Ask what a combination trial actually proved](/wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing)
+- [Test clinical relevance and learn from feedback](/wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops)
+- [What real concordance studies show](/wiki/education/guides/predicting-response-before-treating/04-what-concordance-studies-show)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
-- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
-- [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
 <!-- END GENERATED USED IN -->

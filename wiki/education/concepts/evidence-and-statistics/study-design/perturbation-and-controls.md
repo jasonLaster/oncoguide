@@ -7,7 +7,7 @@ glossary_anchor: "perturbation-and-controls"
 aliases: ["perturbation", "controlled perturbation", "vehicle control", "positive control", "rescue experiment"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops]]","[[wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model]]","[[wiki/education/guides/what-multi-omics-tells-us/index]]"]
 sensitive: false
 tags: ["education", "functional-models"]
 updated: "2026-10-09"
@@ -84,6 +84,7 @@ Source check: October 9, 2026. Controlled comparisons, not a universal experimen
 ## Used in
 
 - [Check what the experiment actually tests](/wiki/education/guides/predicting-response-before-treating/02-check-the-experiment)
-- [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
-- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
+- [Test clinical relevance and learn from feedback](/wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops)
+- [Test a mechanism in a living model](/wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model)
+- [What does multi-omics tell us about a tumor?](/wiki/education/guides/what-multi-omics-tells-us/index)
 <!-- END GENERATED USED IN -->

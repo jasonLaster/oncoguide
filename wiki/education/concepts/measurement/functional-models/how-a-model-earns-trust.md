@@ -7,7 +7,7 @@ glossary_anchor: "how-a-model-earns-trust"
 aliases: ["how a model earns trust", "model credibility", "model trust"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]", "[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/verification-and-feedback-loops]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops]]","[[wiki/education/guides/predicting-response-before-treating/04-what-concordance-studies-show]]","[[wiki/education/guides/predicting-response-before-treating/index]]"]
 sensitive: false
 tags: ["education", "model-trust"]
 updated: "2026-10-10"
@@ -104,6 +104,7 @@ Source check: October 10, 2026. The exercise is fictional. This is a reading fra
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Test clinical relevance and learn from feedback](/wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops)
+- [What real concordance studies show](/wiki/education/guides/predicting-response-before-treating/04-what-concordance-studies-show)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops)
 <!-- END GENERATED USED IN -->

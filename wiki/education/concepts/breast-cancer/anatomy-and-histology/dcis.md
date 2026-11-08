@@ -7,7 +7,7 @@ glossary_anchor: dcis
 summary: "Ductal carcinoma in situ (DCIS) describes abnormal breast cells confined to a milk duct, without invasion into the surrounding breast tissue."
 level: foundation
 prerequisites:
-  - "[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"
+  - "[[wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample]]"
 used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy]]","[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]"]
 sensitive: false
 tags: [education, breast-cancer, pathology]
@@ -34,7 +34,7 @@ Imagine a room and the space outside its boundary. “In situ” means “in pla
 
 *DCIS stays within the duct boundary; a coexisting invasive component lies in the surrounding tissue. Rose cells, green living outer cells and the blue extracellular band are drawing conventions. This schematic shows location, not a diagnosis or an inevitable progression.*
 
-Milk ducts are lined by epithelial cells. [Breast-tissue structure](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue) explains that lining and its supporting layers. In DCIS, abnormal cells occupy the duct without invading adjacent tissue. A pathologist examines sampled tissue to distinguish an in-situ component from an invasive component. [NCI: DCIS](https://www.cancer.gov/types/breast/breast-cancer-types/dcis).
+Milk ducts are lined by epithelial cells. [Breast-tissue structure](/wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample) explains that lining and its supporting layers. In DCIS, abnormal cells occupy the duct without invading adjacent tissue. A pathologist examines sampled tissue to distinguish an in-situ component from an invasive component. [NCI: DCIS](https://www.cancer.gov/types/breast/breast-cancer-types/dcis).
 
 The [myoepithelial cell layer and basement membrane](/wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane) are distinct: living outer cells and supporting extracellular material. **Stroma** is the surrounding tissue outside this boundary. Cell shapes, sizes and counts in the drawing are simplified; they do not establish grade or stage.
 

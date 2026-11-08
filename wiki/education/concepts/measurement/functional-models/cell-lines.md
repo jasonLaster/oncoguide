@@ -13,7 +13,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation]]"
   - "[[wiki/education/concepts/biology-basics/cells/cell-cycle]]"
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/01-choose-a-model]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model]]"]
 sensitive: false
 tags:
   - "education"
@@ -92,6 +92,7 @@ One answer: “which culture it is meant to be; what conditions and selection ma
 
 ## Related concepts
 
+- [Experimental settings: in vitro, ex vivo, in vivo and in silico](/wiki/education/concepts/measurement/functional-models/experimental-settings)
 - [Controlled perturbation](/wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls).
 - [Drug resistance](/wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance).
 - [Genetic dependency mapping](./dependency-mapping-crispr).
@@ -107,7 +108,7 @@ Source check: October 10, 2026. Official culture/authentication guidance and pri
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
-- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
+- [Test a mechanism in a living model](/wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model)
 <!-- END GENERATED USED IN -->

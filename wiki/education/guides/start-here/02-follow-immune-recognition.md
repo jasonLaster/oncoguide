@@ -8,7 +8,7 @@ objectives: ["Explain how a T cell recognizes a cancer cell.", "Say what pembrol
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
 sensitive: false
 tags: [education, foundations, immunology]
-updated: 2026-11-07
+updated: 2026-11-08
 source_checked: 2026-11-07
 reviewed: pending
 reviewed_by: ""
@@ -37,9 +37,7 @@ flowchart TD
 
 “The immune system” names many cells and signals. Some cells detect danger, some help start a response, and others can damage a recognized target. A count does not tell you which job was done or whether it helped.
 
-Conventional (αβ) T cells, the main kind, always recognize a short protein fragment (peptide) displayed by HLA; the TCR binds that peptide–HLA pair. Some rarer, unconventional T cells recognize other molecules. A mutation in [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma) is several steps upstream: it must contribute to a protein, a fragment must be produced and displayed, and a suitable T cell must recognize it. Each step has its own measurement.
-
-This route is useful without being universal. Antibodies recognize accessible features differently. Natural killer cells use a different balance of activating and inhibitory signals. Do not force every immune treatment into the same diagram.
+The job that matters most here belongs to T cells. A conventional (αβ) T cell uses its TCR to read a short protein fragment (peptide) displayed by HLA. A mutation in [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma) sits several steps upstream of that contact, and each step has its own measurement. [How a T cell sees a cancer cell](/wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell) teaches those steps in full. Antibodies and natural killer cells recognize targets in other ways.
 
 ## Follow a route, then ask where it can fail
 

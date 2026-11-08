@@ -10,7 +10,7 @@ summary: "A core needle biopsy removes narrow cylinders of tissue that preserve 
 level: "foundation"
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/cells/epithelium-and-stroma]]"
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/reading-a-tumor/index]]"]
+used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/what-multi-omics-tells-us/11-read-one-report]]"]
 reviewed: "pending"
 source_checked: "2026-11-07"
 reviewed_by: ""
@@ -74,7 +74,7 @@ A core can support diagnosis and selected biomarker tests without removing the w
 - A long core can contain mostly normal tissue or scar. Length is not tumor-cell content.
 - More cores do not automatically make different tumor regions equally represented.
 - An adequate diagnostic core may be inadequate for another test.
-- “No tumor seen” describes the submitted material; its wider meaning depends on sampling and concordance.
+- “No tumor seen” describes the submitted material; its wider meaning depends on sampling and concordance. After neoadjuvant therapy this matters most: in NRG-BR005, tumor-bed cores found only half of the residual cancers that surgery later found ([biopsy after neoadjuvant therapy](/wiki/education/concepts/measurement/specimens/biopsy-after-neoadjuvant-therapy)).
 
 ## Try it
 
@@ -93,6 +93,7 @@ A core provides a structured window into tissue, and every interpretation should
 ## Related concepts
 
 - [[wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy|Vacuum-assisted tissue sampling]]
+- [[wiki/education/concepts/measurement/specimens/biopsy-after-neoadjuvant-therapy|Biopsy after neoadjuvant therapy]]
 - [[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity|Variation within a tumor]]
 
 ## Sources and scope
@@ -101,10 +102,11 @@ Source check: November 7, 2026. General sampling education, with breast biopsy a
 
 - [NCI: how breast cancer is diagnosed](https://www.cancer.gov/types/breast/diagnosis) — official descriptions of needle sampling.
 - [ACR/RSNA: ultrasound-guided breast biopsy](https://www.radiologyinfo.org/en/info/breastbius) — collection methods, sampling limitations and concordance.
+- [Basik et al., 2025: NRG-BR005](https://pubmed.ncbi.nlm.nih.gov/40332918/) — tumor-bed core biopsy after neoadjuvant therapy; sensitivity 50% in 101 evaluable women.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time)
-- [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
+- [Read one report with the six-question card](/wiki/education/guides/what-multi-omics-tells-us/11-read-one-report)
 <!-- END GENERATED USED IN -->

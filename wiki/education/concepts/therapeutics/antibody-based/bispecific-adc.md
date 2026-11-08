@@ -10,7 +10,7 @@ prerequisites:
   - "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]"
   - "[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]"
   - "[[wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability]]"
-used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-11-07"
@@ -92,5 +92,6 @@ Source check: November 7, 2026. Mechanisms from preclinical models; one randomiz
 
 - [Match the payload to the failure](/wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure)
 - [Read a new payload strategy](/wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy)
+- [Choose a target worth aiming at](/wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 <!-- END GENERATED USED IN -->

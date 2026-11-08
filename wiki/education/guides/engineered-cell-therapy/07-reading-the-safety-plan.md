@@ -19,7 +19,7 @@ prerequisites: ["[[wiki/education/concepts/therapeutics/cell-therapies/car-anato
 
 **A safety feature must control a measured harm in the actual product and setting.** A quieter signal, fewer cells and recovery from injury are different outcomes. This is step seven of the [engineered-cell guide](/wiki/education/guides/engineered-cell-therapy/index).
 
-**Before you start:** [Chimeric antigen receptor (CAR) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) separates binding from signaling. [Cell therapy as a living drug](/wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug) explains expansion and persistence. [Tumor barriers](/wiki/education/cellular-therapies/08-solid-tumor-barriers) adds the tissue context.
+**Before you start:** [Chimeric antigen receptor (CAR) anatomy](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) separates binding from signaling. [Cell therapy as a living drug](/wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug) explains expansion and persistence. [Tumor barriers](/wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers) adds the tissue context.
 
 ## Where this step sits
 
@@ -116,7 +116,7 @@ A fictional early study treats six people. No named toxicity is observed during 
 
 **Match each safety claim to a measured harm, a tested control and an adequate observation period.**
 
-**Next:** [Read cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence).
+**Next:** [Read cell-therapy evidence](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence).
 
 ## Sources and scope
 

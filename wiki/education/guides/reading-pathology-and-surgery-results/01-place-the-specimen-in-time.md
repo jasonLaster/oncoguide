@@ -2,7 +2,7 @@
 title: "Place the specimen in time"
 sensitive: false
 tags: ["education"]
-updated: 2026-10-10
+updated: 2026-11-08
 source_checked: "2026-10-10"
 reviewed: "pending"
 reviewed_by: ""
@@ -36,6 +36,8 @@ flowchart TD
 ## Read the label on the container before the result
 
 A [core needle biopsy](/wiki/education/concepts/measurement/specimens/core-needle-biopsy) preserves small tissue cylinders; [fine needle aspiration](/wiki/education/concepts/measurement/specimens/fine-needle-aspiration) usually collects cells and fluid. A [vacuum-assisted biopsy](/wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy) collects tissue using a vacuum-assisted device. These approaches differ in the material and architecture available to examine.
+
+A needle biopsy can also be taken after preoperative treatment and before surgery. It is a separate time point: it samples the treated site to estimate whether the operation would find remaining cancer. See [biopsy after neoadjuvant therapy](/wiki/education/concepts/measurement/specimens/biopsy-after-neoadjuvant-therapy).
 
 A [surgical specimen](/wiki/education/concepts/measurement/specimens/surgical-resection-specimen) can include the operation's breast tissue, nodes or a separately submitted margin. Keep each part's site and collection context. More tissue does not mean every region in the body was examined.
 

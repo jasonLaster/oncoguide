@@ -7,7 +7,7 @@ glossary_anchor: gene
 aliases: ["gene", "protein-coding gene", "noncoding RNA gene"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]"]
-used_by: ["[[wiki/education/index]]","[[wiki/education/multi-omics-foundations/00-genes-rna-and-protein]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/01-genes-rna-and-protein]]"]
 sensitive: false
 tags: [education, biology-basics]
 source_checked: 2026-10-09
@@ -111,6 +111,5 @@ Source check: October 9, 2026. General gene organization and reference interpret
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Learn the biology and evidence](/wiki/education/index)
-- [Start with genes, RNA and protein](/wiki/education/multi-omics-foundations/00-genes-rna-and-protein)
+- [Start with genes, RNA and protein](/wiki/education/guides/what-multi-omics-tells-us/01-genes-rna-and-protein)
 <!-- END GENERATED USED IN -->

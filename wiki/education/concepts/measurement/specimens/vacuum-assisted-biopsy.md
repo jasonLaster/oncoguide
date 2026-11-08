@@ -54,14 +54,7 @@ flowchart TD
 
 ## Biopsy after neoadjuvant therapy
 
-A newer use is sampling the former tumor site after neoadjuvant (before-surgery) therapy, to predict a [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) without surgery. The question is the false-negative rate: how often the biopsy shows no cancer when surgery later finds some.
-
-| Study | Population | Result |
-|---|---|---|
-| RESPONDER ([Heil 2022](https://doi.org/10.1097/SLA.0000000000004246)) | 398 women, all subtypes, with imaging response; biopsy then standard surgery | Biopsy missed residual tumor in 37 of 208 (false-negative rate 17.8%); combining imaging with biopsy lowered it to 6.2% in an exploratory analysis |
-| Kuerer 2022 ([*Lancet Oncol*](https://doi.org/10.1016/S1470-2045(22)00613-1)) | 50 women aged 40 or older with triple-negative or HER2-positive cancer and a residual lesion under 2 cm; at least 12 cores | Biopsy showed pCR in 31 (62%); they had radiotherapy without breast surgery, with no in-breast recurrences at a median 26.4 months |
-
-A biopsy-defined pCR is a sample of the tumor bed, not the whole bed. Omitting surgery on that basis remains investigational and is limited to trial-like selection.
+A newer use is sampling the former tumor site after neoadjuvant (before-surgery) therapy, to predict a [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) without surgery. In the RESPONDER trial, vacuum-assisted biopsy missed residual cancer in 37 of 208 women whose surgery found some (false-negative rate 17.8%) ([Heil 2022](https://doi.org/10.1097/SLA.0000000000004246)). [Biopsy after neoadjuvant therapy](/wiki/education/concepts/measurement/specimens/biopsy-after-neoadjuvant-therapy) compares the trials and explains why surgery remains standard.
 
 ## Why it matters in cancer
 
@@ -105,6 +98,7 @@ Vacuum assistance can collect useful tissue efficiently; diagnosis, representati
 
 - [[wiki/education/concepts/measurement/specimens/tissue-is-non-renewable|Budgeting finite tissue]]
 - [[wiki/education/concepts/measurement/specimens/surgical-resection-specimen|Orientation and margins in resection specimens]]
+- [[wiki/education/concepts/measurement/specimens/biopsy-after-neoadjuvant-therapy|Biopsy after neoadjuvant therapy]]
 
 ## Sources and scope
 
@@ -113,7 +107,6 @@ Source check: November 7, 2026. General sampling education; expert and learner r
 - [NCI: vacuum-assisted core biopsy](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/vacuum-assisted-core-biopsy) — official collection mechanism.
 - [ACR/RSNA: ultrasound-guided breast biopsy](https://www.radiologyinfo.org/en/info/breastbius) — multiple samples, targeting, limitations and tissue–imaging correlation.
 - [Heil et al., 2022: RESPONDER](https://doi.org/10.1097/SLA.0000000000004246) — vacuum-assisted biopsy after neoadjuvant therapy versus surgery (PMID 32657944).
-- [Kuerer et al., 2022](https://doi.org/10.1016/S1470-2045(22)00613-1) — omission of breast surgery after biopsy-defined pCR, single-arm phase 2 (PMID 36306810).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

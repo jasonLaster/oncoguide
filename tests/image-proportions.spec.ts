@@ -5,7 +5,7 @@ const lessons = [
   "concepts/immunology/innate-and-unconventional-cells/cgas-sting",
   "concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp",
   "concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc",
-  "local-treatment-modalities/01-mechanism",
+  "guides/local-therapy-and-the-immune-system/01-mechanism",
 ];
 
 async function assertNativeProportions(images: Locator) {

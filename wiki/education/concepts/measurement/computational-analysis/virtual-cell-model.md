@@ -7,7 +7,7 @@ glossary_anchor: "virtual-cell"
 aliases: ["virtual cell", "virtual cell model", "virtual cells", "in silico perturbation"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/01-choose-a-model]]","[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]"]
 sensitive: false
 tags: ["education", "functional-models"]
 updated: "2026-11-07"
@@ -106,7 +106,7 @@ Source check: November 7, 2026. Model evaluation principles; performance belongs
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model)
 - [Check what the experiment actually tests](/wiki/education/guides/predicting-response-before-treating/02-check-the-experiment)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
 <!-- END GENERATED USED IN -->

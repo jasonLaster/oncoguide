@@ -12,7 +12,7 @@ level: "foundation"
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/cells/epithelium-and-stroma]]"
   - "[[wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable]]"
-used_by: ["[[wiki/education/reading-a-tumor/index]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/11-read-one-report]]"]
 reviewed: "pending"
 source_checked: 2026-10-10
 reviewed_by: ""
@@ -110,5 +110,5 @@ Source check: October 10, 2026. General morphology teaching; expert and learner 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
+- [Read one report with the six-question card](/wiki/education/guides/what-multi-omics-tells-us/11-read-one-report)
 <!-- END GENERATED USED IN -->

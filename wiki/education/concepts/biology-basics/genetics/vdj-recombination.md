@@ -7,7 +7,7 @@ glossary_anchor: "vdj-recombination"
 aliases: ["V(D)J recombination", "VDJ recombination", "V(D)J", "antigen-receptor gene rearrangement"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
-used_by: ["[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]"]
+used_by: []
 sensitive: false
 tags: ["education", "biology-basics", "immunology"]
 updated: 2026-11-07
@@ -110,5 +110,5 @@ Source-checked November 7, 2026. General receptor biology; human expert and lear
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

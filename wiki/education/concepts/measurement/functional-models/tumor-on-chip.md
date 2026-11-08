@@ -13,7 +13,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix]]"
   - "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]"
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/01-choose-a-model]]","[[wiki/education/guides/predicting-response-before-treating/index]]"]
 sensitive: false
 tags:
   - "education"
@@ -114,6 +114,6 @@ Source check: October 10, 2026. Primary abstracts support the bounded lung examp
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
 <!-- END GENERATED USED IN -->

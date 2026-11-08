@@ -7,7 +7,7 @@ glossary_anchor: "companion-diagnostics"
 aliases: ["companion diagnostic","CDx"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility]]"]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/index]]","[[wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
 updated: "2026-10-10"
@@ -81,7 +81,7 @@ Use an intended-use card instead of a shared gene name:
 | Treatment | Corresponding product or authorized group, disease and setting |
 | Limits | Invalid/failed results, detection limits and any follow-up instructions |
 
-FDA's device list starts the check; the underlying authorization and both labels supply detail. Laboratory certification and [research-use labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) answer separate questions.
+FDA's device list starts the check; the underlying authorization and both labels supply detail. Laboratory certification and [research-use labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-authorization) answer separate questions.
 
 ## Common confusions
 
@@ -124,8 +124,9 @@ U.S. source check: October 10, 2026. The example is fictional; no product interc
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
 - [Connect evidence to a decision](/wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision)
 - [Judge a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index)
-- [Build an integrated claim without skipping the clinical question](/wiki/education/molecular-profiling/07-from-data-to-care-plan)
+- [Integrate the evidence and meet the clinical gate](/wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence)
 <!-- END GENERATED USED IN -->

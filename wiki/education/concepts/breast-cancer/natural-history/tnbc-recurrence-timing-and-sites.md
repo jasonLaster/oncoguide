@@ -13,7 +13,7 @@ glossary_anchor: tnbc-recurrence-patterns
 reviewed: pending
 reviewed_by: ""
 source_checked: 2026-10-09
-updated: 2026-10-09
+updated: 2026-11-08
 sensitive: false
 tags: [education, breast-cancer, recurrence]
 ---
@@ -59,12 +59,12 @@ flowchart TD
 
 - **An early peak is not an individual forecast.** A peak identifies when a group's event rate was highest, without supplying one person's next-year probability. [2]
 - **Later risk is not zero risk.** A disease-free survivor study estimates subsequent events among its selected participants; it cannot guarantee an individual's future. [4]
-- **A prominent site does not establish a screening schedule.** Describing brain involvement is different from showing that routine brain imaging improves outcomes. NCI's treatment review describes older randomized follow-up trials in which intensive testing of asymptomatic survivors did not improve survival or quality of life. Those findings should not be presented as a test of every newer blood assay or imaging strategy. [5]
+- **A prominent site does not establish a screening schedule.** Describing brain involvement is different from showing that routine brain imaging improves outcomes; see [surveillance after treatment](/wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment). NCI's treatment review describes older randomized follow-up trials in which intensive testing of asymptomatic survivors did not improve survival or quality of life. Those findings should not be presented as a test of every newer blood assay or imaging strategy. [5]
 - **Detection and benefit are different outcomes.** Finding an event earlier does not by itself establish that the earlier detection changes survival. [5]
 
 ## How it is measured
 
-Studies record confirmed recurrence location/date, a starting date, deaths and loss to follow-up. Ask whether they count first or later sites; one person can have several. The [endpoint definition](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) distinguishes raw fractions from estimates accounting for follow-up and competing events. [3, 4]
+Studies record confirmed recurrence location/date, a starting date, deaths and loss to follow-up. Ask whether they count first or later sites; one person can have several. The [endpoint definition](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) distinguishes raw fractions from estimates accounting for follow-up and [competing events](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks). [3, 4]
 
 ## Try it
 
@@ -80,6 +80,7 @@ A fictional reader finds a study that enrolled only people disease-free five yea
 - [Residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden)
 - [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
+- [Surveillance after treatment](/wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment)
 
 ## Sources
 

@@ -7,7 +7,7 @@ glossary_anchor: "interim-analysis"
 aliases: ["interim analysis", "interim analyses", "group sequential design", "alpha spending", "stopping boundary", "data maturity", "early stopping"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]", "[[wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
+used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
 updated: "2026-11-07"
@@ -43,7 +43,7 @@ If you check a coin-flip contest after every flip, sooner or later one side will
 | KEYNOTE-522 | [Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) was reported at the first interim analysis, among the first 602 randomized; event-free survival at the fourth planned interim analysis [3, 4] |
 | OlympiA | At the first interim analysis, fewer deaths with olaparib (P = 0.02) did not meet that look's threshold of P < 0.01; at the second, overall survival met its threshold of P < 0.015 (P = 0.009) [5, 6] |
 | CREATE-X | Met its primary endpoint at a prespecified interim analysis and stopped early [7] |
-| EA1131 | Stopped for futility at 61% of planned information: platinum was unlikely to prove non-inferior or superior to capecitabine [8] |
+| EA1131 | Stopped for futility at 61% of planned information: platinum was unlikely to prove [non-inferior](/wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials) or superior to capecitabine [8] |
 
 ## Why it matters in cancer
 
@@ -80,6 +80,8 @@ A trial plans two survival looks. At the first, P = 0.03 against a boundary of P
 - [P-values and multiple testing](/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing)
 - [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints)
 - [Kaplan–Meier curves](/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier)
+- [Bayesian and adaptive designs](/wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs)
+- [Statistical power and sample size](/wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size)
 
 ## Sources and scope
 
@@ -99,5 +101,6 @@ Source-checked November 7, 2026 against ICH E9 and primary abstracts. General st
 ## Used in
 
 - [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect)
+- [Read a real trial: KEYNOTE-522](/wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial)
 - [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 <!-- END GENERATED USED IN -->

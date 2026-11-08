@@ -7,7 +7,7 @@ glossary_anchor: "immunogenic-cell-death"
 aliases: ["ICD", "immunogenic death"]
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/cross-presentation]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals]]"]
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/local-treatment-modalities/06-comparisons]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism]]","[[wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget]]","[[wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
 updated: 2026-11-07
@@ -110,8 +110,8 @@ Source-checked October 10, 2026. General mechanism and model evidence; fictional
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Separate local injury from immune learning](/wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism)
+- [Match each measurement to its claim](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget)
+- [Compare delivery and recognition separately](/wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
-- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
-- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
-- [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: "nutrient-sensing-ampk"
 aliases: ["AMPK", "AMP-activated protein kinase", "energy sensing", "nutrient sensing AMPK"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation]]", "[[wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor]]","[[wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-09"
@@ -106,6 +106,7 @@ Source check: October 9, 2026; expert and learner review pending. The exercise i
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Lipid supply and mTOR: measuring resource control](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor)
-- [Oxidative metabolism and stress: energy, damage, and dependence](/wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress)
+- [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
+- [Measure energy and damage separately](/wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

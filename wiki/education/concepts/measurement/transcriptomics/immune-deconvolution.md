@@ -14,7 +14,7 @@ reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/measurement/transcriptomics/counts-normalization]]"]
-used_by: ["[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/05-read-rna]]"]
 ---
 
 # Immune deconvolution: estimating a tissue mixture
@@ -114,5 +114,5 @@ Source check: October 10, 2026. Model-specific research teaching; the primary st
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
+- [Read RNA: counts, preparation and splice products](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna)
 <!-- END GENERATED USED IN -->

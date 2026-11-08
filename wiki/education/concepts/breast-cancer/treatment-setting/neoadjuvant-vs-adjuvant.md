@@ -15,7 +15,7 @@ reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 prerequisites:
   - "[[wiki/education/concepts/breast-cancer/treatment-setting/curative-intent]]"
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/02-timing]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/02-timing]]","[[wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/start-here/03-connect-treatment-and-evidence]]","[[wiki/education/guides/start-here/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
 ---
 
 # Neoadjuvant versus adjuvant therapy
@@ -115,11 +115,11 @@ Source-checked November 7, 2026; expert and learner review pending. Plans are fi
 ## Used in
 
 - [Compare related ideas](/wiki/education/comparisons/index)
+- [Put the disease setting before the clock](/wiki/education/guides/local-therapy-and-the-immune-system/02-timing)
 - [Place the specimen in time](/wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Connect treatment jobs with evidence](/wiki/education/guides/start-here/03-connect-treatment-and-evidence)
 - [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index)
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
-- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
 <!-- END GENERATED USED IN -->

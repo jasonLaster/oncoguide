@@ -11,8 +11,8 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/index]]"]
-updated: 2026-11-07
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint]]","[[wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story]]","[[wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/index]]"]
+updated: 2026-11-08
 source_checked: 2026-11-07
 review_status: "Source-checked; expert and learner review pending"
 ---
@@ -79,7 +79,7 @@ Among 1,000 fictional participants, 50 first recurrences are recorded; 20 are as
 | `20/50 = 40%` | What share of recorded first recurrences was assigned to X? |
 | `20/1000 = 2%` | What crude fraction of enrolled participants had that recorded event? |
 
-Neither calculation automatically gives five-year risk. A **cumulative incidence** estimate accounts for follow-up and competing events. Death before recurrence prevents that recurrence; a different first site prevents X from being the first site. A later recurrence at X is a different endpoint. The cumulative incidence curve is estimated nonparametrically (the Aalen–Johansen estimator); Fine–Gray regression models covariate effects on it [Austin and colleagues, 2016](https://pubmed.ncbi.nlm.nih.gov/26858290/).
+Neither calculation automatically gives five-year risk. A **cumulative incidence** estimate accounts for follow-up and [competing events](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks). Death before recurrence prevents that recurrence; a different first site prevents X from being the first site. A later recurrence at X is a different endpoint. The cumulative incidence curve is estimated nonparametrically (the Aalen–Johansen estimator); Fine–Gray regression models covariate effects on it [Austin and colleagues, 2016](https://pubmed.ncbi.nlm.nih.gov/26858290/).
 
 ## Common confusions
 
@@ -104,7 +104,7 @@ Name the clock, event set and denominator before interpreting a survival percent
 
 ## Related concepts
 
-[[wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio|Hazard ratio]] and [[wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier|Kaplan–Meier]].
+[[wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio|Hazard ratio]], [[wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier|Kaplan–Meier]] and [[wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks|competing risks]].
 
 ## Sources and scope
 
@@ -120,10 +120,11 @@ General teaching, source-checked October 10, 2026. The examples are hypothetical
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Ask what a combination trial actually proved](/wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Name the comparison and endpoint](/wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint)
 - [Read a single success story or a calculator](/wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story)
+- [Read a real trial: KEYNOTE-522](/wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial)
 - [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
-- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 - [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)
 <!-- END GENERATED USED IN -->

@@ -7,11 +7,11 @@ glossary_anchor: "nk-cell-and-missing-self"
 aliases: ["NK", "NK cell", "missing-self"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/01-cell-therapy-primer]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step]]","[[wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-11-07
-source_checked: 2026-11-07
+updated: 2026-11-08
+source_checked: 2026-11-08
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -38,14 +38,9 @@ A security check can ask both “Is something suspicious present?” and “Is a
 
 Some inhibitory receptors recognize particular [human leukocyte antigen (HLA)](/wiki/education/concepts/immunology/antigen-presentation/hla) class I molecules. When those expected self signals are reduced, inhibition can weaken. This is called **missing-self recognition**. The original experiments used mouse lymphoma cells missing mouse display molecules; they established a principle, not a guarantee for all human tumors. [Kärre and colleagues’ primary study](https://pubmed.ncbi.nlm.nih.gov/3951539/) makes that context explicit.
 
-Activating inputs also matter. No single receptor dominates; NK cells sum signals from several receptors ([Long et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23516982/)).
+Activating inputs also matter. No single receptor dominates; NK cells sum signals from several receptors ([Long et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23516982/)). The main inhibitory receptors are killer-cell immunoglobulin-like receptors (KIRs), which read HLA-C, HLA-B and some HLA-A variants, and CD94/NKG2A, which reads HLA-E. Important activating receptors include NKG2D, which reads stress-induced proteins, and CD16, which reads antibody bound to a target and drives [antibody-dependent cellular cytotoxicity (ADCC)](/wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc). [NK-cell receptors](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-receptors) lists each receptor, its ligand and its evidence.
 
-| Receptor | Ligand | Effect |
-|---|---|---|
-| KIR (killer-cell immunoglobulin-like receptors) | Mainly HLA-C, plus some HLA-B and HLA-A variants ([Parham, 2005](https://pubmed.ncbi.nlm.nih.gov/15719024/)) | Inhibitory (most) |
-| CD94/NKG2A | HLA-E loaded with class I leader peptides ([Braud et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9486650/)) | Inhibitory |
-| NKG2D | Stress-induced MICA, MICB and ULBP proteins ([Bauer et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10426993/)) | Activating |
-| CD16 | The Fc tail of antibodies bound to a target | Activating; drives [antibody-dependent cellular cytotoxicity (ADCC)](/wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc) | The NK cell’s previous education, local environment and capacity to act affect the result. Human experiments show that receptor context and cytokine stimulation can change responsiveness. [Juelke et al.](https://pubmed.ncbi.nlm.nih.gov/19701893/) studied this under defined laboratory conditions.
+The NK cell’s previous education, local environment and capacity to act also affect the result. Human experiments show that receptor context and cytokine stimulation can change responsiveness. [Juelke et al.](https://pubmed.ncbi.nlm.nih.gov/19701893/) studied this under defined laboratory conditions.
 
 NK cells can release molecules that damage target cells and can produce signaling proteins. They can also become inhibited in a tumor environment. Losing HLA may help a cancer evade some T cells while exposing a possible NK vulnerability. Loss of [beta-2 microglobulin (B2M)](/wiki/education/concepts/immunology/antigen-presentation/b2m) removes HLA-E as well as classical class I, so both KIR and NKG2A brakes lift at once. The word “possible” matters: these are interacting systems, not a guaranteed biological trade.
 
@@ -84,13 +79,14 @@ Explain why losing a restraint and supplying a sufficient activation signal are 
 
 ## Related concepts
 
+- [NK-cell receptors](/wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-receptors)
 - [Immune-cell roster](/wiki/education/concepts/immunology/the-immune-system/immune-cell-roster)
 - [Antibody structure](/wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure)
 - [Immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape)
 
 ## Sources and scope
 
-Source check: November 7, 2026. General NK recognition, with animal and human experiments distinguished. Expert and learner review remain pending.
+Source check: November 8, 2026. General NK recognition, with animal and human experiments distinguished. Expert and learner review remain pending.
 
 - [Long et al., 2013: integration of NK activating and inhibitory signals](https://pubmed.ncbi.nlm.nih.gov/23516982/).
 - [Parham, 2005: HLA class I and KIR](https://pubmed.ncbi.nlm.nih.gov/15719024/).
@@ -104,8 +100,7 @@ Source check: November 7, 2026. General NK recognition, with animal and human ex
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Cell therapies as living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer)
-- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
-- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
-- [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
+- [Cell therapies as living drugs](/wiki/education/guides/engineered-cell-therapy/01-cell-therapy-primer)
+- [Find the step an immune response can lose](/wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step)
+- [HLA and antigen presentation in vaccine design](/wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation)
 <!-- END GENERATED USED IN -->

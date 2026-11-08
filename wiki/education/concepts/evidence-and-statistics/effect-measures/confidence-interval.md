@@ -7,7 +7,7 @@ glossary_anchor: confidence-interval
 aliases: ["confidence interval", "CI", "confidence limits"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing]]","[[wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
@@ -55,7 +55,7 @@ With 5,000 of 10,000 people having the outcome, the same calculation gives stand
 | Failure | Calling narrow bounds proof of validity or treating an approximate interval as universally reliable. |
 | Cannot tell | The range containing 95% of patients or the outcome of a particular person. |
 
-A **prediction interval** addresses a future observation and includes additional variability. A **Bayesian credible interval** has a probability interpretation conditional on its model and prior. Those are different constructions, not alternative names for a frequentist CI.
+A **prediction interval** addresses a future observation and includes additional variability. A **Bayesian credible interval** has a probability interpretation conditional on its model and prior; see [Bayesian and adaptive designs](/wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs). Those are different constructions, not alternative names for a frequentist CI.
 
 ## Why it matters in cancer
 
@@ -73,7 +73,7 @@ Consider fictional HR 0.70 with CI 0.35–1.40: the estimate suggests lower haza
 
 A fictional difference has a 95% CI from −8 to +10 percentage points. Does it prove equivalence?
 
-**Answer:** No. It includes potentially important differences in both directions. Equivalence requires a prespecified acceptable margin and an appropriate analysis; merely failing to demonstrate a difference is insufficient.
+**Answer:** No. It includes potentially important differences in both directions. Equivalence requires a prespecified acceptable margin and an appropriate analysis, as in a [non-inferiority trial](/wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials); merely failing to demonstrate a difference is insufficient.
 
 **Figure check:** Nine of the ten illustrative intervals cross the fixed 50% truth. Does that invalidate a 95% method or assign a 95% probability to one observed interval?
 
@@ -104,9 +104,10 @@ Source check: 2026-10-10. Conventional frequentist interval interpretation; expe
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Ask what a combination trial actually proved](/wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing)
 - [Read the curve and effect](/wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
+- [Read a real trial: KEYNOTE-522](/wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial)
 - [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
-- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
 <!-- END GENERATED USED IN -->

@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy]]"
   - "[[wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints]]"
-used_by: ["[[wiki/education/local-treatment-modalities/02-timing]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/02-timing]]"]
 sensitive: false
 tags: [education, breast-cancer, metastasis, evidence]
 updated: "2026-10-12"
@@ -55,7 +55,7 @@ SABR-COMET reported improved long-term outcomes from adding stereotactic ablativ
 
 NRG-BR002 tested systemic treatment with or without metastasis-directed ablation in breast cancer. Participants had no more than four metastases, a controlled primary and no progression during a specified period of first-line systemic therapy. The phase-2 comparison did not demonstrate improved progression-free survival or a significant overall-survival difference; phase 3 did not proceed. Most participants had hormone receptor-positive disease without overexpression/amplification of [HER2, human epidermal growth factor receptor 2](/wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2). That result does not precisely establish every subtype's effect or erase symptom-relief goals. [4]
 
-Read the [combination-trial lesson](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing) for these evidence boundaries.
+Read the [combination-trial lesson](/wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing) for these evidence boundaries.
 
 ## How it is measured
 
@@ -98,7 +98,7 @@ Oligometastatic is a pattern to characterize and study, rather than proof that v
 ## Related concepts
 
 - [Metastasis and dormancy](/wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy)
-- [Local-treatment goals and timing](/wiki/education/local-treatment-modalities/02-timing)
+- [Local-treatment goals and timing](/wiki/education/guides/local-therapy-and-the-immune-system/02-timing)
 
 ## Sources
 
@@ -112,5 +112,5 @@ Source check: October 10, 2026. Examples are fictional; expert and learner revie
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
+- [Put the disease setting before the clock](/wiki/education/guides/local-therapy-and-the-immune-system/02-timing)
 <!-- END GENERATED USED IN -->

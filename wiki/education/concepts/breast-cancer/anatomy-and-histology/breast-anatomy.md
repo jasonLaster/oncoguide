@@ -7,7 +7,7 @@ glossary_anchor: "breast-anatomy"
 aliases: ["breast anatomy", "breast ducts", "breast lobules", "terminal duct lobular unit", "TDLU"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/epithelium-and-stroma]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample]]"]
 sensitive: false
 tags: ["education", "breast-cancer"]
 updated: "2026-10-10"
@@ -107,5 +107,5 @@ Illustration source check: October 11, 2026. The new normal-anatomy schematics u
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [See what is inside a tissue sample](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue)
+- [See what is inside a tissue sample](/wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample)
 <!-- END GENERATED USED IN -->

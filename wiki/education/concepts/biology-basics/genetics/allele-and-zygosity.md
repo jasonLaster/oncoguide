@@ -7,7 +7,7 @@ glossary_anchor: allele-and-zygosity
 aliases: ["allele", "zygosity", "heterozygous", "homozygous", "hemizygous"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]", "[[wiki/education/concepts/biology-basics/molecules/gene]]"]
-used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]"]
 sensitive: false
 tags: [education, biology-basics]
 source_checked: 2026-10-09
@@ -112,5 +112,5 @@ Source check: October 9, 2026. General allele reasoning; the letters and copy-st
 ## Used in
 
 - [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity)
-- [Separate DNA copies from cancer-cell fractions](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
 <!-- END GENERATED USED IN -->

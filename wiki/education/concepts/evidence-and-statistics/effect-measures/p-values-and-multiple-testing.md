@@ -7,10 +7,10 @@ glossary_anchor: "p-value"
 aliases: ["p-value", "p value", "multiple testing", "multiplicity"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval]]"]
-used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]"]
+used_by: ["[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison]]"]
 sensitive: false
 tags: ["education", "evidence-and-statistics"]
-updated: 2026-11-07
+updated: 2026-11-08
 source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
@@ -58,7 +58,7 @@ For a family-level allowance of 0.05, Bonferroni gives `0.05/20 = 0.0025` per te
 | Failure | Choosing outcomes, cutpoints or subgroups after seeing results and hiding those choices. |
 | Cannot tell | Clinical importance, personal benefit or the probability that a hypothesis is true. |
 
-A result that misses a threshold does not demonstrate no effect. Equivalence needs its own margin and analysis. Conversely, a tiny p-value can accompany an effect too small to matter clinically.
+A result that misses a threshold does not demonstrate no effect, especially when the study had low [statistical power](/wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size). Equivalence or [non-inferiority](/wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials) needs its own margin and analysis. Conversely, a tiny p-value can accompany an effect too small to matter clinically.
 
 ## Why it matters in cancer
 
@@ -82,6 +82,8 @@ A report tested 50 pathways but mentions only one with p = 0.04. What would a Bo
 
 Explain how “probability of any false finding” differs from “expected false fraction among selected findings.”
 
+**One possible answer:** The first, the family-wise error rate, is the chance that even one rejected null is false; the second, the false discovery rate, is the average share of false findings among all those selected.
+
 ## Takeaway
 
 A p-value belongs to a hypothesis and analysis; read it with the full search, effect size and uncertainty.
@@ -90,6 +92,8 @@ A p-value belongs to a hypothesis and analysis; read it with the full search, ef
 
 - [False discovery rate](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate)
 - [Prespecified and exploratory analysis](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis)
+- [Statistical power and sample size](/wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size)
+- [Bayesian and adaptive designs](/wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs), which report posterior probabilities instead of p-values
 
 ## Sources and scope
 
@@ -105,5 +109,5 @@ Source check: October 10, 2026. Hypothetical arithmetic; expert and learner revi
 
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
-- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
+- [Choose the comparison before interpreting the signal](/wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison)
 <!-- END GENERATED USED IN -->

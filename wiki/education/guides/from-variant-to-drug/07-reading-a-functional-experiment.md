@@ -17,7 +17,7 @@ reviewed_by: ""
 review_status: "Expert and learner review pending"
 source_checked: 2026-10-09
 tags: [education, functional-testing, PARP, autophagy, synergy]
-updated: 2026-10-10
+updated: 2026-11-08
 ---
 
 # Reading a functional experiment
@@ -28,7 +28,7 @@ updated: 2026-10-10
 
 ## Where this step sits
 
-This is optional step 7 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). The preceding lessons identified an obstacle, recycling responses, and competing growth signals. This final step asks whether an experiment actually tests that story. Keep [the guide's map](/wiki/education/guides/from-variant-to-drug/index#the-map) nearby if you want to trace a measurement back to its proposed mechanism.
+This is optional step 7 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). The preceding lessons identified an obstacle, recycling responses, and competing growth signals. This step asks whether an experiment actually tests that story; the optional pathway casebook (lessons 8 to 11) then applies the same reasoning to other pathways. Keep [the guide's map](/wiki/education/guides/from-variant-to-drug/index#the-map) nearby if you want to trace a measurement back to its proposed mechanism.
 
 ## Compare the full set of conditions
 
@@ -73,7 +73,7 @@ The reference model is part of the claim, rather than a technical detail to omit
 
 An assay based on **adenosine triphosphate (ATP)**, a cellular energy molecule, or another metabolic signal can fall because there are fewer cells or because their metabolism changed. It cannot alone establish irreversible death. A [single-cell mass assay](/wiki/education/concepts/measurement/functional-models/single-cell-mass-assays) measures a different response again; slower mass accumulation alone does not establish death.
 
-A cell-death assay asks a different question. **Apoptosis** is one regulated death process. Regrowth after drug removal tests whether survivors can recover under the culture conditions. Measuring tumor-cell identity and composition helps establish which cells supplied the signal. A mixed culture may include nonmalignant cells, and culture can favor only some tumor populations.
+A cell-death assay asks a different question. **Apoptosis** is one regulated death process; [ways a cancer cell can die or stop](/wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-vs-necrosis-vs-ferroptosis) compares it with necrosis, ferroptosis and senescence. Regrowth after drug removal tests whether survivors can recover under the culture conditions. Measuring tumor-cell identity and composition helps establish which cells supplied the signal. A mixed culture may include nonmalignant cells, and culture can favor only some tumor populations.
 
 Mechanism measurements are another layer. **Autophagic flux** measures completed recycling over time. [Poly(ADP-ribose) polymerase (PARP) trapping](/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping) measures a protein obstacle on [deoxyribonucleic acid (DNA)](/wiki/education/concepts/biology-basics/genetics/central-dogma). **RAD51 foci** are repair-protein assemblies that need adequate damage and cycling-cell controls to inform present [homologous recombination (HR)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd) function. Each readout should be matched to the exact proposed explanation.
 
@@ -112,7 +112,7 @@ One possible answer: “a viability response; a specified culture at stated expo
 
 **Name the control, reference model, readout, and evidence boundary before turning a laboratory response into a claim.**
 
-**Next:** [Judge a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index), or revisit [the course map](./index).
+**Next:** the optional casebook, starting with [Test a supply dependence with a rescue experiment](/wiki/education/guides/from-variant-to-drug/08-test-a-supply-dependence-with-rescue); or [judge a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index), or revisit [the guide map](/wiki/education/guides/from-variant-to-drug/index).
 
 ## Sources and scope
 

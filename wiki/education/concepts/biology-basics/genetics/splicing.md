@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"
-used_by: ["[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/05-read-rna]]"]
 sensitive: false
 tags: [education, RNA, splicing]
 source_checked: 2026-10-09
@@ -57,7 +57,7 @@ An altered splice product can also introduce a premature stop during protein pro
 
 ## Why it matters in cancer
 
-A DNA variant may raise a processing question without answering it. RNA measurements can show which products are captured. Protein and functional assays then ask whether that change alters a useful product or a cellular process. [The splice-to-repair lesson](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair) follows this chain through a fictional repair-gene example.
+A DNA variant may raise a processing question without answering it. RNA measurements can show which products are captured. Protein and functional assays then ask whether that change alters a useful product or a cellular process. [The splice-to-repair lesson](/wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence) follows this chain through a fictional repair-gene example.
 
 ## How it is measured
 
@@ -101,5 +101,5 @@ Source check: 2026-10-09. General processing education; the practice case is fic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
+- [Read RNA: counts, preparation and splice products](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna)
 <!-- END GENERATED USED IN -->

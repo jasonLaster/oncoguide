@@ -7,7 +7,7 @@ glossary_anchor: "ubiquitin-and-proteasome"
 aliases: ["ubiquitin", "proteasome", "ubiquitination", "E3 ligase"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis]]","[[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: 2026-11-07
@@ -87,7 +87,7 @@ One answer: “activates ubiquitin; carries it; helps select and modify a substr
 ## Related concepts
 
 - [Wnt–β-catenin signaling](/wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin): another use of regulated protein destruction.
-- [The proteostasis lesson](/wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis).
+- [The proteostasis lesson](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence).
 
 ## Sources and scope
 
@@ -103,7 +103,7 @@ Source check: November 7, 2026. General mechanism education; protein P is fictio
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Autophagy and proteostasis: amount, flow, and dependence](/wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis)
-- [Stress defenses and chromatin readers: test the direction](/wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet)
-- [Pathway mechanisms: a supporting lesson library](/wiki/education/molecular-profiling/evee-proposed-pathways)
+- [Autophagy: traffic, flow, and dependence](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence)
+- [Test the direction of a stress defense](/wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

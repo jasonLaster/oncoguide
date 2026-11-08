@@ -60,7 +60,7 @@ There is no universal response percentage that safely triggers treatment omissio
 ## Common confusions
 
 - A baseline marker used to select a medicine is not necessarily an on-treatment response rule.
-- Adaptive **randomization** changes how future trial participants are assigned; response adaptation changes a participant's later treatment. A trial can use both.
+- [Adaptive **randomization**](/wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs) changes how future trial participants are assigned; response adaptation changes a participant's later treatment. A trial can use both.
 - Predicting response is different from showing that acting on the prediction improves outcomes.
 - Treatment escalation can be response-adapted too; adaptation is not a synonym for de-escalation.
 
@@ -95,6 +95,7 @@ Apply only the stated fictional rule. The magnetic resonance imaging (MRI) input
 - [Test validity and clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility)
 - [Surrogate endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints)
 - [Randomization and trial phases](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization)
+- [Bayesian and adaptive designs](/wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs), with I-SPY2 as the worked example
 
 ## Sources and scope
 

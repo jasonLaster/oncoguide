@@ -11,7 +11,7 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, evidence-and-statistics]
-used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]","[[wiki/education/local-treatment-modalities/02-timing]]"]
+used_by: ["[[wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim]]","[[wiki/education/guides/local-therapy-and-the-immune-system/02-timing]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty]]","[[wiki/education/guides/reading-cancer-evidence/index]]"]
 updated: "2026-11-07"
 source_checked: "2026-10-10"
 review_status: "Source-checked; expert and learner review pending"
@@ -81,6 +81,7 @@ Earlier knowledge and better outcomes are separate achievements.
 
 - [lead time](/wiki/education/concepts/measurement/liquid-biopsy/lead-time)
 - [survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints)
+- [surveillance after treatment](/wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment), where randomized trials found earlier detection without longer survival
 
 ## Sources and scope
 
@@ -94,9 +95,9 @@ Source check: October 10, 2026. Fictional timelines; expert and learner review r
 ## Used in
 
 - [Write the exact claim before judging it](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim)
+- [Put the disease setting before the clock](/wiki/education/guides/local-therapy-and-the-immune-system/02-timing)
 - [Ask what a result should change](/wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Check applicability and uncertainty](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 - [Read trial claims, survival statistics and single success stories](/wiki/education/guides/reading-cancer-evidence/index)
-- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
 <!-- END GENERATED USED IN -->

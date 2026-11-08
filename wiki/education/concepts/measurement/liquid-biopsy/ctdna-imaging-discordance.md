@@ -16,7 +16,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]"
   - "[[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units]]"
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging]]","[[wiki/education/guides/monitoring-residual-disease/index]]"]
 ---
 
 # ctDNA–imaging discordance
@@ -96,7 +96,7 @@ A fictional person has no qualifying ctDNA signal after treatment. A breast MRI 
 
 ## Related concepts
 
-[[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay|Tumor-informed monitoring]], [[wiki/education/concepts/measurement/liquid-biopsy/circulating-tumor-cells|circulating tumor cells]], and [[wiki/education/concepts/measurement/computational-analysis/multi-omic-integration|multi-omic integration]].
+[[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays|Tumor-informed monitoring]], [[wiki/education/concepts/measurement/liquid-biopsy/circulating-tumor-cells|circulating tumor cells]], and [[wiki/education/concepts/measurement/computational-analysis/multi-omic-integration|multi-omic integration]].
 
 ## Sources and scope
 
@@ -110,7 +110,6 @@ Source check: November 7, 2026. The arithmetic and practice scenario are fiction
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Compare blood results with imaging](/wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
-- [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
-- [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
 <!-- END GENERATED USED IN -->

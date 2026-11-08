@@ -9,14 +9,14 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/index]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/guides/what-multi-omics-tells-us/06-read-protein]]","[[wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Expert and learner review pending"
-source_checked: 2026-11-07
+source_checked: 2026-11-08
 tags: [education, DNA-repair, HRD, BRCA]
-updated: 2026-11-07
+updated: 2026-11-08
 ---
 
 # Homologous recombination and HRD
@@ -43,9 +43,9 @@ After a cell copies its DNA, each chromosome has a closely matching sister copy.
 
 [BRCAness](/wiki/education/concepts/breast-cancer/hereditary-risk/brcaness) is a research description of BRCA-like biology without an identified BRCA1/2 mutation. Its definition and evidence need to stay attached; it is not a single interchangeable assay result.
 
-Repair failure can leave [genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars), persistent patterns that describe accumulated damage rather than today's repair capacity. Different assays and cutoffs need their own validation for a defined treatment and cancer setting. Telli and colleagues studied one composite scar score in triple-negative breast cancer treated with **platinum-containing** chemotherapy before surgery; that setting does not establish a cutoff for other chemotherapy regimens or other drugs. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/). [Genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) explains how such composite scores and cutoffs are built.
+Repair failure can leave [genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars), persistent patterns that describe accumulated damage rather than today's repair capacity. Different assays and cutoffs need their own validation for a defined treatment and cancer setting. Telli and colleagues studied one composite scar score in triple-negative breast cancer treated with **platinum-containing** chemotherapy before surgery; that setting does not establish a cutoff for other chemotherapy regimens or other drugs. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/). [Composite HRD scores](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores) explains how such scores and cutoffs are built and what they have predicted.
 
-A tumor can retain old scars while a surviving population restores repair. A **BRCA reversion** is a later genetic change that restores a previously disrupted protein's function, sometimes by restoring its readable coding sequence. Such changes were observed in a selected metastatic breast cancer cohort after resistance to repair-targeting treatment. That study did not estimate their frequency in all breast cancers. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
+A tumor can retain old scars while a surviving population restores repair, most often through a [BRCA reversion mutation](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations), a second change that restores the damaged protein.
 
 <div class="my-6">
 <img src="./images/hr-scar-and-current-function-v1-light.png" width="1254" height="1254" data-theme-pair alt="Two illustrative timepoints retain the same chromosome-pattern marks while an earlier impaired repair scene becomes a possible template-supported repair scene; a separate question asks for current functional evidence.">
@@ -125,7 +125,6 @@ Source check: 2026-11-07. Mechanism and measurement education; expert and learne
 - [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
 - [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment)
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
-- [Learn the biology and evidence](/wiki/education/index)
-- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
-- [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
+- [Read protein: presence, place and activation](/wiki/education/guides/what-multi-omics-tells-us/06-read-protein)
+- [Integrate the evidence and meet the clinical gate](/wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence)
 <!-- END GENERATED USED IN -->

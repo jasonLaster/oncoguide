@@ -7,7 +7,7 @@ glossary_anchor: "drug-target-and-mechanism"
 aliases: ["drug target", "mechanism of action"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/protein-and-peptide]]", "[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/06-read-protein]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-10-09"
@@ -105,5 +105,5 @@ Source check: October 9, 2026. General mechanism education; the antibody example
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
+- [Read protein: presence, place and activation](/wiki/education/guides/what-multi-omics-tells-us/06-read-protein)
 <!-- END GENERATED USED IN -->

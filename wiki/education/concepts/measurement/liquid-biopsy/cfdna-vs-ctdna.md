@@ -14,7 +14,7 @@ summary: "Cell-free DNA is DNA outside intact cells in a sample; circulating tum
 aliases: ["cfDNA", "ctDNA", "cell-free DNA", "circulating tumor DNA"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]"]
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]","[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response]]","[[wiki/education/guides/local-therapy-and-the-immune-system/02-timing]]","[[wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget]]","[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging]]","[[wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]"]
 ---
 
 # Cell-free DNA versus circulating tumor DNA
@@ -41,7 +41,7 @@ Blood contains cells and a fluid component. Plasma is separated from collected b
 | Tumor fraction at low disease burden | Can fall to parts per million (ppm); the most sensitive assay in one breast-cancer study detected 2.4 ppm (0.00024%) | [Santonja 2023](https://doi.org/10.15252/emmm.202216505) |
 | How often early breast cancer sheds detectably | ctDNA found in 50% of localized breast cancers with a single-mutation digital PCR assay | [Bettegowda 2014](https://doi.org/10.1126/scitranslmed.3007094) |
 
-Put the rows together: at 1 tumor copy per 100,000, an input of 4,500 genome copies contains on average fewer than one copy of any single tumor mutation. That is why "not detected" is not "no cancer", and why assays track many mutations at once (see [tumor-informed versus tumor-naive assays](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay)).
+Put the rows together: at 1 tumor copy per 100,000, an input of 4,500 genome copies contains on average fewer than one copy of any single tumor mutation. That is why "not detected" is not "no cancer", and why assays track many mutations at once (see [tumor-informed versus tumor-naive assays](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays)).
 
 A laboratory must distinguish tumor-associated features from background. These features can include sequence changes, [methylation or fragment patterns](/wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation). A mutation found in plasma is not automatically tumor-derived. [Clonal hematopoiesis](/wiki/education/concepts/measurement/liquid-biopsy/chip) can produce variants from blood-forming cells. Matched white-blood-cell sequencing, tumor comparison and other validated origin filters address different sources of ambiguity; none should be assumed from the word “liquid biopsy.”
 
@@ -128,15 +128,14 @@ Source check: November 7, 2026. The exercise is fictional. Expert and learner re
 ## Used in
 
 - [Compare related ideas](/wiki/education/comparisons/index)
+- [Sequence the work and respect what cannot be undone](/wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work)
+- [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response)
+- [Put the disease setting before the clock](/wiki/education/guides/local-therapy-and-the-immune-system/02-timing)
+- [Match each measurement to its claim](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget)
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
+- [Compare blood results with imaging](/wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging)
 - [Ask what a result should change](/wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
 - [Dose a vaccine and measure its response](/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response)
 - [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)
-- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
-- [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
-- [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
-- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
-- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
-- [Match a specimen to the test before spending tissue](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget)
 <!-- END GENERATED USED IN -->

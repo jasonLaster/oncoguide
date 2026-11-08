@@ -7,7 +7,7 @@ glossary_anchor: "chemistry-manufacturing-and-controls"
 aliases: ["CMC", "chemistry manufacturing and controls", "chemistry, manufacturing and controls"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]"]
+used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/07-making-the-product]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: "2026-10-10"
@@ -107,5 +107,5 @@ Source check: October 10, 2026. General dossier concepts, illustrated by United 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How a personalized vaccine is manufactured](/wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured)
+- [How a personalized vaccine is manufactured](/wiki/education/guides/personalized-cancer-vaccine/07-making-the-product)
 <!-- END GENERATED USED IN -->

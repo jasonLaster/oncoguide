@@ -7,7 +7,7 @@ glossary_anchor: "dendritic-cells"
 aliases: ["dendritic cell", "dendritic cells", "DC", "DCs", "cDC1"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response]]","[[wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-10-10
@@ -109,6 +109,6 @@ Source check: October 10, 2026. Presentation, trafficking and cooperation; the e
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
-- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
+- [How dendritic cells help start a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response)
+- [Separate local injury from immune learning](/wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism)
 <!-- END GENERATED USED IN -->

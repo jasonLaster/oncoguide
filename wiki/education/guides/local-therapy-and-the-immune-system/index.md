@@ -48,12 +48,12 @@ flowchart TD
 
 | Step | Lesson | Question it answers | Minutes | Learning aid |
 |---|---|---|---|---|
-| 1 | [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism) | Which immune gates remain after a tumor is injured? | 12 | A fictional treated-site and distant-site example |
-| 2 | [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing) | What job is the treatment meant to do? | 12 | Three fictional treatment-setting cards |
-| 3 | [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing) | Does the cited comparison support this claim? | 16 | Four real study cards and a fictional attribution exercise |
-| 4 | [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions) | Which assumptions need evidence or planning? | 12 | A diameter shortcut and an uptake claim |
-| 5 | [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget) | What did this sample or scan actually measure? | 14 | A worked percentage-and-denominator example |
-| 6 | [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons) | How do different tools direct exposure and produce effects? | 14 | Three fictional “targeted” proposals and a capstone |
+| 1 | [Separate local injury from immune learning](/wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism) | Which immune gates remain after a tumor is injured? | 12 | A fictional treated-site and distant-site example |
+| 2 | [Put the disease setting before the clock](/wiki/education/guides/local-therapy-and-the-immune-system/02-timing) | What job is the treatment meant to do? | 12 | Three fictional treatment-setting cards |
+| 3 | [Ask what a combination trial actually proved](/wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing) | Does the cited comparison support this claim? | 16 | Four real study cards and a fictional attribution exercise |
+| 4 | [Read a proposal through five questions](/wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions) | Which assumptions need evidence or planning? | 12 | A diameter shortcut and an uptake claim |
+| 5 | [Match each measurement to its claim](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget) | What did this sample or scan actually measure? | 14 | A worked percentage-and-denominator example |
+| 6 | [Compare delivery and recognition separately](/wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons) | How do different tools direct exposure and produce effects? | 14 | Three fictional “targeted” proposals and a capstone |
 | 7 | [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study) | What did the injection add to the background treatment? | 14 | A fictional twelve-participant route and outcome exercise |
 
 The full path is about 94 minutes, including practice. If you are reading one proposal today, start with lesson 4 and use its prerequisite links to fill in earlier steps.

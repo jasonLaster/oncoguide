@@ -3,70 +3,54 @@ title: "Learn the biology and evidence"
 type: navigation
 sensitive: false
 tags: [education]
-updated: 2026-11-07
+updated: 2026-11-08
 review_status: "Source-checked; expert and learner review pending"
 reviewed: pending
 reviewed_by: ""
-source_checked: 2026-11-07
+source_checked: 2026-11-08
 ---
 
 # Learn the biology and evidence
 
-**Choose the question you want to understand, then follow a path in order.** These pages teach concepts and how to read evidence. Current results and treatment choices are linked from each guide’s case box.
+**Choose the question you want answered, then follow its learning path in order.** These pages teach the biology and how to read evidence. Current results and treatment choices live on the care and decision pages, which each guide links to.
 
-> **New here?** Start with [Start here](/wiki/education/guides/start-here/index), about 30 minutes. It explains report labels, immune recognition and how to read a treatment claim, then points you to the next path.
+> **New here?** Start with [Start here: triple-negative breast cancer in 30 minutes](/wiki/education/guides/start-here/index). It explains what triple-negative breast cancer (TNBC) is, how the immune system and immunotherapy act on it, what the standard treatment sequence does and how to read one number about it. Then it points you to the next path.
 
-There are three ways in: follow a [learning path](/wiki/education/guides/index) toward a goal, look up one idea in the [concept library](/wiki/education/concepts/index), or untangle two similar ideas with a [comparison](/wiki/education/comparisons/index).
+## Choose a learning path
 
-## Begin with your goal
+Each path is a short series of lessons with worked examples, a practice question and an "explain it back" prompt. Reading times are on each guide's page.
 
 | Your question | Learning path |
 |---|---|
-| Where should I start? | [Read the biology, then the evidence](/wiki/education/guides/start-here/index): report labels, immune recognition and treatment claims |
-| What do surgery results mean? | [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index): pathologic response, residual burden, margins and staging |
-| How does ordinary treatment work? | [Understand standard treatment](/wiki/education/guides/treating-early-tnbc/index): drug classes, surgery, radiation and immune side effects |
-| What makes an immune treatment work? | [Understand immunotherapy](/wiki/education/guides/how-the-immune-system-fights-cancer/index): cells, display, recognition, access and escape |
-| What does a trial result establish? | [Read evidence](/wiki/education/guides/reading-cancer-evidence/index): endpoints, curves, hazard ratios, predictive values and clinical utility |
-| Should a test or company claim change a decision? | [Judge a claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index): intended use, validation and clinical utility |
-| How does access to an experimental treatment work? | [Understand access](/wiki/education/guides/accessing-experimental-therapy/index): trial screening, access routes, consent and readiness |
-| What does multi-omics add? | [Understand multi-omics](/wiki/education/reading-a-tumor/omics-and-multi-omics): molecular layers, cells, space, function and time |
-| How is a personalized vaccine designed? | [Design a personalized vaccine](/wiki/education/guides/personalized-cancer-vaccine/index): discovery, presentation, selection, manufacture and response evidence |
-| How do cell therapies differ? | [Cellular therapies](/wiki/education/guides/engineered-cell-therapy/index): recognition systems, cell selection and in-vivo engineering |
-| What does a tumor model actually predict? | [Predict response before treating](/wiki/education/guides/predicting-response-before-treating/index): model choice, controls and independent validation |
-| How do blood tests and scans fit together? | [Understand residual-disease monitoring](/wiki/education/guides/monitoring-residual-disease/index): sample limits, discordance and evidence for action |
-| Does a molecular finding support a drug? | [From a variant to a drug question](/wiki/education/guides/from-variant-to-drug/index): origin, functional consequence and matched clinical evidence |
-| How do treatment formats reach a target? | [Aim a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index): recognition, delivery and matched evidence |
-| Can local injury create an immune response? | [Local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index): injury, disease setting, combination evidence and measurements |
+| What is TNBC, and where do I begin? | [Start here](/wiki/education/guides/start-here/index) |
+| Why does treatment come in this order? | [Treating early TNBC](/wiki/education/guides/treating-early-tnbc/index): chemotherapy with immunotherapy, surgery, radiation and the treatment chosen after surgery |
+| What do the biopsy and surgery reports mean? | [Reading pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index): the diagnostic biopsy, stage, pathologic complete response (pCR), residual cancer burden and margins |
+| Why doesn't the immune system just kill the tumor? | [Why the immune system doesn't just kill a tumor, and what checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/index): recognition, attack and escape |
+| What does a trial result or survival curve establish? | [Reading cancer evidence](/wiki/education/guides/reading-cancer-evidence/index): comparisons, endpoints, curves, effect sizes and single success stories |
+| Can blood tests and scans show that cancer is gone or returning? | [Monitoring residual disease](/wiki/education/guides/monitoring-residual-disease/index): blood results, imaging and what a result should change |
+| Should a test result or company claim change a decision? | [Judging a test or company claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index): the exact claim, its validation and its link to a decision |
+| What do DNA, RNA, protein and spatial data each add? | [What multi-omics tells us](/wiki/education/guides/what-multi-omics-tells-us/index): molecular layers, cells, tissue location, function and time |
+| Does a gene finding plus a named drug make a real option? | [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index): the finding, its biology and matched clinical evidence |
+| How do antibody-based drugs find and kill tumor cells? | [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index): antibodies, antibody–drug conjugates (ADCs), engagers and radioligands |
+| Can treating one tumor site train the immune system against the rest? | [Local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index): surgery, radiation, ablation, injected treatments and the evidence for added benefit |
+| How is a personalized cancer vaccine designed, made and tested? | [Personalized cancer vaccine](/wiki/education/guides/personalized-cancer-vaccine/index): from tumor sample to target choice, manufacture and immune response |
+| How could engineered immune cells attack a solid tumor? | [Engineered cell therapy](/wiki/education/guides/engineered-cell-therapy/index): receptors, targets, delivery, safety and evidence |
+| Can drugs be tested on the tumor first, in a dish, a mouse or a computer? | [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index): model choice, controls, validation and concordance studies |
+| How does a patient get a drug not approved for her situation? | [Accessing experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index): trials, expanded access and readiness |
 
-**Shortcuts:** [injection into a tumor](/wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy) and [reading an injection study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study); [repair and survival mechanisms](/wiki/education/guides/from-variant-to-drug/index#supporting-mechanistic-lessons).
+If all of this is new, read **Start here**, then **Treating early TNBC**, **Reading pathology and surgery results**, **Why the immune system doesn't just kill a tumor** and **Reading cancer evidence** as your questions come up.
 
-If all of this is new, begin with **Start here**, then follow **standard treatment**, **pathology**, **immunotherapy** and **reading evidence** as your questions arise. Use the [multi-omics vocabulary lessons](/wiki/education/multi-omics-foundations/index) when a report introduces unfamiliar cell or molecular terms; they are the first eight steps of the multi-omics path.
+## Look something up
 
-## Biology foundations, in order
-
-If you want the biology underneath the paths, read these concept pages in order. Each takes about five minutes.
-
-1. [The cell and its membrane](/wiki/education/concepts/biology-basics/cells/cell-and-membrane)
-2. [DNA](/wiki/education/concepts/biology-basics/molecules/dna), [genes](/wiki/education/concepts/biology-basics/molecules/gene), [RNA](/wiki/education/concepts/biology-basics/molecules/rna-and-mrna) and [proteins](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide)
-3. [The central dogma and the genetic code](/wiki/education/concepts/biology-basics/genetics/central-dogma), then [gene regulation](/wiki/education/concepts/biology-basics/genetics/gene-regulation)
-4. [Mutation types](/wiki/education/concepts/biology-basics/genetics/mutation-types) and [germline vs somatic](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic)
-5. [Oncogenes and tumor suppressors](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor), then [what cancer is](/wiki/education/concepts/cancer-biology/what-cancer-is/cancer) and the [hallmarks of cancer](/wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer)
-6. [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) and [clonal evolution](/wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution)
-7. [The tumor microenvironment](/wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment) and [metastasis and dormancy](/wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy)
-8. Why treatment works: [why chemotherapy hits dividing cells](/wiki/education/concepts/biology-basics/cells/cell-division-and-why-chemo-hits-dividing-cells), [homologous recombination deficiency (HRD)](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd), [how cancer cells die](/wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-vs-necrosis-vs-ferroptosis) and [cancer dependencies](/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-addiction-vs-synthetic-lethality)
-
-The [local-treatment reference shelf](/wiki/education/local-treatment-modalities/index) helps you find modality and study references after the lessons.
-
-## Look up a concept
-
-[[wiki/education/concepts/index|Concept library]] provides stable definitions, examples and common confusions. [[about/Terminology|Terminology]] provides short definitions and links to explanations. [[about/tags|Topic tags]] organize navigation separately.
-
-For immune geography, use [[wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor|hot, excluded and cold patterns]]. For receptor tracking, use [[wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing|T-cell receptor sequencing]]. For blood numbers, use [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-units|blood measurements and limits]].
+- **[Concept index](/wiki/education/concepts/index):** one page per idea, each with an example and the common confusions, grouped by subject. It opens with a short "start with these" list for the biology underneath every path.
+- **[Comparisons](/wiki/education/comparisons/index):** pairs of ideas that are easy to mix up, such as neoadjuvant versus adjuvant therapy or germline versus somatic variants, grouped by the question they answer.
+- **[Terminology](/about/Terminology):** a one-sentence definition of each term, by subject and A–Z, with a link to the page that teaches it.
+- **[Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index):** modality and study references to use after the local-therapy lessons.
 
 ## Apply the learning
 
-[[wiki/care/results|Results]] owns the findings, [[wiki/care/molecular-profile|the molecular profile]] owns case integration, and [[wiki/care/treatment-plan|the treatment plan]] owns current clinical choices. [[wiki/questions/index|Decision pages]] and [[project-management/index|project management]] own unresolved questions and actions.
+[Results](/wiki/care/results) owns the findings, [the molecular profile](/wiki/care/molecular-profile) owns case integration, and [the treatment plan](/wiki/care/treatment-plan) owns current clinical choices. [Decision pages](/wiki/questions/index) and [project management](/project-management/index) own open questions and actions.
 
-Company process and service claims belong in [[wiki/companies/index|company assessments]]. They are a separate reading task from learning the underlying biology.
+Company processes and service claims belong in [company assessments](/wiki/companies/index). Reading them is a separate task from learning the underlying biology.
 
 **Takeaway:** Learn a concept here, then return to its owner page for the current finding or decision.

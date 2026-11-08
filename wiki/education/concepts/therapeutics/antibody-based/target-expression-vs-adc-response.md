@@ -10,7 +10,7 @@ prerequisites:
   - "[[wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate]]"
   - "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"
   - "[[wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2]]"
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]"]
 sensitive: false
 tags: ["education", "therapeutics", "biomarkers"]
 updated: "2026-11-07"
@@ -109,5 +109,6 @@ Source check: November 7, 2026. Randomized and single-arm trial results limited 
 
 - [Compare related ideas](/wiki/education/comparisons/index)
 - [Match the payload to the failure](/wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure)
+- [Choose a target worth aiming at](/wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target)
 - [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 <!-- END GENERATED USED IN -->

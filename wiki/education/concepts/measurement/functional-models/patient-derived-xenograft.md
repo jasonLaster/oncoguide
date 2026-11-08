@@ -7,7 +7,7 @@ glossary_anchor: "pdx"
 aliases: ["patient-derived xenograft", "PDX", "pdx", "tumor graft"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/01-choose-a-model]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model]]"]
 sensitive: false
 tags: ["education", "functional-models"]
 updated: "2026-11-07"
@@ -45,7 +45,7 @@ flowchart TD
 
 *Establishing a graft, validating its features and obtaining an interpretable experiment are separate steps.*
 
-Drug dosing in a living animal is [in vivo](/wiki/education/modeling-tumor-response/index#choose-what-must-be-present). Removing graft cells and treating them in a dish is a different experiment, ex vivo or in vitro. The specimen's animal history does not make its later dish assay in vivo.
+Drug dosing in a living animal is [in vivo](/wiki/education/concepts/measurement/functional-models/experimental-settings). Removing graft cells and treating them in a dish is a different experiment, ex vivo or in vitro. The specimen's animal history does not make its later dish assay in vivo.
 
 ## Why it matters in cancer
 
@@ -97,6 +97,7 @@ Ten fictional donor specimens are submitted. Four establish grafts; three yield 
 
 ## Related concepts
 
+- [PDX, organoid or tumor fragment: choose by the question](/wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment)
 - [Organoid](/wiki/education/concepts/measurement/functional-models/organoid)
 - [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity)
 - [Controlled perturbation](/wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls)
@@ -115,6 +116,7 @@ Source check: November 7, 2026. Model mechanisms and measurement limits; expert 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
+- [Test a mechanism in a living model](/wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model)
 <!-- END GENERATED USED IN -->

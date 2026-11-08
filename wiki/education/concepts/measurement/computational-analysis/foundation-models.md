@@ -7,7 +7,7 @@ glossary_anchor: "foundation-model"
 aliases: ["foundation model", "foundation models", "biological foundation model", "pretrained biological model"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/measurement/computational-analysis/model-validation-basics]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/01-choose-a-model]]","[[wiki/education/guides/predicting-response-before-treating/index]]"]
 sensitive: false
 tags: ["education", "model-trust"]
 updated: "2026-10-10"
@@ -104,6 +104,6 @@ Source check: October 10, 2026. The exercise is fictional. Named models illustra
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
 <!-- END GENERATED USED IN -->

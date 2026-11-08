@@ -7,7 +7,7 @@ summary: "Targeted lipid nanoparticles use formulation or surface features to fa
 aliases: ["targeted LNP", "tLNP", "selective organ targeting", "SORT"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle]]", "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: "2026-10-10"
@@ -108,5 +108,5 @@ Source check: October 10, 2026; expert and learner review pending. These primary
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
+- [How to engineer T cells inside the body](/wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery)
 <!-- END GENERATED USED IN -->

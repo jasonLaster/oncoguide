@@ -6,7 +6,7 @@ summary: "Stereotactic body radiation therapy (SBRT) uses specialized stereotact
 aliases: ["SBRT comparison", "stereotactic vs conventional radiation"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics]]", "[[wiki/education/concepts/therapeutics/local-therapies/hypofractionation]]", "[[wiki/education/concepts/therapeutics/local-therapies/sbrt]]"]
-used_by: []
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment", "comparison"]
 updated: "2026-11-07"
@@ -84,3 +84,11 @@ Explain the difference between “How was the target located and treated?” and
 ## Sources and scope
 
 *Sources checked 2026-10-12: ASTRO—abstract and selected scope, nomenclature, localization, planning and quality-assurance passages; NCI—selected external-beam technique, positioning and schedule sections; FAST-Forward—complete abstract only, rechecked 2026-11-07 for the schedules. Independent reviews remain pending.*
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Compare related ideas](/wiki/education/comparisons/index)
+- [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
+- [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)
+<!-- END GENERATED USED IN -->

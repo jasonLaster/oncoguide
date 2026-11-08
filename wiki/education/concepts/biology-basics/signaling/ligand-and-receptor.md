@@ -7,7 +7,7 @@ glossary_anchor: "ligand"
 aliases: ["ligand", "receptor"]
 level: "foundation"
 prerequisites: []
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr]]","[[wiki/education/oncology-101/1-ligands]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism]]","[[wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 updated: 2026-11-07
@@ -112,7 +112,7 @@ One answer: “which partners interact; a measurement of the proposed action; a 
 ## Related concepts
 
 - [Drug targets and mechanisms](/wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism).
-- [The supporting binding lesson](/wiki/education/oncology-101/1-ligands).
+- [The supporting binding lesson](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism).
 
 ## Sources and scope
 
@@ -128,8 +128,8 @@ Comparison source check: October 12, 2026. The named research studies were check
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
+- [Separate the address from the killing mechanism](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism)
+- [Cytokines and programmable receptors](/wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors)
 - [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
-- [Notch, Wnt, and FGFR: locate the signal before choosing a target](/wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr)
-- [Ask what happens after binding](/wiki/education/oncology-101/1-ligands)
+- [Locate the active signaling step](/wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step)
 <!-- END GENERATED USED IN -->

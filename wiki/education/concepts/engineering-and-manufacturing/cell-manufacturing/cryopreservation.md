@@ -7,7 +7,7 @@ glossary_anchor: "cryopreservation"
 aliases: ["cryopreservation","viable cryopreservation","cryopreserved cells"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery]]"]
 sensitive: false
 tags: ["education","engineering-and-manufacturing"]
 updated: 2026-11-07
@@ -33,7 +33,9 @@ The pause analogy has a limit: freezing and thawing can kill cells, change the r
 
 As water freezes, ice formation and changing solute concentrations can injure cells. Cooling rate and water movement influence whether damaging ice forms inside cells. Preservation methods control those stresses for the particular material.
 
-A **cryoprotectant** helps limit freezing injury. Dimethyl sulfoxide (DMSO) is the usual one for cell products, typically at a few percent of the final formulation: the YESCARTA (axicabtagene ciloleucel) label describes a formulation containing 5% DMSO and 2.5% human albumin ([DailyMed label, section 11](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59)). The cryoprotectant is infused with the thawed cells, so it is also a clinical exposure: that label attributes possible hypersensitivity reactions to DMSO or residual gentamicin. Concentration, exposure and risk remain product-specific, and a familiar ingredient does not validate a new freezing method.
+A **cryoprotectant** helps limit freezing injury. Dimethyl sulfoxide (DMSO) is the usual one for cell products, typically at a few percent of the final formulation: the YESCARTA (axicabtagene ciloleucel) label describes a formulation containing 5% DMSO and 2.5% human albumin ([DailyMed label, section 11](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59)), while the KYMRIAH (tisagenlecleucel) label gives 7.5% (v/v) DMSO ([DailyMed label, section 11](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aad3ba54-dfd3-4cb3-9e2b-c5ef89559189)) — so even two approved autologous T-cell products do not share one number. The cryoprotectant is infused with the thawed cells, so it is also a clinical exposure: that label attributes possible hypersensitivity reactions to DMSO or residual gentamicin. Concentration, exposure and risk remain product-specific, and a familiar ingredient does not validate a new freezing method.
+
+**Storage is cold enough to stop molecular motion, not merely to keep the cells frozen.** Approved autologous [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) T-cell products are held at or below about −120 °C, which in practice means a mechanical freezer or the vapor phase of liquid nitrogen rather than an ordinary −20 °C or −80 °C freezer. The YESCARTA label directs storage at ≤ −120 °C and ships the product in a liquid-nitrogen dry shipper at ≤ −150 °C, allowing one transfer to −80 °C (± 10 °C) for up to 90 days, with no return to colder storage afterwards ([DailyMed label, section 16](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59)). The KYMRIAH label directs storage in a temperature-monitored system at or below −120 °C, for example in the vapor phase of liquid nitrogen ([DailyMed label, section 16](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aad3ba54-dfd3-4cb3-9e2b-c5ef89559189)). Read each product's own label: these two differ in their permitted excursions, and in DMSO content.
 
 The preservation process includes the formulation, container, freezing, storage, transport and thawing conditions. [Chain of identity and custody](/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody) maintains the link to the collected cells and intended product throughout.
 
@@ -53,7 +55,7 @@ A starting collection and a finished cell therapy are different preservation sta
 
 Preservation can separate collection, manufacture and treatment dates. It can support transport and provide time for testing. It also introduces another source of cell loss and variability.
 
-In a primary National Institutes of Health (NIH) study, Panch and colleagues measured characteristics of cryopreserved starting material and autologous [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) T-cell products. It illustrates why post-thaw recovery and cell attributes need testing in the actual workflow, rather than assuming every frozen product behaves alike.
+In a primary National Institutes of Health (NIH) study, Panch and colleagues measured characteristics of cryopreserved starting material and autologous CAR T-cell products. It illustrates why post-thaw recovery and cell attributes need testing in the actual workflow, rather than assuming every frozen product behaves alike.
 
 Cell preservation differs from freezing RNA-vaccine vials. RNA stability and particle behavior are different quality questions. “Keep frozen” is not a common handling protocol for all living cells and nucleic-acid products.
 
@@ -97,11 +99,12 @@ Each dot stands for one million cells in this invented counting example. Teal do
 
 ## Sources and scope
 
-Source check: November 7, 2026 (DMSO concentration and exposure); October 9, 2026 (rest); expert and learner review pending. This is not a freezing, thawing or infusion recipe. Practice counts are fictional.
+Source check: November 8, 2026 (storage temperatures and the two labels' DMSO contents); November 7, 2026 (DMSO exposure); October 9, 2026 (rest); expert and learner review pending. This is not a freezing, thawing or infusion recipe. Practice counts are fictional.
 
 - [Mazur, 1963](https://pubmed.ncbi.nlm.nih.gov/14085017/) — water movement, cooling rate and intracellular freezing.
 - [Panch et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31178392/) — 158 autologous CAR T-cell products from six single-center trials: cryopreserving the starting mononuclear cells lowered their viability but did not change final fold expansion, transduction efficiency, CD3% or CD4:CD8 ratio, and persistence and clinical responses did not differ between fresh and cryopreserved final products (abstract checked November 7, 2026).
-- [YESCARTA prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59) — 5% DMSO and 2.5% albumin in the formulation; hypersensitivity reactions attributed in part to DMSO; checked November 7, 2026.
+- [YESCARTA prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59) — 5% DMSO and 2.5% albumin in the formulation; hypersensitivity reactions attributed in part to DMSO (checked November 7, 2026); section 16 storage at ≤ −120 °C, shipping at ≤ −150 °C and the single permitted −80 °C excursion (section text checked November 8, 2026).
+- [KYMRIAH prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aad3ba54-dfd3-4cb3-9e2b-c5ef89559189) — section 16 storage in a temperature-monitored system at or below −120 °C, and 7.5% (v/v) DMSO in section 11 (section text checked November 8, 2026).
 - [Wang et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30910382/) — product-specific post-thaw functional-assay conditions.
 - [FDA final CAR T-cell guidance, January 2024](https://www.fda.gov/media/156896/download) — preservation, shipping, stability and in-use handling.
 
@@ -111,6 +114,5 @@ Visual relationship check: October 13, 2026. The new illustration was checked ag
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
-- [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
+- [How to engineer T cells inside the body](/wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery)
 <!-- END GENERATED USED IN -->

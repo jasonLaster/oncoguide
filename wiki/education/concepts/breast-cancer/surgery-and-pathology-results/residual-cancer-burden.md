@@ -11,8 +11,8 @@ reviewed_by: ""
 level: foundation
 sensitive: false
 tags: [education, breast-cancer]
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]"]
-updated: 2026-11-07
+used_by: ["[[wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work]]","[[wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
+updated: 2026-11-08
 source_checked: 2026-11-07
 review_status: "Expert and learner review pending"
 ---
@@ -83,7 +83,7 @@ RCB and ypTNM answer related but different questions: one summarizes residual bu
 
 RCB grades "residual disease" instead of treating it as one category. In plain terms: RCB-0 is pCR, RCB-I is minimal residual disease, RCB-II moderate and RCB-III extensive.
 
-In a pooled analysis of 5,161 patients from 12 institutions and trials treated with neoadjuvant chemotherapy, a higher RCB score meant worse event-free survival in every subtype [1]. Each one-unit increase raised the hazard of an event by a factor of 1.55 to 2.16, depending on subtype. In hormone receptor-negative, human epidermal growth factor receptor 2 (HER2)-negative (triple-negative) disease, the adjusted hazard ratio per unit was 1.93 (95% CI 1.74–2.13) [1]. So the difference between RCB-I and RCB-III is large, not cosmetic.
+In a pooled analysis of 5,161 patients from 12 institutions and trials treated with neoadjuvant chemotherapy, a higher RCB score meant worse event-free survival in every subtype [1]. Each one-unit increase raised the hazard of an event by a factor of 1.55 to 2.16, depending on subtype, and by 1.52 to 2.09 after adjustment for age, grade, tumor size category and nodal status. In hormone receptor-negative, human epidermal growth factor receptor 2 (HER2)-negative (triple-negative) disease, the adjusted hazard ratio per unit was 1.93 (95% CI 1.74–2.13) [1]. So the difference between RCB-I and RCB-III is large, not cosmetic.
 
 That is prognostic evidence. Which added treatment helps after residual disease is a separate, comparative question; see [post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation).
 
@@ -123,10 +123,10 @@ General teaching, source-checked November 7, 2026 (Yau figures from the abstract
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Sequence the work and respect what cannot be undone](/wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work)
 - [Read residual disease and margins](/wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Use the findings in the next conversation](/wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
-- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
 <!-- END GENERATED USED IN -->

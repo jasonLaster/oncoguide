@@ -7,10 +7,10 @@ glossary_anchor: "cytokine-and-chemokine"
 aliases: ["cytokine", "chemokine", "interleukin"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-10-10
+updated: 2026-11-08
 source_checked: 2026-10-10
 reviewed: "pending"
 reviewed_by: ""
@@ -88,6 +88,8 @@ Why can the same cytokine produce different responses, and why can two equal con
 
 ## Related concepts
 
+- [T-cell exclusion mechanisms](/wiki/education/concepts/immunology/tumor-immunology/t-cell-exclusion-mechanisms), for chemokines that recruit T cells into tumors
+- [CD4 T-cell subsets](/wiki/education/concepts/immunology/t-cells/cd4-t-cell-subsets), for cytokines that steer helper programs
 - [Lymph nodes and lymphatics](/wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics)
 - [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals)
 
@@ -102,7 +104,7 @@ Source-checked October 10, 2026. Signaling and migration foundations; invented c
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Cytokines and programmable receptors](/wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors)
-- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
-- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
+- [Cytokines and programmable receptors](/wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors)
+- [How dendritic cells help start a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response)
+- [How T cells reach a tumor, and what keeps them out](/wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor)
 <!-- END GENERATED USED IN -->

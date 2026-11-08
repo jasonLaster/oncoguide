@@ -13,7 +13,7 @@ reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 tags: [education, evidence-and-statistics]
 ---
 
@@ -68,7 +68,7 @@ Read the endpoint, origin, cutoff, censoring rules, number-at-risk table and [co
 
 ## Why it matters in cancer
 
-A recurrence curve may treat death as a competing event. Censoring deaths and taking `1 − Kaplan–Meier` does not automatically estimate the real-world probability of recurrence; a competing-risk analysis addresses that different question. The nonparametric **cumulative incidence** estimate (the Aalen–Johansen estimator) gives that probability; Fine–Gray is a separate regression model for covariate effects on the subdistribution hazard [Austin and colleagues, 2016](https://pubmed.ncbi.nlm.nih.gov/26858290/).
+A recurrence curve may treat death as a [competing event](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks). Censoring deaths and taking `1 − Kaplan–Meier` overstates the real-world probability of recurrence. The nonparametric **cumulative incidence** estimate (the Aalen–Johansen estimator) gives that probability; Fine–Gray is a separate regression model for covariate effects on the subdistribution hazard [Austin and colleagues, 2016](https://pubmed.ncbi.nlm.nih.gov/26858290/).
 
 ## Common confusions
 
@@ -88,6 +88,8 @@ In the fictional example, what is known about the censored person's month-3 recu
 
 Explain why an event lowers the line while censoring changes a later denominator.
 
+**One possible answer:** An event means one of the people at risk had the outcome, so the estimate drops; a censored person had no observed event, so the estimate stays level, but that person no longer counts in later risk sets.
+
 ## Takeaway
 
 Read the curve with its event rules, clock, risk table and uncertainty.
@@ -97,6 +99,7 @@ Read the curve with its event rules, clock, risk table and uncertainty.
 - [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) define the clock and event rules.
 - [Absolute risk and number needed to treat](/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt) compare suitable estimates at the same time.
 - [Confidence intervals](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval) show precision under the analysis.
+- [Competing risks and cumulative incidence](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks) handle events that prevent the event of interest.
 
 ## Sources and scope
 

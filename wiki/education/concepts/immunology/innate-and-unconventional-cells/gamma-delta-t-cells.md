@@ -7,7 +7,7 @@ glossary_anchor: "gamma-delta-t-cells"
 aliases: ["gamma-delta T cells", "gamma delta T cells", "γδ T cells", "Vδ1", "Vγ9Vδ2"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/02-car-tcr-til-comparison]]","[[wiki/education/cellular-therapies/index]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/09-car-tcr-til-comparison]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "immunology", "gamma-delta-T-cells"]
 updated: 2026-11-07
@@ -119,8 +119,6 @@ Source check: October 10, 2026; expert and learner review pending. The exercise 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Compare immune-cell recognition systems](/wiki/education/cellular-therapies/02-car-tcr-til-comparison)
-- [Cell-therapy lesson library](/wiki/education/cellular-therapies/index)
+- [Compare immune-cell recognition systems](/wiki/education/guides/engineered-cell-therapy/09-car-tcr-til-comparison)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)
 <!-- END GENERATED USED IN -->

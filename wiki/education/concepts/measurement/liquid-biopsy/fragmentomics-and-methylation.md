@@ -16,7 +16,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]"
   - "[[wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation]]"
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]"]
 ---
 
 # Fragmentomics and methylation in cell-free DNA
@@ -123,5 +123,4 @@ Source check: November 7, 2026. Measurement principles and scoped experiments, n
 ## Used in
 
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
-- [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
 <!-- END GENERATED USED IN -->

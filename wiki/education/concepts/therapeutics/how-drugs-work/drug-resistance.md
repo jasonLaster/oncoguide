@@ -7,7 +7,7 @@ glossary_anchor: "drug-resistance"
 aliases: ["drug resistance", "treatment resistance", "acquired resistance", "intrinsic resistance"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism]]", "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"]
-used_by: ["[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-11-07"
@@ -114,5 +114,5 @@ Source check: October 9, 2026. General resistance reasoning; all cell counts are
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
+- [Find the step an immune response can lose](/wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step)
 <!-- END GENERATED USED IN -->

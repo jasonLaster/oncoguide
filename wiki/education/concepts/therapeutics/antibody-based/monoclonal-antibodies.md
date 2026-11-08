@@ -9,7 +9,7 @@ level: "intermediate"
 prerequisites:
   - "[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]"
   - "[[wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope]]"
-used_by: ["[[wiki/education/targeted-therapy-modalities/01-mechanism]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/index]]"]
 sensitive: false
 tags: ["education", "therapeutics"]
 updated: "2026-11-07"
@@ -111,5 +111,6 @@ Source-checked October 10, 2026. Expert and learner review remain pending. This 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
+- [Separate the address from the killing mechanism](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism)
+- [Aiming a drug at a surface target](/wiki/education/guides/aiming-a-drug-at-a-surface-target/index)
 <!-- END GENERATED USED IN -->

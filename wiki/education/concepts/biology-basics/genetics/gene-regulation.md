@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/biology-basics/molecules/gene]]"
-used_by: ["[[wiki/education/index]]"]
+used_by: []
 sensitive: false
 tags: [education, biology-basics]
 updated: 2026-11-07
@@ -109,5 +109,5 @@ Source check: November 7, 2026. General molecular teaching; the exercise is fict
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Learn the biology and evidence](/wiki/education/index)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

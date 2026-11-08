@@ -9,14 +9,14 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]"
   - "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity]]","[[wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: 2026-11-07
+source_checked: 2026-11-08
 tags: [education, DNA-repair]
-updated: 2026-11-07
+updated: 2026-11-08
 ---
 
 # Genomic scars
@@ -45,15 +45,9 @@ A **megabase (Mb)** is one million DNA bases. The LST rule concerns adjacent seg
 
 This page concentrates on the chromosome-scale scars. Sequence-level scars, such as the single-base signature SBS3 and small deletions flanked by short repeated sequences (microhomology), are counted from mutation patterns instead; tools such as HRDetect combine both kinds. See [mutational signatures](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures).
 
-### Composite scores and cutoffs
+### Composite scores
 
-Most reports a reader meets give one **composite homologous recombination deficiency (HRD) score** rather than three counts. In the best-known form, the score is the unweighted sum of the LOH, TAI and LST counts. Telli and colleagues applied that sum in three neoadjuvant TNBC trials of platinum-containing chemotherapy, defining homologous recombination (HR) deficiency as a score of at least 42 or a BRCA1/2 mutation. HR-deficient tumors were more likely to reach [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) or minimal [residual cancer burden (RCB 0/I)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden) on those platinum regimens. [Telli 2016](https://pubmed.ncbi.nlm.nih.gov/26957554/).
-
-Three things travel with any composite number:
-
-1. **The scale.** Laboratories compute their own scores from their own segmentation and normalization. A 45 on one assay is not a 45 on another, so one laboratory's number cannot be read against another's cutoff.
-2. **The cutoff's origin.** A threshold is set in a particular training population, for a particular question. The 42 cutoff above was tested for response to platinum-containing neoadjuvant chemotherapy, not for every drug or for recurrence risk.
-3. **The intended use.** An association with response in a study population is not by itself a drug-selection rule; a regulator-approved use names the assay, the cancer and the drug together.
+Most reports a reader meets give one composite homologous recombination deficiency (HRD) score rather than three counts, often the sum of the LOH, TAI and LST counts. [Composite HRD scores](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores) explains how the sum and its cutoffs are built, which trials tested them, and why one laboratory's number cannot be read against another's threshold.
 
 <img src="./images/genomic-scars-chromosome-tracks-v1-light.svg" alt="Chromosome-region tracks contrast A/B, copy-loss LOH and copy-neutral LOH; an end-reaching imbalance and two within-arm segment transitions show distinct scar-counting questions." width="780" height="1360" data-theme-pair>
 
@@ -72,7 +66,7 @@ flowchart TD
 
 ## Why it matters in cancer
 
-Scars can preserve evidence after the process that helped create them changes. An earlier BRCA repair defect and later repair restoration can coexist in the same tumor history. Reversion and non-reversion resistance mechanisms were documented in a selected metastatic breast cancer cohort. An old scar should therefore not be treated as a live demonstration of defective repair. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
+Scars can preserve evidence after the process that helped create them changes. An earlier BRCA repair defect and later repair restoration can coexist in the same tumor history. Reversion and non-reversion resistance mechanisms were documented in a selected metastatic breast cancer cohort. An old scar should therefore not be treated as a live demonstration of defective repair; see [BRCA reversion mutations](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations). [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
 
 ## Assay card
 
@@ -112,20 +106,21 @@ What additional question remains after a scar assay suggests past repair impairm
 
 - [Mutational signatures](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures) examine patterns across sequence changes.
 - [BRCA1 and BRCA2](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2) separate variant findings from repair function.
+- [Composite HRD scores](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores) add the scar counts into one reported number.
+- [BRCA reversion mutations](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations) explain how repair returns while scars remain.
 
 ## Sources
 
-Source check: 2026-10-09. Algorithm definitions and interpretation education; expert and learner review pending. No universal threshold or validated individual sensitivity is asserted.
+Source check: 2026-11-08. Algorithm definitions and interpretation education; expert and learner review pending. No universal threshold or validated individual sensitivity is asserted.
 
 - [Abkevich and colleagues 2012: an LOH-based score in epithelial ovarian cancer](https://pubmed.ncbi.nlm.nih.gov/23047548/).
 - [Birkbak and colleagues 2012: telomeric allelic imbalance in cell lines and defined tumor cohorts](https://pubmed.ncbi.nlm.nih.gov/22576213/); [2013 correction adds TCGA data attribution](https://doi.org/10.1158/2159-8290.CD-13-0326).
 - [Popova and colleagues 2012: original LST definition in basal-like breast carcinoma, page 5457](https://pubmed.ncbi.nlm.nih.gov/22933060/).
-- [Telli and colleagues 2016: composite scar score in platinum-containing neoadjuvant TNBC studies](https://pubmed.ncbi.nlm.nih.gov/26957554/).
 - [Waks and colleagues 2020: repair restoration in selected resistant metastatic breast cancers](https://pubmed.ncbi.nlm.nih.gov/32245699/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [Connect repair biology to PARP sensitivity](/wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity)
-- [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
+- [Integrate the evidence and meet the clinical gate](/wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence)
 <!-- END GENERATED USED IN -->

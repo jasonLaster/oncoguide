@@ -17,7 +17,7 @@ prerequisites:
   - "[[wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr]]"
   - "[[wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen]]"
   - "[[wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy]]"
-used_by: ["[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
+used_by: ["[[wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial]]","[[wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question]]","[[wiki/education/guides/reading-pathology-and-surgery-results/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation]]","[[wiki/education/guides/treating-early-tnbc/index]]"]
 ---
 
 # Post-neoadjuvant escalation after residual disease
@@ -117,6 +117,7 @@ Source-checked November 7, 2026 against primary abstracts and ClinicalTrials.gov
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Read a real trial: KEYNOTE-522](/wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial)
 - [Build the next question](/wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question)
 - [Read pathology and surgery results](/wiki/education/guides/reading-pathology-and-surgery-results/index)
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)

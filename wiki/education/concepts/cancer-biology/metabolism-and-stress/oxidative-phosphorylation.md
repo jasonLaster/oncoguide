@@ -7,7 +7,7 @@ glossary_anchor: "oxidative-phosphorylation"
 aliases: ["oxidative phosphorylation", "OXPHOS", "electron transport chain", "OCR"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-09"
@@ -94,7 +94,7 @@ One answer: “amount of messages; a measured rate; a functional dependence requ
 
 ## Related concepts
 
-[Reactive oxygen species](/wiki/education/concepts/cancer-biology/metabolism-and-stress/reactive-oxygen-species) distinguishes chemical signals and damage. [NRF2–KEAP1](/wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1) regulates stress defenses. [Ferroptosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis) concerns membrane-lipid damage. [The metabolism lesson](/wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress) connects the measurements without merging them.
+[Reactive oxygen species](/wiki/education/concepts/cancer-biology/metabolism-and-stress/reactive-oxygen-species) distinguishes chemical signals and damage. [NRF2–KEAP1](/wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1) regulates stress defenses. [Ferroptosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis) concerns membrane-lipid damage. [The metabolism lesson](/wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately) connects the measurements without merging them.
 
 ## Sources
 
@@ -109,6 +109,6 @@ Source check: 2026-10-09. General mechanism education; the worked example is fic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Oxidative metabolism and stress: energy, damage, and dependence](/wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress)
-- [Pathway mechanisms: a supporting lesson library](/wiki/education/molecular-profiling/evee-proposed-pathways)
+- [Measure energy and damage separately](/wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

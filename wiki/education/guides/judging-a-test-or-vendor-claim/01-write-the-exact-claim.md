@@ -51,7 +51,7 @@ A report often carries a chain of reasoning:
 
 Mark each part as measured, inferred, proposed, or unknown. An observation can be sound while later steps remain hypotheses. That preserves the value of the measurement without silently extending it.
 
-The [research-use, laboratory and test-status label](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) deserves its own line. Identify the exact laboratory, service and intended use. If treatment requires a [companion diagnostic](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics), check that label-defined requirement separately from a report's drug list.
+The [research-use, laboratory and test-status label](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-authorization) deserves its own line. Identify the exact laboratory, service and intended use. If treatment requires a [companion diagnostic](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics), check that label-defined requirement separately from a report's drug list.
 
 For a medicine, [approval pathways and expedited designations](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) answer a different status question. A development designation does not validate a test or authorize a drug's marketing.
 

@@ -7,7 +7,7 @@ glossary_anchor: "radiation"
 aliases: ["radiation", "radiotherapy", "RT", "external-beam radiation therapy", "EBRT"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/local-treatment-modalities/index]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism]]","[[wiki/education/guides/local-therapy-and-the-immune-system/02-timing]]","[[wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions]]","[[wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery]]","[[wiki/education/guides/treating-early-tnbc/index]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
 updated: "2026-11-07"
@@ -116,12 +116,12 @@ Source check: October 10, 2026. General radiation principles and planning vocabu
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Separate local injury from immune learning](/wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism)
+- [Put the disease setting before the clock](/wiki/education/guides/local-therapy-and-the-immune-system/02-timing)
+- [Read a proposal through five questions](/wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions)
+- [Compare delivery and recognition separately](/wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
 - [Read timing around surgery](/wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery)
 - [Understand how treatment is sequenced](/wiki/education/guides/treating-early-tnbc/index)
-- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
-- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
-- [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions)
-- [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons)
 - [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)
 <!-- END GENERATED USED IN -->

@@ -3,11 +3,11 @@ title: "Understand what a tumor model can predict"
 type: "guide"
 goal: "Explain what a dish, animal or computer model can test, and what evidence connects its result to patient care."
 audience: "Curious reader; basic cancer vocabulary helpful"
-minutes: 36
+minutes: 50
 sensitive: false
 tags: ["education", "functional-models"]
-updated: "2026-11-07"
-source_checked: "2026-11-07"
+updated: "2026-11-08"
+source_checked: "2026-11-08"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -19,14 +19,14 @@ review_status: "Source-checked; expert and learner review pending"
 
 It is natural to want to try a medicine on a tumor before giving it to a person. A dish, animal or computer model can answer useful parts of that question. Each preserves some biology and leaves other parts out. This course gives you a way to ask what the result actually earned.
 
-Plan about 36 minutes, or take one lesson at a time. If the model names are new, read their short concepts first. You do not need to master laboratory methods to explain the evidence boundary.
+Plan about 50 minutes, or take one lesson at a time. If the model names are new, read their short concepts first. You do not need to master laboratory methods to explain the evidence boundary.
 
 ## The big ideas
 
-1. A model is chosen for a particular question and decision window. Tumor fragments answer in days, organoids in weeks and xenografts in months. Complexity alone does not establish fidelity or accuracy.
+1. A model is chosen for a particular question and decision window. Tumor fragments answer in days, organoids in weeks and xenografts in months. Each is an [experimental setting](/wiki/education/concepts/measurement/functional-models/experimental-settings) that leaves something out; complexity alone does not establish accuracy.
 2. Identity, retained cell populations, exposure and controls determine what a response means.
 3. Growth, metabolic viability, cell death and computed [ribonucleic acid (RNA) predictions](/wiki/education/concepts/measurement/computational-analysis/virtual-cell-model) are different readouts.
-4. Clinical prediction belongs to an assay version, disease, treatment setting and outcome. Clinical utility asks whether acting on its result helps.
+4. Clinical prediction belongs to an assay version, disease, treatment setting and outcome. Published agreement studies are small and drug-specific, and none has yet shown that choosing solid-tumor treatment by a model helps patients.
 5. Feedback starts with a recorded prediction and independent outcome. Updating a model creates a new claim to evaluate.
 
 ## The map
@@ -36,7 +36,8 @@ flowchart TD
   Q["Name the response question"] --> A["1. Choose a suitable model"]
   A --> B["2. Check the experiment"]
   B --> C["3. Test clinical relevance and feedback"]
-  C --> U["State the justified claim and remaining gap"]
+  C --> D["4. Compare with what real studies found"]
+  D --> U["State the justified claim and remaining gap"]
 ```
 
 *Each box asks a new question. A positive result does not automatically complete the next box.*
@@ -45,21 +46,22 @@ flowchart TD
 
 | # | Lesson | Question it answers | Minutes | Learning aid |
 |---|---|---|---|---|
-| 1 | [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index) | Which biology must the model contain? | 12 | Four-candidate selection board with time to result |
+| 1 | [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model) | Which biology must the model contain? | 12 | Four-candidate selection board with time to result |
 | 2 | [Check what the experiment actually tests](/wiki/education/guides/predicting-response-before-treating/02-check-the-experiment) | Whose response was measured, under which conditions? | 12 | Experiment card and growth-versus-death example |
-| 3 | [Test clinical relevance and learn from feedback](/wiki/education/modeling-tumor-response/verification-and-feedback-loops) | What validates the intended prediction and use? | 12 | Evidence ladder, a real breast-slice study and the feedback loop |
+| 3 | [Test clinical relevance and learn from feedback](/wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops) | What validates the intended prediction and use? | 12 | Evidence ladder, a real breast-slice study worked from 30 biopsies to 15 agreeing results, and the feedback loop |
+| 4 | [What real concordance studies show](/wiki/education/guides/predicting-response-before-treating/04-what-concordance-studies-show) | How often have models agreed with patients, and has using them helped? | 14 | Funnel table of slice, organoid and xenograft studies, and two guided-treatment studies |
 
-Follow the lessons in order: choose the model, inspect the experiment, then test how far its result can travel.
+Follow the lessons in order: choose the model, inspect the experiment, test how far its result can travel, then compare with the published record.
 
 ## Concepts you will use
 
-**Living models:** Start with the side-by-side [PDX, organoid or tumor fragment comparison](/wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment). A [cell line](/wiki/education/concepts/measurement/functional-models/cell-lines) supplies a maintained population. An [organoid](/wiki/education/concepts/measurement/functional-models/organoid) preserves selected tissue features; [co-culture](/wiki/education/concepts/measurement/functional-models/co-culture) combines defined cell populations. [Ex vivo tumor fragments](/wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments) retain pieces of the sampled tissue. A [patient-derived xenograft (PDX)](/wiki/education/concepts/measurement/functional-models/patient-derived-xenograft) grows in an animal. An [ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen) can use several of these preparations.
+**Living models:** [Experimental settings](/wiki/education/concepts/measurement/functional-models/experimental-settings) name where a test happens. Then read the side-by-side [PDX, organoid or tumor fragment comparison](/wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment). A [cell line](/wiki/education/concepts/measurement/functional-models/cell-lines) supplies a maintained population. An [organoid](/wiki/education/concepts/measurement/functional-models/organoid) preserves selected tissue features; [co-culture](/wiki/education/concepts/measurement/functional-models/co-culture) combines defined cell populations. [Ex vivo tumor fragments](/wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments) retain pieces of the sampled tissue. A [patient-derived xenograft (PDX)](/wiki/education/concepts/measurement/functional-models/patient-derived-xenograft) grows in an animal. An [ex vivo drug screen](/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen) can use several of these preparations.
 
 **Build and measure:** [Bioprinting](/wiki/education/concepts/measurement/functional-models/bioprinting) arranges materials and cells; a [tumor-on-chip](/wiki/education/concepts/measurement/functional-models/tumor-on-chip) controls selected tissue and flow conditions. [Single-cell mass assays](/wiki/education/concepts/measurement/functional-models/single-cell-mass-assays) measure another kind of response. [Genetic dependency mapping](/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr) tests specified genetic interventions.
 
 **Prediction and comparison:** A [virtual cell model](/wiki/education/concepts/measurement/computational-analysis/virtual-cell-model) has a defined prediction task. A [foundation model](/wiki/education/concepts/measurement/computational-analysis/foundation-models) describes a reusable training approach. Learn [how a model earns trust](/wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust) and [how independent evaluation works](/wiki/education/concepts/measurement/computational-analysis/model-validation-basics) before comparing its performance with [analytical validity, clinical validity and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility).
 
-**Foundations:** [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) explains selection and sampling. [Multi-omics](/wiki/education/reading-a-tumor/omics-and-multi-omics) separates the objects measured.
+**Foundations:** [Tumor heterogeneity](/wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity) explains selection and sampling. [Multi-omics](/wiki/education/guides/what-multi-omics-tells-us/index) separates the objects measured.
 
 ## Check your understanding
 
@@ -73,12 +75,14 @@ In a fictional culture, a drug reduces growth under good controls. Researchers t
 
 ## What is still uncertain
 
-Published agreement studies are small and setting-specific: a breast-slice anthracycline assay matched MRI response in 15 of 20 evaluable patients but never called a tumor resistant ([Ladan 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/)). Those studies measure agreement, not whether choosing treatment by the model improves outcomes. A model may also omit a relevant population, change during establishment or use an exposure that does not translate to patients. Computation may fail in a new context. Even a strong clinical prediction may lack evidence that its use improves care. Keep those gaps beside the useful result.
+Published agreement studies are small and setting-specific: a breast-slice chemotherapy assay matched magnetic resonance imaging (MRI) response in 15 of 20 evaluable patients but never called a tumor resistant ([Ladan 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/)). A pooled review of 17 organoid studies found no randomized trial of organoid-guided treatment ([Wensink 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8042051/)). When colorectal patients were treated with organoid-selected drugs, none of 6 responded ([Ooft 2021](https://pubmed.ncbi.nlm.nih.gov/33887686/)). Agreement is not proof that choosing treatment by the model improves outcomes. A model may also omit a relevant population, change during establishment or use an exposure that does not translate to patients. Computation may fail in a new context. Even a strong clinical prediction may lack evidence that its use improves care. Keep those gaps beside the useful result.
 
 ## Sources and scope
 
-Source check: November 7, 2026. General model-reading education; laboratory and computer models only (blood and imaging prediction during treatment is covered in [understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)); each lesson supplies its primary and method sources. Expert and learner review remain pending.
+Source check: November 8, 2026. General model-reading education; laboratory and computer models only (blood and imaging prediction during treatment is covered in [understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)); each lesson supplies its primary and method sources. Expert and learner review remain pending.
 
 - [Neal et al., 2018: selected immune-containing organoid experiments](https://pubmed.ncbi.nlm.nih.gov/30550791/).
 - [Ladan et al., 2023: a specified ex vivo breast-cancer assay and clinical-response comparison](https://pubmed.ncbi.nlm.nih.gov/37777518/).
 - [Ahlmann-Eltze et al., 2025: task-specific perturbation-prediction evaluation](https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/).
+- [Wensink et al., 2021: organoids as a predictive biomarker, systematic review](https://pmc.ncbi.nlm.nih.gov/articles/PMC8042051/).
+- [Ooft et al., 2021: organoid-guided treatment in colorectal cancer (SENSOR)](https://pubmed.ncbi.nlm.nih.gov/33887686/).

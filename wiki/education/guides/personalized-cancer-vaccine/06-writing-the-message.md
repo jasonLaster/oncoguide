@@ -97,7 +97,7 @@ One answer: “the RNA sequence while preserving the intended amino acids; the c
 
 **Review each change at the biological layer it can affect, and connect the final message to the exact version manufactured.**
 
-**Next:** [Manufacture a defined product](/wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured).
+**Next:** [Manufacture a defined product](/wiki/education/guides/personalized-cancer-vaccine/07-making-the-product).
 
 ## Sources and scope
 

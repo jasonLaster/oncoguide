@@ -3,14 +3,14 @@ title: "Understand access to an experimental therapy"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-11-07"
+updated: "2026-11-08"
 source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 goal: "Understand how an approved or investigational therapy could become a feasible clinician-led option, with uncertainty and access gates kept visible."
 audience: "Patients and caregivers exploring a proposed treatment; no regulatory background assumed."
-minutes: 46
+minutes: 58
 ---
 
 # Understand access to an experimental therapy
@@ -40,6 +40,7 @@ flowchart TD
   D --> G["3. Readiness ledger: consent, supply, monitoring"]
   F --> G
   C --> G
+  G --> H["5. Sequence the work; some steps cannot be undone"]
 ```
 
 *Lesson numbers sit on the boxes. A pathway becomes usable only when its gates are resolved.*
@@ -54,6 +55,7 @@ Minutes are suggested reading budgets. Each lesson includes a fictional case, a 
 | 2 | [Check a real trial opportunity](/wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity) | Can the relevant site and cohort evaluate this patient now? | 12 | Screening record and randomization example |
 | 3 | [Build the readiness picture](/wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture) | Who supplies, reviews, delivers and monitors treatment? | 12 | Readiness ledger and timing example |
 | 4 | [Walk the non-trial route](/wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route) | When no trial fits, how does a single-patient request work, and who pays? | 10 | Five-owner step table and charging rule |
+| 5 | [Sequence the work and respect what cannot be undone](/wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work) | Which activities can run in parallel, and which choices cannot be taken back? | 12 | Hard-dependency table and a two-laboratory worksheet |
 
 ## Concepts you will use
 
@@ -77,7 +79,7 @@ Practical availability changes. A study may pause enrollment, a cohort may fill,
 
 ## Sources and scope
 
-U.S. integration source check: November 7, 2026 (lesson 4 and big idea 2); retained examples and other source scopes last checked October 9, 2026. General education; expert and learner review pending. No individual eligibility or access determination is made here.
+U.S. integration source check: November 8, 2026 (lesson 4's emergency timing and charging rule, and lesson 5 joining the guide); November 7, 2026 (lesson 4 and big idea 2); retained examples and other source scopes last checked October 9, 2026. General education; expert and learner review pending. No individual eligibility or access determination is made here.
 
 - [FDA: expanded access and other treatment options](https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options) — route categories.
 - [FDA: expanded access request forms](https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms) — Form FDA 3926 and the 99% figure.

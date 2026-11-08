@@ -6,7 +6,7 @@ aliases: ["MSI", "MSI-H", "MSI-high", "microsatellite instability"]
 summary: "Microsatellite instability is alteration of short repeated DNA sequences; mismatch-repair deficiency is impaired correction of DNA copying errors that can produce that pattern."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]", "[[wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry]]"]
-used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]"]
 glossary_anchor: "msi"
 sensitive: false
 tags: ["education", "measurement"]
@@ -99,5 +99,5 @@ Source check: October 10, 2026. Assay comparison and clinical boundaries; the ex
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
 <!-- END GENERATED USED IN -->

@@ -43,9 +43,9 @@ These situations require different follow-up. A failed literature search cannot 
 
 ## How it works
 
-Read the effect estimate with its [confidence interval (CI)](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval), rather than turning “not statistically significant” into “no effect.” A wide interval may leave important benefit and harm unresolved. Precision addresses sampling uncertainty under the analysis; it does not remove every bias. [Greenland et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/).
+Read the effect estimate with its [confidence interval (CI)](/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval), rather than turning “not statistically significant” into “no effect.” A wide interval may leave important benefit and harm unresolved, often because the study had too few events for adequate [statistical power](/wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size). Precision addresses sampling uncertainty under the analysis; it does not remove every bias. [Greenland et al., 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/).
 
-More informative evidence can exclude effects larger than a specified meaningful threshold under a sound design. Formal **equivalence testing** starts with justified, preferably prespecified lower and upper bounds and an appropriate analysis. It is a distinct question from testing whether a difference equals zero. It does not prove perfect equality or make the bounds meaningful for every person and outcome. [Lakens, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5502906/).
+More informative evidence can exclude effects larger than a specified meaningful threshold under a sound design. Formal **equivalence testing** starts with justified, preferably prespecified lower and upper bounds and an appropriate analysis. It is a distinct question from testing whether a difference equals zero; [non-inferiority trials](/wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials) use a one-sided version. It does not prove perfect equality or make the bounds meaningful for every person and outcome. [Lakens, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5502906/).
 
 ## Why it matters in cancer
 

@@ -93,4 +93,4 @@ Source check: October 10, 2026; expert and learner review pending. The TNBC-MERI
 
 - [TNBC-MERIT primary study](https://www.nature.com/articles/s41586-025-10004-2) — small single-arm intravenous RNA-lipoplex study in triple-negative breast cancer.
 - [Primary pancreatic-cancer RNA-lipoplex study](https://www.nature.com/articles/s41586-023-06063-y) — a different population and combined treatment setting.
-- [TCR sequencing lesson](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing) — assay mechanics and primary references.
+- [TCR sequencing lesson](/wiki/education/guides/how-the-immune-system-fights-cancer/09-read-a-tcr-sequencing-report) — assay mechanics and primary references.

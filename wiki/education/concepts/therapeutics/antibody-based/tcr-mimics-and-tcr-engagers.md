@@ -7,7 +7,7 @@ glossary_anchor: "tcr-mimics-and-tcr-engagers"
 aliases: ["TCR-mimic antibody", "TCR mimic", "soluble TCR engager"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]", "[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]"]
-used_by: ["[[wiki/education/targeted-therapy-modalities/01-mechanism]]","[[wiki/education/targeted-therapy-modalities/06-comparisons]]"]
+used_by: ["[[wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism]]","[[wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons]]"]
 sensitive: false
 tags: ["education", "therapeutics", "immunology"]
 updated: "2026-10-10"
@@ -116,6 +116,6 @@ Source check: October 10, 2026. Mechanism studies are limited to their construct
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Separate the address from the killing mechanism](/wiki/education/targeted-therapy-modalities/01-mechanism)
-- [Compare formats with evidence and normal-tissue risk](/wiki/education/targeted-therapy-modalities/06-comparisons)
+- [Separate the address from the killing mechanism](/wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism)
+- [Compare formats with evidence and normal-tissue risk](/wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons)
 <!-- END GENERATED USED IN -->

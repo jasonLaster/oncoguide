@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/germline-vs-somatic]]"
   - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]"]
 sensitive: false
 tags: [education, breast-cancer, genetics]
 updated: 2026-10-10
@@ -98,5 +98,5 @@ Source check: October 10, 2026. Examples are fictional; expert and learner revie
 ## Used in
 
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
 <!-- END GENERATED USED IN -->

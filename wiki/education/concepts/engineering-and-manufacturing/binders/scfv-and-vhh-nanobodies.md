@@ -7,7 +7,7 @@ glossary_anchor: "scfv-and-vhh-nanobodies"
 aliases: ["scFv", "single-chain variable fragment", "VHH", "nanobody"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/therapeutics/cell-therapies/car-anatomy]]"]
-used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks]]","[[wiki/education/guides/engineered-cell-therapy/index]]"]
 sensitive: false
 tags: ["education", "engineering-and-manufacturing"]
 updated: 2026-11-07
@@ -41,7 +41,7 @@ Camelids also make naturally occurring heavy-chain antibodies without light chai
 
 Both formats can supply the binding region of a [chimeric antigen receptor (CAR)](/wiki/education/concepts/therapeutics/cell-therapies/car-anatomy) or appear in other molecular therapies. Neither isolated format contains any of the antibody constant region that normally helps recruit immune machinery. Those functions require other components in the finished design. A CAR also needs its membrane and signaling regions; the binder alone is not the receptor.
 
-**The size difference is large.** An intact monoclonal antibody is about 150 kilodaltons (kDa); a monovalent scFv is about 25 to 30 kDa ([NCBI molecular-imaging monograph](https://pubmed.ncbi.nlm.nih.gov/20641540/)); a single-domain VHH can be as small as about 15 kDa ([Bathula et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32936001/)). That is roughly a fifth and a tenth of an antibody's mass, which is why these formats clear from blood faster and are described as penetrating tissue better — a property of the soluble protein, not of a cell carrying it.
+**The size difference is large.** An intact monoclonal antibody is about 150 kilodaltons (kDa); a monovalent scFv is about 25 to 27 kDa ([NCBI molecular-imaging monograph](https://pubmed.ncbi.nlm.nih.gov/20641540/)); a single-domain VHH is about 12 to 15 kDa ([Bathula et al., 2021](https://pubmed.ncbi.nlm.nih.gov/32936001/)). That is roughly a sixth and a twelfth of an antibody's mass, which is why these formats clear from blood faster and are described as penetrating tissue better — a property of the soluble protein, not of a cell carrying it.
 
 Format affects geometry and engineering options. A VHH has one domain, while an scFv has a paired-domain interface and linker. Either may be joined to additional binding units. An isolated single binding domain has one recognition site; joining several domains can change the number and geometry of contacts. **Affinity** describes an individual interaction; **avidity** describes the combined strength of multiple interactions. Compare matched formats rather than assuming that a multivalent molecule has improved intrinsic affinity. A small binding module on a cell does not make that whole living cell penetrate tissue like a small soluble protein.
 
@@ -109,6 +109,6 @@ Source check: November 7, 2026 (format masses, constant-region wording); October
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks)
+- [Building an engineered T cell](/wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
 <!-- END GENERATED USED IN -->

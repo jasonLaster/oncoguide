@@ -7,7 +7,7 @@ glossary_anchor: "pi3k-akt-mtor"
 aliases: ["PI3K", "AKT", "mTOR", "mTORC1", "mTORC2"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"]
-used_by: ["[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: 2026-11-07
@@ -96,7 +96,7 @@ One answer: “lipids; proteins; controlled functional perturbation and cellular
 ## Related concepts
 
 - [Ligands and receptors](/wiki/education/concepts/biology-basics/signaling/ligand-and-receptor): incoming cues.
-- [The growth-and-resource lesson](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor).
+- [The growth-and-resource lesson](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair).
 
 ## Sources and scope
 
@@ -115,6 +115,5 @@ Source check: November 7, 2026. General mechanism education; the culture is fict
 ## Used in
 
 - [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
-- [Lipid supply and mTOR: measuring resource control](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor)
-- [Pathway mechanisms: a supporting lesson library](/wiki/education/molecular-profiling/evee-proposed-pathways)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

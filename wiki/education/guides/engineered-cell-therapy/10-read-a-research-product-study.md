@@ -3,7 +3,7 @@ title: "Read a research-product study without losing the denominator"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "lesson"]
-updated: 2026-10-12
+updated: 2026-11-08
 source_checked: 2026-10-12
 reviewed: "pending"
 reviewed_by: ""
@@ -24,7 +24,7 @@ prerequisites: ["[[wiki/education/concepts/evidence-and-statistics/study-design/
 
 ## Where this step sits
 
-This is optional practice after the [complete-product evidence packet](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence), within the [engineered-cell guide](/wiki/education/guides/engineered-cell-therapy/index). Its published example adds source-reading practice to the fictional laboratory exercises. The task is to explain a report, rather than select a treatment.
+This is optional practice after the [complete-product evidence packet](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence), within the [engineered-cell guide](/wiki/education/guides/engineered-cell-therapy/index). Its published example adds source-reading practice to the fictional laboratory exercises. The task is to explain a report, rather than select a treatment.
 
 ```mermaid
 %%{init: {"htmlLabels":false,"flowchart":{"htmlLabels":false,"padding":8,"nodeSpacing":25}}}%%
@@ -40,7 +40,7 @@ flowchart TD
 
 **Lesson links:**
 
-- [Complete-product evidence lesson](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
+- [Complete-product evidence lesson](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence)
 - [Optional study-ledger lesson (this page)](/wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study)
 - [Applicability and uncertainty lesson](/wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty)
 
@@ -63,7 +63,7 @@ The 2023 gavo-cel report describes single-arm phase 1 dose escalation within a p
 
 | Ledger field | Paper-defined observation |
 |---|---|
-| Intent-to-treat population | 48 consented and apheresed intending phase 1 treatment |
+| [Intent-to-treat population](/wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations) | 48 consented and apheresed intending phase 1 treatment |
 | Treated / response-evaluable | 32 / 30 |
 | Blinded independent central review | 6 responses; 4 confirmed partial responses |
 | Missing response assessments | Two grade 5 (fatal) adverse events before post-infusion imaging |

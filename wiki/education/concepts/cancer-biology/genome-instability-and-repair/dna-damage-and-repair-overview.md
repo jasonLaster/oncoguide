@@ -9,12 +9,12 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/index]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: "2026-10-09"
+source_checked: 2026-11-08
 tags: [education, DNA-repair]
 ---
 
@@ -59,6 +59,8 @@ flowchart TD
 Cells may repair damage, tolerate it temporarily, stop dividing or die. The diagram deliberately ends with assessment: a response marker cannot tell us which outcome occurred.
 
 ## Why it matters in cancer
+
+Several standard treatments work by damaging DNA faster than tumor cells can repair it. Platinum drugs such as carboplatin and cisplatin link the two DNA strands together (an **interstrand crosslink**). Removing a crosslink takes several pathways in sequence, the Fanconi anemia pathway, nucleotide excision repair and [homologous recombination](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd), which is why tumors with defective HR are often more sensitive to platinum [Deans 2011](https://pubmed.ncbi.nlm.nih.gov/21701511/). See [platinum agents](/wiki/education/concepts/therapeutics/chemotherapy/platinum-agents).
 
 Repair defects can allow changes that contribute to cancer. At the same time, surviving tumor cells still rely on repair and stress responses. This helps explain why the same broad subject includes both cancer prevention and experimental cancer vulnerabilities.
 
@@ -105,10 +107,10 @@ Source check: 2026-10-09. Foundational mechanism and measurement education; expe
 - [Brown 2002: Mutation, Repair and Recombination, Genomes, second edition](https://www.ncbi.nlm.nih.gov/books/NBK21114/).
 - [Zou and Elledge 2003: RPA-associated DNA and ATR checkpoint recruitment, cell and biochemical experiments](https://pubmed.ncbi.nlm.nih.gov/12791985/).
 - [Rogakou and colleagues 1998: γH2AX after experimentally induced double-strand breaks](https://pubmed.ncbi.nlm.nih.gov/9488723/).
+- [Deans and West 2011: DNA interstrand crosslink repair and cancer](https://pubmed.ncbi.nlm.nih.gov/21701511/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
 - [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
-- [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
 <!-- END GENERATED USED IN -->

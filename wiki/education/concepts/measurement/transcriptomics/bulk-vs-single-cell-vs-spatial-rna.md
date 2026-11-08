@@ -12,7 +12,7 @@ prerequisites:
   - "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"
   - "[[wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq]]"
   - "[[wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics]]"
-used_by: []
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/what-multi-omics-tells-us/05-read-rna]]"]
 sensitive: false
 tags:
   - education
@@ -63,7 +63,7 @@ flowchart TB
 
 [Single-cell RNA sequencing and single-nucleus RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq) separate recovered profiles using identifying tags called barcodes. Whole-cell preparations capture nuclear and cytoplasmic RNA; nuclei predominantly sample nuclear RNA. Dissociation, meaning tissue breakup, and filtering affect recovery. Bakken's matched mouse-cortex comparison illustrates these compartment differences; it does not rank every tumor workflow. Profile-based cell identities are assignments, not independent proof that a cell is malignant.
 
-[Spatial transcriptomics](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics) retains position through tissue capture or imaging. A capture spot or bin can include several cells. Imaging can locate decoded RNA molecules, but [cell segmentation](/wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation), the assignment of cell boundaries, affects cell-level interpretation. An observed molecule, an assigned cell and an **imputed** value estimated by a model are different outputs.
+[Spatial transcriptomics](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics) retains position through tissue capture or imaging. A capture spot or bin can include several cells. Imaging can locate decoded RNA molecules, but [cell segmentation](/wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation), the assignment of cell boundaries, affects cell-level interpretation. An observed molecule, an assigned cell and an **imputed** value estimated by a model are different outputs. For spatial protein methods and region-of-interest profiling, see [spatial protein versus spatial RNA methods](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared).
 
 These methods can complement one another when specimens, regions, times and preparation are compatible. Adjacent sections or split aliquots—separate portions of a sample—are not the same cells. Agreement across methods needs those differences considered.
 
@@ -112,3 +112,10 @@ Source check: October 10, 2026. The exercise is fictional; expert and learner re
 - [Ståhl et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27365449/) — positional tissue capture in mouse brain and human breast-cancer specimens.
 - [Chen et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4662681/) — probe-based multiplex RNA imaging, decoding and molecule coordinates.
 - [Squair et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34584091/) — biological-replicate variation in differential-expression benchmarks.
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Compare related ideas](/wiki/education/comparisons/index)
+- [Read RNA: counts, preparation and splice products](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna)
+<!-- END GENERATED USED IN -->

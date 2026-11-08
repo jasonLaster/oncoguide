@@ -7,7 +7,7 @@ summary: "Spatial transcriptomics measures selected or broadly captured RNA toge
 glossary_anchor: "spatial-transcriptomics"
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/rna-and-mrna]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation]]"]
-used_by: ["[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: "2026-11-07"
@@ -105,6 +105,7 @@ What three labels help you read a spatial result?
 
 ## Related concepts
 
+- [Spatial protein versus spatial RNA methods](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared): plex, resolution and region-versus-slide choices side by side.
 - [H&E morphology](/wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology): tissue appearance supplies a different evidence layer.
 - [Digital pathology](/wiki/education/concepts/measurement/pathology-readouts/digital-pathology): scans, estimates and interpretation.
 
@@ -122,6 +123,5 @@ Source check: November 7, 2026. Examples are fictional. Expert and learner revie
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Add the geography of cells and signals](/wiki/education/molecular-profiling/04-spatial-biology)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Add geography and immune context](/wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: taa
 aliases: [TAA, tumor-associated antigen]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope]]"]
-used_by: []
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell]]"]
 reviewed: pending
 reviewed_by: ""
 sensitive: false
@@ -100,5 +100,5 @@ Source-checked October 10, 2026. The examples are fictional. The clinical papers
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
+- [How a T cell sees a cancer cell](/wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell)
 <!-- END GENERATED USED IN -->

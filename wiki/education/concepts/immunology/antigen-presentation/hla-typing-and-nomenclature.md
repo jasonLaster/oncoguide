@@ -7,7 +7,7 @@ glossary_anchor: hla-typing
 aliases: [HLA typing, HLA nomenclature, HLA allele]
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]"]
+used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation]]"]
 reviewed: pending
 reviewed_by: ""
 sensitive: false
@@ -128,5 +128,5 @@ Source-checked October 10, 2026. The report is fictional. This page teaches how 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
+- [HLA and antigen presentation in vaccine design](/wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation)
 <!-- END GENERATED USED IN -->

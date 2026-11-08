@@ -62,7 +62,7 @@ Keep the [cross-trial comparison boundaries](/wiki/education/concepts/evidence-a
 
 ## Why it matters in cancer
 
-A metastatic study after several treatments and an early-disease postoperative study can differ in biology, competing risks, treatment tolerance and endpoints. A similar marker or cancer label does not bridge an untested intervention. Relevant evidence can guide reasoning while leaving a specific treatment-effect question open.
+A metastatic study after several treatments and an early-disease postoperative study can differ in biology, [competing risks](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks), treatment tolerance and endpoints. A similar marker or cancer label does not bridge an untested intervention. Relevant evidence can guide reasoning while leaving a specific treatment-effect question open.
 
 Eligibility is a separate protocol check: disease, prior treatment, organ function, safety history and assay definitions can matter. Meeting entry criteria does not guarantee benefit, enrollment or an available slot. [Finding and checking a trial](/wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial) owns the dated study-team confirmation.
 

@@ -7,7 +7,7 @@ glossary_anchor: "ex-vivo-drug-screen"
 aliases: ["ex vivo drug screen", "ex vivo drug screening", "drug sensitivity screen", "functional drug testing"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]", "[[wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/01-choose-a-model]]","[[wiki/education/guides/predicting-response-before-treating/02-check-the-experiment]]","[[wiki/education/guides/predicting-response-before-treating/index]]"]
 sensitive: false
 tags: ["education", "functional-models"]
 updated: "2026-10-09"
@@ -71,6 +71,7 @@ Try reading each axis aloud: percentage of vehicle signal on the left; identifie
 
 ## Related concepts
 
+- [Experimental settings: in vitro, ex vivo, in vivo and in silico](/wiki/education/concepts/measurement/functional-models/experimental-settings)
 - [Organoid](/wiki/education/concepts/measurement/functional-models/organoid)
 - [Patient-derived xenograft](/wiki/education/concepts/measurement/functional-models/patient-derived-xenograft)
 - [Analytical validity, clinical validity and utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility)
@@ -86,7 +87,7 @@ Source check: October 9, 2026. General assay interpretation; no universal respon
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model)
 - [Check what the experiment actually tests](/wiki/education/guides/predicting-response-before-treating/02-check-the-experiment)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
 <!-- END GENERATED USED IN -->

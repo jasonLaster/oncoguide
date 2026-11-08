@@ -2,7 +2,7 @@
 title: "BRCA1 and BRCA2"
 type: concept
 domain: cancer-biology/genome-instability-and-repair
-aliases: ["BRCA1", "BRCA2", "BRCA genes", "BRCA reversion"]
+aliases: ["BRCA", "BRCA1", "BRCA2", "BRCA genes"]
 summary: "BRCA1 and BRCA2 are genes whose protein products help preserve genome stability through homologous recombination and other functions associated with DNA repair."
 glossary_anchor: brca1-and-brca2
 level: intermediate
@@ -15,9 +15,9 @@ sensitive: false
 reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-source_checked: "2026-10-09"
+source_checked: 2026-11-08
 tags: [education, DNA-repair]
-updated: 2026-10-10
+updated: 2026-11-08
 ---
 
 # BRCA1 and BRCA2
@@ -49,6 +49,8 @@ BRCA1 and BRCA2 act as [tumor suppressors](/wiki/education/concepts/cancer-biolo
 
 An inherited, or [germline](/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic), pathogenic variant can increase cancer susceptibility. A tumor may lose or disable its remaining working copy. **Biallelic inactivation** means both gene copies are functionally disrupted. A tumor test must assess the actual context; one variant call does not automatically establish that state. Acquired, or **somatic**, changes can also affect these genes.
 
+BRCA1-related breast cancers are usually triple-negative. In a consortium study of mutation carriers, 68% of breast tumors in BRCA1 carriers were triple-negative, compared with 16% in BRCA2 carriers, whose tumors were mostly estrogen-receptor-positive. [Mavaddat 2012](https://pubmed.ncbi.nlm.nih.gov/22144499/). PALB2, a partner that links BRCA1 to BRCA2, is a third breast-cancer gene in the same repair route.
+
 [Hereditary breast-cancer genes](/wiki/education/concepts/breast-cancer/hereditary-risk/hereditary-breast-cancer-genes) places BRCA1/2 alongside other susceptibility genes. The origin of the variant, its classification, the remaining allele and current repair function are separate questions. A tumor-only test does not by itself establish inheritance. Genetic findings also have different implications from a [genomic-scar](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars) score.
 
 ```mermaid
@@ -59,7 +61,7 @@ flowchart TD
     D --> E[Interpret in context]
 ```
 
-Repair can change over time. A **reversion** is a later change that restores function lost through an earlier alteration, for example by restoring a readable coding sequence. Reversions and other repair-restoration mechanisms were documented in selected resistant metastatic breast cancers; that small cohort did not establish their frequency in all cancers. [Waks 2020](https://pubmed.ncbi.nlm.nih.gov/32245699/).
+Repair can change over time. A tumor that has lost BRCA function can regain it through a second change, a [BRCA reversion mutation](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations), which is a common cause of resistance to PARP inhibitors and platinum.
 
 ## How it is measured
 
@@ -94,15 +96,16 @@ Complete: “BRCA2 helps RAD51 with ___, but a BRCA2 variant alone does not tell
 
 - [DNA damage and repair](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview) place these genes in the broader repair system.
 - [Synthetic lethality](/wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality) explains an interaction between paired impairments.
+- [BRCA reversion mutations](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations) explain acquired resistance after a response.
 
 ## Sources
 
-Source check: 2026-10-09. Gene function and test interpretation; expert and learner review pending. This page gives no personal cancer forecast or treatment recommendation.
+Source check: 2026-11-08. Gene function and test interpretation; expert and learner review pending. This page gives no personal cancer forecast or treatment recommendation.
 
 - [Moynahan and colleagues 1999: BRCA1 function in a mouse-cell HR reporter](https://pubmed.ncbi.nlm.nih.gov/10549283/).
 - [Jensen and colleagues 2010: purified human BRCA2 promotes RAD51-mediated recombination](https://pmc.ncbi.nlm.nih.gov/articles/PMC2952063/).
 - [NCI: BRCA gene changes, inherited versus acquired findings and VUS interpretation](https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet).
-- [Waks and colleagues 2020: resistance and repair restoration in a selected metastatic breast cancer cohort](https://pubmed.ncbi.nlm.nih.gov/32245699/).
+- [Mavaddat and colleagues 2012: tumor pathology in BRCA1 and BRCA2 carriers (CIMBA)](https://pubmed.ncbi.nlm.nih.gov/22144499/).
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in

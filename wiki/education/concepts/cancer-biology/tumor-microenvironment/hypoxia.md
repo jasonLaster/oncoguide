@@ -7,7 +7,7 @@ glossary_anchor: "hypoxia"
 aliases: ["hypoxia", "hypoxic", "HIF", "HIF-1", "HIF1A", "hypoxia-inducible factor"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-09"
@@ -116,5 +116,5 @@ Source check: October 9, 2026; expert and learner review pending. The exercise i
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Oxidative metabolism and stress: energy, damage, and dependence](/wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress)
+- [Measure energy and damage separately](/wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately)
 <!-- END GENERATED USED IN -->

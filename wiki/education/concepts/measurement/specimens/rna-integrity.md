@@ -6,7 +6,7 @@ aliases: ["RNA integrity number", "RIN", "DV200", "RNA quality"]
 summary: "RNA integrity describes the condition and fragmentation of extracted RNA, helping determine which measurement workflows can recover useful information from a specimen."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]"]
-used_by: ["[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/05-read-rna]]"]
 glossary_anchor: "rin"
 sensitive: false
 tags: ["education", "measurement"]
@@ -97,6 +97,5 @@ Source check: October 9, 2026. Expert and learner review remain pending. Example
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read RNA: counts, preparation and splice products](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna)
 <!-- END GENERATED USED IN -->

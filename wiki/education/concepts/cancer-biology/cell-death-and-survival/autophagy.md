@@ -7,11 +7,11 @@ glossary_anchor: "autophagy"
 aliases: ["autophagy", "autophagic flux", "autophagosome"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis]]","[[wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-10"
-source_checked: "2026-10-10"
+updated: 2026-11-08
+source_checked: 2026-11-08
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -50,6 +50,8 @@ A controlled, short lysosomal-block experiment compares LC3-II with and without 
 </div>
 
 ## Why it matters in cancer
+
+Blocking autophagy has been tested in people, with sobering results. Hydroxychloroquine, an antimalarial drug that blocks the final lysosomal steps, was added to chemotherapy in a randomized trial of 112 people with metastatic pancreatic cancer, a cancer thought to rely heavily on autophagy. More tumors shrank (38.2% versus 21.1%), but 12-month survival did not improve (41% versus 49%) [Karasic 2019](https://pubmed.ncbi.nlm.nih.gov/31120501/). Hydroxychloroquine also acts broadly on lysosomes, so the trial tested a drug, not autophagy dependence itself.
 
 Recycling can help cells cope with nutrient shortage and damage. Its importance varies with the cell and conditions. “Autophagy is present,” “flux increased” and “survival depends on autophagy” are different claims.
 
@@ -98,6 +100,7 @@ Source check: October 10, 2026. General macroautophagy methods; cultures are fic
 - [Klionsky et al., fourth-edition assay guidelines (2021)](https://pubmed.ncbi.nlm.nih.gov/33634751/): complementary assays and specificity limits of individual markers or genetic perturbations.
 - [Kirkin et al. (2009)](https://pubmed.ncbi.nlm.nih.gov/19250911/): selective handling of ubiquitinated cargo in experimental models.
 - [Plaza-Zabala et al. (2021)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7878397/): formation-versus-degradation analysis in cultured microglia; method context, not cancer-treatment validation.
+- [Karasic et al. (2019)](https://pubmed.ncbi.nlm.nih.gov/31120501/): hydroxychloroquine with chemotherapy in metastatic pancreatic cancer, a randomized phase 2 trial.
 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
@@ -105,7 +108,5 @@ Source check: October 10, 2026. General macroautophagy methods; cultures are fic
 - [PARP trapping and recycling](/wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling)
 - [Autophagy: traffic, flow, and dependence](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence)
 - [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
-- [Autophagy and proteostasis: amount, flow, and dependence](/wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis)
-- [Lipid supply and mTOR: measuring resource control](/wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor)
-- [Pathway mechanisms: a supporting lesson library](/wiki/education/molecular-profiling/evee-proposed-pathways)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

@@ -7,7 +7,7 @@ glossary_anchor: "nrf2-keap1"
 aliases: ["NRF2", "NFE2L2", "KEAP1", "CUL3", "NRF2–KEAP1"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]", "[[wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet]]","[[wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress]]","[[wiki/education/molecular-profiling/evee-proposed-pathways]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: 2026-11-07
@@ -36,7 +36,7 @@ A cell needs an emergency-response program, but leaving it permanently on change
 
 <div data-education-visual="next-gap-270-inset">
 <img src="./images/nrf2-specific-turnover-inset-b12-v1-light.svg" width="600" height="1130" alt="Two matched regulatory insets show KEAP1 adaptor and CUL3 complex acting on NRF2: unstressed conditions favor tagging and destruction, while stress can reduce tagging and turnover without requiring loss of every interaction." data-theme-pair />
-<p>Read the same regulator and substrate in both conditions. Stress can reduce KEAP1-dependent tagging and NRF2 destruction, making more NRF2 available for nuclear regulation; this need not break every KEAP1–NRF2 interaction. The arrows describe regulation, not creation of NRF2, and neither defense abundance nor a CUL3 variant proves dependence or ferroptosis sensitivity. <a href="https://pubmed.ncbi.nlm.nih.gov/15572695/">Primary redox-regulated ligase study</a>.</p>
+<p>Read the same regulator and substrate in both conditions. Stress can reduce KEAP1-dependent tagging and NRF2 destruction, making more NRF2 available for nuclear regulation; this need not break every KEAP1–NRF2 interaction. The arrows describe regulation, not creation of NRF2, and neither defense abundance nor a change in the CUL3 scaffold proves dependence or ferroptosis sensitivity. <a href="https://pubmed.ncbi.nlm.nih.gov/15572695/">Primary redox-regulated ligase study</a>.</p>
 </div>
 
 **Nuclear factor erythroid 2-related factor 2 (NRF2)** is a transcription factor, a protein that helps regulate gene expression. The gene encoding it is named **NFE2L2**. **Kelch-like ECH-associated protein 1 (KEAP1)** serves as an adaptor that links NRF2 to a ubiquitin-ligase complex organized around **cullin 3 (CUL3)**. Under suitable unstressed conditions, this machinery promotes NRF2 turnover through the proteasome. [Kobayashi 2004](https://pubmed.ncbi.nlm.nih.gov/15282312/).
@@ -104,7 +104,7 @@ One answer: “protection or a stress response; a controlled loss of a defined f
 
 ## Related concepts
 
-[Reactive oxygen species](/wiki/education/concepts/cancer-biology/metabolism-and-stress/reactive-oxygen-species) explains the chemistry and readout limits. [Ferroptosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis) describes one form of lipid-damage-driven death. [Oxidative phosphorylation](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) explains a different energy process. [The stress lesson](/wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet) tests the gaps between them.
+[Reactive oxygen species](/wiki/education/concepts/cancer-biology/metabolism-and-stress/reactive-oxygen-species) explains the chemistry and readout limits. [Ferroptosis](/wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis) describes one form of lipid-damage-driven death. [Oxidative phosphorylation](/wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation) explains a different energy process. [The stress lesson](/wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense) tests the gaps between them.
 
 ## Sources
 
@@ -119,7 +119,6 @@ Source check: 2026-11-07. General mechanism education; the worked example is fic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Stress defenses and chromatin readers: test the direction](/wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet)
-- [Oxidative metabolism and stress: energy, damage, and dependence](/wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress)
-- [Pathway mechanisms: a supporting lesson library](/wiki/education/molecular-profiling/evee-proposed-pathways)
+- [Test the direction of a stress defense](/wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
 <!-- END GENERATED USED IN -->

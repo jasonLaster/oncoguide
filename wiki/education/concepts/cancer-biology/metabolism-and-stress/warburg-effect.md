@@ -7,11 +7,11 @@ glossary_anchor: "warburg-effect"
 aliases: ["Warburg effect", "aerobic glycolysis", "Warburg metabolism"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
-updated: "2026-10-09"
-source_checked: "2026-10-09"
+updated: 2026-11-08
+source_checked: 2026-11-08
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -48,6 +48,8 @@ flowchart TD
 *With oxygen available, lactate production and mitochondrial metabolism can coexist.*
 
 ## Why it matters in cancer
+
+The best-known clinical use of this pattern is imaging. [Positron emission tomography (PET)](/wiki/education/concepts/measurement/imaging/pet-ct) with fluorodeoxyglucose (FDG), a radioactive glucose look-alike, shows where tissues take up and trap glucose; many cancers light up because they import glucose avidly. Vander Heiden and colleagues proposed that proliferating cells favor this metabolism because it supplies building blocks for new cells, not because it makes ATP efficiently [Vander Heiden 2009](https://pubmed.ncbi.nlm.nih.gov/19460998/). FDG uptake measures glucose uptake, not lactate production, so a bright scan also appears with inflammation and in some normal tissues.
 
 A metabolic pattern describes what cells are doing under specified conditions. **Dependence** asks whether disrupting a process prevents their growth or survival. Cells may compensate by changing fuels or production routes. Neither a glycolytic RNA signature nor glucose uptake alone answers that functional question.
 
@@ -104,5 +106,5 @@ Source check: October 9, 2026; expert and learner review pending. The exercise i
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Oxidative metabolism and stress: energy, damage, and dependence](/wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress)
+- [Measure energy and damage separately](/wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately)
 <!-- END GENERATED USED IN -->

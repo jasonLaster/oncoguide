@@ -13,7 +13,7 @@ level: "foundation"
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/cells/cell-and-membrane]]"
   - "[[wiki/education/concepts/biology-basics/molecules/rna-and-mrna]]"
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/08-profile-residual-tumor]]","[[wiki/education/reading-a-tumor/index]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work]]","[[wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget]]","[[wiki/education/guides/what-multi-omics-tells-us/05-read-rna]]","[[wiki/education/guides/what-multi-omics-tells-us/12-profile-residual-tumor]]"]
 reviewed: "pending"
 source_checked: 2026-10-10
 reviewed_by: ""
@@ -108,9 +108,8 @@ Source check: October 10, 2026. Preparation principles, not a laboratory operati
 ## Used in
 
 - [Compare related ideas](/wiki/education/comparisons/index)
-- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
-- [Read single-cell data after treatment](/wiki/education/molecular-profiling/08-profile-residual-tumor)
-- [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
-- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
-- [Match a specimen to the test before spending tissue](/wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget)
+- [Sequence the work and respect what cannot be undone](/wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work)
+- [Match each measurement to its claim](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget)
+- [Read RNA: counts, preparation and splice products](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna)
+- [Read single-cell data after treatment](/wiki/education/guides/what-multi-omics-tells-us/12-profile-residual-tumor)
 <!-- END GENERATED USED IN -->

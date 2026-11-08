@@ -3,7 +3,7 @@ title: "Read the validation behind the claim"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-11-07"
+updated: "2026-11-08"
 source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
@@ -99,10 +99,10 @@ Even a well-calibrated risk score does not establish benefit from the treatment 
 
 ## What can go wrong at this step
 
-- **Successful samples become the whole denominator.** Request the number attempted, the number reported and why others failed. [The denominator](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability) changes when only successful samples are counted.
+- **Successful samples become the whole denominator.** Request the number attempted, the number reported and why others failed. [The denominator](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability) changes when only successful samples are counted. A treatment study raises the same question as its [analysis population](/wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations): everyone assigned (intention to treat), or only those treated or evaluable.
 - **A chosen threshold travels silently.** Ask whether it was set in advance, tuned here, and evaluated again independently.
 - **A cross-disease dataset supports a same-disease claim.** Keep the mismatch attached to the conclusion.
-- **Laboratory status replaces clinical evidence.** [Certification and authorization](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) answer another question.
+- **Laboratory status replaces clinical evidence.** [Certification and authorization](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-authorization) answer another question.
 - **A headline metric hides the decision.** The cost of false positives and false negatives depends on what action follows.
 
 ## Try it

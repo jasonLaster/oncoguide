@@ -3,7 +3,7 @@ title: "PI3K, AKT, and mTOR: competing effects on repair and recycling"
 type: guide-lesson
 guide: from-variant-to-drug
 step: 6
-minutes: 12
+minutes: 13
 objectives:
   - "Explain how growth signaling can affect repair and recycling through different branches."
   - "Describe PTEN as a brake and feedback as a reason upstream and downstream signals can diverge."
@@ -12,12 +12,13 @@ prerequisites:
   - "[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]"
   - "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"
   - "[[wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd]]"
+  - "[[wiki/education/concepts/cancer-biology/metabolism-and-stress/nutrient-sensing-ampk]]"
 sensitive: false
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
-updated: 2026-11-07
-source_checked: "2026-11-07"
+updated: 2026-11-08
+source_checked: "2026-11-08"
 tags: [education, PI3K, AKT, mTOR, PARP, autophagy]
 ---
 
@@ -29,7 +30,7 @@ tags: [education, PI3K, AKT, mTOR, PARP, autophagy]
 
 ## Where this step sits
 
-This is optional step 6 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). The previous lesson separates [recycling amount, flow, and dependence](./05-autophagy-flux-and-dependence). This step adds growth signals to that picture. The final lesson tests the complete combination rather than predicting its outcome from one arrow.
+This is optional step 6 of [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index). The previous lesson separates [recycling amount, flow, and dependence](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence). This step adds growth and energy signals to that picture. The next lesson tests the complete combination rather than predicting its outcome from one arrow.
 
 ## Follow the signal, then look for the brakes
 
@@ -54,17 +55,23 @@ A [**kinase**](/wiki/education/concepts/biology-basics/signaling/signal-transduc
 
 The first branch concerns repair. In some BRCA-proficient triple-negative breast cancer models, PI3K inhibition lowered BRCA1 and BRCA2 expression and increased sensitivity to a **poly(ADP-ribose) polymerase (PARP)** inhibitor. PARP enzymes build chemical signals at DNA damage. This provides a mechanism worth testing. It does not show that every PI3K drug creates the same repair defect in every tumor. [Ibrahim 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC5125254/).
 
-The second branch concerns [autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy), the recycling process from [supporting lesson 5](./05-autophagy-flux-and-dependence). mTORC1 restrains machinery that starts this process. Reducing that restraint can make initiation easier. It does not show that cargo completes degradation or that the increased recycling helps the cell survive. Those are separate measurements. Experiments connecting mTORC1 to the initiation protein ULK1 support this control mechanism. ULK1 is a kinase involved in starting autophagy. [Kim 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3987946/).
+The second branch concerns [autophagy](/wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy), the recycling process from [lesson 5](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence). mTORC1 restrains machinery that starts this process. Reducing that restraint can make initiation easier. It does not show that cargo completes degradation or that the increased recycling helps the cell survive. Those are separate measurements. Experiments connecting mTORC1 to the initiation protein ULK1 support this control mechanism. ULK1 is a kinase involved in starting autophagy. [Kim 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3987946/).
 
 An intervention can therefore make repair less effective while also changing a stress response. Whether those changes cooperate or compete depends on the actual cell state, compound, dose, and timing. A cell already lacking a repair function cannot be assumed to gain the same added vulnerability as a cell in which the intervention first reduces that function.
 
 ## Feedback can make neighboring signals disagree
 
-Two named links explain the main loop. Going down, AKT phosphorylates **TSC2**, which disables the TSC complex; that complex normally switches off **RHEB**, a small GTPase that turns mTORC1 on. So AKT activates mTORC1 by releasing a brake on RHEB ([Inoki 2002](https://pubmed.ncbi.nlm.nih.gov/12172553/); [Inoki 2003](https://pubmed.ncbi.nlm.nih.gov/12869586/)). Coming back up, mTORC1 activates the kinase **S6K1**, which phosphorylates **IRS-1** (insulin receptor substrate 1), the adaptor that connects insulin and IGF-1 receptors to PI3K. That dampens the upstream signal.
+Two named links explain the main loop. Going down, AKT phosphorylates **TSC2**, which disables the TSC complex; that complex normally switches off **RHEB**, a small GTPase that turns mTORC1 on. So AKT activates mTORC1 by releasing a brake on RHEB ([Inoki 2002](https://pubmed.ncbi.nlm.nih.gov/12172553/); [Inoki 2003](https://pubmed.ncbi.nlm.nih.gov/12869586/)). Coming back up, mTORC1 activates the kinase **S6K1**, which phosphorylates **IRS-1** (insulin receptor substrate 1), the adaptor that connects the insulin and insulin-like growth factor 1 (IGF-1) receptors to PI3K. That dampens the upstream signal ([Harrington 2004](https://pubmed.ncbi.nlm.nih.gov/15249583/)).
 
 **Rapalogs** are drugs related to rapamycin that inhibit signaling through mTORC1. Because they also quiet S6K1, they can relieve the IRS-1 brake: in the studied cancer cells and patient tumor samples, upstream signaling and AKT activity rose while the targeted mTORC1 output fell. This is a measured feedback response, rather than a contradiction of the pathway diagram. It is conditional, not an inevitable result in every tumor. [O'Reilly 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC3193604/).
 
-[PI3K and AKT inhibitors](/wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors), a rapalog, and a drug that inhibits mTOR's kinase activity act differently. The last can affect a broader set of mTOR functions than a rapalog. They cannot stand in for one another merely because their targets appear on the same diagram.
+[PI3K and AKT inhibitors](/wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors), a rapalog, and a drug that inhibits mTOR's kinase activity act differently. mTOR works in two complexes: mTORC1 drives growth, while mTORC2 phosphorylates AKT itself at the site serine 473 ([Sarbassov 2005](https://pubmed.ncbi.nlm.nih.gov/15718470/)). A rapalog mainly quiets mTORC1; an mTOR kinase inhibitor can block both complexes, and even then feedback can restore some signaling ([Rodrik-Outmezguine 2011](https://aacrjournals.org/cancerdiscovery/article/1/3/248/676/mTOR-Kinase-Inhibition-Causes-Feedback-Dependent)). These drugs cannot stand in for one another merely because their targets appear on the same diagram.
+
+## Energy is a second input
+
+Growth signals are not the only input to mTORC1. When ATP runs low, [AMP-activated protein kinase (AMPK)](/wiki/education/concepts/cancer-biology/metabolism-and-stress/nutrient-sensing-ampk) phosphorylates raptor, a partner protein in mTORC1, and restrains it ([Gwinn 2008](https://pubmed.ncbi.nlm.nih.gov/18439900/)). That saves energy by slowing costly building work. It is an adaptation as well as a brake: slower growth and better survival under stress can coexist, so AMPK activation is not a death signal.
+
+Each of these steps has its own readout. Phosphorylated S6 and 4E-BP1 report mTORC1 output; AKT phosphorylated at serine 473 reports mTORC2 input; an AMPK target site reports energy stress. Each is a named site at a named time, not a gauge for the whole network. A gene-set score from [bulk RNA sequencing](/wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq) summarizes messages; it does not measure kinase activity.
 
 ## A worked example: expression is not the activity switch
 
@@ -106,11 +113,11 @@ One possible answer: “which instructions are present; whether a specified prot
 
 **A combination's net effect must be measured across its competing mechanisms.**
 
-**Next:** [Read the experiment and bound its claim](./07-reading-a-functional-experiment).
+**Next:** [Read the experiment and bound its claim](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment).
 
 ## Sources and scope
 
-Source check: 2026-11-07. General signaling education; expert and learner review pending. The worked lab case is fictional. Research examples establish mechanisms in their studied systems, not a safe or effective personal combination.
+Source check: 2026-11-08. General signaling education; expert and learner review pending. The worked lab case is fictional. Research examples establish mechanisms in their studied systems, not a safe or effective personal combination.
 
 - [Maehama and Dixon 1998: PTEN lipid-phosphatase activity](https://pubmed.ncbi.nlm.nih.gov/9593664/).
 - [Ibrahim 2012: PI3K inhibition, BRCA expression, and PARP response in breast cancer models](https://pmc.ncbi.nlm.nih.gov/articles/PMC5125254/).
@@ -118,4 +125,7 @@ Source check: 2026-11-07. General signaling education; expert and learner review
 - [O'Reilly 2006: feedback activation of AKT after mTOR inhibition](https://pmc.ncbi.nlm.nih.gov/articles/PMC3193604/).
 - [Inoki 2002: AKT phosphorylates and inhibits TSC2](https://pubmed.ncbi.nlm.nih.gov/12172553/).
 - [Inoki 2003: RHEB is the direct target of TSC2](https://pubmed.ncbi.nlm.nih.gov/12869586/).
+- [Harrington 2004: S6K1 suppression of IRS-1 as negative feedback](https://pubmed.ncbi.nlm.nih.gov/15249583/).
+- [Sarbassov 2005: mTORC2 phosphorylates AKT at serine 473](https://pubmed.ncbi.nlm.nih.gov/15718470/).
+- [Gwinn 2008: AMPK phosphorylation of raptor restrains mTORC1](https://pubmed.ncbi.nlm.nih.gov/18439900/).
 - [Rodrik-Outmezguine 2011: feedback after mTOR kinase inhibition](https://aacrjournals.org/cancerdiscovery/article/1/3/248/676/mTOR-Kinase-Inhibition-Causes-Feedback-Dependent).

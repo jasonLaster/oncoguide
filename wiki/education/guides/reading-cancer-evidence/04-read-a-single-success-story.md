@@ -16,7 +16,7 @@ reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 tags: [education, guide-lesson, evidence-and-statistics]
 ---
 
@@ -28,13 +28,14 @@ tags: [education, guide-lesson, evidence-and-statistics]
 
 ## Where this step sits
 
-This is the last step of [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index). Lessons 1–3 read comparisons between groups. This lesson reads the two things families meet most often outside a trial: a story and a calculator.
+This is step 4 of [Read trial claims and survival statistics](/wiki/education/guides/reading-cancer-evidence/index). Lessons 1–3 read comparisons between groups. This lesson reads the two things families meet most often outside a trial: a story and a calculator. Lesson 5 then practises every step on a real trial.
 
 ```mermaid
 flowchart TD
   A[1. Comparison and endpoint] --> B[2. Curve and effect]
   B --> C[3. Applicability and uncertainty]
   C --> D[4. Story or calculator]
+  D --> E[5. A real trial]
   classDef current fill:#dbeafe,stroke:#2563eb,color:#111827
   class D current
 ```
@@ -96,7 +97,7 @@ A fictional company video features three patients whose cancer disappeared on it
 
 **Ask for the denominator behind every story and the validation behind every calculator.**
 
-**Next:** Apply the framework to [a test or vendor claim](/wiki/education/guides/judging-a-test-or-vendor-claim/index), or practise on [cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence).
+**Next:** [Read a real trial: KEYNOTE-522](/wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial).
 
 ## Sources and scope
 

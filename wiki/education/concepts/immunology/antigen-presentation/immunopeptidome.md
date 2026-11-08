@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"
   - "[[wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery]]"
-used_by: ["[[wiki/education/designing-a-vaccine/03-immunopeptidomics]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]"]
+used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board]]","[[wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response]]"]
 sensitive: false
 tags: [education, immunology]
 updated: 2026-10-10
@@ -104,6 +104,6 @@ Source check: October 10, 2026. General repertoire biology and a fictional compa
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Measure presentation, binding and response](/wiki/education/designing-a-vaccine/03-immunopeptidomics)
-- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
+- [Read a neoantigen design board](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board)
+- [Measure presentation, binding and response](/wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response)
 <!-- END GENERATED USED IN -->

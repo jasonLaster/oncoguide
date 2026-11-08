@@ -7,7 +7,7 @@ glossary_anchor: "adenosine-and-ido"
 aliases: ["adenosine signaling", "IDO", "IDO1", "indoleamine 2,3-dioxygenase", "CD39/CD73", "adenosine and IDO"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/signaling/ligand-and-receptor]]", "[[wiki/education/concepts/immunology/the-immune-system/inflammation]]", "[[wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: "2026-10-10"
@@ -102,6 +102,6 @@ Source check: October 10, 2026. Selected mouse mechanisms and one melanoma rando
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
-- [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
+- [The journey through a solid tumor](/wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers)
+- [Find the step an immune response can lose](/wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step)
 <!-- END GENERATED USED IN -->

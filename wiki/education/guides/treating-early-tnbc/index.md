@@ -62,7 +62,7 @@ This is the [KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatme
 
 **Surgery and radiation:** [Lumpectomy versus mastectomy](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy), [sentinel-node biopsy and axillary dissection](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection) and [radiation basics](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics).
 
-**After surgery:** [pCR](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), [residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden), [post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation), [germline testing](/wiki/education/concepts/breast-cancer/hereditary-risk/germline-testing) and [response-adapted therapy](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy).
+**After surgery:** [pCR](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr), [residual cancer burden](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden), [post-neoadjuvant escalation](/wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation), [germline testing](/wiki/education/concepts/breast-cancer/hereditary-risk/germline-testing), [response-adapted therapy](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy) and [surveillance after treatment](/wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment), the follow-up schedule once treatment ends.
 
 ## Applied to Diana
 

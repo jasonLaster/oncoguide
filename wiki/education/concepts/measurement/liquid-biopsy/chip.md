@@ -16,7 +16,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]"
   - "[[wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction]]"
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]"]
 ---
 
 # CHIP (clonal hematopoiesis of indeterminate potential)
@@ -121,7 +121,7 @@ A fictional plasma assay detects a variant. Sensitive matched blood-cell sequenc
 
 ## Related concepts
 
-[[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay|Tumor-informed monitoring]], [[wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation|DNA-pattern measurements]], and [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance|blood–imaging discordance]].
+[[wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays|Tumor-informed monitoring]], [[wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation|DNA-pattern measurements]], and [[wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance|blood–imaging discordance]].
 
 ## Sources and scope
 
@@ -138,5 +138,4 @@ Source check: November 7, 2026. General biology and source attribution; no clone
 
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
-- [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
 <!-- END GENERATED USED IN -->

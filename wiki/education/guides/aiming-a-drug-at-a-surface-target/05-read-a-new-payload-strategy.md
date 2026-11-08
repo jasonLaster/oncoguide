@@ -43,6 +43,7 @@ flowchart LR
  B --> C["3 · Compare formats"]
  C --> D["4 · Match the payload<br/>to the failure"]
  D --> E["5 · Read a new<br/>payload strategy"]
+ E --> F["6 · Choose a target"]
  style E fill:#dcfce7,stroke:#16a34a
 ```
 
@@ -136,7 +137,7 @@ Complete: "This strategy bets that ______, which would address a failure of ____
 
 **Read every new payload strategy as a bet on one piece of cell biology, matched to one kind of failure, with one study that would settle it — and notice that almost none of them have run that study yet.**
 
-**Next:** [the plain-language review of new ADC payloads](/wiki/research/reviews/2026-11-new-adc-payloads-short-version), which walks the same strategies program by program with their current evidence.
+**Next:** [Choose a target worth aiming at](/wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target), which goes back to how the address itself is picked. For the strategies above program by program, with their current evidence, read [the plain-language review of new ADC payloads](/wiki/research/reviews/2026-11-new-adc-payloads-short-version).
 
 ## Sources and scope
 

@@ -10,7 +10,7 @@ level: "foundation"
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/cells/cell-and-membrane]]"
   - "[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]"
-used_by: ["[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget]]"]
 reviewed: "pending"
 source_checked: 2026-10-10
 reviewed_by: ""
@@ -103,5 +103,5 @@ Source check: October 10, 2026. General measurement teaching; expert and learner
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
+- [Match each measurement to its claim](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget)
 <!-- END GENERATED USED IN -->

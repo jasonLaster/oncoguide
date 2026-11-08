@@ -7,7 +7,7 @@ glossary_anchor: "epithelial-mesenchymal-transition"
 aliases: ["EMT", "epithelial-mesenchymal transition", "epithelial–mesenchymal transition", "partial EMT", "hybrid epithelial-mesenchymal state"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/epithelium-and-stroma]]", "[[wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/02-cell-identity-and-state]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 updated: "2026-10-09"
@@ -106,5 +106,5 @@ Source-checked October 9, 2026; expert and learner review pending. The exercise 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Separate cell identity from cell state](/wiki/education/multi-omics-foundations/02-cell-identity-and-state)
+- [See what is inside a tissue sample](/wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample)
 <!-- END GENERATED USED IN -->

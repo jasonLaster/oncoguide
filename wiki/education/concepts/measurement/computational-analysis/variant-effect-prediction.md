@@ -9,7 +9,7 @@ level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/genetics/mutation-types]]"
   - "[[wiki/education/concepts/biology-basics/genetics/splicing]]"
-used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/molecular-profiling/07-from-data-to-care-plan]]","[[wiki/education/reading-a-tumor/index]]"]
+used_by: ["[[wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding]]","[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]","[[wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence]]"]
 sensitive: false
 tags: [education, measurement]
 updated: 2026-10-10
@@ -112,7 +112,6 @@ Source check: October 10, 2026. The score example is fictional. This page distin
 ## Used in
 
 - [Authenticate and attribute the finding](/wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding)
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
-- [Build an integrated claim without skipping the clinical question](/wiki/education/molecular-profiling/07-from-data-to-care-plan)
-- [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
+- [Integrate the evidence and meet the clinical gate](/wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence)
 <!-- END GENERATED USED IN -->

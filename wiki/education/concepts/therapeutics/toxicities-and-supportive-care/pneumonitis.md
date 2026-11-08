@@ -43,7 +43,7 @@ A third setting is **radiation pneumonitis**, inflammation in lung tissue inside
 | Deruxtecan ADCs | Drug-induced interstitial lung disease; mechanism unsettled | 12.1% with trastuzumab deruxtecan in DESTINY-Breast04; 3.0% with datopotamab deruxtecan in the breast-cancer label pool | [ADC payload toxicities](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/adc-payload-toxicity) |
 | Radiation | Inflammation in lung inside the radiation field | Product labels may set separate stopping rules, as for trastuzumab emtansine | [Radiation therapy basics](/wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics) |
 
-Symptoms can include cough or breathlessness. Some cases first appear on imaging without obvious symptoms. A **computed tomography (CT) scan**, which uses X-rays to form cross-sectional images, can show abnormal lung patterns, but similar appearances can have different causes. Infection, cancer involving the lungs, fluid and other treatment effects remain relevant competing explanations. [SITC guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC8237720/).
+Symptoms can include cough or breathlessness. Some cases first appear on imaging without obvious symptoms. A **computed tomography (CT) scan**, which uses X-rays to form cross-sectional images, can show abnormal lung patterns, but similar appearances can have different causes. Infection, cancer involving the lungs, fluid and other treatment effects remain relevant competing explanations. Breathing tests can be part of the work-up and of follow-up: an expert panel on drug-induced interstitial lung disease lists spirometry and the diffusing capacity for carbon monoxide alongside imaging and tests for infection ([Conte et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35219244/)); see [pulmonary function testing](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/pulmonary-function-testing). [SITC guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC8237720/).
 
 ```mermaid
 flowchart TD
@@ -93,6 +93,7 @@ Fictional patient Lila develops a cough after checkpoint treatment. Her scan sho
 - [Immune-related adverse events](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event)
 - [ADC payload classes](/wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes)
 - [Topoisomerase I inhibitors](/wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors)
+- [Pulmonary function testing](/wiki/education/concepts/therapeutics/toxicities-and-supportive-care/pulmonary-function-testing)
 
 ## Sources and scope
 

@@ -6,11 +6,11 @@ summary: "For a protein-coding gene, cells transcribe DNA into RNA and translate
 glossary_anchor: "central-dogma"
 aliases: ["central dogma", "transcription", "translation"]
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]", "[[wiki/education/concepts/biology-basics/molecules/gene]]", "[[wiki/education/concepts/biology-basics/molecules/rna-and-mrna]]", "[[wiki/education/concepts/biology-basics/molecules/protein-and-peptide]]"]
-used_by: ["[[wiki/education/cellular-therapies/01-cell-therapy-primer]]","[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/index]]","[[wiki/education/local-treatment-modalities/05-tissue-and-sample-budget]]","[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/molecular-profiling/03-protein-expression-and-activation]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]","[[wiki/education/multi-omics-foundations/00-genes-rna-and-protein]]","[[wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue]]","[[wiki/education/multi-omics-foundations/03-reading-rna-counts]]","[[wiki/education/multi-omics-foundations/05-splicing-and-dna-repair]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/reading-a-tumor/index]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/01-cell-therapy-primer]]","[[wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks]]","[[wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery]]","[[wiki/education/guides/engineered-cell-therapy/index]]","[[wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair]]","[[wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response]]","[[wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget]]","[[wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]","[[wiki/education/guides/start-here/01-read-the-labels]]","[[wiki/education/guides/start-here/02-follow-immune-recognition]]","[[wiki/education/guides/what-multi-omics-tells-us/01-genes-rna-and-protein]]","[[wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample]]","[[wiki/education/guides/what-multi-omics-tells-us/06-read-protein]]","[[wiki/education/guides/what-multi-omics-tells-us/11-read-one-report]]","[[wiki/education/guides/what-multi-omics-tells-us/index]]"]
 level: "foundation"
 sensitive: false
 tags: ["education", "biology-basics"]
-updated: 2026-11-07
+updated: 2026-11-08
 source_checked: 2026-11-07
 reviewed: "pending"
 reviewed_by: ""
@@ -31,7 +31,7 @@ A stored recipe, a working copy and a finished dish are different objects. [Deox
 
 A [gene](/wiki/education/concepts/biology-basics/molecules/gene) is a sequence used to make a functional product. For a protein-coding gene, **transcription** uses DNA as a template to produce RNA. Processing can remove intervening sequences and join the remaining segments through [splicing](/wiki/education/concepts/biology-basics/genetics/splicing). **Translation** reads the coding sequence of the message in three-base units called **codons** and joins the matching amino acids into a protein. Most human proteins are made by ribosomes in the cytoplasm, including those on the [endoplasmic reticulum](/wiki/education/concepts/biology-basics/cells/organelles-overview). Mitochondria are the exception: they carry their own small DNA and their own ribosomes, which make a handful of proteins used in energy production.
 
-The **genetic code** is the lookup table from codon to amino acid. Four RNA letters taken three at a time give 64 codons: 61 specify the 20 amino acids, and three (UAA, UAG and UGA) are **stop** signals. Translation usually starts at an AUG codon, which also specifies methionine. Because the message is read in consecutive triplets from that start, the starting point fixes the **reading frame**:
+The [**genetic code**](/wiki/education/concepts/biology-basics/genetics/genetic-code) is the lookup table from codon to amino acid: 61 of the 64 codons specify amino acids, three (UAA, UAG and UGA) mean stop, and translation usually starts at AUG. The start fixes the **reading frame**, so one-letter changes and frameshifts have very different effects:
 
 | Message | Read in triplets | Protein result |
 |---|---|---|
@@ -100,6 +100,7 @@ DNA is ______ into RNA, which ribosomes ______ in steps of three letters called 
 
 ## Related concepts
 
+- [The genetic code](/wiki/education/concepts/biology-basics/genetics/genetic-code) explains codons, start and stop signals, and the reading frame.
 - [Mutation types](/wiki/education/concepts/biology-basics/genetics/mutation-types) and [splicing](/wiki/education/concepts/biology-basics/genetics/splicing) show how edits change the message.
 - [Gene regulation](/wiki/education/concepts/biology-basics/genetics/gene-regulation) explains how cells decide how much of each message to make.
 - [mRNA construct anatomy](/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy)
@@ -121,27 +122,21 @@ Source check: November 7, 2026. General molecular teaching; expert and learner r
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Cell therapies as living drugs](/wiki/education/cellular-therapies/01-cell-therapy-primer)
-- [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks)
-- [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
+- [Cell therapies as living drugs](/wiki/education/guides/engineered-cell-therapy/01-cell-therapy-primer)
+- [Building an engineered T cell](/wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks)
+- [How to engineer T cells inside the body](/wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery)
 - [How engineered immune cells can attack a solid tumor](/wiki/education/guides/engineered-cell-therapy/index)
-- [Autophagy: traffic, flow, and dependence](/wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence)
 - [PI3K, AKT, and mTOR: competing effects on repair and recycling](/wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair)
 - [Reading a functional experiment](/wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment)
+- [How dendritic cells help start a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response)
+- [Match each measurement to its claim](/wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget)
 - [Read tumor and normal data before choosing targets](/wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 - [Read each label as an answer to a question](/wiki/education/guides/start-here/01-read-the-labels)
 - [Follow the route to immune recognition](/wiki/education/guides/start-here/02-follow-immune-recognition)
-- [Learn the biology and evidence](/wiki/education/index)
-- [Match each measurement to its claim](/wiki/education/local-treatment-modalities/05-tissue-and-sample-budget)
-- [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
-- [Ask whether protein is present, placed and active](/wiki/education/molecular-profiling/03-protein-expression-and-activation)
-- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
-- [Start with genes, RNA and protein](/wiki/education/multi-omics-foundations/00-genes-rna-and-protein)
-- [See what is inside a tissue sample](/wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue)
-- [Read RNA counts without counting proteins](/wiki/education/multi-omics-foundations/03-reading-rna-counts)
-- [Follow a splice change toward repair function](/wiki/education/multi-omics-foundations/05-splicing-and-dna-repair)
-- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
-- [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Start with genes, RNA and protein](/wiki/education/guides/what-multi-omics-tells-us/01-genes-rna-and-protein)
+- [See what is inside a tissue sample](/wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample)
+- [Read protein: presence, place and activation](/wiki/education/guides/what-multi-omics-tells-us/06-read-protein)
+- [Read one report with the six-question card](/wiki/education/guides/what-multi-omics-tells-us/11-read-one-report)
+- [What does multi-omics tell us about a tumor?](/wiki/education/guides/what-multi-omics-tells-us/index)
 <!-- END GENERATED USED IN -->

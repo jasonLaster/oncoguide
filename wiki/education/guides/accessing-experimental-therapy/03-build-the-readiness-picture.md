@@ -3,7 +3,7 @@ title: "Build the readiness picture"
 type: "guide-lesson"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-11-07"
+updated: "2026-11-08"
 source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
@@ -57,6 +57,16 @@ An **individual-patient protocol submitted under an existing active IND** does n
 **Emergency expanded access** can receive rapid authorization before the later written submission. The emergency pathway has its own requirements and follow-up. It is not a way to label every time-sensitive plan as an emergency.
 
 Ask which clock a quoted timeline refers to: supplier review, product manufacture, FDA review, institutional review, shipping, or clinical scheduling. Some tasks may run in parallel. Others depend on earlier answers. The team needs a plan for delays as well as an ideal schedule.
+
+The product itself runs on three further clocks. A proposed “six-month timeline” is incomplete until you know which one it names.
+
+| Clock | What starts and ends it? | The question to ask |
+|---|---|---|
+| Product development | Candidate design through testing and development | Is there a clinically usable product at all? |
+| Manufacturing and release | Making a specified batch through required quality release | Is the actual treatment material ready? |
+| Dosing and biological effects | Administration through exposure and subsequent effects | What schedule and monitoring have supporting evidence? |
+
+A new laboratory binder may never become a treatment, and manufacturing a known product is a different task from developing one. A treatment format's name supplies no universal duration.
 
 A medicine's [pharmacokinetics and half-life](/wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life) describe exposure, not the entire clinical preparation clock. The treating and study teams must assess interactions, lasting effects and protocol washout rules; one half-life calculation cannot establish safe sequencing.
 

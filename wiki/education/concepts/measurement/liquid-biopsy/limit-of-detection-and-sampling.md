@@ -7,7 +7,7 @@ glossary_anchor: "limit-of-detection-and-sampling"
 aliases: ["ctDNA sampling limits", "limit-of-detection-and-sampling", "molecular sampling"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna]]", "[[wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation]]"]
-used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]","[[wiki/education/molecular-profiling/06-ctdna-and-mrd]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result]]","[[wiki/education/guides/monitoring-residual-disease/index]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: "2026-11-07"
@@ -51,7 +51,7 @@ flowchart TD
 
 **Worked scale example.** DNA mass converts to genome copies at 3.3 picograms per haploid copy. A breast-cancer study used 4,500 copies, about 15 nanograms, as one assay input ([Santonja 2023](https://doi.org/10.15252/emmm.202216505)). At a tumor fraction of 0.01% (1 in 10,000), that input holds on average 0.45 copies of any one tumor position, so by the Poisson model above a single-mutation test would see zero copies about 64% of the time (exp(−0.45)). Tracking 20 independent tumor mutations raises the expected tumor copies to 9, and the chance that all of them are absent falls to about 0.01% (exp(−9)). This is why multi-mutation designs reach lower detection limits at the same input; recovery losses and calling rules still apply.
 
-**Recovery and representation:** extraction, library construction and sequencing retain or observe some starting molecules. Amplifying one molecule into many reads does not create independent original tumor molecules. Multiple [tracking targets](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay) can add opportunities to detect signal, but their number alone does not establish complete recovery or clinical sensitivity.
+**Recovery and representation:** extraction, library construction and sequencing retain or observe some starting molecules. Amplifying one molecule into many reads does not create independent original tumor molecules. Multiple [tracking targets](/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays) can add opportunities to detect signal, but their number alone does not establish complete recovery or clinical sensitivity.
 
 **Analytical discrimination:** errors and background must be separated from true signal. [Limit of detection (LoD)](/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation) describes detection probability under specified conditions. A nominal LoD from high-input validation material may not apply to a low-input clinical sample. A sample that fails quality criteria should not be silently treated as negative.
 
@@ -110,5 +110,4 @@ Source check: November 7, 2026. The Poisson arithmetic is illustrative; the 4,50
 
 - [Read the blood result before reading the trend](/wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result)
 - [Understand blood tests and imaging after treatment](/wiki/education/guides/monitoring-residual-disease/index)
-- [Read blood measurements as a time series](/wiki/education/molecular-profiling/06-ctdna-and-mrd)
 <!-- END GENERATED USED IN -->

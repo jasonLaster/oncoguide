@@ -7,7 +7,7 @@ glossary_anchor: "myeloid-derived-suppressor-cells"
 aliases: ["myeloid-derived suppressor cell", "myeloid-derived suppressor cells", "MDSC", "MDSCs", "PMN-MDSC", "M-MDSC"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/measurement/immune-monitoring/flow-cytometry]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-10"
@@ -93,6 +93,6 @@ Source check: October 10, 2026. Research characterization standards and study-sp
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
-- [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
+- [The journey through a solid tumor](/wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers)
+- [Read an immune map without overreading it](/wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map)
 <!-- END GENERATED USED IN -->

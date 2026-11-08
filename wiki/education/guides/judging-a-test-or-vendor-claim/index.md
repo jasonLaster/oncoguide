@@ -3,14 +3,14 @@ title: "Judge a test or company claim"
 type: "guide"
 sensitive: false
 tags: ["education", "guide"]
-updated: "2026-11-07"
+updated: "2026-11-08"
 source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 goal: "Decide what a test or company claim establishes, what it leaves uncertain, and what evidence a proposed action needs."
 audience: "Curious patients and caregivers; no statistical training assumed."
-minutes: 34
+minutes: 46
 ---
 
 # Judge a test or company claim
@@ -23,7 +23,7 @@ A glossy report can be both interesting and hard to interpret. It may combine so
 
 1. A claim needs a subject, a population, a setting, an outcome and a proposed use. “Accurate” or “personalized” leaves too much unsaid.
 2. [Analytical validity, clinical validity and clinical utility](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) answer different questions. A reproducible measurement can still lack evidence that acting on it helps.
-3. [Laboratory and product labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) identify oversight or intended use. They cannot substitute for studies of the particular claim.
+3. [Laboratory and product labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-authorization) identify oversight or intended use. They cannot substitute for studies of the particular claim.
 4. Independent testing matters. A method tuned on the same examples used to evaluate it can appear stronger than it is.
 5. A useful next step may be confirmation, a narrow research question, or no extra test. Learning and treatment decisions have different evidence needs.
 
@@ -33,7 +33,8 @@ A glossy report can be both interesting and hard to interpret. It may combine so
 flowchart TD
   A[1. Write the exact claim] --> B[2. Match evidence to the claim]
   B --> C[3. Compare possible decisions]
-  C --> D{What is supported?}
+  C --> H[4. Ask format-specific questions]
+  H --> D{What is supported?}
   D --> E[Clinical discussion with matched evidence]
   D --> F[Focused confirmation or research question]
   D --> G[No added action when information will not help]
@@ -50,12 +51,13 @@ The minutes are suggested reading budgets. Each lesson uses a fictional report, 
 | 1 | [Write the exact claim](/wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim) | What is the company actually saying this result can do? | 10 | Claim translation worksheet |
 | 2 | [Read the validation](/wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation) | Was the right question tested on suitable independent data? | 12 | Evidence table and fictional study |
 | 3 | [Connect evidence to a decision](/wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision) | What would change, and is that change supported? | 12 | Decision ledger and stopping rule |
+| 4 | [Ask the questions a therapy format demands](/wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions) | Which questions does this particular therapy format demand? | 12 | Proposal card and four format-specific question sets |
 
 ## Concepts you will use
 
 For a plotted claim, use [the five-pass graph method](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes) and [denominators and conditional probability](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability). For a risk report or a new proposed setting, use [population versus individual risk](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk) and [transportability and eligibility](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility).
 
-Start with the [three validity questions](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) and [prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive). Then read [laboratory and test labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers), [actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) and [positive predictive value and base rates](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) when inspecting a report.
+Start with the [three validity questions](/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility) and [prognostic versus predictive biomarkers](/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive). Then read [laboratory and test labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-authorization), [actionability](/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability) and [positive predictive value and base rates](/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates) when inspecting a report.
 
 [Companion diagnostics](/wiki/education/concepts/access-and-regulation/approval/companion-diagnostics) help check a treatment's actual testing requirement. [Approval pathways and expedited designations](/wiki/education/concepts/access-and-regulation/approval/fda-approval-types) prevent a regulatory badge from answering the wrong question.
 

@@ -8,7 +8,7 @@ aliases: [SPPS, solid-phase peptide synthesis, peptide synthesis]
 level: intermediate
 prerequisites:
   - "[[wiki/education/concepts/biology-basics/molecules/protein-and-peptide]]"
-used_by: ["[[wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
+used_by: ["[[wiki/education/guides/personalized-cancer-vaccine/07-making-the-product]]","[[wiki/education/guides/personalized-cancer-vaccine/index]]"]
 sensitive: false
 tags: [education, engineering-and-manufacturing]
 updated: 2026-10-10
@@ -93,6 +93,6 @@ Source check: October 10, 2026; expert and learner review pending. The practice 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How a personalized vaccine is manufactured](/wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured)
+- [How a personalized vaccine is manufactured](/wiki/education/guides/personalized-cancer-vaccine/07-making-the-product)
 - [How a personalized cancer vaccine is designed](/wiki/education/guides/personalized-cancer-vaccine/index)
 <!-- END GENERATED USED IN -->

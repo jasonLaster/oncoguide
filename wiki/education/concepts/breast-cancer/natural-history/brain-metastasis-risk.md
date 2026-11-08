@@ -59,7 +59,7 @@ These cohorts have different denominators, clocks and ascertainment. They also p
 | Cannot tell you | An individual's outcome or whether a routine screening program improves survival |
 | Validation context | A cohort estimate needs applicability assessment before use as a prediction; a personal calculator needs its own validation |
 
-Follow-up matters. Some people die before a brain event can occur: death is a **competing event** for that endpoint. Simply excluding them or treating them as ordinary lost observations can distort a risk estimate. [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) explains why a raw fraction and a time-to-event estimate differ. Dawood used cumulative incidence with competing risks. [3]
+Follow-up matters. Some people die before a brain event can occur: death is a [**competing event**](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks) for that endpoint. Simply excluding them or treating them as ordinary lost observations can distort a risk estimate. [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints) explains why a raw fraction and a time-to-event estimate differ. Dawood used cumulative incidence with competing risks. [3]
 
 ## Common confusions
 
@@ -94,6 +94,8 @@ Keep the cohort and clock attached to the number; a brain-risk headline is not a
 
 - [TNBC recurrence timing and sites](/wiki/education/concepts/breast-cancer/natural-history/tnbc-recurrence-timing-and-sites)
 - [Survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints)
+- [Competing risks and cumulative incidence](/wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks)
+- [Surveillance after treatment](/wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment)
 
 ## Sources
 

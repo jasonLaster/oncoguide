@@ -53,7 +53,7 @@ The goal also helps frame a proposed change. Better tumor shrinkage is not autom
 
 Intent is documented in the clinical plan; it is not measured by a laboratory test. Treatment effects are assessed using appropriate imaging, pathology, symptoms and [recurrence or survival endpoints](/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints), with a stated time origin and follow-up.
 
-**Complete remission** means that signs and symptoms have disappeared under the assessment being used. It is different from proving that cancer can never return. [NCI distinguishes remission from cure](https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis). Neither a favorable scan nor [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) supplies a lifelong guarantee. Follow-up can add evidence over time without creating one universal “cured after this many years” rule.
+**Complete remission** means that signs and symptoms have disappeared under the assessment being used. It is different from proving that cancer can never return. [NCI distinguishes remission from cure](https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis). Neither a favorable scan nor [pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) supplies a lifelong guarantee. [Follow-up](/wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment) can add evidence over time without creating one universal “cured after this many years” rule.
 
 ## Common confusions
 
@@ -84,6 +84,7 @@ A fictional patient has surgery, no visible disease afterward and planned adjuva
 - [The KEYNOTE-522 regimen](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen)
 - [Metastasis and dormancy](/wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy)
 - [Response-adapted therapy](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy)
+- [Surveillance after treatment](/wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment)
 
 ## Sources and scope
 

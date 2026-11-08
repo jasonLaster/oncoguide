@@ -7,7 +7,7 @@ aliases: [imaging mass cytometry, IMC, spatial mass cytometry]
 glossary_anchor: "imaging-mass-cytometry"
 level: advanced
 prerequisites: ["[[wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure]]", "[[wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation]]"]
-used_by: ["[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response]]"]
 sensitive: false
 tags: [education, measurement]
 updated: "2026-10-09"
@@ -85,6 +85,7 @@ A fictional panel reports a rare double-positive cell population. One marker is 
 
 ## Related concepts
 
+- [Spatial protein versus spatial RNA methods](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared): plex, resolution and region-versus-slide choices side by side.
 - [Multiplex immunofluorescence](/wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence)
 - [Immunopeptidomics](/wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics)
 - [Functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays)
@@ -100,6 +101,5 @@ Source-checked October 9, 2026. Platform principles and a fictional artifact che
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response)
 <!-- END GENERATED USED IN -->

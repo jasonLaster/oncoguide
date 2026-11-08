@@ -7,7 +7,7 @@ glossary_anchor: "tumor-associated-macrophages"
 aliases: ["tumor-associated macrophage", "tumor-associated macrophages", "TAMs"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]", "[[wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states]]", "[[wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment]]"]
-used_by: ["[[wiki/education/cellular-therapies/08-solid-tumor-barriers]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map]]"]
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: "2026-10-10"
@@ -96,6 +96,6 @@ Source check: October 10, 2026. Mouse origin and intervention experiments and ob
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [The journey through a solid tumor](/wiki/education/cellular-therapies/08-solid-tumor-barriers)
-- [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
+- [The journey through a solid tumor](/wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers)
+- [Read an immune map without overreading it](/wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map)
 <!-- END GENERATED USED IN -->

@@ -6,7 +6,7 @@ aliases: ["batch effect", "technical batch", "batch correction"]
 summary: "A batch effect is a systematic measurement difference associated with preparation, processing or analysis conditions that can be mistaken for a biological difference between samples."
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq]]", "[[wiki/education/concepts/measurement/specimens/rna-integrity]]"]
-used_by: ["[[wiki/education/molecular-profiling/02-rna-the-activity-layer]]","[[wiki/education/multi-omics-foundations/07-comparisons-and-evidence]]","[[wiki/education/reading-a-tumor/omics-and-multi-omics]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/05-read-rna]]","[[wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison]]"]
 glossary_anchor: "batch-effect"
 sensitive: false
 tags: ["education", "measurement"]
@@ -100,7 +100,6 @@ Source check: October 9, 2026. Expert and learner review remain pending. Example
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Use RNA to test the message and its source](/wiki/education/molecular-profiling/02-rna-the-activity-layer)
-- [Choose the comparison before interpreting the signal](/wiki/education/multi-omics-foundations/07-comparisons-and-evidence)
-- [What does multi-omics tell us about a tumor?](/wiki/education/reading-a-tumor/omics-and-multi-omics)
+- [Read RNA: counts, preparation and splice products](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna)
+- [Choose the comparison before interpreting the signal](/wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison)
 <!-- END GENERATED USED IN -->

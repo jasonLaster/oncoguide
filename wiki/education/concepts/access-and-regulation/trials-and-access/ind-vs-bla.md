@@ -7,7 +7,7 @@ glossary_anchor: "ind-vs-bla"
 aliases: ["IND","Investigational New Drug application","BLA","Biologics License Application","NDA","New Drug Application"]
 level: "intermediate"
 prerequisites: []
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route]]","[[wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture]]","[[wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route]]","[[wiki/education/guides/accessing-experimental-therapy/index]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions]]"]
 sensitive: false
 tags: ["education", "access-and-regulation"]
 updated: 2026-11-07
@@ -117,5 +117,5 @@ U.S. source check: November 7, 2026. Fictional exercise. No individual applicati
 - [Build the readiness picture](/wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture)
 - [Walk the non-trial route](/wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route)
 - [Understand access to an experimental therapy](/wiki/education/guides/accessing-experimental-therapy/index)
-- [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions)
+- [Ask the questions a therapy format demands](/wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions)
 <!-- END GENERATED USED IN -->

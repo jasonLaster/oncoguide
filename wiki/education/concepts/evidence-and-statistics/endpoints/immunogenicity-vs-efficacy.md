@@ -10,7 +10,7 @@ tags: [education, comparison]
 prerequisites:
   - "[[wiki/education/concepts/measurement/immune-monitoring/elispot]]"
   - "[[wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization]]"
-used_by: []
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help]]"]
 reviewed: pending
 reviewed_by: ""
 expert_review: pending
@@ -83,7 +83,7 @@ One possible answer: “a response under its stated conditions; a suitable compa
 
 ## Related concepts
 
-Continue with [measuring T-cell engagement](/wiki/education/reading-a-tumor/measuring-t-cell-engagement#try-it) for a clone-and-tumor-DNA attribution answer, and [trial design](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) for comparison logic.
+Continue with [measuring T-cell engagement](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response#try-it) for a clone-and-tumor-DNA attribution answer, and [trial design](/wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization) for comparison logic.
 
 ## Sources and scope
 
@@ -91,3 +91,10 @@ Source check: October 12, 2026. The linked public examples and answers are retai
 
 - [Ott et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28678778/): phase I melanoma vaccine study; immune measurements in a specific assay and treatment setting, not an added-benefit comparison for all vaccines.
 - [FDA, 2018: Clinical Trial Endpoints for the Approval of Cancer Drugs and Biologics](https://www.fda.gov/media/71195/download): clinical benefit, surrogate endpoints and study-design considerations, particularly sections II, III.A and IV.A. Used for general evidence-reading distinctions, not current regulatory or treatment advice.
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Compare related ideas](/wiki/education/comparisons/index)
+- [Why a personalized cancer vaccine can help](/wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help)
+<!-- END GENERATED USED IN -->

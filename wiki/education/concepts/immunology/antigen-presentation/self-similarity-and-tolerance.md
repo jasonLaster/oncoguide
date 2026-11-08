@@ -7,7 +7,7 @@ glossary_anchor: self-similarity-and-tolerance
 aliases: [self-similarity, immune tolerance, self tolerance]
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope]]", "[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]"]
-used_by: ["[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]"]
+used_by: ["[[wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell]]","[[wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board]]"]
 reviewed: pending
 reviewed_by: ""
 sensitive: false
@@ -98,5 +98,6 @@ Source-checked October 10, 2026. The example is fictional and supplies no clinic
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
+- [How a T cell sees a cancer cell](/wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell)
+- [Read a neoantigen design board](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board)
 <!-- END GENERATED USED IN -->

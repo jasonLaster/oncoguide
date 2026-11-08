@@ -9,7 +9,7 @@ level: foundation
 prerequisites:
   - "[[wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence]]"
   - "[[wiki/education/concepts/measurement/imaging/response-criteria]]"
-used_by: ["[[wiki/education/cellular-therapies/09-reading-cell-therapy-evidence]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence]]","[[wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model]]"]
 sensitive: false
 tags: [education, evidence-and-statistics]
 updated: 2026-10-10
@@ -90,7 +90,7 @@ In another fictional experiment, a tumor starts at 100 mm³ and is measured at 6
 
 **Keep the reference value, units and time attached to every reduction claim.**
 
-For a longer worked exercise, use [reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence).
+For a longer worked exercise, use [reading cell-therapy evidence](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence).
 
 ## Related concepts
 
@@ -106,6 +106,6 @@ Source check: October 10, 2026. All volume values and calculations are fictional
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Reading cell-therapy evidence](/wiki/education/cellular-therapies/09-reading-cell-therapy-evidence)
-- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
+- [Reading cell-therapy evidence](/wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence)
+- [Test a mechanism in a living model](/wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model)
 <!-- END GENERATED USED IN -->

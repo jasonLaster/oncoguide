@@ -7,7 +7,7 @@ glossary_anchor: "intratumoral-immunotherapy"
 summary: "Intratumoral immunotherapy places an immune-directed treatment inside a tumor, while local effects, immune recognition and effects elsewhere remain separate questions."
 level: intermediate
 prerequisites: ["[[wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle]]", "[[wiki/education/concepts/immunology/antigen-presentation/cross-presentation]]"]
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/index]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]"]
 sensitive: false
 tags: [education, immunotherapy, local-treatment]
 updated: 2026-11-07
@@ -89,5 +89,4 @@ Source check: November 7, 2026. General route and evidence principles; a lymphom
 
 - [Read an injected-treatment study](/wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
-- [Learn the biology and evidence](/wiki/education/index)
 <!-- END GENERATED USED IN -->

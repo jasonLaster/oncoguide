@@ -7,7 +7,7 @@ glossary_anchor: "sbrt"
 aliases: ["SBRT", "SABR", "stereotactic body radiotherapy", "stereotactic ablative radiotherapy", "stereotactic ablative body radiation therapy"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics]]", "[[wiki/education/concepts/therapeutics/local-therapies/hypofractionation]]"]
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/local-treatment-modalities/03-overlap-and-sequencing]]","[[wiki/education/local-treatment-modalities/04-decision-questions]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/local-treatment-modalities/index]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/02-timing]]","[[wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing]]","[[wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions]]","[[wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
 updated: "2026-10-10"
@@ -113,10 +113,10 @@ Source check: October 10, 2026. Delivery principles and evidence interpretation;
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Put the disease setting before the clock](/wiki/education/guides/local-therapy-and-the-immune-system/02-timing)
+- [Ask what a combination trial actually proved](/wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing)
+- [Read a proposal through five questions](/wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions)
+- [Compare delivery and recognition separately](/wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
-- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
-- [Ask what a combination trial actually proved](/wiki/education/local-treatment-modalities/03-overlap-and-sequencing)
-- [Read a proposal through five questions](/wiki/education/local-treatment-modalities/04-decision-questions)
-- [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons)
 - [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)
 <!-- END GENERATED USED IN -->

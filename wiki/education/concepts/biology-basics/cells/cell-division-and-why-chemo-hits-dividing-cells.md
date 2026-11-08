@@ -7,7 +7,7 @@ glossary_anchor: "cell-division-and-why-chemo-hits-dividing-cells"
 aliases: ["cell division", "mitosis", "cytokinesis", "why chemotherapy affects dividing cells"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/cell-cycle]]"]
-used_by: ["[[wiki/education/index]]"]
+used_by: []
 sensitive: false
 tags: ["education", "biology-basics"]
 updated: 2026-11-07
@@ -107,5 +107,5 @@ Source-checked November 7, 2026; expert and learner review pending. The exercise
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Learn the biology and evidence](/wiki/education/index)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

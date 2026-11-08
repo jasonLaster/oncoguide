@@ -7,7 +7,7 @@ glossary_anchor: "costimulation"
 aliases: ["costimulation", "co-stimulation", "signal two"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell-receptor]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/oncology-101/4-escape-mechanisms]]"]
+used_by: ["[[wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response]]"]
 sensitive: false
 tags: ["education", "immunology"]
 updated: 2026-11-07
@@ -100,7 +100,6 @@ Source check: October 10, 2026. Supporting interactions and experimental interpr
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks)
-- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
-- [Find the step an immune response can lose](/wiki/education/oncology-101/4-escape-mechanisms)
+- [Building an engineered T cell](/wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks)
+- [How dendritic cells help start a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response)
 <!-- END GENERATED USED IN -->

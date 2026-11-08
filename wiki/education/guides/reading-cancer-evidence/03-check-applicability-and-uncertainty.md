@@ -19,7 +19,7 @@ reviewed: pending
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
 source_checked: 2026-10-09
-updated: 2026-11-07
+updated: 2026-11-08
 tags: [education, guide-lesson, evidence-and-statistics]
 ---
 
@@ -45,11 +45,11 @@ Think of a sharp photograph taken from the wrong angle. Precision and relevance 
 
 | Check | What to ask | What a reassuring answer cannot fix |
 |---|---|---|
-| Precision | How wide is the interval? How many relevant events informed the result? | A narrow interval cannot remove systematic error |
+| Precision | How wide is the interval? How many relevant events informed the result ([power](/wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size))? | A narrow interval cannot remove systematic error |
 | Bias | Did assignment, assessment, missing data, or selective reporting distort the comparison? | Randomization cannot answer an endpoint the trial never measured |
 | [Applicability](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility) | Do the population, treatment sequence, comparator, and endpoint match the proposed action? | A similar patient description cannot create a missing comparison |
 
-Read the [prespecified analysis and exploratory questions](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis) beside the published result. Retain plan dates and amendments. Check how many people were assigned, followed and analyzed, why some were missing, and whether outcomes or harms were omitted. A reporting checklist helps locate information; compliance alone cannot establish a sound study. [CONSORT 2025](https://www.bmj.com/content/389/bmj-2024-081123).
+Read the [prespecified analysis and exploratory questions](/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis) beside the published result. Retain plan dates and amendments. Check how many people were assigned, followed and analyzed ([analysis populations](/wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations)), why some were missing, and whether outcomes or harms were omitted. A reporting checklist helps locate information; compliance alone cannot establish a sound study. [CONSORT 2025](https://www.bmj.com/content/389/bmj-2024-081123).
 
 In an [observational study](/wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding), treatment choice can share causes with outcome. Check how that confounding was addressed. A [case report](/wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1) offers a timeline and a hypothesis; lesson 4 covers single stories.
 
@@ -100,7 +100,7 @@ Results from different populations cannot simply be added to create a combined b
 
 ## What can go wrong at this step
 
-- **“The interval includes no effect, so the treatments are equivalent.”** Equivalence needs its own design and limits. An imprecise result leaves several effects unresolved.
+- **“The interval includes no effect, so the treatments are equivalent.”** Equivalence needs its own design and limits; see [non-inferiority trials](/wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials). An imprecise result leaves several effects unresolved.
 - **“The estimate is precise, so it is true.”** Precision does not account for every bias or untested assumption.
 - **“This marker predicts outcome, so it selects the helpful treatment.”** A prognostic association does not establish a treatment-effect difference or clinical utility.
 - **“This population resembles mine, so this action was tested.”** Similarity matters, but the intervention and comparator must match too.

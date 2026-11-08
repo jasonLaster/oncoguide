@@ -66,7 +66,7 @@ flowchart TD
 
 A headline may combine several statuses. Write each on its own line, then return to the exact proposed use. Approval does not establish individual eligibility for a study, institutional availability or payment.
 
-Device clearance, device approval and emergency authorization use other frameworks. This page concerns drugs and biologics; [test-status labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers) have their own owner.
+Device clearance, device approval and emergency authorization use other frameworks. This page concerns drugs and biologics; [test-status labels](/wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-authorization) have their own owner.
 
 ## How status is checked
 

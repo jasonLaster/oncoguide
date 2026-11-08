@@ -11,7 +11,7 @@ summary: "Digital pathology converts prepared slides into images for viewing and
 level: "foundation"
 prerequisites:
   - "[[wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology]]"
-used_by: ["[[wiki/education/reading-a-tumor/index]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/11-read-one-report]]"]
 reviewed: "pending"
 source_checked: 2026-10-10
 reviewed_by: ""
@@ -102,5 +102,5 @@ Source check: October 10, 2026. General digital measurement teaching; expert and
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a tumor report without skipping its limits](/wiki/education/reading-a-tumor/index)
+- [Read one report with the six-question card](/wiki/education/guides/what-multi-omics-tells-us/11-read-one-report)
 <!-- END GENERATED USED IN -->

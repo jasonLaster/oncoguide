@@ -7,11 +7,11 @@ glossary_anchor: "hot-excluded-cold-tumor"
 aliases: ["immune-hot", "immune-excluded", "immune-cold", "immune desert", "inflamed tumor"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/immunology/the-immune-system/immune-cell-roster]]"]
-used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/index]]","[[wiki/education/molecular-profiling/04-spatial-biology]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/reading-a-tumor/immune-hot-vs-cold]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response]]","[[wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context]]"]
 sensitive: false
 tags: ["education", "immunology"]
-updated: 2026-11-07
-source_checked: 2026-11-07
+updated: 2026-11-08
+source_checked: 2026-11-08
 reviewed: "pending"
 reviewed_by: ""
 review_status: "Source-checked; expert and learner review pending"
@@ -45,16 +45,7 @@ Presence also differs from specificity. Some cells in a tumor respond to infecti
 
 ### Candidate reasons T cells stay out
 
-"Excluded" names a pattern. Studies have identified several mechanisms that can produce it, each tested in its own setting:
-
-| Candidate mechanism | What it does | Example evidence |
-|---|---|---|
-| Missing recruitment signals | T cells follow chemokines such as CXCL9 and CXCL10 through their receptor CXCR3; without them, fewer cells enter | Mouse tumors: anti-PD-1 benefit needed intratumoral CXCR3 signaling ([Chow et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31097342/)) |
-| Fibroblast-rich stroma and TGF-β | Transforming growth factor beta (TGF-β) signaling in stroma keeps T cells at the edge | Urothelial cancer treated with atezolizumab: a stromal TGF-β signature went with non-response and exclusion; in mice, blocking TGF-β together with PD-L1 let T cells into the tumor ([Mariathasan et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29443960/)) |
-| Tumor-intrinsic WNT/β-catenin signaling | Reduces recruitment of the dendritic cells that start a response, which yields a desert more than an excluded rim | Melanoma patients and mouse models ([Spranger et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25970248/)) |
-| Abnormal vessels | Leaky, disorganized vessels and low adhesion-molecule display limit entry | Proposed across many tumor types; see [cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine) for the signals involved |
-
-None of these is shown by the image itself. Each needs its own measurement.
+"Excluded" names a pattern, not its cause. Studies have tied it to missing recruitment chemokines such as CXCL9 and CXCL10, abnormal tumor vessels, dense collagen, fibroblast transforming growth factor beta (TGF-β) signaling and macrophages that trap T cells in the stroma. Tumor WNT/β-catenin signaling tends to produce a desert instead. [T-cell exclusion mechanisms](/wiki/education/concepts/immunology/tumor-immunology/t-cell-exclusion-mechanisms) gives the evidence for each, including what was shown in triple-negative breast cancer. None of these is shown by the image itself; each needs its own measurement.
 
 
 ### Shared visual reference
@@ -86,7 +77,7 @@ A fictional biopsy has many lymphocytes in surrounding stroma but few inside can
 
 ## How it is measured
 
-Routine pathology counts or scores cells under specified rules. Multiplex imaging distinguishes cell identities and locations. Gene-expression profiles describe mixed activity programs but usually lose direct location. The [immune-readout lesson](/wiki/education/reading-a-tumor/measuring-t-cell-engagement) explains how the layers fit together. Breast-cancer stromal lymphocyte guidelines define a particular scoring method, rather than a universal hot/cold test. [The working-group recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/) give that scope.
+Routine pathology counts or scores cells under specified rules. Multiplex imaging distinguishes cell identities and locations. Gene-expression profiles describe mixed activity programs but usually lose direct location. The [immune-readout lesson](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response) explains how the layers fit together. Breast-cancer stromal lymphocyte guidelines define a particular scoring method, rather than a universal hot/cold test. [The working-group recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/) give that scope.
 
 ## Assay card: report a tissue pattern
 
@@ -120,17 +111,17 @@ A fictional section shows many T cells at the border but few within cancer-cell 
 ## Related concepts
 
 - [Cancer-immunity cycle](/wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle)
+- [T-cell exclusion mechanisms](/wiki/education/concepts/immunology/tumor-immunology/t-cell-exclusion-mechanisms)
 - [Cytokines and chemokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine)
 - [Immune escape](/wiki/education/concepts/immunology/tumor-immunology/immune-escape)
 
 ## Sources and scope
 
-Source check: November 7, 2026. Descriptive tissue patterns; clinical predictions require assay-, population- and treatment-specific evidence. Expert and learner review remain pending.
+Source check: November 8, 2026. Descriptive tissue patterns; clinical predictions require assay-, population- and treatment-specific evidence. Expert and learner review remain pending.
 
 - [Chen and Mellman, 2017: immune profiles in the cancer–immune set-point framework](https://www.nature.com/articles/nature21349).
 - [Loi et al., 2019: pooled sTIL prognosis in early TNBC](https://pubmed.ncbi.nlm.nih.gov/30650045/).
 - [Taube et al., 2012: interferon-linked PD-L1 and adaptive resistance](https://pubmed.ncbi.nlm.nih.gov/22461641/).
-- Exclusion mechanisms: [Chow et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31097342/); [Mariathasan et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29443960/); [Spranger et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25970248/).
 - [Salgado et al., 2015: breast-cancer lymphocyte-scoring recommendations](https://pubmed.ncbi.nlm.nih.gov/25214542/).
 - [Kos et al., 2020: variability and pitfalls in stromal lymphocyte assessment](https://pubmed.ncbi.nlm.nih.gov/32411819/).
 - [Preclinical in-situ tumor-array study, 2023](https://www.nature.com/articles/s41586-023-06132-2). Spatially distinct and changing patterns in mouse models support keeping location and timing attached; model associations do not create a universal clinical cutoff.
@@ -139,11 +130,9 @@ Source check: November 7, 2026. Descriptive tissue patterns; clinical prediction
 ## Used in
 
 - [Compare related ideas](/wiki/education/comparisons/index)
+- [How T cells reach a tumor, and what keeps them out](/wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor)
+- [Read an immune map without overreading it](/wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map)
 - [What checkpoint inhibitors change](/wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change)
-- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
-- [Learn the biology and evidence](/wiki/education/index)
-- [Add the geography of cells and signals](/wiki/education/molecular-profiling/04-spatial-biology)
-- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
-- [Read an immune map without overreading it](/wiki/education/reading-a-tumor/immune-hot-vs-cold)
-- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
+- [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response)
+- [Add geography and immune context](/wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context)
 <!-- END GENERATED USED IN -->

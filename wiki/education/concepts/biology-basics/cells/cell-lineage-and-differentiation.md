@@ -7,7 +7,7 @@ glossary_anchor: "cell-lineage-and-differentiation"
 aliases: ["cell lineage", "differentiation", "cell differentiation", "cell identity"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/cell-and-membrane]]", "[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/multi-omics-foundations/02-cell-identity-and-state]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample]]"]
 sensitive: false
 tags: ["education", "biology-basics"]
 updated: "2026-10-09"
@@ -64,7 +64,7 @@ Developmental lineage also differs from a **tumor clone**, a population related 
 
 ## How it is measured
 
-Morphology, location and combinations of markers help identify cell families. [Single-cell and single-nucleus RNA sequencing](/wiki/education/molecular-profiling/02-rna-the-activity-layer) measure expression patterns in individual cells or nuclei. Computational clusters group similar measurements; their membership depends on the assay and analysis.
+Morphology, location and combinations of markers help identify cell families. [Single-cell and single-nucleus RNA sequencing](/wiki/education/guides/what-multi-omics-tells-us/05-read-rna) measure expression patterns in individual cells or nuclei. Computational clusters group similar measurements; their membership depends on the assay and analysis.
 
 To investigate ancestry directly, researchers can follow labels or inherited experimental barcodes through descendants. A snapshot ordered into a proposed developmental path is an inference, not direct observation of every transition. In a primary mouse blood-development study, combining barcodes with expression measurements revealed fate information missed by RNA snapshots alone. That research does not make every computational trajectory a proven human tumor lineage.
 
@@ -110,5 +110,5 @@ Source-checked October 9, 2026; expert and learner review pending. The exercise 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Separate cell identity from cell state](/wiki/education/multi-omics-foundations/02-cell-identity-and-state)
+- [See what is inside a tissue sample](/wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample)
 <!-- END GENERATED USED IN -->

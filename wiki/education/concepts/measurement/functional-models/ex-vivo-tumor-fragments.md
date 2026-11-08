@@ -7,7 +7,7 @@ glossary_anchor: "ex-vivo-tumor-fragments"
 aliases: ["ex vivo tumor fragments", "tumor explants", "tumor slices", "organotypic tumor slices"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/cells/epithelium-and-stroma]]", "[[wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity]]"]
-used_by: ["[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/modeling-tumor-response/index]]","[[wiki/education/molecular-profiling/05-functional-drug-response]]"]
+used_by: ["[[wiki/education/guides/predicting-response-before-treating/01-choose-a-model]]","[[wiki/education/guides/predicting-response-before-treating/index]]","[[wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model]]"]
 sensitive: false
 tags: ["education", "model-trust"]
 updated: "2026-10-10"
@@ -94,6 +94,8 @@ Two fictional fragments start with different malignant-cell fractions. After tre
 
 ## Related concepts
 
+- [PDX, organoid or tumor fragment: choose by the question](/wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment)
+- [Experimental settings: in vitro, ex vivo, in vivo and in silico](/wiki/education/concepts/measurement/functional-models/experimental-settings)
 - [Controlled perturbation](/wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls)
 - [How a model earns trust](/wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust)
 
@@ -108,7 +110,7 @@ Source check: October 10, 2026. The exercise is fictional. No collection protoco
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Choose a tumor model for the question](/wiki/education/guides/predicting-response-before-treating/01-choose-a-model)
 - [Understand what a tumor model can predict](/wiki/education/guides/predicting-response-before-treating/index)
-- [Choose a tumor model for the question](/wiki/education/modeling-tumor-response/index)
-- [Test a mechanism in a living model](/wiki/education/molecular-profiling/05-functional-drug-response)
+- [Test a mechanism in a living model](/wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model)
 <!-- END GENERATED USED IN -->

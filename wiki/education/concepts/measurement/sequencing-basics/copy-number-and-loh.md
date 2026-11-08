@@ -7,7 +7,7 @@ glossary_anchor: "loh"
 aliases: ["copy number", "allele-specific copy number", "copy-neutral LOH", "loss of heterozygosity", "LOH"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/allele-and-zygosity]]", "[[wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage]]", "[[wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing]]"]
-used_by: ["[[wiki/education/molecular-profiling/01-dna-the-blueprint]]","[[wiki/education/multi-omics-foundations/04-copies-alleles-and-clones]]","[[wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model]]"]
+used_by: ["[[wiki/education/guides/what-multi-omics-tells-us/03-read-dna]]","[[wiki/education/guides/what-multi-omics-tells-us/04-test-a-copy-aware-clone-model]]"]
 sensitive: false
 tags: ["education", "measurement"]
 updated: "2026-10-10"
@@ -95,6 +95,7 @@ One answer: “how many; which versions remain; appropriate sequence, expression
 
 ## Related concepts
 
+- [Tumor purity and ploidy](/wiki/education/concepts/measurement/sequencing-basics/tumor-purity-and-ploidy): how normal-cell admixture and genome doubling change every tumor DNA number.
 - [Alleles and zygosity](/wiki/education/concepts/biology-basics/genetics/allele-and-zygosity): version identity and combinations.
 - [Genomic scars](/wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars): historical chromosome patterns and method-specific scores.
 - [Human leukocyte antigen (HLA) loss of heterozygosity](/wiki/education/concepts/measurement/sequencing-basics/hla-loh): a specialized antigen-presentation locus question.
@@ -110,7 +111,6 @@ Source check: October 10, 2026. General copy-state education; examples are ficti
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Read a DNA assay as a coverage-and-confidence claim](/wiki/education/molecular-profiling/01-dna-the-blueprint)
-- [Separate DNA copies from cancer-cell fractions](/wiki/education/multi-omics-foundations/04-copies-alleles-and-clones)
-- [Test a copy-aware clone model](/wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model)
+- [Read DNA: coverage, calls, copies and cell fractions](/wiki/education/guides/what-multi-omics-tells-us/03-read-dna)
+- [Test a copy-aware clone model](/wiki/education/guides/what-multi-omics-tells-us/04-test-a-copy-aware-clone-model)
 <!-- END GENERATED USED IN -->

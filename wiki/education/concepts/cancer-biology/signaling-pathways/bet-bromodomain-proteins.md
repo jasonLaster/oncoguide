@@ -7,7 +7,7 @@ glossary_anchor: "bet-bromodomain-proteins"
 aliases: ["BET", "BET proteins", "BET bromodomain proteins", "BRD2", "BRD3", "BRD4", "BRDT", "bromodomain"]
 level: "intermediate"
 prerequisites: ["[[wiki/education/concepts/biology-basics/genetics/central-dogma]]"]
-used_by: ["[[wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet]]"]
+used_by: []
 sensitive: false
 tags: ["education", "cancer-biology"]
 updated: 2026-11-07
@@ -112,5 +112,5 @@ Source check: November 7, 2026; expert and learner review pending. The exercise 
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Stress defenses and chromatin readers: test the direction](/wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet)
+Browse the [concept index](/wiki/education/concepts/index) for related learning paths.
 <!-- END GENERATED USED IN -->

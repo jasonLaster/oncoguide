@@ -10,7 +10,7 @@ tags: [education, comparison, cancer-biology]
 prerequisites:
   - "[[wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor]]"
   - "[[wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality]]"
-used_by: []
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense]]","[[wiki/education/guides/from-variant-to-drug/index]]"]
 updated: 2026-11-07
 source_checked: 2026-11-07
 reviewed: "pending"
@@ -106,3 +106,11 @@ Source check: November 7, 2026. Concept comparison with fictional practice; expe
 - [Druker et al. (2001)](https://pubmed.ncbi.nlm.nih.gov/11287972/): imatinib in chronic myeloid leukemia and the essential role of BCR-ABL.
 - [Farmer et al. (2005)](https://pubmed.ncbi.nlm.nih.gov/15829967/) and [Bryant et al. (2005)](https://pubmed.ncbi.nlm.nih.gov/15829966/): BRCA-deficient cells and PARP inhibition.
 - [Slamon et al. (2001)](https://pubmed.ncbi.nlm.nih.gov/11248153/): trastuzumab in HER2-overexpressing metastatic breast cancer.
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Compare related ideas](/wiki/education/comparisons/index)
+- [Test the direction of a stress defense](/wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense)
+- [From a variant to a drug claim](/wiki/education/guides/from-variant-to-drug/index)
+<!-- END GENERATED USED IN -->

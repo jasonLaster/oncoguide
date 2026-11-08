@@ -7,7 +7,7 @@ glossary_anchor: rna-and-mrna
 aliases: ["RNA", "mRNA", "ribonucleic acid", "messenger RNA"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/biology-basics/molecules/dna]]", "[[wiki/education/concepts/biology-basics/molecules/gene]]"]
-used_by: ["[[wiki/education/cellular-therapies/06-in-vivo-delivery]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board]]","[[wiki/education/index]]","[[wiki/education/multi-omics-foundations/00-genes-rna-and-protein]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/2-dendritic-cells]]","[[wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing]]","[[wiki/education/targeted-therapy-modalities/04-decision-questions]]"]
+used_by: ["[[wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work]]","[[wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response]]","[[wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions]]","[[wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation]]","[[wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board]]","[[wiki/education/guides/what-multi-omics-tells-us/01-genes-rna-and-protein]]"]
 sensitive: false
 tags: [education, biology-basics]
 source_checked: 2026-10-09
@@ -41,7 +41,7 @@ Several roles help make the family easier to remember:
 
 For many human nuclear genes, transcription makes an initial RNA. Processing adds a protective **5′ cap**, removes introns through [splicing](/wiki/education/concepts/biology-basics/genetics/splicing), and adds a **poly(A) tail**, a stretch of adenines, at the other end. These features are common, rather than a rule for every RNA molecule. A processed mRNA can then leave the nucleus. [From DNA to RNA](https://www.ncbi.nlm.nih.gov/books/NBK26887/).
 
-A **ribosome**, a machine made of RNA and proteins, reads the message's coding sequence in **codons**, groups of three nucleotides. Transfer RNAs help match those instructions to amino acids. The growing amino-acid chain is a [protein product](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide). Folding, transport and modification remain further steps. [From RNA to protein](https://www.ncbi.nlm.nih.gov/books/NBK26829/).
+A **ribosome**, a machine made of RNA and proteins, reads the message's coding sequence in [**codons**](/wiki/education/concepts/biology-basics/genetics/genetic-code), groups of three nucleotides. Transfer RNAs help match those instructions to amino acids. The growing amino-acid chain is a [protein product](/wiki/education/concepts/biology-basics/molecules/protein-and-peptide). Folding, transport and modification remain further steps. [From RNA to protein](https://www.ncbi.nlm.nih.gov/books/NBK26829/).
 
 RNA is also degraded. Its abundance reflects production, processing and removal, rather than transcription alone. Some altered messages are reduced by [nonsense-mediated decay](/wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay), but their fate depends on the transcript context.
 
@@ -105,13 +105,11 @@ Source check: October 9, 2026. General RNA biology; the assay example is fiction
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [How to engineer T cells inside the body](/wiki/education/cellular-therapies/06-in-vivo-delivery)
-- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
-- [Read a neoantigen design board](/wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board)
-- [Learn the biology and evidence](/wiki/education/index)
-- [Start with genes, RNA and protein](/wiki/education/multi-omics-foundations/00-genes-rna-and-protein)
-- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
-- [How dendritic cells help start a T-cell response](/wiki/education/oncology-101/2-dendritic-cells)
-- [Overlap and sequencing](/wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing)
-- [Questions for a targeted-therapy proposal](/wiki/education/targeted-therapy-modalities/04-decision-questions)
+- [Sequence the work and respect what cannot be undone](/wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work)
+- [How to engineer T cells inside the body](/wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery)
+- [How dendritic cells help start a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response)
+- [Ask the questions a therapy format demands](/wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions)
+- [HLA and antigen presentation in vaccine design](/wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation)
+- [Read a neoantigen design board](/wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board)
+- [Start with genes, RNA and protein](/wiki/education/guides/what-multi-omics-tells-us/01-genes-rna-and-protein)
 <!-- END GENERATED USED IN -->

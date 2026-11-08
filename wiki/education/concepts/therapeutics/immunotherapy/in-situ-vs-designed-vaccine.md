@@ -11,7 +11,7 @@ prerequisites:
   - "[[wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview]]"
   - "[[wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination]]"
   - "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"
-used_by: []
+used_by: ["[[wiki/education/comparisons/index]]"]
 glossary_anchor: "in-situ-vs-designed-vaccine"
 updated: 2026-11-07
 source_checked: 2026-11-07
@@ -104,3 +104,9 @@ Source check: November 7, 2026. Brody and Hammerich primary abstracts were read;
 - [Brody et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20697067/): local radiation plus an injected CpG Toll-like receptor 9 (TLR9) agonist in low-grade B-cell lymphoma; in-body antigen-source example.
 - [Hammerich et al., 2019](https://pubmed.ncbi.nlm.nih.gov/30962585/): a defined dendritic-cell recruitment/activation strategy in indolent lymphoma and mouse models. Mouse checkpoint-responsiveness findings are not human benefit estimates.
 - [Ott et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28678778/): selected manufactured long peptides in a phase I melanoma study; supplied-product example. Clinical observations do not compare the two categories.
+
+<!-- BEGIN GENERATED USED IN -->
+## Used in
+
+- [Compare related ideas](/wiki/education/comparisons/index)
+<!-- END GENERATED USED IN -->

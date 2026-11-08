@@ -7,7 +7,7 @@ summary: "Mammography uses low-dose X-rays to show breast tissue patterns, inclu
 glossary_anchor: "mammography"
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy]]"]
-used_by: ["[[wiki/education/molecular-profiling/ctdna-ppm-and-mri]]"]
+used_by: ["[[wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging]]"]
 sensitive: false
 tags: ["education", "measurement", "imaging"]
 source_checked: "2026-10-10"
@@ -99,5 +99,5 @@ Source check: October 10, 2026. General modality education and a fictional exerc
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Compare blood results with imaging](/wiki/education/molecular-profiling/ctdna-ppm-and-mri)
+- [Compare blood results with imaging](/wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging)
 <!-- END GENERATED USED IN -->

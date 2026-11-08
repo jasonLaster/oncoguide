@@ -2,7 +2,7 @@
 title: "Read timing around surgery"
 sensitive: false
 tags: ["education"]
-updated: 2026-11-07
+updated: 2026-11-08
 source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
@@ -43,6 +43,8 @@ For stage II–III [TNBC](/wiki/education/concepts/breast-cancer/receptors-and-s
 
 Shrinkage can also make a smaller operation possible. pCR was also the first primary endpoint of [KEYNOTE-522](/wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen), the trial behind the usual sequence: about 24 weeks of chemotherapy with pembrolizumab, surgery, then up to 9 more three-weekly pembrolizumab cycles [2].
 
+The operation also opens a short immune period of its own. Surgical stress, anesthesia, pain control and wound healing change immune function for days to weeks; see the [perioperative immune window](/wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window).
+
 Surgery first can still be appropriate in some settings. A strategy studied in higher-risk disease does not automatically apply to every small tumor or to metastatic disease.
 
 ## Surgery and radiation have their own evidence
@@ -72,7 +74,7 @@ This record supports the observations. It does not establish that a delayed visi
 
 An imaging response needs the modality, examined region and [response definition](/wiki/education/concepts/measurement/imaging/response-criteria). A change in one lesion is not automatically a complete patient-level response assessment. A blood assay measures circulating material. [Pathologic complete response (pCR)](/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr) is a tissue endpoint with a specified definition. These results can be related without being substitutes.
 
-[Response-adapted therapy](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy) needs a defined assessment, timing and decision rule. A trial evaluating treatment omission must establish that strategy in the relevant population. A favorable interim test alone does not do so. It also cannot decide an individual's operation date or the timing of other treatment.
+[Response-adapted therapy](/wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy) needs a defined assessment, timing and decision rule. A trial evaluating treatment omission, such as skipping breast surgery when a [biopsy after neoadjuvant therapy](/wiki/education/concepts/measurement/specimens/biopsy-after-neoadjuvant-therapy) finds no cancer, must establish that strategy in the relevant population. A favorable interim test alone does not do so. It also cannot decide an individual's operation date or the timing of other treatment.
 
 ## What can go wrong at this step
 

@@ -7,10 +7,10 @@ glossary_anchor: "hypofractionation"
 aliases: ["hypofractionated radiation therapy", "hypofractionated radiotherapy", "moderate hypofractionation", "ultrahypofractionation"]
 level: "foundation"
 prerequisites: ["[[wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics]]"]
-used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/02-timing]]","[[wiki/education/local-treatment-modalities/06-comparisons]]","[[wiki/education/local-treatment-modalities/index]]"]
+used_by: ["[[wiki/education/guides/local-therapy-and-the-immune-system/02-timing]]","[[wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons]]","[[wiki/education/guides/local-therapy-and-the-immune-system/index]]","[[wiki/education/local-treatment-modalities/index]]"]
 sensitive: false
 tags: ["education", "local-treatment"]
-updated: "2026-11-07"
+updated: "2026-11-08"
 source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
@@ -49,7 +49,7 @@ Larger fraction size differs from accelerated treatment, which changes timing. A
 
 ## Why it matters in cancer
 
-Breast-cancer trials illustrate why direct testing matters. The [UK Standardisation of Breast Radiotherapy (START) trials](https://pubmed.ncbi.nlm.nih.gov/24055415/) studied defined postoperative schedules and followed local-regional relapse and late normal-tissue effects. START-B compared 50 Gy in 25 fractions over five weeks with 40 Gy in 15 over three weeks. The [FAST-Forward trial](https://pubmed.ncbi.nlm.nih.gov/32580883/) then randomized 4,096 people after primary surgery for early breast cancer to 40 Gy in 15 fractions over three weeks or to 27 Gy or 26 Gy in 5 fractions over one week. At five years, 26 Gy in 5 fractions was non-inferior for ipsilateral breast tumor relapse (2.1% after 40 Gy) and caused similar normal-tissue effects; 27 Gy in 5 caused more. Their evidence remains attached to the tested regimens, populations and follow-up.
+Breast-cancer trials illustrate why direct testing matters. The [UK Standardisation of Breast Radiotherapy (START) trials](https://pubmed.ncbi.nlm.nih.gov/24055415/) studied defined postoperative schedules and followed local-regional relapse and late normal-tissue effects. START-B compared 50 Gy in 25 fractions over five weeks with 40 Gy in 15 over three weeks. The [FAST-Forward trial](https://pubmed.ncbi.nlm.nih.gov/32580883/) then randomized 4,096 people after primary surgery for early breast cancer to 40 Gy in 15 fractions over three weeks or to 27 Gy or 26 Gy in 5 fractions over one week. At five years, 26 Gy in 5 fractions was [non-inferior](/wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials) for ipsilateral breast tumor relapse (2.1% after 40 Gy) and caused similar normal-tissue effects; 27 Gy in 5 caused more. Their evidence remains attached to the tested regimens, populations and follow-up.
 
 They do not show that any five-treatment schedule is equivalent to any longer course. Nor does evidence for local breast or chest-wall treatment automatically settle every nodal field, reirradiation context or other cancer. The treatment volume, population, dose and follow-up remain part of the evidence.
 
@@ -116,8 +116,8 @@ Source check: November 7, 2026 (α/β convention and FAST-Forward schedules); Oc
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
+- [Put the disease setting before the clock](/wiki/education/guides/local-therapy-and-the-immune-system/02-timing)
+- [Compare delivery and recognition separately](/wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons)
 - [Understand local therapy and the immune system](/wiki/education/guides/local-therapy-and-the-immune-system/index)
-- [Put the disease setting before the clock](/wiki/education/local-treatment-modalities/02-timing)
-- [Compare delivery and recognition separately](/wiki/education/local-treatment-modalities/06-comparisons)
 - [Local-treatment reference shelf](/wiki/education/local-treatment-modalities/index)
 <!-- END GENERATED USED IN -->

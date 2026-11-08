@@ -2,7 +2,7 @@
 title: "Ask what a result should change"
 sensitive: false
 tags: ["education", "monitoring"]
-updated: "2026-11-07"
+updated: "2026-11-08"
 source_checked: "2026-11-07"
 reviewed: "pending"
 reviewed_by: ""
@@ -66,7 +66,7 @@ Finally ask how benefit is measured. A falling blood signal may be a useful rese
 
 ## What a prospective trial can teach
 
-The 2023 c-TRAK TN report studied [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|circulating tumor DNA (ctDNA)]] surveillance and possible intervention in moderate- and high-risk early triple-negative breast cancer. Of 32 people allocated to intervention, 23 had metastases found on staging when ctDNA was detected. Only five started pembrolizumab, and none achieved sustained ctDNA clearance. This small intervention experience cannot establish a survival benefit or settle every later assay or strategy. It shows why timing, staging and feasibility belong inside the test-to-action question. [Primary paper](https://pubmed.ncbi.nlm.nih.gov/36423745/).
+The 2023 c-TRAK TN report studied [[wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna|circulating tumor DNA (ctDNA)]] surveillance and possible intervention in moderate- and high-risk early triple-negative breast cancer. Of 32 people allocated to intervention, 23 had metastases found on staging when ctDNA was detected. Only five started pembrolizumab, and none achieved sustained ctDNA clearance. This small intervention experience cannot establish a survival benefit or settle every later assay or strategy. It shows why timing, staging and feasibility belong inside the test-to-action question. [Primary paper](https://pubmed.ncbi.nlm.nih.gov/36423745/). Routine follow-up after treatment is a separate, guideline-based schedule; see [surveillance after treatment](/wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment).
 
 [Measured lead time](/wiki/education/concepts/measurement/liquid-biopsy/lead-time) records the interval between two detection events in the studied people and sampling schedule. [Lead-time bias](/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias) explains how moving the starting clock can lengthen measured survival without changing the eventual outcome. A trial must evaluate the outcome that matters, rather than assume extra lead time is itself benefit.
 

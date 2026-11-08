@@ -7,10 +7,10 @@ glossary_anchor: cd4-vs-cd8
 aliases: ["CD4","CD8"]
 level: foundation
 prerequisites: ["[[wiki/education/concepts/immunology/t-cells/t-cell]]", "[[wiki/education/concepts/immunology/antigen-presentation/hla]]"]
-used_by: ["[[wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks]]","[[wiki/education/comparisons/index]]","[[wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/index]]","[[wiki/education/local-treatment-modalities/01-mechanism]]","[[wiki/education/molecular-profiling/tcr-and-tcr-sequencing]]","[[wiki/education/multi-omics-foundations/06-immune-presence-and-recognition]]","[[wiki/education/oncology-101/3-t-cell-states]]","[[wiki/education/reading-a-tumor/measuring-t-cell-engagement]]"]
+used_by: ["[[wiki/education/comparisons/index]]","[[wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states]]","[[wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response]]","[[wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism]]","[[wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation]]"]
 sensitive: false
 tags: [education, immunology]
-updated: 2026-10-10
+updated: 2026-11-08
 source_checked: 2026-10-10
 reviewed: pending
 reviewed_by: ""
@@ -35,7 +35,7 @@ The [T-cell receptor (TCR)](/wiki/education/concepts/immunology/t-cells/t-cell-r
 
 HLA class I typically displays peptides derived from proteins made within a cell. Class II commonly displays peptides from material taken up by antigen-presenting cells. These are processing pathways, not a guarantee that every cell displays every possible target; [cross-presentation](/wiki/education/concepts/immunology/antigen-presentation/cross-presentation) also allows an antigen-presenting cell to display acquired material on class I.
 
-Many CD4 cells support other immune responses through cell contacts and [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine). One experimentally established route is helping an antigen-presenting cell support a CD8 response. [Regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) are another CD4 population, with response-restraining functions.
+Many CD4 cells support other immune responses through cell contacts and [cytokines](/wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine). They differentiate into programs such as T helper 1 (Th1), Th2, Th17 and follicular helper cells; [CD4 T-cell subsets](/wiki/education/concepts/immunology/t-cells/cd4-t-cell-subsets) compares them. One experimentally established route is helping an antigen-presenting cell support a CD8 response. [Regulatory T cells](/wiki/education/concepts/immunology/t-cells/regulatory-t-cells) are another CD4 population, with response-restraining functions.
 
 Many activated CD8 cells can develop cytotoxic machinery, but naive CD8 cells are not already executing a killing program. Some CD4 cells can also directly kill appropriately presenting targets: Oh and colleagues demonstrated class-II-dependent killing by expanded human bladder-tumor CD4 populations in controlled assays. That establishes an important exception to the helper/killer shorthand, not a claim that all CD4 cells kill tumors.
 
@@ -93,6 +93,7 @@ Use CD4/CD8 to describe recognition equipment and sampled populations, then meas
 
 ## Related concepts
 
+- [CD4 T-cell subsets](/wiki/education/concepts/immunology/t-cells/cd4-t-cell-subsets)
 - [T-cell states](/wiki/education/concepts/immunology/t-cells/t-cell-states)
 - [T-cell priming](/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals)
 - [Functional cytotoxicity assays](/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays)
@@ -109,13 +110,11 @@ Source-checked October 10, 2026. The counts are fictional. Classical receptor re
 <!-- BEGIN GENERATED USED IN -->
 ## Used in
 
-- [Building an engineered T cell](/wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks)
 - [Compare related ideas](/wiki/education/comparisons/index)
-- [HLA and antigen presentation in vaccine design](/wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation)
-- [How the immune system fights cancer](/wiki/education/guides/how-the-immune-system-fights-cancer/index)
-- [Separate local injury from immune learning](/wiki/education/local-treatment-modalities/01-mechanism)
-- [T-cell receptors and TCR sequencing](/wiki/education/molecular-profiling/tcr-and-tcr-sequencing)
-- [Separate immune presence from tumor recognition](/wiki/education/multi-omics-foundations/06-immune-presence-and-recognition)
-- [Why a T-cell count does not tell the whole story](/wiki/education/oncology-101/3-t-cell-states)
-- [Measure each part of a T-cell response](/wiki/education/reading-a-tumor/measuring-t-cell-engagement)
+- [Building an engineered T cell](/wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks)
+- [How a T cell sees a cancer cell](/wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell)
+- [Why a T-cell count does not tell the whole story](/wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states)
+- [Measure each part of a T-cell response](/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response)
+- [Separate local injury from immune learning](/wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism)
+- [HLA and antigen presentation in vaccine design](/wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation)
 <!-- END GENERATED USED IN -->
