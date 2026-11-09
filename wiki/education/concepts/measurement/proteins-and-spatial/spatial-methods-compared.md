@@ -77,6 +77,8 @@ Panel sizes are from the cited method papers; current instruments often go furth
 
 **Mental model:** protein shows what a cell is wearing, RNA shows what it is writing; regions are snapshots you chose, whole slides are maps.
 
+Once cells are mapped, [spatial proximity metrics](/wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics) turn the map into numbers such as the share of T cells within 20 micrometers of a cancer cell.
+
 ## Common confusions
 
 - **"Spatial means single-cell."** Region readouts and many capture spots pool several cells.
