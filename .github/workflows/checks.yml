@@ -25,4 +25,4 @@ jobs:
       - run: bun run test:reader --reporter=line
       # Current artwork and both themes are covered by test:reader above.
       # Renderer theme fixtures use its older pinned curriculum.
-      - run: bun --cwd .renderer/apps/oncoguide test:e2e e2e/mobile-chat.spec.ts --reporter=line
+      - run: bun --cwd .renderer/apps/oncoguide test:e2e e2e/mobile-chat.spec.ts e2e/board-layout.spec.ts --reporter=line
